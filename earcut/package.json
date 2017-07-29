@@ -1,0 +1,1715 @@
+{
+	"name": "earcut",
+	"versions": {
+		"1.0.0": {
+			"name": "earcut",
+			"version": "1.0.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "62785f7ba0b52ad44d518dcd88a3779af64f0f1d",
+			"_id": "earcut@1.0.0",
+			"_shasum": "b3f2314870769bc1de19f42123d5e2e58d26356f",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b3f2314870769bc1de19f42123d5e2e58d26356f",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "earcut",
+			"version": "1.0.1",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "13ffb95d517f55e13c77525eff87bb915d632665",
+			"_id": "earcut@1.0.1",
+			"_shasum": "d5b961bd927cee6685d2402ac4f5f2c9aa810816",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d5b961bd927cee6685d2402ac4f5f2c9aa810816",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "earcut",
+			"version": "1.0.2",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "af390c6879adea0dc051f1c8b9e60476bf180347",
+			"_id": "earcut@1.0.2",
+			"_shasum": "fb6fb7b47478a857de44c771d2ebe999ca304348",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "fb6fb7b47478a857de44c771d2ebe999ca304348",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "earcut",
+			"version": "1.0.3",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "8059abc59009168ffd43a76eb3a729bff2475eb6",
+			"_id": "earcut@1.0.3",
+			"_shasum": "6bac036e88daca4d6e536d3a7cec4e946fe8c14e",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6bac036e88daca4d6e536d3a7cec4e946fe8c14e",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "earcut",
+			"version": "1.0.4",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "53ff6d8fd6ed6f1b09251a203b5f2ccabad3570e",
+			"_id": "earcut@1.0.4",
+			"_shasum": "07cd3125d5ca7a40031015ee4318fc40039cad67",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "07cd3125d5ca7a40031015ee4318fc40039cad67",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.4.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "earcut",
+			"version": "1.0.5",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true
+			},
+			"gitHead": "6d769aad23be69482d2bf956876c6a84fd461df2",
+			"_id": "earcut@1.0.5",
+			"_shasum": "f2bdb8bc9c5cf4bd2cb814dfb97d54aa1e1473c4",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f2bdb8bc9c5cf4bd2cb814dfb97d54aa1e1473c4",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.5.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "earcut",
+			"version": "1.0.6",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true,
+				"eqeqeq": true
+			},
+			"gitHead": "bf82dca977c7154c0369fa6fd9055d53a013909e",
+			"_id": "earcut@1.0.6",
+			"_shasum": "9038673137b65a90f9fbcb3cdcc51de72c1cbbb3",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9038673137b65a90f9fbcb3cdcc51de72c1cbbb3",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.0.6.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "earcut",
+			"version": "1.1.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.5",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true,
+				"eqeqeq": true
+			},
+			"gitHead": "ca0e8bc42b667f20014fea17053d6fa9703e3a45",
+			"_id": "earcut@1.1.0",
+			"_shasum": "dd26295b2fbea3d98f5c1e6f6964aad831289383",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "dd26295b2fbea3d98f5c1e6f6964aad831289383",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "earcut",
+			"version": "1.2.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.5",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true,
+				"eqeqeq": true
+			},
+			"gitHead": "3edce63d4a95f4f7f4f16910c49e1904b8c92960",
+			"_id": "earcut@1.2.0",
+			"_shasum": "13048a0458e60cb049ea9153e0e9ec8fc6f61dab",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "13048a0458e60cb049ea9153e0e9ec8fc6f61dab",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "earcut",
+			"version": "1.2.1",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.5",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true,
+				"eqeqeq": true
+			},
+			"gitHead": "915527c1629d1eb356d7774bb760bd99d02f3fe4",
+			"_id": "earcut@1.2.1",
+			"_shasum": "2924ce202712e44315d7e9e669ed1065805085b2",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2924ce202712e44315d7e9e669ed1065805085b2",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "earcut",
+			"version": "1.2.2",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "jshint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"coveralls": "^2.11.2",
+				"istanbul": "^0.3.5",
+				"jshint": "^2.5.11",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"jshintConfig": {
+				"node": true,
+				"unused": true,
+				"undef": true,
+				"eqeqeq": true
+			},
+			"gitHead": "85944c62283796fff8f3b94700451d24e8a5c374",
+			"_id": "earcut@1.2.2",
+			"_shasum": "8e0543db4ead02f5adfde598ac6ccd1f09ab1957",
+			"_from": ".",
+			"_npmVersion": "2.1.17",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8e0543db4ead02f5adfde598ac6ccd1f09ab1957",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.3": {
+			"name": "earcut",
+			"version": "1.2.3",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.1",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.13.0",
+				"istanbul": "^0.3.5",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.4.0",
+				"uglifyjs": "^2.3.6",
+				"watchify": "^2.2.1"
+			},
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"no-else-return": 2,
+					"new-cap": 2,
+					"no-empty": 2,
+					"no-new": 2,
+					"key-spacing": 2,
+					"no-multi-spaces": 2,
+					"space-in-brackets": 2,
+					"quotes": [
+						2,
+						"single"
+					],
+					"curly": 0,
+					"no-constant-condition": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "cf0644f7423567eca37310446e3739f8375c36f0",
+			"_id": "earcut@1.2.3",
+			"_shasum": "6f3cfe920b2fc5ae0b7b31fe2eca4ed72b808b3d",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6f3cfe920b2fc5ae0b7b31fe2eca4ed72b808b3d",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.2.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "earcut",
+			"version": "1.3.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^8.1.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.15.0",
+				"istanbul": "^0.3.5",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.5.0",
+				"uglify-js": "^2.4.16",
+				"watchify": "^2.3.0"
+			},
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"space-before-function-parentheses": [
+						2,
+						{
+							"anonymous": "always",
+							"named": "never"
+						}
+					],
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"no-else-return": 2,
+					"new-cap": 2,
+					"no-empty": 2,
+					"no-new": 2,
+					"key-spacing": 2,
+					"no-multi-spaces": 2,
+					"space-in-brackets": 2,
+					"brace-style": 2,
+					"quotes": [
+						2,
+						"single"
+					],
+					"indent": 2,
+					"curly": 0,
+					"no-constant-condition": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "88fbb703ecdf16ba206af126c2cc3d75e34597c8",
+			"_id": "earcut@1.3.0",
+			"_shasum": "e23be859ea308735db8cb68a58a92f86e3816060",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e23be859ea308735db8cb68a58a92f86e3816060",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.3.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.4.0": {
+			"name": "earcut",
+			"version": "1.4.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^9.0.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.16.1",
+				"istanbul": "^0.3.7",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.5.0",
+				"uglify-js": "^2.4.16",
+				"watchify": "^2.4.0"
+			},
+			"gitHead": "77a76e1fccb31781ec9e7d1cf786035743d6ea2e",
+			"_id": "earcut@1.4.0",
+			"_shasum": "086d1c2e7a99a32ffef84cda7d1c1f6feae8bb64",
+			"_from": ".",
+			"_npmVersion": "2.6.1",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "086d1c2e7a99a32ffef84cda7d1c1f6feae8bb64",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.4.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.4.1": {
+			"name": "earcut",
+			"version": "1.4.1",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^9.0.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.16.1",
+				"istanbul": "^0.3.7",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.5.0",
+				"uglify-js": "^2.4.16",
+				"watchify": "^2.4.0"
+			},
+			"gitHead": "14981ac7dd82dd8a658afbca5b138e330bf5cb56",
+			"_id": "earcut@1.4.1",
+			"_shasum": "e7aa26357edf86d6f4405381f19d0f5ec6478fce",
+			"_from": ".",
+			"_npmVersion": "2.6.1",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e7aa26357edf86d6f4405381f19d0f5ec6478fce",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.4.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.4.2": {
+			"name": "earcut",
+			"version": "1.4.2",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^9.0.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.16.1",
+				"istanbul": "^0.3.7",
+				"mkdirp": "^0.5.0",
+				"tape": "^3.5.0",
+				"uglify-js": "^2.4.16",
+				"watchify": "^2.4.0"
+			},
+			"gitHead": "778cefd369077161cdefc0f75b78368c611d6be9",
+			"_id": "earcut@1.4.2",
+			"_shasum": "fc24bc386be0dc7edbc27f0a4836a530b0d4e384",
+			"_from": ".",
+			"_npmVersion": "2.6.1",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "fc24bc386be0dc7edbc27f0a4836a530b0d4e384",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-1.4.2.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "earcut",
+			"version": "2.0.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^10.0.0",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.20.0",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.20"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "c88b58f5ad4bc060bbeef1ae4c493db7f38a6ed9",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut",
+			"_id": "earcut@2.0.0",
+			"_shasum": "d95764baeee2b673ebcedc3ba17d471fef4125d9",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d95764baeee2b673ebcedc3ba17d471fef4125d9",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "earcut",
+			"version": "2.0.1",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^10.1.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.21.0",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "a303325d6b43f060a87bafd3d32f2ea5321d3a0f",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut",
+			"_id": "earcut@2.0.1",
+			"_shasum": "5d0c0b5c1f1448c3e71120c756bcf18c255ae783",
+			"_from": ".",
+			"_npmVersion": "2.7.5",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5d0c0b5c1f1448c3e71120c756bcf18c255ae783",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.2": {
+			"name": "earcut",
+			"version": "2.0.2",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^10.1.3",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.21.0",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "e6dc37158f2c1ac06c89dc29ba37a5835bacac35",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.2",
+			"_shasum": "1203dc6c3b4ea68097577d6e33e77eb877cf11f8",
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "1203dc6c3b4ea68097577d6e33e77eb877cf11f8",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.3": {
+			"name": "earcut",
+			"version": "2.0.3",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"coveralls": "^2.11.2",
+				"eslint": "^1.6.0",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21",
+				"watchify": "^3.4.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "6a4bf91830f17ce298c73fde9b324bac988a43a1",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.3",
+			"_shasum": "d9ed50e87dc873a6fd0c6034a870b70bc4f5c880",
+			"_from": ".",
+			"_npmVersion": "2.14.6",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "d9ed50e87dc873a6fd0c6034a870b70bc4f5c880",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.4": {
+			"name": "earcut",
+			"version": "2.0.4",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"coveralls": "^2.11.2",
+				"eslint": "^1.6.0",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21",
+				"watchify": "^3.4.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "d3361a0976debd4f4a75b2d0859da1c8f0428c07",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.4",
+			"_shasum": "b50731983f55cbfa4219bc440b549be25a9c248f",
+			"_from": ".",
+			"_npmVersion": "2.14.6",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "b50731983f55cbfa4219bc440b549be25a9c248f",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.5": {
+			"name": "earcut",
+			"version": "2.0.5",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"coveralls": "^2.11.2",
+				"eslint": "^1.6.0",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21",
+				"watchify": "^3.4.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "1a3eba55727438711f3588c04e9dd9a2e21f3dc2",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.5",
+			"_shasum": "3ca9021e08edc989c4148b48dbdc8677126838d8",
+			"_from": ".",
+			"_npmVersion": "2.14.6",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "3ca9021e08edc989c4148b48dbdc8677126838d8",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.6": {
+			"name": "earcut",
+			"version": "2.0.6",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"browserify": "^11.2.0",
+				"coveralls": "^2.11.2",
+				"eslint": "^1.6.0",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.3.13",
+				"mkdirp": "^0.5.0",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.21",
+				"watchify": "^3.4.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "1456121d9620cee8e350348559314cb8cb2e54f6",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.6",
+			"_shasum": "ebae4b785e42fc924c6c4e8eb8a6305d2d2c3051",
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "ebae4b785e42fc924c6c4e8eb8a6305d2d2c3051",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.7": {
+			"name": "earcut",
+			"version": "2.0.7",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"prepublish": "npm run build-dev && npm run build-min",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^12.0.1",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.9.0",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.4.0",
+				"mkdirp": "^0.5.1",
+				"tape": "^4.2.2",
+				"uglify-js": "^2.6.1",
+				"watchify": "^3.6.1"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "dfb66be3dd16e29043f07157edc47d98654be33b",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.7",
+			"_shasum": "0a4c5d3e7f13fc23fcf3bfa84a3c35506d8525a2",
+			"_from": ".",
+			"_npmVersion": "2.14.10",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "0a4c5d3e7f13fc23fcf3bfa84a3c35506d8525a2",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.8": {
+			"name": "earcut",
+			"version": "2.0.8",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"prepublish": "npm run build-dev && npm run build-min",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"benchmark": "^2.0.0",
+				"browserify": "^13.0.0",
+				"coveralls": "^2.11.6",
+				"eslint": "^1.10.3",
+				"eslint-config-mourner": "^1.0.1",
+				"istanbul": "^0.4.2",
+				"mkdirp": "^0.5.1",
+				"tape": "^4.4.0",
+				"uglify-js": "^2.6.1",
+				"watchify": "^3.7.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "53f3f02796d81acbe2f2f6025fac7e628aad1796",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.0.8",
+			"_shasum": "ef3801ef5c9debd04dca22741f2e52d7a0d2d13b",
+			"_from": ".",
+			"_npmVersion": "2.14.14",
+			"_nodeVersion": "5.4.1",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "ef3801ef5c9debd04dca22741f2e52d7a0d2d13b",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "earcut",
+			"version": "2.1.0",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"prepublish": "npm run build-dev && npm run build-min",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"benchmark": "^2.1.0",
+				"browserify": "^13.0.0",
+				"coveralls": "^2.11.8",
+				"eslint": "^2.3.0",
+				"eslint-config-mourner": "^2.0.0",
+				"istanbul": "^0.4.2",
+				"mkdirp": "^0.5.1",
+				"tape": "^4.5.1",
+				"uglify-js": "^2.6.2",
+				"watchify": "^3.7.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"no-unmodified-loop-condition": 0
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "64b17b3955b78ceeede8b0dca193e609a0ebc787",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.1.0",
+			"_shasum": "d55e0f99c56fb840de34f9d2dd2c664db07fddcc",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.8.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "d55e0f99c56fb840de34f9d2dd2c664db07fddcc",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/earcut-2.1.0.tgz_1457719585203_0.5551238521002233"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "earcut",
+			"version": "2.1.1",
+			"description": "The fastest and smallest JavaScript polygon triangulation library for your WebGL apps",
+			"main": "src/earcut.js",
+			"scripts": {
+				"test": "eslint src test/test.js && tape test/test.js",
+				"watch": "mkdirp dist && watchify -v -d src/earcut.js -s earcut -o dist/earcut.dev.js",
+				"build-dev": "mkdirp dist && browserify -d src/earcut.js -s earcut > dist/earcut.dev.js",
+				"build-min": "mkdirp dist && browserify src/earcut.js -s earcut | uglifyjs -c warnings=false -m > dist/earcut.min.js",
+				"prepublish": "npm run build-dev && npm run build-min",
+				"cov": "istanbul cover test/*.js",
+				"coveralls": "istanbul cover test/*.js && coveralls < ./coverage/lcov.info"
+			},
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"devDependencies": {
+				"benchmark": "^2.1.0",
+				"browserify": "^13.0.0",
+				"coveralls": "^2.11.8",
+				"eslint": "^2.3.0",
+				"eslint-config-mourner": "^2.0.0",
+				"istanbul": "^0.4.2",
+				"mkdirp": "^0.5.1",
+				"tape": "^4.5.1",
+				"uglify-js": "^2.6.2",
+				"watchify": "^3.7.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"no-unmodified-loop-condition": 0
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/earcut.git"
+			},
+			"gitHead": "2a4f82cfe90f570eba7e16e7faf27db5a432f7b2",
+			"bugs": {
+				"url": "https://github.com/mapbox/earcut/issues"
+			},
+			"homepage": "https://github.com/mapbox/earcut#readme",
+			"_id": "earcut@2.1.1",
+			"_shasum": "157634e5f3ebb42224e475016e86a5b6ce556b45",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "5.8.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "157634e5f3ebb42224e475016e86a5b6ce556b45",
+				"tarball": "https://registry.npmjs.org/earcut/-/earcut-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/earcut-2.1.1.tgz_1458238093854_0.7572266317438334"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.1"
+	},
+	"_distfiles": {
+		"earcut-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.0.tgz",
+			"sha": "b3f2314870769bc1de19f42123d5e2e58d26356f",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.1.tgz",
+			"sha": "d5b961bd927cee6685d2402ac4f5f2c9aa810816",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.2.tgz",
+			"sha": "fb6fb7b47478a857de44c771d2ebe999ca304348",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.3.tgz",
+			"sha": "6bac036e88daca4d6e536d3a7cec4e946fe8c14e",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.4.tgz",
+			"sha": "07cd3125d5ca7a40031015ee4318fc40039cad67",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.5.tgz",
+			"sha": "f2bdb8bc9c5cf4bd2cb814dfb97d54aa1e1473c4",
+			"registry": "npmjs"
+		},
+		"earcut-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.0.6.tgz",
+			"sha": "9038673137b65a90f9fbcb3cdcc51de72c1cbbb3",
+			"registry": "npmjs"
+		},
+		"earcut-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.1.0.tgz",
+			"sha": "dd26295b2fbea3d98f5c1e6f6964aad831289383",
+			"registry": "npmjs"
+		},
+		"earcut-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.2.0.tgz",
+			"sha": "13048a0458e60cb049ea9153e0e9ec8fc6f61dab",
+			"registry": "npmjs"
+		},
+		"earcut-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.2.1.tgz",
+			"sha": "2924ce202712e44315d7e9e669ed1065805085b2",
+			"registry": "npmjs"
+		},
+		"earcut-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.2.2.tgz",
+			"sha": "8e0543db4ead02f5adfde598ac6ccd1f09ab1957",
+			"registry": "npmjs"
+		},
+		"earcut-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.2.3.tgz",
+			"sha": "6f3cfe920b2fc5ae0b7b31fe2eca4ed72b808b3d",
+			"registry": "npmjs"
+		},
+		"earcut-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.3.0.tgz",
+			"sha": "e23be859ea308735db8cb68a58a92f86e3816060",
+			"registry": "npmjs"
+		},
+		"earcut-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.4.0.tgz",
+			"sha": "086d1c2e7a99a32ffef84cda7d1c1f6feae8bb64",
+			"registry": "npmjs"
+		},
+		"earcut-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.4.1.tgz",
+			"sha": "e7aa26357edf86d6f4405381f19d0f5ec6478fce",
+			"registry": "npmjs"
+		},
+		"earcut-1.4.2.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-1.4.2.tgz",
+			"sha": "fc24bc386be0dc7edbc27f0a4836a530b0d4e384",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.0.tgz",
+			"sha": "d95764baeee2b673ebcedc3ba17d471fef4125d9",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.1.tgz",
+			"sha": "5d0c0b5c1f1448c3e71120c756bcf18c255ae783",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.2.tgz",
+			"sha": "1203dc6c3b4ea68097577d6e33e77eb877cf11f8",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.3.tgz",
+			"sha": "d9ed50e87dc873a6fd0c6034a870b70bc4f5c880",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.4.tgz",
+			"sha": "b50731983f55cbfa4219bc440b549be25a9c248f",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.5.tgz",
+			"sha": "3ca9021e08edc989c4148b48dbdc8677126838d8",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.6.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.6.tgz",
+			"sha": "ebae4b785e42fc924c6c4e8eb8a6305d2d2c3051",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.7.tgz",
+			"sha": "0a4c5d3e7f13fc23fcf3bfa84a3c35506d8525a2",
+			"registry": "npmjs"
+		},
+		"earcut-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.0.8.tgz",
+			"sha": "ef3801ef5c9debd04dca22741f2e52d7a0d2d13b",
+			"registry": "npmjs"
+		},
+		"earcut-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.1.0.tgz",
+			"sha": "d55e0f99c56fb840de34f9d2dd2c664db07fddcc",
+			"registry": "npmjs"
+		},
+		"earcut-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/earcut/-/earcut-2.1.1.tgz",
+			"sha": "157634e5f3ebb42224e475016e86a5b6ce556b45",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5975907d-de2e\"",
+			"fetched": 1501276753448
+		}
+	},
+	"_rev": "1-e75234417551370b",
+	"readme": "## Earcut\n\nThe fastest and smallest JavaScript polygon triangulation library. 2.5KB gzipped.\n\n[![Build Status](https://travis-ci.org/mapbox/earcut.svg?branch=master)](https://travis-ci.org/mapbox/earcut)\n[![Coverage Status](https://coveralls.io/repos/mapbox/earcut/badge.svg?branch=master)](https://coveralls.io/r/mapbox/earcut?branch=master)\n[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/mapbox/earcut.svg)](http://isitmaintained.com/project/mapbox/earcut \"Average time to resolve an issue\")\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/mapbox/earcut.svg)](http://isitmaintained.com/project/mapbox/earcut \"Percentage of issues still open\")\n[![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)\n\n#### The algorithm\n\nThe library implements a modified ear slicing algorithm,\noptimized by [z-order curve](http://en.wikipedia.org/wiki/Z-order_curve) hashing\nand extended to handle holes, twisted polygons, degeneracies and self-intersections\nin a way that doesn't _guarantee_ correctness of triangulation,\nbut attempts to always produce acceptable results for practical data.\n\nIt's based on ideas from\n[FIST: Fast Industrial-Strength Triangulation of Polygons](http://www.cosy.sbg.ac.at/~held/projects/triang/triang.html) by Martin Held\nand [Triangulation by Ear Clipping](http://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf) by David Eberly.\n\n#### Why another triangulation library?\n\nThe aim of this project is to create a JS triangulation library\nthat is **fast enough for real-time triangulation in the browser**,\nsacrificing triangulation quality for raw speed and simplicity,\nwhile being robust enough to handle most practical datasets without crashing or producing garbage.\nSome benchmarks using Node 0.12:\n\n(ops/sec)         | pts  | earcut    | libtess  | poly2tri | pnltri    | polyk\n------------------| ---- | --------- | -------- | -------- | --------- | ------\nOSM building      | 15   | _795,935_ | _50,640_ | _61,501_ | _122,966_ | _175,570_\ndude shape        | 94   | _35,658_  | _10,339_ | _8,784_  | _11,172_  | _13,557_\nholed dude shape  | 104  | _28,319_  | _8,883_  | _7,494_  | _2,130_   | n/a\ncomplex OSM water | 2523 | _543_     | _77.54_  | failure  | failure   | n/a\nhuge OSM water    | 5667 | _95_      | _29.30_  | failure  | failure   | n/a\n\nThe original use case it was created for is [Mapbox GL](https://www.mapbox.com/mapbox-gl), WebGL-based interactive maps.\n\nIf you want to get correct triangulation even on very bad data with lots of self-intersections\nand earcut is not precise enough, take a look at [libtess.js](https://github.com/brendankenny/libtess.js).\n\n#### Usage\n\n```js\nvar triangles = earcut([10,0, 0,50, 60,60, 70,10]); // returns [1,0,3, 3,2,1]\n```\n\nSignature: `earcut(vertices[, holes, dimensions = 2])`.\n\n* `vertices` is a flat array of vertice coordinates like `[x0,y0, x1,y1, x2,y2, ...]`.\n* `holes` is an array of hole _indices_ if any\n  (e.g. `[5, 8]` for a 12-vertice input would mean one hole with vertices 5&ndash;7 and another with 8&ndash;11).\n* `dimensions` is the number of coordinates per vertice in the input array (`2` by default).\n\nEach group of three vertice indices in the resulting array forms a triangle.\n\n```js\n// triangulating a polygon with a hole\nearcut([0,0, 100,0, 100,100, 0,100,  20,20, 80,20, 80,80, 20,80], [4]);\n// [3,0,4, 5,4,0, 3,4,7, 5,0,1, 2,3,7, 6,5,1, 2,7,6, 6,1,2]\n\n// triangulating a polygon with 3d coords\nearcut([10,0,1, 0,50,2, 60,60,3, 70,10,4], null, 3);\n// [1,0,3, 3,2,1]\n```\n\nIf you pass a single vertice as a hole, Earcut treats it as a Steiner point.\n\nIf your input is a multi-dimensional array (e.g. [GeoJSON Polygon](http://geojson.org/geojson-spec.html#polygon)),\nyou can convert it to the format expected by Earcut with `earcut.flatten`:\n\n```js\nvar data = earcut.flatten(geojson.geometry.coordinates);\nvar triangles = earcut(data.vertices, data.holes, data.dimensions);\n```\n\nAfter getting a triangulation, you can verify its correctness with `earcut.deviation`:\n\n```js\nvar deviation = earcut.deviation(vertices, holes, dimensions, triangles);\n```\n\nReturns the relative difference between the total area of triangles and the area of the input polygon.\n`0` means the triangulation is fully correct.\n\n#### Install\n\nNPM and Browserify:\n\n```bash\nnpm install earcut\n```\n\nBrowser builds on CDN:\n\n- [development build](https://npmcdn.com/earcut@2.0.8/dist/earcut.dev.js)\n- [minified production build](https://npmcdn.com/earcut@2.0.8/dist/earcut.min.js)\n\nRunning tests:\n\n```bash\nnpm test\n```\n\n![](https://cloud.githubusercontent.com/assets/25395/5778431/e8ec0c10-9da3-11e4-8d4e-a2ced6a7d2b7.png)\n\n#### Ports to other languages\n\n- [mapbox/earcut.hpp](https://github.com/mapbox/earcut.hpp) (C++11)\n- [Cawfree/earcut-j](https://github.com/Cawfree/earcut-j) (Java, outdated)\n\n#### Changelog\n\n##### 2.1.1 (Mar 17, 2016)\n\n- Fixed a rare race condition where the split routine would choose bad diagonals.\n- Fixed a rare race condition in the \"cure local intersections\" routine.\n- Fixed a rare race condition where a hole that shares a point with the outer ring would be handled incorrectly.\n- Fixed a bug where a closing point wouldn't be filtered as duplicate, sometimes breaking triangulation.\n\n##### 2.1.0 (Mar 11, 2016)\n\n- Added `earcut.deviation` function for verifying correctness of triangulation.\n- Added `earcut.flatten` function for converting GeoJSON-like input into a format Earcut expects.\n\n##### 2.0.9 (Mar 10, 2016)\n\n- Fixed a rare race condition where a hole would be handled incorrectly.\n\n##### 2.0.8 (Jan 19, 2016)\n\n- Fixed a rare race condition with a hole touching outer ring.\n\n##### 2.0.7 (Nov 18, 2015)\n\n- Changed the algorithm to avoid filtering colinear/duplicate vertices unless it can't triangulate the polygon otherwise.\n  Improves performance on simpler shapes and fixes some 3D use cases.\n\n##### 2.0.6 (Oct 26, 2015)\n\n- Improved robustness and reliability of the triangulation algorithm.\n- Improved performance by up to 15%.\n- Significantly improved source code clarity.\n\n##### 2.0.5 (Oct 12, 2015)\n\n- Fixed a z-curve hashing bug that could lead to unexpected results in very rare cases involving shapes with lots of points.\n\n##### 2.0.4 (Oct 8, 2015)\n\n- Fixed one more extremely rare race condition, lol!\n\n##### 2.0.3 (Oct 8, 2015)\n\n- Fixed yet another rare race condition (multiple holes connected with colinear bridges).\n- Fixed crash on empty input.\n\n##### 2.0.2 (Jul 8, 2015)\n\n- Fixed one more rare race condition with a holed polygon.\n\n##### 2.0.1 (May 11, 2015)\n\n- Added Steiner points support.\n\n##### 2.0.0 (Apr 30, 2015)\n\n- **Breaking**: changed the API to accept a flat input array of vertices with hole indices and return triangle indices.\n  It makes the indexed output much faster than it was before (up to 30%) and improves memory footprint.\n\n##### 1.4.2 (Mar 18, 2015)\n\n- Fixed another rare edge case with a tiny hole in a huge polygon.\n\n##### 1.4.1 (Mar 17, 2015)\n\n- Fixed a rare edge case that led to incomplete triangulation.\n\n##### 1.4.0 (Mar 9, 2015)\n\n- Fixed indexed output to produce indices not multiplied by dimension and work with any number of dimensions.\n\n##### 1.3.0 (Feb 24, 2015)\n\n- Added a second argument to `earcut` that switches output format to flat vertex and index arrays if set to `true`.\n\n##### 1.2.3 (Feb 10, 2015)\n\n- Improved performance (especially on recent v8) by avoiding `Array` `push` with multiple arguments.\n\n##### 1.2.2 (Jan 27, 2015)\n\n- Significantly improved performance for polygons with self-intersections\n  (e.g. big OSM water polygons are now handled 2-3x faster)\n\n##### 1.2.1 (Jan 26, 2015)\n\n- Significantly improved performance on polygons with high number of vertices\n  by using z-order curve hashing for vertice lookup.\n- Slightly improved overall performance with better point filtering.\n\n##### 1.1.0 (Jan 21, 2015)\n\n- Improved performance on polygons with holes by switching from Held to Eberly hole elimination algorithm\n- More robustness fixes and tests\n\n##### 1.0.1 &mdash; 1.0.6 (Jan 20, 2015)\n\n- Various robustness improvements and fixes.\n\n##### 1.0.0 (Jan 18, 2015)\n\n- Initial release.\n"
+}

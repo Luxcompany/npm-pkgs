@@ -1,0 +1,206 @@
+{
+	"name": "minireset.css",
+	"versions": {
+		"0.0.1": {
+			"name": "minireset.css",
+			"version": "0.0.1",
+			"description": "A tiny modern CSS reset",
+			"main": "minireset.css",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jgthms/minireset.css.git"
+			},
+			"keywords": [
+				"css",
+				"reset",
+				"mini"
+			],
+			"author": {
+				"name": "Jeremy Thomas",
+				"email": "bbxdesign@gmail.com",
+				"url": "http://jgthms.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jgthms/minireset.css/issues"
+			},
+			"homepage": "https://github.com/jgthms/minireset.css#readme",
+			"gitHead": "e29b92887303025b74112c5cb0cee334b12a9721",
+			"_id": "minireset.css@0.0.1",
+			"_shasum": "d60203bf3c2cf6296e3765190e51c8aceeaf4550",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.6.0",
+			"_npmUser": {
+				"name": "jgthms",
+				"email": "bbxdesign@gmail.com"
+			},
+			"dist": {
+				"shasum": "d60203bf3c2cf6296e3765190e51c8aceeaf4550",
+				"tarball": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jgthms",
+					"email": "bbxdesign@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/minireset.css-0.0.1.tgz_1472212234338_0.7814694489352405"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "minireset.css",
+			"version": "0.0.2",
+			"description": "A tiny modern CSS reset",
+			"main": "minireset.css",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jgthms/minireset.css.git"
+			},
+			"keywords": [
+				"css",
+				"reset",
+				"mini"
+			],
+			"author": {
+				"name": "Jeremy Thomas",
+				"email": "bbxdesign@gmail.com",
+				"url": "http://jgthms.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jgthms/minireset.css/issues"
+			},
+			"homepage": "https://github.com/jgthms/minireset.css#readme",
+			"gitHead": "6e2b5e57ffaf1440f625236bcaecef73f86dddd7",
+			"_id": "minireset.css@0.0.2",
+			"_shasum": "5f3fc8184559a9278cfe05db646fb0809cc53f02",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.6.0",
+			"_npmUser": {
+				"name": "jgthms",
+				"email": "bbxdesign@gmail.com"
+			},
+			"dist": {
+				"shasum": "5f3fc8184559a9278cfe05db646fb0809cc53f02",
+				"tarball": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jgthms",
+					"email": "bbxdesign@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/minireset.css-0.0.2.tgz_1472234388512_0.4700473011471331"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "minireset.css",
+			"version": "0.0.3",
+			"description": "A tiny modern CSS reset",
+			"main": "minireset.css",
+			"scripts": {
+				"build": "npm run build-sass && npm run build-min-sass",
+				"build-sass": "node-sass --output-style expanded minireset.sass minireset.css",
+				"build-min-sass": "node-sass --output-style compressed minireset.sass minireset.min.css",
+				"docs": "node-sass --output-style compressed docs/docs.sass docs/docs.css",
+				"start": "npm run docs -- --watch"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jgthms/minireset.css.git"
+			},
+			"keywords": [
+				"css",
+				"sass",
+				"reset",
+				"mini"
+			],
+			"author": {
+				"name": "Jeremy Thomas",
+				"email": "bbxdesign@gmail.com",
+				"url": "http://jgthms.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/jgthms/minireset.css/issues"
+			},
+			"homepage": "https://github.com/jgthms/minireset.css#readme",
+			"devDependencies": {
+				"node-sass": "^3.9.3"
+			},
+			"files": [
+				"minireset.css",
+				"minireset.min.css",
+				"minireset.sass"
+			],
+			"gitHead": "409f53b248b4507492a31c47e8e2b71ed756d487",
+			"_id": "minireset.css@0.0.3",
+			"_shasum": "0b112dbbd7809ea0fc965388b79fd29390778fe5",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "jgthms",
+				"email": "bbxdesign@gmail.com"
+			},
+			"dist": {
+				"shasum": "0b112dbbd7809ea0fc965388b79fd29390778fe5",
+				"tarball": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jgthms",
+					"email": "bbxdesign@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/minireset.css-0.0.3.tgz_1492175267647_0.13948853476904333"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.0.3"
+	},
+	"_distfiles": {
+		"minireset.css-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.1.tgz",
+			"sha": "d60203bf3c2cf6296e3765190e51c8aceeaf4550",
+			"registry": "npmjs"
+		},
+		"minireset.css-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.2.tgz",
+			"sha": "5f3fc8184559a9278cfe05db646fb0809cc53f02",
+			"registry": "npmjs"
+		},
+		"minireset.css-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/minireset.css/-/minireset.css-0.0.3.tgz",
+			"sha": "0b112dbbd7809ea0fc965388b79fd29390778fe5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58f0c9a4-164f\"",
+			"fetched": 1501276765207
+		}
+	},
+	"_rev": "1-3795307cf622308f",
+	"readme": "# MiniReset.css\n\n[![npm](https://img.shields.io/npm/v/minireset.css.svg)](https://www.npmjs.com/package/minireset.css)\n[![npm](https://img.shields.io/npm/dm/minireset.css.svg)](https://www.npmjs.com/package/minireset.css)\n\nA tiny modern CSS reset that covers the basics:\n\n* **resets the font sizes**: so that using semantic markup doesn't affect the styling\n* **resets the block margins**: so that the spacing is only applied when you need it\n* **resets tables**: so that tabular data only takes the space it needs\n* **preserves the inline paddings**: so that buttons and inputs keep their default layout\n* **sets the border-box box sizing**: so that borders and paddings don't affect the set dimensions\n* **sets responsive media elements**: so that images and embeds scale with the browser width\n\n## Install\n\n```sh\nnpm install minireset.css\n```\n\nOr download/clone the repo.\n\n## Copyright and license\n\nCode copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/minireset.css/blob/master/LICENSE).\n"
+}

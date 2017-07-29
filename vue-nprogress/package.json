@@ -1,0 +1,503 @@
+{
+	"name": "vue-nprogress",
+	"versions": {
+		"0.0.0": {
+			"name": "vue-nprogress",
+			"version": "0.0.0",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2.0.0-beta.0"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "028b8ede218bbf0c058566600fe51a2615649721",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.0.0",
+			"_shasum": "91e129f21fc8250a7eee081be49809dde9d5c36a",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "91e129f21fc8250a7eee081be49809dde9d5c36a",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.0.0.tgz_1472825094231_0.909101156052202"
+			},
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "vue-nprogress",
+			"version": "0.1.0",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "0c6a4aa7e062686f760626210abea0e2c8dac21a",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.0",
+			"scripts": {},
+			"_shasum": "ba3f581fd6ceb0ffa1f3c46a096c926da95152fc",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "ba3f581fd6ceb0ffa1f3c46a096c926da95152fc",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.0.tgz_1476277546320_0.6057817633263767"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "vue-nprogress",
+			"version": "0.1.1",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"scripts": {
+				"build": "node build/build.js"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "dist/vue-nprogress.min.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"devDependencies": {
+				"babel-preset-es2015-loose-rollup": "^7.0.0",
+				"rollup": "^0.36.3",
+				"rollup-plugin-babel": "^2.6.1",
+				"uglify-js": "^2.7.3"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "ba58a11de6bdbe2ab5bed179571b1748815d8b92",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.1",
+			"_shasum": "24bd910e0102c059e19fc67dd3768594f14802a4",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "24bd910e0102c059e19fc67dd3768594f14802a4",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.1.tgz_1477224700964_0.8613405346404761"
+			},
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "vue-nprogress",
+			"version": "0.1.2",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"scripts": {
+				"build": "node build/build.js"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "dist/vue-nprogress.min.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"devDependencies": {
+				"babel-preset-es2015-loose-rollup": "^7.0.0",
+				"rollup": "^0.36.3",
+				"rollup-plugin-babel": "^2.6.1",
+				"uglify-js": "^2.7.3"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "84edabb8ba3688dcf53fa504f4a8ba8d15705963",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.2",
+			"_shasum": "82509e609ba26c7d31b820e173da3b67ca9427d4",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "82509e609ba26c7d31b820e173da3b67ca9427d4",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.2.tgz_1477237440234_0.9243370892945677"
+			},
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "vue-nprogress",
+			"version": "0.1.3",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"scripts": {
+				"build": "node build/build.js"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "dist/vue-nprogress.min.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"devDependencies": {
+				"babel-preset-es2015-loose-rollup": "^7.0.0",
+				"rollup": "^0.36.4",
+				"rollup-plugin-babel": "^2.6.1",
+				"uglify-js": "^2.7.5"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "48508a7e2c6855de7aa6439c07d865a629d94eca",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.3",
+			"_shasum": "055d8ce01c77ed794fe386b8271d398ce05f9294",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "055d8ce01c77ed794fe386b8271d398ce05f9294",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.3.tgz_1480476445390_0.12684763874858618"
+			},
+			"directories": {}
+		},
+		"0.1.4": {
+			"name": "vue-nprogress",
+			"version": "0.1.4",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"scripts": {
+				"build": "node build/build.js"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "dist/vue-nprogress.min.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"devDependencies": {
+				"babel-preset-es2015-loose-rollup": "^7.0.0",
+				"rollup": "^0.36.4",
+				"rollup-plugin-babel": "^2.6.1",
+				"uglify-js": "^2.7.5"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "28e0f13e0a5fc5acf32a8639ecfcbc094611e264",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.4",
+			"_shasum": "5f839ec9ad99cbc41b632999301e126c96a22e2c",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "5f839ec9ad99cbc41b632999301e126c96a22e2c",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.4.tgz_1480925811829_0.5602661368902773"
+			},
+			"directories": {}
+		},
+		"0.1.5": {
+			"name": "vue-nprogress",
+			"version": "0.1.5",
+			"description": "Slim progress bars is based on nprogress for Ajax'y applications",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/nprogress.git"
+			},
+			"scripts": {
+				"build": "node build/build.js"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-nprogress",
+				"nprogress",
+				"ajax"
+			],
+			"main": "dist/vue-nprogress.min.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"devDependencies": {
+				"babel-preset-es2015-loose-rollup": "^7.0.0",
+				"rollup": "^0.36.4",
+				"rollup-plugin-babel": "^2.6.1",
+				"uglify-js": "^2.7.5"
+			},
+			"dependencies": {
+				"nprogress": "0.2.0"
+			},
+			"gitHead": "9b1827f0d3fc789243fff512a5bd2a22a993c6f2",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/nprogress/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/nprogress#readme",
+			"_id": "vue-nprogress@0.1.5",
+			"_shasum": "574b412f1034012daaf46299d5505d5812f406e6",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "silentmic@qq.com"
+			},
+			"dist": {
+				"shasum": "574b412f1034012daaf46299d5505d5812f406e6",
+				"tarball": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "silentmic@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-nprogress-0.1.5.tgz_1487651372146_0.16909523028880358"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.1.5"
+	},
+	"_distfiles": {
+		"vue-nprogress-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.0.0.tgz",
+			"sha": "91e129f21fc8250a7eee081be49809dde9d5c36a",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.0.tgz",
+			"sha": "ba3f581fd6ceb0ffa1f3c46a096c926da95152fc",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.1.tgz",
+			"sha": "24bd910e0102c059e19fc67dd3768594f14802a4",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.2.tgz",
+			"sha": "82509e609ba26c7d31b820e173da3b67ca9427d4",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.3.tgz",
+			"sha": "055d8ce01c77ed794fe386b8271d398ce05f9294",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.4.tgz",
+			"sha": "5f839ec9ad99cbc41b632999301e126c96a22e2c",
+			"registry": "npmjs"
+		},
+		"vue-nprogress-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-nprogress/-/vue-nprogress-0.1.5.tgz",
+			"sha": "574b412f1034012daaf46299d5505d5812f406e6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5978962f-3113\"",
+			"fetched": 1501276735131
+		}
+	},
+	"_rev": "1-744f964899524e6e",
+	"readme": "# nprogress\r\n\r\nSlim progress bars is based on [nprogress](https://github.com/rstacruz/nprogress) for Ajax'y applications\r\n\r\n\r\n## Installation\r\n\r\n```console\r\n$ npm install vue-nprogress --save\r\n```\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <nprogress-container></nprogress-container>\r\n</template>\r\n\r\n<script>\r\nimport NprogressContainer from 'vue-nprogress/src/NprogressContainer'\r\n\r\nexport default {\r\n  components: {\r\n    NprogressContainer\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n```js\r\nimport Vue from 'vue'\r\nimport NProgress from 'vue-nprogress'\r\nimport App from './App.vue'\r\n\r\nVue.use(NProgress)\r\n\r\nconst nprogress = new NProgress({ parent: '.nprogress-container' })\r\n\r\nconst app = new Vue({\r\n  nprogress\r\n  ...App\r\n})\r\n\r\n// APIs: see https://github.com/rstacruz/nprogress\r\n// app.nprogress\r\n// app.nprogress.start()\r\n// app.nprogress.inc(0.2)\r\n// app.nprogress.done()\r\n// Component:\r\n// this.$nprogress\r\n```\r\n\r\n\r\n## Configuration\r\n\r\n```js\r\nconst options = {\r\n  latencyThreshold: 200, // Number of ms before progressbar starts showing, default: 100,\r\n  router: true, // Show progressbar when navigating routes, default: true\r\n  http: false // Show progressbar when doing Vue.http, default: true\r\n};\r\nVue.use(NProgress, options)\r\n```\r\n\r\nIn order to overwrite the configuration for certain requests, use showProgressBar parameter in request/route's meta.\r\n\r\nLike this:\r\n\r\n```js\r\nVue.http.get('/url', { showProgressBar: false })\r\n```\r\n```js\r\nconst router = new VueRouter({\r\n  routes: [\r\n    {\r\n      path: '/foo',\r\n      component: Foo,\r\n      meta: {\r\n        showProgressBar: false\r\n      }\r\n    }\r\n  ]\r\n})\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n\r\n"
+}

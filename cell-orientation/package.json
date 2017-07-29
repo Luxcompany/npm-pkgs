@@ -1,0 +1,79 @@
+{
+	"name": "cell-orientation",
+	"versions": {
+		"1.0.1": {
+			"name": "cell-orientation",
+			"version": "1.0.1",
+			"description": "Computes the orientation of a cell",
+			"main": "orientation.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/cell-orientation.git"
+			},
+			"keywords": [
+				"orientation",
+				"simplex",
+				"cell",
+				"complex",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/cell-orientation/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/cell-orientation",
+			"gitHead": "2dd6956732b18d4708f6d09d69f58d8db327a69a",
+			"_id": "cell-orientation@1.0.1",
+			"_shasum": "b504ad96a66ad286d9edd985a2253d03b80d2850",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b504ad96a66ad286d9edd985a2253d03b80d2850",
+				"tarball": "https://registry.npmjs.org/cell-orientation/-/cell-orientation-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"cell-orientation-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/cell-orientation/-/cell-orientation-1.0.1.tgz",
+			"sha": "b504ad96a66ad286d9edd985a2253d03b80d2850",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5585b00d-994\"",
+			"fetched": 1501276744141
+		}
+	},
+	"_rev": "1-14c4dffc5f86c9a8",
+	"readme": "cell-orientation\n================\nComputes the orientation of a cell, given by a list of integer indices.\n\n# Example\n\n```javascript\nvar orientation = require('cell-orientation')\n\nconsole.log(orientation([0, 1, 2]))\nconsole.log(orientation([1, 0, 2]))\nconsole.log(orientation([1, 1, 2]))\n```\n\n# API\n\n#### `require('cell-orienation')(s)`\nComputes the orientation of the cell\n\n* `s` is a list of integers\n\n**Returns** `0` if `s` has any duplicates (ie is degenerate), otherwise `+/-` depending on the ordering of `s`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

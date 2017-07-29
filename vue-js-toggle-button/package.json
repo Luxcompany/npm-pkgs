@@ -1,0 +1,798 @@
+{
+	"name": "vue-js-toggle-button",
+	"versions": {
+		"1.0.1": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.1",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "src/ToggleButton/index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"vue": "^2.2.1",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "8c35e30bf5ed4649106661b5bd16150cb710ed78",
+			"_id": "vue-js-toggle-button@1.0.1",
+			"_shasum": "06b574dd8fdf83e037bda1ab0e3e9e15446f08a0",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "06b574dd8fdf83e037bda1ab0e3e9e15446f08a0",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.1.tgz_1490012283660_0.07742953742854297"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.2",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "src/ToggleButton/index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"vue": "^2.2.1",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "4707f1971d8979b8b23d1a7a0a0cf5d2c6f06be1",
+			"_id": "vue-js-toggle-button@1.0.2",
+			"_shasum": "2c33ed5ecad80f3eac7196773a692ab78815f125",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2c33ed5ecad80f3eac7196773a692ab78815f125",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.2.tgz_1490026773771_0.8513277044985443"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.3",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "dist/index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "4707f1971d8979b8b23d1a7a0a0cf5d2c6f06be1",
+			"_id": "vue-js-toggle-button@1.0.3",
+			"_shasum": "a78058326044948fb65da600944727633ded5786",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "a78058326044948fb65da600944727633ded5786",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.3.tgz_1490028514235_0.6863131741993129"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.4",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "dist/index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "9cf9aa974b5ebaa8987195cc28c145302555f44b",
+			"_id": "vue-js-toggle-button@1.0.4",
+			"_shasum": "441e3afb5d1614f93cedfe03226ed4c42a1a9a90",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "441e3afb5d1614f93cedfe03226ed4c42a1a9a90",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.4.tgz_1490028972885_0.09181821602396667"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.5",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "2cdb0fa889d2f207e5d5e85dd7c3569cd34f4c04",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.0.5",
+			"_shasum": "a508cda724d9b9465152b7036eb21be0618b9439",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "a508cda724d9b9465152b7036eb21be0618b9439",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.5.tgz_1490029120714_0.5626738891005516"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.6",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "efdf3dc2d3fe3a005fa6003a37944ca674c5c514",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.0.6",
+			"_shasum": "2fd78234bdff0685598c2ebb6a6a2de1bbf4de45",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2fd78234bdff0685598c2ebb6a6a2de1bbf4de45",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.6.tgz_1492011570675_0.3147039501927793"
+			},
+			"directories": {}
+		},
+		"1.0.7": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.7",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue",
+				"toggle",
+				"switch",
+				"button"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "7d4fd760e5cab6962173e3ffb3debbfa4870f7cd",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.0.7",
+			"_shasum": "ea5db112f4613c0698634368a90e5168849a62eb",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "ea5db112f4613c0698634368a90e5168849a62eb",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.7.tgz_1492018890018_0.26075924932956696"
+			},
+			"directories": {}
+		},
+		"1.0.8": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.8",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"dependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue",
+				"toggle",
+				"switch",
+				"button"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.2.1",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "7d4fd760e5cab6962173e3ffb3debbfa4870f7cd",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.0.8",
+			"_shasum": "e9f0cf4dff6d6cebcc1fa1ef3ef78e273671b786",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "e9f0cf4dff6d6cebcc1fa1ef3ef78e273671b786",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.8.tgz_1492465057659_0.13714209012687206"
+			},
+			"directories": {}
+		},
+		"1.0.9": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.0.9",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"peerDependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue",
+				"toggle",
+				"switch",
+				"button"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.0.0",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.0.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "1e94f024bc6af972e0dcd53932ea5c65c528a5a0",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.0.9",
+			"_shasum": "35663cfbb11a2f332d0616753005f6aad0236e76",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "35663cfbb11a2f332d0616753005f6aad0236e76",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-toggle-button-1.0.9.tgz_1494925850492_0.5124398197513074"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.1.0",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"peerDependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue",
+				"toggle",
+				"switch",
+				"button"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.0.0",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.0.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "7f876a2986de06cc6adf6a1284170fe2c00ba382",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.1.0",
+			"_shasum": "54c571f825ad6bb9c40d0b5c0f6dd9052d1fcffc",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "54c571f825ad6bb9c40d0b5c0f6dd9052d1fcffc",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-toggle-button-1.1.0.tgz_1497023712366_0.19380772835575044"
+			},
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "vue-js-toggle-button",
+			"description": "A toggle button component for Vue.js 2+",
+			"version": "1.1.2",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"scripts": {
+				"build": "webpack --progress --hide-modules"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-toggle-button.git"
+			},
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-toggle-button/issues"
+			},
+			"peerDependencies": {
+				"vue": "^2.0.0"
+			},
+			"keywords": [
+				"vue",
+				"toggle",
+				"switch",
+				"button"
+			],
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.0.0",
+				"vue-loader": "^11.1.4",
+				"vue-template-compiler": "^2.0.0",
+				"webpack": "^2.2.0"
+			},
+			"gitHead": "834b702014a01c3143725e7a429efdcc1f0a82d5",
+			"homepage": "https://github.com/euvl/vue-js-toggle-button#readme",
+			"_id": "vue-js-toggle-button@1.1.2",
+			"_npmVersion": "5.0.4",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-/U5WMkz7IYfEzQgisYA7SlGjtlWvHovYwS3ro7WOonPLBpyKOiLlotRAuqrnsNzRspIEwtJb94tLC0njF64ivg==",
+				"shasum": "0d8d8068a7759b4bd24265f5bc57a275c7bc797a",
+				"tarball": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-toggle-button-1.1.2.tgz_1499784932067_0.7285014148801565"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_distfiles": {
+		"vue-js-toggle-button-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.1.tgz",
+			"sha": "06b574dd8fdf83e037bda1ab0e3e9e15446f08a0",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.2.tgz",
+			"sha": "2c33ed5ecad80f3eac7196773a692ab78815f125",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.3.tgz",
+			"sha": "a78058326044948fb65da600944727633ded5786",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.4.tgz",
+			"sha": "441e3afb5d1614f93cedfe03226ed4c42a1a9a90",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.5.tgz",
+			"sha": "a508cda724d9b9465152b7036eb21be0618b9439",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.6.tgz",
+			"sha": "2fd78234bdff0685598c2ebb6a6a2de1bbf4de45",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.7.tgz",
+			"sha": "ea5db112f4613c0698634368a90e5168849a62eb",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.8.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.8.tgz",
+			"sha": "e9f0cf4dff6d6cebcc1fa1ef3ef78e273671b786",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.0.9.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.0.9.tgz",
+			"sha": "35663cfbb11a2f332d0616753005f6aad0236e76",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.1.0.tgz",
+			"sha": "54c571f825ad6bb9c40d0b5c0f6dd9052d1fcffc",
+			"registry": "npmjs"
+		},
+		"vue-js-toggle-button-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-toggle-button/-/vue-js-toggle-button-1.1.2.tgz",
+			"sha": "0d8d8068a7759b4bd24265f5bc57a275c7bc797a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vue-js-toggle-button-1.1.2.tgz": {
+			"shasum": "0d8d8068a7759b4bd24265f5bc57a275c7bc797a"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5964e6e5-4ede\"",
+			"fetched": 1501276735115
+		}
+	},
+	"_rev": "2-e27ae7eceeb2fd69",
+	"readme": "[![npm version](https://badge.fury.io/js/vue-js-toggle-button.svg)](https://badge.fury.io/js/vue-js-toggle-button)\n\n### Vue.js 2 toggle / switch button - simple, pretty, customizable.\n\n![Imgur](http://i.imgur.com/a2Hf7pm.png)\n\nFeel free to ask questions or propose features in the \"Issues\" section\n\n[Live demo here](http://vue-js-toggle-button.yev.io/)\n\nInstall:\n```bash\nnpm install vue-js-toggle-button --save\n```\nImport:\n```javascript\nimport ToggleButton from 'vue-js-toggle-button'\nVue.use(ToggleButton)\n```\nUse:\n```xml\n<toggle-button @change=\"onChangeEventHandler\"/>\n<toggle-button :value=\"false\" color=\"#82C7EB\" :sync=\"true\" :labels=\"true\"/>\n<toggle-button :value=\"true\" :labels=\"{checked: 'Foo', unchecked: 'Bar'}\"/>\n```\n\n### Properties\n\n| Name      | Type              | Default     | Description                        |\n| ---       | ---               | ---         | ---                                |\n| value     | Boolean           | false       | Initial state of the toggle button |\n| sync      | Boolean           | false       | If set to `true`, will be watching changes in `value` property and overwrite the current state of the button whenever `value` prop. changes |\n| disabled  | Boolean           | false      | Button does not react on mouse events |\n| color     | [String, Object]  | `#75C791`  | if `String` - color of the button when checked <br>If `Object` - colors for the button when checked/uncheked <br>Example: `{checked: '#00FF00', unchecked: '#FF0000'}`  |\n| labels    | [Boolean, Object] | false      | If `Boolean` - shows/hides default labels (\"on\" and \"off\") <br>If `Object` - sets custom labels for both states. <br>Example: `{checked: 'Foo', unchecked: 'Bar'}`   |\n| width     | Number            | 50         | Width of the button, default is 50 |\n| height    | Number            | 22         | Height of the button, default is 22 |\n\n### Events\n\n| Name   | Description              |\n| ---    | ---                      |\n| change | Triggered whenever state of the component changes. <br>Contains: <br>`value` - state of the object <br>`srcEvent` - source click event |\n\n### Browser compatibility\n\n* Chrome: 48+\n* Firefox: 28+\n* Safari: 10.1+\n* Edge: :pray: for Microsoft\n\n### Font size\nTo change font size please use basic css:\n```css\n.vue-js-switch#changed-font {\n  font-size: 16px;\n}\n```\n```vue\n<toggle-button id=\"changed-font/>\n```\n"
+}

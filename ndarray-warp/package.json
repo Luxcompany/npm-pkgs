@@ -1,0 +1,378 @@
+{
+	"name": "ndarray-warp",
+	"versions": {
+		"0.0.0": {
+			"name": "ndarray-warp",
+			"version": "0.0.0",
+			"description": "ndarray image warping",
+			"main": "warp.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise": "~0.1.2",
+				"ndarray": "~0.2.1",
+				"ndarray-linear-interpolate": "~0.0.0"
+			},
+			"devDependencies": {
+				"tap": "~0.4.2",
+				"luminance": "0.0.0",
+				"lena": "0.0.0",
+				"save-pixels": "0.0.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-warp.git"
+			},
+			"keywords": [
+				"ndarray",
+				"image",
+				"volume",
+				"warp",
+				"coordinate",
+				"change",
+				"nonlinear",
+				"deform"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9341ae6b00b0464c0a21aa04fec7eb36ef8c1222",
+			"_id": "ndarray-warp@0.0.0",
+			"dist": {
+				"shasum": "79c9e87856efe6876532dbf3f53590ea10e79767",
+				"tarball": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.17",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.0": {
+			"name": "ndarray-warp",
+			"version": "0.1.0",
+			"description": "ndarray image warping",
+			"main": "warp.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise": "~0.3.2",
+				"ndarray-linear-interpolate": "~0.0.1"
+			},
+			"devDependencies": {
+				"ndarray": "~1.0.0",
+				"tap": "~0.4.2",
+				"luminance": "~1.0.0",
+				"lena": "~1.0.0",
+				"save-pixels": "~0.2.0",
+				"zeros": "~0.0.0",
+				"ndarray-unpack": "~0.0.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-warp.git"
+			},
+			"keywords": [
+				"ndarray",
+				"image",
+				"volume",
+				"warp",
+				"coordinate",
+				"change",
+				"nonlinear",
+				"deform"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9341ae6b00b0464c0a21aa04fec7eb36ef8c1222",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-warp/issues"
+			},
+			"_id": "ndarray-warp@0.1.0",
+			"dist": {
+				"shasum": "bc045df9f5cb80991bfda7867e05fb896a731114",
+				"tarball": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.1": {
+			"name": "ndarray-warp",
+			"version": "0.1.1",
+			"description": "ndarray image warping",
+			"main": "warp.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise": "~0.4.0",
+				"ndarray-linear-interpolate": "~0.0.2"
+			},
+			"devDependencies": {
+				"ndarray": "~1.0.0",
+				"tap": "~0.4.2",
+				"luminance": "~1.0.0",
+				"lena": "~1.0.0",
+				"save-pixels": "~0.2.0",
+				"zeros": "~0.0.0",
+				"ndarray-unpack": "~0.0.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-warp.git"
+			},
+			"keywords": [
+				"ndarray",
+				"image",
+				"volume",
+				"warp",
+				"coordinate",
+				"change",
+				"nonlinear",
+				"deform"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9341ae6b00b0464c0a21aa04fec7eb36ef8c1222",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-warp/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-warp",
+			"_id": "ndarray-warp@0.1.1",
+			"dist": {
+				"shasum": "1f78538e4a3a2a6cc6ba62329fe902f537e86c9d",
+				"tarball": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "ndarray-warp",
+			"version": "1.0.0",
+			"description": "ndarray image warping",
+			"main": "warp.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise": "^1.0.4",
+				"ndarray-linear-interpolate": "^1.0.0"
+			},
+			"devDependencies": {
+				"ndarray": "~1.0.0",
+				"luminance": "~1.0.0",
+				"lena": "~1.0.0",
+				"save-pixels": "~0.2.0",
+				"zeros": "~0.0.0",
+				"ndarray-unpack": "~0.0.0",
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-warp.git"
+			},
+			"keywords": [
+				"ndarray",
+				"image",
+				"volume",
+				"warp",
+				"coordinate",
+				"change",
+				"nonlinear",
+				"deform"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9341ae6b00b0464c0a21aa04fec7eb36ef8c1222",
+			"browserify": {
+				"transform": [
+					"cwise"
+				]
+			},
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-warp/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-warp",
+			"_id": "ndarray-warp@1.0.0",
+			"dist": {
+				"shasum": "2fec7851e06ea4ce0b3b74528b432e89ba86c65d",
+				"tarball": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "ndarray-warp",
+			"version": "1.0.1",
+			"description": "ndarray image warping",
+			"main": "warp.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise": "^1.0.4",
+				"ndarray-linear-interpolate": "^1.0.0"
+			},
+			"devDependencies": {
+				"ndarray": "~1.0.0",
+				"luminance": "~1.0.0",
+				"lena": "~1.0.0",
+				"save-pixels": "~0.2.0",
+				"zeros": "~0.0.0",
+				"ndarray-unpack": "~0.0.0",
+				"tape": "^2.12.3",
+				"ndarray-imshow": "^1.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-warp.git"
+			},
+			"keywords": [
+				"ndarray",
+				"image",
+				"volume",
+				"warp",
+				"coordinate",
+				"change",
+				"nonlinear",
+				"deform"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9341ae6b00b0464c0a21aa04fec7eb36ef8c1222",
+			"browserify": {
+				"transform": [
+					"cwise"
+				]
+			},
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-warp/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-warp",
+			"_id": "ndarray-warp@1.0.1",
+			"dist": {
+				"shasum": "a8a125aaabba0bebf93bd6ca83e6abd6822a34e0",
+				"tarball": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"ndarray-warp-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.0.0.tgz",
+			"sha": "79c9e87856efe6876532dbf3f53590ea10e79767",
+			"registry": "npmjs"
+		},
+		"ndarray-warp-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.1.0.tgz",
+			"sha": "bc045df9f5cb80991bfda7867e05fb896a731114",
+			"registry": "npmjs"
+		},
+		"ndarray-warp-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-0.1.1.tgz",
+			"sha": "1f78538e4a3a2a6cc6ba62329fe902f537e86c9d",
+			"registry": "npmjs"
+		},
+		"ndarray-warp-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-1.0.0.tgz",
+			"sha": "2fec7851e06ea4ce0b3b74528b432e89ba86c65d",
+			"registry": "npmjs"
+		},
+		"ndarray-warp-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-warp/-/ndarray-warp-1.0.1.tgz",
+			"sha": "a8a125aaabba0bebf93bd6ca83e6abd6822a34e0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5554cf46-20b7\"",
+			"fetched": 1501276759928
+		}
+	},
+	"_rev": "1-756b996216ab9c67",
+	"readme": "ndarray-warp\n============\nInverse [image warping](http://www.cs.princeton.edu/courses/archive/fall00/cs426/lectures/warp/warp.pdf) operations for [ndarrays](https://github.com/mikolalysenko/ndarray).\n\n\nExample\n=======\n\n```javascript\n//Load input image\nvar lena = require(\"luminance\")(require(\"lena\"))\n\n//Allocate storage for result\nvar result = require(\"zeros\")([512, 512])\n\n//Apply warp\nrequire(\"ndarray-warp\")(result, lena, function(out, inp) {\n  var dx = inp[0] - 256\n  var dy = inp[1] - 256\n  var r  = Math.sqrt(dx * dx + dy * dy)\n  var theta = Math.atan2(dy, dx)\n  \n  out[0] = 0.9 * r * Math.cos(theta + 0.01 * r) + 256\n  out[1] = 0.7 * r * Math.sin(theta + 0.01 * r) + 256\n})\n\n//Save the result to stdout\nrequire(\"save-pixels\")(result, \"png\").pipe(process.stdout)\n```\n\nWhich produces the following image:\n\n<img src=\"https://raw.github.com/mikolalysenko/ndarray-warp/master/example/warp.png\">\n\nInstall\n=======\n\n    npm install ndarray-warp\n    \n### `require(\"ndarray-warp\")(output, input, map(out_coord, in_coord))`\nApplies an inverse warp to an image\n\n* `output` is an ndarray image that gets the result of applying the warp\n* `input` is an ndarray iamge that is warped\n* `map(result, coord)` is a mapping from the coordinates of out image to input image.\n\n  + `result` gets the resulting coordinate in `input`\n  + `coord` is the coordinate in `output`\n\n# Credits\n(c) 2013 Mikola Lysenko. MIT License\n"
+}

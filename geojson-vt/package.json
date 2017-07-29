@@ -1,0 +1,1247 @@
+{
+	"name": "geojson-vt",
+	"versions": {
+		"1.0.0": {
+			"name": "geojson-vt",
+			"version": "1.0.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"faucet": "0.0.1",
+				"jshint": "^2.5.10",
+				"tape": "^3.0.3",
+				"watchify": "^2.1.1"
+			},
+			"scripts": {
+				"test": "jshint src/*.js test/test-*.js && tape test/test-*.js | faucet",
+				"build-min": "browserify src/index.js -s geojsonvt -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o debug/geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o debug/geojson-vt-dev.js"
+			},
+			"jshintConfig": {
+				"undef": true,
+				"unused": true,
+				"trailing": true,
+				"eqeqeq": true,
+				"indent": 4,
+				"node": true,
+				"latedef": "nofunc",
+				"strict": true,
+				"globalstrict": true,
+				"quotmark": true
+			},
+			"gitHead": "ef5aa309831614103ed66d18c23870c200bc4591",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@1.0.0",
+			"_shasum": "32e8eedd5d683880a5ac14c72f95c37aacd075a4",
+			"_from": ".",
+			"_npmVersion": "2.1.10",
+			"_nodeVersion": "0.10.33",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "32e8eedd5d683880a5ac14c72f95c37aacd075a4",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "geojson-vt",
+			"version": "1.0.1",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"faucet": "0.0.1",
+				"jshint": "^2.5.10",
+				"tape": "^3.0.3",
+				"watchify": "^2.1.1"
+			},
+			"scripts": {
+				"test": "jshint src/*.js test/test-*.js && tape test/test-*.js | faucet",
+				"build-min": "browserify src/index.js -s geojsonvt -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o debug/geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o debug/geojson-vt-dev.js"
+			},
+			"jshintConfig": {
+				"undef": true,
+				"unused": true,
+				"trailing": true,
+				"eqeqeq": true,
+				"indent": 4,
+				"node": true,
+				"latedef": "nofunc",
+				"strict": true,
+				"globalstrict": true,
+				"quotmark": true
+			},
+			"gitHead": "5387f90cd8d3fd4f75912217698156c13b66e2d1",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@1.0.1",
+			"_shasum": "b79d704ca6c12b121aa30cb6d7f3ecb89f1b97a6",
+			"_from": ".",
+			"_npmVersion": "2.1.10",
+			"_nodeVersion": "0.10.33",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b79d704ca6c12b121aa30cb6d7f3ecb89f1b97a6",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "geojson-vt",
+			"version": "1.1.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^7.0.0",
+				"eslint": "^0.15.1",
+				"faucet": "0.0.1",
+				"tape": "^3.0.3",
+				"uglify-js": "^2.4.16",
+				"watchify": "^2.1.1"
+			},
+			"scripts": {
+				"test": "eslint src/*.js test/test-*.js && tape test/test-*.js | faucet",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"no-else-return": 2,
+					"new-cap": 2,
+					"no-empty": 2,
+					"no-new": 2,
+					"key-spacing": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 2,
+					"brace-style": 2,
+					"indent": 2,
+					"quotes": [
+						2,
+						"single"
+					],
+					"curly": 0,
+					"no-constant-condition": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "bf0ef79cd149bafb6fdca940b6a3fc14adf9e806",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@1.1.0",
+			"_shasum": "1e0d6ed6273489b0f6a2f2b85295183d67168c04",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "1e0d6ed6273489b0f6a2f2b85295183d67168c04",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "geojson-vt",
+			"version": "2.0.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^9.0.3",
+				"eslint": "^0.17.1",
+				"faucet": "0.0.1",
+				"tape": "^3.5.0",
+				"uglify-js": "^2.4.17",
+				"watchify": "^2.4.0"
+			},
+			"scripts": {
+				"test": "eslint src/*.js test/test-*.js debug/viz.js && tape test/test-*.js | faucet",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "bfab8014ce3dae545a66464fee0ec9cc8b022761",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.0.0",
+			"_shasum": "5944004dbb5705460c96059e4cb393dc86461c97",
+			"_from": ".",
+			"_npmVersion": "2.6.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5944004dbb5705460c96059e4cb393dc86461c97",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "geojson-vt",
+			"version": "2.0.1",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^10.2.4",
+				"eslint": "^0.22.1",
+				"faucet": "0.0.1",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23",
+				"watchify": "^3.2.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/test-*.js debug/viz.js && tape test/test-*.js | faucet",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "f6061d3138f5191a473348fcb90d58db00145ea9",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.0.1",
+			"_shasum": "588805ea83fd62f77ad742c2b571fcb3e149474e",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "588805ea83fd62f77ad742c2b571fcb3e149474e",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "geojson-vt",
+			"version": "2.1.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^10.2.4",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.22.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.15",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23",
+				"watchify": "^3.2.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "645dde6036f17f400625c510949b773df91afc2a",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.0",
+			"_shasum": "c969005c2a7656e480c3452ffad4bffaae5a9dfa",
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "c969005c2a7656e480c3452ffad4bffaae5a9dfa",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "geojson-vt",
+			"version": "2.1.1",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^10.2.4",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.22.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.15",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23",
+				"watchify": "^3.2.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "37f43a997bfa2273924dcf4cca9136d7e26cf9f6",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.1",
+			"_shasum": "ef0625c50ab05a13eadca6864bae553282388b69",
+			"_from": ".",
+			"_npmVersion": "2.11.0",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "ef0625c50ab05a13eadca6864bae553282388b69",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "geojson-vt",
+			"version": "2.1.2",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^10.2.4",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.22.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.15",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23",
+				"watchify": "^3.2.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "7ec7f09ae0506500ceef9799395de2750d792fdd",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.2",
+			"_shasum": "86b25f65b7c9347b68a01a0abaa875511faeee65",
+			"_from": ".",
+			"_npmVersion": "2.13.4",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "86b25f65b7c9347b68a01a0abaa875511faeee65",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.3": {
+			"name": "geojson-vt",
+			"version": "2.1.3",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^10.2.4",
+				"coveralls": "^2.11.2",
+				"eslint": "^0.22.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.15",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23",
+				"watchify": "^3.2.2"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "f9d9c8ba65868128b027b3bafdd267e227143dd8",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.3",
+			"_shasum": "f3def140c9790f136f1fd38f2b03a0a46f377d72",
+			"_from": ".",
+			"_npmVersion": "2.13.4",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "f3def140c9790f136f1fd38f2b03a0a46f377d72",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.4": {
+			"name": "geojson-vt",
+			"version": "2.1.4",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^11.0.1",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.1.0",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.17",
+				"tape": "^4.1.0",
+				"uglify-js": "^2.4.24",
+				"watchify": "^3.3.1"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "cc8b8b41eb1242ac8788738dd76144c6fab9ad9e",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.4",
+			"_shasum": "f91a24d256eb0a5b866fb9b50669cf5ea01243f3",
+			"_from": ".",
+			"_npmVersion": "2.13.4",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "f91a24d256eb0a5b866fb9b50669cf5ea01243f3",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.5": {
+			"name": "geojson-vt",
+			"version": "2.1.5",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^11.0.1",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.1.0",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.17",
+				"tape": "^4.1.0",
+				"uglify-js": "^2.4.24",
+				"watchify": "^3.3.1"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "d1fe4b25152adc44f7340228f9c792fbacb877f8",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.5",
+			"_shasum": "9ed583d5acd8205ceaafd9454c0df49eb7cf3515",
+			"_from": ".",
+			"_npmVersion": "2.13.4",
+			"_nodeVersion": "0.10.40",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "9ed583d5acd8205ceaafd9454c0df49eb7cf3515",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.6": {
+			"name": "geojson-vt",
+			"version": "2.1.6",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^11.1.0",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.5.0",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.20",
+				"tape": "^4.2.0",
+				"uglify-js": "^2.4.24",
+				"watchify": "^3.4.0"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "dc776e202eb5df9a4013b9297497f9d772a418d6",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.6",
+			"_shasum": "b45d8643b7ebf0f7267d73196036547a762b0057",
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "b45d8643b7ebf0f7267d73196036547a762b0057",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.7": {
+			"name": "geojson-vt",
+			"version": "2.1.7",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^11.1.0",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.5.0",
+				"eslint-config-mourner": "^1.0.0",
+				"faucet": "0.0.1",
+				"istanbul": "^0.3.20",
+				"tape": "^4.2.0",
+				"uglify-js": "^2.4.24",
+				"watchify": "^3.4.0"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "5d0a99ddb8412fb92f134b46922414a0a2eba384",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.7",
+			"_shasum": "bf6cd3f3db862c66dd68d10ac72a16ea7d03ad92",
+			"_from": ".",
+			"_npmVersion": "2.14.6",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "bf6cd3f3db862c66dd68d10ac72a16ea7d03ad92",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.8": {
+			"name": "geojson-vt",
+			"version": "2.1.8",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"browserify": "^12.0.1",
+				"coveralls": "^2.11.4",
+				"eslint": "^1.9.0",
+				"eslint-config-mourner": "^1.0.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.4.0",
+				"tape": "^4.2.2",
+				"uglify-js": "^2.5.0",
+				"watchify": "^3.6.0"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "8868a591f1d9a733446a6acd930b87ecfb43d321",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.1.8",
+			"_shasum": "7bc0b8d7a972cfe1430143048a45e071f915d462",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "7bc0b8d7a972cfe1430143048a45e071f915d462",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "geojson-vt",
+			"version": "2.2.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^2.1.0",
+				"browserify": "^13.0.1",
+				"coveralls": "^2.11.9",
+				"eslint": "^2.10.2",
+				"eslint-config-mourner": "^2.0.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.4.3",
+				"tape": "^4.5.1",
+				"uglify-js": "^2.6.2",
+				"watchify": "^3.7.0"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "27ac58ec08a3cdc9b43af2f6eb5af3e1c1005627",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.2.0",
+			"_shasum": "468e6b0da08078f2f67e12fc6fff3fd8f166815c",
+			"_from": ".",
+			"_npmVersion": "2.15.6",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "468e6b0da08078f2f67e12fc6fff3fd8f166815c",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/geojson-vt-2.2.0.tgz_1465501487220_0.8640857783611864"
+			},
+			"directories": {}
+		},
+		"2.3.0": {
+			"name": "geojson-vt",
+			"version": "2.3.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^2.1.0",
+				"browserify": "^13.0.1",
+				"coveralls": "^2.11.9",
+				"eslint": "^2.10.2",
+				"eslint-config-mourner": "^2.0.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.4.3",
+				"tape": "^4.5.1",
+				"uglify-js": "^2.6.2",
+				"watchify": "^3.7.0"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js"
+			},
+			"gitHead": "792d9246b4b5c3a11e2f381f0ca24be9bdf8c3b0",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.3.0",
+			"_shasum": "1cd88d91bb62629b131224973f5eb8005c3cda39",
+			"_from": ".",
+			"_npmVersion": "2.15.8",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "1cd88d91bb62629b131224973f5eb8005c3cda39",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/geojson-vt-2.3.0.tgz_1469808900950_0.10779263032600284"
+			},
+			"directories": {}
+		},
+		"2.4.0": {
+			"name": "geojson-vt",
+			"version": "2.4.0",
+			"description": "Slice GeoJSON data into vector tiles efficiently",
+			"homepage": "https://github.com/mapbox/geojson-vt",
+			"keywords": [
+				"spatial",
+				"geojson",
+				"tiles",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mapbox/geojson-vt.git"
+			},
+			"main": "src/index.js",
+			"devDependencies": {
+				"benchmark": "^2.1.0",
+				"browserify": "^13.0.1",
+				"coveralls": "^2.11.9",
+				"eslint": "^2.10.2",
+				"eslint-config-mourner": "^2.0.1",
+				"faucet": "0.0.1",
+				"istanbul": "^0.4.3",
+				"tape": "^4.5.1",
+				"uglify-js": "^2.6.2",
+				"watchify": "^3.7.0"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"license": "ISC",
+			"scripts": {
+				"test": "eslint src/*.js test/*.js debug/viz.js && tape test/test-*.js | faucet",
+				"cov": "istanbul cover tape test/test*.js",
+				"coveralls": "npm run cov && coveralls < ./coverage/lcov.info",
+				"build-min": "browserify src/index.js -s geojsonvt | uglifyjs -c -m -o geojson-vt.js",
+				"build-dev": "browserify -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"watch": "watchify -v -d src/index.js -s geojsonvt -o geojson-vt-dev.js",
+				"prepublish": "npm run build-dev && npm run build-min"
+			},
+			"gitHead": "50114b66c84b606cc71b0484dd660b9fa7e9bf93",
+			"bugs": {
+				"url": "https://github.com/mapbox/geojson-vt/issues"
+			},
+			"_id": "geojson-vt@2.4.0",
+			"_shasum": "3c1cf44493f35eb4d2c70c95da6550de66072c05",
+			"_from": ".",
+			"_npmVersion": "2.15.8",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "3c1cf44493f35eb4d2c70c95da6550de66072c05",
+				"tarball": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mcwhittemore",
+					"email": "mcwhittemore@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/geojson-vt-2.4.0.tgz_1470746468817_0.518099042121321"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.4.0"
+	},
+	"_distfiles": {
+		"geojson-vt-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.0.0.tgz",
+			"sha": "32e8eedd5d683880a5ac14c72f95c37aacd075a4",
+			"registry": "npmjs"
+		},
+		"geojson-vt-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.0.1.tgz",
+			"sha": "b79d704ca6c12b121aa30cb6d7f3ecb89f1b97a6",
+			"registry": "npmjs"
+		},
+		"geojson-vt-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-1.1.0.tgz",
+			"sha": "1e0d6ed6273489b0f6a2f2b85295183d67168c04",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.0.0.tgz",
+			"sha": "5944004dbb5705460c96059e4cb393dc86461c97",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.0.1.tgz",
+			"sha": "588805ea83fd62f77ad742c2b571fcb3e149474e",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.0.tgz",
+			"sha": "c969005c2a7656e480c3452ffad4bffaae5a9dfa",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.1.tgz",
+			"sha": "ef0625c50ab05a13eadca6864bae553282388b69",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.2.tgz",
+			"sha": "86b25f65b7c9347b68a01a0abaa875511faeee65",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.3.tgz",
+			"sha": "f3def140c9790f136f1fd38f2b03a0a46f377d72",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.4.tgz",
+			"sha": "f91a24d256eb0a5b866fb9b50669cf5ea01243f3",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.5.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.5.tgz",
+			"sha": "9ed583d5acd8205ceaafd9454c0df49eb7cf3515",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.6.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.6.tgz",
+			"sha": "b45d8643b7ebf0f7267d73196036547a762b0057",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.7.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.7.tgz",
+			"sha": "bf6cd3f3db862c66dd68d10ac72a16ea7d03ad92",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.1.8.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.1.8.tgz",
+			"sha": "7bc0b8d7a972cfe1430143048a45e071f915d462",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.2.0.tgz",
+			"sha": "468e6b0da08078f2f67e12fc6fff3fd8f166815c",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.3.0.tgz",
+			"sha": "1cd88d91bb62629b131224973f5eb8005c3cda39",
+			"registry": "npmjs"
+		},
+		"geojson-vt-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/geojson-vt/-/geojson-vt-2.4.0.tgz",
+			"sha": "3c1cf44493f35eb4d2c70c95da6550de66072c05",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5943c018-81c3\"",
+			"fetched": 1501276753432
+		}
+	},
+	"_rev": "1-223d2d2f09b9309d",
+	"readme": "## geojson-vt &mdash; GeoJSON Vector Tiles\n\n[![Build Status](https://travis-ci.org/mapbox/geojson-vt.svg?branch=master)](https://travis-ci.org/mapbox/geojson-vt)\n[![Coverage Status](https://coveralls.io/repos/mapbox/geojson-vt/badge.svg)](https://coveralls.io/r/mapbox/geojson-vt)\n\nA highly efficient JavaScript library for **slicing GeoJSON data into vector tiles on the fly**,\nprimarily designed to enable rendering and interacting with large geospatial datasets\non the browser side (without a server).\n\nCreated to power GeoJSON in [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js),\nbut can be useful in other visualization platforms\nlike [Leaflet](https://github.com/Leaflet/Leaflet) and [d3](https://github.com/mbostock/d3),\nas well as Node.js server applications.\n\nResulting tiles conform to the JSON equivalent\nof the [vector tile specification](https://github.com/mapbox/vector-tile-spec/).\nTo make data rendering and interaction fast, the tiles are simplified,\nretaining the minimum level of detail appropriate for each zoom level\n(simplifying shapes, filtering out tiny polygons and polylines).\n\nRead more on how the library works [on the Mapbox blog](https://www.mapbox.com/blog/introducing-geojson-vt/).\n\nThere's a C++11 port: [geojson-vt-cpp](https://github.com/mapbox/geojson-vt-cpp)\n\n### Demo\n\nHere's **geojson-vt** action in [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js),\ndynamically loading a 100Mb US zip codes GeoJSON with 5.4 million points:\n\n![](https://cloud.githubusercontent.com/assets/25395/5360312/86028d8e-7f91-11e4-811f-87f24acb09ca.gif)\n\nThere's a convenient [debug page](http://mapbox.github.io/geojson-vt/debug/) to test out **geojson-vt** on different data.\nJust drag any GeoJSON on the page, watching the console.\n\n![](https://cloud.githubusercontent.com/assets/25395/5363235/41955c6e-7fa8-11e4-9575-a66ef54cb6d9.gif)\n\n### Usage\n\n```js\n// build an initial index of tiles\nvar tileIndex = geojsonvt(geoJSON);\n\n// request a particular tile\nvar features = tileIndex.getTile(z, x, y).features;\n\n// show an array of tile coordinates created so far\nconsole.log(tileIndex.tileCoords); // [{z: 0, x: 0, y: 0}, ...]\n```\n\n### Options\n\nYou can fine-tune the results with an options object,\nalthough the defaults are sensible and work well for most use cases.\n\n```js\nvar tileIndex = geojsonvt(data, {\n\tmaxZoom: 14,  // max zoom to preserve detail on\n\ttolerance: 3, // simplification tolerance (higher means simpler)\n\textent: 4096, // tile extent (both width and height)\n\tbuffer: 64,\t  // tile buffer on each side\n\tdebug: 0      // logging level (0 to disable, 1 or 2)\n\n\tindexMaxZoom: 4,        // max zoom in the initial tile index\n\tindexMaxPoints: 100000, // max number of points per tile in the index\n\tsolidChildren: false    // whether to include solid tile children in the index\n});\n```\n\n### Browser builds\n\n```bash\nnpm install\nnpm run build-dev # development build, used by the debug page\nnpm run build-min # minified production build\n```\n\n### Changelog\n\n##### 2.3.0 (Jul 29, 2016)\n\n- Improved tiling algorithm to avoid redundant clipping when tiles are requested in an empty area.\n- Fixed issues with GeoJSON that only has data above 180 or below -180 longitude.\n\n##### 2.2.0 (Jun 9, 2016)\n\n- Fixed ring winding order for polygons and multipolygons in accordance with vector tile specification 2.0.\n- Fixed handling of features with null geometry (now ignored instead of throwing an error).\n\n##### 2.1.8 (Nov 9, 2015)\n\n- Fixed a bug where `getTile` would initially return `null` when requesting a child of a solid clipped square tile.\n\n##### 2.1.7 (Oct 16, 2015)\n\n- Expose transform methods in a separate file (`transform.js`).\n\n##### 2.1.6 (Sep 22, 2015)\n\n- Fixed a bug where `getTile` could generate a lot of unnecessary tiles.\n- Fixed a bug where an empty GeoJSON generated tiles.\n\n##### 2.1.5 (Aug 14, 2015)\n\n- Added `tileCoords` property with an array of coordinates of all tiles created so far.\n\n##### 2.1.4 (Aug 14, 2015)\n\n- Improved `getTile` to always return `null` on non-existing or invalid tiles.\n\n##### 2.1.3 (Aug 13, 2015)\n\n- Added `solidChildren` option that includes children of solid filled square tiles in the index (off by default).\n- Added back solid tile heuristics (not tiling solid filled square tiles further).\n\n##### 2.1.2 (Aug 13, 2015)\n\n- Fixed a crazy slowdown (~30x) when generating a huge number of tiles on the first run.\n- Removed clipped solid square heuristics (that actually didn't work since 2.0.0).\n\n##### 2.1.1 (June 18, 2015)\n\n- Fixed duplicate points in polygons.\n\n##### 2.1.0 (June 15, 2015)\n\n- Added proper handling for features crossing or near the date line.\n\n##### 2.0.1 (June 9, 2015)\n\n- 10-20% faster tile indexing.\n- Fixed latitude extremes not being clamped.\n\n##### 2.0.0 (Mar 20, 2015)\n\n- **Breaking**: `maxZoom` renamed to `indexMaxZoom`, `maxPoints` to `indexMaxPoints`, `baseZoom` to `maxZoom`.\n- Improved performance of both indexing and on-demand tile requests.\n- Improved memory footprint.\n- Better indexing defaults.\n- Fixed a bug where unnecessary memory was retained in some cases.\n\n##### 1.1.0 (Mar 2, 2015)\n\n- Add `buffer` and `extent` options.\n\n##### 1.0.0 (Dec 8, 2014)\n\n- Initial release.\n"
+}

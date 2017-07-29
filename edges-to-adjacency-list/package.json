@@ -1,0 +1,139 @@
+{
+	"name": "edges-to-adjacency-list",
+	"versions": {
+		"0.0.0": {
+			"name": "edges-to-adjacency-list",
+			"version": "0.0.0",
+			"description": "Convert a list of edges to an adjacency list",
+			"main": "e2a.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"uniq": "^0.0.2"
+			},
+			"devDependencies": {
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/edges-to-adjacency-list.git"
+			},
+			"keywords": [
+				"graph",
+				"edge",
+				"adjacency",
+				"list",
+				"convert",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/edges-to-adjacency-list/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/edges-to-adjacency-list",
+			"_id": "edges-to-adjacency-list@0.0.0",
+			"dist": {
+				"shasum": "ac2e35240723c9dc259d8813945e045f47ac94de",
+				"tarball": "https://registry.npmjs.org/edges-to-adjacency-list/-/edges-to-adjacency-list-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "edges-to-adjacency-list",
+			"version": "1.0.0",
+			"description": "Convert a list of edges to an adjacency list",
+			"main": "e2a.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"uniq": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/edges-to-adjacency-list.git"
+			},
+			"keywords": [
+				"graph",
+				"edge",
+				"adjacency",
+				"list",
+				"convert",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/edges-to-adjacency-list/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/edges-to-adjacency-list",
+			"_id": "edges-to-adjacency-list@1.0.0",
+			"dist": {
+				"shasum": "c146d2e084addfba74a51293c6e0199a49f757f1",
+				"tarball": "https://registry.npmjs.org/edges-to-adjacency-list/-/edges-to-adjacency-list-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"edges-to-adjacency-list-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/edges-to-adjacency-list/-/edges-to-adjacency-list-0.0.0.tgz",
+			"sha": "ac2e35240723c9dc259d8813945e045f47ac94de",
+			"registry": "npmjs"
+		},
+		"edges-to-adjacency-list-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/edges-to-adjacency-list/-/edges-to-adjacency-list-1.0.0.tgz",
+			"sha": "c146d2e084addfba74a51293c6e0199a49f757f1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"535fb14c-f53\"",
+			"fetched": 1501276751159
+		}
+	},
+	"_rev": "1-e4b038e586342621",
+	"readme": "edges-to-adjacency-list\n=======================\nConverts a collection of edges in a graph to an [adjacency list](http://en.wikipedia.org/wiki/Adjacency_list) representation. For the more general operation on simplicial complexes, use the [`stars`](https://github.com/mikolalysenko/stars) module.\n\nExample\n=======\n\n```javascript\nvar e2a = require(\"edges-to-adjacency-list\")\n\nconsole.log(e2a([\n  [0, 1],\n  [1, 2],\n  [2, 3]\n]))\n```\n\nOutput:\n\n```javascript\n[ [1],\n  [0, 2],\n  [1, 3],\n  [2]\n]\n```\n\nInstall\n=======\n\n```\nnpm install edges-to-adjacency-list\n```\n\nAPI\n===\n\n#### `require(\"edges-to-adjacency-list\")(edges[, numVertices])`\nConverts a collection of edges to an adjacency list representation.\n\n* `edges` are the edges of the graph\n* `numVertices` is an optional parameter giving the number of vertices in the graph\n\n**Returns** An array encoding the adjacency list of the graph\n\n**Note** Repeated edges will be combined.\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
+}

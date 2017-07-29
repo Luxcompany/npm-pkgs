@@ -1,0 +1,125 @@
+{
+	"name": "gl-spikes2d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-spikes2d",
+			"version": "1.0.0",
+			"description": "Axes spikes for 2d webgl plots",
+			"main": "spikes.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-spikes2d.git"
+			},
+			"keywords": [
+				"axes",
+				"spikes",
+				"webgl",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-spikes2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-spikes2d#readme",
+			"gitHead": "b513346c212d800bf51fabe5eadd3e890cec04a3",
+			"_id": "gl-spikes2d@1.0.0",
+			"_shasum": "c801e7bcf67ba683ae607a652c599370f21b45aa",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c801e7bcf67ba683ae607a652c599370f21b45aa",
+				"tarball": "https://registry.npmjs.org/gl-spikes2d/-/gl-spikes2d-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "gl-spikes2d",
+			"version": "1.0.1",
+			"description": "Axes spikes for 2d webgl plots",
+			"main": "spikes.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-spikes2d.git"
+			},
+			"keywords": [
+				"axes",
+				"spikes",
+				"webgl",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-spikes2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-spikes2d#readme",
+			"gitHead": "e85702ba53faf9451ec62d7b63b884df3c627b63",
+			"_id": "gl-spikes2d@1.0.1",
+			"_shasum": "cacdb2d3dbcd202b853452e8500a8b077949cc03",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "cacdb2d3dbcd202b853452e8500a8b077949cc03",
+				"tarball": "https://registry.npmjs.org/gl-spikes2d/-/gl-spikes2d-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"gl-spikes2d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-spikes2d/-/gl-spikes2d-1.0.0.tgz",
+			"sha": "c801e7bcf67ba683ae607a652c599370f21b45aa",
+			"registry": "npmjs"
+		},
+		"gl-spikes2d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-spikes2d/-/gl-spikes2d-1.0.1.tgz",
+			"sha": "cacdb2d3dbcd202b853452e8500a8b077949cc03",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57dc7bc6-ecb\"",
+			"fetched": 1501276740387
+		}
+	},
+	"_rev": "1-5a8a1d251b0a8784",
+	"readme": "gl-spikes2d\n===========\nDraws axis spikes for 2D plots\n\n## Example\n\nCheck back later\n\n## Install\n\n```\nnpm i gl-spikes2d\n```\n\n## API\n\n### Constructor\n\n#### `var spikes = require('gl-spikes2d')(plot, options)`\nCreates a new spike overlay for the given 2d plot\n\n* `plot` is a `gl-plot2d` instance\n* `options` is an object with a set of properties for the spike object\n\nThe properties of the options object are as follows:\n\n* `enable` Enables rendering of the spikes for each axis\n* `width` The width of each spike\n* `color` Color of each spike\n* `center` Center of spikes\n\n### Methods\n\n#### `spikes.update(options)`\nUpdates the spike object in place.  Similar behavior to constructor.\n\n#### `spikes.dispose()`\nDestroys the spikes object\n\n## License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

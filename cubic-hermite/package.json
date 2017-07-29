@@ -1,0 +1,143 @@
+{
+	"name": "cubic-hermite",
+	"versions": {
+		"0.0.0": {
+			"name": "cubic-hermite",
+			"version": "0.0.0",
+			"description": "Cubic hermite interpolation",
+			"main": "hermite.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.4.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/cubic-hermite.git"
+			},
+			"keywords": [
+				"spline",
+				"position",
+				"velocity",
+				"interpolation",
+				"point",
+				"particle",
+				"game",
+				"physics",
+				"numerical",
+				"method",
+				"math"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "d971c7ff8f94b260fc96da41c4497fa87d3a07b4",
+			"_id": "cubic-hermite@0.0.0",
+			"dist": {
+				"shasum": "481269cf57b592aa57d3210764b9f482fa050b14",
+				"tarball": "https://registry.npmjs.org/cubic-hermite/-/cubic-hermite-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "cubic-hermite",
+			"version": "1.0.0",
+			"description": "Cubic hermite interpolation",
+			"main": "hermite.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/cubic-hermite.git"
+			},
+			"keywords": [
+				"spline",
+				"position",
+				"velocity",
+				"interpolation",
+				"point",
+				"particle",
+				"game",
+				"physics",
+				"numerical",
+				"method",
+				"math"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "d971c7ff8f94b260fc96da41c4497fa87d3a07b4",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/cubic-hermite/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/cubic-hermite",
+			"_id": "cubic-hermite@1.0.0",
+			"dist": {
+				"shasum": "84e3b2f272b31454e8393b99bb6aed45168c14e5",
+				"tarball": "https://registry.npmjs.org/cubic-hermite/-/cubic-hermite-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"cubic-hermite-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/cubic-hermite/-/cubic-hermite-0.0.0.tgz",
+			"sha": "481269cf57b592aa57d3210764b9f482fa050b14",
+			"registry": "npmjs"
+		},
+		"cubic-hermite-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/cubic-hermite/-/cubic-hermite-1.0.0.tgz",
+			"sha": "84e3b2f272b31454e8393b99bb6aed45168c14e5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53690ca8-1189\"",
+			"fetched": 1501276741703
+		}
+	},
+	"_rev": "1-6114ec8f2c6772b0",
+	"readme": "cubic-hermite\n=============\n[Cubic hermite spline](http://en.wikipedia.org/wiki/Cubic_Hermite_spline) for interpolating position/velocity pairs.  Simplest quick and dirty way to get a smooth path between points\n\n## Install\n\n    npm install cubic-hermite\n    \n## Example\n\n```javascript\nvar hermite = require(\"cubic-hermite\")\n\n//Compute intial position and velocity\nvar initial_position = [0, 1]\n  , initial_velocity = [1, 0]\n  , final_positions  = [1, 0]\n  , final_velocity   = [0, 1]\n  \n//Plot curve\nfor(var t=0.0; t<1.0; t+=0.1) {\n  console.log(hermite(initial_position, initial_velocity, final_position, final_velocity, t))\n}\n```\n\n## API\n\n### `require(\"cubic-hermite\")(p0, v0, p1, v1, t[, result])`\nComputes an interpolated position between initial and final configurations at time t.  Arguments can be either scalars or arrays\n\n* `p0` is the initial position\n* `v0` is the initial velocity\n* `p1` is the final position\n* `v1` is the final velocity\n* `t` is the point on the curve to interpolate to in the range [0,1]\n* `result` is a vector that gets the result of the interpolation (if not specified, a new vector is created)\n\n**Returns** The interpolated point on the curve\n\n### `require(\"cubic-hermite\").derivative(p0, v0, p1, v1, t[, result])`\nReturns the velocity along the curve at a point t\n\n* `p0` is the initial position\n* `v0` initial velocity\n* `p1` final position\n* `v1` final velocity\n* `t` point on the curve to interpolate to, in the range [0,1]\n* `result` stores the result of the interpolation.  (if not specified, is reallocated)\n\n**Returns** The interpolated velocity at the time `t`\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
+}

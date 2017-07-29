@@ -1,0 +1,427 @@
+{
+	"name": "gl-select-static",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-select-static",
+			"version": "1.0.0",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.2"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-select.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-select/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-select",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "28b2976c5d5906509fa7e055cedf6fe9e697cee3",
+			"_id": "gl-select-static@1.0.0",
+			"_shasum": "4c157b3d02bb9299f11260a46c6d6b2f5f62aefe",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4c157b3d02bb9299f11260a46c6d6b2f5f62aefe",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "gl-select-static",
+			"version": "1.0.1",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-select.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-select/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-select",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "8eacce9f19e309f68c3399e8ff1cf42272a9e36c",
+			"_id": "gl-select-static@1.0.1",
+			"_shasum": "112b0645baf967e5f5c938cd07bd943fd6d1dbc5",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "112b0645baf967e5f5c938cd07bd943fd6d1dbc5",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "gl-select-static",
+			"version": "1.0.2",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-select.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-select/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-select",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "a9d04e94f953d14efd0e72e6cc0709631e9802af",
+			"_id": "gl-select-static@1.0.2",
+			"_shasum": "92b7322ae95c0bac901b314897b35d06546bbce0",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "92b7322ae95c0bac901b314897b35d06546bbce0",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.2.tgz"
+			}
+		},
+		"2.0.0": {
+			"name": "gl-select-static",
+			"version": "2.0.0",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.16",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-select.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-select/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-select",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "d602b5f75f1ea9e2810d8a45cec4afb169de10e6",
+			"_id": "gl-select-static@2.0.0",
+			"_shasum": "c46fbd2ddae54c2ff2cc4f92eaf6e796926b7f11",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c46fbd2ddae54c2ff2cc4f92eaf6e796926b7f11",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-2.0.0.tgz"
+			}
+		},
+		"1.0.3": {
+			"name": "gl-select-static",
+			"version": "1.0.3",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-select.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-select/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-select",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "99874a1d51d2fe76ec057ea7a40544fd23474069",
+			"_id": "gl-select-static@1.0.3",
+			"_shasum": "7f453bc484432aa608d092f2fb7cb645f455a975",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "7f453bc484432aa608d092f2fb7cb645f455a975",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.2": {
+			"name": "gl-select-static",
+			"version": "2.0.2",
+			"description": "Static point picking/selection routine",
+			"main": "select.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"bit-twiddle": "^1.0.2",
+				"cwise": "^1.0.3",
+				"gl-fbo": "^2.0.3",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "~1.3.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-select-static.git"
+			},
+			"keywords": [
+				"point",
+				"picking",
+				"selection",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-select-static/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-select-static",
+			"browserify": {
+				"transform": "cwise"
+			},
+			"gitHead": "06e265eacaa6e0ddbb8d1c99bcf8193d6ef82a5d",
+			"_id": "gl-select-static@2.0.2",
+			"_shasum": "f3e1901df03181d532e795853230679d4af57ee9",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f3e1901df03181d532e795853230679d4af57ee9",
+				"tarball": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-2.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "2.0.2"
+	},
+	"_distfiles": {
+		"gl-select-static-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.0.tgz",
+			"sha": "4c157b3d02bb9299f11260a46c6d6b2f5f62aefe",
+			"registry": "npmjs"
+		},
+		"gl-select-static-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.1.tgz",
+			"sha": "112b0645baf967e5f5c938cd07bd943fd6d1dbc5",
+			"registry": "npmjs"
+		},
+		"gl-select-static-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.2.tgz",
+			"sha": "92b7322ae95c0bac901b314897b35d06546bbce0",
+			"registry": "npmjs"
+		},
+		"gl-select-static-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-2.0.0.tgz",
+			"sha": "c46fbd2ddae54c2ff2cc4f92eaf6e796926b7f11",
+			"registry": "npmjs"
+		},
+		"gl-select-static-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-1.0.3.tgz",
+			"sha": "7f453bc484432aa608d092f2fb7cb645f455a975",
+			"registry": "npmjs"
+		},
+		"gl-select-static-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-select-static/-/gl-select-static-2.0.2.tgz",
+			"sha": "f3e1901df03181d532e795853230679d4af57ee9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57dc7bc5-2555\"",
+			"fetched": 1501276749893
+		}
+	},
+	"_rev": "1-1cae6bac5bd12f08",
+	"readme": "gl-select-static\n================\nA variation of gl-select which is designed for non-animated scenes\n\n## Install\n\n```\nnpm install gl-select-static\n```\n\n## API\n\n```javascript\nvar createSelectBuffer = require(\"gl-select-static\")\n```\n\n### Constructor\n\n#### `var select = createSelectBuffer(gl, shape)`\n\nCreates a select buffer with the given shape\n\n### Methods\n\n#### `select.begin()`\n\nBegins a selection rendering pass.\n\n#### `select.end()`\n\nFinishes the selection pass.\n\n#### `select.query(x,y,radius)`\n\nQueries the selection buffer for all points within radius.\n\n* `x` is the x coordinate of the query point\n* `y` is the y coordinate of the query point\n* `radius` is the radius of the selection\n\n**Returns** A SelectResult with the same contents as in gl-select\n\n#### `select.dispose()`\n\nDestroys the selection buffer and releases all associated resources\n\n### Properties\n\n#### `select.shape`\n\nUpdates or retrieves the shape of the selection buffer.\n\n## Legal\n\n(c) 2014 Mikola Lysenko. MIT License"
+}

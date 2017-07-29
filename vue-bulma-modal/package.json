@@ -1,0 +1,143 @@
+{
+	"name": "vue-bulma-modal",
+	"versions": {
+		"1.0.0": {
+			"name": "vue-bulma-modal",
+			"version": "1.0.0",
+			"description": "Modal component for Vue Bulma",
+			"main": "src/index.js",
+			"devDependencies": {
+				"bulma": "0.1.0",
+				"vue": "1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/modal.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-modal",
+				"modal"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "dccd1781e2afac774ae660eb31c9b94a1e3bf255",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/modal/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/modal#readme",
+			"_id": "vue-bulma-modal@1.0.0",
+			"_shasum": "9c896f63265e42191b9418166aef5d93258cf300",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "9c896f63265e42191b9418166aef5d93258cf300",
+				"tarball": "https://registry.npmjs.org/vue-bulma-modal/-/vue-bulma-modal-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-modal-1.0.0.tgz_1468518887919_0.5450815411750227"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vue-bulma-modal",
+			"version": "1.0.1",
+			"description": "Modal component for Vue Bulma",
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/modal.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-modal",
+				"modal"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "4b081bbc78a0016fcd39da657b566a4cd48b3a69",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/modal/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/modal#readme",
+			"_id": "vue-bulma-modal@1.0.1",
+			"scripts": {},
+			"_shasum": "943dfd6ab4726ceeb0b126f05372c5d1c68abd83",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "943dfd6ab4726ceeb0b126f05372c5d1c68abd83",
+				"tarball": "https://registry.npmjs.org/vue-bulma-modal/-/vue-bulma-modal-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-modal-1.0.1.tgz_1481747127710_0.8117192212957889"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"vue-bulma-modal-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-modal/-/vue-bulma-modal-1.0.0.tgz",
+			"sha": "9c896f63265e42191b9418166aef5d93258cf300",
+			"registry": "npmjs"
+		},
+		"vue-bulma-modal-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-modal/-/vue-bulma-modal-1.0.1.tgz",
+			"sha": "943dfd6ab4726ceeb0b126f05372c5d1c68abd83",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5851aab8-1051\"",
+			"fetched": 1501276735147
+		}
+	},
+	"_rev": "1-132b4dae9c782454",
+	"readme": "# Modal\n\nModal component for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-modal --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div>\n    <image-modal :visible=\"true\" transition=\"roll\">\n      <p class=\"image is-4by3\"><img src=\"http://placehold.it/1280x960\"></p>\n    </image-modal>\n      <card-modal :visible=\"true\" :title=\"title\" transition=\"zoom\">\n      <div class=\"content has-text-centered\"><img :src=\"src\" height=\"120\" alt=\"Vue Admin\"></div>\n    </card-modal>\n  </div>\n</template>\n\n<script>\nimport { Modal, ImageModal, CardModal } from 'vue-bulma-modal'\n\nexport default {\n  components: {\n    Modal,\n    ImageModal,\n    CardModal\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
+}

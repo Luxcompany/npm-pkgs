@@ -1,0 +1,413 @@
+{
+	"name": "7zip",
+	"versions": {
+		"0.0.0": {
+			"name": "7zip",
+			"version": "0.0.0",
+			"description": "7zip Installer via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"extract",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:fritx/node-7zip.git"
+			},
+			"bin": {
+				"7z": "bin/7z.js"
+			},
+			"main": "index.js",
+			"license": "GNU LGPL",
+			"gitHead": "1da6f94ca0d373802c6417ca835553285a281d22",
+			"bugs": {
+				"url": "https://github.com/fritx/node-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/node-7zip",
+			"_id": "7zip@0.0.0",
+			"scripts": {},
+			"_shasum": "0cd53ca9fe82e86abfee9d02e857d8dedb2d1efd",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"dist": {
+				"shasum": "0cd53ca9fe82e86abfee9d02e857d8dedb2d1efd",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "7zip",
+			"version": "0.0.1",
+			"description": "7zip Installer via Node.js (Windows Only)",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"extract",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:fritx/node-7zip.git"
+			},
+			"bin": {
+				"7z": "bin/7z.js"
+			},
+			"main": "index.js",
+			"os": [
+				"win32"
+			],
+			"license": "GNU LGPL",
+			"gitHead": "ae0f4ab1481185f056059adba61b89481b490ef2",
+			"bugs": {
+				"url": "https://github.com/fritx/node-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/node-7zip",
+			"_id": "7zip@0.0.1",
+			"scripts": {},
+			"_shasum": "241201ecab62a21f0a06cfe99af058aaab594d34",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"dist": {
+				"shasum": "241201ecab62a21f0a06cfe99af058aaab594d34",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "7zip",
+			"version": "0.0.2",
+			"description": "7zip Windows Package via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"windows",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:fritx/win-7zip.git"
+			},
+			"bin": {
+				"7z": "7zip-lite/7z.exe"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"os": [
+				"win32"
+			],
+			"license": "GNU LGPL",
+			"gitHead": "e935c6707afdfb44836bf95c074e3be607f077e0",
+			"bugs": {
+				"url": "https://github.com/fritx/win-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/win-7zip",
+			"_id": "7zip@0.0.2",
+			"_shasum": "8595ae5dc6498137cb7adc11e8c99f67baacbdbd",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"dist": {
+				"shasum": "8595ae5dc6498137cb7adc11e8c99f67baacbdbd",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "7zip",
+			"version": "0.0.3",
+			"description": "7zip Windows Package via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"windows",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:fritx/win-7zip.git"
+			},
+			"bin": {
+				"7z": "7zip-lite/7z.exe"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"os": [
+				"win32"
+			],
+			"license": "GNU LGPL",
+			"gitHead": "4c35de82d9dd56360d760505b10cc38781f15df4",
+			"bugs": {
+				"url": "https://github.com/fritx/win-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/win-7zip",
+			"_id": "7zip@0.0.3",
+			"_shasum": "3520e4c36acfbe3e81e119aeeb492aafaf528506",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"dist": {
+				"shasum": "3520e4c36acfbe3e81e119aeeb492aafaf528506",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "7zip",
+			"version": "0.0.4",
+			"description": "7zip Windows Package via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"windows",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/fritx/win-7zip.git"
+			},
+			"bin": {
+				"7z": "7zip-lite/7z.exe"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"os": [
+				"win32"
+			],
+			"license": "GNU LGPL",
+			"gitHead": "a9c14b90a6f959f39e758663b93b5ad2d50bba35",
+			"bugs": {
+				"url": "https://github.com/fritx/win-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/win-7zip#readme",
+			"_id": "7zip@0.0.4",
+			"_shasum": "0bb604a364ec091e99a4577fede67937342276e3",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.11.0",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "0bb604a364ec091e99a4577fede67937342276e3",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/7zip-0.0.4.tgz_1461682412065_0.5078772024717182"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "7zip",
+			"version": "0.0.5",
+			"description": "7zip Windows Package via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"windows",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/fritx/win-7zip.git"
+			},
+			"bin": {
+				"7z": "7zip-lite/7z.exe"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"license": "GNU LGPL",
+			"gitHead": "03000286cb6b5a19cb2b4c9239022e4e70efbe53",
+			"bugs": {
+				"url": "https://github.com/fritx/win-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/win-7zip#readme",
+			"_id": "7zip@0.0.5",
+			"_shasum": "7be3a17fa0508069548df17ff869a52c8a0aed11",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.11.0",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "7be3a17fa0508069548df17ff869a52c8a0aed11",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/7zip-0.0.5.tgz_1461765614648_0.9242584966123104"
+			},
+			"directories": {}
+		},
+		"0.0.6": {
+			"name": "7zip",
+			"version": "0.0.6",
+			"description": "7zip Windows Package via Node.js",
+			"keywords": [
+				"7z",
+				"7zip",
+				"7-zip",
+				"windows",
+				"install"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/fritx/win-7zip.git"
+			},
+			"bin": {
+				"7z": "7zip-lite/7z.exe"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"license": "GNU LGPL",
+			"gitHead": "ece5481873f357545c99a9e2f9e1cdb3fe76de2d",
+			"bugs": {
+				"url": "https://github.com/fritx/win-7zip/issues"
+			},
+			"homepage": "https://github.com/fritx/win-7zip#readme",
+			"_id": "7zip@0.0.6",
+			"_shasum": "9cafb171af82329490353b4816f03347aa150a30",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.11.0",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "9cafb171af82329490353b4816f03347aa150a30",
+				"tarball": "https://registry.npmjs.org/7zip/-/7zip-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/7zip-0.0.6.tgz_1463274735811_0.1922009070403874"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.0.6"
+	},
+	"_distfiles": {
+		"7zip-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.0.tgz",
+			"sha": "0cd53ca9fe82e86abfee9d02e857d8dedb2d1efd",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.1.tgz",
+			"sha": "241201ecab62a21f0a06cfe99af058aaab594d34",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.2.tgz",
+			"sha": "8595ae5dc6498137cb7adc11e8c99f67baacbdbd",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.3.tgz",
+			"sha": "3520e4c36acfbe3e81e119aeeb492aafaf528506",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.4.tgz",
+			"sha": "0bb604a364ec091e99a4577fede67937342276e3",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.5.tgz",
+			"sha": "7be3a17fa0508069548df17ff869a52c8a0aed11",
+			"registry": "npmjs"
+		},
+		"7zip-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/7zip/-/7zip-0.0.6.tgz",
+			"sha": "9cafb171af82329490353b4816f03347aa150a30",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5737ccf2-2040\"",
+			"fetched": 1501276782467
+		}
+	},
+	"_rev": "1-6dba63f2647b88ba",
+	"readme": "# 7zip Windows Package via Node.js\n\n<a href=\"https://www.npmjs.com/package/7zip\"><img width=\"134\" height=\"20\" src=\"https://img.shields.io/npm/dm/7zip.svg\"></a>&nbsp;&nbsp;<a href=\"https://github.com/fritx/win-7zip\"><img width=\"84\" height=\"20\" src=\"https://img.shields.io/badge/license-LGPL-yellow.svg\"></a>\n\nThis npm package contains a lite-version of [7zip](http://7-zip.org), ≈2.4MB.\n\nAnd the goal is to bring users a different and easy way to access 7zip.\n\nBeing used at library [cross-unzip](https://github.com/fritx/cross-unzip).\n\n```plain\n$ npm install -g 7zip   # global\n```\n\n```plain\n$ 7z --help   # and you get 7z\n```\n\n```js\n// $ npm install 7zip   # local\n// even in node.js\nvar _7z = require('7zip')['7z']\nvar task = spawn(_7z, ['x', 'somefile.7z', '-y'])\n```\n\n## License of 7zip\n\n```plain\n7-Zip Copyright (C) 1999-2015 Igor Pavlov.\n\nLicenses for files are:\n\n  1) 7z.dll: GNU LGPL + unRAR restriction\n  2) All other files:  GNU LGPL\n```\n"
+}

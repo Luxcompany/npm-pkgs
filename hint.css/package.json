@@ -1,0 +1,876 @@
+{
+	"name": "hint.css",
+	"versions": {
+		"1.3.4": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "1.3.4",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/chinchang/hint.css/blob/master/LICENSE-MIT"
+				}
+			],
+			"keywords": [],
+			"devDependencies": {
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.6.0",
+				"grunt-contrib-sass": "~0.4.1",
+				"grunt": "~0.4.1",
+				"grunt-contrib-watch": "~0.5.3"
+			},
+			"_id": "hint.css@1.3.4",
+			"dist": {
+				"shasum": "a26e075b1a8840c85fa666484f15d449e4e75538",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.3.5": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "1.3.5",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/chinchang/hint.css/blob/master/LICENSE-MIT"
+				}
+			],
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-sass": "~0.4.1",
+				"grunt": "~0.4.1",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-contrib-cssmin": "~0.12.3"
+			},
+			"gitHead": "766f3473986127243f536ea26c335f9c6800d688",
+			"_id": "hint.css@1.3.5",
+			"scripts": {},
+			"_shasum": "e3754486db0ebee6f52a3735d69d6f687e38abfe",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.10.25",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e3754486db0ebee6f52a3735d69d6f687e38abfe",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.5.tgz"
+			},
+			"directories": {}
+		},
+		"1.3.6": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "1.3.6",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/chinchang/hint.css/blob/master/LICENSE-MIT"
+				}
+			],
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-sass": "~0.4.1",
+				"grunt": "~0.4.1",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-contrib-cssmin": "~0.12.3"
+			},
+			"gitHead": "49ba0f6faea3bc4866e2d10ab7dfa5cae4185160",
+			"_id": "hint.css@1.3.6",
+			"scripts": {},
+			"_shasum": "dcfe1f1cba4e70be95002a87d24e1839091614a2",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "dcfe1f1cba4e70be95002a87d24e1839091614a2",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.0.0",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "0a1f0d8ce8ab23f17658019f97b59bda12691e08",
+			"_id": "hint.css@2.0.0",
+			"scripts": {},
+			"_shasum": "513555bb7e38a283b6954050132b93e587f6a95a",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "513555bb7e38a283b6954050132b93e587f6a95a",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.1.0",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "c60e0ea9578b60fa2fbfb27e9380df0f679fa1f0",
+			"_id": "hint.css@2.1.0",
+			"scripts": {},
+			"_shasum": "cfda39bc11d7046c32c7a5ac4a01bd98914c6d00",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "cfda39bc11d7046c32c7a5ac4a01bd98914c6d00",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.1.0.tgz_1455489111802_0.37460021767765284"
+			},
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.2.0",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "b33142730a936816705a2f0748ceeb70b4aac50b",
+			"_id": "hint.css@2.2.0",
+			"scripts": {},
+			"_shasum": "11b3a58686b8e81041fd6ec98d618dc0b38baa1e",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "11b3a58686b8e81041fd6ec98d618dc0b38baa1e",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.2.0.tgz_1457385748990_0.4957681745290756"
+			},
+			"directories": {}
+		},
+		"2.2.1": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.2.1",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "d3b904418d7494efa0dadbd7112940c29f36d69e",
+			"_id": "hint.css@2.2.1",
+			"scripts": {},
+			"_shasum": "3352025bdf1e617bc50b47be7fd2ea4afaaf6a8e",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "3352025bdf1e617bc50b47be7fd2ea4afaaf6a8e",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.2.1.tgz_1458992766112_0.9301858213730156"
+			},
+			"directories": {}
+		},
+		"2.3.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.3.0",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "ec8e6c456dcfd1d0d7caecff1c727b44db3f3d08",
+			"_id": "hint.css@2.3.0",
+			"scripts": {},
+			"_shasum": "0daba514fe9988c195a0fae5b752a8f5aa678119",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.6",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "0daba514fe9988c195a0fae5b752a8f5aa678119",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.3.0.tgz_1463824344210_0.4523806725628674"
+			},
+			"directories": {}
+		},
+		"2.3.1": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.3.1",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "8c6e3b59bbf87046a9d01867146f8ccb8bda0c72",
+			"_id": "hint.css@2.3.1",
+			"scripts": {},
+			"_shasum": "61e174440523c4d26ff2aa86a27f879f1211a629",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "61e174440523c4d26ff2aa86a27f879f1211a629",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.3.1.tgz_1465118980568_0.180743504781276"
+			},
+			"directories": {}
+		},
+		"2.3.2": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.3.2",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "MIT",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "8b63bde325f4f77d4eaad7cf5ba1c5542704a0de",
+			"_id": "hint.css@2.3.2",
+			"scripts": {},
+			"_shasum": "d9c0b604745f4b88e91af2a16e5861540c4c4d9d",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "d9c0b604745f4b88e91af2a16e5861540c4c4d9d",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.3.2.tgz_1469704591013_0.6186171860899776"
+			},
+			"directories": {}
+		},
+		"2.4.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.4.0",
+			"style": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "See LICENSE.md",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "7c205d93ffafcb41c64f8a00277a8f9a9212406d",
+			"_id": "hint.css@2.4.0",
+			"scripts": {},
+			"_shasum": "87cf44dd5b5d293a1f1ae9d9c2e43f5082b3b2d4",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "87cf44dd5b5d293a1f1ae9d9c2e43f5082b3b2d4",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.4.0.tgz_1474100171341_0.7455249053891748"
+			},
+			"directories": {}
+		},
+		"2.4.1": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.4.1",
+			"style": "hint.css",
+			"main": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "See LICENSE.md",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "842c8d5f3da65142425e3489d55a01539669cf65",
+			"_id": "hint.css@2.4.1",
+			"scripts": {},
+			"_shasum": "cf3396c2df216974c5d9533ee30f3030d7378f9b",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "cf3396c2df216974c5d9533ee30f3030d7378f9b",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.4.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.4.1.tgz_1478550712930_0.3532588300295174"
+			},
+			"directories": {}
+		},
+		"2.5.0": {
+			"name": "hint.css",
+			"title": "Hint.css",
+			"description": "A tooltip library in CSS for your lovely websites.",
+			"version": "2.5.0",
+			"style": "hint.css",
+			"main": "hint.css",
+			"homepage": "http://kushagragour.in/lab/hint/",
+			"author": {
+				"name": "Kushagra Gour",
+				"email": "chinchang457@gmail.com",
+				"url": "http://kushagragour.in"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chinchang/hint.css.git"
+			},
+			"bugs": {
+				"url": "https://github.com/chinchang/hint.css/issues"
+			},
+			"license": "See LICENSE.md",
+			"keywords": [
+				"tooltip",
+				"ui",
+				"sass",
+				"css",
+				"help",
+				"hint"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-cssmin": "~0.12.3",
+				"grunt-contrib-watch": "~0.5.3",
+				"grunt-sass": "^1.1.0"
+			},
+			"gitHead": "ee20a62cca41e501de21d28d36eef92b9bf10bed",
+			"_id": "hint.css@2.5.0",
+			"scripts": {},
+			"_shasum": "38cae3667e42d91dfddbe503100ab34932f6fd65",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "chinchang",
+				"email": "chinchang457@gmail.com"
+			},
+			"dist": {
+				"shasum": "38cae3667e42d91dfddbe503100ab34932f6fd65",
+				"tarball": "https://registry.npmjs.org/hint.css/-/hint.css-2.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chinchang",
+					"email": "chinchang457@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/hint.css-2.5.0.tgz_1492892231103_0.0872134743258357"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.5.0"
+	},
+	"_distfiles": {
+		"hint.css-1.3.4.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.4.tgz",
+			"sha": "a26e075b1a8840c85fa666484f15d449e4e75538",
+			"registry": "npmjs"
+		},
+		"hint.css-1.3.5.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.5.tgz",
+			"sha": "e3754486db0ebee6f52a3735d69d6f687e38abfe",
+			"registry": "npmjs"
+		},
+		"hint.css-1.3.6.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-1.3.6.tgz",
+			"sha": "dcfe1f1cba4e70be95002a87d24e1839091614a2",
+			"registry": "npmjs"
+		},
+		"hint.css-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.0.0.tgz",
+			"sha": "513555bb7e38a283b6954050132b93e587f6a95a",
+			"registry": "npmjs"
+		},
+		"hint.css-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.1.0.tgz",
+			"sha": "cfda39bc11d7046c32c7a5ac4a01bd98914c6d00",
+			"registry": "npmjs"
+		},
+		"hint.css-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.2.0.tgz",
+			"sha": "11b3a58686b8e81041fd6ec98d618dc0b38baa1e",
+			"registry": "npmjs"
+		},
+		"hint.css-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.2.1.tgz",
+			"sha": "3352025bdf1e617bc50b47be7fd2ea4afaaf6a8e",
+			"registry": "npmjs"
+		},
+		"hint.css-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.0.tgz",
+			"sha": "0daba514fe9988c195a0fae5b752a8f5aa678119",
+			"registry": "npmjs"
+		},
+		"hint.css-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.1.tgz",
+			"sha": "61e174440523c4d26ff2aa86a27f879f1211a629",
+			"registry": "npmjs"
+		},
+		"hint.css-2.3.2.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.3.2.tgz",
+			"sha": "d9c0b604745f4b88e91af2a16e5861540c4c4d9d",
+			"registry": "npmjs"
+		},
+		"hint.css-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.4.0.tgz",
+			"sha": "87cf44dd5b5d293a1f1ae9d9c2e43f5082b3b2d4",
+			"registry": "npmjs"
+		},
+		"hint.css-2.4.1.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.4.1.tgz",
+			"sha": "cf3396c2df216974c5d9533ee30f3030d7378f9b",
+			"registry": "npmjs"
+		},
+		"hint.css-2.5.0.tgz": {
+			"url": "https://registry.npmjs.org/hint.css/-/hint.css-2.5.0.tgz",
+			"sha": "38cae3667e42d91dfddbe503100ab34932f6fd65",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58fbba49-5a91\"",
+			"fetched": 1501276764707
+		}
+	},
+	"_rev": "1-6571ef7d544fcdfa",
+	"readme": "# Hint.css [![npm version](https://badge.fury.io/js/hint.css.svg)](https://badge.fury.io/js/hint.css) ![downloads/month](https://img.shields.io/npm/dm/hint.css.svg) [![Join the chat at https://gitter.im/chinchang/hint.css](https://badges.gitter.im/chinchang/hint.css.svg)](https://gitter.im/chinchang/hint.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n*A tooltip library in CSS for your lovely websites*\n\n[Demo](https://kushagragour.in/lab/hint/) • [Get started](#get-started) • [Who's using this?](#whos-using-this) • [Browser support](#browser-support) • [FAQs](#faqs) • [Contributing](#contributing) • [License](#license)\n\n`hint.css` is written as a pure CSS resource using which you can create cool accessible tooltips for your web app. It does not rely on JavaScript but rather uses **aria-label**/**data-* attribute**, **pseudo elements**, **content property** and **CSS3 transitions** to create the tooltips. Also it uses **BEM** naming convention particularly for the modifiers.\n\n## Get Started\n\nGet the library using one of the following ways:\n\n1. **GitHub**\n\n Full build\n - [unminified] : https://raw.github.com/chinchang/hint.css/master/hint.css\n - [minified] : https://raw.github.com/chinchang/hint.css/master/hint.min.css\n\n Base build *(Does not include color themes and fancy effects)*\n - [unminified] : https://raw.github.com/chinchang/hint.css/master/hint.base.css\n - [minified] : https://raw.github.com/chinchang/hint.css/master/hint.base.min.css\n\n2. **Bower** : `bower install hint.css`\n\n3. **npm**: `npm install --save hint.css`\n\n4. **CDN**: [http://www.jsdelivr.com/#!hint.css](http://www.jsdelivr.com/#!hint.css) or [https://cdnjs.com/libraries/hint.css](https://cdnjs.com/libraries/hint.css)\n\nNow include the library in the ``HEAD`` tag of your page:\n\n```html\n<link rel=\"stylesheet\" href=\"hint.css\"></link>\n```\nor\n\n```html\n<link rel=\"stylesheet\" href=\"hint.min.css\"></link>\n```\n\nNow, all you need to do is give your element any position class and tooltip text using the `aria-label` attribute.\nNote, if you don't want to use `aria-label` attribute, you can also specify the tooltip text using the `data-hint` attribute, but its recommended to use `aria-label` in support of accessibility. [Read more about aria-label](https://webaccessibility.withgoogle.com/unit?unit=6&lesson=10).\n\n\n```html\nHello Sir, <span class=\"hint--bottom\" aria-label=\"Thank you!\">hover me.</span>\n```\n\nUse it with other available modifiers in various combinations. Available modifiers:\n- *Colors* - `hint--error`, `hint--info`, `hint--warning`, `hint--success`\n- *Sizes* - `hint--small`, `hint--medium`, `hint--large`\n- `hint--always`\n- `hint--rounded`\n- `hint--no-animate`\n- `hint--bounce`\n\n## Upgrading from v1.x\n\nIf you are already using v1.x, you may need to tweak certain position classes because of the way tooltips are positioned in v2.\n\n## Changing the prefix for class names\n\nDon't like BEM naming (`hint--`) or want to use your own prefix for the class names?\n\nSimply update `src/hint-variables.scss` and change the `$hintPrefix` variable.\nTo generate the css file, please read the [contributing page](./CONTRIBUTING.md).\n\n## Who's Using This?\n- [Webflow Playground](http://playground.webflow.com/)\n- [Panda chrome app](http://usepanda.com/)\n- [Fiverr](https://www.fiverr.com/)\n- [Tolks](https://tolks.io)\n- [Stackshare](http://stackshare.io/)\n- [Tridiv](http://tridiv.com/)\n- [Alm - TypeScript IDE](http://alm.tools/)\n- [Prototyp](http://prototyp.in/)\n- [Tradus](http://tradus.com/)\n- [Formspree](http://formspree.io/)\n- [LessPass](https://lesspass.com/#/)\n- [codeMagic](http://codemagic.gr/)\n\nAre you using **hint.css** in your awesome project too? Just tweet it out to [@hint_css](https://twitter.com/hint_css) or let us know on the [mailing list](mailto:hintcss@googlegroups.com).\n\n## Browser Support\n**hint.css** works on all latest browsers, though the transition effect is supported only on IE10+, Chrome 26+ and FF4+ at present.\n\n- Chrome - basic + transition effects\n- Firefox - basic + transition effects\n- Opera - basic\n- Safari - basic\n- IE 10+ - basic + transition effects\n- IE 8 & 9 - basic\n\n### FAQs\n\nCheckout the [FAQ Wiki](https://github.com/chinchang/hint.css/wiki/Frequently-Asked-Questions) for some common gotchas to be aware of while using **hint.css**.\n\n## Contributing\n`hint.css` is developed in SASS and the source files can be found in the `src/` directory.\n\nIf you would like to create more types of tooltips/ fix bugs/ enhance the library etc. you are more than welcome to submit your pull requests.\n\n[Read more on contributing](./CONTRIBUTING.md).\n\n## Changelog & Updates\nSee the [Changelog](https://github.com/chinchang/hint.css/wiki/Changelog).\n\nTo catch all updates and discussion, join the mailing list: [**hintcss@googlegroups.com**](https://groups.google.com/forum/?fromgroups=#!forum/hintcss).\n\nOr follow on twitter: [**@hint_css**](https://twitter.com/hint_css)\n\n## License\n\n### Commercial License\n\nIf you want to use Hint.css for business, commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. Purchase a Hint.css Commercial License at https://kushagragour.in/lab/hint/#commercial\n\n### Open-source License\n\nHint.css is free for personal use under the GNU AGPLv3.\n\n## Credits\nThis doesn't make use of a lot of BEM methodology but big thanks to [@csswizardry](https://twitter.com/csswizardry), [@necolas](https://twitter.com/necolas) for their awesome articles on BEM and to [@joshnh](https://twitter.com/_joshnh) through whose work I came to know about it :)\n"
+}

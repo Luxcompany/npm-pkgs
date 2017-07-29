@@ -1,0 +1,567 @@
+{
+	"name": "autosize-input",
+	"versions": {
+		"0.1.0": {
+			"name": "autosize-input",
+			"version": "0.1.0",
+			"description": "Effortless, dynamic-width `input` elements in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "^0.8.0",
+				"jshint": "^2.8.0",
+				"nightmare": "^1.8.2",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "jshint --verbose autosize-input.js test/*.js",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "af1aedf9eac2fde06057ff73002cceb0eabc59eb",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.1.0",
+			"_shasum": "8270668f10094e67c5ed92dce3571a978d8d5eee",
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_nodeVersion": "2.0.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "hello@yuanqing.sg"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "hello@yuanqing.sg"
+				}
+			],
+			"dist": {
+				"shasum": "8270668f10094e67c5ed92dce3571a978d8d5eee",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "autosize-input",
+			"version": "0.1.1",
+			"description": "Effortless, dynamic-width `input` elements in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "^0.8.0",
+				"jshint": "^2.8.0",
+				"nightmare": "^1.8.2",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "jshint --verbose autosize-input.js test/*.js",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "70495d3cea8674a2e0c43e7bb3104a88df909c08",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.1.1",
+			"_shasum": "d2c05c6fa9a763188d9141f70014ae95a313cfd9",
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_nodeVersion": "2.0.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "hello@yuanqing.sg"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"dist": {
+				"shasum": "d2c05c6fa9a763188d9141f70014ae95a313cfd9",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "autosize-input",
+			"version": "0.1.2",
+			"description": "Effortless, dynamic-width `input` elements in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "^0.8.0",
+				"jshint": "^2.8.0",
+				"nightmare": "^1.8.2",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "jshint --verbose autosize-input.js test/*.js",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "7720872dd075c0cf606585da9ebe689848143a0b",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.1.2",
+			"_shasum": "720e6deccd475a0f1fddb17d95fc3d652193b393",
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_nodeVersion": "2.0.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "hello@yuanqing.sg"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"dist": {
+				"shasum": "720e6deccd475a0f1fddb17d95fc3d652193b393",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "autosize-input",
+			"version": "0.2.0",
+			"description": "Effortless, dynamic-width text boxes in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "^0.8.0",
+				"jshint": "^2.8.0",
+				"nightmare": "^1.8.2",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "jshint --verbose autosize-input.js test/*.js",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "faaa1f9883ec32c4f3ab65c3d9e08c5a53624e3a",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.2.0",
+			"_shasum": "f3dde789598a52b7b525357498868d760b23c4a2",
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_nodeVersion": "2.0.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "hello@yuanqing.sg"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"dist": {
+				"shasum": "f3dde789598a52b7b525357498868d760b23c4a2",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "autosize-input",
+			"version": "0.2.1",
+			"description": "Effortless, dynamic-width text boxes in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "^0.8.0",
+				"jshint": "^2.8.0",
+				"nightmare": "^1.8.2",
+				"tape": "^4.0.0",
+				"uglify-js": "^2.4.23"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "jshint --verbose autosize-input.js test/*.js",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --mangle --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "17ce93b7315a8ccc65d970e2aef966c51abd9602",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.2.1",
+			"_shasum": "2a5c0c87a2b6514dee7c65694b8d2dd0028536d9",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "2.0.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "desk@yuanqing.sg"
+			},
+			"dist": {
+				"shasum": "2a5c0c87a2b6514dee7c65694b8d2dd0028536d9",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "autosize-input",
+			"version": "0.3.0",
+			"description": "Effortless, dynamic-width text boxes in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "2.1.0",
+				"nightmare": "2.8.1",
+				"standard": "8.5.0",
+				"tape": "4.6.2",
+				"uglify-js": "2.7.4"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "standard",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --mangle --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "d6c2cf0ff3b7656c5138fe435fb9bc3ab5facc62",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.3.0",
+			"_shasum": "6d89590ca87b5a0f1f410c5a677b79a304bb0b61",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "desk@yuanqing.sg"
+			},
+			"dist": {
+				"shasum": "6d89590ca87b5a0f1f410c5a677b79a304bb0b61",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/autosize-input-0.3.0.tgz_1477762262465_0.5365226131398231"
+			},
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "autosize-input",
+			"version": "0.3.1",
+			"description": "Effortless, dynamic-width text boxes in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "2.1.0",
+				"nightmare": "2.8.1",
+				"standard": "8.5.0",
+				"tape": "4.6.2",
+				"uglify-js": "2.7.4"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "standard",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --mangle --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "d9deb2f643374afefc2a67086c3c46e06502c094",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.3.1",
+			"_shasum": "f4559d073c08d0e11db34c3a38072174beecbc13",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "desk@yuanqing.sg"
+			},
+			"dist": {
+				"shasum": "f4559d073c08d0e11db34c3a38072174beecbc13",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/autosize-input-0.3.1.tgz_1478107758684_0.9778235154226422"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "autosize-input",
+			"version": "0.4.0",
+			"description": "Effortless, dynamic-width text boxes in vanilla JavaScript.",
+			"author": {
+				"name": "Lim Yuan Qing"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/yuanqing/autosize-input.git"
+			},
+			"main": "autosize-input.js",
+			"devDependencies": {
+				"ecstatic": "2.1.0",
+				"nightmare": "2.8.1",
+				"standard": "8.5.0",
+				"tape": "4.6.2",
+				"uglify-js": "2.7.4"
+			},
+			"scripts": {
+				"start": "npm run dist && open 'http://localhost:3142/example'; ecstatic --port 3142",
+				"lint": "standard",
+				"test": "tape test/*.js",
+				"dist": "uglifyjs autosize-input.js --mangle --output autosize-input.min.js",
+				"build": "npm run lint && npm test && npm run dist"
+			},
+			"keywords": [
+				"autosize",
+				"dom",
+				"form",
+				"html",
+				"input",
+				"size",
+				"width"
+			],
+			"gitHead": "cf73892e1b9ceff448c7ea5f4a41b4b8a6a3991c",
+			"bugs": {
+				"url": "https://github.com/yuanqing/autosize-input/issues"
+			},
+			"homepage": "https://github.com/yuanqing/autosize-input#readme",
+			"_id": "autosize-input@0.4.0",
+			"_shasum": "a5cdb43110e31f6a1d9fb695ccb747495af0bb5e",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "yuanqing",
+				"email": "desk@yuanqing.sg"
+			},
+			"dist": {
+				"shasum": "a5cdb43110e31f6a1d9fb695ccb747495af0bb5e",
+				"tarball": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yuanqing",
+					"email": "desk@yuanqing.sg"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/autosize-input-0.4.0.tgz_1480089409128_0.7058971875812858"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.4.0"
+	},
+	"_distfiles": {
+		"autosize-input-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.0.tgz",
+			"sha": "8270668f10094e67c5ed92dce3571a978d8d5eee",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.1.tgz",
+			"sha": "d2c05c6fa9a763188d9141f70014ae95a313cfd9",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.1.2.tgz",
+			"sha": "720e6deccd475a0f1fddb17d95fc3d652193b393",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.2.0.tgz",
+			"sha": "f3dde789598a52b7b525357498868d760b23c4a2",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.2.1.tgz",
+			"sha": "2a5c0c87a2b6514dee7c65694b8d2dd0028536d9",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.3.0.tgz",
+			"sha": "6d89590ca87b5a0f1f410c5a677b79a304bb0b61",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.3.1.tgz",
+			"sha": "f4559d073c08d0e11db34c3a38072174beecbc13",
+			"registry": "npmjs"
+		},
+		"autosize-input-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize-input/-/autosize-input-0.4.0.tgz",
+			"sha": "a5cdb43110e31f6a1d9fb695ccb747495af0bb5e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5973ee0d-3c14\"",
+			"fetched": 1501276761694
+		}
+	},
+	"_rev": "1-249b8a43baff0be6",
+	"readme": "# autosize-input.js [![npm Version](http://img.shields.io/npm/v/autosize-input.svg?style=flat)](https://www.npmjs.org/package/autosize-input) [![Build Status](https://img.shields.io/travis/yuanqing/autosize-input.svg?branch=master&style=flat)](https://travis-ci.org/yuanqing/autosize-input)\n\n> Effortless, dynamic-width text boxes in vanilla JavaScript.\n\n## Features\n\n- Dynamically adjusts the width of the text box to fit its current contents\n- Can be initialised to fit its `placeholder` attribute\n- Optionally set a `min-width` based on the element&rsquo;s initial content\n- 1.57 KB [minified](autosize-input.min.js), or 0.77 KB minified and gzipped\n\n## Usage\n\n> [**Editable demo**](http://jsfiddle.net/98k622ah/)\n\n```html\n<body>\n  <input type=\"text\" id=\"foo\" value=\"Nice\">\n  <input type=\"text\" id=\"bar\" placeholder=\"People\">\n  <input type=\"text\" id=\"baz\" placeholder=\"Matter\">\n  <script src=\"autosize-input.min.js\"></script>\n  <script>\n    autosizeInput(document.querySelector('#foo'));\n    autosizeInput(document.querySelector('#bar'));\n    autosizeInput(document.querySelector('#baz'), { minWidth: true });\n  </script>\n</body>\n```\n\n## Implementation details\n\n- A hidden &ldquo;ghost&rdquo; `div` &mdash; given the same `font-size`, `font-family`, [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing), and horizontal `margin`, `border` and `padding` as the text box &mdash; is used to compute the correct width to assign to the text box. This width is recomputed and assigned to the text box on every [`input`](https://developer.mozilla.org/en-US/docs/Web/Events/input) event.\n\n- The single &ldquo;ghost&rdquo; element is shared amongst all the &ldquo;autosized&rdquo; text boxes on the page.\n\n## API\n\nIn the browser, `autosizeInput` is a global variable. In Node, do:\n\n```js\nconst autosizeInput = require('autosize-input');\n```\n\n### autosizeInput(element [, options])\n\n`element` is a text `input` element, and `options` is an object literal.\n\nIf we do not want the text box to &ldquo;contract&rdquo; as the user starts to type, set `options.minWidth` to `true`. This will give the `element` a `min-width` that fits it initial contents (ie. either the element&rsquo;s intial `value`, or its `placeholder`).\n\nSee [Usage](#usage).\n\n## Installation\n\nInstall via [npm](https://npmjs.com):\n\n```sh\n$ npm install --save autosize-input\n```\n\n## Tests\n\nTo test manually, in the browser, do:\n\n```sh\n$ npm start\n```\n\nTo run the programmatic tests (in [PhantomJS](http://phantomjs.org/) via [Nightmare](https://github.com/segmentio/nightmare)), do:\n\n```sh\n$ npm test\n```\n\n## Prior art\n\n- [jQuery.Autosize.Input](https://github.com/MartinF/jQuery.Autosize.Input)\n- [React-Input-Autosize](https://github.com/JedWatson/react-input-autosize)\n\nThis module was written because I needed a standalone, lightweight solution to this rather common UI problem.\n\n## License\n\n[MIT](LICENSE)\n"
+}

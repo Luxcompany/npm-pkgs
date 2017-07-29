@@ -1,0 +1,94 @@
+{
+	"name": "lodash._reevaluate",
+	"versions": {
+		"3.0.0": {
+			"name": "lodash._reevaluate",
+			"version": "3.0.0",
+			"description": "The modern build of lodash’s internal `reEvaluate` as a module.",
+			"homepage": "https://lodash.com/",
+			"icon": "https://lodash.com/icon.svg",
+			"license": "MIT",
+			"author": {
+				"name": "John-David Dalton",
+				"email": "john.david.dalton@gmail.com",
+				"url": "http://allyoucanleet.com/"
+			},
+			"contributors": [
+				{
+					"name": "John-David Dalton",
+					"email": "john.david.dalton@gmail.com",
+					"url": "http://allyoucanleet.com/"
+				},
+				{
+					"name": "Benjamin Tan",
+					"email": "demoneaux@gmail.com",
+					"url": "https://d10.github.io/"
+				},
+				{
+					"name": "Blaine Bublitz",
+					"email": "blaine@iceddev.com",
+					"url": "http://www.iceddev.com/"
+				},
+				{
+					"name": "Kit Cambridge",
+					"email": "github@kitcambridge.be",
+					"url": "http://kitcambridge.be/"
+				},
+				{
+					"name": "Mathias Bynens",
+					"email": "mathias@qiwi.be",
+					"url": "https://mathiasbynens.be/"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/lodash/lodash"
+			},
+			"scripts": {
+				"test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+			},
+			"bugs": {
+				"url": "https://github.com/lodash/lodash/issues"
+			},
+			"_id": "lodash._reevaluate@3.0.0",
+			"_shasum": "58bc74c40664953ae0b124d806996daca431e2ed",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "jdalton",
+				"email": "john.david.dalton@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "jdalton",
+					"email": "john.david.dalton@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "58bc74c40664953ae0b124d806996daca431e2ed",
+				"tarball": "https://registry.npmjs.org/lodash._reevaluate/-/lodash._reevaluate-3.0.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "3.0.0"
+	},
+	"_distfiles": {
+		"lodash._reevaluate-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lodash._reevaluate/-/lodash._reevaluate-3.0.0.tgz",
+			"sha": "58bc74c40664953ae0b124d806996daca431e2ed",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57f6839a-cee\"",
+			"fetched": 1501276738402
+		}
+	},
+	"_rev": "1-d19be16c44f62b1e",
+	"readme": "# lodash._reevaluate v3.0.0\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) internal `reEvaluate` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash._reevaluate\n```\n\nIn Node.js/io.js:\n\n```js\nvar reEvaluate = require('lodash._reevaluate');\n```\n\nSee the [package source](https://github.com/lodash/lodash/blob/3.0.0-npm-packages/lodash._reevaluate) for more details.\n"
+}

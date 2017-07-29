@@ -1,0 +1,425 @@
+{
+	"name": "union-find",
+	"versions": {
+		"0.0.0": {
+			"name": "union-find",
+			"version": "0.0.0",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"_id": "union-find@0.0.0",
+			"dist": {
+				"shasum": "cfb72b5d6fec79485b4b7d88436f15ff4f9f6a95",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-0.0.0.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "union-find",
+			"version": "0.0.1",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"_id": "union-find@0.0.1",
+			"dist": {
+				"shasum": "bc6435721244abb7013fb56745d42eab7d5e9115",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-0.0.1.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "union-find",
+			"version": "0.0.2",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"_id": "union-find@0.0.2",
+			"dist": {
+				"shasum": "ce72eb4bb4e83b5ca88acdc19325931e70f236e1",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-0.0.2.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "union-find",
+			"version": "0.0.3",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"_id": "union-find@0.0.3",
+			"dist": {
+				"shasum": "c103cbe156050e88dd3c35b32b4d8049be622c74",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-0.0.3.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "union-find",
+			"version": "0.0.4",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"_id": "union-find@0.0.4",
+			"dist": {
+				"shasum": "b854b3301619bdad144b0014c78f96eac0d2f0f6",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-0.0.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "union-find",
+			"version": "1.0.0",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/union-find/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/union-find",
+			"_id": "union-find@1.0.0",
+			"dist": {
+				"shasum": "33ef5627fa340c451d000981adfc3391ab613823",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "union-find",
+			"version": "1.0.1",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"devDependencies": {
+				"tape": "^2.12.3"
+			},
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/union-find/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/union-find",
+			"_id": "union-find@1.0.1",
+			"dist": {
+				"shasum": "4a5acc669527af6a4fc63af0c73fa7113eb379ca",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "union-find",
+			"version": "1.0.2",
+			"description": "A union-find data structure for maintaining disjoint sets.",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/union-find.git"
+			},
+			"keywords": [
+				"union",
+				"find",
+				"link",
+				"disjoint",
+				"set",
+				"connected",
+				"component",
+				"graph"
+			],
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "8fbd75feecd9d7154f4c2ff21754f483ad07ccab",
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/union-find/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/union-find",
+			"_id": "union-find@1.0.2",
+			"_shasum": "292bac415e6ad3a89535d237010db4a536284e58",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "292bac415e6ad3a89535d237010db4a536284e58",
+				"tarball": "https://registry.npmjs.org/union-find/-/union-find-1.0.2.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_distfiles": {
+		"union-find-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-0.0.0.tgz",
+			"sha": "cfb72b5d6fec79485b4b7d88436f15ff4f9f6a95",
+			"registry": "npmjs"
+		},
+		"union-find-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-0.0.1.tgz",
+			"sha": "bc6435721244abb7013fb56745d42eab7d5e9115",
+			"registry": "npmjs"
+		},
+		"union-find-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-0.0.2.tgz",
+			"sha": "ce72eb4bb4e83b5ca88acdc19325931e70f236e1",
+			"registry": "npmjs"
+		},
+		"union-find-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-0.0.3.tgz",
+			"sha": "c103cbe156050e88dd3c35b32b4d8049be622c74",
+			"registry": "npmjs"
+		},
+		"union-find-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-0.0.4.tgz",
+			"sha": "b854b3301619bdad144b0014c78f96eac0d2f0f6",
+			"registry": "npmjs"
+		},
+		"union-find-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-1.0.0.tgz",
+			"sha": "33ef5627fa340c451d000981adfc3391ab613823",
+			"registry": "npmjs"
+		},
+		"union-find-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-1.0.1.tgz",
+			"sha": "4a5acc669527af6a4fc63af0c73fa7113eb379ca",
+			"registry": "npmjs"
+		},
+		"union-find-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/union-find/-/union-find-1.0.2.tgz",
+			"sha": "292bac415e6ad3a89535d237010db4a536284e58",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"55011d5a-265d\"",
+			"fetched": 1501276742656
+		}
+	},
+	"_rev": "1-eb8ca84a44ced31f",
+	"readme": "union-find\n==========\n\nA basic union-find data structure for node.js.  For more information, see wikipdia:\n\n[Disjoint Set Datastructures](http://en.wikipedia.org/wiki/Disjoint-set_data_structure)\n\nUnion find data structures solve the incremental connectivity problem. (That is maintaining a spanning forest under incremental insertions of edges.)  To handle fully dynamic connectivity, you can use a [dynamic forest](https://www.npmjs.org/package/dynamic-forest) data structure.\n\nUsage\n=====\nHere is an example showing how to do connected component labelling.  Assume we are given a graph with `VERTEX_COUNT` vertices and a list of edges stored in array represented by pairs of vertex indices:\n\n```javascript\n//Import data structure\nvar UnionFind = require('union-find')\n\nvar VERTEX_COUNT = 8\nvar edges = [\n    [0,1],\n    [1,2],\n    [2,3],\n    [5,6],\n    [7,1]\n]\n\n//Link all the nodes together\nvar forest = new UnionFind(VERTEX_COUNT)\nfor(var i=0; i<edges.length; ++i) {\n  forest.link(edges[i][0], edges[i][1])\n}\n\n//Label components\nvar labels = new Array(VERTEX_COUNT)\nfor(var i=0; i<VERTEX_COUNT; ++i) {\n  labels[i] = forest.find(i)\n}\n```\n\nInstallation\n============\n\n```\nnpm install union-find\n```\n\n# API\n\n```javascript\nvar UnionFind = require('union-find')\n```\n\n## Constructor\n\n### `var forest = new UnionFind(numVertices)`\nCreates a new union-find data structure.\n\n* `numVertices` is the number of vertices in the graph\n\n**Returns** A new union-find data structure\n\n## Methods\n\n### `forest.length`\nReturns the number of vertices in the forest\n\n### `forest.makeSet()`\nCreates a new vertex\n\n**Returns** An integer id for the new vertex\n\n### `forest.find(v)`\nReturns an identifier representing the connected component of any given vertex\n\n**Returns** An integer id representing the connected component of `v`\n\n### `forest.link(s, t)`\nLinks a pair of connected components together\n\n* `s` and `t` are both vertices\n    \nCredits\n=======\n(c) 2013-2014 Mikola Lysenko.  MIT License"
+}

@@ -1,0 +1,1655 @@
+{
+	"name": "gl-surface3d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-surface3d",
+			"version": "1.0.0",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-axes": "^5.0.3",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-cook-torrance": "^2.0.0",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "144d256017128da9a7ed671c0205bccccc7e8d30",
+			"_id": "gl-surface3d@1.0.0",
+			"_shasum": "c884a6654ba238497166b14362bfd1e935cba223",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c884a6654ba238497166b14362bfd1e935cba223",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "gl-surface3d",
+			"version": "1.0.1",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-cook-torrance": "^2.0.0",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "6d2b8e9216c4f9bc25154e31265b6a27c01c7789",
+			"_id": "gl-surface3d@1.0.1",
+			"_shasum": "2be3287198d0c1b75cc77040fe4c81a3fba31154",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2be3287198d0c1b75cc77040fe4c81a3fba31154",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "gl-surface3d",
+			"version": "1.0.2",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-cook-torrance": "^2.0.0",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "cd5de7d2e1bd5ae218107960f15007f2be409439",
+			"_id": "gl-surface3d@1.0.2",
+			"_shasum": "64c0d2b2789cc3f330fe08a05766f274847a8ef5",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "64c0d2b2789cc3f330fe08a05766f274847a8ef5",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.2.tgz"
+			}
+		},
+		"1.0.3": {
+			"name": "gl-surface3d",
+			"version": "1.0.3",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-cook-torrance": "^2.0.0",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "714825da8f5830fe6fd957beb7a16c727a512c8a",
+			"_id": "gl-surface3d@1.0.3",
+			"_shasum": "07720e676cda4f1b4badf453e481c04252b563cf",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "07720e676cda4f1b4badf453e481c04252b563cf",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.3.tgz"
+			}
+		},
+		"1.0.4": {
+			"name": "gl-surface3d",
+			"version": "1.0.4",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-cook-torrance": "^2.0.0",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "1be561505118fc9e8c4220d2c2b7d64efe1a53ec",
+			"_id": "gl-surface3d@1.0.4",
+			"_shasum": "4243638c4d1502412c4e4d2fe130b083f09be36a",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4243638c4d1502412c4e4d2fe130b083f09be36a",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.4.tgz"
+			}
+		},
+		"1.0.5": {
+			"name": "gl-surface3d",
+			"version": "1.0.5",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "554ddb122bec28aff536bafa74f101425cc78a02",
+			"_id": "gl-surface3d@1.0.5",
+			"_shasum": "8bc68bcd24dbb5cde78c65f032fbfecf39f9f774",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8bc68bcd24dbb5cde78c65f032fbfecf39f9f774",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.5.tgz"
+			}
+		},
+		"1.0.6": {
+			"name": "gl-surface3d",
+			"version": "1.0.6",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^1.0.0",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"ndarray-fill": "^1.0.0",
+				"gl-matrix": "^2.2.0",
+				"dirichlet": "0.0.0",
+				"gl-spikes": "^1.0.1",
+				"gl-select": "^3.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "04cd12a9fcce39a136acbfec38508bc4ad0c246f",
+			"_id": "gl-surface3d@1.0.6",
+			"_shasum": "49c6174e8f4db09ba33d38d782faf6d08bb84861",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "49c6174e8f4db09ba33d38d782faf6d08bb84861",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.7": {
+			"name": "gl-surface3d",
+			"version": "1.0.7",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "1feff1a76d6528b9907cbab997a78cb6c3ac5797",
+			"_id": "gl-surface3d@1.0.7",
+			"_shasum": "d02796702e26527457f41fa3386302cdada23f53",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "d02796702e26527457f41fa3386302cdada23f53",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.8": {
+			"name": "gl-surface3d",
+			"version": "1.0.8",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "f3b5be891998a32b3807d8d4eae4f1d650d1d06e",
+			"_id": "gl-surface3d@1.0.8",
+			"_shasum": "9d9a8adf323b7be1564b263228874d0758b466fb",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "9d9a8adf323b7be1564b263228874d0758b466fb",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.1.0": {
+			"name": "gl-surface3d",
+			"version": "1.1.0",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.0.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "f00ba05f277ccfe5049b279c8de20d6bb04cf694",
+			"_id": "gl-surface3d@1.1.0",
+			"_shasum": "c7efa63a41e0929dfa3912b59b33d4815c3fc0ad",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "c7efa63a41e0929dfa3912b59b33d4815c3fc0ad",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.1.1": {
+			"name": "gl-surface3d",
+			"version": "1.1.1",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "68093e0d387cfc5369eecbd736817be2a5c486a4",
+			"_id": "gl-surface3d@1.1.1",
+			"_shasum": "7006e782132a689b6b85499d1b3774b9bcb3a970",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "7006e782132a689b6b85499d1b3774b9bcb3a970",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.2.0": {
+			"name": "gl-surface3d",
+			"version": "1.2.0",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "8b73a1341f3bb9da974e9f925047c1de18b076e2",
+			"_id": "gl-surface3d@1.2.0",
+			"_shasum": "b1aa751f0ac02a55c0cdbe1fdcdd74437907bcf8",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b1aa751f0ac02a55c0cdbe1fdcdd74437907bcf8",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/gl-surface3d-1.2.0.tgz_1457634185469_0.669270243961364"
+			}
+		},
+		"1.2.1": {
+			"name": "gl-surface3d",
+			"version": "1.2.1",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "2303aab7ee8245c07399546566a5dd393ab1570e",
+			"_id": "gl-surface3d@1.2.1",
+			"_shasum": "d7d5e19ceb81df3da945fe9a0810a397f90d6ccb",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "d7d5e19ceb81df3da945fe9a0810a397f90d6ccb",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/gl-surface3d-1.2.1.tgz_1457654878840_0.8999038357287645"
+			}
+		},
+		"1.2.2": {
+			"name": "gl-surface3d",
+			"version": "1.2.2",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "3f38e6774784ad38fa5ebab7067dccb8435e59af",
+			"_id": "gl-surface3d@1.2.2",
+			"_shasum": "46633be1a6561e434b6987a5156336b3d42cbe78",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "46633be1a6561e434b6987a5156336b3d42cbe78",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/gl-surface3d-1.2.2.tgz_1458080161728_0.5687001789920032"
+			}
+		},
+		"1.2.3": {
+			"name": "gl-surface3d",
+			"version": "1.2.3",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "ad1e71794126077a1028a4fb3ec03c54152b2be1",
+			"_id": "gl-surface3d@1.2.3",
+			"_shasum": "bf543034722663b4c2ba7b26a51dcf1d2dcfaa2c",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "bf543034722663b4c2ba7b26a51dcf1d2dcfaa2c",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/gl-surface3d-1.2.3.tgz_1458572509396_0.6277629812248051"
+			}
+		},
+		"1.3.0": {
+			"name": "gl-surface3d",
+			"version": "1.3.0",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"dirichlet": "^1.0.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-axes3d": "^1.2.4",
+				"gl-matrix": "^2.3.2",
+				"gl-now": "^1.4.0",
+				"gl-select-static": "^2.0.2",
+				"gl-spikes3d": "^1.0.5",
+				"ndarray-fill": "^1.0.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "237102c47a4e62574c10af627dbf989b25f66dc4",
+			"_id": "gl-surface3d@1.3.0",
+			"_shasum": "5232e0fc7e1fcbb943525b27d76781ccee826403",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5232e0fc7e1fcbb943525b27d76781ccee826403",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.3.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-surface3d-1.3.0.tgz_1474067726714_0.18116486258804798"
+			}
+		},
+		"1.3.1": {
+			"name": "gl-surface3d",
+			"version": "1.3.1",
+			"description": "Renders parametric surfaces in 3D",
+			"main": "surface.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"binary-search-bounds": "^1.0.0",
+				"bit-twiddle": "^1.0.2",
+				"colormap": "^2.1.0",
+				"dup": "^1.0.0",
+				"gl-buffer": "^2.0.3",
+				"gl-mat4": "^1.0.0",
+				"gl-shader": "^4.2.0",
+				"gl-texture2d": "^2.0.0",
+				"gl-vao": "^1.1.1",
+				"glsl-specular-beckmann": "^1.1.2",
+				"glslify": "^2.1.2",
+				"ndarray": "^1.0.16",
+				"ndarray-gradient": "^1.0.0",
+				"ndarray-ops": "^1.2.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray-scratch": "^1.1.1",
+				"surface-nets": "^1.0.2",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"dirichlet": "^1.0.1",
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-axes3d": "^1.2.4",
+				"gl-matrix": "^2.3.2",
+				"gl-now": "^1.4.0",
+				"gl-select-static": "^2.0.2",
+				"gl-spikes3d": "^1.0.5",
+				"ndarray-fill": "^1.0.1"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open --live example/example.js"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-vis/gl-surface3d.git"
+			},
+			"keywords": [
+				"plot",
+				"surface",
+				"webgl",
+				"visualization",
+				"surf",
+				"height",
+				"field"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-surface3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-surface3d",
+			"gitHead": "254778dee07b70aca6168419674a6245f3ea2f51",
+			"_id": "gl-surface3d@1.3.1",
+			"_shasum": "cf9c177624eb50cf3b6cd7cc23a08858443da8f9",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"shasum": "cf9c177624eb50cf3b6cd7cc23a08858443da8f9",
+				"tarball": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-surface3d-1.3.1.tgz_1499719203705_0.4716503079980612"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.3.1"
+	},
+	"_distfiles": {
+		"gl-surface3d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.0.tgz",
+			"sha": "c884a6654ba238497166b14362bfd1e935cba223",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.1.tgz",
+			"sha": "2be3287198d0c1b75cc77040fe4c81a3fba31154",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.2.tgz",
+			"sha": "64c0d2b2789cc3f330fe08a05766f274847a8ef5",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.3.tgz",
+			"sha": "07720e676cda4f1b4badf453e481c04252b563cf",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.4.tgz",
+			"sha": "4243638c4d1502412c4e4d2fe130b083f09be36a",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.5.tgz",
+			"sha": "8bc68bcd24dbb5cde78c65f032fbfecf39f9f774",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.6.tgz",
+			"sha": "49c6174e8f4db09ba33d38d782faf6d08bb84861",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.7.tgz",
+			"sha": "d02796702e26527457f41fa3386302cdada23f53",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.0.8.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.0.8.tgz",
+			"sha": "9d9a8adf323b7be1564b263228874d0758b466fb",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.1.0.tgz",
+			"sha": "c7efa63a41e0929dfa3912b59b33d4815c3fc0ad",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.1.1.tgz",
+			"sha": "7006e782132a689b6b85499d1b3774b9bcb3a970",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.0.tgz",
+			"sha": "b1aa751f0ac02a55c0cdbe1fdcdd74437907bcf8",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.1.tgz",
+			"sha": "d7d5e19ceb81df3da945fe9a0810a397f90d6ccb",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.2.tgz",
+			"sha": "46633be1a6561e434b6987a5156336b3d42cbe78",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.2.3.tgz",
+			"sha": "bf543034722663b4c2ba7b26a51dcf1d2dcfaa2c",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.3.0.tgz",
+			"sha": "5232e0fc7e1fcbb943525b27d76781ccee826403",
+			"registry": "npmjs"
+		},
+		"gl-surface3d-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-surface3d/-/gl-surface3d-1.3.1.tgz",
+			"sha": "cf9c177624eb50cf3b6cd7cc23a08858443da8f9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"gl-surface3d-1.3.1.tgz": {
+			"shasum": "cf9c177624eb50cf3b6cd7cc23a08858443da8f9"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5963e625-8663\"",
+			"fetched": 1501276740355
+		}
+	},
+	"_rev": "2-8cade9a2defb0d4e",
+	"readme": "gl-surface3d\r\n===============\r\n3D parametric surface plotting, compatible with [gl-vis](http://github.com/gl-vis).\r\n\r\n# Example\r\n\r\n```javascript\r\nvar createScene       = require('gl-plot3d')\r\nvar createSurfacePlot = require('gl-surface3d')\r\nvar ndarray           = require('ndarray')\r\nvar fill              = require('ndarray-fill')\r\nvar diric             = require('dirichlet')\r\n\r\nvar scene = createScene()\r\n\r\n//Create field\r\nvar field = ndarray(new Float32Array(512*512), [512,512])\r\nfill(field, function(x,y) {\r\n  return 128 * diric(10, 10.0*(x-256)/512) * diric(10, 10.0*(y-256)/512)\r\n})\r\n\r\n//Create surface plot\r\nvar surface = createSurfacePlot({\r\n  gl:    scene.gl,\r\n  field: field\r\n})\r\n\r\nscene.add(surface)\r\n```\r\n\r\nHere is what this should look like:\r\n\r\n<img src=\"plot.png\">\r\n\r\n[Test it in your browser (requires WebGL)](http://gl-vis.github.io/gl-surface3d/)\r\n\r\n# Install\r\n\r\n```\r\nnpm install gl-surface3d\r\n```\r\n\r\n# Basic Interface\r\n\r\n## Constructor\r\n\r\n#### `var surface = require('gl-surface3d')(params)`\r\nCreates a surface plot object.  `params` is an object with any of the following parameters\r\n\r\n* `gl` is a WebGL context\r\n* `field` a new 2D field encoded as an ndarray\r\n* `coords` is an array of 3 2D fields, each encoded as ndarrays (for parameteric surfaces)\r\n* `intensity` a 2D intensity field (defaults to `field` or `coords[2] is not present)\r\n* `colormap` the name of the new color map for the surface (see list of names in `colormap` [docs](https://github.com/bpostlethwaite/colormap))\r\n* `intensityBounds` sets the intensity range for the colormap\r\n* `ticks` is a pair of arrays of ticks representing the spacing of the points for the axes of the surface\r\n* `showSurface` if set, draw the surface\r\n* `showContour` if set, draw contour lines\r\n* `contourWidth` the width fo the contour lines\r\n* `contourTint` the amount of tint of the contour lines\r\n* `contourColor` the color of the contour line tint\r\n* `levels` an array of arrays representing the level of the isolines.\r\n* `dynamicWidth` the width of the dynamic isolines\r\n* `dynamicColors` the color of the dynamic isolines\r\n* `dynamicTint` the tint of the dynamic isolines\r\n* `vertexColor` interpolate color in fragment or vertex shader, useful for discontinuous functions ([ref](https://github.com/plotly/plotly.js/issues/940))\r\n\r\n\r\n## Methods\r\n\r\n#### `surface.update(params)`\r\nModify the surface.  `params` is an object with the same properties as the constructor\r\n\r\n\r\n# License\r\n(c) 2014-2015 Mikola Lysenko. MIT License.\r\n"
+}

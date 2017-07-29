@@ -1,0 +1,740 @@
+{
+	"name": "vue-click-outside",
+	"versions": {
+		"0.1.0": {
+			"name": "vue-click-outside",
+			"version": "0.1.0",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "acc993fafd0ade44d7be3b6f099e4860744c3c67",
+			"_id": "vue-click-outside@0.1.0",
+			"_shasum": "e75ec95d4efe1ac22969d9407b38ec57ea2d2274",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "e75ec95d4efe1ac22969d9407b38ec57ea2d2274",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.1.0.tgz_1466580370578_0.8159405204933137"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "vue-click-outside",
+			"version": "0.2.0",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "0b81255c91ce601a4fa9d43ff4f74e34e54c921a",
+			"_id": "vue-click-outside@0.2.0",
+			"_shasum": "4f15dc7b0cfba59fc703ce91d2766efbe3faa1aa",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "4f15dc7b0cfba59fc703ce91d2766efbe3faa1aa",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.2.0.tgz_1466585719580_0.5733116320334375"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "vue-click-outside",
+			"version": "0.2.1",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "2d20e6404b1835b0674c48cf0208307554341534",
+			"_id": "vue-click-outside@0.2.1",
+			"_shasum": "26883efe7751cd59eae20f92511e6a85e5696b31",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "26883efe7751cd59eae20f92511e6a85e5696b31",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.2.1.tgz_1466590034814_0.641204732703045"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "vue-click-outside",
+			"version": "0.3.0",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "fdb94a34c79f513a2cc06fed1bfa1d6d87eb16c2",
+			"_id": "vue-click-outside@0.3.0",
+			"_shasum": "0ce8dbf13f4ee8a59847f398aab5750611ae0008",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "0ce8dbf13f4ee8a59847f398aab5750611ae0008",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.3.0.tgz_1467366861594_0.19018255989067256"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "vue-click-outside",
+			"version": "0.4.0",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "df5623c9e1592bf366054504593a02038ce96a72",
+			"_id": "vue-click-outside@0.4.0",
+			"_shasum": "3b9686f3d1583b44693688a20ee87f05f769f8df",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "3b9686f3d1583b44693688a20ee87f05f769f8df",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.4.0.tgz_1467368718015_0.42742335074581206"
+			},
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "vue-click-outside",
+			"version": "0.4.1",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "21d4c06b276a2ef43ca87f60fae2e554f1aa7690",
+			"_id": "vue-click-outside@0.4.1",
+			"_shasum": "e0085645c4f288be156dcef0d9b2197fbef4c766",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "e0085645c4f288be156dcef0d9b2197fbef4c766",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.4.1.tgz_1467368816201_0.08711466658860445"
+			},
+			"directories": {}
+		},
+		"0.4.2": {
+			"name": "vue-click-outside",
+			"version": "0.4.2",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "e168188803d3b4d12b0c428364e0690eff0286ee",
+			"_id": "vue-click-outside@0.4.2",
+			"_shasum": "5162e95967f1294cd9cb6d62d684aaf61d15a2eb",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "5162e95967f1294cd9cb6d62d684aaf61d15a2eb",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.4.2.tgz_1467390502494_0.5174799223896116"
+			},
+			"directories": {}
+		},
+		"0.4.3": {
+			"name": "vue-click-outside",
+			"version": "0.4.3",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "26fb5daefd19ab3fa2fac36215e25e8f1eb26cba",
+			"_id": "vue-click-outside@0.4.3",
+			"_shasum": "bab2c2033cf929781a2acbd2670f5e62ba1d205d",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "bab2c2033cf929781a2acbd2670f5e62ba1d205d",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-0.4.3.tgz_1467525747016_0.19613958662375808"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "vue-click-outside",
+			"version": "1.0.0",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "26feb7df3926a99a9487cd049ee3b4a42cfe4849",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.0",
+			"scripts": {},
+			"_shasum": "8f2abb052b0050420ab3d0f9a44be4869a38d68a",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "8f2abb052b0050420ab3d0f9a44be4869a38d68a",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.0.tgz_1487923007823_0.23050420568324625"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vue-click-outside",
+			"version": "1.0.1",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"licenseText": "(The MIT License)\n\nCopyright (c) 2016 fundon &lt;cfddream@gmail.com&lt;\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+			"_id": "vue-click-outside@1.0.1",
+			"dist": {
+				"shasum": "83ff0ad3912c53fe5d171a4127234edc38ff8b4e",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.1.tgz"
+			},
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.1.tgz_1487936687279_0.5152204583864659"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vue-click-outside",
+			"version": "1.0.2",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "7b929fb685d44471f2a2e7f4af71ed043e0d252a",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.2",
+			"scripts": {},
+			"_shasum": "b2803d0b949163f4824c72829e677e4f9f7ca6a8",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "b2803d0b949163f4824c72829e677e4f9f7ca6a8",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.2.tgz_1488437750005_0.47870851564221084"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "vue-click-outside",
+			"version": "1.0.3",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "e3807030fd89232c4a2bbfeaf4cbe94b03510b81",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.3",
+			"scripts": {},
+			"_shasum": "a9143c1a5136946ed21ae6138f20c122c72cdda0",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "a9143c1a5136946ed21ae6138f20c122c72cdda0",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.3.tgz_1488791028278_0.7832109928131104"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "vue-click-outside",
+			"version": "1.0.4",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "54f2d0fa966c5b4a96aeb081fc56f3dc6870c9a5",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.4",
+			"scripts": {},
+			"_shasum": "2e89bc863c559f6c88db1d2a33c01e467a10eb1e",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "2e89bc863c559f6c88db1d2a33c01e467a10eb1e",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.4.tgz_1492584028444_0.018496220465749502"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "vue-click-outside",
+			"version": "1.0.5",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "72c572a76f63863d27007a816b1a090e43eb8732",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.5",
+			"scripts": {},
+			"_shasum": "f0ba4f00e9fbbb8e78274651f1085c8602fe9b16",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "f0ba4f00e9fbbb8e78274651f1085c8602fe9b16",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-click-outside-1.0.5.tgz_1492584695163_0.9387727037537843"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "vue-click-outside",
+			"version": "1.0.6",
+			"description": "ClickOutside directive for Vue",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/click-outside.git"
+			},
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "luventa@outlook.com"
+				}
+			],
+			"license": "MIT",
+			"gitHead": "b4a9311a22b3272b83c516c9f6d458989bff17cf",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/click-outside/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/click-outside#readme",
+			"_id": "vue-click-outside@1.0.6",
+			"scripts": {},
+			"_shasum": "bf3e0217210d7778299cc39ddcf89cc036089f22",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "bf3e0217210d7778299cc39ddcf89cc036089f22",
+				"tarball": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-click-outside-1.0.6.tgz_1496369532070_0.9935895279049873"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.6"
+	},
+	"_distfiles": {
+		"vue-click-outside-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.1.0.tgz",
+			"sha": "e75ec95d4efe1ac22969d9407b38ec57ea2d2274",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.2.0.tgz",
+			"sha": "4f15dc7b0cfba59fc703ce91d2766efbe3faa1aa",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.2.1.tgz",
+			"sha": "26883efe7751cd59eae20f92511e6a85e5696b31",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.3.0.tgz",
+			"sha": "0ce8dbf13f4ee8a59847f398aab5750611ae0008",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.0.tgz",
+			"sha": "3b9686f3d1583b44693688a20ee87f05f769f8df",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.1.tgz",
+			"sha": "e0085645c4f288be156dcef0d9b2197fbef4c766",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.2.tgz",
+			"sha": "5162e95967f1294cd9cb6d62d684aaf61d15a2eb",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-0.4.3.tgz",
+			"sha": "bab2c2033cf929781a2acbd2670f5e62ba1d205d",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.0.tgz",
+			"sha": "8f2abb052b0050420ab3d0f9a44be4869a38d68a",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.1.tgz",
+			"sha": "83ff0ad3912c53fe5d171a4127234edc38ff8b4e",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.2.tgz",
+			"sha": "b2803d0b949163f4824c72829e677e4f9f7ca6a8",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.3.tgz",
+			"sha": "a9143c1a5136946ed21ae6138f20c122c72cdda0",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.4.tgz",
+			"sha": "2e89bc863c559f6c88db1d2a33c01e467a10eb1e",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.5.tgz",
+			"sha": "f0ba4f00e9fbbb8e78274651f1085c8602fe9b16",
+			"registry": "npmjs"
+		},
+		"vue-click-outside-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/vue-click-outside/-/vue-click-outside-1.0.6.tgz",
+			"sha": "bf3e0217210d7778299cc39ddcf89cc036089f22",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5930c97c-46de\"",
+			"fetched": 1501276762507
+		}
+	},
+	"_rev": "1-32e74af5986af7e9",
+	"readme": "# ClickOutside\r\n\r\nVue click outside directive.\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-click-outside\r\n```\r\n\r\n## Example\r\n\r\n```vue\r\n<template>\r\n  <div>\r\n    <div v-click-outside=\"hide\" @click=\"toggle\">Toggle</div>\r\n    <div v-show=\"opened\">Popup item</div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport ClickOutside from 'vue-click-outside'\r\n\r\nexport default {\r\n  data () {\r\n    return {\r\n      opened: false\r\n    }\r\n  },\r\n\r\n  methods: {\r\n    toggle () {\r\n      this.opened = true\r\n    },\r\n\r\n    hide () {\r\n      this.opened = false\r\n    }\r\n  },\r\n\r\n  mounted () {\r\n    // prevent click outside event with popupItem.\r\n    this.popupItem = this.$el\r\n  },\r\n\r\n  // do not forget this section\r\n  directives: {\r\n    ClickOutside\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n"
+}

@@ -1,0 +1,394 @@
+{
+	"name": "gl-error2d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-error2d",
+			"version": "1.0.0",
+			"description": "2D error bars",
+			"main": "error2d.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-error2d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"gl-plot2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-error2d/issues"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"homepage": "https://github.com/gl-vis/gl-error2d#readme",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.5",
+				"glslify": "^2.3.1",
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "6987100a2ab3a59b6d5e5bbb06bdfd70122ef6ad",
+			"_id": "gl-error2d@1.0.0",
+			"_shasum": "f5dbca656bbcf55fa459828a3464b7f1028360eb",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f5dbca656bbcf55fa459828a3464b7f1028360eb",
+				"tarball": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "gl-error2d",
+			"version": "1.1.0",
+			"description": "2D error bars",
+			"main": "error2d.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-error2d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"gl-plot2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-error2d/issues"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"homepage": "https://github.com/gl-vis/gl-error2d#readme",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.5",
+				"glslify": "^2.3.1",
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "c4fcacd7d0d70aadc4e772be336734fcf1eec8f8",
+			"_id": "gl-error2d@1.1.0",
+			"_shasum": "3b39a1adcdcedaa95eb7018d24e7293294698891",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "3b39a1adcdcedaa95eb7018d24e7293294698891",
+				"tarball": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "gl-error2d",
+			"version": "1.1.2",
+			"description": "2D error bars",
+			"main": "error2d.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-error2d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"gl-plot2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-error2d/issues"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"homepage": "https://github.com/gl-vis/gl-error2d#readme",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.5",
+				"glslify": "^2.3.1",
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "fd0eb5b2be4031f4d12404821fb940a03f989b17",
+			"_id": "gl-error2d@1.1.2",
+			"_shasum": "496633b16bc856761c4c8d06e259ee6039986875",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "496633b16bc856761c4c8d06e259ee6039986875",
+				"tarball": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/gl-error2d-1.1.2.tgz_1461090776791_0.4369000601582229"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "gl-error2d",
+			"version": "1.2.0",
+			"description": "2D error bars",
+			"main": "error2d.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-error2d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"gl-plot2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-error2d/issues"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"homepage": "https://github.com/gl-vis/gl-error2d#readme",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.5",
+				"glslify": "^2.3.1",
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "b1dec42ce370b904724ef156829043ffdd84fd1b",
+			"_id": "gl-error2d@1.2.0",
+			"_shasum": "3881c02de07573310b532bb27a62b6fdfa6e7b69",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "monfera",
+				"email": "monfera.robert@gmail.com"
+			},
+			"dist": {
+				"shasum": "3881c02de07573310b532bb27a62b6fdfa6e7b69",
+				"tarball": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-error2d-1.2.0.tgz_1477419171920_0.32956325029954314"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "gl-error2d",
+			"version": "1.2.1",
+			"description": "2D error bars",
+			"main": "error2d.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-error2d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"gl-plot2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-error2d/issues"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"homepage": "https://github.com/gl-vis/gl-error2d#readme",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.5",
+				"glslify": "^2.3.1",
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "d604547e3d71b2d2f5d402a92da8e0f2bdf0740a",
+			"_id": "gl-error2d@1.2.1",
+			"_shasum": "cc6977f6476f205db3c4eac5b8c48899e48dfdd1",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "monfera",
+				"email": "monfera.robert@gmail.com"
+			},
+			"dist": {
+				"shasum": "cc6977f6476f205db3c4eac5b8c48899e48dfdd1",
+				"tarball": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-error2d-1.2.1.tgz_1478536373342_0.03408834640868008"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.2.1"
+	},
+	"_distfiles": {
+		"gl-error2d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.0.0.tgz",
+			"sha": "f5dbca656bbcf55fa459828a3464b7f1028360eb",
+			"registry": "npmjs"
+		},
+		"gl-error2d-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.1.0.tgz",
+			"sha": "3b39a1adcdcedaa95eb7018d24e7293294698891",
+			"registry": "npmjs"
+		},
+		"gl-error2d-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.1.2.tgz",
+			"sha": "496633b16bc856761c4c8d06e259ee6039986875",
+			"registry": "npmjs"
+		},
+		"gl-error2d-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.2.0.tgz",
+			"sha": "3881c02de07573310b532bb27a62b6fdfa6e7b69",
+			"registry": "npmjs"
+		},
+		"gl-error2d-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-error2d/-/gl-error2d-1.2.1.tgz",
+			"sha": "cc6977f6476f205db3c4eac5b8c48899e48dfdd1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"588139df-1d8b\"",
+			"fetched": 1501276740262
+		}
+	},
+	"_rev": "1-303c78f0021ed474",
+	"readme": "gl-error2d\n==========\nError bars for 2D scatter plots\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

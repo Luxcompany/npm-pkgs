@@ -1,0 +1,2262 @@
+{
+	"name": "regl",
+	"versions": {
+		"0.0.0": {
+			"name": "regl",
+			"version": "0.0.0",
+			"description": "Dataflow programming for WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"devDependencies": {
+				"standard": "^6.0.7",
+				"tape": "^4.4.0"
+			},
+			"dependencies": {
+				"gl-format-compiler-error": "^1.0.2"
+			},
+			"scripts": {
+				"test": "standard && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"cg",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/regl#readme",
+			"gitHead": "9a3bef5782dbe0e2664626594616765d39b8b7f2",
+			"_id": "regl@0.0.0",
+			"_shasum": "6284f1d33de2cf6df4c5c4dd4ed587c3ad90f111",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "6284f1d33de2cf6df4c5c4dd4ed587c3ad90f111",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/regl-0.0.0.tgz_1458514645252_0.043213097378611565"
+			}
+		},
+		"0.1.0": {
+			"name": "regl",
+			"version": "0.1.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"coverify": "^1.4.1",
+				"derequire": "^2.0.3",
+				"faucet": "0.0.1",
+				"gl": "^3.0.3",
+				"indexhtmlify": "^1.2.1",
+				"runscript": "^1.1.0",
+				"smokestack": "^3.4.1",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"uglify-js": "^2.6.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/*.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"coverage": "browserify test/util/browser.js -t coverify | smokestack | coverify",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js -s regl | derequire > dist/regl.js",
+				"build-min": "uglifyjs < dist/regl.js > dist/regl.min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": "dist/*"
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "5fa61a508703a44a60343234c9057dce14f74e5d",
+			"_id": "regl@0.1.0",
+			"_shasum": "62fbf79b676a0b9049ea6f9f35648afacc333c37",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "62fbf79b676a0b9049ea6f9f35648afacc333c37",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-0.1.0.tgz_1460183926494_0.027340636122971773"
+			}
+		},
+		"0.2.0": {
+			"name": "regl",
+			"version": "0.2.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"coverify": "^1.4.1",
+				"derequire": "^2.0.3",
+				"faucet": "0.0.1",
+				"gl": "^3.0.3",
+				"gl-mat4": "^1.1.4",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"mouse-change": "^1.2.1",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"smokestack": "^3.4.1",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"uglify-js": "^2.6.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/*.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"coverage": "browserify test/util/browser.js -t coverify | smokestack | coverify",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js -s regl | derequire > dist/regl.js",
+				"build-min": "uglifyjs < dist/regl.js > dist/regl.min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": "dist/*"
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "762bcb1e42dc29ec8b48e396e19215de26bca89a",
+			"_id": "regl@0.2.0",
+			"_shasum": "6cdc1c898f6fcb30637493856d9566fcf063048c",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "6cdc1c898f6fcb30637493856d9566fcf063048c",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.2.0.tgz_1461298138640_0.9727607581298798"
+			}
+		},
+		"0.3.0": {
+			"name": "regl",
+			"version": "0.3.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"coverify": "^1.4.1",
+				"faucet": "0.0.1",
+				"gl": "^3.0.3",
+				"gl-mat4": "^1.1.4",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"mouse-change": "^1.2.1",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"smokestack": "^3.4.1",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"uglify-js": "^2.6.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/*.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"coverage": "browserify test/util/browser.js -t coverify | smokestack | coverify",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": "dist/*"
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "432bffd6d73d6442220fdfcf51b63fa59ad9018e",
+			"_id": "regl@0.3.0",
+			"_shasum": "b3828d0b5b19ba1c4d6b51fe8c05db4246ae8af9",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b3828d0b5b19ba1c4d6b51fe8c05db4246ae8af9",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.3.0.tgz_1462120017420_0.7025266045238823"
+			}
+		},
+		"0.4.0": {
+			"name": "regl",
+			"version": "0.4.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"coverify": "^1.4.1",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"gl": "^3.0.5",
+				"gl-mat4": "^1.1.4",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"smokestack": "^3.4.1",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/*.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"coverage": "browserify test/util/browser.js -t coverify | smokestack | coverify",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "2d9cf2f2b18a74b484fb614da785ea6ddf0610d7",
+			"_id": "regl@0.4.0",
+			"_shasum": "77d6bdfae65d353b09cfabd385134b7f3c97e8fb",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "77d6bdfae65d353b09cfabd385134b7f3c97e8fb",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.4.0.tgz_1462810372361_0.3984530819579959"
+			}
+		},
+		"0.5.0": {
+			"name": "regl",
+			"version": "0.5.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"codacy-coverage": "^1.1.3",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"gl": "^3.0.5",
+				"gl-mat4": "^1.1.4",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "acbf3fa7070ee9873fdf80adecb08a81009af2f9",
+			"_id": "regl@0.5.0",
+			"_shasum": "2596ab3c1b927fe1244dd002a63209c9f02b7c2e",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2596ab3c1b927fe1244dd002a63209c9f02b7c2e",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.5.0.tgz_1464124179604_0.6012345678173006"
+			}
+		},
+		"0.6.0": {
+			"name": "regl",
+			"version": "0.6.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "6f478fb7bc82fd249794ca9a9ec38f6df6f74cf5",
+			"_id": "regl@0.6.0",
+			"_shasum": "de83e285df19cabbe646fce053fb767e662082e4",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "de83e285df19cabbe646fce053fb767e662082e4",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.6.0.tgz_1465779957053_0.7077120740432292"
+			}
+		},
+		"0.7.1": {
+			"name": "regl",
+			"version": "0.7.1",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"getusermedia": "^1.3.7",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "e633b5ff40766c418fc3b9fe25820e613c0cd9d0",
+			"_id": "regl@0.7.1",
+			"_shasum": "06611d8700198a9844c5558033b5ecc462e3660b",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "06611d8700198a9844c5558033b5ecc462e3660b",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.7.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-0.7.1.tgz_1466448704183_0.07354488177224994"
+			}
+		},
+		"0.8.0": {
+			"name": "regl",
+			"version": "0.8.0",
+			"description": "WebGL",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"getusermedia": "^1.3.7",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "d91f4bef665795f2f74f5854efcc7257ba678c54",
+			"_id": "regl@0.8.0",
+			"_shasum": "2d1f749c4be81c5610ec46d4bcccb70a2982371f",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2d1f749c4be81c5610ec46d4bcccb70a2982371f",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.8.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-0.8.0.tgz_1467417931664_0.9675346480216831"
+			}
+		},
+		"0.9.0": {
+			"name": "regl",
+			"version": "0.9.0",
+			"description": "Regl is a fast functional reactive abstraction for WebGL.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"getusermedia": "^1.3.7",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"mytest": "standard | snazzy && tape test/stats.js",
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench": "budo bench/index.js --open",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/index.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "336018a9886bd39c9ee1c091f7e5273f9acb234c",
+			"_id": "regl@0.9.0",
+			"_shasum": "c9a738c89872600c86cf5ad3ef1fe09fe5f9e3e2",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c9a738c89872600c86cf5ad3ef1fe09fe5f9e3e2",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.9.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-0.9.0.tgz_1468700898388_0.17182424967177212"
+			}
+		},
+		"0.10.0": {
+			"name": "regl",
+			"version": "0.10.0",
+			"description": "Regl is a fast functional reactive abstraction for WebGL.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tap-browser-color": "^0.1.2",
+				"tape": "^4.4.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"mytest": "standard | snazzy && tape test/stats.js",
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "4153506ffe3f9ab198bf46c40a76ac4678406b40",
+			"_id": "regl@0.10.0",
+			"_shasum": "a2376f59285824c74f5f52b5a2b52b3effc672e9",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "a2376f59285824c74f5f52b5a2b52b3effc672e9",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.10.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.10.0.tgz_1469046124111_0.20207433868199587"
+			}
+		},
+		"0.11.0": {
+			"name": "regl",
+			"version": "0.11.0",
+			"description": "Regl is a fast functional reactive abstraction for WebGL.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2"
+			},
+			"scripts": {
+				"mytest": "standard | snazzy && tape test/stats.js",
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run size",
+				"size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone reglInit > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "557bb2facef8a9d5408c9a23f13f6bb2bd014659",
+			"_id": "regl@0.11.0",
+			"_shasum": "abab1b51423c3f81551b5567bfebe65c5fbe4de0",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "abab1b51423c3f81551b5567bfebe65c5fbe4de0",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-0.11.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/regl-0.11.0.tgz_1470150152988_0.08004087023437023"
+			}
+		},
+		"1.0.0": {
+			"name": "regl",
+			"version": "1.0.0",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "node bin/check-dependecies.js && standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run build-size && npm run build-compare",
+				"build-size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone createREGL > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "6534e942bfc73d6110c3f2174e240bcfe1771002",
+			"_id": "regl@1.0.0",
+			"_shasum": "67444334ffe0a9d306e2426ab4cea6f89ae85c5c",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "67444334ffe0a9d306e2426ab4cea6f89ae85c5c",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.0.0.tgz_1471317154992_0.6291741903405637"
+			}
+		},
+		"1.1.0": {
+			"name": "regl",
+			"version": "1.1.0",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "node bin/check-dependecies.js && standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run build-size && npm run build-compare",
+				"build-size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone createREGL > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "81504f68fbad44040c7a20e17d56951542b58ced",
+			"_id": "regl@1.1.0",
+			"_shasum": "575586127c5f36d731873beaf2b4d128d44fa222",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "575586127c5f36d731873beaf2b4d128d44fa222",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.1.0.tgz_1471898018247_0.2450538796838373"
+			}
+		},
+		"1.1.1": {
+			"name": "regl",
+			"version": "1.1.1",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-position": "^2.0.1",
+				"mouse-pressed": "^1.0.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "node bin/check-dependecies.js && standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run build-size && npm run build-compare",
+				"build-size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone createREGL > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "bbfa73f6399cacefa1cad27a3e5a6a9077e6b9fc",
+			"_id": "regl@1.1.1",
+			"_shasum": "f4df12d6eb209d1d8d0ce5192fe0612ec388890e",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f4df12d6eb209d1d8d0ce5192fe0612ec388890e",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "erkaman",
+					"email": "arnebackeric@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.1.1.tgz_1472088192775_0.7366800943855196"
+			}
+		},
+		"1.2.0": {
+			"name": "regl",
+			"version": "1.2.0",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat3": "^1.0.0",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-position": "^2.0.1",
+				"mouse-pressed": "^1.0.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"ndarray": "^1.0.18",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"surface-nets": "^1.0.2",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "node bin/check-dependecies.js && standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run build-size && npm run build-compare",
+				"build-size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone createREGL > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "ae2a74771b3fb89f72878a445408254b2f2378cd",
+			"_id": "regl@1.2.0",
+			"_shasum": "07a43421a1e778d91d7466fa63cc069ee34095a0",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "07a43421a1e778d91d7466fa63cc069ee34095a0",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "erkaman",
+					"email": "arnebackeric@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.2.0.tgz_1473441027755_0.47213208116590977"
+			}
+		},
+		"1.2.1": {
+			"name": "regl",
+			"version": "1.2.1",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "regl.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": "./lib/transform"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"browserify": "^13.0.0",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"es2020": "^1.1.9",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat3": "^1.0.0",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"indexhtmlify": "^1.2.1",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-position": "^2.0.1",
+				"mouse-pressed": "^1.0.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"ndarray": "^1.0.18",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"surface-nets": "^1.0.2",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"through2": "^2.0.1",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "node bin/check-dependecies.js && standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-gallery && npm run build-size && npm run build-compare",
+				"build-size": "browserify --full-paths --transform ./bin/remove-check.js regl.js | discify > www/size.html",
+				"build-script": "browserify regl.js --standalone createREGL > dist/regl.js",
+				"build-min": "node bin/build-min.js",
+				"build-bench": "browserify bench/bench.js | indexhtmlify > www/bench.html",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "e6817051cefdc9aef18ea4ef6fe44f61834b9f77",
+			"_id": "regl@1.2.1",
+			"_shasum": "473c87869247534705f2f9fee5406d1c0999d165",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "473c87869247534705f2f9fee5406d1c0999d165",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "erkaman",
+					"email": "arnebackeric@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.2.1.tgz_1473616988970_0.3071435650344938"
+			}
+		},
+		"1.3.0": {
+			"name": "regl",
+			"version": "1.3.0",
+			"description": "regl is a fast functional WebGL framework.",
+			"main": "dist/regl.js",
+			"files": [
+				"regl.js",
+				"lib/*",
+				"dist/*",
+				"browserify/*",
+				"API.md",
+				"CHANGES.md",
+				"package.json",
+				"README.md",
+				"DEVELOPING.md"
+			],
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": "./browserify/transform"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^13.1.1",
+				"es2020": "^1.1.9",
+				"angle-normals": "^1.0.0",
+				"baboon-image": "^2.0.0",
+				"bl": "^1.1.2",
+				"budo": "^8.1.0",
+				"bunny": "^1.0.1",
+				"canvas-fit": "^1.5.0",
+				"canvas-orbit-camera": "^1.0.2",
+				"control-panel": "^1.2.0",
+				"conway-hart": "^0.1.0",
+				"deglob": "^1.1.1",
+				"dependency-check": "^2.6.0",
+				"disc": "^1.3.2",
+				"falafel": "^1.2.0",
+				"faucet": "0.0.1",
+				"fuse-vertices": "^0.1.2",
+				"geo-3d-transform-mat4": "^1.0.0",
+				"getusermedia": "^1.3.7",
+				"git-commits": "^1.2.0",
+				"git-parse-commit": "^1.0.0",
+				"gl": "^4.0.1",
+				"gl-mat3": "^1.0.0",
+				"gl-mat4": "^1.1.4",
+				"gl-vec2": "^1.0.0",
+				"gl-vec3": "^1.0.3",
+				"glob": "^7.0.3",
+				"google-closure-compiler": "^20160315.2.0",
+				"hsv2rgb": "^1.1.0",
+				"install": "^0.8.1",
+				"istanbul": "^0.4.3",
+				"mkdirp": "^0.5.1",
+				"mouse-change": "^1.3.0",
+				"mouse-position": "^2.0.1",
+				"mouse-pressed": "^1.0.0",
+				"mouse-wheel": "^1.2.0",
+				"ncp": "^2.0.0",
+				"ndarray": "^1.0.18",
+				"parse-dds": "^1.2.1",
+				"present": "^1.0.0",
+				"primitive-sphere": "^2.0.0",
+				"regl-stats-widget": "0.0.1",
+				"reify": "^0.3.8",
+				"remark": "^5.0.1",
+				"remark-cli": "^1.0.0",
+				"remark-lint": "^4.1.0",
+				"remark-toc": "^3.1.0",
+				"remark-validate-links": "^4.1.0",
+				"resl": "^1.0.0",
+				"rollup": "^0.36.1",
+				"rollup-plugin-buble": "^0.14.0",
+				"rollup-plugin-commonjs": "^5.0.4",
+				"rollup-plugin-json": "^2.0.2",
+				"rollup-plugin-node-resolve": "^2.0.0",
+				"runscript": "^1.1.0",
+				"seedrandom": "^2.4.2",
+				"snazzy": "^3.0.0",
+				"standard": "^6.0.7",
+				"surface-nets": "^1.0.2",
+				"tape": "^4.4.0",
+				"teapot": "^1.0.0",
+				"three": "^0.79.0",
+				"vectorize-text": "^3.0.2",
+				"vertices-bounding-box": "^1.0.0"
+			},
+			"scripts": {
+				"test": "standard | snazzy && tape test/util/index.js | faucet",
+				"test-browser": "budo test/util/browser.js --open",
+				"cover": "istanbul cover test/util/index.js",
+				"bench-browser": "budo bench/bench.js --open",
+				"bench-node": "node bench/bench-node.js",
+				"bench-graph": "node bench/bench-graph.js",
+				"bench-history": "node bench/bench-history",
+				"build": "npm run build-script && npm run build-min && npm run build-bench && npm run build-compare",
+				"build-script": "rollup -c rollup/config.js",
+				"build-min": "rollup -c rollup/config.unchecked.js && node bin/minify.js dist/regl.unchecked.js dist/regl.min.js",
+				"build-bench": "rollup -c rollup/config.bench.js",
+				"build-gallery": "node bin/build-gallery.js",
+				"build-compare": "node bin/build-compare.js",
+				"build-docs": "remark API.md -o API.md",
+				"lint-docs": "remark --frail --quiet README.md API.md DEVELOPING.md CHANGES.md"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/regl.git"
+			},
+			"keywords": [
+				"webgl",
+				"stackgl",
+				"regl",
+				"gl",
+				"graphics",
+				"computer graphics",
+				"opengl",
+				"glsl",
+				"data",
+				"flow",
+				"reactive",
+				"functional"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/regl/issues"
+			},
+			"standard": {
+				"ignore": [
+					"dist/*",
+					"www/*",
+					"example/util/ammo.js"
+				]
+			},
+			"homepage": "https://mikolalysenko.github.io/regl",
+			"gitHead": "26ee1777cdc19ed48f8f752c5897cd6d83ee2122",
+			"_id": "regl@1.3.0",
+			"_shasum": "ccde82eff8a8a068a559581ceacbef1afea78ebd",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "ccde82eff8a8a068a559581ceacbef1afea78ebd",
+				"tarball": "https://registry.npmjs.org/regl/-/regl-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "erkaman",
+					"email": "arnebackeric@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/regl-1.3.0.tgz_1477357234114_0.4110112814232707"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.3.0"
+	},
+	"_distfiles": {
+		"regl-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.0.0.tgz",
+			"sha": "6284f1d33de2cf6df4c5c4dd4ed587c3ad90f111",
+			"registry": "npmjs"
+		},
+		"regl-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.1.0.tgz",
+			"sha": "62fbf79b676a0b9049ea6f9f35648afacc333c37",
+			"registry": "npmjs"
+		},
+		"regl-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.2.0.tgz",
+			"sha": "6cdc1c898f6fcb30637493856d9566fcf063048c",
+			"registry": "npmjs"
+		},
+		"regl-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.3.0.tgz",
+			"sha": "b3828d0b5b19ba1c4d6b51fe8c05db4246ae8af9",
+			"registry": "npmjs"
+		},
+		"regl-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.4.0.tgz",
+			"sha": "77d6bdfae65d353b09cfabd385134b7f3c97e8fb",
+			"registry": "npmjs"
+		},
+		"regl-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.5.0.tgz",
+			"sha": "2596ab3c1b927fe1244dd002a63209c9f02b7c2e",
+			"registry": "npmjs"
+		},
+		"regl-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.6.0.tgz",
+			"sha": "de83e285df19cabbe646fce053fb767e662082e4",
+			"registry": "npmjs"
+		},
+		"regl-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.7.1.tgz",
+			"sha": "06611d8700198a9844c5558033b5ecc462e3660b",
+			"registry": "npmjs"
+		},
+		"regl-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.8.0.tgz",
+			"sha": "2d1f749c4be81c5610ec46d4bcccb70a2982371f",
+			"registry": "npmjs"
+		},
+		"regl-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.9.0.tgz",
+			"sha": "c9a738c89872600c86cf5ad3ef1fe09fe5f9e3e2",
+			"registry": "npmjs"
+		},
+		"regl-0.10.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.10.0.tgz",
+			"sha": "a2376f59285824c74f5f52b5a2b52b3effc672e9",
+			"registry": "npmjs"
+		},
+		"regl-0.11.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-0.11.0.tgz",
+			"sha": "abab1b51423c3f81551b5567bfebe65c5fbe4de0",
+			"registry": "npmjs"
+		},
+		"regl-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.0.0.tgz",
+			"sha": "67444334ffe0a9d306e2426ab4cea6f89ae85c5c",
+			"registry": "npmjs"
+		},
+		"regl-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.1.0.tgz",
+			"sha": "575586127c5f36d731873beaf2b4d128d44fa222",
+			"registry": "npmjs"
+		},
+		"regl-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.1.1.tgz",
+			"sha": "f4df12d6eb209d1d8d0ce5192fe0612ec388890e",
+			"registry": "npmjs"
+		},
+		"regl-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.2.0.tgz",
+			"sha": "07a43421a1e778d91d7466fa63cc069ee34095a0",
+			"registry": "npmjs"
+		},
+		"regl-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.2.1.tgz",
+			"sha": "473c87869247534705f2f9fee5406d1c0999d165",
+			"registry": "npmjs"
+		},
+		"regl-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/regl/-/regl-1.3.0.tgz",
+			"sha": "ccde82eff8a8a068a559581ceacbef1afea78ebd",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58343739-f714\"",
+			"fetched": 1501276740465
+		}
+	},
+	"_rev": "1-85a351f33c5f24bc",
+	"readme": "<div align=\"center\">\n  :crown:\n</div>\n<h1 align=\"center\">\n  regl\n</h1>\n\n<div align=\"center\">\n  Fast functional WebGL\n</div>\n\n<br />\n\n<div align=\"center\">\n  <!-- Stability -->\n  <a href=\"https://nodejs.org/api/documentation.html#documentation_stability_index\">\n    <img src=\"https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square\"\n      alt=\"API stability\" />\n  </a>\n  <!-- NPM version -->\n  <a href=\"https://npmjs.org/package/regl\">\n    <img src=\"https://img.shields.io/npm/v/regl.svg?style=flat-square\"\n      alt=\"NPM version\" />\n  </a>\n  <!-- Build Status -->\n  <a href=\"https://circleci.com/gh/regl-project/regl\">\n    <img src=\"https://circleci.com/gh/regl-project/regl.svg?style=shield\"\n      alt=\"Build Status\" />\n  </a>\n  <!-- File size -->\n  <a href=\"https://npmcdn.com/regl/dist/regl.min.js\">\n    <img src=\"https://badge-size.herokuapp.com/mikolalysenko/regl/gh-pages/dist/regl.min.js.svg?compression=gzip\" alt=\"File Size\" />\n  </a>\n  <!-- Downloads -->\n  <a href=\"https://npmjs.org/package/regl\">\n    <img src=\"https://img.shields.io/npm/dm/regl.svg?style=flat-square\"\n      alt=\"Downloads\" />\n  </a>\n  <!-- Standard -->\n  <a href=\"https://standardjs.com\">\n    <img src=\"https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square\"\n      alt=\"Standard\" />\n  </a>\n</div>\n\n<div align=\"center\">\n  <h3>\n    <a href=\"https://github.com/regl-project/regl/blob/gh-pages/API.md\">\n      Docs\n    </a>\n    <span> | </span>\n    <a href=\"https://gitter.im/mikolalysenko/regl\">\n      Chat\n    </a>\n    <span> | </span>\n    <a href=\"https://npmcdn.com/regl/dist/regl.js\">\n      Download\n    </a>\n    <span> | </span>\n    <a href=\"https://npmcdn.com/regl/dist/regl.min.js\">\n      Minified\n    </a>\n  </h3>\n</div>\n\n## Example\n\n`regl` simplifies WebGL programming by removing as much shared state as it can get away with.  To do this, it replaces the WebGL API with two fundamental abstractions, **resources** and **commands**:\n\n* A **resource** is a handle to a GPU resident object, like a texture, FBO or buffer.\n* A **command** is a complete representation of the WebGL state required to perform some draw call.\n\nTo define a command you specify a mixture of static and dynamic data for the object. Once this is done, `regl` takes this description and then compiles it into optimized JavaScript code.  For example, here is a simple `regl` program to draw a triangle:\n\n```js\n// Calling the regl module with no arguments creates a full screen canvas and\n// WebGL context, and then uses this context to initialize a new REGL instance\nconst regl = require('regl')()\n\n// Calling regl() creates a new partially evaluated draw command\nconst drawTriangle = regl({\n\n  // Shaders in regl are just strings.  You can use glslify or whatever you want\n  // to define them.  No need to manually create shader objects.\n  frag: `\n    precision mediump float;\n    uniform vec4 color;\n    void main() {\n      gl_FragColor = color;\n    }`,\n\n  vert: `\n    precision mediump float;\n    attribute vec2 position;\n    void main() {\n      gl_Position = vec4(position, 0, 1);\n    }`,\n\n  // Here we define the vertex attributes for the above shader\n  attributes: {\n    // regl.buffer creates a new array buffer object\n    position: regl.buffer([\n      [-2, -2],   // no need to flatten nested arrays, regl automatically\n      [4, -2],    // unrolls them into a typedarray (default Float32)\n      [4,  4]\n    ])\n    // regl automatically infers sane defaults for the vertex attribute pointers\n  },\n\n  uniforms: {\n    // This defines the color of the triangle to be a dynamic variable\n    color: regl.prop('color')\n  },\n\n  // This tells regl the number of vertices to draw in this command\n  count: 3\n})\n\n// regl.frame() wraps requestAnimationFrame and also handles viewport changes\nregl.frame(({time}) => {\n  // clear contents of the drawing buffer\n  regl.clear({\n    color: [0, 0, 0, 0],\n    depth: 1\n  })\n\n  // draw a triangle using the command defined above\n  drawTriangle({\n    color: [\n      Math.cos(time * 0.001),\n      Math.sin(time * 0.0008),\n      Math.cos(time * 0.003),\n      1\n    ]\n  })\n})\n```\n\nSee this example [live](http://regl.party/examples/?basic)\n\n### [More examples](https://regl-project.github.io/regl/www/gallery.html)\n\nCheck out the [gallery](https://regl-project.github.io/regl/www/gallery.html). The source code of all the gallery examples can be found [here](https://github.com/regl-project/regl/tree/gh-pages/example).\n\n## Setup\n\n`regl` has no dependencies, so setting it up is pretty easy.  There are 3 basic ways to do this:\n\n### Live editing\n\nTo try out regl right away, you can use the live editor in the [gallery](http://regl.party/examples).\n\n### npm\n\nThe easiest way to use `regl` in a project is via [npm](http://npmjs.com).  Once you have node set up, you can install and use `regl` in your project using the following command:\n\n```sh\nnpm i -S regl\n```\n\nFor more info on how to use npm, [check out the official docs](https://docs.npmjs.com/).\n\nIf you are using npm, you may also want to try [`budo`](https://github.com/mattdesl/budo) which is a live development server.\n\n#### Run time error checking and browserify\n\nBy default if you compile `regl` with `browserify` then all error messages and run time checks are removed.  This is done to reduce the size of the final bundle.  If you are developing an application, you should run browserify using the `--debug` flag in order to enable error messages.  This will also generate source maps which make reading the source code of your application easier.\n\n### Standalone script tag\n\nYou can also use `regl` as a standalone script if you are really stubborn.  The most recent versions can be found in the `dist/` folder and is also available from [npm cdn](https://npmcdn.com) in both minified and unminified versions.\n\n* *Unminified*: [https://npmcdn.com/regl/dist/regl.js](https://npmcdn.com/regl/dist/regl.js)\n* *Minified*: [https://npmcdn.com/regl/dist/regl.min.js](https://npmcdn.com/regl/dist/regl.min.js)\n\nThere are some difference when using `regl` in standalone.  Because script tags don't assume any sort of module system, the standalone scripts inject a global constructor function which is equivalent to the `module.exports` of `regl`:\n\n```html\n<!DOCTYPE html>\n<html>\n  <head>\n    <meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" name=\"viewport\" />\n    <meta charset=utf-8>\n  </head>\n  <body>\n  </body>\n  <script language=\"javascript\" src=\"https://npmcdn.com/regl/dist/regl.js\"></script>\n  <script language=\"javascript\">\n    var regl = createREGL()\n\n    regl.frame(function () {\n      regl.clear({\n        color: [0, 0, 0, 1]\n      })\n    })\n  </script>\n</html>\n```\n\n## Why `regl`\n\n`regl` just removes shared state from WebGL.  You can do anything you could in regular WebGL with little overhead and way less debugging. `regl` emphasizes the following values:\n\n* **Simplicity** The interface is concise and emphasizes separation of concerns.  Removing shared state helps localize the effects and interactions of code, making it easier to reason about.\n* **Correctness** `regl` has more than 30,000 unit tests and above 95% code coverage. In development mode, `regl` performs strong validation and sanity checks on all input data to help you catch errors faster.\n* **Performance**  `regl` uses dynamic code generation and partial evaluation to remove almost all overhead.\n* **Minimalism** `regl` just wraps WebGL.  It is not a game engine and doesn't have opinions about scene graphs or vector math libraries.   Any feature in WebGL is accessible, including advanced extensions like [multiple render targets](https://github.com/regl-project/regl/blob/gh-pages/example/deferred_shading.js) or [instancing](https://github.com/regl-project/regl/blob/gh-pages/example/instance-triangle.js).\n* **Stability** `regl` takes interface compatibility and semantic versioning seriously, making it well suited for long lived applications that must be supported for months or years down the road.  It also has no dependencies limiting exposure to risky or unplanned updates.\n\n### [Comparisons](https://regl-project.github.io/regl/www/compare.html)\n\nWhile `regl` is lower level than many 3D engines, code written in it tends to be highly compact and flexible.  A comparison of `regl` to various other WebGL [libraries across several tasks can be found here](https://regl-project.github.io/regl/www/compare.html).\n\n### [Benchmarks](https://regl-project.github.io/regl/www/bench-results/bench-result-8ea4a7e806beed0b9732)\n\nIn order to prevent performance regressions, `regl` is continuously\nbenchmarked.  You can run benchmarks locally using `npm run bench` or\n[check them out\nonline](https://regl-project.github.io/regl/www/bench.html). The\n[results for the last few days can be found\nhere.](https://regl-project.github.io/regl/www/bench-results/bench-result-db4b76e25bd8ed6d7ed9)\n\nThese measurements were taken using our custom scripts `bench-history` and\n`bench-graph`. You can read more about them in [the development guide](https://github.com/regl-project/regl/blob/gh-pages/DEVELOPING.md).\n\n### Projects using regl\n\nThe following is an incomplete list of projects using regl:\n\n* [538 Gun Deaths](http://fivethirtyeight.com/features/gun-deaths/)\n* [Infinite Terrain Demo](https://github.com/Erkaman/wireframe-world)\n* [GPGPU Smooth Life](https://github.com/rreusser/regl-smooth-life)\n* [Summed Area Tables](https://github.com/realazthat/glsl-sat)\n* [GPGPU Fourier Analysis](https://github.com/dfcreative/gl-fourier)\n* [GPU accelerated handwritten digit recognition with regl using Convolutional Neural Networks](https://github.com/Erkaman/regl-cnn)\n\nIf you have a project using regl that isn't on this list that you would like to see added, [please send us a pull request!](https://github.com/regl-project/regl/edit/gh-pages/README.md)\n\n## [Help Wanted](https://github.com/regl-project/regl/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)\n\nregl is still under active developement, and anyone willing to contribute is very much welcome to do so. Right now, what we need the most is for people to write examples and demos with the framework. This will allow us to find bugs and deficiencies in the API. We have a list of examples we would like to be implemented [here](https://github.com/regl-project/regl/issues?q=is%3Aopen+is%3Aissue+label%3Aexample), but you are of course welcome to come up with your own examples. To add an example to our gallery of examples, [please send us a pull request!](https://github.com/regl-project/regl/pulls)\n\n## [API docs](https://github.com/regl-project/regl/blob/gh-pages/API.md)\n\n`regl` has extensive API documentation.  You can browse the [docs online here](https://github.com/regl-project/regl/blob/gh-pages/API.md).\n\n## [Development](https://github.com/regl-project/regl/blob/gh-pages/DEVELOPING.md)\n\nThe latest changes in `regl` can be found in the [CHANGELOG](https://github.com/regl-project/regl/blob/gh-pages/CHANGES.md).\n\n[For info on how to build and test headless, see the contributing guide here](https://github.com/regl-project/regl/blob/gh-pages/DEVELOPING.md)\n\n## [License](LICENSE)\n\nAll code (c) 2016 MIT License\n\nDevelopment supported by the [Freeman Lab](https://www.janelia.org/lab/freeman-lab) and the Howard Hughes Medical Institute ([@freeman-lab](https://github.com/freeman-lab) on GitHub)\n\n#### Asset licenses\n\nMany examples use creative commons or public domain artwork for illustrative purposes.  These assets are not included in any of the redistributable packages of regl.\n\n* Peppers test image for cube comparison is public domain\n* Test video (doggie-chromakey.ogv) by [L0ckergn0me](https://archive.org/details/L0ckergn0me-PixieGreenScreen446), used under creative commons license\n* Cube maps (posx.jpeg, negx.jpeg, posy.jpeg, negy.jpeg, posz.jpeg, negz.jpeg) by [Humus](http://www.humus.name/index.php?page=Textures), used under creative commons 3 license\n* Environment map of Oregon (ogd-oregon-360.jpg) due to Max Ogden ([@maxogd](https://github.com/maxogden) on GitHub)\n* DDS test images (alpine_cliff_a, alpine_cliff_a_norm, alpine_cliff_a_spec) taken from the CC0 license [0-AD texture pack by Wildfire games](http://opengameart.org/content/0-ad-textures)\n* Tile set for tile mapping demo (tiles.png) from CC0 licensed [cobblestone paths pack](http://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects)\n* Audio track for `audio.js` example is \"[Bamboo Cactus](https://archive.org/details/8bp033)\" by [8bitpeoples](https://archive.org/details/8bitpeoples).  CC BY-ND-NC 1.0 license\n* Matcap (spheretexture.jpg) by [Ben Simonds](https://bensimonds.com/2010/07/30/matcap-generator/). CC 3 license.\n* Normal map (normaltexture.jpg) by [rubberduck](http://opengameart.org/node/21219). CC0 license.\n"
+}

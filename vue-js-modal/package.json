@@ -1,0 +1,2105 @@
+{
+	"name": "vue-js-modal",
+	"versions": {
+		"1.0.0": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.0",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "./Modal/index.js",
+			"scripts": {
+				"examples": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+			},
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"velocity-animate": "^1.4.2"
+			},
+			"gitHead": "91c322e670f562106f0a9acfc41b26fd4295de5c",
+			"_id": "vue-js-modal@1.0.0",
+			"_shasum": "3a1f71d170e92299b61c31b46ef3d6c03e7793a5",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "3a1f71d170e92299b61c31b46ef3d6c03e7793a5",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.0.tgz_1489144523702_0.2874791524372995"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.1",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "./Modal/index.js",
+			"scripts": {
+				"examples": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+			},
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "d3fccde851a8c5f493d295b05f78b056f87dd6f6",
+			"_id": "vue-js-modal@1.0.1",
+			"_shasum": "fb618f176066b12e41a91ea5bd5e186e170146a5",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "fb618f176066b12e41a91ea5bd5e186e170146a5",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.1.tgz_1489407361881_0.27595469914376736"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.2",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "./Modal/index.js",
+			"scripts": {
+				"examples": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+			},
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "8e5520db4f399e80c145b40eac1c55b9c319680a",
+			"_id": "vue-js-modal@1.0.2",
+			"_shasum": "4168f137e238678ed2916fc43eb0e79fd3848c22",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "4168f137e238678ed2916fc43eb0e79fd3848c22",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.2.tgz_1489408177613_0.7862458152230829"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.3",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"private": false,
+			"main": "./Modal/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"license": "MIT",
+			"scripts": {
+				"examples": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+			},
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"gitHead": "c97ecd890063506b69f4613f3d0ca4a9bda971e4",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.3",
+			"_shasum": "02d843bbd90a6bb23863ce1b6fbfbfafb6382dd7",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "02d843bbd90a6bb23863ce1b6fbfbfafb6382dd7",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.3.tgz_1489497195436_0.8099653527606279"
+			},
+			"directories": {}
+		},
+		"1.0.10": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.10",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "c97ecd890063506b69f4613f3d0ca4a9bda971e4",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.10",
+			"_shasum": "14cbe54b228a384bef2b73d4d7cf2729762d5e0c",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "14cbe54b228a384bef2b73d4d7cf2729762d5e0c",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.10.tgz_1491388417656_0.6157255498692393"
+			},
+			"directories": {}
+		},
+		"1.0.11": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.11",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "3d9c97722ff8d1afeee96c9b11e9bfb811d54f37",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.11",
+			"_shasum": "c43bfed92f000f1985d2689fa6405fd3ca9a5a04",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c43bfed92f000f1985d2689fa6405fd3ca9a5a04",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.11.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.11.tgz_1491388919337_0.013354402733966708"
+			},
+			"directories": {}
+		},
+		"1.0.12": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.12",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.1.10",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "2d913af2f44d00cddcae68951dcf2d3d9250d9ab",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.12",
+			"_shasum": "02a4ae83b4ecdd9d601b7d03b6333ec922d1dffa",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "02a4ae83b4ecdd9d601b7d03b6333ec922d1dffa",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.12.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.12.tgz_1491390058040_0.6567536734510213"
+			},
+			"directories": {}
+		},
+		"1.0.13": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.13",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "bc92cd6cf04dd8a48224cd7f93f4f1ec1c6c2ae6",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.13",
+			"_shasum": "c14d3ec038ac617b469e906e834e4c38eec309bf",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c14d3ec038ac617b469e906e834e4c38eec309bf",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.13.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.13.tgz_1491392937518_0.7170966782141477"
+			},
+			"directories": {}
+		},
+		"1.0.14": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.14",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "dc3b6886fece548d1db0f85039d8b69856ba3a23",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.14",
+			"_shasum": "f028772cd752c1ce35db270e7285e8bca42c853b",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f028772cd752c1ce35db270e7285e8bca42c853b",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.14.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.14.tgz_1491392979995_0.47856558323837817"
+			},
+			"directories": {}
+		},
+		"1.0.15": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.15",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "cfeec956e614618d1c3a84470b44b6cf72a7ef5f",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.15",
+			"_shasum": "cf4bfb4ef761dc6d205992c5a4bcbd06b3473467",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "cf4bfb4ef761dc6d205992c5a4bcbd06b3473467",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.15.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.15.tgz_1491681980798_0.8527604325208813"
+			},
+			"directories": {}
+		},
+		"1.0.16": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.16",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "eead3bc7708a75cd2ae44eb631e0d8e862856ec1",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.16",
+			"_shasum": "05f47cef9ed631ab2c262ead4b83a2e41ab8a5f8",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "05f47cef9ed631ab2c262ead4b83a2e41ab8a5f8",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.16.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.16.tgz_1491822645893_0.0587592211086303"
+			},
+			"directories": {}
+		},
+		"1.0.17": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.17",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "3f75b2438c5bd6da1ba3653d634520eadf031202",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.17",
+			"_shasum": "92bed0068f06846437dd93571fed6963e26b5d3a",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "92bed0068f06846437dd93571fed6963e26b5d3a",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.17.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.17.tgz_1492324199937_0.9371094387024641"
+			},
+			"directories": {}
+		},
+		"1.0.18": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.18",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "b63093cccbc93fb766392827c1ad81611ebcff98",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.18",
+			"_shasum": "9a2a1b9db8e8b08597f53b3b4109ee0a71a1b747",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "9a2a1b9db8e8b08597f53b3b4109ee0a71a1b747",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.18.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.18.tgz_1492594342576_0.5137026752345264"
+			},
+			"directories": {}
+		},
+		"1.0.19": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.19",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "4e5f94e38d333501f7cfbc8503dee33ea4f0c9bd",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.19",
+			"_shasum": "f3599b5ba7b309351e3f9c0fdef63399652f5831",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f3599b5ba7b309351e3f9c0fdef63399652f5831",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.19.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.19.tgz_1493310117196_0.29197210469283164"
+			},
+			"directories": {}
+		},
+		"1.0.20": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.20",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "b7e6b722eb4803e4c4e31d805fb6c330b2172a45",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.20",
+			"_shasum": "cf4dfb1c9681a2d5ac7c4ddfcb26417203c40223",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "cf4dfb1c9681a2d5ac7c4ddfcb26417203c40223",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.20.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.20.tgz_1493393102629_0.6224638384301215"
+			},
+			"directories": {}
+		},
+		"1.0.21": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.0.21",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "2428effd8b7ccfe0756d5fb020b2d5f06263c486",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.0.21",
+			"_shasum": "0f756bf089ed8ed39d3f312ac627f52a2a5e51fa",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "0f756bf089ed8ed39d3f312ac627f52a2a5e51fa",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.21.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.0.21.tgz_1493993293315_0.3821020934265107"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.1.0",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-preset-latest": "^6.0.0",
+				"vue": "^2.2.6",
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"dependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "079887e5a2a704aa6fd5e457f78dee6c26c2d9bd",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.1.0",
+			"_shasum": "31030e5aa979f77b81e62425142fecec58006d38",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "31030e5aa979f77b81e62425142fecec58006d38",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.1.0.tgz_1494520950108_0.7968414050992578"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.1.1",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "9b0f3c2cc8c323a92ce73d656e205fcff5c3f9b7",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.1.1",
+			"_shasum": "bf52fc7dddfb2b6b8678231f9079bcd536433056",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "bf52fc7dddfb2b6b8678231f9079bcd536433056",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-js-modal-1.1.1.tgz_1494920436804_0.26669643563218415"
+			},
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.1.2",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "1c4a6ee69e858255ff6c40dbc37d95224c487ae3",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.1.2",
+			"_shasum": "0ce60ff3737d7408eb787613a4a028a38cf57dcd",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "0ce60ff3737d7408eb787613a4a028a38cf57dcd",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.1.2.tgz_1495557379686_0.8891239010263234"
+			},
+			"directories": {}
+		},
+		"1.1.3": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.1.3",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-loader": "^6.2.10",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-latest": "^6.0.0",
+				"babel-preset-stage-2": "^6.24.1",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "a80e966dce2baf3d640db59526629d635bb45208",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.1.3",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-poNNzNQNa6BxNFvgmEffNs0knvpQ05kYA2+WyAUxtwBPthCR/orawSQtgRjFlkcUo0hLQbgLy0f3fxtoLGZB4w==",
+				"shasum": "6b25c71a3d4c90081b0e7088a5e8d8f70e4be195",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.1.3.tgz_1497963295021_0.7657324990723282"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.0",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "b1c9c607b30612d7fce2c14f9a08cf88e3c5746a",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-NQGsvw14pw0aqs8kpaqV3nmof78Wrqhkt6stU6EK6GNsAlAlctWqS0XyUZh5IEM8fN/3ENSsZNYLiHqpnrR5Ag==",
+				"shasum": "a464906960205163e8d78a79d78dec398a8a5d4f",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.0.tgz_1497997190514_0.003722112625837326"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.1",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "787de3b20534f52ef2897fe9416f75fac258bf2c",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.1",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XVbQZKVhvqFqx5k/6WLBNPVlg/8vQGheWebuW6RFEt+XCNjxJYxAl9X8c0/8p+f7jDV32CFZyhipIb7sNibSgg==",
+				"shasum": "a29d1738c9bdfe2fa698ddc27dee0b28ea26e086",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.1.tgz_1498076519712_0.9471310749650002"
+			},
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.2",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "f371235d036336d25fac150efd532e9a4ad80c40",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.2",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-5ltYKxED7aeY5rEbpEJK00e3AehMH0iUXKXfMspZEyKabO7eekD8QoslK4bl23k/+8D0bhEEsriIiE3VnVljaQ==",
+				"shasum": "450d8bfb300529152bce9b282bd136676195da77",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.2.tgz_1498143317282_0.365697480738163"
+			},
+			"directories": {}
+		},
+		"1.2.3": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.3",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "c41c8546326da3e2c12e333ff75d39c74688cf22",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.3",
+			"_npmVersion": "5.0.4",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-GdqTR/gI532chLzGYInWcvD8iNHobZiTlSNlX3lLtNMnxZkU6lhvCQSV9tmzIQtLIW+oKjm8RYiKOCxqGkX0KA==",
+				"shasum": "635cf81b73dda5f64abd986ac7de981dd91ed3e8",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.3.tgz_1499264793633_0.20918242121115327"
+			},
+			"directories": {}
+		},
+		"1.2.4": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.4",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "deaee30baacd7f45af8b976678dbb5727a40b970",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.4",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aUWN3M3duEwhcoEXiz5ZVWGFNJU28nnAOxMKWiD5+LkM7j41iOaqvx6+7goMjQMrdZZ2UwWaXTOK7X71MhsqIg==",
+				"shasum": "cab0d5fd16745d3b1261fe71affda5fb964d8d0f",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.4.tgz_1500209829003_0.33286577998660505"
+			},
+			"directories": {}
+		},
+		"1.2.5": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.5",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "1487ed7d834fc083eb21e894469f8e6c0878f2d8",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.5",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-idaD5Fku74Z4BJ7eZAzVLlbEaM/rSdAK8vhvzueSVrFMhrMTLlhlIrMbayc0EixwlQEU97pZcbN4zmguTT16UQ==",
+				"shasum": "7dc58e5ef64d8628f3a0f1d1c375ce9cfb4c5ea0",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.5.tgz_1500486023974_0.09719602181576192"
+			},
+			"directories": {}
+		},
+		"1.2.6": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.6",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "7575a27ceb2139a5745e63369e0e0dca3a9fbf95",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.6",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-7XqgTceQegzjOxfMcCLCz8s8boQjwmnK5UmtWOcYfkNL6wqiEJWpttYujOw+//2whf12cwsCXAroGZSzrL/kqg==",
+				"shasum": "1697b366f4aaac56bf499e678f4bc1d1dd9722fe",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.6.tgz_1500922524117_0.6822314809542149"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.2.6"
+	},
+	"_distfiles": {
+		"vue-js-modal-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.0.tgz",
+			"sha": "3a1f71d170e92299b61c31b46ef3d6c03e7793a5",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.1.tgz",
+			"sha": "fb618f176066b12e41a91ea5bd5e186e170146a5",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.2.tgz",
+			"sha": "4168f137e238678ed2916fc43eb0e79fd3848c22",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.3.tgz",
+			"sha": "02d843bbd90a6bb23863ce1b6fbfbfafb6382dd7",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.10.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.10.tgz",
+			"sha": "14cbe54b228a384bef2b73d4d7cf2729762d5e0c",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.11.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.11.tgz",
+			"sha": "c43bfed92f000f1985d2689fa6405fd3ca9a5a04",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.12.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.12.tgz",
+			"sha": "02a4ae83b4ecdd9d601b7d03b6333ec922d1dffa",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.13.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.13.tgz",
+			"sha": "c14d3ec038ac617b469e906e834e4c38eec309bf",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.14.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.14.tgz",
+			"sha": "f028772cd752c1ce35db270e7285e8bca42c853b",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.15.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.15.tgz",
+			"sha": "cf4bfb4ef761dc6d205992c5a4bcbd06b3473467",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.16.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.16.tgz",
+			"sha": "05f47cef9ed631ab2c262ead4b83a2e41ab8a5f8",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.17.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.17.tgz",
+			"sha": "92bed0068f06846437dd93571fed6963e26b5d3a",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.18.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.18.tgz",
+			"sha": "9a2a1b9db8e8b08597f53b3b4109ee0a71a1b747",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.19.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.19.tgz",
+			"sha": "f3599b5ba7b309351e3f9c0fdef63399652f5831",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.20.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.20.tgz",
+			"sha": "cf4dfb1c9681a2d5ac7c4ddfcb26417203c40223",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.0.21.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.0.21.tgz",
+			"sha": "0f756bf089ed8ed39d3f312ac627f52a2a5e51fa",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.0.tgz",
+			"sha": "31030e5aa979f77b81e62425142fecec58006d38",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.1.tgz",
+			"sha": "bf52fc7dddfb2b6b8678231f9079bcd536433056",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.2.tgz",
+			"sha": "0ce60ff3737d7408eb787613a4a028a38cf57dcd",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.1.3.tgz",
+			"sha": "6b25c71a3d4c90081b0e7088a5e8d8f70e4be195",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.0.tgz",
+			"sha": "a464906960205163e8d78a79d78dec398a8a5d4f",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.1.tgz",
+			"sha": "a29d1738c9bdfe2fa698ddc27dee0b28ea26e086",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.2.tgz",
+			"sha": "450d8bfb300529152bce9b282bd136676195da77",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.3.tgz",
+			"sha": "635cf81b73dda5f64abd986ac7de981dd91ed3e8",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.4.tgz",
+			"sha": "cab0d5fd16745d3b1261fe71affda5fb964d8d0f",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.5.tgz",
+			"sha": "7dc58e5ef64d8628f3a0f1d1c375ce9cfb4c5ea0",
+			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.6.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.6.tgz",
+			"sha": "1697b366f4aaac56bf499e678f4bc1d1dd9722fe",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vue-js-modal-1.2.6.tgz": {
+			"shasum": "1697b366f4aaac56bf499e678f4bc1d1dd9722fe"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5976429d-cb98\"",
+			"fetched": 1501276735084
+		}
+	},
+	"_rev": "2-c0fc36e563850b0e",
+	"readme": "[![npm version](https://badge.fury.io/js/vue-js-modal.svg)](https://badge.fury.io/js/vue-js-modal)\n[![npm](https://img.shields.io/npm/dm/vue-js-modal.svg)]()\n\n# Vue.js modal\n\n##### Simple to use, highly customizable, mobile friendly Vue.js 2.0+ modal. http://vue-js-modal.yev.io/\n##### (now works with SSR)\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/3oKIPco1eNxAA1rD4Q/giphy.gif\">\n</p>\n\nDemo: http://vue-js-modal.yev.io/\n\n### Install\n\n```bash\nnpm install vue-js-modal --save\n```\n\n### How to use\n\nInclude plugin in your `main.js` file.\n\n```javascript\nimport vmodal from 'vue-js-modal'\n\nVue.use(vmodal)\n```\n\nCreate modal:\n\n```html\n<modal name=\"hello-world\">\n  hello, world!\n</modal>\n```\nCall it from anywhere in the app:\n\n```javascript\nmethods: {\n  show () {\n    this.$modal.show('hello-world');\n  },\n  hide () {\n    this.$modal.hide('hello-world');\n  }\n}\n```\n\n### SSR\n\nInclude plugin in your `nuxt.config.js` file:\n\n```javascript\nmodule.exports = {\n  plugins: ['~plugins/vue-js-modal']\n}\n```\n\nAnd your `plugins/vue-js-modal.js` will look like:\n\n```javascript\nimport Vue from 'vue'\nimport VModal from 'vue-js-modal/dist/ssr.index'\n\nVue.use(VModal)\n```\n\nFor full demo please look at `demo/server_side_rendering`\n\n### Properties\n\n| Name      | Required | Type          | Default     | Description |\n| ---       | ---      | ---           | ---         | ---         |\n| name      | true  | [String, Number] |             | Name of the modal |\n| delay     | false | Number           | 0           | Delay between showing overlay and actual modal box |\n| resizable | false | Boolean          | false       | If true, allows to resize modal window, keeping it in the center of the screen. |\n| adaptive  | false | Boolean          | false       | If true, modal box will try to adapt to the window size |\n| draggable | false | [Boolean, String]| false       | If true, modal box will be draggable. |\n| scrollable | false | Boolean         | false       | If `height` property is `auto` and the modal height exceeds window height - you will be able to scroll modal |\n| reset     | false | Boolean          | false       | Resets position and size before showing modal |\n| clickToClose | false | Boolean       | true        | If set to `false`, it will not be possible to close modal by clicking on the background |\n| transition| false | String           |             | Transition name |\n| classes   | false | [String, Array]  | 'vue--modal'| Classes that will be applied to the actual modal box, if not specified, the default 'vue--modal' class will be applied |\n| width     | false | [String, Number] | 600         | Width in pixels or percents (e.g. 50 or \"50px\", \"50%\") |\n| height    | false | [String, Number] | 300         | Height in pixels or percents (e.g. 50 or \"50px\", \"50%\") or `\"auto\"` |\n| minWidth  | false | Number           | 0           | The minimum width to which modal can be resized  |\n| minHeight | false | Number           | 0           | The minimum height to which modal can be resized |\n| pivotX    | false | Number (0 - 1.0) | 0.5         | Horizontal position in %, default is 0.5 (meaning that modal box will be in the middle (50% from top) of the window |\n| pivotY    | false | Number (0 - 1.0) | 0.5         | Vertical position in %, default is 0.5 (meaning that modal box will be in the middle (50% from left) of the window |\n\n### Events\n\n| Name         | Description |\n| ---          | --- |\n| before-open  | Emits while modal is still invisible, but was added to the DOM |\n| opened       | Emits after modal became visible or started transition |\n| before-close | Emits before modal is going to be closed. Can be stopped from the event listener calling `event.stop()` (example: you are creating a text editor, and want to stop closisng and ask user to correct mistakes if text is not valid)\n| closed       | Emits right before modal is destoyed |\n\nExample:\n```vue\n<template>\n  <modal name=\"example\"\n         :width=\"300\"\n         :height=\"300\"\n         @before-open=\"beforeOpen\"\n         @before-close=\"beforeClose\">\n    <b>{{time}}</b>\n  </modal>\n</template>\n<script>\nexport default {\n  name: 'ExampleModal',\n  data () {\n    return {\n      time: 0,\n      duration: 5000\n    }\n  },\n  methods: {\n    beforeOpen (event) {\n      console.log(event)\n      // Set the opening time of the modal\n      this.time = Date.now()\n    },\n    beforeClose (event) {\n      console.log(event)\n      // If modal was open less then 5000 ms - prevent closing it\n      if (this.time + this.duration < Date.now()) {\n        event.stop()\n      }\n    }\n  }\n}\n</script>\n```\n\nThis example, initializes `time` variable every time the modal is being opened.\nAnd then forbits closing it for the next 5000 ms\n\n### Other\n\n#### Height: \"auto\"\n\nFrom `v1.2.6` height can be set to \"auto\". If you want to be able to scroll modal in case it's height exceeds window height - you can set flag `scrollable=\"true\"`. \n\np.s. `scrollable` will only work with `height=\"auto\"`.\n\nExample: \n\n```vue\n<modal name=\"foo\" height=\"auto\" :scrollable=\"true\">...</modal>\n```\n\n\n#### Close button\n\nIf you want to have a Close (x) button in the top-right corner, you can use \"top-right\" slot for it. There is deliberately no predefined Close button style - you will have to implement/use your own button.\n\nExample:\n```vue\n<template>\n  <modal name=\"foo\">\n\n    <div slot=\"top-right\">\n      <button @click=\"$modal.hide('foo')\">\n        ❌\n      </button>\n    </div>\n\n    Hello, ☀️!\n\n  </modal>\n</template>\n```\n\n\n#### Draggable handler\n\nDraggable property can accept not only `Boolean` but also `String` paramenters. With `String` value, you can specify a CSS selector to the element which will be a \"handler\" for dragging.\n\nExample:\n\n```vue\n<modal name=\"bar\" draggable=\".window-header\">\n  <div class=\"window-header\">DRAG ME HERE</div>\n  <div>\n     Hello, 🌎!\n  </div>\n</modal>\n```\n\n#### Fullscreen\n\n```vue\n<modal name=\"fs\" :adaptive=\"true\" width=\"100%\" height=\"100%\">\n</modal>\n```\n\n### Developers\n\nTo run an example:\n```sh\n# Clone repo\n\ngit clone https://github.com/euvl/vue-js-modal.git\n\n# Build main library\n\ncd vue-js-modal\nnpm install\nnpm run build\n\n# Build and run demo\n\ncd demo\nnpm install\nnpm run dev\n```\n"
+}

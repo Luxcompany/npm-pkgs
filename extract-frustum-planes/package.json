@@ -1,0 +1,136 @@
+{
+	"name": "extract-frustum-planes",
+	"versions": {
+		"0.0.0": {
+			"name": "extract-frustum-planes",
+			"version": "0.0.0",
+			"description": "Extracts the planes for a WebGL viewing frustum",
+			"main": "extract-planes.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.4.4",
+				"tape": "~1.1.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/extract-frustum-planes.git"
+			},
+			"keywords": [
+				"view",
+				"frustum",
+				"plane",
+				"extract",
+				"webgl",
+				"3d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/extract-frustum-planes/issues"
+			},
+			"_id": "extract-frustum-planes@0.0.0",
+			"dist": {
+				"shasum": "5fb88e7ac8ea1937d58d19a583ad32e8d432024c",
+				"tarball": "https://registry.npmjs.org/extract-frustum-planes/-/extract-frustum-planes-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "extract-frustum-planes",
+			"version": "1.0.0",
+			"description": "Extracts the planes for a WebGL viewing frustum",
+			"main": "extract-planes.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": "~0.4.4",
+				"tape": "~1.1.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/extract-frustum-planes.git"
+			},
+			"keywords": [
+				"view",
+				"frustum",
+				"plane",
+				"extract",
+				"webgl",
+				"3d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/extract-frustum-planes/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/extract-frustum-planes",
+			"_id": "extract-frustum-planes@1.0.0",
+			"dist": {
+				"shasum": "97d5703ff0564c8c3c6838cac45f9e7bc52c9ef5",
+				"tarball": "https://registry.npmjs.org/extract-frustum-planes/-/extract-frustum-planes-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"extract-frustum-planes-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/extract-frustum-planes/-/extract-frustum-planes-0.0.0.tgz",
+			"sha": "5fb88e7ac8ea1937d58d19a583ad32e8d432024c",
+			"registry": "npmjs"
+		},
+		"extract-frustum-planes-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/extract-frustum-planes/-/extract-frustum-planes-1.0.0.tgz",
+			"sha": "97d5703ff0564c8c3c6838cac45f9e7bc52c9ef5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53a3000d-f68\"",
+			"fetched": 1501276752128
+		}
+	},
+	"_rev": "1-4e9f8766f3c1caf0",
+	"readme": "extract-frustum-planes\n======================\nReturns a list of frustum planes from a given WebGL matrix (assuming the matrix is stored in the same format as used by [gl-matrix](https://github.com/toji/gl-matrix)).\n\n\n## Install\n\n    npm install extract-frustum-planes\n\n## Example\n\n```javascript\nvar getPlanes = require(\"extract-frustum-planes\")\n\nvar glm = require(\"gl-matrix\")\nvar m = glm.mat4.perspective()\n```\n\n## API\n\n### `require(\"extract-frustum-planes\")(worldToClip[, zNear, zFar])`\nExtracts the frustum planes of the combined world to clip coordinate matrix for WebGL\n\n* `worldToClip` is the concatenated model-view-projection matrix in the same format as expected by WebGL (ie compatible with gl-matrix)\n* `zNear` is the near clip plane distance as set by `gl.depthRange` (default 0.0)\n* `zFar` is the far clip plane distance as set by `gl.depthRange`\n\n**Returns** An array of 6 planes encoding the view frustum stored in the order:\n\n* `left`\n* `right`\n* `top`\n* `bottom`\n* `near`\n* `far`\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
+}

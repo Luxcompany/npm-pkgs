@@ -1,0 +1,559 @@
+{
+	"name": "gl-error3d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-error3d",
+			"version": "1.0.0",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-vao": "^1.1.3",
+				"gl-buffer": "^2.0.8",
+				"glslify": "^1.6.0"
+			},
+			"devDependencies": {
+				"gl-matrix": "^2.1.0",
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-axes": "^5.0.0"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "52f2cecb02708e7104e709ae2bea79c3b696d2de",
+			"_id": "gl-error3d@1.0.0",
+			"_shasum": "710fb59962c470506236bf8ddcd729b2eaceb919",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "710fb59962c470506236bf8ddcd729b2eaceb919",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "gl-error3d",
+			"version": "1.0.1",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-vao": "^1.1.3",
+				"gl-buffer": "^2.0.8",
+				"glslify": "^1.6.0"
+			},
+			"devDependencies": {
+				"gl-matrix": "^2.1.0",
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-axes": "^5.0.0"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "63b6d14f37b2948a781995629d00803994ee5bf6",
+			"_id": "gl-error3d@1.0.1",
+			"_shasum": "f292336fdeb5e8b99f104426808b3579679015e4",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f292336fdeb5e8b99f104426808b3579679015e4",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "gl-error3d",
+			"version": "1.0.2",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-buffer": "^2.0.8",
+				"gl-shader": "^4.0.4",
+				"gl-vao": "^1.1.3",
+				"glslify": "^2.1.2"
+			},
+			"devDependencies": {},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "ef4f9317c43475158681fe2356a9bce9356f8666",
+			"_id": "gl-error3d@1.0.2",
+			"_shasum": "ae329d778cbe305ede96cf0185fd388c2be36525",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "ae329d778cbe305ede96cf0185fd388c2be36525",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.0.3": {
+			"name": "gl-error3d",
+			"version": "1.0.3",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-buffer": "^2.0.8",
+				"gl-shader": "^4.0.4",
+				"gl-vao": "^1.1.3",
+				"glslify": "^2.1.2"
+			},
+			"devDependencies": {},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "289ab97872a8e720d8af4f49a709a0daf593e6c8",
+			"_id": "gl-error3d@1.0.3",
+			"_shasum": "7c101a3ebf9a1b9ca1cf90c45d98da1af056584d",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "7c101a3ebf9a1b9ca1cf90c45d98da1af056584d",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.0.4": {
+			"name": "gl-error3d",
+			"version": "1.0.4",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-buffer": "^2.0.8",
+				"gl-shader": "^4.0.4",
+				"gl-vao": "^1.1.3",
+				"glslify": "^2.1.2"
+			},
+			"devDependencies": {},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "2b6c840e312576acda3491545f2b402cf4edd5bf",
+			"_id": "gl-error3d@1.0.4",
+			"_shasum": "aa599bc9bea3f8307958c9c1a9d9465fce871d5f",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "aa599bc9bea3f8307958c9c1a9d9465fce871d5f",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.0.5": {
+			"name": "gl-error3d",
+			"version": "1.0.5",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "budo example/example"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.2.1",
+				"gl-vao": "^1.3.0",
+				"glslify": "^6.0.2"
+			},
+			"devDependencies": {
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-matrix": "^2.3.2",
+				"gl-now": "^1.4.0"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "769bb695c5160d54cd83abf5319f35680d126027",
+			"_id": "gl-error3d@1.0.5",
+			"_shasum": "13a23babfcb5b534d574664a1f2f6eae3b0708f3",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "13a23babfcb5b534d574664a1f2f6eae3b0708f3",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-error3d-1.0.5.tgz_1495571683184_0.5907633311580867"
+			}
+		},
+		"1.0.6": {
+			"name": "gl-error3d",
+			"version": "1.0.6",
+			"description": "Draws error bars around points",
+			"main": "errorbars.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "budo example/example"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-error3d.git"
+			},
+			"keywords": [
+				"error",
+				"bar",
+				"webgl"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-error3d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-error3d",
+			"dependencies": {
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "4.2.0",
+				"gl-vao": "^1.3.0",
+				"glslify": "^6.0.2"
+			},
+			"devDependencies": {
+				"game-shell-orbit-camera": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-matrix": "^2.3.2",
+				"gl-now": "^1.4.0"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"gitHead": "b7453a2bb5818a473660d791b8f1edef1914ced5",
+			"_id": "gl-error3d@1.0.6",
+			"_shasum": "be034667b61a28e830edd371a709ac1c227a3fdc",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "be034667b61a28e830edd371a709ac1c227a3fdc",
+				"tarball": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-error3d-1.0.6.tgz_1496350733281_0.11945218383334577"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.6"
+	},
+	"_distfiles": {
+		"gl-error3d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.0.tgz",
+			"sha": "710fb59962c470506236bf8ddcd729b2eaceb919",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.1.tgz",
+			"sha": "f292336fdeb5e8b99f104426808b3579679015e4",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.2.tgz",
+			"sha": "ae329d778cbe305ede96cf0185fd388c2be36525",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.3.tgz",
+			"sha": "7c101a3ebf9a1b9ca1cf90c45d98da1af056584d",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.4.tgz",
+			"sha": "aa599bc9bea3f8307958c9c1a9d9465fce871d5f",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.5.tgz",
+			"sha": "13a23babfcb5b534d574664a1f2f6eae3b0708f3",
+			"registry": "npmjs"
+		},
+		"gl-error3d-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-error3d/-/gl-error3d-1.0.6.tgz",
+			"sha": "be034667b61a28e830edd371a709ac1c227a3fdc",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5930800e-2f0b\"",
+			"fetched": 1501276740277
+		}
+	},
+	"_rev": "1-615e2e17eea9dbea",
+	"readme": "gl-error3d\n=============\nDraws error bars around data points\n\n# Example\n\n```javascript\nvar createScene = require('gl-plot3d')\nvar createScatter = require('gl-scatter3d')\nvar createErrorBars = require('gl-error3d')\n\nvar points = [ [0,0,0], [1,1,1], [-1, 2, -3] ]\nvar errors = [ \n  [[-0.5,-0.5,-0.5],[0.5,0.5,0.5]], \n  [[-0.1,-1,-2],[0,0,0]], \n  [[-0.1,-0.1,-0.1],[0.1,0.1,0.1]] \n]\n\nvar scene = createScene()\n\nvar scatter = createScatter({\n  gl:           scene.gl,\n  position:     points,\n  size:         20,\n  orthographic: true,\n  lineColor:    [0,0,0],\n  color:        [0.7,0.8,0.4],\n  lineWidth:    1\n})\nscene.add(scatter)\n\n\nvar errorBars = createErrorBars({\n  gl:       scene.gl,\n  position: points,\n  error:    errors,\n  color:    [0.9, 0.3, 0.3]\n})\nscene.add(errorBars)\n```\n\n# API\n\n## Constructor\n\n#### `var errorBars = require('gl-error3d')(options)`\nCreates a new error bar object.\n\n* `gl` is a WebGL context\n* `position` is the position of each point in the plot\n* `error` is an array of error bounds represented as `[lo,hi]` for each point\n* `color` a length 3 array of arrays giving the color of the error bars along each axis.\n* `lineWidth` is the width of the error bar lines in pixels\n* `capSize` is the size of the cap for error bars\n* `clipBounds` is a box to which all error bars will be clipped\n\n**Returns** A new error bar object\n\n#### `errorBars.update(options)`\nUpdates the error bar object\n\n#### `errorBars.dispose()`\nDestroy the error bars and release all associated resources\n\n# Credits\n(c) 2014-2015 Mikola Lysenko. MIT License"
+}

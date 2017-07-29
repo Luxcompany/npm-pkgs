@@ -1,0 +1,212 @@
+{
+	"name": "country-regex",
+	"versions": {
+		"1.0.0": {
+			"name": "country-regex",
+			"version": "1.0.0",
+			"description": "Hash map of country ISO-3 codes to regular expression identifiers ",
+			"main": "index.js",
+			"scripts": {
+				"make": "node make.js",
+				"test": "tap test.js",
+				"version": "npm run make && git add index.js",
+				"postversion": "git push"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/etpinard/country-regex.git"
+			},
+			"keywords": [
+				"country",
+				"regex",
+				"iso3"
+			],
+			"author": {
+				"name": "Étienne Tétreault-Pinard"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/etpinard/country-regex/issues"
+			},
+			"homepage": "https://github.com/etpinard/country-regex#readme",
+			"devDependencies": {
+				"csv-parse": "^1.0.4",
+				"tap": "^5.7.1"
+			},
+			"gitHead": "42aba37f207cab2c576d816c30edb9072dabfb12",
+			"_id": "country-regex@1.0.0",
+			"_shasum": "1144018333828926b97262b351fe60da7214dde6",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "1144018333828926b97262b351fe60da7214dde6",
+				"tarball": "https://registry.npmjs.org/country-regex/-/country-regex-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/country-regex-1.0.0.tgz_1461205096283_0.4244883817154914"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "country-regex",
+			"version": "1.0.3",
+			"description": "Hash map of country ISO-3 codes to regular expression identifiers ",
+			"main": "index.js",
+			"scripts": {
+				"make": "node make.js",
+				"test": "tap test.js",
+				"version": "npm run make && git add index.js",
+				"postversion": "git push"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/etpinard/country-regex.git"
+			},
+			"keywords": [
+				"country",
+				"regex",
+				"iso3"
+			],
+			"author": {
+				"name": "Étienne Tétreault-Pinard"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/etpinard/country-regex/issues"
+			},
+			"homepage": "https://github.com/etpinard/country-regex#readme",
+			"devDependencies": {
+				"csv-parse": "^1.1.7",
+				"tap": "^7.0.0"
+			},
+			"gitHead": "49246174fa623751282076a3164665570a94e633",
+			"_id": "country-regex@1.0.3",
+			"_shasum": "f3b85b08b03b6a4c5c5c055a2dc4fe6838d7771b",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "f3b85b08b03b6a4c5c5c055a2dc4fe6838d7771b",
+				"tarball": "https://registry.npmjs.org/country-regex/-/country-regex-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/country-regex-1.0.3.tgz_1472849932562_0.8312389163766056"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "country-regex",
+			"version": "1.1.0",
+			"description": "Hash map of country ISO-3 codes to regular expression identifiers ",
+			"main": "index.js",
+			"scripts": {
+				"make": "node make.js",
+				"lint": "standard --fix",
+				"test": "snazzy && tap test.js",
+				"preversion": "npm run make && npm test",
+				"version": "git add index.js",
+				"postversion": "node -e \"console.log('Version bumped and committed. If ok, `git push`')\""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/etpinard/country-regex.git"
+			},
+			"keywords": [
+				"country",
+				"regex",
+				"iso3"
+			],
+			"author": {
+				"name": "Étienne Tétreault-Pinard"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/etpinard/country-regex/issues"
+			},
+			"homepage": "https://github.com/etpinard/country-regex#readme",
+			"devDependencies": {
+				"csv-parse": "^1.2.0",
+				"snazzy": "^6.0.0",
+				"standard": "^8.6.0",
+				"tap": "^10.1.1"
+			},
+			"gitHead": "a2cc561a29ba8dee8e9dae546e4853178461fb98",
+			"_id": "country-regex@1.1.0",
+			"_shasum": "51c333dcdf12927b7e5eeb9c10ac8112a6120896",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "51c333dcdf12927b7e5eeb9c10ac8112a6120896",
+				"tarball": "https://registry.npmjs.org/country-regex/-/country-regex-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/country-regex-1.1.0.tgz_1487357755220_0.958022287581116"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_distfiles": {
+		"country-regex-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/country-regex/-/country-regex-1.0.0.tgz",
+			"sha": "1144018333828926b97262b351fe60da7214dde6",
+			"registry": "npmjs"
+		},
+		"country-regex-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/country-regex/-/country-regex-1.0.3.tgz",
+			"sha": "f3b85b08b03b6a4c5c5c055a2dc4fe6838d7771b",
+			"registry": "npmjs"
+		},
+		"country-regex-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/country-regex/-/country-regex-1.1.0.tgz",
+			"sha": "51c333dcdf12927b7e5eeb9c10ac8112a6120896",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58a7473d-192a\"",
+			"fetched": 1501276740293
+		}
+	},
+	"_rev": "1-3975801cfea0fe18",
+	"readme": "# country-regex\n\n[![npm version][1]][1a]\n[![gzip size][8]][1a]\n\n[![Build Status][2]][2a]\n[![Dependency Status][3]][3a]\n[![devDependency Status][4]][4a]\n\nHash map of country [ISO-3][5] code to regular expression identifier. Regular\nexpression data is taken from [Vincent Arel-Bundock][6]'s [`countrycode`][7] R\npackage (GPL-3 License). Big ups! :beers:\n\n\n## Install\n\n```bash\nnpm install country-regex\n```\n\n## Usage\n\n```js\nvar countryRegex = require('country-regex')\n\n// and then for example:\ncountryRegex['USA']\n\n// => 'united.?states\\\\b(?!.*islands)|\\\\bu\\\\.?s\\\\.?a\\\\.?\\\\b|^\\\\s*u\\\\.?s\\\\.?\\\\b(?!.*islands)'\n```\n\n## Credits\n\n2017 Étienne Tétreault-Pinard. MIT License\n\n[![Standard - JavaScript Style\nGuide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\n[1]: https://badge.fury.io/js/country-regex.svg\n[1a]: https://badge.fury.io/js/country-regex\n[2]: https://travis-ci.org/etpinard/country-regex.svg?branch=master\n[2a]: https://travis-ci.org/etpinard/country-regex\n[3]: https://david-dm.org/etpinard/country-regex.svg?style=flat-square\n[3a]: https://david-dm.org/etpinard/country-regex\n[4]: https://david-dm.org/etpinard/country-regex/dev-status.svg?style=flat-square\n[4a]: https://david-dm.org/etpinard/country-regex#info=devDependencies\n[5]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3\n[6]: https://github.com/vincentarelbundock\n[7]: https://github.com/vincentarelbundock/countrycode\n[8]: https://badges.herokuapp.com/size/npm/country-regex/index.js?gzip=true\n"
+}

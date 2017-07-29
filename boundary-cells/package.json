@@ -1,0 +1,267 @@
+{
+	"name": "boundary-cells",
+	"versions": {
+		"0.0.0": {
+			"name": "boundary-cells",
+			"version": "0.0.0",
+			"description": "Enumerates all boundary cells in a simplicial complex",
+			"main": "boundary.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"simplicial-complex": "~0.3.0"
+			},
+			"devDependencies": {
+				"tap": "~0.4.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/boundary-cells.git"
+			},
+			"keywords": [
+				"boundary",
+				"cell",
+				"simplicial",
+				"complex",
+				"mesh",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "BSD",
+			"gitHead": "1d6b36821108ed468a8d667e2f498b73ae1a50b3",
+			"_id": "boundary-cells@0.0.0",
+			"dist": {
+				"shasum": "6d1388deec4a0ac903685a4257343cf12d325c22",
+				"tarball": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "boundary-cells",
+			"version": "1.0.0",
+			"description": "Enumerates all boundary cells in a simplicial complex",
+			"main": "boundary.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"simplicial-complex": "^0.3.3"
+			},
+			"devDependencies": {
+				"tap": "~0.4.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/boundary-cells.git"
+			},
+			"keywords": [
+				"boundary",
+				"cell",
+				"simplicial",
+				"complex",
+				"mesh",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "BSD",
+			"gitHead": "1d6b36821108ed468a8d667e2f498b73ae1a50b3",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/boundary-cells/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/boundary-cells",
+			"_id": "boundary-cells@1.0.0",
+			"dist": {
+				"shasum": "3cbd6da19768a0bb6efc6b56215ea09dce28e45a",
+				"tarball": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.0": {
+			"name": "boundary-cells",
+			"version": "2.0.0",
+			"description": "Enumerates all boundary cells in a simplicial complex",
+			"main": "boundary.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"tape": "^4.0.0"
+			},
+			"devDependencies": {
+				"oriented-simplicial-complex-compare": "^1.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/boundary-cells.git"
+			},
+			"keywords": [
+				"boundary",
+				"cell",
+				"simplicial",
+				"complex",
+				"mesh",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "1d6b36821108ed468a8d667e2f498b73ae1a50b3",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/boundary-cells/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/boundary-cells",
+			"_id": "boundary-cells@2.0.0",
+			"_shasum": "500b1ad40f309f80effc3048751f61154b601f69",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "500b1ad40f309f80effc3048751f61154b601f69",
+				"tarball": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.1": {
+			"name": "boundary-cells",
+			"version": "2.0.1",
+			"description": "Enumerates all boundary cells in a simplicial complex",
+			"main": "boundary.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"tape": "^4.0.0"
+			},
+			"devDependencies": {
+				"oriented-simplicial-complex-compare": "^1.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/boundary-cells.git"
+			},
+			"keywords": [
+				"boundary",
+				"cell",
+				"simplicial",
+				"complex",
+				"mesh",
+				"topology"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "1d6b36821108ed468a8d667e2f498b73ae1a50b3",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/boundary-cells/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/boundary-cells#readme",
+			"_id": "boundary-cells@2.0.1",
+			"_shasum": "e905a8d1419cf47cb36be3dbf525db5e24de0042",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "e905a8d1419cf47cb36be3dbf525db5e24de0042",
+				"tarball": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/boundary-cells-2.0.1.tgz_1463596851361_0.23803900205530226"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_distfiles": {
+		"boundary-cells-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-0.0.0.tgz",
+			"sha": "6d1388deec4a0ac903685a4257343cf12d325c22",
+			"registry": "npmjs"
+		},
+		"boundary-cells-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-1.0.0.tgz",
+			"sha": "3cbd6da19768a0bb6efc6b56215ea09dce28e45a",
+			"registry": "npmjs"
+		},
+		"boundary-cells-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-2.0.0.tgz",
+			"sha": "500b1ad40f309f80effc3048751f61154b601f69",
+			"registry": "npmjs"
+		},
+		"boundary-cells-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/boundary-cells/-/boundary-cells-2.0.1.tgz",
+			"sha": "e905a8d1419cf47cb36be3dbf525db5e24de0042",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"573cb736-16f2\"",
+			"fetched": 1501276742734
+		}
+	},
+	"_rev": "1-043435afca98d53d",
+	"readme": "boundary-cells\n==============\nComputes a basis for the collection of all boundary cells in a cell complex.  This is not the same as the boundary operator for a cell complex.\n\n# Example\n\n```javascript\nvar bnd = require('boundary-cells')\n\nconsole.log(bnd([\n  [0, 1, 2],\n  [2, 1, 3]\n]))\n```\n\n# Install\n\n```\nnpm i boundary-cells\n```\n\n# API\n\n#### `require('boundary-cells')(cells)`\nExtracts the boundary of all cells in a cell complex\n\n* `cells` is a cell complex\n\n**Returns** An array of all boundary cells in the complex\n\nCredits\n=======\n(c) 2013-2015 Mikola Lysenko. MIT License\n"
+}

@@ -1,0 +1,591 @@
+{
+	"name": "mouse-event-offset",
+	"versions": {
+		"1.0.0": {
+			"name": "mouse-event-offset",
+			"version": "1.0.0",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"gitHead": "0cebe230188c37b2276bcdbd0ca0cd57b4759149",
+			"_id": "mouse-event-offset@1.0.0",
+			"_shasum": "c26be9253a849ead9eae6eb8e3a00e8911515aeb",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c26be9253a849ead9eae6eb8e3a00e8911515aeb",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "mouse-event-offset",
+			"version": "1.0.1",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "d3580fb825739106f522d761be8d54baba215ce3",
+			"_id": "mouse-event-offset@1.0.1",
+			"_shasum": "d6927e182ec211a7010243a5567843b15240c3fc",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d6927e182ec211a7010243a5567843b15240c3fc",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "mouse-event-offset",
+			"version": "1.0.2",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "b38605c8e7cda8f0dcea1b856e113ca3f2f09a22",
+			"_id": "mouse-event-offset@1.0.2",
+			"_shasum": "52be322ba9e66b6b869b03c6312e2567e0e5a749",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "52be322ba9e66b6b869b03c6312e2567e0e5a749",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "mouse-event-offset",
+			"version": "2.0.0",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "3b59d35f2263ec00b40d6d0d0a3f7ac6d781f07f",
+			"_id": "mouse-event-offset@2.0.0",
+			"_shasum": "eaf385379a319e2b74e1773359b8b13ce64073c9",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "eaf385379a319e2b74e1773359b8b13ce64073c9",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-2.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "mouse-event-offset",
+			"version": "3.0.0",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "66a823e7ace599cc1b5013896ca04507f24be2c9",
+			"_id": "mouse-event-offset@3.0.0",
+			"_shasum": "e42b2ab31c2741f324aac7b85e2567d4c1a1dac8",
+			"_from": ".",
+			"_npmVersion": "2.14.5",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "e42b2ab31c2741f324aac7b85e2567d4c1a1dac8",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"3.0.1": {
+			"name": "mouse-event-offset",
+			"version": "3.0.1",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"dom-events": "^0.1.1",
+				"dom-style": "0.0.3",
+				"domready": "^1.0.6",
+				"simulate-event": "0.0.3",
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "5422abd034c18dd0977fa051138c8b0e9828b839",
+			"_id": "mouse-event-offset@3.0.1",
+			"_shasum": "6d89e86d188dff99177170aa1a3fa4738629e601",
+			"_from": ".",
+			"_npmVersion": "2.14.5",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "6d89e86d188dff99177170aa1a3fa4738629e601",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"3.0.2": {
+			"name": "mouse-event-offset",
+			"version": "3.0.2",
+			"description": "get relative position from an event",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "~2.13.2"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"testling": {
+				"files": "test.js",
+				"browsers": [
+					"ie/6..latest",
+					"chrome/22..latest",
+					"firefox/16..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6",
+					"android-browser/latest"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mouse-event-offset.git"
+			},
+			"homepage": "https://github.com/mattdesl/mouse-event-offset",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mouse-event-offset/issues"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"offset",
+				"top",
+				"left",
+				"corner",
+				"clientX",
+				"clientY",
+				"offsetX",
+				"offsetY",
+				"getBoundingClientRect",
+				"click",
+				"relative",
+				"position"
+			],
+			"gitHead": "82805f285f8483f2373d2bf20f62f9eb8d79f74d",
+			"_id": "mouse-event-offset@3.0.2",
+			"_shasum": "dfd86a6e248c6ba8cad53b905d5037a2063e9984",
+			"_from": ".",
+			"_npmVersion": "2.14.5",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "dfd86a6e248c6ba8cad53b905d5037a2063e9984",
+				"tarball": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "3.0.2"
+	},
+	"_distfiles": {
+		"mouse-event-offset-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.0.tgz",
+			"sha": "c26be9253a849ead9eae6eb8e3a00e8911515aeb",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.1.tgz",
+			"sha": "d6927e182ec211a7010243a5567843b15240c3fc",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-1.0.2.tgz",
+			"sha": "52be322ba9e66b6b869b03c6312e2567e0e5a749",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-2.0.0.tgz",
+			"sha": "eaf385379a319e2b74e1773359b8b13ce64073c9",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.0.tgz",
+			"sha": "e42b2ab31c2741f324aac7b85e2567d4c1a1dac8",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.1.tgz",
+			"sha": "6d89e86d188dff99177170aa1a3fa4738629e601",
+			"registry": "npmjs"
+		},
+		"mouse-event-offset-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event-offset/-/mouse-event-offset-3.0.2.tgz",
+			"sha": "dfd86a6e248c6ba8cad53b905d5037a2063e9984",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5609f7ea-2ef7\"",
+			"fetched": 1501276740293
+		}
+	},
+	"_rev": "1-a0af08aef26c4b71",
+	"readme": "# mouse-event-offset\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nComputes the `[ offsetX, offsetY ]` from a mouse or touch event, relative to the top left of the `target` element.\n\n```js \nvar offset = require('mouse-event-offset')\n\nwindow.addEventListener('touchstart', function (ev) {\n  var target = ev.currentTarget\n  var touch = ev.changedTouches[0]\n  var pos = offset(touch, target)\n  //=> [ 128, 52 ]\n})\n```\n## Usage\n\n### `position = offset(event, [target], [out])`\n\nPass a MouseEvent or TouchEvent as `event`. \n\nOptionally, you can specify a `target` element which the touch event should be relative to. Defaults to `event.currentTarget`, falling back to `event.srcElement` for older IE.\n\nYou can also specifiy `out` to store the position in that array, and avoid creating a new one.\n\n## Changelog\n\n- `3.x` new version; simpler API, less assumptions, avoids GC thrashing\n- `2.x` uses `ev.currentTarget` instead of `ev.target`\n- `1.x` simple implementation using `ev.target || ev.srcElement`\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/mouse-event-offset/blob/master/LICENSE.md) for details.\n"
+}

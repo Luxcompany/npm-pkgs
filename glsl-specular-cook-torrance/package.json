@@ -1,0 +1,292 @@
+{
+	"name": "glsl-specular-cook-torrance",
+	"versions": {
+		"1.0.0": {
+			"name": "glsl-specular-cook-torrance",
+			"version": "1.0.0",
+			"description": "Cook-Torrance specular/fresnel lighting term",
+			"main": "index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "beefy example/example.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/glsl-specular-cook-torrance.git"
+			},
+			"keywords": [
+				"cook",
+				"torrance",
+				"specular",
+				"light",
+				"fresnel",
+				"glsl",
+				"glslify"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/stackgl/glsl-specular-cook-torrance/issues"
+			},
+			"homepage": "https://github.com/stackgl/glsl-specular-cook-torrance",
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"glslify": "^1.6.0",
+				"beefy": "^2.1.1"
+			},
+			"browserify": {
+				"transform": "glslify"
+			},
+			"dependencies": {
+				"glsl-specular-beckmann": "^1.0.0"
+			},
+			"_id": "glsl-specular-cook-torrance@1.0.0",
+			"dist": {
+				"shasum": "587e0c7651b7e74bf799612833a5d3330cc96cee",
+				"tarball": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "glsl-specular-cook-torrance",
+			"version": "1.0.1",
+			"description": "Cook-Torrance specular/fresnel lighting term",
+			"main": "index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "beefy example/example.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/glsl-specular-cook-torrance.git"
+			},
+			"keywords": [
+				"cook",
+				"torrance",
+				"specular",
+				"light",
+				"fresnel",
+				"glsl",
+				"glslify"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/stackgl/glsl-specular-cook-torrance/issues"
+			},
+			"homepage": "https://github.com/stackgl/glsl-specular-cook-torrance",
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"glslify": "^1.6.0",
+				"beefy": "^2.1.1"
+			},
+			"browserify": {
+				"transform": "glslify"
+			},
+			"dependencies": {
+				"glsl-specular-beckmann": "^1.0.0"
+			},
+			"gitHead": "97f31a310226856202108291f5cf1995f1890679",
+			"_id": "glsl-specular-cook-torrance@1.0.1",
+			"_shasum": "4bc5cc21074ddb50208c4776cd61e16df1d1a7c9",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4bc5cc21074ddb50208c4776cd61e16df1d1a7c9",
+				"tarball": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-1.0.1.tgz"
+			}
+		},
+		"2.0.0": {
+			"name": "glsl-specular-cook-torrance",
+			"version": "2.0.0",
+			"description": "Cook-Torrance specular/fresnel lighting term",
+			"main": "index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "beefy example/example.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/glsl-specular-cook-torrance.git"
+			},
+			"keywords": [
+				"cook",
+				"torrance",
+				"specular",
+				"light",
+				"fresnel",
+				"glsl",
+				"glslify"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/stackgl/glsl-specular-cook-torrance/issues"
+			},
+			"homepage": "https://github.com/stackgl/glsl-specular-cook-torrance",
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"glslify": "^1.6.0",
+				"beefy": "^2.1.1"
+			},
+			"browserify": {
+				"transform": "glslify"
+			},
+			"dependencies": {
+				"glsl-specular-beckmann": "^1.1.0"
+			},
+			"gitHead": "6185644b375fd8627a2554075f4ee717a7f758e5",
+			"_id": "glsl-specular-cook-torrance@2.0.0",
+			"_shasum": "b8d1798831faad49ba9b8de4797672a96efdfa62",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b8d1798831faad49ba9b8de4797672a96efdfa62",
+				"tarball": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-2.0.0.tgz"
+			}
+		},
+		"2.0.1": {
+			"name": "glsl-specular-cook-torrance",
+			"version": "2.0.1",
+			"description": "Cook-Torrance specular/fresnel lighting term",
+			"main": "index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "beefy example/example.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/glsl-specular-cook-torrance.git"
+			},
+			"keywords": [
+				"cook",
+				"torrance",
+				"specular",
+				"light",
+				"fresnel",
+				"glsl",
+				"glslify"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/stackgl/glsl-specular-cook-torrance/issues"
+			},
+			"homepage": "https://github.com/stackgl/glsl-specular-cook-torrance",
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"glslify": "^1.6.0",
+				"beefy": "^2.1.1"
+			},
+			"browserify": {
+				"transform": "glslify"
+			},
+			"dependencies": {
+				"glsl-specular-beckmann": "^1.1.1"
+			},
+			"gitHead": "e0cfb44fe628a3d2fdfa14268870a9792fa26275",
+			"_id": "glsl-specular-cook-torrance@2.0.1",
+			"_shasum": "a891cc06c8c7b4f4728702b4824fdacbb967d78f",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a891cc06c8c7b4f4728702b4824fdacbb967d78f",
+				"tarball": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-2.0.1.tgz"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_distfiles": {
+		"glsl-specular-cook-torrance-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-1.0.0.tgz",
+			"sha": "587e0c7651b7e74bf799612833a5d3330cc96cee",
+			"registry": "npmjs"
+		},
+		"glsl-specular-cook-torrance-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-1.0.1.tgz",
+			"sha": "4bc5cc21074ddb50208c4776cd61e16df1d1a7c9",
+			"registry": "npmjs"
+		},
+		"glsl-specular-cook-torrance-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-2.0.0.tgz",
+			"sha": "b8d1798831faad49ba9b8de4797672a96efdfa62",
+			"registry": "npmjs"
+		},
+		"glsl-specular-cook-torrance-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-specular-cook-torrance/-/glsl-specular-cook-torrance-2.0.1.tgz",
+			"sha": "a891cc06c8c7b4f4728702b4824fdacbb967d78f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5973bde1-20f1\"",
+			"fetched": 1501276749361
+		}
+	},
+	"_rev": "1-722fd874a2c2a6da",
+	"readme": "# glsl-specular-cook-torrance\n\nComputes the specular power in the Cook-Torrance model.\n\n# Example\n\n```glsl\n#pragma glslify: cookTorranceSpec = require(glsl-specular-cook-torrance)\n\nuniform vec3 eyePosition;\nuniform vec3 lightPosition;\n\nuniform float roughness, fresnel;\n\nvarying vec3 surfacePosition, surfaceNormal;\n\nvoid main() {\n  //Light and view geometry\n  vec3 viewDirection = normalize(eyePosition - surfacePosition);\n  vec3 lightDirection = normalize(lightPosition - surfacePosition);\n\n  //Surface properties\n  vec3 normal = normalize(surfaceNormal);\n  \n  //Compute specular power\n  float power = cookTorranceSpec(\n    lightDirection, \n    viewDirection, \n    normal, \n    roughness,\n    fresnel);\n\n  gl_FragColor = vec4(power,power,power,1.0);\n}\n```\n\n# Usage\n\nInstall with npm:\n\n```\nnpm install glsl-specular-phong\n```\n\nThen use with [glslify](https://github.com/stackgl/glslify).\n\n# API\n\n```glsl\n#pragma glslify: cookTorrance = require(glsl-specular-cook-torrance)\n```\n\n##### `float cookTorrance(vec3 lightDir, vec3 eyeDir, vec3 normal, float roughness, float fresnel)`\nComputes the specular power in the Cook-Torrance\n\n* `lightDir` is a *unit length* `vec3` pointing from the surface point toward the light\n* `eyeDir` is a *unit length* `vec3` pointing from the surface point toward the camera\n* `normal` is the *unit length* surface normal at the sample point\n* `roughness` is the surface roughness parameter, between 0 and 1.  0 means surface is perfectly smooth, 1 means surface is matte\n* `fresnel` the Fresnel exponent.  0 = no Fresnel, higher values create a rim effect around objects\n\n**Returns** A `float` representing the specular power\n\n**Note** Unlike the usual Cook-Torrance model, the light power is not scaled by 1/(normal . lightDirection).  This avoids an unnecessary numerically unstable division, but requires modifying how diffuse light is calculated.\n\n# License\n(c) 2014 Mikola Lysenko. MIT License"
+}

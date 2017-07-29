@@ -1,0 +1,73 @@
+{
+	"name": "superscript-text",
+	"versions": {
+		"1.0.0": {
+			"name": "superscript-text",
+			"version": "1.0.0",
+			"description": "Converts text to superscript unicode",
+			"main": "superscript.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/superscript-text.git"
+			},
+			"keywords": [
+				"superscript",
+				"super",
+				"sup",
+				"unicode",
+				"ascii"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/superscript-text/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/superscript-text",
+			"gitHead": "16d51f5053d6a3e2bcb3a6fc48329e51e486384b",
+			"_id": "superscript-text@1.0.0",
+			"_shasum": "e7cb2752567360df50beb0610ce8df3d71d8dfd8",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "e7cb2752567360df50beb0610ce8df3d71d8dfd8",
+				"tarball": "https://registry.npmjs.org/superscript-text/-/superscript-text-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"superscript-text-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/superscript-text/-/superscript-text-1.0.0.tgz",
+			"sha": "e7cb2752567360df50beb0610ce8df3d71d8dfd8",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"556f80e3-948\"",
+			"fetched": 1501276740324
+		}
+	},
+	"_rev": "1-8ed3bc742cbba9fa",
+	"readme": "superscript-text\n================\nConverts text into super script unicode characters.\n\n# Example\n\n```javascript\nvar raise = require('superscript-text')\n\nconsole.log(raise('hello world'))\n```\n\nOutput:\n\n```\nʰᵉˡˡᵒ ʷᵒʳˡᵈ\n```\n\n# Install\n\n```\nnpm i superscript-text\n```\n\n# API\n\n#### `require('superscript-text')(str)`\nConverts `str` into unicode super script\n\n* `str` is a string containing english chracters and numbers\n\n**Returns** A super script version of `str`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

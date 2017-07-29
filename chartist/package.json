@@ -1,0 +1,4337 @@
+{
+	"name": "chartist",
+	"versions": {
+		"0.1.9": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.1.9",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.12.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.0.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"grunt-bower-install": "~1.4.0",
+				"jsdoc": "~3.3.0",
+				"grunt-jsdoc": "~0.5.4",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist",
+				"bowerExclude": [
+					"foundation.css",
+					"es5-shim.js",
+					"json3.min.js"
+				]
+			},
+			"_id": "chartist@0.1.9",
+			"dist": {
+				"shasum": "33a202da2a22a58be62cb0d84e1d4f4d2631c5b1",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.1.9.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.10": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.1.10",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.12.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.0.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"grunt-bower-install": "~1.4.0",
+				"jsdoc": "~3.3.0",
+				"grunt-jsdoc": "~0.5.4",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist",
+				"bowerExclude": [
+					"foundation.css",
+					"es5-shim.js",
+					"json3.min.js"
+				]
+			},
+			"_id": "chartist@0.1.10",
+			"dist": {
+				"shasum": "bc575c2fe654ddf4d7514a14cbe7ea4c557d4f2c",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.1.10.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.11": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.1.11",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.12.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.0.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"grunt-bower-install": "~1.4.0",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist",
+				"bowerExclude": [
+					"foundation.css",
+					"es5-shim.js",
+					"json3.min.js"
+				]
+			},
+			"_id": "chartist@0.1.11",
+			"dist": {
+				"shasum": "1834c60bcf5f15c744634d1d6f6c9b61ba132c51",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.1.11.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.12": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.1.12",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.12.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"grunt-bower-install": "~1.4.0",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist",
+				"bowerExclude": [
+					"foundation.css",
+					"es5-shim.js",
+					"json3.min.js"
+				]
+			},
+			"_id": "chartist@0.1.12",
+			"dist": {
+				"shasum": "2abad40a378dbdb629c7354c9779e4d35bc8d428",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.1.12.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.15": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.1.15",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.12.1",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"_id": "chartist@0.1.15",
+			"dist": {
+				"shasum": "41cd714debc8ab2ed9e7f0f78bd7b7b7ce7984d4",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.1.15.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.2.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "3e8cac9cf1501fe596cc5db215062d0d386db14e",
+			"_id": "chartist@0.2.0",
+			"_shasum": "32a9ede2ae0b411bcf6f3537fe35add90e34bb1b",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "32a9ede2ae0b411bcf6f3537fe35add90e34bb1b",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.2.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "6b8bd0556ebc35af830239a87e44651cfb1346b7",
+			"_id": "chartist@0.2.1",
+			"_shasum": "e914a061e9bfabbfbf53b0f0a20f48ff1ccf7e3f",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e914a061e9bfabbfbf53b0f0a20f48ff1ccf7e3f",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.2.2",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "afe23c18a10f7befac7d3fba2abe63cf9e61b848",
+			"_id": "chartist@0.2.2",
+			"_shasum": "8491ce79f6c85fe1213605ab83168187260116b8",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8491ce79f6c85fe1213605ab83168187260116b8",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.2.4",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "a326908fc64c5abfc739d1980ed1bdf8b0ee5710",
+			"_id": "chartist@0.2.4",
+			"_shasum": "2cdc63f215a9b3e30faf2f05dd9258cf36f74056",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2cdc63f215a9b3e30faf2f05dd9258cf36f74056",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.2.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.3.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "cb40e89f3b781f17528184448454f76ec97827f1",
+			"_id": "chartist@0.3.0",
+			"_shasum": "08d3864249231b1eca5984b060b8c94d0d7b1d52",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "08d3864249231b1eca5984b060b8c94d0d7b1d52",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.3.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.3.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "f3741eef14af98d8fd9a49f75356a2d4d81d29b6",
+			"_id": "chartist@0.3.1",
+			"_shasum": "c142179820cff72f18fddf67bf86d61933a87cb2",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c142179820cff72f18fddf67bf86d61933a87cb2",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.3.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.4.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "0341b31ffcbf75c0c0765fff84b94981590d0e65",
+			"_id": "chartist@0.4.0",
+			"_shasum": "956c48d251f4ed7d45d79776254c1b3132f490aa",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "956c48d251f4ed7d45d79776254c1b3132f490aa",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.4.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.4.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"libdist",
+				"sitedist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "libdist/chartist.js",
+			"browser": "libdist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"grunt": "~0.4.1",
+				"grunt-autoprefixer": "~0.4.0",
+				"grunt-concurrent": "~0.4.1",
+				"grunt-contrib-clean": "~0.5.0",
+				"grunt-contrib-coffee": "~0.7.0",
+				"grunt-sass": "~0.14.2",
+				"grunt-contrib-concat": "~0.3.0",
+				"grunt-contrib-connect": "~0.5.0",
+				"grunt-contrib-copy": "~0.4.1",
+				"grunt-contrib-cssmin": "~0.9.0",
+				"grunt-contrib-htmlmin": "~0.1.3",
+				"grunt-contrib-imagemin": "~0.3.0",
+				"grunt-contrib-jshint": "~0.7.1",
+				"grunt-contrib-uglify": "~0.4.0",
+				"grunt-contrib-watch": "~0.5.2",
+				"grunt-newer": "~0.5.4",
+				"grunt-svgmin": "~0.2.0",
+				"grunt-usemin": "~2.3.0",
+				"jshint-stylish": "~0.1.3",
+				"load-grunt-tasks": "~0.2.0",
+				"time-grunt": "~0.2.1",
+				"grunt-contrib-jasmine": "~0.7.0",
+				"jasmine-fixture": "~1.0.8",
+				"assemble": "~0.4.36",
+				"handlebars-helpers": "~0.5.5",
+				"seed-random": "~2.2.0",
+				"grunt-umd": "^1.7.4",
+				"grunt-doxication": "0.0.4",
+				"lodash": "^2.4.1",
+				"grunt-critical": "0.0.3"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"source": "source",
+				"dist": "sitedist"
+			},
+			"gitHead": "00349740b6433c2760686b2632b77669c329cc2d",
+			"_id": "chartist@0.4.1",
+			"_shasum": "797180c14c66c7fb11704ae22e748bed031a9359",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "797180c14c66c7fb11704ae22e748bed031a9359",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.4.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.2": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.4.2",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-fixture": "~1.2.2",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "efeabc2f016052e10c6adf7b1cb33091902d0b3f",
+			"_id": "chartist@0.4.2",
+			"_shasum": "f46ce2d49bf8d523c4a3674aafee755f4c61e1e5",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f46ce2d49bf8d523c4a3674aafee755f4c61e1e5",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.4.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.3": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.4.3",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-fixture": "~1.2.2",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "5a99a99f67aab5a6642d532e25cae0536b1c1a6e",
+			"_id": "chartist@0.4.3",
+			"_shasum": "60940b06cad2480d129ea3a452f7737c1c945a09",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "60940b06cad2480d129ea3a452f7737c1c945a09",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.4.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.4": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.4.4",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-fixture": "~1.2.2",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"_id": "chartist@0.4.4",
+			"dist": {
+				"shasum": "16c1983ae240082c903a44266291418dbaee6160",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.4.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.5.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-fixture": "~1.2.2",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"_id": "chartist@0.5.0",
+			"dist": {
+				"shasum": "ad526e7523cb5a5e76b188428ca1d61a654c2dfb",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.5.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.6.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.5",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"_id": "chartist@0.6.0",
+			"dist": {
+				"shasum": "09c79d741f0f1c063580c7563a14e2168637891d",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.6.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.6.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.5",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"_id": "chartist@0.6.1",
+			"dist": {
+				"shasum": "ece79164cc7cde75e640574dc578e4710d833ba2",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.6.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.7.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.5",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "a1a36af7ffd7923c0fbaba5088f4925ec26a8c81",
+			"_id": "chartist@0.7.0",
+			"_shasum": "94a083a88cc61ebae600e0464870b67939083e07",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "94a083a88cc61ebae600e0464870b67939083e07",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.7.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.7.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.7.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.5",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "6e3d82963d40cd62005a7f031780da72787c1183",
+			"_id": "chartist@0.7.1",
+			"_shasum": "6925536313a11b0e8b0c89badf259c2074991a3d",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6925536313a11b0e8b0c89badf259c2074991a3d",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.7.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.7.2": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.7.2",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.10.0",
+				"grunt-contrib-htmlmin": "~0.3.0",
+				"grunt-contrib-imagemin": "~0.9.2",
+				"grunt-contrib-jasmine": "~0.8.1",
+				"grunt-contrib-jshint": "~0.10.0",
+				"grunt-contrib-uglify": "^0.6.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.0.3",
+				"grunt-newer": "^0.8.0",
+				"grunt-sass": "^0.16.1",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-umd": "~2.2.1",
+				"grunt-usemin": "~2.6.2",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.5",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "^2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "6cf68d271f1e291b7a9d0fb7788c1c0464cb4d37",
+			"_id": "chartist@0.7.2",
+			"_shasum": "ecf9d8055581c94c55d9b90192f2942a9767fe36",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ecf9d8055581c94c55d9b90192f2942a9767fe36",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.7.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.7.3": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.7.3",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "455639edb56e8a124e514f175415ba6157e9567a",
+			"_id": "chartist@0.7.3",
+			"_shasum": "ca053c1e103a444e927482590ab6bda63e507633",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ca053c1e103a444e927482590ab6bda63e507633",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.7.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.7.4": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.7.4",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "c56c77bdb77becd1fcbe215eda73733e01df2a12",
+			"_id": "chartist@0.7.4",
+			"_shasum": "b3f3ae7d6aeef365c72ab7abd530541b5fcc4422",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b3f3ae7d6aeef365c72ab7abd530541b5fcc4422",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.7.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.8.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.8.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "6399391df3e56bb7406e93e68748eafad4154011",
+			"_id": "chartist@0.8.0",
+			"_shasum": "f0852cdd3f46ee80e3e1e8fa3bf5d2d8ad584ad9",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f0852cdd3f46ee80e3e1e8fa3bf5d2d8ad584ad9",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.8.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.8.2": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.8.2",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "c05e2def46ccf5e558358af5767afbc0aa8bd69a",
+			"_id": "chartist@0.8.2",
+			"_shasum": "575b98f2920788e2487d208fc043e0d645ddefe5",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "575b98f2920788e2487d208fc043e0d645ddefe5",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.8.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.8.3": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.8.3",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "e27d6f4556f35d09cad5207b7cadf3888a8ec618",
+			"_id": "chartist@0.8.3",
+			"_shasum": "6702cad2c55706ccd5258029c43068df76a5ca63",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6702cad2c55706ccd5258029c43068df76a5ca63",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.8.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "45df861eb65f98a00b6c4f2ed4f6a9f37bd20265",
+			"_id": "chartist@0.9.0",
+			"_shasum": "cacc9aea3c0e73299da598ea372d96a044d4c33e",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "cacc9aea3c0e73299da598ea372d96a044d4c33e",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "9d8c258fbfff8ba2450d73897455cff5151d5ad6",
+			"_id": "chartist@0.9.1",
+			"_shasum": "20967ebf49e3ece379a59b5cd933b0caa70bf393",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "20967ebf49e3ece379a59b5cd933b0caa70bf393",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.2": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.2",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "ed88a449207b03ef18c4ced5442ca0f0add2a737",
+			"_id": "chartist@0.9.2",
+			"_shasum": "65dffd1c02e4e36eae5a8b4f644bc402bd8ecfa6",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "65dffd1c02e4e36eae5a8b4f644bc402bd8ecfa6",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.3": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.3",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "cb6057d191b70b149f49addf6d514412084f361c",
+			"_id": "chartist@0.9.3",
+			"_shasum": "e267af286a5471c91414cd19a2d46dbc6d4f208b",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e267af286a5471c91414cd19a2d46dbc6d4f208b",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.4": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.4",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "~0.9.3",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "fbf1f37dc360f668025322134c1ac8a933e280c2",
+			"_id": "chartist@0.9.4",
+			"_shasum": "2fc99cbb261314819b62aa95a1b142d109c95a65",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2fc99cbb261314819b62aa95a1b142d109c95a65",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.5": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.5",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under the WTFPL license.\n * http://www.wtfpl.net/\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "4d2ef6f48cc87af75c6167bdc11ba8083bfc7e6e",
+			"_id": "chartist@0.9.5",
+			"_shasum": "a25b19ff81f50fb0367c0cd67f09d4e303db116b",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a25b19ff81f50fb0367c0cd67f09d4e303db116b",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.5.tgz"
+			},
+			"directories": {}
+		},
+		"0.9.6": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.6",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "e40e0494852268a6a09aaa2130a0db902887cae8",
+			"_id": "chartist@0.9.6",
+			"_shasum": "179def999fcea02285658c34409dd48439a1c2b1",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "179def999fcea02285658c34409dd48439a1c2b1",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.9.6.tgz_1456048364797_0.555857424158603"
+			},
+			"directories": {}
+		},
+		"0.9.7": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.7",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE-WTFPL",
+				"LICENSE-MIT",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble": "~0.4.42",
+				"assemble-dox": "0.0.2",
+				"grunt": "^0.4.5",
+				"grunt-concurrent": "^1.0.0",
+				"grunt-contrib-clean": "^0.6.0",
+				"grunt-contrib-concat": "^0.5.0",
+				"grunt-contrib-connect": "~0.9.0",
+				"grunt-contrib-copy": "^0.7.0",
+				"grunt-contrib-cssmin": "^0.12.1",
+				"grunt-contrib-htmlmin": "~0.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "~0.8.2",
+				"grunt-contrib-jshint": "~0.11.0",
+				"grunt-contrib-uglify": "^0.7.0",
+				"grunt-contrib-watch": "^0.6.1",
+				"grunt-critical": "0.1.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^0.18.0",
+				"grunt-svgmin": "~2.0.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "~2.3.1",
+				"grunt-usemin": "~3.0.0",
+				"handlebars-helpers": "~0.5.8",
+				"jasmine-jquery": "~2.0.6",
+				"jshint-stylish": "~1.0.0",
+				"load-grunt-config": "^0.16.0",
+				"lodash": "~2.4.1",
+				"seed-random": "~2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=0.8.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "10832450cb9030b516c262a24ffbfa06e5fe0b78",
+			"_id": "chartist@0.9.7",
+			"_shasum": "507671497dd409e0d4d3aaae5ecce3ba59f2f698",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "507671497dd409e0d4d3aaae5ecce3ba59f2f698",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.9.7.tgz_1456220153046_0.32794967549853027"
+			},
+			"directories": {}
+		},
+		"0.9.8": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.9.8",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE-WTFPL",
+				"LICENSE-MIT",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble-dox": "0.0.2",
+				"grunt": "^1.0.1",
+				"grunt-concurrent": "^2.3.0",
+				"grunt-contrib-clean": "^1.0.0",
+				"grunt-contrib-concat": "^1.0.1",
+				"grunt-contrib-connect": "^1.0.2",
+				"grunt-contrib-copy": "^1.0.0",
+				"grunt-contrib-cssmin": "^1.0.1",
+				"grunt-contrib-htmlmin": "^1.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "^1.0.3",
+				"grunt-contrib-jshint": "^1.0.0",
+				"grunt-contrib-uglify": "^1.0.1",
+				"grunt-contrib-watch": "^1.0.0",
+				"grunt-critical": "^0.2.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^1.1.0",
+				"grunt-svgmin": "^3.2.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "^2.3.1",
+				"grunt-usemin": "^3.1.1",
+				"handlebars-helpers": "^0.6.1",
+				"jasmine-jquery": "^2.1.1",
+				"jquery": "^3.0.0",
+				"jshint-stylish": "^2.2.0",
+				"load-grunt-config": "^0.19.2",
+				"lodash": "^4.13.1",
+				"seed-random": "^2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=5.5.0"
+			},
+			"scripts": {
+				"test": "grunt test"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "beabb2793ab67da84cadc0b91d5fd509f2cdfc55",
+			"_id": "chartist@0.9.8",
+			"_shasum": "08040365c27843811343f008b0bbe9933c780677",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "5.9.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"dist": {
+				"shasum": "08040365c27843811343f008b0bbe9933c780677",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.9.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.9.8.tgz_1466581077643_0.6503372301813215"
+			},
+			"directories": {}
+		},
+		"0.10.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.10.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE-WTFPL",
+				"LICENSE-MIT",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"license": "MIT OR WTFPL",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble-dox": "0.0.2",
+				"grunt": "^1.0.1",
+				"grunt-assemble": "^0.4.0",
+				"grunt-concurrent": "^2.3.0",
+				"grunt-contrib-clean": "^1.0.0",
+				"grunt-contrib-concat": "^1.0.1",
+				"grunt-contrib-connect": "^1.0.2",
+				"grunt-contrib-copy": "^1.0.0",
+				"grunt-contrib-cssmin": "^1.0.1",
+				"grunt-contrib-htmlmin": "^1.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "^1.0.3",
+				"grunt-contrib-jshint": "^1.0.0",
+				"grunt-contrib-uglify": "^1.0.1",
+				"grunt-contrib-watch": "^1.0.0",
+				"grunt-critical": "^0.2.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^1.1.0",
+				"grunt-svgmin": "^3.2.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "^2.3.1",
+				"grunt-usemin": "^3.1.1",
+				"handlebars-helpers": "^0.6.1",
+				"jasmine-jquery": "^2.1.1",
+				"jquery": "^3.0.0",
+				"jshint-stylish": "^2.2.0",
+				"load-grunt-config": "^0.19.2",
+				"lodash": "^4.13.1",
+				"seed-random": "^2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=6.9.0"
+			},
+			"scripts": {
+				"start": "grunt",
+				"test": "grunt test",
+				"dev": "grunt dev",
+				"build": "grunt build",
+				"preview": "grunt preview",
+				"public": "grunt public"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "bcd7d6e0331cc185497b3c941aa63ce9b68c99d9",
+			"_id": "chartist@0.10.0",
+			"_shasum": "f0d9ead98c45014005c2ed7aa16cacd1771cb155",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"dist": {
+				"shasum": "f0d9ead98c45014005c2ed7aa16cacd1771cb155",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.10.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.10.0.tgz_1477261975580_0.19024048070423305"
+			},
+			"directories": {}
+		},
+		"0.10.1": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.10.1",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE-WTFPL",
+				"LICENSE-MIT",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"license": "MIT OR WTFPL",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble-dox": "0.0.2",
+				"grunt": "^1.0.1",
+				"grunt-assemble": "^0.4.0",
+				"grunt-concurrent": "^2.3.0",
+				"grunt-contrib-clean": "^1.0.0",
+				"grunt-contrib-concat": "^1.0.1",
+				"grunt-contrib-connect": "^1.0.2",
+				"grunt-contrib-copy": "^1.0.0",
+				"grunt-contrib-cssmin": "^1.0.1",
+				"grunt-contrib-htmlmin": "^1.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "^1.0.3",
+				"grunt-contrib-jshint": "^1.0.0",
+				"grunt-contrib-uglify": "^1.0.1",
+				"grunt-contrib-watch": "^1.0.0",
+				"grunt-critical": "^0.2.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^1.1.0",
+				"grunt-svgmin": "^3.2.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "^2.3.1",
+				"grunt-usemin": "^3.1.1",
+				"handlebars-helpers": "^0.6.1",
+				"jasmine-jquery": "^2.1.1",
+				"jquery": "^3.0.0",
+				"jshint-stylish": "^2.2.0",
+				"load-grunt-config": "^0.19.2",
+				"lodash": "^4.13.1",
+				"seed-random": "^2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=4.6.0"
+			},
+			"scripts": {
+				"start": "grunt",
+				"test": "grunt test",
+				"dev": "grunt dev",
+				"build": "grunt build",
+				"preview": "grunt preview",
+				"public": "grunt public"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "1c2b5dc55b33d92ed17a96d0bbe8f172f2221187",
+			"_id": "chartist@0.10.1",
+			"_shasum": "3dd513d531dfca6b78e777fe0500d9c7e6406931",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"dist": {
+				"shasum": "3dd513d531dfca6b78e777fe0500d9c7e6406931",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.10.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.10.1.tgz_1477309244639_0.8164457406383008"
+			},
+			"directories": {}
+		},
+		"0.11.0": {
+			"name": "chartist",
+			"title": "Chartist.js",
+			"description": "Simple, responsive charts",
+			"version": "0.11.0",
+			"author": {
+				"name": "Gion Kunz"
+			},
+			"homepage": "https://gionkunz.github.io/chartist-js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gionkunz/chartist-js.git"
+			},
+			"bugs": {
+				"url": "https://github.com/gionkunz/chartist-js/issues"
+			},
+			"keywords": [
+				"chartist",
+				"responsive charts",
+				"charts",
+				"charting"
+			],
+			"files": [
+				"dist",
+				"LICENSE-WTFPL",
+				"LICENSE-MIT",
+				"package.json",
+				"README.md"
+			],
+			"style": "dist/chartist.min.css",
+			"main": "dist/chartist.js",
+			"browser": "dist/chartist.js",
+			"license": "MIT OR WTFPL",
+			"licenses": [
+				{
+					"type": "WTFPL",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-WTFPL"
+				},
+				{
+					"type": "MIT",
+					"url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE-MIT"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"assemble-dox": "0.0.2",
+				"grunt": "^1.0.1",
+				"grunt-assemble": "^0.4.0",
+				"grunt-concurrent": "^2.3.0",
+				"grunt-contrib-clean": "^1.0.0",
+				"grunt-contrib-concat": "^1.0.1",
+				"grunt-contrib-connect": "^1.0.2",
+				"grunt-contrib-copy": "^1.0.0",
+				"grunt-contrib-cssmin": "^1.0.1",
+				"grunt-contrib-htmlmin": "^1.4.0",
+				"grunt-contrib-imagemin": "^1.0.0",
+				"grunt-contrib-jasmine": "^1.0.3",
+				"grunt-contrib-jshint": "^1.0.0",
+				"grunt-contrib-uglify": "^1.0.1",
+				"grunt-contrib-watch": "^1.0.0",
+				"grunt-critical": "^0.2.1",
+				"grunt-newer": "^1.1.0",
+				"grunt-sass": "^1.1.0",
+				"grunt-svgmin": "^3.2.0",
+				"grunt-template": "^0.2.3",
+				"grunt-umd": "^2.3.1",
+				"grunt-usemin": "^3.1.1",
+				"handlebars-helpers": "^0.6.1",
+				"jasmine-jquery": "^2.1.1",
+				"jquery": "^3.0.0",
+				"jshint-stylish": "^2.2.0",
+				"load-grunt-config": "^0.19.2",
+				"lodash": "^4.13.1",
+				"seed-random": "^2.2.0",
+				"time-grunt": "^1.0.0"
+			},
+			"engines": {
+				"node": ">=4.6.0"
+			},
+			"scripts": {
+				"start": "grunt",
+				"test": "grunt test",
+				"dev": "grunt dev",
+				"build": "grunt build",
+				"preview": "grunt preview",
+				"public": "grunt public"
+			},
+			"config": {
+				"banner": "/* Chartist.js <%= pkg.version %>\n * Copyright © <%= year %> Gion Kunz\n * Free to use under either the WTFPL license or the MIT license.\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-WTFPL\n * https://raw.githubusercontent.com/gionkunz/chartist-js/master/LICENSE-MIT\n */\n",
+				"src": "src",
+				"dist": "dist",
+				"site": "site",
+				"tmp": ".tmp",
+				"public": ".public",
+				"test": "test"
+			},
+			"gitHead": "e2ee06153f099b548530ef517a247fc0dc978cb8",
+			"_id": "chartist@0.11.0",
+			"_shasum": "84ba5e05490d096d93dcfa9343ebc31ef6a3bd28",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "gionkunz",
+				"email": "gion.kunz@gmail.com"
+			},
+			"dist": {
+				"shasum": "84ba5e05490d096d93dcfa9343ebc31ef6a3bd28",
+				"tarball": "https://registry.npmjs.org/chartist/-/chartist-0.11.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "gionkunz",
+					"email": "gion.kunz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/chartist-0.11.0.tgz_1491903821917_0.054782005259767175"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.11.0"
+	},
+	"_distfiles": {
+		"chartist-0.1.9.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.1.9.tgz",
+			"sha": "33a202da2a22a58be62cb0d84e1d4f4d2631c5b1",
+			"registry": "npmjs"
+		},
+		"chartist-0.1.10.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.1.10.tgz",
+			"sha": "bc575c2fe654ddf4d7514a14cbe7ea4c557d4f2c",
+			"registry": "npmjs"
+		},
+		"chartist-0.1.11.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.1.11.tgz",
+			"sha": "1834c60bcf5f15c744634d1d6f6c9b61ba132c51",
+			"registry": "npmjs"
+		},
+		"chartist-0.1.12.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.1.12.tgz",
+			"sha": "2abad40a378dbdb629c7354c9779e4d35bc8d428",
+			"registry": "npmjs"
+		},
+		"chartist-0.1.15.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.1.15.tgz",
+			"sha": "41cd714debc8ab2ed9e7f0f78bd7b7b7ce7984d4",
+			"registry": "npmjs"
+		},
+		"chartist-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.2.0.tgz",
+			"sha": "32a9ede2ae0b411bcf6f3537fe35add90e34bb1b",
+			"registry": "npmjs"
+		},
+		"chartist-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.2.1.tgz",
+			"sha": "e914a061e9bfabbfbf53b0f0a20f48ff1ccf7e3f",
+			"registry": "npmjs"
+		},
+		"chartist-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.2.2.tgz",
+			"sha": "8491ce79f6c85fe1213605ab83168187260116b8",
+			"registry": "npmjs"
+		},
+		"chartist-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.2.4.tgz",
+			"sha": "2cdc63f215a9b3e30faf2f05dd9258cf36f74056",
+			"registry": "npmjs"
+		},
+		"chartist-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.3.0.tgz",
+			"sha": "08d3864249231b1eca5984b060b8c94d0d7b1d52",
+			"registry": "npmjs"
+		},
+		"chartist-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.3.1.tgz",
+			"sha": "c142179820cff72f18fddf67bf86d61933a87cb2",
+			"registry": "npmjs"
+		},
+		"chartist-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.4.0.tgz",
+			"sha": "956c48d251f4ed7d45d79776254c1b3132f490aa",
+			"registry": "npmjs"
+		},
+		"chartist-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.4.1.tgz",
+			"sha": "797180c14c66c7fb11704ae22e748bed031a9359",
+			"registry": "npmjs"
+		},
+		"chartist-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.4.2.tgz",
+			"sha": "f46ce2d49bf8d523c4a3674aafee755f4c61e1e5",
+			"registry": "npmjs"
+		},
+		"chartist-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.4.3.tgz",
+			"sha": "60940b06cad2480d129ea3a452f7737c1c945a09",
+			"registry": "npmjs"
+		},
+		"chartist-0.4.4.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.4.4.tgz",
+			"sha": "16c1983ae240082c903a44266291418dbaee6160",
+			"registry": "npmjs"
+		},
+		"chartist-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.5.0.tgz",
+			"sha": "ad526e7523cb5a5e76b188428ca1d61a654c2dfb",
+			"registry": "npmjs"
+		},
+		"chartist-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.6.0.tgz",
+			"sha": "09c79d741f0f1c063580c7563a14e2168637891d",
+			"registry": "npmjs"
+		},
+		"chartist-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.6.1.tgz",
+			"sha": "ece79164cc7cde75e640574dc578e4710d833ba2",
+			"registry": "npmjs"
+		},
+		"chartist-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.7.0.tgz",
+			"sha": "94a083a88cc61ebae600e0464870b67939083e07",
+			"registry": "npmjs"
+		},
+		"chartist-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.7.1.tgz",
+			"sha": "6925536313a11b0e8b0c89badf259c2074991a3d",
+			"registry": "npmjs"
+		},
+		"chartist-0.7.2.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.7.2.tgz",
+			"sha": "ecf9d8055581c94c55d9b90192f2942a9767fe36",
+			"registry": "npmjs"
+		},
+		"chartist-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.7.3.tgz",
+			"sha": "ca053c1e103a444e927482590ab6bda63e507633",
+			"registry": "npmjs"
+		},
+		"chartist-0.7.4.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.7.4.tgz",
+			"sha": "b3f3ae7d6aeef365c72ab7abd530541b5fcc4422",
+			"registry": "npmjs"
+		},
+		"chartist-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.8.0.tgz",
+			"sha": "f0852cdd3f46ee80e3e1e8fa3bf5d2d8ad584ad9",
+			"registry": "npmjs"
+		},
+		"chartist-0.8.2.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.8.2.tgz",
+			"sha": "575b98f2920788e2487d208fc043e0d645ddefe5",
+			"registry": "npmjs"
+		},
+		"chartist-0.8.3.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.8.3.tgz",
+			"sha": "6702cad2c55706ccd5258029c43068df76a5ca63",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.0.tgz",
+			"sha": "cacc9aea3c0e73299da598ea372d96a044d4c33e",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.1.tgz",
+			"sha": "20967ebf49e3ece379a59b5cd933b0caa70bf393",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.2.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.2.tgz",
+			"sha": "65dffd1c02e4e36eae5a8b4f644bc402bd8ecfa6",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.3.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.3.tgz",
+			"sha": "e267af286a5471c91414cd19a2d46dbc6d4f208b",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.4.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.4.tgz",
+			"sha": "2fc99cbb261314819b62aa95a1b142d109c95a65",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.5.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.5.tgz",
+			"sha": "a25b19ff81f50fb0367c0cd67f09d4e303db116b",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.6.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.6.tgz",
+			"sha": "179def999fcea02285658c34409dd48439a1c2b1",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.7.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.7.tgz",
+			"sha": "507671497dd409e0d4d3aaae5ecce3ba59f2f698",
+			"registry": "npmjs"
+		},
+		"chartist-0.9.8.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.9.8.tgz",
+			"sha": "08040365c27843811343f008b0bbe9933c780677",
+			"registry": "npmjs"
+		},
+		"chartist-0.10.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.10.0.tgz",
+			"sha": "f0d9ead98c45014005c2ed7aa16cacd1771cb155",
+			"registry": "npmjs"
+		},
+		"chartist-0.10.1.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.10.1.tgz",
+			"sha": "3dd513d531dfca6b78e777fe0500d9c7e6406931",
+			"registry": "npmjs"
+		},
+		"chartist-0.11.0.tgz": {
+			"url": "https://registry.npmjs.org/chartist/-/chartist-0.11.0.tgz",
+			"sha": "84ba5e05490d096d93dcfa9343ebc31ef6a3bd28",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"593b2dbe-1723d\"",
+			"fetched": 1501276762069
+		}
+	},
+	"_rev": "1-3dbf646f7d655e74",
+	"readme": "# Big welcome by the Chartist Guy\n\n[![Join the chat at https://gitter.im/gionkunz/chartist-js](https://badges.gitter.im/gionkunz/chartist-js.svg)](https://gitter.im/gionkunz/chartist-js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![npm version](http://img.shields.io/npm/v/chartist.svg)](https://npmjs.org/package/chartist) [![build status](http://img.shields.io/travis/gionkunz/chartist-js.svg)](https://travis-ci.org/gionkunz/chartist-js) [![Inline docs](http://inch-ci.org/github/gionkunz/chartist-js.svg?branch=develop)](http://inch-ci.org/github/gionkunz/chartist-js)\n\n![The Chartist Guy](https://raw.github.com/gionkunz/chartist-js/develop/site/images/chartist-guy.gif \"The Chartist Guy\")\n\n*Checkout the documentation site at http://gionkunz.github.io/chartist-js/*\n\n*Checkout this lightning talk that gives you an overview of Chartist in 5 minutes https://www.youtube.com/watch?v=WdYzPhOB_c8*\n\n*Guest talk of the Chartist.js Guy at the Treehouse Show https://www.youtube.com/watch?v=h9oH0iDaZDQ&t=2m40s*\n\nChartist.js is a simple responsive charting library built with SVG. There are hundreds of nice charting libraries already\nout there, but they are either:\n\n* not responsive\n* use the wrong technologies for illustration (canvas)\n* are not flexible enough while keeping the configuration simple\n* are not friendly to your own code\n* are not friendly to designers\n* have unnecessary dependencies to monolithic libraries \n* more annoying things\n\nThat's why we started Chartist.js and our goal is to solve all of the above issues.\n\n## What is it made for?\n\nChartist's goal is to provide a simple, lightweight and unintrusive library to responsively craft charts on your website. \nIt's important to understand that one of the main intentions of Chartist.js is to rely on standards rather than providing \nit's own solution to a problem which is already solved by those standards. We need to leverage the power of browsers \ntoday and say good bye to the idea of solving all problems ourselves.\n\nChartist works with inline-SVG and therefore leverages the power of the DOM to provide parts of its functionality. This \nalso means that Chartist does not provide it's own event handling, labels, behaviors or anything else that can just be \ndone with plain HTML, JavaScript and CSS. The single and only responsibility of Chartist is to help you drawing \"Simple \nresponsive Charts\" using inline-SVG in the DOM, CSS to style and JavaScript to provide an API for configuring your charts.\n\n## Example site\n\nYou can visit this Site http://gionkunz.github.io/chartist-js/ which is in fact a build of the current project.\nWe are still developing and constantly add features but you can already use Chartist.js in your projects as we have \nreached a stable and reliable state already.\n\n## Version notes\n\nWe are currently still heavily developing in order to make Chartist.js better. Your help is needed! Please contribute\nto the project if you like the idea and the concept and help us to bring nice looking responsive open-source charts\nto the masses.\n\n### Important missing stuff\n\n1. Jasmine Tests!\n2. Documentation: JSDoc, Getting started documentation and landing page\n3. Better accessibility using ARIA and other optimizations\n4. Better interfaces to the library (i.e. jQuery with data-* attributes for configuration), Angular.js directive etc.\n5. Richer Sass / CSS framework\n6. Other charts types (spider etc.)\n\n## Plugins\n\nSome features aren't right for the core product\nbut there is a great set of plugins available\nwhich add features like:\n\n* [Axis labels](http://gionkunz.github.io/chartist-js/plugins.html#axis-title-plugin)\n* [Tooltips at data points](https://gionkunz.github.io/chartist-js/plugins.html#tooltip-plugin)\n* [Coloring above/below a threshold](https://gionkunz.github.io/chartist-js/plugins.html#threshold-plugin)\n\nand more.\n\nSee all the plugins [here](https://gionkunz.github.io/chartist-js/plugins.html).\n\n## Contribution\n\nWe are looking for people who share the idea of having a simple, flexible charting library that is responsive and uses\nmodern and future-proof technologies. The goal of this project is to create a responsive charting library where developers\nhave their joy in using it and designers love it because of the designing flexibility they have.\n\nContribute if you like the Chartist Guy!\n"
+}

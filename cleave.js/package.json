@@ -1,0 +1,5560 @@
+{
+	"name": "cleave.js",
+	"versions": {
+		"0.0.1": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript Library for...",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"form",
+				"input"
+			],
+			"version": "0.0.1",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"dependencies": {},
+			"main": "src/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp build"
+			},
+			"_id": "cleave.js@0.0.1",
+			"_shasum": "988bd0366427eefdecd4b079f1c155e1bc2b5dfd",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "988bd0366427eefdecd4b079f1c155e1bc2b5dfd",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.1.tgz_1463576374396_0.5040869864169508"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript Library for...",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"form",
+				"input"
+			],
+			"version": "0.0.2",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"dependencies": {},
+			"main": "src/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp build"
+			},
+			"_id": "cleave.js@0.0.2",
+			"_shasum": "25818aaa8f2f5347440ebc497af9d6c3da4e003a",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "25818aaa8f2f5347440ebc497af9d6c3da4e003a",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.2.tgz_1463576465086_0.16770078102126718"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript Library for",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"form",
+				"input"
+			],
+			"version": "0.0.3",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rimraf": "^0.2.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"uglify-js": "^2.6.2",
+				"underscore": "^1.8.3"
+			},
+			"gitHead": "fab652a91e10017b896de70cd95da1914e9323d6",
+			"_id": "cleave.js@0.0.3",
+			"_shasum": "4f494451754a4d535e8ac04850c0a26f8f0e6efb",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4f494451754a4d535e8ac04850c0a26f8f0e6efb",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.3.tgz_1465288987568_0.26800773618742824"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript Library for",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"form",
+				"input"
+			],
+			"version": "0.0.4",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"uglify-js": "^2.6.2",
+				"underscore": "^1.8.3"
+			},
+			"gitHead": "4c66ab65848af415b2f05761b37f28130cb2419b",
+			"_id": "cleave.js@0.0.4",
+			"_shasum": "072e8ff3fa1e0141d5a1eccd56526c8c6a70c030",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "072e8ff3fa1e0141d5a1eccd56526c8c6a70c030",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.4.tgz_1465482314766_0.369815013371408"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library to separate input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"form",
+				"input"
+			],
+			"version": "0.0.5",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"uglify-js": "^2.6.2",
+				"underscore": "^1.8.3"
+			},
+			"gitHead": "c7a4d18ca32bf75b9f97cb8bbab846d42b83661a",
+			"_id": "cleave.js@0.0.5",
+			"_shasum": "697e521477bc9b29bef448ffa7d2f0347d68d9b3",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "697e521477bc9b29bef448ffa7d2f0347d68d9b3",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.5.tgz_1465806976302_0.7129951668903232"
+			},
+			"directories": {}
+		},
+		"0.0.7": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.0.7",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"errorify": "^0.3.1",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-jshint": "^2.0.1",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"jshint-stylish": "^2.2.0",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"reactify": "^1.1.1",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "10fe68442d41f01e8cbcc092c0d63a6a5cd765e0",
+			"_id": "cleave.js@0.0.7",
+			"_shasum": "4f720860afd50b93d0e27506c6176e7b8d094c3b",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4f720860afd50b93d0e27506c6176e7b8d094c3b",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.0.7.tgz_1466172545842_0.002952220616862178"
+			},
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.1.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-jshint": "^2.0.1",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"jshint-stylish": "^2.2.0",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "01d69ad339aecb0f9153b124cdf148b58f8e1191",
+			"_id": "cleave.js@0.1.0",
+			"_shasum": "ecd9f41fae43d986d43cbb2917ef9ff8b2f26279",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ecd9f41fae43d986d43cbb2917ef9ff8b2f26279",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.1.0.tgz_1466308301056_0.07697381265461445"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.2.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "df05117deaa08d66147ce7a466f33a52567a87c5",
+			"_id": "cleave.js@0.2.0",
+			"_shasum": "b00674551e30657f8cd58aa938e2574de8b68db4",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b00674551e30657f8cd58aa938e2574de8b68db4",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.2.0.tgz_1466858824329_0.7354853621218354"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.2.1",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "d3761a464d6ceac7e22dc0f7d5423b3c653e3312",
+			"_id": "cleave.js@0.2.1",
+			"_shasum": "e7b7d8773902cd77d9a05bcd351d43962e911267",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e7b7d8773902cd77d9a05bcd351d43962e911267",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.2.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.2.1.tgz_1466861618517_0.5384099944494665"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.3.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "ab89eb93a973df41ac721f48211dee0b1eb00667",
+			"_id": "cleave.js@0.3.0",
+			"_shasum": "034b2672b91dbdaf845248b53963df09dc714400",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "034b2672b91dbdaf845248b53963df09dc714400",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.3.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.3.0.tgz_1467897444303_0.8054652442224324"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "c7668a563d32937aa9febf169a0fd91c63815b00",
+			"_id": "cleave.js@0.4.0",
+			"_shasum": "880485329c0346680da6e0f0a80f1e3632c1b5f9",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "880485329c0346680da6e0f0a80f1e3632c1b5f9",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.0.tgz_1468068756363_0.18383384449407458"
+			},
+			"directories": {}
+		},
+		"0.3.2": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.3.2",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "c7668a563d32937aa9febf169a0fd91c63815b00",
+			"_id": "cleave.js@0.3.2",
+			"_shasum": "851f3447ba5e85f9d7a107fd8e67dc43767251d2",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "851f3447ba5e85f9d7a107fd8e67dc43767251d2",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.3.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.3.2.tgz_1468069104343_0.6812516865320504"
+			},
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.1",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "c8695104093f4ebb39a6039585872eb905e77ca7",
+			"_id": "cleave.js@0.4.1",
+			"_shasum": "3e7109abed7ff9da4d9aed9b22d2bf34a24fdde7",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3e7109abed7ff9da4d9aed9b22d2bf34a24fdde7",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.1.tgz_1468114494179_0.6512807223480195"
+			},
+			"directories": {}
+		},
+		"0.4.2": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.2",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "f3056d86a374203082f5be7e8af1551b0c72c6e2",
+			"_id": "cleave.js@0.4.2",
+			"_shasum": "f056eb2e2f4f053c297b292af8a8e94da7afd091",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f056eb2e2f4f053c297b292af8a8e94da7afd091",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.2.tgz_1468134930871_0.8060095133259892"
+			},
+			"directories": {}
+		},
+		"0.4.3": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.3",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "ec0ea1b5efa70ec8602d6e97308d0ecea5bde0d3",
+			"_id": "cleave.js@0.4.3",
+			"_shasum": "7f3d48879841112d622880c7d67fa3e85b394372",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7f3d48879841112d622880c7d67fa3e85b394372",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.3.tgz_1468142035883_0.02370507549494505"
+			},
+			"directories": {}
+		},
+		"0.4.5": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.5",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "eb0b54c19588de4d120df69fe3e6d62a4f6fd0bd",
+			"_id": "cleave.js@0.4.5",
+			"_shasum": "5bda37bab07d75ef49db82c058892b8e0113fdf4",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5bda37bab07d75ef49db82c058892b8e0113fdf4",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.5.tgz_1468240302917_0.25554766692221165"
+			},
+			"directories": {}
+		},
+		"0.4.6": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.6",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "928ebecd0d11c632e801e188517f21cb5fd26d42",
+			"_id": "cleave.js@0.4.6",
+			"_shasum": "63200ae55c9e06e1641eaf6a1724ace9b1c616fb",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "63200ae55c9e06e1641eaf6a1724ace9b1c616fb",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.6.tgz_1468422394422_0.894031290197745"
+			},
+			"directories": {}
+		},
+		"0.4.7": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.7",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "6c9b2fd70f6865be406c05e957aef8d6d5d5d9a8",
+			"_id": "cleave.js@0.4.7",
+			"_shasum": "1a29dc05c64633b436bd173bf8730118b17e977c",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "1a29dc05c64633b436bd173bf8730118b17e977c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.7.tgz_1468509869178_0.04717398132197559"
+			},
+			"directories": {}
+		},
+		"0.4.8": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.8",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "d00433205951d6e51271e8f2cd2abf145caabebb",
+			"_id": "cleave.js@0.4.8",
+			"_shasum": "08d9ab830babc92becd1315c3f81c0eddd932549",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "08d9ab830babc92becd1315c3f81c0eddd932549",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.8.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.8.tgz_1468650784711_0.5373718461487442"
+			},
+			"directories": {}
+		},
+		"0.4.9": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.9",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "99c9ac96055b83927a6e6ba12c59b60913c48893",
+			"_id": "cleave.js@0.4.9",
+			"_shasum": "4e465c54da0f84c245ea64c3d689ccf8125f35d6",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4e465c54da0f84c245ea64c3d689ccf8125f35d6",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.9.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.9.tgz_1468937861055_0.7209201592486352"
+			},
+			"directories": {}
+		},
+		"0.4.10": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.10",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "c295a527b52dd8878f4e01bfc2103214625758a9",
+			"_id": "cleave.js@0.4.10",
+			"_shasum": "6ada12e6c0239b0301e8b3918bc3edbd5bdb2190",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6ada12e6c0239b0301e8b3918bc3edbd5bdb2190",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.10.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.10.tgz_1469106578814_0.3280848586000502"
+			},
+			"directories": {}
+		},
+		"0.4.11": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.4.11",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "413140dc40627e119a03aa2b75b16d696bf4149e",
+			"_id": "cleave.js@0.4.11",
+			"_shasum": "8211e76fdabd92f0bf709f47c1052ea619e4860d",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8211e76fdabd92f0bf709f47c1052ea619e4860d",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.11.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.4.11.tgz_1469195427607_0.074474768480286"
+			},
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.5.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-eslint": "^6.0.5",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0"
+			},
+			"gitHead": "53e1d4fb8ea51da53a965b71293a288acb6b0a43",
+			"_id": "cleave.js@0.5.0",
+			"_shasum": "3f90ab1243ea37b7c188f1618d81754647776615",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3f90ab1243ea37b7c188f1618d81754647776615",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.5.0.tgz_1469258549463_0.8228541021235287"
+			},
+			"directories": {}
+		},
+		"0.5.1": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.5.1",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "96b5134791f2f301562d0037c834843afb4a4e80",
+			"_id": "cleave.js@0.5.1",
+			"_shasum": "d93fee91dd1efdea90f315c8a134836839b2b15c",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d93fee91dd1efdea90f315c8a134836839b2b15c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.5.1.tgz_1469543414522_0.06960920197889209"
+			},
+			"directories": {}
+		},
+		"0.5.2": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.5.2",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache License 2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "41453ee61c8ae88ec476ccda40347082ab2bc008",
+			"_id": "cleave.js@0.5.2",
+			"_shasum": "b19944c82023fe8fa8ee205b2c8ff59854f98583",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b19944c82023fe8fa8ee205b2c8ff59854f98583",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.5.2.tgz_1469630161647_0.8112934739328921"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "ef7a2c4c7f20e4136f31ff6e9ae71164e3ff4d53",
+			"_id": "cleave.js@0.6.0",
+			"_shasum": "62e4d20884bf8bce52f1f3db760511f6d3420439",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "62e4d20884bf8bce52f1f3db760511f6d3420439",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.0.tgz_1469969635164_0.1066849660128355"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.1",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "09aaaee4ae91ffb49a5b988b5ec0649cdce69fe8",
+			"_id": "cleave.js@0.6.1",
+			"_shasum": "5297359c1b7f5ea4eaf84ae3f2c1179e7c5fb9cd",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5297359c1b7f5ea4eaf84ae3f2c1179e7c5fb9cd",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.1.tgz_1469972413130_0.8965864863712341"
+			},
+			"directories": {}
+		},
+		"0.6.2": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.2",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "647920ec5f1db8ad4c658718faaa5743f1c08e57",
+			"_id": "cleave.js@0.6.2",
+			"_shasum": "b49a5b3b0290fcbdc9029d242538260caa2aebf1",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b49a5b3b0290fcbdc9029d242538260caa2aebf1",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.2.tgz_1470230836786_0.6097070917021483"
+			},
+			"directories": {}
+		},
+		"0.6.3": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.3",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify-shim": {
+				"react": "global:React",
+				"react-dom": "global:ReactDOM"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "8dcd1792400cef7aa3786c76e3d9f575f5910329",
+			"_id": "cleave.js@0.6.3",
+			"_shasum": "ac0f6d6437ee8b1664d3e12a8c5f5c232a85b682",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ac0f6d6437ee8b1664d3e12a8c5f5c232a85b682",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.3.tgz_1470318110199_0.7322993404231966"
+			},
+			"directories": {}
+		},
+		"0.6.5": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.5",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "7c8873db2c7c9792928bda71767c549e4ffd933b",
+			"_id": "cleave.js@0.6.5",
+			"_shasum": "7624abd6b0218ad97294ed0aeca377b39e710a0c",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7624abd6b0218ad97294ed0aeca377b39e710a0c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.5.tgz_1470452519318_0.6397886092308909"
+			},
+			"directories": {}
+		},
+		"0.6.7": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.7",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "c9beb099fc3e2e85b8a65590bf5c10e085b32747",
+			"_id": "cleave.js@0.6.7",
+			"_shasum": "c8711429c82f343cdf46e3c4304ff92727793491",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c8711429c82f343cdf46e3c4304ff92727793491",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.7.tgz_1471177183172_0.30474966135807335"
+			},
+			"directories": {}
+		},
+		"0.6.9": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.9",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "6704e3ef974ddfe980ab0b4a85e70f1e25300c1a",
+			"_id": "cleave.js@0.6.9",
+			"_shasum": "3b81b9de82d21b4e01f00eb39ffd824812a06f90",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3b81b9de82d21b4e01f00eb39ffd824812a06f90",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.9.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.9.tgz_1471262889278_0.6131437446456403"
+			},
+			"directories": {}
+		},
+		"0.6.10": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.10",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "35cdebea711e541dd03877dc171bc2229fbe89a3",
+			"_id": "cleave.js@0.6.10",
+			"_shasum": "78f33827493fe2f7431342d62fea79ce3df17fbe",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "78f33827493fe2f7431342d62fea79ce3df17fbe",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.10.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.10.tgz_1471351207387_0.46066967654041946"
+			},
+			"directories": {}
+		},
+		"0.6.11": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.11",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "afad6f008367b3a2a91fa5e684074e9b3a340c60",
+			"_id": "cleave.js@0.6.11",
+			"_shasum": "9ae1697015a0b758cbfb948d04c24d8795c28336",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9ae1697015a0b758cbfb948d04c24d8795c28336",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.11.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.11.tgz_1471659260948_0.9962384481914341"
+			},
+			"directories": {}
+		},
+		"0.6.12": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.12",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "51c5920ce5682412fc3c069636cccd9b2baeb070",
+			"_id": "cleave.js@0.6.12",
+			"_shasum": "7d878f3a3b175b8b7b0e9f1c52c930fedc86cd8d",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7d878f3a3b175b8b7b0e9f1c52c930fedc86cd8d",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.12.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.12.tgz_1471701413177_0.09610939351841807"
+			},
+			"directories": {}
+		},
+		"0.6.14": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.6.14",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "02651c1df12bc7037ec4df664c2e3df4c2f4bcff",
+			"_id": "cleave.js@0.6.14",
+			"_shasum": "45598222906b65991f9b959381b8b5219beafb02",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "45598222906b65991f9b959381b8b5219beafb02",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.14.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.6.14.tgz_1472221386728_0.5625373015645891"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "3963ad1ea2797f28ff74517d23374c0871053430",
+			"_id": "cleave.js@0.7.0",
+			"_shasum": "b113974ab9748a19d965df077a72e7ede98c59f0",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b113974ab9748a19d965df077a72e7ede98c59f0",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.0.tgz_1472369588797_0.11359104793518782"
+			},
+			"directories": {}
+		},
+		"0.7.3": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.3",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "f5792a0671d573d370f3bff280a09eaf790f8f97",
+			"_id": "cleave.js@0.7.3",
+			"_shasum": "aa2e1de52256e5ec39fe9a8b048fc8037f65d881",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "aa2e1de52256e5ec39fe9a8b048fc8037f65d881",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.3.tgz_1472566734512_0.3850193286780268"
+			},
+			"directories": {}
+		},
+		"0.7.4": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.4",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "578fe6f1881b551c6ea5cab986dd884cb098d805",
+			"_id": "cleave.js@0.7.4",
+			"_shasum": "24eb43cc9c241a6a55cf2533aa8bf69d7e954a8c",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "24eb43cc9c241a6a55cf2533aa8bf69d7e954a8c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.4.tgz_1473254697601_0.926945311948657"
+			},
+			"directories": {}
+		},
+		"0.7.5": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.5",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "fd32bc70eb263d70e7cacca8f7d5b02ea49ebc72",
+			"_id": "cleave.js@0.7.5",
+			"_shasum": "8f3ccecb6ecddc4dcb0f01e55ad8e0b76e5415b5",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8f3ccecb6ecddc4dcb0f01e55ad8e0b76e5415b5",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.5.tgz_1473775785556_0.3924948712810874"
+			},
+			"directories": {}
+		},
+		"0.7.6": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.6",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "2d7b9a012c6cf29e30dfdddb5aa712003a2b9b8e",
+			"_id": "cleave.js@0.7.6",
+			"_shasum": "cd54c584ddc51ebe447277da331bb81f3066fbf0",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "cd54c584ddc51ebe447277da331bb81f3066fbf0",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.6.tgz_1473945195164_0.5276830527000129"
+			},
+			"directories": {}
+		},
+		"0.7.7": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.7",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "db4c0f64e4b2497b60f23137c1c5c7e1aa51f952",
+			"_id": "cleave.js@0.7.7",
+			"_shasum": "1cdf5f2fba9f1443575c19209ac3f9ae340f25c3",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "1cdf5f2fba9f1443575c19209ac3f9ae340f25c3",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.7.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.7.tgz_1473952412899_0.7494546296074986"
+			},
+			"directories": {}
+		},
+		"0.7.8": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.8",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "8fb51021d6244671602c270eb4a8f55628bf6083",
+			"_id": "cleave.js@0.7.8",
+			"_shasum": "bc01b0f14a0d0d4d13d9277229ec1c81a0886e87",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "bc01b0f14a0d0d4d13d9277229ec1c81a0886e87",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.8.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.8.tgz_1474088095580_0.36703111813403666"
+			},
+			"directories": {}
+		},
+		"0.7.9": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.9",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "0d857920575fe6fd1330a7d8fd980175e0a7094f",
+			"_id": "cleave.js@0.7.9",
+			"_shasum": "b221c2916ec2e0b360dd17b3fb4d27b8d37026f3",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b221c2916ec2e0b360dd17b3fb4d27b8d37026f3",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.9.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.9.tgz_1474089909665_0.9139179512858391"
+			},
+			"directories": {}
+		},
+		"0.7.10": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.10",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "2d89184ce7511fdfb838bd5d3e21e0c4c114d806",
+			"_id": "cleave.js@0.7.10",
+			"_shasum": "d98ddaff4b423534426cddaf7686997c80f690e3",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d98ddaff4b423534426cddaf7686997c80f690e3",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.10.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.10.tgz_1475671608671_0.3776642372831702"
+			},
+			"directories": {}
+		},
+		"0.7.11": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.11",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"chai": "^3.5.0",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "4395d71245431122ca745abf554b7660733c4351",
+			"_id": "cleave.js@0.7.11",
+			"_shasum": "7726116634258e260b0252e8cc059dae017ecf17",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7726116634258e260b0252e8cc059dae017ecf17",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.11.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.11.tgz_1476359619428_0.6885360304731876"
+			},
+			"directories": {}
+		},
+		"0.7.12": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.12",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"chai": "^3.5.0",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "8b888d727ede703818ddd5f9244530a210155cb6",
+			"_id": "cleave.js@0.7.12",
+			"_shasum": "1a63b94ebe037e9e64923766d38c43b476920c9c",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "1a63b94ebe037e9e64923766d38c43b476920c9c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.12.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.12.tgz_1477552494120_0.049703366588801146"
+			},
+			"directories": {}
+		},
+		"0.7.14": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.14",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"chai": "^3.5.0",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "1829976b7256127fe7ced0324e95eb7889c738b8",
+			"_id": "cleave.js@0.7.14",
+			"_shasum": "d95761a0cd6214e2ecb0be670a759f3e4df5a79d",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d95761a0cd6214e2ecb0be670a759f3e4df5a79d",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.14.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.14.tgz_1477558191020_0.4840375850908458"
+			},
+			"directories": {}
+		},
+		"0.7.15": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.15",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"chai": "^3.5.0",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "1e294e87eb137fe9528b6de8e1822011101d528e",
+			"_id": "cleave.js@0.7.15",
+			"_shasum": "f8e33a2b4d48c48c410e4978f983c85a8be32a5a",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f8e33a2b4d48c48c410e4978f983c85a8be32a5a",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.15.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.15.tgz_1484315290561_0.696300185052678"
+			},
+			"directories": {}
+		},
+		"0.7.16": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.16",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "src/Cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"browserify": {
+				"transform": [
+					"babelify",
+					"browserify-shim"
+				]
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"browserify-shim": "^3.8.12",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "dd9e1d39af9897404d08032d160bf863bfa42a7c",
+			"_id": "cleave.js@0.7.16",
+			"_shasum": "42e570569d66f6dcd9cca7c954887eb722204209",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "42e570569d66f6dcd9cca7c954887eb722204209",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.16.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cleave.js-0.7.16.tgz_1494735812775_0.4310461163986474"
+			},
+			"directories": {}
+		},
+		"0.7.17": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.17",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "e4d5c0fd3bd085db4a15c102774c6403816ca907",
+			"_id": "cleave.js@0.7.17",
+			"_shasum": "abcdd59ac04a0f41977fcd54ca57b0ebb8eaf016",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "abcdd59ac04a0f41977fcd54ca57b0ebb8eaf016",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.17.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.7.17.tgz_1495858663598_0.41275580902583897"
+			},
+			"directories": {}
+		},
+		"0.7.20": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.20",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "eb8dc0a57230ffa748c162b040a86aa119d214f4",
+			"_id": "cleave.js@0.7.20",
+			"_shasum": "93a754198eb453dfb9f173aa8dfacd491da71b08",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "93a754198eb453dfb9f173aa8dfacd491da71b08",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.20.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.7.20.tgz_1498312355662_0.8203368517570198"
+			},
+			"directories": {}
+		},
+		"0.7.21": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.21",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "f17ae437829b669b928e5d56bab51705ac7cc902",
+			"_id": "cleave.js@0.7.21",
+			"_shasum": "05c21866e42ab3e80d167cb54835036839ffbaa3",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "05c21866e42ab3e80d167cb54835036839ffbaa3",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.21.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.7.21.tgz_1498316129897_0.931592024397105"
+			},
+			"directories": {}
+		},
+		"0.7.22": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.22",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "a72dcfad76e5959680bd0b684c9a513ad40c7762",
+			"_id": "cleave.js@0.7.22",
+			"_shasum": "ca88e1e73a214f4ab7c5e34ca5b360a35ee1713c",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ca88e1e73a214f4ab7c5e34ca5b360a35ee1713c",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.22.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.7.22.tgz_1498917302211_0.15122253191657364"
+			},
+			"directories": {}
+		},
+		"0.7.23": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.7.23",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "5c6e92e57539cf0497065858b6c5972d468e9181",
+			"_id": "cleave.js@0.7.23",
+			"_shasum": "55a6906fb60f611276aab9c0def726ee8530c49b",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "55a6906fb60f611276aab9c0def726ee8530c49b",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.23.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.7.23.tgz_1498998591565_0.18581217946484685"
+			},
+			"directories": {}
+		},
+		"0.8.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.8.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "0ebfdad3881534b329ab8805241172bfe569e4a1",
+			"_id": "cleave.js@0.8.0",
+			"_shasum": "bcc2832cd4e155ab9c57b36c1b13674eca1b593e",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "bcc2832cd4e155ab9c57b36c1b13674eca1b593e",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.8.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.8.0.tgz_1499492087540_0.2960711778141558"
+			},
+			"directories": {}
+		},
+		"0.9.0": {
+			"name": "cleave.js",
+			"title": "cleave.js",
+			"description": "JavaScript library for formatting input text content when you are typing",
+			"keywords": [
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"version": "0.9.0",
+			"author": {
+				"name": "Max Huang",
+				"email": "risonhuang@gmail.com",
+				"url": "http://github.com/nosir"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/nosir/cleave.js/issues"
+			},
+			"homepage": "https://github.com/nosir/cleave.js",
+			"docs": "https://github.com/nosir/cleave.js/blob/master/README.md",
+			"main": "dist/cleave.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/nosir/cleave.js.git"
+			},
+			"scripts": {
+				"test": "gulp test"
+			},
+			"devDependencies": {
+				"babel-core": "^6.11.4",
+				"babel-eslint": "^6.0.5",
+				"babel-loader": "^6.2.4",
+				"babel-preset-es2015": "^6.9.0",
+				"babel-preset-react": "^6.5.0",
+				"babel-preset-stage-0": "^6.5.0",
+				"babelify": "^7.3.0",
+				"browserify": "^13.0.1",
+				"chai": "^3.5.0",
+				"create-react-class": "^15.5.2",
+				"errorify": "^0.3.1",
+				"eslint-plugin-react": "^5.2.2",
+				"gulp": "^3.9.1",
+				"gulp-concat": "^2.6.0",
+				"gulp-eslint": "^2.0.0",
+				"gulp-header": "^1.8.3",
+				"gulp-mocha": "^2.2.0",
+				"gulp-mocha-phantomjs": "^0.12.0",
+				"gulp-rename": "^1.2.2",
+				"gulp-rimraf": "^0.2.0",
+				"gulp-sync": "^0.1.4",
+				"gulp-uglify": "^1.5.3",
+				"mocha": "^3.1.2",
+				"react": "^15.1.0",
+				"react-dom": "^15.1.0",
+				"require-dir": "^0.3.0",
+				"should": "^9.0.0",
+				"underscore": "^1.8.3",
+				"vinyl-source-stream": "^1.1.0",
+				"watchify": "^3.7.0",
+				"webpack": "^1.13.1",
+				"webpack-stream": "^3.2.0"
+			},
+			"gitHead": "af459f402a1e52efa9325eeca6402e96042a09f7",
+			"_id": "cleave.js@0.9.0",
+			"_shasum": "a73bd8bedce99e14c166f36f3f440329a7a22f52",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "nosir",
+				"email": "risonhuang@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "nosir",
+					"email": "risonhuang@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a73bd8bedce99e14c166f36f3f440329a7a22f52",
+				"tarball": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.9.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cleave.js-0.9.0.tgz_1500789174719_0.4275004346854985"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.9.0"
+	},
+	"_distfiles": {
+		"cleave.js-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.1.tgz",
+			"sha": "988bd0366427eefdecd4b079f1c155e1bc2b5dfd",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.2.tgz",
+			"sha": "25818aaa8f2f5347440ebc497af9d6c3da4e003a",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.3.tgz",
+			"sha": "4f494451754a4d535e8ac04850c0a26f8f0e6efb",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.4.tgz",
+			"sha": "072e8ff3fa1e0141d5a1eccd56526c8c6a70c030",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.5.tgz",
+			"sha": "697e521477bc9b29bef448ffa7d2f0347d68d9b3",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.0.7.tgz",
+			"sha": "4f720860afd50b93d0e27506c6176e7b8d094c3b",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.1.0.tgz",
+			"sha": "ecd9f41fae43d986d43cbb2917ef9ff8b2f26279",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.2.0.tgz",
+			"sha": "b00674551e30657f8cd58aa938e2574de8b68db4",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.2.1.tgz",
+			"sha": "e7b7d8773902cd77d9a05bcd351d43962e911267",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.3.0.tgz",
+			"sha": "034b2672b91dbdaf845248b53963df09dc714400",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.0.tgz",
+			"sha": "880485329c0346680da6e0f0a80f1e3632c1b5f9",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.3.2.tgz",
+			"sha": "851f3447ba5e85f9d7a107fd8e67dc43767251d2",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.1.tgz",
+			"sha": "3e7109abed7ff9da4d9aed9b22d2bf34a24fdde7",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.2.tgz",
+			"sha": "f056eb2e2f4f053c297b292af8a8e94da7afd091",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.3.tgz",
+			"sha": "7f3d48879841112d622880c7d67fa3e85b394372",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.5.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.5.tgz",
+			"sha": "5bda37bab07d75ef49db82c058892b8e0113fdf4",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.6.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.6.tgz",
+			"sha": "63200ae55c9e06e1641eaf6a1724ace9b1c616fb",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.7.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.7.tgz",
+			"sha": "1a29dc05c64633b436bd173bf8730118b17e977c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.8.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.8.tgz",
+			"sha": "08d9ab830babc92becd1315c3f81c0eddd932549",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.9.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.9.tgz",
+			"sha": "4e465c54da0f84c245ea64c3d689ccf8125f35d6",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.10.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.10.tgz",
+			"sha": "6ada12e6c0239b0301e8b3918bc3edbd5bdb2190",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.4.11.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.4.11.tgz",
+			"sha": "8211e76fdabd92f0bf709f47c1052ea619e4860d",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.0.tgz",
+			"sha": "3f90ab1243ea37b7c188f1618d81754647776615",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.5.1.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.1.tgz",
+			"sha": "d93fee91dd1efdea90f315c8a134836839b2b15c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.5.2.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.5.2.tgz",
+			"sha": "b19944c82023fe8fa8ee205b2c8ff59854f98583",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.0.tgz",
+			"sha": "62e4d20884bf8bce52f1f3db760511f6d3420439",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.1.tgz",
+			"sha": "5297359c1b7f5ea4eaf84ae3f2c1179e7c5fb9cd",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.2.tgz",
+			"sha": "b49a5b3b0290fcbdc9029d242538260caa2aebf1",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.3.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.3.tgz",
+			"sha": "ac0f6d6437ee8b1664d3e12a8c5f5c232a85b682",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.5.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.5.tgz",
+			"sha": "7624abd6b0218ad97294ed0aeca377b39e710a0c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.7.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.7.tgz",
+			"sha": "c8711429c82f343cdf46e3c4304ff92727793491",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.9.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.9.tgz",
+			"sha": "3b81b9de82d21b4e01f00eb39ffd824812a06f90",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.10.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.10.tgz",
+			"sha": "78f33827493fe2f7431342d62fea79ce3df17fbe",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.11.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.11.tgz",
+			"sha": "9ae1697015a0b758cbfb948d04c24d8795c28336",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.12.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.12.tgz",
+			"sha": "7d878f3a3b175b8b7b0e9f1c52c930fedc86cd8d",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.6.14.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.6.14.tgz",
+			"sha": "45598222906b65991f9b959381b8b5219beafb02",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.0.tgz",
+			"sha": "b113974ab9748a19d965df077a72e7ede98c59f0",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.3.tgz",
+			"sha": "aa2e1de52256e5ec39fe9a8b048fc8037f65d881",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.4.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.4.tgz",
+			"sha": "24eb43cc9c241a6a55cf2533aa8bf69d7e954a8c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.5.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.5.tgz",
+			"sha": "8f3ccecb6ecddc4dcb0f01e55ad8e0b76e5415b5",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.6.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.6.tgz",
+			"sha": "cd54c584ddc51ebe447277da331bb81f3066fbf0",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.7.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.7.tgz",
+			"sha": "1cdf5f2fba9f1443575c19209ac3f9ae340f25c3",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.8.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.8.tgz",
+			"sha": "bc01b0f14a0d0d4d13d9277229ec1c81a0886e87",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.9.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.9.tgz",
+			"sha": "b221c2916ec2e0b360dd17b3fb4d27b8d37026f3",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.10.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.10.tgz",
+			"sha": "d98ddaff4b423534426cddaf7686997c80f690e3",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.11.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.11.tgz",
+			"sha": "7726116634258e260b0252e8cc059dae017ecf17",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.12.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.12.tgz",
+			"sha": "1a63b94ebe037e9e64923766d38c43b476920c9c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.14.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.14.tgz",
+			"sha": "d95761a0cd6214e2ecb0be670a759f3e4df5a79d",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.15.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.15.tgz",
+			"sha": "f8e33a2b4d48c48c410e4978f983c85a8be32a5a",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.16.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.16.tgz",
+			"sha": "42e570569d66f6dcd9cca7c954887eb722204209",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.17.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.17.tgz",
+			"sha": "abcdd59ac04a0f41977fcd54ca57b0ebb8eaf016",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.20.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.20.tgz",
+			"sha": "93a754198eb453dfb9f173aa8dfacd491da71b08",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.21.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.21.tgz",
+			"sha": "05c21866e42ab3e80d167cb54835036839ffbaa3",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.22.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.22.tgz",
+			"sha": "ca88e1e73a214f4ab7c5e34ca5b360a35ee1713c",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.7.23.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.7.23.tgz",
+			"sha": "55a6906fb60f611276aab9c0def726ee8530c49b",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.8.0.tgz",
+			"sha": "bcc2832cd4e155ab9c57b36c1b13674eca1b593e",
+			"registry": "npmjs"
+		},
+		"cleave.js-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/cleave.js/-/cleave.js-0.9.0.tgz",
+			"sha": "a73bd8bedce99e14c166f36f3f440329a7a22f52",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597439b6-1dab6\"",
+			"fetched": 1501276764801
+		}
+	},
+	"_rev": "1-32bc9da2b4eead5b",
+	"readme": "# Cleave.js\n\n[![Travis](https://img.shields.io/travis/nosir/cleave.js.svg?maxAge=2592000)](https://travis-ci.org/nosir/cleave.js)\n[![Codacy branch grade](https://img.shields.io/codacy/grade/b1c0b0da42fa418f887076a3f7352aea/master.svg?maxAge=2592000)](https://www.codacy.com/app/nosir/cleave-js)\n[![npm version](https://badge.fury.io/js/cleave.js.svg)](https://badge.fury.io/js/cleave.js)\n[![npm downloads](https://img.shields.io/npm/dm/cleave.js.svg)](https://www.npmjs.com/package/cleave.js)\n[![Documents](https://img.shields.io/badge/documents-check-3362c2.svg)](https://github.com/nosir/cleave.js/blob/master/doc/doc.md)\n\nCleave.js has a simple purpose: to help you format input text content automatically.\n\n## Features\n\n- Credit card number formatting\n- Phone number formatting (i18n js lib separated for each country to reduce size)\n- Date formatting\n- Numeral formatting\n- Custom delimiter, prefix and blocks pattern\n- CommonJS / AMD mode\n- ReactJS component\n- AngularJS directive (1.x)\n\n**TL;DR** [the demo page](http://nosir.github.io/cleave.js/)\n\n## Why?\n\nThe idea is to provide an easy way to increase input field readability by formatting your typed data. By using this library, you won't need to write any mind-blowing regular expressions or mask patterns to format input text.\n\nHowever, this isn't meant to replace any validation or mask library, you should still sanitize and validate your data in backend.\n\n## Installation\n\n#### npm\n\n```bash\nnpm install --save cleave.js\n```\n\n#### old school\nGrab file from [dist](https://github.com/nosir/cleave.js/tree/master/dist) directory\n\n## Usage\n\nSimply include\n\n```html\n<script src=\"cleave.min.js\"></script>\n<script src=\"cleave-phone.{country}.js\"></script>\n```\n\n> `cleave-phone.{country}.js` addon is only required when phone shortcut mode is enabled. See more in documentation: [phone lib addon](https://github.com/nosir/cleave.js/blob/master/doc/phone-lib-addon.md) section\n\nThen have a text field\n\n```html\n<input class=\"input-phone\" type=\"text\"/>\n```\n\nNow in your JavaScript\n\n```js\nvar cleave = new Cleave('.input-element', {\n    phone: true,\n    phoneRegionCode: '{country}'\n});\n```\n\n> `.input-element` here is a unique DOM element. If you want to apply Cleave for multiple elements, you need to give different css selectors and apply to each of them\n\nMore examples: [the demo page](http://nosir.github.io/cleave.js/)\n\n#### CommonJS\n```js\nvar Cleave = require('cleave.js');\nrequire('cleave.js/dist/addons/cleave-phone.{country}');\n\nvar cleave = new Cleave(...)\n```\n\n#### AMD\n\n```js\nrequire(['cleave.js/dist/cleave.min', 'cleave.js/dist/addons/cleave-phone.{country}'], function (Cleave) {\n    var cleave = new Cleave(...)\n});\n```\n\n## ReactJS component usage\n\n```js\nimport React from 'react';\nimport ReactDOM from 'react-dom';\n\nimport Cleave from 'cleave.js/react';\n```\n\nThen in JSX:\n\n```js\nclass MyComponent extends React.Component {\n\n    constructor(props, context) {\n        super(props, context);\n        this.onCreditCardChange = this.onCreditCardChange.bind(this);\n        this.onCreditCardFocus = this.onCreditCardFocus.bind(this);\n    }\n\n    onCreditCardChange(event) {\n        // formatted pretty value\n        console.log(event.target.value);\n\n        // raw value\n        console.log(event.target.rawValue);\n    }\n\n    onCreditCardFocus(event) {\n        // update some state\n    }\n\n    render() {\n        return (\n            <Cleave placeholder=\"Enter your credit card number\"\n                options={{creditCard: true}}\n                onFocus={this.onCreditCardFocus}\n                onChange={this.onCreditCardChange} />\n        );\n    }\n}\n```\n\nAs you can see, here you simply use `<Cleave/>` as a normal `<input/>` field\n\n- Attach HTML `<input/>` attributes\n- Pass in the custom `options` prop\n- Add ReactJS `onChange` event listener\n\nAdvanced usage:\n\n- [How to pass default value](https://github.com/nosir/cleave.js/blob/master/doc/reactjs-component-usage.md#how-to-pass-default-value)\n- [How to call to update raw value](https://github.com/nosir/cleave.js/blob/master/doc/reactjs-component-usage.md#how-to-update-raw-value)\n- [How to get ref of the input field](https://github.com/nosir/cleave.js/blob/master/doc/reactjs-component-usage.md#how-to-get-ref-of-the-input-field)\n\nUsage for `Webpack`, `Browserify` and more in documentation: [ReactJS component usage](https://github.com/nosir/cleave.js/blob/master/doc/reactjs-component-usage.md)\n\n## AngularJS directive usage\n\nFirst include the directive module:\n\n```html\n<script src=\"cleave.js/dist/cleave-angular.min.js\"></script>\n<script src=\"cleave.js/dist/addons/cleave-phone.{country}.js\"></script>\n```\n\nAnd in your model:\n\n```js\nangular.module('app', ['cleave.js'])\n\n.controller('AppController', function($scope) {\n    $scope.onCreditCardTypeChanged = function(type) {\n        $scope.model.creditCardType = type;\n    };\n\n    $scope.model = {\n        rawValue: ''\n    };\n\n    $scope.options = {\n        creditCard: {\n            creditCard: true,\n            onCreditCardTypeChanged: $scope.onCreditCardTypeChanged\n        }\n    };\n});\n```\n\nThen easily you can apply `cleave` directive to `input` field:\n\n```html\n<div ng-controller=\"AppController\">\n    <input ng-model=\"model.rawValue\" ng-whatever=\"...\" type=\"text\" placeholder=\"Enter credit card number\"\n        cleave=\"options.creditCard\"/>\n</div>\n```\n\nMore usage in documentation: [Angular directive usage](https://github.com/nosir/cleave.js/blob/master/doc/angularjs-directive-usage.md)\n\n## Playground\n\n- [Plain JSFiddle (Basic usage)](https://jsfiddle.net/nosir/kbaxx64s/)\n- [Plain JSFiddle (More examples)](https://jsfiddle.net/nosir/aLnhdf3z/)\n- [React JSFiddle](https://jsfiddle.net/nosir/gLLsrxxf/)\n- [Angular JSFiddle](https://jsfiddle.net/nosir/q58sh22t/)\n\n## Documentation\n\n- [JavaScript API](https://github.com/nosir/cleave.js/blob/master/doc/js-api.md)\n    - [Constructor](https://github.com/nosir/cleave.js/blob/master/doc/constructor.md)\n    - [Options](https://github.com/nosir/cleave.js/blob/master/doc/options.md)\n    - [Public methods](https://github.com/nosir/cleave.js/blob/master/doc/public-methods.md)\n- [Phone lib addon](https://github.com/nosir/cleave.js/blob/master/doc/phone-lib-addon.md)\n- [ReactJS component usage](https://github.com/nosir/cleave.js/blob/master/doc/reactjs-component-usage.md)\n- [AngularJS directive usage](https://github.com/nosir/cleave.js/blob/master/doc/angularjs-directive-usage.md)\n\n## Run tasks\n\n```bash\nnpm install\n```\n\nBuild assets\n\n```bash\ngulp build\n```\n\nRun tests\n\n```bash\ngulp test\n```\n\nLint\n\n```bash\ngulp eslint\n```\n\nPublish (build, tests & lint)\n\n```bash\ngulp publish\n```\n\n> For contributors, please run `gulp publish` to ensure your PR passes tests and lint, also we have a [not in the plan](https://github.com/nosir/cleave.js/blob/master/doc/not-in-the-plan.md) list you may concern.\n\n## Get in touch\n- Twitter: [@rison](https://twitter.com/rison)\n\n## References\n\n- Payment credit card number IIN https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_.28IIN.29\n- Google phone numbers formatting https://github.com/googlei18n/libphonenumber\n- Decimal mark and thousands separating style https://en.wikipedia.org/wiki/Decimal_mark#Examples_of_use\n\n## Licence\n\nCleave.js is licensed under the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)\n\n- Google [libphonenumber](https://github.com/googlei18n/libphonenumber) is included under its [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)\n\n[![Analytics](https://ga-beacon.appspot.com/UA-79828599-1/cleave.js?pixel)](https://github.com/igrigorik/ga-beacon)\n"
+}

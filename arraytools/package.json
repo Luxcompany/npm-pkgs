@@ -1,0 +1,948 @@
+{
+	"name": "arraytools",
+	"versions": {
+		"0.0.1": {
+			"name": "arraytools",
+			"version": "0.0.1",
+			"description": "Collection of array processing tools",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"gitHead": "08178b73ff1e443c16e61fff026c1357cc147faa",
+			"_id": "arraytools@0.0.1",
+			"dist": {
+				"shasum": "4b69cbc58847ce11cc5f08eb7d185b881cc54737",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "arraytools",
+			"version": "0.1.0",
+			"description": "Collection of array processing tools",
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"gitHead": "08178b73ff1e443c16e61fff026c1357cc147faa",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"_id": "arraytools@0.1.0",
+			"dist": {
+				"shasum": "8f250a2b75400f633104c4d274f51ea2f370a600",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "arraytools",
+			"version": "0.1.2",
+			"description": "Collection of array processing tools",
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"gitHead": "08178b73ff1e443c16e61fff026c1357cc147faa",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"_id": "arraytools@0.1.2",
+			"dist": {
+				"shasum": "8526b33aa936b45efb8932771151cff6a4078a59",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.2.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "arraytools",
+			"version": "0.1.3",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"_id": "arraytools@0.1.3",
+			"dist": {
+				"shasum": "f3b4cc82f254d17aea52330980251b757eb6d4c6",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.3.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.5": {
+			"name": "arraytools",
+			"version": "0.1.5",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"_id": "arraytools@0.1.5",
+			"dist": {
+				"shasum": "0978f827559edafd51d5f03d94448b02add08880",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.5.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.6": {
+			"name": "arraytools",
+			"version": "0.1.6",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"_id": "arraytools@0.1.6",
+			"dist": {
+				"shasum": "011081f51d3c14caf0845a674f3bccb0a08bdb9a",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.6.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.7": {
+			"name": "arraytools",
+			"version": "0.1.7",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tape": ">0.2",
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"_id": "arraytools@0.1.7",
+			"dist": {
+				"shasum": "87b568a3ca6f9a5300509738872a3be3da55eb55",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.7.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "arraytools",
+			"version": "0.2.0",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "5e018700ab2dc81128d4717771d77a0731803aa0",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.0",
+			"_shasum": "7bca78984ad9eca4264f842dea65c3a6971f2ecd",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7bca78984ad9eca4264f842dea65c3a6971f2ecd",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "arraytools",
+			"version": "0.2.1",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "e8e191bec793ad96f502f686216bb85145b0b6e3",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.1",
+			"_shasum": "cd0fb6049abc9416dbdbb1f6f5693dac6b34f197",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "cd0fb6049abc9416dbdbb1f6f5693dac6b34f197",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "arraytools",
+			"version": "0.2.2",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "1b7b8fbd849286988202c36cb7b11b0ab9568936",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.2",
+			"_shasum": "c58a9502cb56a473b42900afc234b9f11c9e3607",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c58a9502cb56a473b42900afc234b9f11c9e3607",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "arraytools",
+			"version": "0.2.3",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "2b29b20de72e7448f60a76aec9473d529fdc7457",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.3",
+			"_shasum": "fefb929ef863bc5137dc0a3f8fdc233adef0eb48",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "fefb929ef863bc5137dc0a3f8fdc233adef0eb48",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "arraytools",
+			"version": "0.2.4",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "2b29b20de72e7448f60a76aec9473d529fdc7457",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.4",
+			"_shasum": "9a502817a8ce6c935feaffa81c6fc9c8feb4a034",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9a502817a8ce6c935feaffa81c6fc9c8feb4a034",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.5": {
+			"name": "arraytools",
+			"version": "0.2.5",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "2b29b20de72e7448f60a76aec9473d529fdc7457",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.5",
+			"_shasum": "0d488ac364d3a59a5899c4cda856874e35159fb5",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0d488ac364d3a59a5899c4cda856874e35159fb5",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.5.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.6": {
+			"name": "arraytools",
+			"version": "0.2.6",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "0b7c9aa875c9f7e62d1cc3bbe5f026c27ab69290",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@0.2.6",
+			"_shasum": "d8d02dd43bcf64e6a7b10df1150b9c7a4364ef65",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d8d02dd43bcf64e6a7b10df1150b9c7a4364ef65",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.6.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "arraytools",
+			"version": "1.0.0",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "c24da6f058b61d31651469cbd705ac04de4fd6b2",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@1.0.0",
+			"_shasum": "a967868f9fc590a32c2b865770473816e21a70d8",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a967868f9fc590a32c2b865770473816e21a70d8",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "arraytools",
+			"version": "1.1.1",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "9cba2af7f3a0ee33191017573d27d94d588ad764",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools",
+			"_id": "arraytools@1.1.1",
+			"_shasum": "af2b792d291054e5125be8772df2f690a3b3bf41",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "af2b792d291054e5125be8772df2f690a3b3bf41",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-1.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "arraytools",
+			"version": "1.1.2",
+			"description": "Collection of array processing tools",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"tap": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bpostlethwaite/arrayTools.git"
+			},
+			"keywords": [
+				"math",
+				"array",
+				"matrix",
+				"vector",
+				"processing"
+			],
+			"license": "MIT",
+			"gitHead": "fb6e0cd4e018b42590368084aff92cf6a35182a8",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/arrayTools/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/arrayTools#readme",
+			"_id": "arraytools@1.1.2",
+			"_shasum": "410f8e8137b67475e53c1918572e78d893f11fbf",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "410f8e8137b67475e53c1918572e78d893f11fbf",
+				"tarball": "https://registry.npmjs.org/arraytools/-/arraytools-1.1.2.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_distfiles": {
+		"arraytools-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.0.1.tgz",
+			"sha": "4b69cbc58847ce11cc5f08eb7d185b881cc54737",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.0.tgz",
+			"sha": "8f250a2b75400f633104c4d274f51ea2f370a600",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.2.tgz",
+			"sha": "8526b33aa936b45efb8932771151cff6a4078a59",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.3.tgz",
+			"sha": "f3b4cc82f254d17aea52330980251b757eb6d4c6",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.5.tgz",
+			"sha": "0978f827559edafd51d5f03d94448b02add08880",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.6.tgz",
+			"sha": "011081f51d3c14caf0845a674f3bccb0a08bdb9a",
+			"registry": "npmjs"
+		},
+		"arraytools-0.1.7.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.1.7.tgz",
+			"sha": "87b568a3ca6f9a5300509738872a3be3da55eb55",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.0.tgz",
+			"sha": "7bca78984ad9eca4264f842dea65c3a6971f2ecd",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.1.tgz",
+			"sha": "cd0fb6049abc9416dbdbb1f6f5693dac6b34f197",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.2.tgz",
+			"sha": "c58a9502cb56a473b42900afc234b9f11c9e3607",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.3.tgz",
+			"sha": "fefb929ef863bc5137dc0a3f8fdc233adef0eb48",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.4.tgz",
+			"sha": "9a502817a8ce6c935feaffa81c6fc9c8feb4a034",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.5.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.5.tgz",
+			"sha": "0d488ac364d3a59a5899c4cda856874e35159fb5",
+			"registry": "npmjs"
+		},
+		"arraytools-0.2.6.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-0.2.6.tgz",
+			"sha": "d8d02dd43bcf64e6a7b10df1150b9c7a4364ef65",
+			"registry": "npmjs"
+		},
+		"arraytools-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-1.0.0.tgz",
+			"sha": "a967868f9fc590a32c2b865770473816e21a70d8",
+			"registry": "npmjs"
+		},
+		"arraytools-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-1.1.1.tgz",
+			"sha": "af2b792d291054e5125be8772df2f690a3b3bf41",
+			"registry": "npmjs"
+		},
+		"arraytools-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/arraytools/-/arraytools-1.1.2.tgz",
+			"sha": "410f8e8137b67475e53c1918572e78d893f11fbf",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"569fb1a3-4237\"",
+			"fetched": 1501276749502
+		}
+	},
+	"_rev": "1-d90cc468556bd637",
+	"readme": "# arrayTools\n\n[![Build Status](https://travis-ci.org/bpostlethwaite/arraytools.svg?branch=master)](https://travis-ci.org/bpostlethwaite/arraytools)\n\nCollection of _DRY_ array processing tools.\n"
+}

@@ -1,0 +1,445 @@
+{
+	"name": "mouse-event",
+	"versions": {
+		"1.0.0": {
+			"name": "mouse-event",
+			"version": "1.0.0",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "9d9b5a63d707b15b8cdf9dcd92f9d77d899bbccd",
+			"_id": "mouse-event@1.0.0",
+			"_shasum": "4bc1e6c780e1c02c569eb0a9e469eb79f666881b",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4bc1e6c780e1c02c569eb0a9e469eb79f666881b",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "mouse-event",
+			"version": "1.0.1",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "8724d52fa3f4ad767ac2137721ed5da3e4f86145",
+			"_id": "mouse-event@1.0.1",
+			"_shasum": "948ff3f5d66e5fe95a7c7daa8c992d2269481616",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "948ff3f5d66e5fe95a7c7daa8c992d2269481616",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "mouse-event",
+			"version": "1.0.2",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "9fcef7dfc35b3a679795c1fd47ea84deb95ac814",
+			"_id": "mouse-event@1.0.2",
+			"_shasum": "060ffd892d5a93819c71a254567a45364543c8f0",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "060ffd892d5a93819c71a254567a45364543c8f0",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.2.tgz"
+			}
+		},
+		"1.0.3": {
+			"name": "mouse-event",
+			"version": "1.0.3",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "e9dbd27fa84701fadde775db191dbee789bd222c",
+			"_id": "mouse-event@1.0.3",
+			"_shasum": "f8264ae320c7bd755d43b384f99010206debf894",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f8264ae320c7bd755d43b384f99010206debf894",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.3.tgz"
+			}
+		},
+		"1.0.4": {
+			"name": "mouse-event",
+			"version": "1.0.4",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "d6f83314bf37b84362906c77e7196cfa28c1b0be",
+			"_id": "mouse-event@1.0.4",
+			"_shasum": "9839cc971840b2d482877886a4eeb7fc0ec6671c",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9839cc971840b2d482877886a4eeb7fc0ec6671c",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.4.tgz"
+			}
+		},
+		"1.0.5": {
+			"name": "mouse-event",
+			"version": "1.0.5",
+			"description": "Cross browser mouse event property access",
+			"main": "mouse.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/mouse-event.git"
+			},
+			"keywords": [
+				"mouse",
+				"event",
+				"buttons",
+				"which",
+				"button",
+				"element",
+				"target",
+				"srcelement",
+				"polyfill",
+				"fix",
+				"portable",
+				"firefox",
+				"chrome",
+				"mousevent",
+				"click",
+				"left",
+				"right",
+				"middle",
+				"fix",
+				"bug"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-event/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-event",
+			"gitHead": "cf8c7d077d22fc42aeb76affdf3b949c74282222",
+			"_id": "mouse-event@1.0.5",
+			"_shasum": "b3789edb7109997d5a932d1d01daa1543a501732",
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_nodeVersion": "1.8.1",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b3789edb7109997d5a932d1d01daa1543a501732",
+				"tarball": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.5"
+	},
+	"_distfiles": {
+		"mouse-event-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.0.tgz",
+			"sha": "4bc1e6c780e1c02c569eb0a9e469eb79f666881b",
+			"registry": "npmjs"
+		},
+		"mouse-event-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.1.tgz",
+			"sha": "948ff3f5d66e5fe95a7c7daa8c992d2269481616",
+			"registry": "npmjs"
+		},
+		"mouse-event-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.2.tgz",
+			"sha": "060ffd892d5a93819c71a254567a45364543c8f0",
+			"registry": "npmjs"
+		},
+		"mouse-event-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.3.tgz",
+			"sha": "f8264ae320c7bd755d43b384f99010206debf894",
+			"registry": "npmjs"
+		},
+		"mouse-event-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.4.tgz",
+			"sha": "9839cc971840b2d482877886a4eeb7fc0ec6671c",
+			"registry": "npmjs"
+		},
+		"mouse-event-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/mouse-event/-/mouse-event-1.0.5.tgz",
+			"sha": "b3789edb7109997d5a932d1d01daa1543a501732",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"553c3ef4-2611\"",
+			"fetched": 1501276751815
+		}
+	},
+	"_rev": "1-eecb81aa59d45a8e",
+	"readme": "# mouse-event\nProvides a normalized, cross-browser, garbage-collection-free API for reading out the state of a mouse event.\n\n### Why is this needed?\nBecause it is 2015 and somehow every major browser still disagrees on even the most basic details of MouseEvents.  Seriously guys.\n\n# Example\n\n```javascript\nvar mouse = require('mouse-event')\n\nwindow.addEventListener('mousemove', function(ev) {\n  document.body.innerHTML =\n    '<p>Buttons: ' + mouse.buttons(ev) + \n    ' x:' + mouse.x(ev) + \n    ' y:' + mouse.y(ev) + '</p>'\n})\n```\n\n[Try this in your browser](https://mikolalysenko.github.io/mouse-event)\n\n# Install\n\n```\nnpm i mouse-event\n```\n\n# API\n\n```javascript\nvar mouse = require('mouse-event')\n```\n\n#### `mouse.buttons(event)`\nReturns a bit vector, similar to `event.which` in WebKit encoding the state of the mouse buttons.\n\n* `event` is a mouse event\n\n**Returns** A bit vector with the following interpretation for the flags:\n* `1` - left mouse\n* `2` - right mouse\n* `4` - middle mouse\n* `8` - button 4\n* `16` - button 5\n* ...\n* `1<<k`  - button k+1\n\n#### `mouse.x(event)`\nReturns the relative x-coordinate of the mouse event\n\n* `event` is a mouse event\n\n**Returns** The relative x-coordinate of `event`, similar to `event.x` in WebKit\n\n#### `mouse.y(event)`\nReturns the relative y-coordinate of the mouse  event\n\n* `event` is a mouse event\n\n**Returns** The relative y-coordinate of `event`, similar to `event.y` in WebKit\n\n#### `mouse.element(event)`\nGet the element which triggered the event.\n\n* `event` is a mouse event\n\n**Returns** The `target` or `srcElement` or whatever it was that triggered the event\n\n# License\n(c) 2015 Mikola Lysenko. MIT License"
+}

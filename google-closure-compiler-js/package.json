@@ -1,0 +1,1413 @@
+{
+	"name": "google-closure-compiler-js",
+	"versions": {
+		"20160713.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20160713.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"gitHead": "28fe339adb703490ac603cb6f175a49e34312061",
+			"_id": "google-closure-compiler-js@20160713.0.0",
+			"scripts": {},
+			"_shasum": "fd9522616d7c282c55b0d94eb9233b2558ce1b8c",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "fd9522616d7c282c55b0d94eb9233b2558ce1b8c",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160713.0.0.tgz_1468545101191_0.3302602383773774"
+			},
+			"directories": {}
+		},
+		"20160713.0.1": {
+			"name": "google-closure-compiler-js",
+			"version": "20160713.0.1",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"gitHead": "53cbf72d52f2e69f7b8151231aea8408337318fe",
+			"_id": "google-closure-compiler-js@20160713.0.1",
+			"scripts": {},
+			"_shasum": "eb8b0ef9b268c7b23151f1078b3efce5c54461d0",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "eb8b0ef9b268c7b23151f1078b3efce5c54461d0",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160713.0.1.tgz_1468545881097_0.3672138340771198"
+			},
+			"directories": {}
+		},
+		"20160713.0.2": {
+			"name": "google-closure-compiler-js",
+			"version": "20160713.0.2",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"gitHead": "05f7075be91917879db146428b860845b8210444",
+			"_id": "google-closure-compiler-js@20160713.0.2",
+			"scripts": {},
+			"_shasum": "3c4088b7feb57303bb7959f5cc6bd12df2db6486",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "3c4088b7feb57303bb7959f5cc6bd12df2db6486",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160713.0.2.tgz_1468546174957_0.38570311199873686"
+			},
+			"directories": {}
+		},
+		"20160713.0.3": {
+			"name": "google-closure-compiler-js",
+			"version": "20160713.0.3",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"gitHead": "045cac57b2550b6a0c802cc1405d3b4022e7e3be",
+			"_id": "google-closure-compiler-js@20160713.0.3",
+			"scripts": {},
+			"_shasum": "ec0cd2b4477abd9dbdca67f8497d9f24eb59c1f9",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "ec0cd2b4477abd9dbdca67f8497d9f24eb59c1f9",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160713.0.3.tgz_1468549009878_0.6358675106894225"
+			},
+			"directories": {}
+		},
+		"20160822.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20160822.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7"
+			},
+			"gitHead": "d8812c694083ddf39af93f54b084beaa3cb31c23",
+			"_id": "google-closure-compiler-js@20160822.0.0",
+			"scripts": {},
+			"_shasum": "ae04fe0fc8ed396813ab9f0d306365ba45d8c258",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "ae04fe0fc8ed396813ab9f0d306365ba45d8c258",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160822.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160822.0.0.tgz_1472031506818_0.5462807004805654"
+			},
+			"directories": {}
+		},
+		"20160822.0.1": {
+			"name": "google-closure-compiler-js",
+			"version": "20160822.0.1",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7"
+			},
+			"gitHead": "009cd22fa987e4cd0eb5e33110b33a2aefb455b2",
+			"_id": "google-closure-compiler-js@20160822.0.1",
+			"scripts": {},
+			"_shasum": "4dc8f3f6f7fc64b962cadc8710f6e855f9cf0f6c",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "4dc8f3f6f7fc64b962cadc8710f6e855f9cf0f6c",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160822.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160822.0.1.tgz_1472248600511_0.5429276404902339"
+			},
+			"directories": {}
+		},
+		"20160828.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20160828.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "322a71fa43f78145b11629d86aefcee9d17505a3",
+			"_id": "google-closure-compiler-js@20160828.0.0",
+			"scripts": {},
+			"_shasum": "95fbf9c9d84c04f89261afdffe95ece920030e2d",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "95fbf9c9d84c04f89261afdffe95ece920030e2d",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160828.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160828.0.0.tgz_1472452646772_0.3924221054185182"
+			},
+			"directories": {}
+		},
+		"20160828.0.1": {
+			"name": "google-closure-compiler-js",
+			"version": "20160828.0.1",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "cd87234595683982d9e123b8277cc6fa5134cac7",
+			"_id": "google-closure-compiler-js@20160828.0.1",
+			"scripts": {},
+			"_shasum": "2eb579642dc1cfcd2b8937392055bd3dfff2de29",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "2eb579642dc1cfcd2b8937392055bd3dfff2de29",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160828.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160828.0.1.tgz_1472858444822_0.4161009853705764"
+			},
+			"directories": {}
+		},
+		"20160916.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20160916.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "ac9358639c23a329a714a687180670bcdcaf26d5",
+			"_id": "google-closure-compiler-js@20160916.0.0",
+			"scripts": {},
+			"_shasum": "e57618f07c644420269e8b12fb16caf4f88fefbf",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "e57618f07c644420269e8b12fb16caf4f88fefbf",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160916.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20160916.0.0.tgz_1474066407469_0.7110548228956759"
+			},
+			"directories": {}
+		},
+		"20161024.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20161024.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "88b0dff40ea1538c80dbb978c715169e60efe7c9",
+			"_id": "google-closure-compiler-js@20161024.0.0",
+			"scripts": {},
+			"_shasum": "ed8808dbf1fdcb306435e8afb4ae887c01883e86",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "ed8808dbf1fdcb306435e8afb4ae887c01883e86",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161024.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20161024.0.0.tgz_1477562842801_0.7016996878664941"
+			},
+			"directories": {}
+		},
+		"20161201.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20161201.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "cb47ed002402338fa019b01847d70ec78694515b",
+			"_id": "google-closure-compiler-js@20161201.0.0",
+			"scripts": {},
+			"_shasum": "777d789fb8aa170d9b0269a41206d9810845556d",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "4.4.7",
+			"_npmUser": {
+				"name": "matrixfrog",
+				"email": "tbreisacher@google.com"
+			},
+			"dist": {
+				"shasum": "777d789fb8aa170d9b0269a41206d9810845556d",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161201.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20161201.0.0.tgz_1481057578668_0.612618999555707"
+			},
+			"directories": {}
+		},
+		"20161201.0.1": {
+			"name": "google-closure-compiler-js",
+			"version": "20161201.0.1",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"minimist": "^1.2.0",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "64f37e62c453d1f621455f0133c4812b2f8be701",
+			"_id": "google-closure-compiler-js@20161201.0.1",
+			"scripts": {},
+			"_shasum": "4b82da223cd8fc02163576ef334d1fc12e403c2b",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"dist": {
+				"shasum": "4b82da223cd8fc02163576ef334d1fc12e403c2b",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161201.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20161201.0.1.tgz_1484785528672_0.07961859926581383"
+			},
+			"directories": {}
+		},
+		"20170124.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170124.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"gulp-util": "^3.0.7",
+				"minimist": "^1.2.0",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "a9357a2f7ca6f7d1172096d267d0d606d346a054",
+			"_id": "google-closure-compiler-js@20170124.0.0",
+			"scripts": {},
+			"_shasum": "cd77291a19a4158eb41fb241688a5e523e250364",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "brad4d",
+				"email": "bradfordcsmith@google.com"
+			},
+			"dist": {
+				"shasum": "cd77291a19a4158eb41fb241688a5e523e250364",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170124.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20170124.0.0.tgz_1485570098563_0.9736694742459804"
+			},
+			"directories": {}
+		},
+		"20170218.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170218.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"minimist": "^1.2.0",
+				"vinyl": "^2.0.1",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "dffdf9a0fee16cb484e5db750a54be98594a4b02",
+			"_id": "google-closure-compiler-js@20170218.0.0",
+			"scripts": {},
+			"_shasum": "31637019c15fb14e3d491ec663ee404a1d33da14",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.4.0",
+			"_npmUser": {
+				"name": "dominator008",
+				"email": "zhoumotongxue008@gmail.com"
+			},
+			"dist": {
+				"shasum": "31637019c15fb14e3d491ec663ee404a1d33da14",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170218.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dimvar",
+					"email": "dimvar@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20170218.0.0.tgz_1489120696803_0.35080965189263225"
+			},
+			"directories": {}
+		},
+		"20170409.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170409.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"minimist": "^1.2.0",
+				"vinyl": "^2.0.1",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "1ff33d3d01d1266f313220d526d1a542ae5ccb4c",
+			"_id": "google-closure-compiler-js@20170409.0.0",
+			"scripts": {},
+			"_shasum": "e71063ab2bf26db794732222ec76ba07403df854",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "4.4.7",
+			"_npmUser": {
+				"name": "matrixfrog",
+				"email": "tbreisacher@google.com"
+			},
+			"dist": {
+				"shasum": "e71063ab2bf26db794732222ec76ba07403df854",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170409.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dimvar",
+					"email": "dimvar@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20170409.0.0.tgz_1491947439113_0.8987394759897143"
+			},
+			"directories": {}
+		},
+		"20170423.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170423.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"minimist": "^1.2.0",
+				"vinyl": "^2.0.1",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "9b9de5b0e3d5ca05e213aa727802136c8db95641",
+			"_id": "google-closure-compiler-js@20170423.0.0",
+			"scripts": {},
+			"_shasum": "e9e8b40dadfdf0e64044c9479b5d26d228778fbc",
+			"_from": ".",
+			"_npmVersion": "3.9.6",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "brad4d",
+				"email": "bradfordcsmith@google.com"
+			},
+			"dist": {
+				"shasum": "e9e8b40dadfdf0e64044c9479b5d26d228778fbc",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170423.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dimvar",
+					"email": "dimvar@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/google-closure-compiler-js-20170423.0.0.tgz_1493267665387_0.4601788194850087"
+			},
+			"directories": {}
+		},
+		"20170521.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170521.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"minimist": "^1.2.0",
+				"vinyl": "^2.0.1",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "0935784a5b3fdd05418dc630d5eeaa236a0b2a45",
+			"_id": "google-closure-compiler-js@20170521.0.0",
+			"scripts": {},
+			"_shasum": "9ac5fd6818aa500333a199ed0a9d0449e52120c9",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "blickly",
+				"email": "blickly+npm@google.com"
+			},
+			"dist": {
+				"shasum": "9ac5fd6818aa500333a199ed0a9d0449e52120c9",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170521.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dimvar",
+					"email": "dimvar@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/google-closure-compiler-js-20170521.0.0.tgz_1495573920419_0.17154529504477978"
+			},
+			"directories": {}
+		},
+		"20170626.0.0": {
+			"name": "google-closure-compiler-js",
+			"version": "20170626.0.0",
+			"description": "Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS",
+			"main": "index.js",
+			"bin": {
+				"google-closure-compiler-js": "cmd.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/google/closure-compiler-js.git"
+			},
+			"keywords": [
+				"javascript",
+				"compiler",
+				"optimizer",
+				"minifier",
+				"closure"
+			],
+			"author": {
+				"name": "The Closure Compiler Authors"
+			},
+			"license": "Apache-2.0",
+			"bugs": {
+				"url": "https://github.com/google/closure-compiler/issues"
+			},
+			"homepage": "https://developers.google.com/closure/compiler/",
+			"devDependencies": {
+				"ncp": "^2.0.0"
+			},
+			"dependencies": {
+				"minimist": "^1.2.0",
+				"vinyl": "^2.0.1",
+				"webpack-core": "^0.6.8"
+			},
+			"gitHead": "1d621dea13121f214cdfafd23443673bba2a1aad",
+			"_id": "google-closure-compiler-js@20170626.0.0",
+			"_npmVersion": "5.0.4",
+			"_nodeVersion": "4.4.7",
+			"_npmUser": {
+				"name": "matrixfrog",
+				"email": "tbreisacher@google.com"
+			},
+			"dist": {
+				"integrity": "sha512-LQvWXN3yS2l88TsXiHZ0aWtGR51tep/bNvS7cuUldnKkppgknTo35jThYwE+JOU9lviERZjMHhiqxz2CXzIRuw==",
+				"shasum": "5df265b277d1ec6fdea12eed131d1491cd8a8d71",
+				"tarball": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170626.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "blickly",
+					"email": "blickly+npm@google.com"
+				},
+				{
+					"name": "brad4d",
+					"email": "bradfordcsmith@google.com"
+				},
+				{
+					"name": "dimvar",
+					"email": "dimvar@google.com"
+				},
+				{
+					"name": "dominator008",
+					"email": "zhoumotongxue008@gmail.com"
+				},
+				{
+					"name": "joeltine",
+					"email": "jmarti221@gmail.com"
+				},
+				{
+					"name": "matrixfrog",
+					"email": "tbreisacher@google.com"
+				},
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/google-closure-compiler-js-20170626.0.0.tgz_1499274830554_0.9566858706530184"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "20170626.0.0"
+	},
+	"_distfiles": {
+		"google-closure-compiler-js-20160713.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.0.tgz",
+			"sha": "fd9522616d7c282c55b0d94eb9233b2558ce1b8c",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160713.0.1.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.1.tgz",
+			"sha": "eb8b0ef9b268c7b23151f1078b3efce5c54461d0",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160713.0.2.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.2.tgz",
+			"sha": "3c4088b7feb57303bb7959f5cc6bd12df2db6486",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160713.0.3.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160713.0.3.tgz",
+			"sha": "ec0cd2b4477abd9dbdca67f8497d9f24eb59c1f9",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160822.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160822.0.0.tgz",
+			"sha": "ae04fe0fc8ed396813ab9f0d306365ba45d8c258",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160822.0.1.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160822.0.1.tgz",
+			"sha": "4dc8f3f6f7fc64b962cadc8710f6e855f9cf0f6c",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160828.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160828.0.0.tgz",
+			"sha": "95fbf9c9d84c04f89261afdffe95ece920030e2d",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160828.0.1.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160828.0.1.tgz",
+			"sha": "2eb579642dc1cfcd2b8937392055bd3dfff2de29",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20160916.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20160916.0.0.tgz",
+			"sha": "e57618f07c644420269e8b12fb16caf4f88fefbf",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20161024.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161024.0.0.tgz",
+			"sha": "ed8808dbf1fdcb306435e8afb4ae887c01883e86",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20161201.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161201.0.0.tgz",
+			"sha": "777d789fb8aa170d9b0269a41206d9810845556d",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20161201.0.1.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20161201.0.1.tgz",
+			"sha": "4b82da223cd8fc02163576ef334d1fc12e403c2b",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170124.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170124.0.0.tgz",
+			"sha": "cd77291a19a4158eb41fb241688a5e523e250364",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170218.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170218.0.0.tgz",
+			"sha": "31637019c15fb14e3d491ec663ee404a1d33da14",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170409.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170409.0.0.tgz",
+			"sha": "e71063ab2bf26db794732222ec76ba07403df854",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170423.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170423.0.0.tgz",
+			"sha": "e9e8b40dadfdf0e64044c9479b5d26d228778fbc",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170521.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170521.0.0.tgz",
+			"sha": "9ac5fd6818aa500333a199ed0a9d0449e52120c9",
+			"registry": "npmjs"
+		},
+		"google-closure-compiler-js-20170626.0.0.tgz": {
+			"url": "https://registry.npmjs.org/google-closure-compiler-js/-/google-closure-compiler-js-20170626.0.0.tgz",
+			"sha": "5df265b277d1ec6fdea12eed131d1491cd8a8d71",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597176b1-920f\"",
+			"fetched": 1501276738136
+		}
+	},
+	"_rev": "1-d6fef4884cd6760f",
+	"readme": "# closure-compiler-js\n\nCheck, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS.\n\nThis repo tracks issues related to the publication to npmjs.org and associated plugins.\nAny bugs not related to the plugins themselves should be reported to the [main repository](https://github.com/google/closure-compiler/).\n\nUnlike other packages, this allows Closure Compiler to run entirely in JS.\n*Java is not required.*\n\nThis is an experimental release - meaning some features are not available and performance may not be on-par with the Java implementation. [Details Here](#transpilation)\n\n## Usage\n\nFirst, install the latest version:\n\n```bash\nnpm install --save google-closure-compiler-js\n```\n\nThe module supports modern web browsers as well as Node v4 LTS, and provides `compile` as a low-level method to compile JavaScript.\nBy default, this compiles ES6 to ES5 and includes the default set of ECMAScript externs files.\nFor example:\n\n```js\nconst compile = require('google-closure-compiler-js').compile;\n\nconst flags = {\n  jsCode: [{src: 'const x = 1 + 2;'}],\n};\nconst out = compile(flags);\nconsole.info(out.compiledCode);  // will print 'var x = 3;\\n'\n```\n\nOr to install the command-line version, do:\n\n```bash\nnpm install -g google-closure-compiler-js\n```\n\nYou should now be able to run `google-closure-compiler-js` as a command.\nThe `google-closure-compiler-js` command can read from stdin or from a file.\nFor example:\n\n```bash\ngoogle-closure-compiler-js code.js > minified.js\n```\n\nRun `google-closure-compiler-js --help` for full usage information.\n\n## Build Systems\n\n### Webpack\n\nYour `webpack.config.js` should look like this:\n\n```js\nconst ClosureCompiler = require('google-closure-compiler-js').webpack;\nconst path = require('path');\n\nmodule.exports = {\n  entry: [\n    path.join(__dirname, 'app.js')\n  ],\n  output: {\n    path: path.join(__dirname, 'dist'),\n    filename: 'app.min.js'\n  },\n  plugins: [\n    new ClosureCompiler({\n      options: {\n        languageIn: 'ECMASCRIPT6',\n        languageOut: 'ECMASCRIPT5',\n        compilationLevel: 'ADVANCED',\n        warningLevel: 'VERBOSE',\n      },\n    })\n  ]\n};\n```\n\n### Gulp\n\nYour `gulpfile.js` should contain a task like this:\n\n```js\nconst compiler = require('google-closure-compiler-js').gulp();\n\ngulp.task('script', function() {\n  return gulp.src('./path/to/src.js', {base: './'})\n      // your other steps here\n      .pipe(compiler({\n          compilationLevel: 'SIMPLE',\n          warningLevel: 'VERBOSE',\n          outputWrapper: '(function(){\\n%output%\\n}).call(this)',\n          jsOutputFile: 'output.min.js',  // outputs single file\n          createSourceMap: true,\n        }))\n      .pipe(gulp.dest('./dist'));\n});\n```\n\n## Flags\n\n| Flag                             | Default | Usage |\n|----------------------------------|---------|-------|\n| angularPass | false | Generate $inject properties for AngularJS for functions annotated with @ngInject |\n| applyInputSourceMaps | true | Compose input source maps into output source map |\n| assumeFunctionWrapper | false | Enable additional optimizations based on the assumption that the output will be wrapped with a function wrapper. This flag is used to indicate that \"global\" declarations will not actually be global but instead isolated to the compilation unit. This enables additional optimizations. |\n| checksOnly | false | Don't generate output. Run checks, but no optimization passes. |\n| compilationLevel | SIMPLE | Specifies the compilation level to use.<br /> Options: WHITESPACE_ONLY, SIMPLE, ADVANCED |\n| dartPass | false | |\n| defines | null | Overrides the value of variables annotated with `@define`, an object mapping names to primitive types |\n| env | BROWSER | Determines the set of builtin externs to load.<br /> Options: BROWSER, CUSTOM |\n| exportLocalPropertyDefinitions | false | |\n| generateExports | false | Generates export code for those marked with @export. |\n| languageIn | ES6 | Sets what language spec that input sources conform to. |\n| languageOut | ES5 | Sets what language spec the output should conform to. |\n| newTypeInf | false | Checks for type errors using the new type inference algorithm. |\n| outputWrapper | null | Interpolate output into this string, replacing the token `%output%` |\n| polymerVersion | null | Specify the Polymer version pass to use. |\n| preserveTypeAnnotations | false | |\n| processCommonJsModules | false | Process CommonJS modules to a concatenable form, i.e., support `require` statements. |\n| renamePrefixNamespace | | Specifies the name of an object that will be used to store all non-extern globals. |\n| rewritePolyfills | false | Rewrite ES6 library calls to use polyfills provided by the compiler's runtime. |\n| useTypesForOptimization | false | Enable or disable the optimizations based on available type information. Inaccurate type annotations may result in incorrect results. |\n| warningLevel | DEFAULT | Specifies the warning level to use.<br /> Options: QUIET, DEFAULT, VERBOSE |\n| jsCode | [] | Specifies the source code to compile. |\n| externs | [] | Additional externs to use for this compile. |\n| createSourceMap | false | Generates a source map mapping the generated source file back to its original sources. |\n\n### Languages\n\nThe Closure Compiler supports the following languages:\n- `ECMASCRIPT3`, `ECMASCRIPT5` and `ECMASCRIPT5_STRICT` for input and output;\n- `ECMASCRIPT6` and `ECMASCRIPT6_STRICT` for input only;\n-  `ECMASCRIPT6_TYPED` (experimental) for both.\n\n### Source Code\n\nUnless you're using Gulp's or Webpack's plugins, you'll need to specify code via flags:  \n- Both `jsCode` and `externs` accept an array containing objects in the form `{src, path, sourceMap}`.\n- Using `path` you can construct a virtual filesystem for use with ES6 or CommonJS imports &mdash; although for CommonJS you'll have to set `processCommonJsModules: true`.\n\n## Transpilation\nThe JavaScript version of the Closure-Compiler is transpiled by GWT from the Java source.  For more details on the differences in behavior see the [super sourced files](https://github.com/google/closure-compiler/tree/master/src/com/google/javascript/jscomp/gwt/super) in the main repo. \n\n## Version History\n\nClosure Compiler release notes can be found on the\n[main repository wiki](https://github.com/google/closure-compiler/wiki/Binary-Downloads).\n\n## License\n\nCopyright © 2017 The Closure Compiler Authors\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n"
+}

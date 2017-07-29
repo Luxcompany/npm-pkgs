@@ -1,0 +1,151 @@
+{
+	"name": "kdbush",
+	"versions": {
+		"1.0.0": {
+			"name": "kdbush",
+			"version": "1.0.0",
+			"description": "A very fast static 2D index for points based on kd-tree.",
+			"main": "src/kdbush.js",
+			"dependencies": {
+				"tape": "^4.5.1"
+			},
+			"devDependencies": {
+				"eslint": "^2.7.0",
+				"eslint-config-mourner": "^2.0.0"
+			},
+			"scripts": {
+				"pretest": "eslint test.js src",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"keywords": [
+				"index",
+				"points",
+				"kd-tree",
+				"data structures",
+				"algorithms",
+				"spatial",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"gitHead": "d23804a5cd48402fb43ad06bfc30ee8268b97b0d",
+			"_id": "kdbush@1.0.0",
+			"_shasum": "d8e629fde90a6bcf6e1b54bc73c30cb2cbf71013",
+			"_from": ".",
+			"_npmVersion": "2.15.2",
+			"_nodeVersion": "5.10.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "d8e629fde90a6bcf6e1b54bc73c30cb2cbf71013",
+				"tarball": "https://registry.npmjs.org/kdbush/-/kdbush-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/kdbush-1.0.0.tgz_1460158292039_0.2931215846911073"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "kdbush",
+			"version": "1.0.1",
+			"description": "A very fast static 2D index for points based on kd-tree.",
+			"main": "src/kdbush.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mourner/kdbush.git"
+			},
+			"devDependencies": {
+				"eslint": "^3.8.1",
+				"eslint-config-mourner": "^2.0.1",
+				"tape": "^4.6.2"
+			},
+			"scripts": {
+				"pretest": "eslint test.js src",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"keywords": [
+				"index",
+				"points",
+				"kd-tree",
+				"data structures",
+				"algorithms",
+				"spatial",
+				"geometry"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"gitHead": "ae855f35b650f2c37168ac2b6ee86523f6f8500e",
+			"bugs": {
+				"url": "https://github.com/mourner/kdbush/issues"
+			},
+			"homepage": "https://github.com/mourner/kdbush#readme",
+			"_id": "kdbush@1.0.1",
+			"_shasum": "3cbd03e9dead9c0f6f66ccdb96450e5cecc640e0",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "3cbd03e9dead9c0f6f66ccdb96450e5cecc640e0",
+				"tarball": "https://registry.npmjs.org/kdbush/-/kdbush-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/kdbush-1.0.1.tgz_1476825553691_0.5103460270911455"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"kdbush-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/kdbush/-/kdbush-1.0.0.tgz",
+			"sha": "d8e629fde90a6bcf6e1b54bc73c30cb2cbf71013",
+			"registry": "npmjs"
+		},
+		"kdbush-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/kdbush/-/kdbush-1.0.1.tgz",
+			"sha": "3cbd03e9dead9c0f6f66ccdb96450e5cecc640e0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5969c801-1371\"",
+			"fetched": 1501276758819
+		}
+	},
+	"_rev": "1-db8a92b786878c64",
+	"readme": "## kdbush [![Build Status](https://travis-ci.org/mourner/kdbush.svg?branch=master)](https://travis-ci.org/mourner/kdbush) [![Simply Awesome](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)\n\nA very fast static spatial index for 2D points based on a flat KD-tree.\nCompared to [RBush](https://github.com/mourner/rbush):\n\n- points only — no rectangles\n- static — you can't add/remove items\n- indexing is 5-8 times faster\n\n```js\nvar index = kdbush(points);              // make an index\nvar ids1 = index.range(10, 10, 20, 20);  // bbox search - minX, minY, maxX, maxY\nvar ids2 = index.within(10, 10, 5);      // radius search - x, y, radius\n```\n\n## API\n\n#### kdbush(points[, getX, getY, nodeSize, arrayType])\n\nCreates an index from the given points.\n\n- `points`: Input array of points.\n- `getX`, `getY`: Functions to get `x` and `y` from an input point. By default, it assumes `[x, y]` format.\n- `nodeSize`: Size of the KD-tree node, `64` by default. Higher means faster indexing but slower search, and vise versa.\n- `arrayType`: Array type to use for storing indices and coordinate values. `Array` by default, but if your coordinates are integer values, `Int32Array` makes things a bit faster.\n\n```js\nvar index = kdbush(points, (p) => p.x, (p) => p.y, 64, Int32Array);\n```\n\n#### range(minX, minY, maxX, maxY)\n\nFinds all items within the given bounding box and returns an array of indices that refer to the items in the original `points` input array.\n\n```js\nvar results = index.range(10, 10, 20, 20).map((id) => points[id]);\n```\n\n#### within(x, y, radius)\n\nFinds all items within a given radius from the query point and returns an array of indices.\n\n```js\nvar results = index.within(10, 10, 5).map((id) => points[id]);\n```\n"
+}

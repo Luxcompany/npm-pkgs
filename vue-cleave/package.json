@@ -1,0 +1,560 @@
+{
+	"name": "vue-cleave",
+	"versions": {
+		"0.0.1": {
+			"name": "vue-cleave",
+			"version": "0.0.1",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": "^1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "Apache License 2.0",
+			"dependencies": {
+				"cleave.js": "0.4.10"
+			},
+			"gitHead": "c04ff08e5c934e7b9b108d9925c12a1e18178203",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@0.0.1",
+			"_shasum": "aee229df341f8e7192d106a58288ef2bc07a2275",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "aee229df341f8e7192d106a58288ef2bc07a2275",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-0.0.1.tgz_1469117185072_0.5096800653263927"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "vue-cleave",
+			"version": "0.0.2",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": "^1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "Apache License 2.0",
+			"dependencies": {
+				"cleave.js": "0.4.10"
+			},
+			"gitHead": "3bf60174a28063402633c6b2386e2a732c04a0ab",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@0.0.2",
+			"_shasum": "e60e00c4f5bebc197fd2e8543092b625f11ea1fd",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "e60e00c4f5bebc197fd2e8543092b625f11ea1fd",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-0.0.2.tgz_1469117691301_0.5016363102477044"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "vue-cleave",
+			"version": "1.0.0",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": "^1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "Apache License 2.0",
+			"dependencies": {
+				"cleave.js": "0.4.10"
+			},
+			"gitHead": "103e76831634247038c16ad668c9eac12fb593e7",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.0.0",
+			"_shasum": "32b09a3bdc3515f00dc21d26fec1aada0b8a4688",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "32b09a3bdc3515f00dc21d26fec1aada0b8a4688",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-1.0.0.tgz_1469119790765_0.20048538269475102"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "vue-cleave",
+			"version": "1.1.0",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"cleave.js": "0.7.10"
+			},
+			"gitHead": "b3b531a796d4217e8f74278a01cd6a71a0c044f1",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.1.0",
+			"scripts": {},
+			"_shasum": "ff9684cba9d6a465d8c49e99a322df29c58c03fb",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "ff9684cba9d6a465d8c49e99a322df29c58c03fb",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-1.1.0.tgz_1476272579189_0.07855919934809208"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "vue-cleave",
+			"version": "1.1.1",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"cleave.js": "0.7.14"
+			},
+			"gitHead": "4cd4942f88adba8ab98befd5041ffc0201c9b0dc",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.1.1",
+			"scripts": {},
+			"_shasum": "4289be39dad33a753513a88983435eb89094723b",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "4289be39dad33a753513a88983435eb89094723b",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-1.1.1.tgz_1481143682049_0.07902850117534399"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "vue-cleave",
+			"version": "1.2.0",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"cleave.js": "^0.7.15"
+			},
+			"gitHead": "7e13fcad73c2303edd063b2ba19de675034fa70f",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.2.0",
+			"scripts": {},
+			"_shasum": "fd83da9fcf804cd57603059fc2e0528a025b484b",
+			"_from": ".",
+			"_npmVersion": "4.4.4",
+			"_nodeVersion": "7.7.4",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "fd83da9fcf804cd57603059fc2e0528a025b484b",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-cleave-1.2.0.tgz_1491265862751_0.8411313823889941"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "vue-cleave",
+			"version": "1.2.1",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"cleave.js": "^0.7.15"
+			},
+			"gitHead": "7d5c6d13c3faa097b60215438b7505e62a199811",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.2.1",
+			"scripts": {},
+			"_shasum": "a6873e00b9710e37696154be106d170d17fc17b6",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "a6873e00b9710e37696154be106d170d17fc17b6",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "luventa@outlook.com",
+					"name": "luventa"
+				},
+				{
+					"email": "cfddream@gmail.com",
+					"name": "fundon"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-cleave-1.2.1.tgz_1497945086850_0.6092713170219213"
+			},
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "vue-cleave",
+			"version": "1.2.2",
+			"description": "Cleave component is based on cleave.js for Vue",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/cleave.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"vue-cleave",
+				"cleave",
+				"javascript",
+				"html",
+				"format",
+				"form",
+				"input"
+			],
+			"main": "src/Cleave.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"cleave.js": "^0.7.15"
+			},
+			"gitHead": "8b3126eae1524a54586f6b1e3000feb37c310660",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/cleave/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/cleave#readme",
+			"_id": "vue-cleave@1.2.2",
+			"scripts": {},
+			"_shasum": "857f428c6c92b64ee1c4a82bfba654dea20d71af",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "857f428c6c92b64ee1c4a82bfba654dea20d71af",
+				"tarball": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "luventa@outlook.com",
+					"name": "luventa"
+				},
+				{
+					"email": "cfddream@gmail.com",
+					"name": "fundon"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-cleave-1.2.2.tgz_1497950665081_0.8037982441019267"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.2.2"
+	},
+	"_distfiles": {
+		"vue-cleave-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-0.0.1.tgz",
+			"sha": "aee229df341f8e7192d106a58288ef2bc07a2275",
+			"registry": "npmjs"
+		},
+		"vue-cleave-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-0.0.2.tgz",
+			"sha": "e60e00c4f5bebc197fd2e8543092b625f11ea1fd",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.0.0.tgz",
+			"sha": "32b09a3bdc3515f00dc21d26fec1aada0b8a4688",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.1.0.tgz",
+			"sha": "ff9684cba9d6a465d8c49e99a322df29c58c03fb",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.1.1.tgz",
+			"sha": "4289be39dad33a753513a88983435eb89094723b",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.0.tgz",
+			"sha": "fd83da9fcf804cd57603059fc2e0528a025b484b",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.1.tgz",
+			"sha": "a6873e00b9710e37696154be106d170d17fc17b6",
+			"registry": "npmjs"
+		},
+		"vue-cleave-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-cleave/-/vue-cleave-1.2.2.tgz",
+			"sha": "857f428c6c92b64ee1c4a82bfba654dea20d71af",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5948e9c9-2d48\"",
+			"fetched": 1501276735084
+		}
+	},
+	"_rev": "1-48778ef9eaafc672",
+	"readme": "# Cleave\r\n\r\nCleave component is based on [cleave.js](https://github.com/nosir/cleave.js) for Vue Bulma.\r\n\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-cleave --save\r\n```\r\n\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <cleave placeholder=\"Enter your credit card number\" :options=\"{ creditCard: true }\"></cleave>\r\n</template>\r\n\r\n<script>\r\nimport Cleave from 'vue-cleave'\r\n\r\nexport default {\r\n  components: {\r\n    Cleave\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n"
+}

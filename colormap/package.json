@@ -1,0 +1,1492 @@
+{
+	"name": "colormap",
+	"versions": {
+		"0.0.0": {
+			"name": "colormap",
+			"version": "0.0.0",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": "0.0.1",
+				"colorgrad": "~0.1.0"
+			},
+			"_id": "colormap@0.0.0",
+			"dist": {
+				"shasum": "73b5ff43f7d41d2e72b776c9715c2ed333a1bc10",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "colormap",
+			"version": "0.1.0",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": "0.0.1",
+				"colorgrad": "~0.1.0"
+			},
+			"_id": "colormap@0.1.0",
+			"dist": {
+				"shasum": "a2494bf64fde1d72ed1e4813ee5379736a366f67",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "colormap",
+			"version": "0.2.0",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"_id": "colormap@0.2.0",
+			"dist": {
+				"shasum": "b5a66d72925cbb954850f3d00c386eeb9e3b6209",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.2.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "colormap",
+			"version": "0.2.2",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"_id": "colormap@0.2.2",
+			"dist": {
+				"shasum": "3fba72dae8311d1376583db1053c50a070e41cae",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.2.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "colormap",
+			"version": "0.2.3",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"_id": "colormap@0.2.3",
+			"dist": {
+				"shasum": "d9f0df839103a229980c7524082c1b06d75c0b57",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.2.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "colormap",
+			"version": "0.2.4",
+			"description": "get sweet rgb or hex colormaps",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"_id": "colormap@0.2.4",
+			"dist": {
+				"shasum": "1e79ba098f753d59823e879ce12b763e174890bc",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.2.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.6": {
+			"name": "colormap",
+			"version": "0.2.6",
+			"description": "get sweet rgb or hex colormaps",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"_id": "colormap@0.2.6",
+			"dist": {
+				"shasum": "ce26a22d192816669c3542781d162119201e28c3",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.2.6.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "colormap",
+			"version": "0.3.0",
+			"description": "get sweet rgb or hex colormaps",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color",
+				"hex",
+				"rgb",
+				"colorgradient",
+				"colorrange"
+			],
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"arraytools": ">=0.0.1",
+				"colorgrad": ">=0.1.0"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"_id": "colormap@0.3.0",
+			"dist": {
+				"shasum": "1be7b9157e38ad87c4ce371ffed81b979fd5597c",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.3.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.4": {
+			"name": "colormap",
+			"version": "0.3.4",
+			"description": "get sweet rgb or hex colormaps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.2"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"_id": "colormap@0.3.4",
+			"dist": {
+				"shasum": "fa82219f1232915a292f85eabcb87a6a2bf2044a",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.3.4.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.5": {
+			"name": "colormap",
+			"version": "0.3.5",
+			"description": "get sweet rgb or hex colormaps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.2"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"_id": "colormap@0.3.5",
+			"dist": {
+				"shasum": "d60d7a40d5cb89c08665b06377f155ce50a075a7",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.3.5.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.11",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.6": {
+			"name": "colormap",
+			"version": "0.3.6",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.2"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"_id": "colormap@0.3.6",
+			"dist": {
+				"shasum": "c7376f90655888800bc2a44bdb65d45b40dcb22a",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.3.6.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.7": {
+			"name": "colormap",
+			"version": "0.3.7",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.7"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"_id": "colormap@0.3.7",
+			"dist": {
+				"shasum": "5c554a6e365dc67745562f0e7d6b4e3a07ff41a5",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-0.3.7.tgz"
+			},
+			"_npmVersion": "1.1.70",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "colormap",
+			"version": "1.0.0",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.2"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "3146efa50816fae19e5fb4422e1d813da2db0137",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@1.0.0",
+			"_shasum": "21057a6f5aac1a1cdf2e18b12af487a63f55f7d6",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "21057a6f5aac1a1cdf2e18b12af487a63f55f7d6",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "colormap",
+			"version": "1.1.1",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": ">=0.1.2"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "405f724c881e61f94a315e69969a091374eafa19",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@1.1.1",
+			"_shasum": "a22d9b3a161d49d4b9acafc571d867b1f79026ad",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a22d9b3a161d49d4b9acafc571d867b1f79026ad",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-1.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "colormap",
+			"version": "1.2.2",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.0.0"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "55063aa397699747b78cdf14295cbcfd30822bb7",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@1.2.2",
+			"_shasum": "979c559bd493a7deca97b37e71b2c94e03e56af9",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "979c559bd493a7deca97b37e71b2c94e03e56af9",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-1.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "colormap",
+			"version": "1.3.0",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.0.0",
+				"tinycolor2": "^1.0.0"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "647981b0da70cc93c78eef19b8cbcfd700c789ad",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@1.3.0",
+			"_shasum": "c6c27a663ca7807295cdb54bf839e45a96f21fb6",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c6c27a663ca7807295cdb54bf839e45a96f21fb6",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-1.3.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.3.1": {
+			"name": "colormap",
+			"version": "1.3.1",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.0.0"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "a0c86e29cbf46cc3aa6d476486aa12f6be1f6f30",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@1.3.1",
+			"_shasum": "6fd2ba564accd98490f69efafd3ebf0759ef5e82",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6fd2ba564accd98490f69efafd3ebf0759ef5e82",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-1.3.1.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "colormap",
+			"version": "2.0.0",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.1.1"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "09f543a4f32264812f6825af543d9570b0146d81",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@2.0.0",
+			"_shasum": "dd01f7155497556cc8e41dbe95541ef44901a613",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "dd01f7155497556cc8e41dbe95541ef44901a613",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-2.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "colormap",
+			"version": "2.0.1",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.1.1"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "1b61e6bbafec2f3ffb5e7bec6bb0d2ee554f845b",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap",
+			"_id": "colormap@2.0.1",
+			"_shasum": "3b7437915eaaf0ac89d9aa89f5b7cf99afcdbee6",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3b7437915eaaf0ac89d9aa89f5b7cf99afcdbee6",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-2.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "colormap",
+			"version": "2.1.0",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.1.1"
+			},
+			"devDependencies": {
+				"tap": ">0.2",
+				"tape": ">0.2"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "7db5ddb8215027c276358f9c09a9e27bd28a3c31",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap#readme",
+			"_id": "colormap@2.1.0",
+			"_shasum": "055df50fa675fff98b9ec5900385e2cc7ba7a357",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "055df50fa675fff98b9ec5900385e2cc7ba7a357",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-2.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "colormap",
+			"version": "2.1.2",
+			"description": "Easily output great looking predefined hex or rgb color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.1.2",
+				"clone": "^1.0.2"
+			},
+			"devDependencies": {
+				"tap": "^5.1"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color gradient",
+				"color range",
+				"colorscale",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "92a6a6d2f49fdcc2b26ed6e7520b2c31abae426c",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap#readme",
+			"_id": "colormap@2.1.2",
+			"_shasum": "0217ac38514e9f91f3f26f61341ac3bc4c0f2724",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0217ac38514e9f91f3f26f61341ac3bc4c0f2724",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-2.1.2.tgz"
+			},
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "colormap",
+			"version": "2.2.0",
+			"description": "Great looking color maps",
+			"author": {
+				"name": "bpostlethwaite"
+			},
+			"dependencies": {
+				"arraytools": "^1.1.2",
+				"clone": "^1.0.2"
+			},
+			"devDependencies": {
+				"color-space": "^1.14.3",
+				"tap": "^5.1"
+			},
+			"files": [
+				"index.js",
+				"colorScales.js"
+			],
+			"main": "index.js",
+			"scripts": {
+				"test": "tap test/*.js",
+				"build": "browserify example/example.js -o example/bundle.js",
+				"draw": "budo test/draw.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/9..latest",
+					"chrome/20..latest",
+					"firefox/13..latest",
+					"safari/latest",
+					"opera/11.0..latest",
+					"iphone/6",
+					"ipad/6"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bpostlethwaite/colormap.git"
+			},
+			"keywords": [
+				"colormap",
+				"color map",
+				"color",
+				"hex",
+				"rgb",
+				"color-space",
+				"cubehelix",
+				"inferno",
+				"magma",
+				"plasma",
+				"viridis",
+				"matplotlib",
+				"oceanography",
+				"seismic",
+				"color gradient",
+				"color range",
+				"colorscale",
+				"color scale",
+				"plot",
+				"graph"
+			],
+			"license": "MIT",
+			"gitHead": "1635125089e73bac244c7286c654d7c33cbefe15",
+			"bugs": {
+				"url": "https://github.com/bpostlethwaite/colormap/issues"
+			},
+			"homepage": "https://github.com/bpostlethwaite/colormap#readme",
+			"_id": "colormap@2.2.0",
+			"_shasum": "914fe04320558a1fc0582d01e0f47bc913d8c8a5",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"dist": {
+				"shasum": "914fe04320558a1fc0582d01e0f47bc913d8c8a5",
+				"tarball": "https://registry.npmjs.org/colormap/-/colormap-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/colormap-2.2.0.tgz_1465326838339_0.4965969552285969"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.2.0"
+	},
+	"_distfiles": {
+		"colormap-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.0.0.tgz",
+			"sha": "73b5ff43f7d41d2e72b776c9715c2ed333a1bc10",
+			"registry": "npmjs"
+		},
+		"colormap-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.1.0.tgz",
+			"sha": "a2494bf64fde1d72ed1e4813ee5379736a366f67",
+			"registry": "npmjs"
+		},
+		"colormap-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.2.0.tgz",
+			"sha": "b5a66d72925cbb954850f3d00c386eeb9e3b6209",
+			"registry": "npmjs"
+		},
+		"colormap-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.2.2.tgz",
+			"sha": "3fba72dae8311d1376583db1053c50a070e41cae",
+			"registry": "npmjs"
+		},
+		"colormap-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.2.3.tgz",
+			"sha": "d9f0df839103a229980c7524082c1b06d75c0b57",
+			"registry": "npmjs"
+		},
+		"colormap-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.2.4.tgz",
+			"sha": "1e79ba098f753d59823e879ce12b763e174890bc",
+			"registry": "npmjs"
+		},
+		"colormap-0.2.6.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.2.6.tgz",
+			"sha": "ce26a22d192816669c3542781d162119201e28c3",
+			"registry": "npmjs"
+		},
+		"colormap-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.3.0.tgz",
+			"sha": "1be7b9157e38ad87c4ce371ffed81b979fd5597c",
+			"registry": "npmjs"
+		},
+		"colormap-0.3.4.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.3.4.tgz",
+			"sha": "fa82219f1232915a292f85eabcb87a6a2bf2044a",
+			"registry": "npmjs"
+		},
+		"colormap-0.3.5.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.3.5.tgz",
+			"sha": "d60d7a40d5cb89c08665b06377f155ce50a075a7",
+			"registry": "npmjs"
+		},
+		"colormap-0.3.6.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.3.6.tgz",
+			"sha": "c7376f90655888800bc2a44bdb65d45b40dcb22a",
+			"registry": "npmjs"
+		},
+		"colormap-0.3.7.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-0.3.7.tgz",
+			"sha": "5c554a6e365dc67745562f0e7d6b4e3a07ff41a5",
+			"registry": "npmjs"
+		},
+		"colormap-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-1.0.0.tgz",
+			"sha": "21057a6f5aac1a1cdf2e18b12af487a63f55f7d6",
+			"registry": "npmjs"
+		},
+		"colormap-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-1.1.1.tgz",
+			"sha": "a22d9b3a161d49d4b9acafc571d867b1f79026ad",
+			"registry": "npmjs"
+		},
+		"colormap-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-1.2.2.tgz",
+			"sha": "979c559bd493a7deca97b37e71b2c94e03e56af9",
+			"registry": "npmjs"
+		},
+		"colormap-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-1.3.0.tgz",
+			"sha": "c6c27a663ca7807295cdb54bf839e45a96f21fb6",
+			"registry": "npmjs"
+		},
+		"colormap-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-1.3.1.tgz",
+			"sha": "6fd2ba564accd98490f69efafd3ebf0759ef5e82",
+			"registry": "npmjs"
+		},
+		"colormap-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-2.0.0.tgz",
+			"sha": "dd01f7155497556cc8e41dbe95541ef44901a613",
+			"registry": "npmjs"
+		},
+		"colormap-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-2.0.1.tgz",
+			"sha": "3b7437915eaaf0ac89d9aa89f5b7cf99afcdbee6",
+			"registry": "npmjs"
+		},
+		"colormap-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-2.1.0.tgz",
+			"sha": "055df50fa675fff98b9ec5900385e2cc7ba7a357",
+			"registry": "npmjs"
+		},
+		"colormap-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-2.1.2.tgz",
+			"sha": "0217ac38514e9f91f3f26f61341ac3bc4c0f2724",
+			"registry": "npmjs"
+		},
+		"colormap-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/colormap/-/colormap-2.2.0.tgz",
+			"sha": "914fe04320558a1fc0582d01e0f47bc913d8c8a5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57571cf8-712d\"",
+			"fetched": 1501276749361
+		}
+	},
+	"_rev": "1-7ea33568a037f50d",
+	"readme": "# Easy Javascript Colormaps\n\n[![Build Status](https://travis-ci.org/bpostlethwaite/colormap.png)](https://travis-ci.org/bpostlethwaite/colormap)\n\n![all colormap output](./example/colormaps.png)\n\n## Simple example\n\n```javascript\nvar colormap = require('colormap')\noptions = {\n  colormap: 'jet',   // pick a builtin colormap or add your own\n  nshades: 72,       // how many divisions\n  format: 'hex',     // \"hex\" or \"rgb\" or \"rgbaString\"\n  alpha: 1           // set an alpha value or a linear alpha mapping [start, end]\n}\ncg = colormap(options)\n```\n\nwhere leaving `options = {}` or `undefined` results in the defaults given above. There is a minimum number of `nshades` divisions you can select since the algorithms for each colormap have different requirements. `colormap` throws an error if there are too few divisions for the chosen colormap and gives the minimum number required. You should be safe with `n > 10` for all the colormaps, though some require much less (much simpler to implemenent).\n\n## Options\nThe colormap can be any of the supported builtin colormaps. Or you can add your own. For an example of how to add your own see the json format available at:\n\n```javascript\ncolorscales = require('colormap/colorScales')\n```\n\nColorscales are a sequence of objects containing an `index` and `rgb` key. The index defines how fast or slow the `rgb` values will change from one segment to the next. Ie.the steepness of the gradient between two segments. The `rgb` parameter can hold a length 3 or 4 array, depending if alpha values are included in the mapping.\n\n## Return values\nAn array of hex values ('hex') or an array of length 4 arrays containing rgba values ('rgb') or an rgba css string ('rgbaString').\n\n## Complete Example\nThis example will produce the colormap image used at top of this README. It uses all built in color maps and utilizes alpha channel mapping.\n\n```javascript\nvar cmap = require('./..'),\n    canvas = document.getElementById('canvas'),\n    img = document.getElementById('background'),\n    c = canvas.getContext('2d'),\n    n = 48,\n    colormaps = [\n        'jet', 'hsv','hot','cool','spring','summer','autumn','winter','bone',\n        'copper','greys','YIGnBu','greens','YIOrRd','bluered','RdBu','picnic',\n        'rainbow','portland','blackbody','earth','electric'\n    ];\n\nimg.onload = run;\n\nfunction drawColorMaps (colormap, name, height) {\n    /*\n     * Build up the color ranges and add text\n     */\n    for (var j = 0; j < n; j++) {\n        c.fillStyle = colormap[j];      // start ind at index 0\n        c.fillRect(j*10, height, 10, 40);\n\n    }\n    c.fillStyle = '#262626';\n    c.font = '16px Helvetica';\n    c.fillText( name, n*10 + 10, height + 26);\n}\n\nfunction run() {\n    var height, colormap;\n    c.canvas.height = colormaps.length * 40 + img.height;\n    c.canvas.width = 648;\n\n    for (var i = 0; i < colormaps.length; i++) {\n        height = i*40;\n        colormap = cmap({\n            colormap: colormaps[i],\n            nshades: n,\n            format: 'rgbaString'\n        });\n        drawColorMaps(colormap, colormaps[i], height);\n    }\n\n    /*\n     * Now lets try some alpha maps overtop an image!\n     */\n    var ilast = i;\n    c.drawImage(img, 0, i*40, 480, 240);\n\n    // remove background img\n    img.parentElement.removeChild(img);\n\n    for (var i = 0; i < colormaps.length; i++) {\n        height = (ilast + i)*40;\n        colormap = cmap({\n            colormap: colormaps[i],\n            nshades: n,\n            format: 'rgbaString',\n            alpha: [0, 1]\n        });\n        drawColorMaps(colormap, colormaps[i] + ' with transparency', height);\n    }\n}\n```\n\nThen just [browserify](https://github.com/substack/node-browserify) it and throw it in some html and it will output the image above!\n\n\n## Credits\n\nColor maps are inspired by [matplotlib](https://github.com/d3/d3-scale#sequential-color-scales) color scales, [cmocean](https://github.com/matplotlib/cmocean) oceanographic colormaps, [cosine gradients](https://github.com/thi-ng/color/blob/master/src/gradients.org) and others. Thanks to authors of these libs for their invaluable work."
+}

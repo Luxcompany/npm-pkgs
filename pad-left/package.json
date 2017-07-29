@@ -1,0 +1,1009 @@
+{
+	"name": "pad-left",
+	"versions": {
+		"0.1.0": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or Fastest implementation for left-padding a string with zeros (e.g. zero fill).",
+			"version": "0.1.0",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE-MIT"
+				}
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^0.2.2"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.2.1",
+				"mocha": "*",
+				"repeating": "^1.1.0",
+				"should": "*"
+			},
+			"keywords": [],
+			"_id": "pad-left@0.1.0",
+			"_shasum": "baeb64f4e2ab6a40b900727d33f81eff6eb8f383",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "baeb64f4e2ab6a40b900727d33f81eff6eb8f383",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-0.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "0.1.1",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE-MIT"
+				}
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^0.2.2"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.2.1",
+				"mocha": "*",
+				"repeating": "^1.1.0",
+				"should": "*"
+			},
+			"keywords": [],
+			"_id": "pad-left@0.1.1",
+			"_shasum": "a58b265a7610bcdb6302dc97ee919aa2c12c0ae4",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "a58b265a7610bcdb6302dc97ee919aa2c12c0ae4",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-0.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "0.2.0",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE-MIT"
+				}
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^0.2.2"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.2.1",
+				"mocha": "*",
+				"repeating": "^1.1.0",
+				"should": "*",
+				"template": "^0.4.1"
+			},
+			"keywords": [
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padding",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"_id": "pad-left@0.2.0",
+			"_shasum": "cbc09f52489109ab544d80d3a549695f9055856e",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "cbc09f52489109ab544d80d3a549695f9055856e",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "1.0.0",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": {
+				"type": "MIT",
+				"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^1.3.0"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.3.5",
+				"should": "^4.6.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"gitHead": "176fe4d6359f55b6a5b494208b643b610c25fc4a",
+			"_id": "pad-left@1.0.0",
+			"_shasum": "e0ddc5626deca1ca3d86841771ff5c1ee6b3c9b1",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "e0ddc5626deca1ca3d86841771ff5c1ee6b3c9b1",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "1.0.1",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": {
+				"type": "MIT",
+				"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^1.3.0"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.3.5",
+				"should": "^4.6.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"gitHead": "a7ffa1ed83c64806387773875942e4095267f261",
+			"_id": "pad-left@1.0.1",
+			"_shasum": "7e4bdc72359aa74550df0345c70706baeb37678f",
+			"_from": ".",
+			"_npmVersion": "1.4.23",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "7e4bdc72359aa74550df0345c70706baeb37678f",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "1.0.2",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": {
+				"type": "MIT",
+				"url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE"
+			},
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"dependencies": {
+				"repeat-string": "^1.3.0"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.3.5",
+				"should": "^4.6.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"gitHead": "643a4fe478f91e59a7cb0d87db2def430674e9bb",
+			"_id": "pad-left@1.0.2",
+			"_shasum": "19e5735ea98395a26cedc6ab926ead10f3100d4c",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "19e5735ea98395a26cedc6ab926ead10f3100d4c",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "2.0.0",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"repeat-string": "^1.5.2"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.3.5",
+				"should": "^4.6.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"align-text",
+						"center-align",
+						"justified",
+						"pad-right",
+						"repeat-string",
+						"right-align",
+						"right-align-keys",
+						"right-align-values",
+						"right-pad-keys",
+						"right-pad-values",
+						"word-wrap"
+					]
+				}
+			},
+			"gitHead": "64a41ffb8e845dd4ccbd4347b8cdea06659b710b",
+			"_id": "pad-left@2.0.0",
+			"_shasum": "97cae820b8d835e86a22912b2938de75b1038054",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "97cae820b8d835e86a22912b2938de75b1038054",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "2.0.1",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"repeat-string": "^1.5.2"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.1.3",
+				"chalk": "^0.5.1",
+				"glob": "^4.3.5",
+				"should": "^4.6.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"align-text",
+						"center-align",
+						"justified",
+						"pad-right",
+						"repeat-string",
+						"right-align",
+						"right-align-keys",
+						"right-align-values",
+						"right-pad-keys",
+						"right-pad-values",
+						"word-wrap"
+					]
+				}
+			},
+			"gitHead": "5027c325951cd698e9860cad418157a0a7fa6902",
+			"_id": "pad-left@2.0.1",
+			"_shasum": "0a465d7561df90df3023d929db5f517dcdbac8e1",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "0a465d7561df90df3023d929db5f517dcdbac8e1",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.2": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "2.0.2",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"repeat-string": "^1.5.4"
+			},
+			"devDependencies": {
+				"ansi-colors": "^0.1.0",
+				"benchmarked": "^0.1.5",
+				"gulp-format-md": "^0.1.7",
+				"left-pad": "^1.0.1",
+				"matched": "^0.4.1",
+				"should": "^8.2.2"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"verb": {
+				"run": true,
+				"toc": false,
+				"layout": "default",
+				"options": {
+					"helper": {
+						"copyright": {
+							"start": 2014
+						}
+					}
+				},
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"align-text",
+						"center-align",
+						"justified",
+						"pad-right",
+						"repeat-string",
+						"right-align",
+						"right-align-keys",
+						"right-align-values",
+						"right-pad-keys",
+						"right-pad-values",
+						"word-wrap"
+					]
+				},
+				"reflinks": [
+					"verb"
+				],
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "c4841d6f5c6809eed70539ebff2dd123ea9094f3",
+			"_id": "pad-left@2.0.2",
+			"_shasum": "8291d0d40c352c8b94a24f787eb582c9ae099b3d",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "8291d0d40c352c8b94a24f787eb582c9ae099b3d",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/pad-left-2.0.2.tgz_1458700388297_0.5202980281319469"
+			},
+			"directories": {}
+		},
+		"2.0.3": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "2.0.3",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"repeat-string": "^1.5.4"
+			},
+			"devDependencies": {
+				"ansi-colors": "^0.1.0",
+				"benchmarked": "^0.1.5",
+				"gulp-format-md": "^0.1.7",
+				"left-pad": "^1.0.1",
+				"matched": "^0.4.1",
+				"mocha": "^2.4.5",
+				"should": "^8.2.2"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"verb": {
+				"run": true,
+				"toc": false,
+				"layout": "default",
+				"options": {
+					"helper": {
+						"copyright": {
+							"start": 2014
+						}
+					}
+				},
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"highlight": "word-wrap",
+					"list": [
+						"align-text",
+						"center-align",
+						"justified",
+						"pad-right",
+						"repeat-string",
+						"right-align",
+						"right-align-keys",
+						"right-align-values",
+						"right-pad-keys",
+						"right-pad-values",
+						"word-wrap"
+					]
+				},
+				"reflinks": [
+					"verb"
+				],
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "49c3c7ff18bfdeef68acbd210ea4f9d50769baac",
+			"_id": "pad-left@2.0.3",
+			"_shasum": "20b7039d3962dcc8a22f7af44209814c8cc529db",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "20b7039d3962dcc8a22f7af44209814c8cc529db",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/pad-left-2.0.3.tgz_1458734536545_0.03108631679788232"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "pad-left",
+			"description": "Left pad a string with zeros or a specified string. Fastest implementation.",
+			"version": "2.1.0",
+			"homepage": "https://github.com/jonschlinkert/pad-left",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/pad-left.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/pad-left/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"repeat-string": "^1.5.4"
+			},
+			"devDependencies": {
+				"benchmarked": "^0.2.5",
+				"gulp-format-md": "^0.1.9",
+				"left-pad": "github:stevemao/left-pad",
+				"minimist": "^1.2.0",
+				"mocha": "^2.4.5",
+				"should": "^8.3.1"
+			},
+			"keywords": [
+				"align",
+				"fill",
+				"left",
+				"pad",
+				"pad-left",
+				"padded",
+				"padding",
+				"spaces",
+				"string",
+				"zero",
+				"zero-fill",
+				"zeros"
+			],
+			"verb": {
+				"run": true,
+				"toc": false,
+				"layout": "default",
+				"options": {
+					"helper": {
+						"copyright": {
+							"start": 2014
+						}
+					}
+				},
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"highlight": "word-wrap",
+					"list": [
+						"align-text",
+						"center-align",
+						"justified",
+						"pad-right",
+						"repeat-string",
+						"right-align",
+						"right-align-keys",
+						"right-align-values",
+						"right-pad-keys",
+						"right-pad-values",
+						"word-wrap"
+					]
+				},
+				"reflinks": [
+					"verb",
+					"left-pad"
+				],
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "89347534a881a1fbf0d866bcb0cdc24e7a1ff642",
+			"_id": "pad-left@2.1.0",
+			"_shasum": "16e6a3b2d44a8e138cb0838cc7cb403a4fc9e994",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "16e6a3b2d44a8e138cb0838cc7cb403a4fc9e994",
+				"tarball": "https://registry.npmjs.org/pad-left/-/pad-left-2.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/pad-left-2.1.0.tgz_1462616329615_0.037059417460113764"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.0"
+	},
+	"_distfiles": {
+		"pad-left-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-0.1.0.tgz",
+			"sha": "baeb64f4e2ab6a40b900727d33f81eff6eb8f383",
+			"registry": "npmjs"
+		},
+		"pad-left-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-0.1.1.tgz",
+			"sha": "a58b265a7610bcdb6302dc97ee919aa2c12c0ae4",
+			"registry": "npmjs"
+		},
+		"pad-left-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-0.2.0.tgz",
+			"sha": "cbc09f52489109ab544d80d3a549695f9055856e",
+			"registry": "npmjs"
+		},
+		"pad-left-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.0.tgz",
+			"sha": "e0ddc5626deca1ca3d86841771ff5c1ee6b3c9b1",
+			"registry": "npmjs"
+		},
+		"pad-left-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.1.tgz",
+			"sha": "7e4bdc72359aa74550df0345c70706baeb37678f",
+			"registry": "npmjs"
+		},
+		"pad-left-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.2.tgz",
+			"sha": "19e5735ea98395a26cedc6ab926ead10f3100d4c",
+			"registry": "npmjs"
+		},
+		"pad-left-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.0.tgz",
+			"sha": "97cae820b8d835e86a22912b2938de75b1038054",
+			"registry": "npmjs"
+		},
+		"pad-left-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.1.tgz",
+			"sha": "0a465d7561df90df3023d929db5f517dcdbac8e1",
+			"registry": "npmjs"
+		},
+		"pad-left-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.2.tgz",
+			"sha": "8291d0d40c352c8b94a24f787eb582c9ae099b3d",
+			"registry": "npmjs"
+		},
+		"pad-left-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-2.0.3.tgz",
+			"sha": "20b7039d3962dcc8a22f7af44209814c8cc529db",
+			"registry": "npmjs"
+		},
+		"pad-left-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/pad-left/-/pad-left-2.1.0.tgz",
+			"sha": "16e6a3b2d44a8e138cb0838cc7cb403a4fc9e994",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"572dc10b-5aae\"",
+			"fetched": 1501276746235
+		}
+	},
+	"_rev": "1-209260040cbad0fc",
+	"readme": "# pad-left [![NPM version](https://img.shields.io/npm/v/pad-left.svg?style=flat)](https://www.npmjs.com/package/pad-left) [![NPM downloads](https://img.shields.io/npm/dm/pad-left.svg?style=flat)](https://npmjs.org/package/pad-left) [![Build Status](https://img.shields.io/travis/jonschlinkert/pad-left.svg?style=flat)](https://travis-ci.org/jonschlinkert/pad-left)\n\nLeft pad a string with zeros or a specified string. Fastest implementation.\n\nYou might also be interested in [word-wrap](https://github.com/jonschlinkert/word-wrap).\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install pad-left --save\n```\n\n## Usage\n\n```js\nvar pad = require('pad-left');\npad(  '4', 4, '0') // 0004\npad( '35', 4, '0') // 0035\npad('459', 4, '0') // 0459\n```\n\n## Benchmarks\n\nBenchmarks for node.js v6.1.0 versus [left-pad](https://github.com/stevemao/left-pad).\n\n```sh\n# benchmark/fixtures/10-custom-char.js (37 bytes)\n  pad-left x 14,940,947 ops/sec ±0.81% (87 runs sampled)\n  left-pad x 7,901,604 ops/sec ±1.17% (86 runs sampled)\n\n# benchmark/fixtures/10.js (32 bytes)\n  pad-left x 13,305,123 ops/sec ±1.53% (84 runs sampled)\n  left-pad x 6,979,536 ops/sec ±1.13% (84 runs sampled)\n\n# benchmark/fixtures/100-custom-char.js (38 bytes)\n  pad-left x 14,227,637 ops/sec ±1.41% (81 runs sampled)\n  left-pad x 1,352,240 ops/sec ±1.51% (86 runs sampled)\n\n# benchmark/fixtures/100.js (34 bytes)\n  pad-left x 15,664,561 ops/sec ±0.99% (83 runs sampled)\n  left-pad x 1,247,316 ops/sec ±0.96% (87 runs sampled)\n\n# benchmark/fixtures/1000-custom-char.js (40 bytes)\n  pad-left x 15,210,294 ops/sec ±1.15% (87 runs sampled)\n  left-pad x 159,958 ops/sec ±1.01% (88 runs sampled)\n\n# benchmark/fixtures/1000.js (35 bytes)\n  pad-left x 14,157,425 ops/sec ±1.10% (88 runs sampled)\n  left-pad x 143,805 ops/sec ±1.08% (87 runs sampled)\n```\n\nBenchmarks for node.js v6.1.0 versus [stevemao/left-pad](https://github.com/stevemao/left-pad).\n\n```sh\n# benchmark/fixtures/10-custom-char.js (37 bytes)\n  pad-left x 13,251,037 ops/sec ±1.40% (84 runs sampled)\n  left-pad x 10,745,530 ops/sec ±1.18% (86 runs sampled)\n\n# benchmark/fixtures/10.js (32 bytes)\n  pad-left x 13,644,357 ops/sec ±1.33% (87 runs sampled)\n  left-pad x 20,107,245 ops/sec ±1.00% (88 runs sampled)\n\n# benchmark/fixtures/100-custom-char.js (38 bytes)\n  pad-left x 15,650,330 ops/sec ±1.01% (86 runs sampled)\n  left-pad x 9,706,877 ops/sec ±1.13% (87 runs sampled)\n\n# benchmark/fixtures/1000-custom-char.js (40 bytes)\n  pad-left x 17,255,593 ops/sec ±0.99% (88 runs sampled)\n  left-pad x 6,312,637 ops/sec ±1.16% (87 runs sampled)\n\n# benchmark/fixtures/1000.js (35 bytes)\n  pad-left x 15,679,410 ops/sec ±0.99% (90 runs sampled)\n  left-pad x 6,439,580 ops/sec ±1.08% (86 runs sampled)\n```\n\n## Related projects\n\nYou might also be interested in these projects:\n\n* [align-text](https://www.npmjs.com/package/align-text): Align the text in a string. | [homepage](https://github.com/jonschlinkert/align-text)\n* [center-align](https://www.npmjs.com/package/center-align): Center-align the text in a string. | [homepage](https://github.com/jonschlinkert/center-align)\n* [justified](https://www.npmjs.com/package/justified): Wrap words to a specified length and justified the text. | [homepage](https://github.com/jonschlinkert/justified)\n* [pad-right](https://www.npmjs.com/package/pad-right): Right pad a string with zeros or a specified string. Fastest implementation. | [homepage](https://github.com/jonschlinkert/pad-right)\n* [repeat-string](https://www.npmjs.com/package/repeat-string): Repeat the given string n times. Fastest implementation for repeating a string. | [homepage](https://github.com/jonschlinkert/repeat-string)\n* [right-align-keys](https://www.npmjs.com/package/right-align-keys): Right align the keys of an object. | [homepage](https://github.com/jonschlinkert/right-align-keys)\n* [right-align-values](https://www.npmjs.com/package/right-align-values): Right align the values of a given property for each object in an array. Useful… [more](https://www.npmjs.com/package/right-align-values) | [homepage](https://github.com/jonschlinkert/right-align-values)\n* [right-align](https://www.npmjs.com/package/right-align): Right-align the text in a string. | [homepage](https://github.com/jonschlinkert/right-align)\n* [right-pad-keys](https://www.npmjs.com/package/right-pad-keys): Right pad the keys of an object. | [homepage](https://github.com/jonschlinkert/right-pad-keys)\n* [right-pad-values](https://www.npmjs.com/package/right-pad-values): Right pad the values of a given property for each object in an array. Useful… [more](https://www.npmjs.com/package/right-pad-values) | [homepage](https://github.com/jonschlinkert/right-pad-values)\n* [word-wrap](https://www.npmjs.com/package/word-wrap): Wrap words to a specified length. | [homepage](https://github.com/jonschlinkert/word-wrap)\n\n## Contributing\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/pad-left/issues/new).\n\n## Building docs\n\nGenerate readme and API documentation with [verb](https://github.com/verbose/verb):\n\n```sh\n$ npm install verb && npm run docs\n```\n\nOr, if [verb](https://github.com/verbose/verb) is installed globally:\n\n```sh\n$ verb\n```\n\n## Running tests\n\nInstall dev dependencies:\n\n```sh\n$ npm install -d && npm test\n```\n\n## Author\n\n**Jon Schlinkert**\n\n* [github/jonschlinkert](https://github.com/jonschlinkert)\n* [twitter/jonschlinkert](http://twitter.com/jonschlinkert)\n\n## License\n\nCopyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT license](https://github.com/jonschlinkert/pad-left/blob/master/LICENSE).\n\n***\n\n_This file was generated by [verb](https://github.com/verbose/verb), v0.9.0, on May 07, 2016._"
+}

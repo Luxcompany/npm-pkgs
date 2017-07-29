@@ -1,0 +1,394 @@
+{
+	"name": "vue-lory",
+	"versions": {
+		"0.0.0": {
+			"name": "vue-lory",
+			"version": "0.0.0",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "e469b9b5322e9f5e3ee401c14092dcb1dbfc543e",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.0",
+			"scripts": {},
+			"_shasum": "203ee6d28e96b09d5bd8e5df87dd2a27a554c033",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "203ee6d28e96b09d5bd8e5df87dd2a27a554c033",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-lory-0.0.0.tgz_1477386750221_0.3117213624063879"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "vue-lory",
+			"version": "0.0.1",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"main": "Lory.vue",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "068f0dbb74b9ab66375c543406f9455d5fa20dc5",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.1",
+			"scripts": {},
+			"_shasum": "8ab10a6d7e7933f7ae78b83abe0b425c982207f3",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "8ab10a6d7e7933f7ae78b83abe0b425c982207f3",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-lory-0.0.1.tgz_1477387573940_0.8125409996137023"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "vue-lory",
+			"version": "0.0.2",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "a61b955e7fc1e793c45e060cfe63ebe9e1a479c2",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.2",
+			"scripts": {},
+			"_shasum": "aa5f66ea4ad74bf3ab327414468669d82e082b58",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "aa5f66ea4ad74bf3ab327414468669d82e082b58",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-lory-0.0.2.tgz_1477404709144_0.10934562375769019"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "vue-lory",
+			"version": "0.0.3",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "7dc86fb6e9138ef6e68ec53ed6b62865ef8871f4",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.3",
+			"scripts": {},
+			"_shasum": "c22acaac70edfb5057674fe18c563833a6a84627",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "c22acaac70edfb5057674fe18c563833a6a84627",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-lory-0.0.3.tgz_1477407289715_0.1832014147657901"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "vue-lory",
+			"version": "0.0.4",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "0a721fd4cd390048a40874b2e6c74a79be089eae",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.4",
+			"scripts": {},
+			"_shasum": "08cac91bfb5898f6a1fc94d89b7b760d88b8f889",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "08cac91bfb5898f6a1fc94d89b7b760d88b8f889",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-lory-0.0.4.tgz_1477510854190_0.35212704562582076"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "vue-lory",
+			"version": "0.0.5",
+			"description": "Vue Slider Component is based on lory",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/lory.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"slider",
+				"vue-lory",
+				"lory"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"lory.js": "^2.2.1"
+			},
+			"gitHead": "8909134e03386666667be7d4a1ee6692121759bc",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/lory/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/lory#readme",
+			"_id": "vue-lory@0.0.5",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-sDzfo78r+4Bj8mUZHK1XIZ2yudjNS3dCm+j3zWITFe01tGAcm/V34cGcvSxcZ1S6ITsgbbGZONCOX6AppZkLdg==",
+				"shasum": "7b441932e46a91d42533db201cb88df7d2090fe2",
+				"tarball": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-lory-0.0.5.tgz_1500292435806_0.016413728008046746"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.0.5"
+	},
+	"_distfiles": {
+		"vue-lory-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.0.tgz",
+			"sha": "203ee6d28e96b09d5bd8e5df87dd2a27a554c033",
+			"registry": "npmjs"
+		},
+		"vue-lory-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.1.tgz",
+			"sha": "8ab10a6d7e7933f7ae78b83abe0b425c982207f3",
+			"registry": "npmjs"
+		},
+		"vue-lory-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.2.tgz",
+			"sha": "aa5f66ea4ad74bf3ab327414468669d82e082b58",
+			"registry": "npmjs"
+		},
+		"vue-lory-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.3.tgz",
+			"sha": "c22acaac70edfb5057674fe18c563833a6a84627",
+			"registry": "npmjs"
+		},
+		"vue-lory-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.4.tgz",
+			"sha": "08cac91bfb5898f6a1fc94d89b7b760d88b8f889",
+			"registry": "npmjs"
+		},
+		"vue-lory-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-lory/-/vue-lory-0.0.5.tgz",
+			"sha": "7b441932e46a91d42533db201cb88df7d2090fe2",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"596ca554-21e4\"",
+			"fetched": 1501276735069
+		}
+	},
+	"_rev": "1-0ddcce432e509262",
+	"readme": "# lory\n\n☀ Touch enabled minimalistic slider for Vue, it is based on [lory](https://github.com/meandmax/lory).\n\n\n## Installation\n\n```console\n$ npm install vue-lory --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <lory :options=\"{ enableMouseEvents: true, infinite: 1 }\">\n    <item>1</item>\n    <item>2</item>\n    <item>3</item>\n    <item>4</item>\n    <item>5</item>\n    <item>6</item>\n    <prev slot=\"actions\"></prev>\n    <next slot=\"actions\"></next>\n  </lory>\n</template>\n\n<script>\nimport { Lory, Item, Prev, Next } from 'vue-lory'\n\nexport default {\n  components: {\n    Lory,\n    Item,\n    Prev,\n    Next\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
+}

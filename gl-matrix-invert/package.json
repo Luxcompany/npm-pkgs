@@ -1,0 +1,81 @@
+{
+	"name": "gl-matrix-invert",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-matrix-invert",
+			"version": "1.0.0",
+			"description": "Inverts a matrix in gl-matrix format of any dimension",
+			"main": "invert.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"gl-mat2": "^1.0.0",
+				"gl-mat3": "^1.0.0",
+				"gl-mat4": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^3.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-matrix-invert.git"
+			},
+			"keywords": [
+				"gl-matrix",
+				"invert",
+				"inversion",
+				"inverse",
+				"linear",
+				"algebra"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-matrix-invert/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-matrix-invert",
+			"_id": "gl-matrix-invert@1.0.0",
+			"dist": {
+				"shasum": "a36d7bde3654c4590a127ee7c68f6e13fea8c63d",
+				"tarball": "https://registry.npmjs.org/gl-matrix-invert/-/gl-matrix-invert-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"gl-matrix-invert-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-matrix-invert/-/gl-matrix-invert-1.0.0.tgz",
+			"sha": "a36d7bde3654c4590a127ee7c68f6e13fea8c63d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"542737f8-9d9\"",
+			"fetched": 1501276760006
+		}
+	},
+	"_rev": "1-d2f15922bad78a52",
+	"readme": "gl-matrix-invert\n================\nDimension independent matrix inverse\n\n# Example\n\n```javascript\nvar invert = require('gl-matrix-invert')\n\n\nconsole.log(invert(new Array(9), [1, 0, 0,\n                                  0, 1, 0,\n                                  -1, 10, 1]))\n```\n\n# API\n\n### `require('gl-matrix-invert')(dest, src)`\nComputes the inverse of an array matrix in column-major order (as is the convention in WebGL/gl-matrix).\n\n* `src` is the input matrix\n* `dest` is an array which receives the result of the matrix inverse\n\n**Returns** dst\n\n**Notes** Currently only works with matrices up to 4x4\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
+}

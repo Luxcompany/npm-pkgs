@@ -1,0 +1,153 @@
+{
+	"name": "quat-slerp",
+	"versions": {
+		"1.0.0": {
+			"name": "quat-slerp",
+			"version": "1.0.0",
+			"description": "standalone spherical linear interpolation",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"almost-equal": "0.0.0",
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"slerp",
+				"gl-matrix",
+				"gl",
+				"spherical",
+				"linear",
+				"interpolation",
+				"interp",
+				"mix",
+				"quaternion",
+				"quat"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/quat-slerp.git"
+			},
+			"homepage": "https://github.com/mattdesl/quat-slerp",
+			"bugs": {
+				"url": "https://github.com/mattdesl/quat-slerp/issues"
+			},
+			"gitHead": "fc157a4dc9aa48e63187a046fcd512be10ae86b1",
+			"_id": "quat-slerp@1.0.0",
+			"_shasum": "e3dd979491bf5c38b70eedc84edb47a85a0f6db8",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e3dd979491bf5c38b70eedc84edb47a85a0f6db8",
+				"tarball": "https://registry.npmjs.org/quat-slerp/-/quat-slerp-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "quat-slerp",
+			"version": "1.0.1",
+			"description": "standalone spherical linear interpolation",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-quat": "^1.0.0"
+			},
+			"devDependencies": {
+				"almost-equal": "0.0.0",
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"slerp",
+				"gl-matrix",
+				"gl",
+				"spherical",
+				"linear",
+				"interpolation",
+				"interp",
+				"mix",
+				"quaternion",
+				"quat"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/quat-slerp.git"
+			},
+			"homepage": "https://github.com/mattdesl/quat-slerp",
+			"bugs": {
+				"url": "https://github.com/mattdesl/quat-slerp/issues"
+			},
+			"gitHead": "b04f67295f589f005af155009e5fea716dac679b",
+			"_id": "quat-slerp@1.0.1",
+			"_shasum": "2baa15ce3a6bbdc3241d972eb17283139ed69f29",
+			"_from": ".",
+			"_npmVersion": "2.1.18",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "2baa15ce3a6bbdc3241d972eb17283139ed69f29",
+				"tarball": "https://registry.npmjs.org/quat-slerp/-/quat-slerp-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"quat-slerp-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/quat-slerp/-/quat-slerp-1.0.0.tgz",
+			"sha": "e3dd979491bf5c38b70eedc84edb47a85a0f6db8",
+			"registry": "npmjs"
+		},
+		"quat-slerp-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/quat-slerp/-/quat-slerp-1.0.1.tgz",
+			"sha": "2baa15ce3a6bbdc3241d972eb17283139ed69f29",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5554c1d3-fb0\"",
+			"fetched": 1501276741359
+		}
+	},
+	"_rev": "1-beced295e6e20f5b",
+	"readme": "# quat-slerp\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nStandalone spherical interpolation for quaternions, from [gl-matrix](https://github.com/toji/gl-matrix/blob/master/src/gl-matrix/quat.js).\n\n```js\nvar slerp = require('quat-slerp')\n\nvar out = []\nslerp(out, [0, 0, 0, 1], [0, 1, 0, 0], 0.5)\n\n// out is now [0, 0.707106, 0, 0.707106]\n```\n\n## Usage\n\n[![NPM](https://nodei.co/npm/quat-slerp.png)](https://nodei.co/npm/quat-slerp/)\n\n#### `slerp(out, a, b, t)`\n\nInterpolates from quaternion `a` to `b` with the given `t` alpha, storing the result in `out`. Returns the `out` quaternion.\n\n`out`, `a` and `b` are all 4-component arrays in the form `[x, y, z, w]`. \n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/quat-slerp/blob/master/LICENSE.md) for details.\n"
+}

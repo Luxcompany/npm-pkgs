@@ -1,0 +1,138 @@
+{
+	"name": "has-hover",
+	"versions": {
+		"1.0.0": {
+			"name": "has-hover",
+			"version": "1.0.0",
+			"description": "Check if hover is available on the current device",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/has-hover.git"
+			},
+			"keywords": [
+				"path",
+				"url"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "df.creative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/has-hover/issues"
+			},
+			"homepage": "https://github.com/dfcreative/has-hover#readme",
+			"gitHead": "065881b1aa11f8f858fc11f52c02e73ef4e7814b",
+			"_id": "has-hover@1.0.0",
+			"_shasum": "c1ea38b6710401ce93681fc6936e32b6369a788c",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"shasum": "c1ea38b6710401ce93681fc6936e32b6369a788c",
+				"tarball": "https://registry.npmjs.org/has-hover/-/has-hover-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-hover-1.0.0.tgz_1497637683862_0.2443946278654039"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "has-hover",
+			"version": "1.0.1",
+			"description": "Check if hover is available on the current device",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/has-hover.git"
+			},
+			"keywords": [
+				"path",
+				"url"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "df.creative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/has-hover/issues"
+			},
+			"homepage": "https://github.com/dfcreative/has-hover#readme",
+			"dependencies": {
+				"is-browser": "^2.0.1"
+			},
+			"gitHead": "a47557cd032153f955f5ac0d48a35e2f1ce5ad9c",
+			"_id": "has-hover@1.0.1",
+			"_shasum": "3d97437aeb199c62b8ac08acbdc53d3bc52c17f7",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"shasum": "3d97437aeb199c62b8ac08acbdc53d3bc52c17f7",
+				"tarball": "https://registry.npmjs.org/has-hover/-/has-hover-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/has-hover-1.0.1.tgz_1500390580846_0.6835014552343637"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"has-hover-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/has-hover/-/has-hover-1.0.0.tgz",
+			"sha": "c1ea38b6710401ce93681fc6936e32b6369a788c",
+			"registry": "npmjs"
+		},
+		"has-hover-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/has-hover/-/has-hover-1.0.1.tgz",
+			"sha": "3d97437aeb199c62b8ac08acbdc53d3bc52c17f7",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"has-hover-1.0.1.tgz": {
+			"shasum": "3d97437aeb199c62b8ac08acbdc53d3bc52c17f7"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"596e24b5-e1e\"",
+			"fetched": 1501276740246
+		}
+	},
+	"_rev": "2-010483195bd9df6f",
+	"readme": "# has-hover  [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/dfcreative/has-hover.svg)](https://travis-ci.org/dfcreative/has-hover)\r\n\r\nCheck if hover is available on the current device.\r\n\r\n[![npm install has-hover](https://nodei.co/npm/has-hover.png?mini=true)](https://npmjs.org/package/has-hover/)\r\n\r\n```js\r\nconst isHover = require('has-hover')\r\n\r\nif (!isHover) {\r\n\t//do touch-only routine\r\n}\r\n```\r\n\r\nIf you find edge case, please address [issues](https://github.com/dfcreative/has-hover/issues).\r\n"
+}

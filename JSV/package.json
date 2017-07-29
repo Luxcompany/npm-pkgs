@@ -1,0 +1,267 @@
+{
+	"name": "JSV",
+	"versions": {
+		"3.5.0": {
+			"name": "JSV",
+			"version": "3.5.0",
+			"description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator.",
+			"homepage": "http://github.com/garycourt/JSV",
+			"author": {
+				"name": "Gary Court",
+				"email": "gary.court@gmail.com"
+			},
+			"licenses": [
+				{
+					"type": "FreeBSD",
+					"url": "http://github.com/garycourt/JSV/raw/master/jsv.js"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "Gary Court",
+					"email": "gary.court@gmail.com"
+				}
+			],
+			"bugs": {
+				"email": "gary.court@gmail.com",
+				"url": "http://github.com/garycourt/JSV/issues"
+			},
+			"repositories": [
+				{
+					"type": "git",
+					"url": "git://github.com/garycourt/JSV.git"
+				}
+			],
+			"dependencies": {},
+			"main": "lib/jsv.js",
+			"keywords": [
+				"json",
+				"schema",
+				"validator"
+			],
+			"devDependencies": {},
+			"_id": "JSV@3.5.0",
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.6",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "f017ec75629e8c89b8359dc79a2ceee92ef9471e",
+				"tarball": "https://registry.npmjs.org/JSV/-/JSV-3.5.0.tgz"
+			},
+			"scripts": {},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "JSV",
+			"version": "4.0.0",
+			"description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator.",
+			"homepage": "http://github.com/garycourt/JSV",
+			"author": {
+				"name": "Gary Court",
+				"email": "gary.court@gmail.com"
+			},
+			"licenses": [
+				{
+					"type": "FreeBSD",
+					"url": "http://github.com/garycourt/JSV/raw/master/jsv.js"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "garycourt",
+					"email": "gary.court@gmail.com"
+				}
+			],
+			"bugs": {
+				"email": "gary.court@gmail.com",
+				"url": "http://github.com/garycourt/JSV/issues"
+			},
+			"repositories": [
+				{
+					"type": "git",
+					"url": "git://github.com/garycourt/JSV.git"
+				}
+			],
+			"dependencies": {},
+			"main": "lib/jsv.js",
+			"keywords": [
+				"json",
+				"schema",
+				"validator"
+			],
+			"_npmUser": {
+				"name": "garycourt",
+				"email": "gary.court@gmail.com"
+			},
+			"_id": "JSV@4.0.0",
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-4",
+			"_nodeVersion": "v0.6.6",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "abf69fbf2429ac10183264dd1af04b2d6ba262ef",
+				"tarball": "https://registry.npmjs.org/JSV/-/JSV-4.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"4.0.1": {
+			"name": "JSV",
+			"version": "4.0.1",
+			"description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator.",
+			"homepage": "http://github.com/garycourt/JSV",
+			"author": {
+				"name": "Gary Court",
+				"email": "gary.court@gmail.com"
+			},
+			"licenses": [
+				{
+					"type": "FreeBSD",
+					"url": "http://github.com/garycourt/JSV/raw/master/jsv.js"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "garycourt",
+					"email": "gary.court@gmail.com"
+				}
+			],
+			"bugs": {
+				"email": "gary.court@gmail.com",
+				"url": "http://github.com/garycourt/JSV/issues"
+			},
+			"repositories": [
+				{
+					"type": "git",
+					"url": "git://github.com/garycourt/JSV.git"
+				}
+			],
+			"dependencies": {},
+			"main": "lib/jsv.js",
+			"keywords": [
+				"json",
+				"schema",
+				"validator"
+			],
+			"_npmUser": {
+				"name": "garycourt",
+				"email": "gary.court@gmail.com"
+			},
+			"_id": "JSV@4.0.1",
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-4",
+			"_nodeVersion": "v0.6.6",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "26d7ea23a96473e13173c734b285ef395e9030e0",
+				"tarball": "https://registry.npmjs.org/JSV/-/JSV-4.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"4.0.2": {
+			"name": "JSV",
+			"version": "4.0.2",
+			"description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator.",
+			"homepage": "http://github.com/garycourt/JSV",
+			"author": {
+				"name": "Gary Court",
+				"email": "gary.court@gmail.com"
+			},
+			"licenses": [
+				{
+					"type": "FreeBSD",
+					"url": "http://github.com/garycourt/JSV/raw/master/jsv.js"
+				}
+			],
+			"maintainers": [
+				{
+					"name": "garycourt",
+					"email": "gary.court@gmail.com"
+				}
+			],
+			"bugs": {
+				"email": "gary.court@gmail.com",
+				"url": "http://github.com/garycourt/JSV/issues"
+			},
+			"repositories": [
+				{
+					"type": "git",
+					"url": "git://github.com/garycourt/JSV.git"
+				}
+			],
+			"dependencies": {},
+			"main": "lib/jsv.js",
+			"keywords": [
+				"json",
+				"schema",
+				"validator"
+			],
+			"_npmUser": {
+				"name": "garycourt",
+				"email": "gary.court@gmail.com"
+			},
+			"_id": "JSV@4.0.2",
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-4",
+			"_nodeVersion": "v0.6.6",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "d077f6825571f82132f9dffaed587b4029feff57",
+				"tarball": "https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "4.0.2"
+	},
+	"_distfiles": {
+		"JSV-3.5.0.tgz": {
+			"url": "https://registry.npmjs.org/JSV/-/JSV-3.5.0.tgz",
+			"sha": "f017ec75629e8c89b8359dc79a2ceee92ef9471e",
+			"registry": "npmjs"
+		},
+		"JSV-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/JSV/-/JSV-4.0.0.tgz",
+			"sha": "abf69fbf2429ac10183264dd1af04b2d6ba262ef",
+			"registry": "npmjs"
+		},
+		"JSV-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/JSV/-/JSV-4.0.1.tgz",
+			"sha": "26d7ea23a96473e13173c734b285ef395e9030e0",
+			"registry": "npmjs"
+		},
+		"JSV-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/JSV/-/JSV-4.0.2.tgz",
+			"sha": "d077f6825571f82132f9dffaed587b4029feff57",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"JSV-4.0.2.tgz": {
+			"shasum": "d077f6825571f82132f9dffaed587b4029feff57"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"4ffdfb59-8f66\"",
+			"fetched": 1501276755886
+		}
+	},
+	"_rev": "2-ff0bdf5324b9200e"
+}

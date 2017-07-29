@@ -1,0 +1,133 @@
+{
+	"name": "right-now",
+	"versions": {
+		"0.0.0": {
+			"name": "right-now",
+			"version": "0.0.0",
+			"description": "Get the quickest, most high-resolution timestamp possible in node or the browser",
+			"main": "index.js",
+			"browser": "browser.js",
+			"scripts": {
+				"test": "say sorry"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/hughsk/right-now.git"
+			},
+			"keywords": [
+				"time",
+				"high",
+				"resolution",
+				"fast",
+				"quick",
+				"nanosecond",
+				"millsecond",
+				"performance",
+				"now"
+			],
+			"author": {
+				"name": "Hugh Kennedy",
+				"email": "hughskennedy@gmail.com",
+				"url": "http://hughskennedy.com/"
+			},
+			"license": "MIT",
+			"_id": "right-now@0.0.0",
+			"dist": {
+				"shasum": "6e4b30d1ad46005601c108b505894eeb8469d1d3",
+				"tarball": "https://registry.npmjs.org/right-now/-/right-now-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "hughsk",
+				"email": "hughskennedy@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "right-now",
+			"version": "1.0.0",
+			"description": "Get the quickest, most high-resolution timestamp possible in node or the browser",
+			"main": "index.js",
+			"browser": "browser.js",
+			"scripts": {
+				"test": "say sorry"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/hughsk/right-now.git"
+			},
+			"keywords": [
+				"time",
+				"high",
+				"resolution",
+				"fast",
+				"quick",
+				"nanosecond",
+				"millsecond",
+				"performance",
+				"now"
+			],
+			"author": {
+				"name": "Hugh Kennedy",
+				"email": "hughskennedy@gmail.com",
+				"url": "http://hughskennedy.com/"
+			},
+			"license": "MIT",
+			"gitHead": "024f98c12df7420cbd844ab77ab90fb6358e6451",
+			"bugs": {
+				"url": "https://github.com/hughsk/right-now/issues"
+			},
+			"homepage": "https://github.com/hughsk/right-now",
+			"_id": "right-now@1.0.0",
+			"_shasum": "6e89609deebd7dcdaf8daecc9aea39cf585a0918",
+			"_from": ".",
+			"_npmVersion": "1.4.13",
+			"_npmUser": {
+				"name": "hughsk",
+				"email": "hughskennedy@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6e89609deebd7dcdaf8daecc9aea39cf585a0918",
+				"tarball": "https://registry.npmjs.org/right-now/-/right-now-1.0.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"right-now-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/right-now/-/right-now-0.0.0.tgz",
+			"sha": "6e4b30d1ad46005601c108b505894eeb8469d1d3",
+			"registry": "npmjs"
+		},
+		"right-now-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/right-now/-/right-now-1.0.0.tgz",
+			"sha": "6e89609deebd7dcdaf8daecc9aea39cf585a0918",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53960c49-e49\"",
+			"fetched": 1501276740309
+		}
+	},
+	"_rev": "1-b382d9efbfeadcb2",
+	"readme": "# right-now [![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://github.com/hughsk/stability-badges) #\n\nGet the quickest, most high-resolution timestamp possible in node or the\nbrowser.\n\nInstead of returning the date, `right-now` may use `performance.now`,\n`Date.now`, `+new Date` or `process.hrtime` to get a timestamp suitable for\nmeasuring intervals of time. Handy for both animation loops and precision\nbenchmarking.\n\nIt's pretty small but saves me writing this boilerplate every time :)\n\n## Installation ##\n\n``` bash\nnpm install right-now\n```\n\n## Usage ##\n\n### `require('right-now')()` ###\n\nReturns a timestamp. In node, this uses `process.hrtime`. In the browser,\nsupport for the following is checked in this order:\n\n* `performance.now()`\n* `Date.now()`\n* `+new Date`\n"
+}

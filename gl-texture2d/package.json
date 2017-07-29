@@ -1,0 +1,2511 @@
+{
+	"name": "gl-texture2d",
+	"versions": {
+		"0.0.0": {
+			"name": "gl-texture2d",
+			"version": "0.0.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~0.1.2"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~0.2.4",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~0.1.3"
+			},
+			"_id": "gl-texture2d@0.0.0",
+			"dist": {
+				"shasum": "8878d11b362fe7e257061511486dbe9d30058827",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.0.1": {
+			"name": "gl-texture2d",
+			"version": "0.0.1",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~0.1.2"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~0.2.4",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~0.1.3"
+			},
+			"_id": "gl-texture2d@0.0.1",
+			"dist": {
+				"shasum": "c19a659d33fba2080fd1ff8b84a51bf32a917305",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.0.2": {
+			"name": "gl-texture2d",
+			"version": "0.0.2",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~0.1.2"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~0.2.4",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~0.1.3"
+			},
+			"_id": "gl-texture2d@0.0.2",
+			"dist": {
+				"shasum": "5e5023132b04baedd0baff5cceed14c53fedad39",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.0.3": {
+			"name": "gl-texture2d",
+			"version": "0.0.3",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~0.1.2"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~0.2.4",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~0.1.3",
+				"cwise": "~0.1.2"
+			},
+			"_id": "gl-texture2d@0.0.3",
+			"dist": {
+				"shasum": "0c78dc976560096978a4a7ff4ee6cf8a29124268",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.0": {
+			"name": "gl-texture2d",
+			"version": "0.1.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.0",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"cwise": "~0.3.2"
+			},
+			"_id": "gl-texture2d@0.1.0",
+			"dist": {
+				"shasum": "1c8a83e853881ddd695370a2ab9d50654bb3e129",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.1": {
+			"name": "gl-texture2d",
+			"version": "0.1.1",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.0",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"cwise": "~0.3.2"
+			},
+			"_id": "gl-texture2d@0.1.1",
+			"dist": {
+				"shasum": "10199bc8b0255778d29920ab8769a5b166556fe0",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.2": {
+			"name": "gl-texture2d",
+			"version": "0.1.2",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.3",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"cwise": "~0.3.3"
+			},
+			"_id": "gl-texture2d@0.1.2",
+			"dist": {
+				"shasum": "2453395ba7f717ab367a49f185b77b1b4cdddad7",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.3": {
+			"name": "gl-texture2d",
+			"version": "0.1.3",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.3",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"cwise": "~0.3.3"
+			},
+			"_id": "gl-texture2d@0.1.3",
+			"dist": {
+				"shasum": "f505899cad78f57a747a78e6bf85fc3279948d69",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.4": {
+			"name": "gl-texture2d",
+			"version": "0.1.4",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.3",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"cwise": "~0.3.3"
+			},
+			"_id": "gl-texture2d@0.1.4",
+			"dist": {
+				"shasum": "413ad3a4bd5d375a36e9abf7f6848f4968f97025",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.5": {
+			"name": "gl-texture2d",
+			"version": "0.1.5",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.3",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"bit-twiddle": "0.0.2",
+				"cwise-compiler": "~0.1.0"
+			},
+			"_id": "gl-texture2d@0.1.5",
+			"dist": {
+				"shasum": "36f0d9b7593cf7dfbc99209d8677f638f4ee9e85",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.5.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.6": {
+			"name": "gl-texture2d",
+			"version": "0.1.6",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "0.0.0",
+				"ndarray": "~1.0.3",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0",
+				"bit-twiddle": "0.0.2",
+				"cwise-compiler": "~0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.6",
+			"dist": {
+				"shasum": "8352fe30e2b4b68078e2793e18931a9e55a76ffe",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.6.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.7": {
+			"name": "gl-texture2d",
+			"version": "0.1.7",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^0.0.0",
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^0.1.1",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.7",
+			"dist": {
+				"shasum": "1ad0abf44f2bbbf8cd016cb264eebae428ae8849",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.7.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.8": {
+			"name": "gl-texture2d",
+			"version": "0.1.8",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^0.0.0",
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^0.1.1",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.8",
+			"dist": {
+				"shasum": "96219f7b0664b937cab7e7c17d7f866903f39483",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.8.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.10": {
+			"name": "gl-texture2d",
+			"version": "0.1.10",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^0.0.0",
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^0.1.1",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.10",
+			"dist": {
+				"shasum": "b26ecc61642d95af8b5e12f4f9ce993e3e90329f",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.10.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.11": {
+			"name": "gl-texture2d",
+			"version": "0.1.11",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^0.0.0",
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^0.1.1",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.11",
+			"dist": {
+				"shasum": "88da9c005c8e04887bfa35c28744ba52d78a95e8",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.11.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.12": {
+			"name": "gl-texture2d",
+			"version": "0.1.12",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^0.0.0",
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@0.1.12",
+			"dist": {
+				"shasum": "3a03af802300ba601db26d138bd6f7c4da7ac4e2",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.12.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "gl-texture2d",
+			"version": "1.0.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.11",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@1.0.0",
+			"dist": {
+				"shasum": "7657d688049b8ce94a5957e8cac23ccb6003f2f7",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "gl-texture2d",
+			"version": "1.0.1",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "0.0.0",
+				"gl-shader": "0.0.0",
+				"lena": "~1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.11",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"bit-twiddle": "^0.0.2",
+				"cwise-compiler": "^0.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@1.0.1",
+			"dist": {
+				"shasum": "8c5a4c0d9cde39ef093a8b3c8c3440776e02a6a5",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.1.0": {
+			"name": "gl-texture2d",
+			"version": "1.1.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@1.1.0",
+			"dist": {
+				"shasum": "56e246eb9add1ac4a8114a9355358677e79364c2",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.2.0": {
+			"name": "gl-texture2d",
+			"version": "1.2.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-texture2d",
+			"_id": "gl-texture2d@1.2.0",
+			"dist": {
+				"shasum": "55d4482f18a36608428bb5fe48310db10d71ca9e",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.2.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.0": {
+			"name": "gl-texture2d",
+			"version": "2.0.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.0",
+			"dist": {
+				"shasum": "3f7c15e3565016457408e2b1e120e87169b817f3",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.1": {
+			"name": "gl-texture2d",
+			"version": "2.0.1",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.1",
+			"dist": {
+				"shasum": "008a640767dfb4f464e790a1fd8e644d316c7bf5",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.2": {
+			"name": "gl-texture2d",
+			"version": "2.0.2",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.2",
+			"dist": {
+				"shasum": "4c2941aecaa01a4ab5bdf9abc0c419a5fce9220a",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.3": {
+			"name": "gl-texture2d",
+			"version": "2.0.3",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"a-big-triangle": "0.0.0",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.3",
+			"dist": {
+				"shasum": "d640822d8ffcc94ee87ca6ca735981b8d75179cf",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.4": {
+			"name": "gl-texture2d",
+			"version": "2.0.4",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0",
+				"a-big-triangle": "^1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.4",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2",
+				"baboon-image": "^1.0.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.4",
+			"dist": {
+				"shasum": "2fd47e9f49b0a2aa844ad1a50c518515f33fb5a4",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.5": {
+			"name": "gl-texture2d",
+			"version": "2.0.5",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0",
+				"a-big-triangle": "^1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.4",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2",
+				"baboon-image": "^1.0.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.5",
+			"dist": {
+				"shasum": "5de22420f0f474fd74a5830f57306ea7acc6faf9",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.5.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.6": {
+			"name": "gl-texture2d",
+			"version": "2.0.6",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0",
+				"a-big-triangle": "^1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.4",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2",
+				"baboon-image": "^1.0.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.6",
+			"dist": {
+				"shasum": "aae039fe078054500e697354d81082efd99ac89f",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.6.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"2.0.7": {
+			"name": "gl-texture2d",
+			"version": "2.0.7",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0",
+				"a-big-triangle": "^1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.4",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2",
+				"baboon-image": "^1.0.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.7",
+			"_shasum": "3a112fb4eb9944815d7813c56e3d7bf86509d29c",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			],
+			"dist": {
+				"shasum": "3a112fb4eb9944815d7813c56e3d7bf86509d29c",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.7.tgz"
+			}
+		},
+		"2.0.8": {
+			"name": "gl-texture2d",
+			"version": "2.0.8",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"baboon-image": "^1.0.0",
+				"glslify": "^1.4.0",
+				"a-big-triangle": "^1.0.0"
+			},
+			"dependencies": {
+				"webglew": "^1.0.4",
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.8",
+			"_shasum": "ad9abfe62ca397f126f12f924bac47c23d2117b3",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			],
+			"dist": {
+				"shasum": "ad9abfe62ca397f126f12f924bac47c23d2117b3",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.8.tgz"
+			}
+		},
+		"2.0.9": {
+			"name": "gl-texture2d",
+			"version": "2.0.9",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"baboon-image": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-shader": "^4.0.1",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.2.2"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d",
+			"_id": "gl-texture2d@2.0.9",
+			"_shasum": "0c96938cd9342255a9ec4fae7beb7597023d989a",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "0c96938cd9342255a9ec4fae7beb7597023d989a",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			]
+		},
+		"2.0.10": {
+			"name": "gl-texture2d",
+			"version": "2.0.10",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"baboon-image": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-shader": "^4.0.1",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"ndarray-ops": "^1.2.2",
+				"typedarray-pool": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d#readme",
+			"_id": "gl-texture2d@2.0.10",
+			"_shasum": "4523e4c1dbfd3b9035d21608121f0d572682e30f",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "4523e4c1dbfd3b9035d21608121f0d572682e30f",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			]
+		},
+		"2.0.11": {
+			"name": "gl-texture2d",
+			"version": "2.0.11",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"baboon-image": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-shader": "^4.0.1",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"ndarray-ops": "^1.2.2",
+				"typedarray-pool": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d#readme",
+			"_id": "gl-texture2d@2.0.11",
+			"_shasum": "70e0557219fa4eef64a9db3af872c4d291f014d1",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "70e0557219fa4eef64a9db3af872c4d291f014d1",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.11.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/gl-texture2d-2.0.11.tgz_1472492973509_0.18764759739860892"
+			}
+		},
+		"2.0.12": {
+			"name": "gl-texture2d",
+			"version": "2.0.12",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"baboon-image": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-shader": "^4.0.1",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"ndarray-ops": "^1.2.2",
+				"typedarray-pool": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d#readme",
+			"_id": "gl-texture2d@2.0.12",
+			"_shasum": "f309ebe06f46567d86a365a6f599df3a374dc2bd",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f309ebe06f46567d86a365a6f599df3a374dc2bd",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.12.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-texture2d-2.0.12.tgz_1478294911741_0.09092011908069253"
+			}
+		},
+		"2.1.0": {
+			"name": "gl-texture2d",
+			"version": "2.1.0",
+			"description": "WebGL texture wrapper",
+			"main": "texture.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-texture2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"texture",
+				"wrap",
+				"ndarray"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "0d66ce40f2e25b0715689758e9a659f6544f9f3e",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-texture2d/issues"
+			},
+			"devDependencies": {
+				"a-big-triangle": "^1.0.0",
+				"baboon-image": "^1.0.0",
+				"gl-now": "^1.3.1",
+				"gl-shader": "^4.0.1",
+				"glslify": "^1.4.0"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"ndarray-ops": "^1.2.2",
+				"typedarray-pool": "^1.1.0"
+			},
+			"homepage": "https://github.com/stackgl/gl-texture2d#readme",
+			"_id": "gl-texture2d@2.1.0",
+			"_shasum": "ff6824e7e7c31a8ba6fdcdbe9e5c695d7e2187c7",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "ff6824e7e7c31a8ba6fdcdbe9e5c695d7e2187c7",
+				"tarball": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-texture2d-2.1.0.tgz_1479756568032_0.18751634424552321"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.0"
+	},
+	"_distfiles": {
+		"gl-texture2d-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.0.tgz",
+			"sha": "8878d11b362fe7e257061511486dbe9d30058827",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.1.tgz",
+			"sha": "c19a659d33fba2080fd1ff8b84a51bf32a917305",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.2.tgz",
+			"sha": "5e5023132b04baedd0baff5cceed14c53fedad39",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.0.3.tgz",
+			"sha": "0c78dc976560096978a4a7ff4ee6cf8a29124268",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.0.tgz",
+			"sha": "1c8a83e853881ddd695370a2ab9d50654bb3e129",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.1.tgz",
+			"sha": "10199bc8b0255778d29920ab8769a5b166556fe0",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.2.tgz",
+			"sha": "2453395ba7f717ab367a49f185b77b1b4cdddad7",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.3.tgz",
+			"sha": "f505899cad78f57a747a78e6bf85fc3279948d69",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.4.tgz",
+			"sha": "413ad3a4bd5d375a36e9abf7f6848f4968f97025",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.5.tgz",
+			"sha": "36f0d9b7593cf7dfbc99209d8677f638f4ee9e85",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.6.tgz",
+			"sha": "8352fe30e2b4b68078e2793e18931a9e55a76ffe",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.7.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.7.tgz",
+			"sha": "1ad0abf44f2bbbf8cd016cb264eebae428ae8849",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.8.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.8.tgz",
+			"sha": "96219f7b0664b937cab7e7c17d7f866903f39483",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.10.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.10.tgz",
+			"sha": "b26ecc61642d95af8b5e12f4f9ce993e3e90329f",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.11.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.11.tgz",
+			"sha": "88da9c005c8e04887bfa35c28744ba52d78a95e8",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-0.1.12.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-0.1.12.tgz",
+			"sha": "3a03af802300ba601db26d138bd6f7c4da7ac4e2",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.0.0.tgz",
+			"sha": "7657d688049b8ce94a5957e8cac23ccb6003f2f7",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.0.1.tgz",
+			"sha": "8c5a4c0d9cde39ef093a8b3c8c3440776e02a6a5",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.1.0.tgz",
+			"sha": "56e246eb9add1ac4a8114a9355358677e79364c2",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-1.2.0.tgz",
+			"sha": "55d4482f18a36608428bb5fe48310db10d71ca9e",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.0.tgz",
+			"sha": "3f7c15e3565016457408e2b1e120e87169b817f3",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.1.tgz",
+			"sha": "008a640767dfb4f464e790a1fd8e644d316c7bf5",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.2.tgz",
+			"sha": "4c2941aecaa01a4ab5bdf9abc0c419a5fce9220a",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.3.tgz",
+			"sha": "d640822d8ffcc94ee87ca6ca735981b8d75179cf",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.4.tgz",
+			"sha": "2fd47e9f49b0a2aa844ad1a50c518515f33fb5a4",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.5.tgz",
+			"sha": "5de22420f0f474fd74a5830f57306ea7acc6faf9",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.6.tgz",
+			"sha": "aae039fe078054500e697354d81082efd99ac89f",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.7.tgz",
+			"sha": "3a112fb4eb9944815d7813c56e3d7bf86509d29c",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.8.tgz",
+			"sha": "ad9abfe62ca397f126f12f924bac47c23d2117b3",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.9.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.9.tgz",
+			"sha": "0c96938cd9342255a9ec4fae7beb7597023d989a",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.10.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.10.tgz",
+			"sha": "4523e4c1dbfd3b9035d21608121f0d572682e30f",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.11.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.11.tgz",
+			"sha": "70e0557219fa4eef64a9db3af872c4d291f014d1",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.0.12.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.0.12.tgz",
+			"sha": "f309ebe06f46567d86a365a6f599df3a374dc2bd",
+			"registry": "npmjs"
+		},
+		"gl-texture2d-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-texture2d/-/gl-texture2d-2.1.0.tgz",
+			"sha": "ff6824e7e7c31a8ba6fdcdbe9e5c695d7e2187c7",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5973bdbb-cb89\"",
+			"fetched": 1501276749081
+		}
+	},
+	"_rev": "1-14046ba0d96fb535",
+	"readme": "gl-texture2d\n============\nWebGL texture object wrapper\n\n# Example\n\n[Try it in your browser right now](http://stackgl.github.io/gl-texture2d/)\n\n```javascript\nvar shell         = require(\"gl-now\")()\nvar createShader  = require(\"gl-shader\")\nvar createTexture = require(\"gl-texture2d\")\nvar drawTriangle  = require(\"a-big-triangle\")\nvar baboon        = require(\"baboon-image\")\nvar glslify       = require(\"glslify\")\n\nvar createShader = glslify({\n  vertex:\"\\\n    attribute vec2 position;\\\n    varying vec2 texCoord;\\\n    void main() {\\\n      gl_Position = vec4(position, 0, 1);\\\n      texCoord = vec2(0.0,1.0)+vec2(0.5,-0.5) * (position + 1.0);\\\n    }\", \n  fragment: \"\\\n    precision highp float;\\\n    uniform sampler2D texture;\\\n    varying vec2 texCoord;\\\n    void main() {\\\n      gl_FragColor = texture2D(texture, texCoord);\\\n    }\",\n  inline: true\n})\n\nvar shader, texture\n\nshell.on(\"gl-init\", function() {\n  var gl = shell.gl\n  \n  //Create texture\n  texture = createTexture(gl, baboon)\n\n  //Create shader\n  shader = createShader(gl)\n  shader.attributes.position.location = 0\n})\n\nshell.on(\"gl-render\", function() {\n  //Draw it\n  shader.bind()\n  shader.uniforms.texture = texture.bind()\n  drawTriangle(shell.gl)\n})\n```\n\nHere is what it should look like:\n\n<img src=\"https://raw.github.com/mikolalysenko/gl-texture2d/master/screenshot.png\">\n\n# Install\n\n    npm install gl-texture2d\n\n# API\n\n```javascript\nvar createTexture = require(\"gl-texture2d\")\n```\n\n## Constructor\nThere are three basic usage patterns for `createTexture`:\n\n### `var tex = createTexture(gl, shape[, format, type])`\nCreates an unitialized texture with the given dimensions and format\n\n* `shape` is a length 2 array representing the `[width, height]` of the texture\n* `format` (optional) is the format of the texture (default `gl.RGBA`)\n* `type` is the type of texture (default `gl.UNSIGNED_BYTE`)\n\n### `var tex = createTexture(gl, domElement[, format, type])`\nCreates a texture from the given data source.  Where `domElement` is one of the following items:\n\n* An `ImageData` object\n* An `HTMLCanvas` object\n* An `HTMLImage` object\n* An `HTMLVideo` object\n\nAnd `format` is an OpenGL data format or defaults to `gl.RGBA` and `type` is the storage type which defaults to `gl.UNSIGNED_BYTE`\n\n### `var tex = createTexture(gl, rawObject[, format, type])`\n\nCreates a texture from the given raw element. `rawObject` is a DOM-like element that have a `raw`, `width` and `height` fields. `raw` is a value that directly get passed to `texImage2D` / `texSubImage2D`.\n\nThis allows to support non-DOM implementation of WebGL like gl-headless.\n\n### `var tex = createTexture(gl, array)`\nCreates a texture from an [ndarray](https://github.com/mikolalysenko/ndarray).  The rules for selecting the format and type depend on the shape of the ndarray.  The type of the texture is inferred according to the following rules.  Let:\n\n* `dtype = ndarray.dtype(array)`\n* `shape = array.shape`\n\nThen the rules for `type` and `format` are defined according to the following table:\n\n| `dtype`      | `shape`    | `format`        | `type`                 |\n| ------------ |:----------:|:---------------:|:----------------------:|\n| `float*`     | [w,h]      | LUMINANCE       | FLOAT                  |\n| `float*`     | [w,h,1]    | ALPHA           | FLOAT                  |\n| `float*`     | [w,h,2]    | LUMINANCE_ALPHA | FLOAT                  |\n| `float*`     | [w,h,3]    | RGB             | FLOAT                  |\n| `float*`     | [w,h,4]    | RGBA            | FLOAT                  |\n| `(u)int*`    | [w,h]      | LUMINANCE       | UNSIGNED_BYTE          |\n| `(u)int*`    | [w,h,1]    | ALPHA           | UNSIGNED_BYTE          |\n| `(u)int*`    | [w,h,2]    | LUMINANCE_ALPHA | UNSIGNED_BYTE          |\n| `(u)int*`    | [w,h,3]    | RGB             | UNSIGNED_BYTE          |\n| `(u)int*`    | [w,h,4]    | RGBA            | UNSIGNED_BYTE          |\n\nOther combinations of shape and dtype are invalid and throw an error.\n\n## Texture Methods\n\n### `tex.bind([texUnit])`\nBinds the texture for use.  Basically a short cut for:\n\n```javascript\ngl.activeTexture(gl.TEXTURE0 + texUnit)\ngl.bindTexture(gl.TEXTURE_2D, this.handle)\n```\nIf `texUnit` is not specified then the active texture is not changed.\n\n**Returns** The texture unit the texture is bound to.\n\n### `tex.dispose()`\nDestroys the texture object and releases all of its resources.  Under the hood this is equivalent to:\n\n```javascript\ngl.deleteTexture(this.handle)\n```\n\n### `tex.setPixels(data[, offset, mipLevel])`\nUnpacks `data` into a subregion of the texture.  As before in the constructor `data` can be either an `ndarray`, `HTMLCanvas`, `HTMLImage`, `HTMLVideo` or a `rawObject`.  If `data` is an ndarray it must have a compatible format with the initial array layout.\n\n* `offset` is a length 2 array representing the offset into which the pixels will be written in `[x,y]`.  (Default: `[0,0]`)\n* `mipLevel` is the mip level to write to. (Default `0`)\n\nIf `data` is an `ndarray` the same rules as in the constructor are followed for converting the type of the buffer.\n\n### `tex.generateMipmap()`\nGenerates mipmaps for the texture.  This will fail if the texture dimensions are not a power of two.\n\n## Texture Properties\n\n#### `tex.shape`\nAn array representing the dimensions of the texture in `[width, height]`.  Writing to this value will resize the texture and invalidate its contents.  For example, to resize the texture `tex` to the shape `[newWidth, newHeight]` you can do:\n\n```javascript\ntex.shape = [newWidth, newHeight]\n```\n\n#### `tex.wrap`\nTexture wrap around behavior for x/y of the texture.  Used to set/get `[gl.TEXTURE_WRAP_T, gl.TEXTURE_WRAP_S]`.  Defaults to `[gl.CLAMP_TO_EDGE, gl.CLAMP_TO_EDGE]`.  To update this value, write to it with a vector. For example,\n\n```javascript\ntex.wrap = [gl.MIRRORED_REPEAT, gl.REPEAT]\n```\n\nOr you can update it with a single value to set the wrap mode for both axes:\n\n```javascript\ntex.wrap = gl.REPEAT\n```\n\n#### `tex.magFilter`\nMagnification filter.  Used to set/get `gl.TEXTURE_MAG_FILTER`. Defaults to `gl.NEAREST`\n\n#### `tex.minFilter`\nMinification filter. Used to set/get `gl.TEXTURE_MIN_FILTER`. Defaults to `gl.NEAREST`\n\n#### `tex.mipSamples`\nThe number of anisotropic filtering samples to use.  This requires `EXT_texture_filter_anisotropic` to have any effect.  High values will improve mipmap quality, but decrease performance.\n\n## Internals\n\n#### `tex.gl`\nA reference to the WebGL context of the texture.\n\n#### `tex.handle`\nA handle to the underlying texture object.\n\n#### `tex.format`\nThe internal format of the texture.\n\n#### `tex.type`\nThe internal data type of the texture.\n\n# Credits\n(c) 2013-2014 Mikola Lysenko. MIT License\n"
+}

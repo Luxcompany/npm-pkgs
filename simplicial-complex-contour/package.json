@@ -1,0 +1,226 @@
+{
+	"name": "simplicial-complex-contour",
+	"versions": {
+		"1.0.0": {
+			"name": "simplicial-complex-contour",
+			"version": "1.0.0",
+			"description": "Extract a contour on a simplicial complex",
+			"main": "contour.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"marching-simplex-table": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"ndarray-sort": "^1.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3",
+				"bunny": "^1.0.1"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour.git"
+			},
+			"keywords": [
+				"simplicial",
+				"complex",
+				"contour",
+				"line",
+				"triangle",
+				"tetrahedra",
+				"mesh"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/simplicial-complex-contour",
+			"gitHead": "cb1879918a6296701506c992ccac70917251e2e9",
+			"_id": "simplicial-complex-contour@1.0.0",
+			"_shasum": "db1870c8e6e2f196cac4963c80c5781e9b068767",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "db1870c8e6e2f196cac4963c80c5781e9b068767",
+				"tarball": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "simplicial-complex-contour",
+			"version": "1.0.1",
+			"description": "Extract a contour on a simplicial complex",
+			"main": "contour.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"marching-simplex-table": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"ndarray-sort": "^1.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3",
+				"bunny": "^1.0.1"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour.git"
+			},
+			"keywords": [
+				"simplicial",
+				"complex",
+				"contour",
+				"line",
+				"triangle",
+				"tetrahedra",
+				"mesh"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/simplicial-complex-contour",
+			"gitHead": "de8b7c011b77eafc03e35bb6829d69564d93bddc",
+			"_id": "simplicial-complex-contour@1.0.1",
+			"_shasum": "4c51f8e157677a5eef5549589732d76ada91f361",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4c51f8e157677a5eef5549589732d76ada91f361",
+				"tarball": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "simplicial-complex-contour",
+			"version": "1.0.2",
+			"description": "Extract a contour on a simplicial complex",
+			"main": "contour.js",
+			"directories": {
+				"example": "example",
+				"test": "test"
+			},
+			"dependencies": {
+				"marching-simplex-table": "^1.0.0",
+				"ndarray": "^1.0.15",
+				"ndarray-sort": "^1.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3",
+				"bunny": "^1.0.1"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour.git"
+			},
+			"keywords": [
+				"simplicial",
+				"complex",
+				"contour",
+				"line",
+				"triangle",
+				"tetrahedra",
+				"mesh"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/simplicial-complex-contour/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/simplicial-complex-contour",
+			"gitHead": "2b9f33de9cac6c3307e37f8a25d1df4167f08d40",
+			"_id": "simplicial-complex-contour@1.0.2",
+			"_shasum": "890aacac284365340110545cf2629a26e04bf9d1",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "890aacac284365340110545cf2629a26e04bf9d1",
+				"tarball": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.2.tgz"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_distfiles": {
+		"simplicial-complex-contour-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.0.tgz",
+			"sha": "db1870c8e6e2f196cac4963c80c5781e9b068767",
+			"registry": "npmjs"
+		},
+		"simplicial-complex-contour-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.1.tgz",
+			"sha": "4c51f8e157677a5eef5549589732d76ada91f361",
+			"registry": "npmjs"
+		},
+		"simplicial-complex-contour-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/simplicial-complex-contour/-/simplicial-complex-contour-1.0.2.tgz",
+			"sha": "890aacac284365340110545cf2629a26e04bf9d1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5511cdf5-1972\"",
+			"fetched": 1501276749440
+		}
+	},
+	"_rev": "1-2357a236e3dbd08d",
+	"readme": "simplicial-complex-contour\n==========================\nFinds a piecewise-linear isocontour on a simplicial complex using the marching simplex method.\n\n# Example\n\n```javascript\nvar extractContour = require('simplicial-complex-contour')\nvar bunny = require('bunny')\n\n//Solve for the curve z=0 on the surface of the bunny\nvar zvalues = bunny.positions.map(function(p) {\n  return p[2]\n})\nvar curve = extractContour(bunny.cells, zvalues, 0.0)\n\n//Unpack edges and positions of curve\nvar curveEdges = curve.cells\nvar curvePositions = curve.vertexWeights.map(function(w,i) {\n  var a = bunny.positions[curve.vertexIds[i][0]]\n  var b = bunny.positions[curve.vertexIds[i][1]]\n\n  return [\n    w * a[0] + (1 - w) * b[0],\n    w * a[1] + (1 - w) * b[1],\n    w * a[2] + (1 - w) * b[2]\n  ]\n})\n\n//Render the curve\nconsole.log({\n  cells: curveEdges,\n  positions: curvePositions\n})\n```\n\n# Install\n\n```\nnpm install simplicial-complex-contour\n```\n\n# API\n\n#### `require('simplicial-complex-contour')(cells, values[, level])`\nComputes a piecewise linear solution to the solution `values=levels`\n\n* `cells` is an array of simplices represented by tuples of vertex indices\n* `values` is an array of values defined at each vertex of the cell complex\n* `level` is the level at which the surface is extracted (Default 0)\n\n**Returns** An object with 3 properties\n\n* `cells` which are the cells of the extracted isosurface\n* `vertexIds` which is an array of pairs of vertex ids encoding the crossing edges\n* `vertexWeights` which are linear weights applied to each vertex\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
+}

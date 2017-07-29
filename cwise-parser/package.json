@@ -1,0 +1,447 @@
+{
+	"name": "cwise-parser",
+	"versions": {
+		"0.0.0": {
+			"name": "cwise-parser",
+			"version": "0.0.0",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "~1.0.3",
+				"uniq": "~0.0.2"
+			},
+			"devDependencies": {
+				"tape": "~1.0.4"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/cwise-parser/issues"
+			},
+			"_id": "cwise-parser@0.0.0",
+			"dist": {
+				"shasum": "779c9aaffd99cc3eef804b43a495d21e12e750b3",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.0.1": {
+			"name": "cwise-parser",
+			"version": "0.0.1",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "~1.0.3",
+				"uniq": "~0.0.2"
+			},
+			"devDependencies": {
+				"tape": "~1.0.4"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/cwise-parser/issues"
+			},
+			"_id": "cwise-parser@0.0.1",
+			"dist": {
+				"shasum": "cea2dbb9fc84d93ec6f14414b4f162a39c7e61e6",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-0.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "cwise-parser",
+			"version": "1.0.0",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "~1.0.3",
+				"uniq": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "~1.0.4"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/cwise-parser/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/cwise-parser",
+			"_id": "cwise-parser@1.0.0",
+			"dist": {
+				"shasum": "697c264f94b81ca28ad6f75ad88a196db0795ba3",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "cwise-parser",
+			"version": "1.0.1",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "^1.0.3",
+				"uniq": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/scijs/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/scijs/cwise-parser/issues"
+			},
+			"homepage": "https://github.com/scijs/cwise-parser",
+			"_id": "cwise-parser@1.0.1",
+			"_shasum": "2df728f88e4944c7a49601458fbf8f723b7fe723",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "jaspervdg",
+				"email": "th.v.d.gronde@hccnet.nl"
+			},
+			"dist": {
+				"shasum": "2df728f88e4944c7a49601458fbf8f723b7fe723",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "jaspervdg",
+					"email": "th.v.d.gronde@hccnet.nl"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				},
+				{
+					"name": "planeshifter",
+					"email": "pgb@andrew.cmu.edu"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				}
+			]
+		},
+		"1.0.2": {
+			"name": "cwise-parser",
+			"version": "1.0.2",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "^1.0.3",
+				"uniq": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/scijs/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/scijs/cwise-parser/issues"
+			},
+			"homepage": "https://github.com/scijs/cwise-parser",
+			"_id": "cwise-parser@1.0.2",
+			"_shasum": "18415bf41bc7b84415c47174f4c26654e4208746",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "jaspervdg",
+				"email": "th.v.d.gronde@hccnet.nl"
+			},
+			"dist": {
+				"shasum": "18415bf41bc7b84415c47174f4c26654e4208746",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "jaspervdg",
+					"email": "th.v.d.gronde@hccnet.nl"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				},
+				{
+					"name": "planeshifter",
+					"email": "pgb@andrew.cmu.edu"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				}
+			]
+		},
+		"1.0.3": {
+			"name": "cwise-parser",
+			"version": "1.0.3",
+			"description": "Parser for cwise",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"esprima": "^1.0.3",
+				"uniq": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/scijs/cwise-parser.git"
+			},
+			"keywords": [
+				"cwise",
+				"parser",
+				"ndarray",
+				"internals"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "a57b0ecf9a304e991c9bca348b4aa99b5c2a7fc1",
+			"bugs": {
+				"url": "https://github.com/scijs/cwise-parser/issues"
+			},
+			"homepage": "https://github.com/scijs/cwise-parser#readme",
+			"_id": "cwise-parser@1.0.3",
+			"_shasum": "8e493c17d54f97cb030a9e9854bc86c9dfb354fe",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "8e493c17d54f97cb030a9e9854bc86c9dfb354fe",
+				"tarball": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "jaspervdg",
+					"email": "th.v.d.gronde@hccnet.nl"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				},
+				{
+					"name": "planeshifter",
+					"email": "pgb@andrew.cmu.edu"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cwise-parser-1.0.3.tgz_1467420188609_0.3553831153549254"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_distfiles": {
+		"cwise-parser-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-0.0.0.tgz",
+			"sha": "779c9aaffd99cc3eef804b43a495d21e12e750b3",
+			"registry": "npmjs"
+		},
+		"cwise-parser-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-0.0.1.tgz",
+			"sha": "cea2dbb9fc84d93ec6f14414b4f162a39c7e61e6",
+			"registry": "npmjs"
+		},
+		"cwise-parser-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.0.tgz",
+			"sha": "697c264f94b81ca28ad6f75ad88a196db0795ba3",
+			"registry": "npmjs"
+		},
+		"cwise-parser-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.1.tgz",
+			"sha": "2df728f88e4944c7a49601458fbf8f723b7fe723",
+			"registry": "npmjs"
+		},
+		"cwise-parser-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.2.tgz",
+			"sha": "18415bf41bc7b84415c47174f4c26654e4208746",
+			"registry": "npmjs"
+		},
+		"cwise-parser-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/cwise-parser/-/cwise-parser-1.0.3.tgz",
+			"sha": "8e493c17d54f97cb030a9e9854bc86c9dfb354fe",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57770e1f-207b\"",
+			"fetched": 1501276750127
+		}
+	},
+	"_rev": "1-e9de9614a6062235",
+	"readme": "cwise-parser\n============\nNew preprocessor for cwise. Not intended to be run by itself (use [cwise](https://github.com/scijs/cwise) instead).\n\n[![build status](https://secure.travis-ci.org/scijs/cwise-parser.png)](http://travis-ci.org/scijs/cwise-parser)\n\n# Install\nInstall using [npm](https://www.npmjs.com/):\n\n    npm install cwise-parser\n\n# License\n(c) 2013 Mikola Lysenko. MIT License.\n"
+}

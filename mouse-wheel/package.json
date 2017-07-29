@@ -1,0 +1,357 @@
+{
+	"name": "mouse-wheel",
+	"versions": {
+		"1.0.0": {
+			"name": "mouse-wheel",
+			"version": "1.0.0",
+			"description": "Consistent cross browser mouse wheel movement",
+			"main": "wheel.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"right-now": "^1.0.0",
+				"to-px": "^1.0.1",
+				"signum": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-wheel.git"
+			},
+			"keywords": [
+				"mouse",
+				"wheel",
+				"browser",
+				"speed",
+				"consistent",
+				"portability",
+				"poly",
+				"fill",
+				"fix"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-wheel/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-wheel",
+			"gitHead": "16203aee65762ce531ba11df09e4aa59c559044a",
+			"_id": "mouse-wheel@1.0.0",
+			"_shasum": "c1d6182be374d61da3da6afcf8135c0cbad0d233",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c1d6182be374d61da3da6afcf8135c0cbad0d233",
+				"tarball": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "mouse-wheel",
+			"version": "1.0.1",
+			"description": "Consistent cross browser mouse wheel movement",
+			"main": "wheel.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"right-now": "^1.0.0",
+				"to-px": "^1.0.1",
+				"signum": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-wheel.git"
+			},
+			"keywords": [
+				"mouse",
+				"wheel",
+				"browser",
+				"speed",
+				"consistent",
+				"portability",
+				"poly",
+				"fill",
+				"fix"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-wheel/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-wheel",
+			"gitHead": "649b2ff3f76f79bd91a1ac294a7e3d78cecc36ec",
+			"_id": "mouse-wheel@1.0.1",
+			"_shasum": "4fd8875315591e0f1b0954492a44ca679bfcb3fa",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4fd8875315591e0f1b0954492a44ca679bfcb3fa",
+				"tarball": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "mouse-wheel",
+			"version": "1.0.2",
+			"description": "Consistent cross browser mouse wheel movement",
+			"main": "wheel.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"right-now": "^1.0.0",
+				"to-px": "^1.0.1",
+				"signum": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/mouse-wheel.git"
+			},
+			"keywords": [
+				"mouse",
+				"wheel",
+				"browser",
+				"speed",
+				"consistent",
+				"portability",
+				"poly",
+				"fill",
+				"fix"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-wheel/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-wheel",
+			"gitHead": "ab2fb6a9f7117d3816c987ddf2c943ccc65ec414",
+			"_id": "mouse-wheel@1.0.2",
+			"_shasum": "46bd7071da0974dd7ab7aeca6e43891bc08a7538",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "46bd7071da0974dd7ab7aeca6e43891bc08a7538",
+				"tarball": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.2.tgz"
+			}
+		},
+		"1.1.0": {
+			"name": "mouse-wheel",
+			"version": "1.1.0",
+			"description": "Consistent cross browser mouse wheel movement",
+			"main": "wheel.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"right-now": "^1.0.0",
+				"to-px": "^1.0.1",
+				"signum": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/mouse-wheel.git"
+			},
+			"keywords": [
+				"mouse",
+				"wheel",
+				"browser",
+				"speed",
+				"consistent",
+				"portability",
+				"poly",
+				"fill",
+				"fix"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-wheel/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-wheel",
+			"gitHead": "177803bbbca145afce2e5d24dc0e0c54d877fd51",
+			"_id": "mouse-wheel@1.1.0",
+			"_shasum": "bb542e3c4ac6ee1ca5621a655eef3842f15e71ae",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "bb542e3c4ac6ee1ca5621a655eef3842f15e71ae",
+				"tarball": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/mouse-wheel-1.1.0.tgz_1455635020612_0.7855185312218964"
+			}
+		},
+		"1.2.0": {
+			"name": "mouse-wheel",
+			"version": "1.2.0",
+			"description": "Consistent cross browser mouse wheel movement",
+			"main": "wheel.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"right-now": "^1.0.0",
+				"to-px": "^1.0.1",
+				"signum": "^1.0.0"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/mouse-wheel.git"
+			},
+			"keywords": [
+				"mouse",
+				"wheel",
+				"browser",
+				"speed",
+				"consistent",
+				"portability",
+				"poly",
+				"fill",
+				"fix"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/mouse-wheel/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/mouse-wheel",
+			"gitHead": "3985924e80f028ed18bf7020d02d924f2f4c01f3",
+			"_id": "mouse-wheel@1.2.0",
+			"_shasum": "6d2903b1ea8fb48e61f1b53b9036773f042cdb5c",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "6d2903b1ea8fb48e61f1b53b9036773f042cdb5c",
+				"tarball": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mouse-wheel-1.2.0.tgz_1467654104764_0.4660764879081398"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.2.0"
+	},
+	"_distfiles": {
+		"mouse-wheel-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.0.tgz",
+			"sha": "c1d6182be374d61da3da6afcf8135c0cbad0d233",
+			"registry": "npmjs"
+		},
+		"mouse-wheel-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.1.tgz",
+			"sha": "4fd8875315591e0f1b0954492a44ca679bfcb3fa",
+			"registry": "npmjs"
+		},
+		"mouse-wheel-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.0.2.tgz",
+			"sha": "46bd7071da0974dd7ab7aeca6e43891bc08a7538",
+			"registry": "npmjs"
+		},
+		"mouse-wheel-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.1.0.tgz",
+			"sha": "bb542e3c4ac6ee1ca5621a655eef3842f15e71ae",
+			"registry": "npmjs"
+		},
+		"mouse-wheel-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/mouse-wheel/-/mouse-wheel-1.2.0.tgz",
+			"sha": "6d2903b1ea8fb48e61f1b53b9036773f042cdb5c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"583b3001-1ef9\"",
+			"fetched": 1501276740293
+		}
+	},
+	"_rev": "1-786c6d4b2769b507",
+	"readme": "mouse-wheel\n===========\nConsistent cross browser mouse wheel events.  [Test it out in your browser here](https://mikolalysenko.github.io/mouse-wheel/).\n\n# Example\n\n```javascript\nrequire('mouse-wheel')(function(dx, dy) {\n  document.body.innerHTML = '<p>Scroll:' + [dx,dy] + '</p>'\n})\n```\n\n# Install\n\n```\nnpm i mouse-wheel\n```\n\n# API\n\n#### `require('mouse-wheel')(element, callback, noScroll)`\nHook an event handler for the mouse wheel on `element`.\n\n* `element` is an optional DOM element, or if unspecified then is the window object.\n* `callback(dx, dy, dz, ev)` is called whenever the mouse scrolls\n    + `dx, dy, dz` is the amount of scrolling vertically, horizontally and depth-wise in pixels\n    + `ev` is the MouseEvent object associated with the event\n* `noScroll` is an optional flag, which if set disables scrolling the page\n\nReturns listener function `listener` so that it may be detached later with `element.removeEventListener('wheel', listener)`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

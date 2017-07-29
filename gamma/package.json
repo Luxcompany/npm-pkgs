@@ -1,0 +1,326 @@
+{
+	"name": "gamma",
+	"versions": {
+		"0.0.0": {
+			"name": "gamma",
+			"version": "0.0.0",
+			"description": "the gamma function (Γ)",
+			"main": "index.js",
+			"directories": {
+				"lib": ".",
+				"example": "example",
+				"test": "test"
+			},
+			"devDependencies": {
+				"tap": "0.1.x"
+			},
+			"scripts": {
+				"test": "tap test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/substack/gamma.js.git"
+			},
+			"keywords": [
+				"Γ",
+				"gamma",
+				"factorial",
+				"mathematics",
+				"lanczos",
+				"approximation"
+			],
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"license": "MIT/X11",
+			"engine": {
+				"node": ">=0.4"
+			},
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"_id": "gamma@0.0.0",
+			"dependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.0.106",
+			"_nodeVersion": "v0.4.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "aba94bd0c40dc532c49e22cfd861209e2349c582",
+				"tarball": "https://registry.npmjs.org/gamma/-/gamma-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			]
+		},
+		"0.0.1": {
+			"name": "gamma",
+			"version": "0.0.1",
+			"description": "the gamma function (Γ)",
+			"main": "index.js",
+			"devDependencies": {
+				"tap": "~0.3.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": {
+					"iexplore": [
+						"6.0",
+						"7.0",
+						"8.0",
+						"9.0"
+					],
+					"chrome": [
+						"15.0",
+						"20.0"
+					],
+					"firefox": [
+						"10.0",
+						"15.0"
+					],
+					"safari": [
+						"5.1"
+					],
+					"opera": [
+						"12.0"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/substack/gamma.js.git"
+			},
+			"keywords": [
+				"Γ",
+				"gamma",
+				"factorial",
+				"mathematics",
+				"lanczos",
+				"approximation"
+			],
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"license": "MIT",
+			"_id": "gamma@0.0.1",
+			"dist": {
+				"shasum": "d910ecad7816ef6f7c0c3c50ad6d9129fe461eb6",
+				"tarball": "https://registry.npmjs.org/gamma/-/gamma-0.0.1.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "gamma",
+			"version": "0.1.0",
+			"description": "the gamma function (Γ)",
+			"main": "index.js",
+			"devDependencies": {
+				"tap": "~0.3.0",
+				"tape": "~0.1.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": {
+					"iexplore": [
+						"6.0",
+						"7.0",
+						"8.0",
+						"9.0"
+					],
+					"chrome": [
+						"15.0",
+						"20.0"
+					],
+					"firefox": [
+						"10.0",
+						"15.0"
+					],
+					"safari": [
+						"5.1"
+					],
+					"opera": [
+						"12.0"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/substack/gamma.js.git"
+			},
+			"keywords": [
+				"Γ",
+				"gamma",
+				"factorial",
+				"mathematics",
+				"lanczos",
+				"approximation"
+			],
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"license": "MIT",
+			"_id": "gamma@0.1.0",
+			"dist": {
+				"shasum": "3315643403bf27906ca80ab37c36ece9440ef330",
+				"tarball": "https://registry.npmjs.org/gamma/-/gamma-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.2",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "gamma",
+			"version": "1.0.0",
+			"description": "the gamma function (Γ)",
+			"main": "index.js",
+			"devDependencies": {
+				"tap": "~0.3.0",
+				"tape": "~0.1.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"testling": {
+				"files": "test/*.js",
+				"browsers": {
+					"iexplore": [
+						"6.0",
+						"7.0",
+						"8.0",
+						"9.0"
+					],
+					"chrome": [
+						"15.0",
+						"20.0"
+					],
+					"firefox": [
+						"10.0",
+						"15.0"
+					],
+					"safari": [
+						"5.1"
+					],
+					"opera": [
+						"12.0"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/substack/gamma.js.git"
+			},
+			"keywords": [
+				"Γ",
+				"gamma",
+				"factorial",
+				"mathematics",
+				"lanczos",
+				"approximation"
+			],
+			"author": {
+				"name": "James Halliday",
+				"email": "mail@substack.net",
+				"url": "http://substack.net"
+			},
+			"license": "MIT",
+			"gitHead": "4b20b4a6d3840f1144f8ffae1eb52867a7f1e3df",
+			"bugs": {
+				"url": "https://github.com/substack/gamma.js/issues"
+			},
+			"homepage": "https://github.com/substack/gamma.js",
+			"_id": "gamma@1.0.0",
+			"_shasum": "983c1c939fe23d932701585711e1d9a430cb74cb",
+			"_from": ".",
+			"_npmVersion": "2.0.0",
+			"_npmUser": {
+				"name": "substack",
+				"email": "mail@substack.net"
+			},
+			"maintainers": [
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"dist": {
+				"shasum": "983c1c939fe23d932701585711e1d9a430cb74cb",
+				"tarball": "https://registry.npmjs.org/gamma/-/gamma-1.0.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"gamma-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gamma/-/gamma-0.0.0.tgz",
+			"sha": "aba94bd0c40dc532c49e22cfd861209e2349c582",
+			"registry": "npmjs"
+		},
+		"gamma-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gamma/-/gamma-0.0.1.tgz",
+			"sha": "d910ecad7816ef6f7c0c3c50ad6d9129fe461eb6",
+			"registry": "npmjs"
+		},
+		"gamma-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gamma/-/gamma-0.1.0.tgz",
+			"sha": "3315643403bf27906ca80ab37c36ece9440ef330",
+			"registry": "npmjs"
+		},
+		"gamma-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gamma/-/gamma-1.0.0.tgz",
+			"sha": "983c1c939fe23d932701585711e1d9a430cb74cb",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5423e912-17ec\"",
+			"fetched": 1501276748175
+		}
+	},
+	"_rev": "1-892f88515ae90625",
+	"readme": "# gamma\n\n[gamma function](http://en.wikipedia.org/wiki/Gamma_function)\nin javascript using the\n[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation)\nfor small values and the \n[spouge approximation](https://en.wikipedia.org/wiki/Spouge's_approximation) for\nlarger values\n\n[![browser support](http://ci.testling.com/substack/gamma.js.png)](http://ci.testling.com/substack/gamma.js)\n\n[![build status](https://secure.travis-ci.org/substack/gamma.js.png)](http://travis-ci.org/substack/gamma.js)\n\n# example\n\n```\n> var gamma = require('gamma')\n> gamma(5)\n23.999999999999996\n> gamma(1.6)\n0.8935153492876909\n```\n\n# methods\n\nvar gamma = require('gamma')\n\n## gamma(z)\n\nReturn the gamma function over `z`. Complex numbers aren't supported, only reals.\n\n## gamma.log(z)\n\nReturn the natural log of the gamma function for `z`.\n\nThis function is used internally by the spouge approximation to compute large\nvalues.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install gamma\n```\n\n# kudos\n\nImplementation transliterated from the python script on the wikipedia entry for\nthe\n[lanczos approximation](http://en.wikipedia.org/wiki/Lanczos_approximation).\n\nSpouge approximation from [Niggler](https://github.com/Niggler).\n\n# license\n\nMIT\n"
+}

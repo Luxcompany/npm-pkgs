@@ -1,0 +1,294 @@
+{
+	"name": "vue-bulma-progress-tracker",
+	"versions": {
+		"0.0.1": {
+			"name": "vue-bulma-progress-tracker",
+			"version": "0.0.1",
+			"description": "ProgressTracker component is based on progress-tracker for Vue Bulma",
+			"main": "src/index.js",
+			"devDependencies": {
+				"bulma": "0.1.0",
+				"vue": "1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/progress-tracker.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-progress-tracker",
+				"progress-tracker",
+				"progress",
+				"timeline",
+				"tracker"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"progress-tracker": "github:nigelotoole/progress-tracker"
+			},
+			"gitHead": "becd6bb7f750d45866bc40498d30d491a714b312",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/progress-tracker/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/progress-tracker#readme",
+			"_id": "vue-bulma-progress-tracker@0.0.1",
+			"_shasum": "b5a6533a4f1ef8c60b84a62bb7bd1f6b6dc84780",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "b5a6533a4f1ef8c60b84a62bb7bd1f6b6dc84780",
+				"tarball": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-progress-tracker-0.0.1.tgz_1468693141363_0.03563364571891725"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "vue-bulma-progress-tracker",
+			"version": "0.0.2",
+			"description": "ProgressTracker component is based on progress-tracker for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/progress-tracker.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-progress-tracker",
+				"progress-tracker",
+				"progress",
+				"timeline",
+				"tracker"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"progress-tracker": "1.2.0"
+			},
+			"gitHead": "1ac06b22d66ca83f8677731110ddc14337e36af2",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/progress-tracker/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/progress-tracker#readme",
+			"_id": "vue-bulma-progress-tracker@0.0.2",
+			"scripts": {},
+			"_shasum": "9aecb9ae96755d2f4a6edea3c41d47d14774bc82",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "9aecb9ae96755d2f4a6edea3c41d47d14774bc82",
+				"tarball": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-progress-tracker-0.0.2.tgz_1477239294964_0.6190232697408646"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "vue-bulma-progress-tracker",
+			"version": "0.0.3",
+			"description": "ProgressTracker component is based on progress-tracker for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/progress-tracker.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-progress-tracker",
+				"progress-tracker",
+				"progress",
+				"timeline",
+				"tracker"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"progress-tracker": "1.0.0"
+			},
+			"gitHead": "45d9ac70ce293d4719fd37e1b97d5e84d7969f32",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/progress-tracker/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/progress-tracker#readme",
+			"_id": "vue-bulma-progress-tracker@0.0.3",
+			"scripts": {},
+			"_shasum": "a56f56dab3d20b3dfe1f34e94924cd97424010ec",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "a56f56dab3d20b3dfe1f34e94924cd97424010ec",
+				"tarball": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-progress-tracker-0.0.3.tgz_1477240003709_0.03419962874613702"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "vue-bulma-progress-tracker",
+			"version": "0.0.4",
+			"description": "ProgressTracker component is based on progress-tracker for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/progress-tracker.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-progress-tracker",
+				"progress-tracker",
+				"progress",
+				"timeline",
+				"tracker"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"progress-tracker": "1.0.0"
+			},
+			"gitHead": "c90891d36591270e02ac2433667c90d02fa5289e",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/progress-tracker/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/progress-tracker#readme",
+			"_id": "vue-bulma-progress-tracker@0.0.4",
+			"scripts": {},
+			"_shasum": "d132af7eea5d0857eda733e96951a2c9c395624d",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "d132af7eea5d0857eda733e96951a2c9c395624d",
+				"tarball": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-progress-tracker-0.0.4.tgz_1477240279457_0.9215658227913082"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.0.4"
+	},
+	"_distfiles": {
+		"vue-bulma-progress-tracker-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.1.tgz",
+			"sha": "b5a6533a4f1ef8c60b84a62bb7bd1f6b6dc84780",
+			"registry": "npmjs"
+		},
+		"vue-bulma-progress-tracker-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.2.tgz",
+			"sha": "9aecb9ae96755d2f4a6edea3c41d47d14774bc82",
+			"registry": "npmjs"
+		},
+		"vue-bulma-progress-tracker-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.3.tgz",
+			"sha": "a56f56dab3d20b3dfe1f34e94924cd97424010ec",
+			"registry": "npmjs"
+		},
+		"vue-bulma-progress-tracker-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-progress-tracker/-/vue-bulma-progress-tracker-0.0.4.tgz",
+			"sha": "d132af7eea5d0857eda733e96951a2c9c395624d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"580ce5d9-1db6\"",
+			"fetched": 1501276735069
+		}
+	},
+	"_rev": "1-ac320786950f5455",
+	"readme": "# ProgressTracker\n\nProgressTracker component is based on [progress-tracker](http://nigelotoole.github.io/progress-tracker/) for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-progress-tracker --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <progress-tracker>\n    <step-item v-for=\"n in [1, 2, 3, 4, 5]\" :is-complete=\"n < 3\" :is-active=\"n === 3\"></step-item>\n  </progress-tracker>\n</template>\n\n<script>\nimport ProgressTracker, { StepItem } from 'vue-bulma-progress-tracker'\n\nexport default {\n  components: {\n    ProgressTracker,\n    StepItem\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
+}

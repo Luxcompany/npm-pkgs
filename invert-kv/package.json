@@ -1,0 +1,148 @@
+{
+	"name": "invert-kv",
+	"versions": {
+		"0.1.0": {
+			"name": "invert-kv",
+			"version": "0.1.0",
+			"description": "Invert the key/value of an object. Example: {foo: 'bar'} → {bar: 'foo'}",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/sindresorhus/invert-kv"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"object",
+				"obj",
+				"key",
+				"value",
+				"val",
+				"kv",
+				"invert"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/sindresorhus/invert-kv/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/invert-kv",
+			"_id": "invert-kv@0.1.0",
+			"_shasum": "4638ea2a63c8362311d84cc01a5ac6cccb12a541",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4638ea2a63c8362311d84cc01a5ac6cccb12a541",
+				"tarball": "https://registry.npmjs.org/invert-kv/-/invert-kv-0.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "invert-kv",
+			"version": "1.0.0",
+			"description": "Invert the key/value of an object. Example: {foo: 'bar'} → {bar: 'foo'}",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sindresorhus/invert-kv"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "http://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"object",
+				"obj",
+				"key",
+				"value",
+				"val",
+				"kv",
+				"invert"
+			],
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"gitHead": "c28c3a15abcde3f67bd90f90f8ffe54a5f8cb04e",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/invert-kv/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/invert-kv",
+			"_id": "invert-kv@1.0.0",
+			"_shasum": "104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6",
+				"tarball": "https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"invert-kv-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/invert-kv/-/invert-kv-0.1.0.tgz",
+			"sha": "4638ea2a63c8362311d84cc01a5ac6cccb12a541",
+			"registry": "npmjs"
+		},
+		"invert-kv-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz",
+			"sha": "104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5865d0df-db7\"",
+			"fetched": 1501276769786
+		}
+	},
+	"_rev": "1-5114bb1468d581da",
+	"readme": "# invert-kv [![Build Status](https://travis-ci.org/sindresorhus/invert-kv.svg?branch=master)](https://travis-ci.org/sindresorhus/invert-kv)\n\n> Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`\n\n\n## Install\n\n```sh\n$ npm install --save invert-kv\n```\n\n\n## Usage\n\n```js\nvar invertKv = require('invert-kv');\n\ninvertKv({foo: 'bar', unicorn: 'rainbow'});\n//=> {bar: 'foo', rainbow: 'unicorn'}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
+}

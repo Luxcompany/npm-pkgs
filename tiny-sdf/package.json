@@ -1,0 +1,632 @@
+{
+	"name": "tiny-sdf",
+	"versions": {
+		"1.0.0": {
+			"name": "tiny-sdf",
+			"version": "1.0.0",
+			"description": "Browser-side SDF font generator",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/tiny-sdf.git"
+			},
+			"keywords": [
+				"sdf",
+				"signed distance fields",
+				"font",
+				"canvas",
+				"text",
+				"distance transform"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/mapbox/tiny-sdf/issues"
+			},
+			"homepage": "https://github.com/mapbox/tiny-sdf#readme",
+			"gitHead": "c7fc49ab9256525060e73eddd20dda4fd116ae7e",
+			"_id": "tiny-sdf@1.0.0",
+			"_shasum": "b6ad1411e8fa9c24672458cf5b065fde3c993387",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "b6ad1411e8fa9c24672458cf5b065fde3c993387",
+				"tarball": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/tiny-sdf-1.0.0.tgz_1481301902262_0.5135373922530562"
+			},
+			"deprecated": "The",
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "tiny-sdf",
+			"version": "1.0.1",
+			"description": "Browser-side SDF font generator",
+			"main": "index.js",
+			"scripts": {
+				"test": "eslint index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/tiny-sdf.git"
+			},
+			"keywords": [
+				"sdf",
+				"signed distance fields",
+				"font",
+				"canvas",
+				"text",
+				"distance transform"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/mapbox/tiny-sdf/issues"
+			},
+			"homepage": "https://github.com/mapbox/tiny-sdf#readme",
+			"devDependencies": {
+				"eslint": "^3.12.0",
+				"eslint-config-mourner": "^2.0.1"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"gitHead": "6278fb72f9f67355854935d12878288f472bca10",
+			"_id": "tiny-sdf@1.0.1",
+			"_shasum": "9cf465721b1217066c2c4999753b1d534d6accfc",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "9cf465721b1217066c2c4999753b1d534d6accfc",
+				"tarball": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "aarthykc",
+					"email": "aarthy@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ajithranka",
+					"email": "ajith@mapbox.com"
+				},
+				{
+					"name": "aliceykuo",
+					"email": "alice@mapbox.com"
+				},
+				{
+					"name": "alinapaz",
+					"email": "alinapaz@gmail.com"
+				},
+				{
+					"name": "alulsh",
+					"email": "ulsh@mapbox.com"
+				},
+				{
+					"name": "amishas157",
+					"email": "amisha@mapbox.com"
+				},
+				{
+					"name": "amyleew",
+					"email": "amyleewalton@gmail.com"
+				},
+				{
+					"name": "andreasviglakis",
+					"email": "andreas.viglakis@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "apendleton",
+					"email": "andrew@mapbox.com"
+				},
+				{
+					"name": "arunasank",
+					"email": "aruna@mapbox.com"
+				},
+				{
+					"name": "batpad",
+					"email": "sanjay@mapbox.com"
+				},
+				{
+					"name": "benjamintd",
+					"email": "benjamin@mapbox.com"
+				},
+				{
+					"name": "bhousel",
+					"email": "bryan@mapbox.com"
+				},
+				{
+					"name": "bkowshik",
+					"email": "bhargav.kowshik@gmail.com"
+				},
+				{
+					"name": "brendanmcfarland",
+					"email": "brendan@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camillacaros",
+					"email": "camilla@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "captainbarbosa",
+					"email": "nadia.barbosa@mapbox.com"
+				},
+				{
+					"name": "chaupow",
+					"email": "hello@chau-nguyen.de"
+				},
+				{
+					"name": "colleenmcginnis",
+					"email": "colleen.mcginnis@mapbox.com"
+				},
+				{
+					"name": "danieljh",
+					"email": "daniel+npm@trvx.org"
+				},
+				{
+					"name": "danpat",
+					"email": "danpat@danpat.net"
+				},
+				{
+					"name": "danswick",
+					"email": "dan@mapbox.com"
+				},
+				{
+					"name": "davidtheclark",
+					"email": "david.dave.clark@gmail.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "emilymdubois",
+					"email": "dubois@mapbox.com"
+				},
+				{
+					"name": "enf",
+					"email": "fischer@mapbox.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "geohacker",
+					"email": "sajjadkm@gmail.com"
+				},
+				{
+					"name": "ghoshkaj",
+					"email": "ghoshkaj@gmail.com"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "isiyu",
+					"email": "siyu.song@gmail.com"
+				},
+				{
+					"name": "jacquestardie",
+					"email": "hi@jacquestardie.org"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jothirnadh",
+					"email": "jothirnadh@mapbox.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "k-mahoney",
+					"email": "kara.e.mahoney@gmail.com"
+				},
+				{
+					"name": "kaibot3000",
+					"email": "kai@mapbox.com"
+				},
+				{
+					"name": "kaidalgleish",
+					"email": "kai@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "karitotp",
+					"email": "karito@mapbox.com"
+				},
+				{
+					"name": "katydecorah",
+					"email": "decorah@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "mail@kkaefer.com"
+				},
+				{
+					"name": "l-r",
+					"email": "laurier@mapbox.com"
+				},
+				{
+					"name": "laurier",
+					"email": "l@pwd.io"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lily-chai",
+					"email": "lily@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "lyzidiamond",
+					"email": "lyzi@mapbox.com"
+				},
+				{
+					"name": "maning",
+					"email": "emmanuel.sambale@gmail.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mapsam",
+					"email": "sam@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "mattficke",
+					"email": "matt@mattficke.com"
+				},
+				{
+					"name": "mayaqgao",
+					"email": "mayaqgao@gmail.com"
+				},
+				{
+					"name": "mcwhittemore",
+					"email": "mcwhittemore@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "miles-dev",
+					"email": "miles.sackler@mapbox.com"
+				},
+				{
+					"name": "mokob",
+					"email": "moritz@mapbox.com"
+				},
+				{
+					"name": "mollymerp",
+					"email": "mollylloyd@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "msirenko",
+					"email": "max@mapbox.com"
+				},
+				{
+					"name": "natslaughter",
+					"email": "nat@mapbox.com"
+				},
+				{
+					"name": "nickcordella",
+					"email": "nick.cordella@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "oini",
+					"email": "oindrila.gupta92@gmail.com"
+				},
+				{
+					"name": "oxidase",
+					"email": "michael.krasnyk@gmail.com"
+				},
+				{
+					"name": "pdgoodman",
+					"email": "paul@mapbox.com"
+				},
+				{
+					"name": "perrygeo",
+					"email": "perrygeo@gmail.colm"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "pratikyadav",
+					"email": "pratik@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "rodowi",
+					"email": "rod@wilhel.me"
+				},
+				{
+					"name": "rub21",
+					"email": "ruben@mapbox.com"
+				},
+				{
+					"name": "rumc",
+					"email": "r.ragupathy85@gmail.com"
+				},
+				{
+					"name": "ryan-baumann",
+					"email": "rsbaumann@gmail.com"
+				},
+				{
+					"name": "saikia.abhishek",
+					"email": "abhishek@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sbma44",
+					"email": "tlee@mapbox.com"
+				},
+				{
+					"name": "scothis",
+					"email": "scothis@gmail.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "srividyacb",
+					"email": "srividyabharadwaj26@gmail.com"
+				},
+				{
+					"name": "tcql",
+					"email": "tim.channell@gmail.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tony-cj",
+					"email": "tony.chen@mapbox.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "uvollmer",
+					"email": "ugo.vollmer@mapbox.com"
+				},
+				{
+					"name": "vincents",
+					"email": "vincent.sarago@mapbox.com"
+				},
+				{
+					"name": "virginiayung",
+					"email": "virginia@mapbox.com"
+				},
+				{
+					"name": "who8mycakes",
+					"email": "nina@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "xrwang",
+					"email": "xiaowei@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				},
+				{
+					"name": "zmully",
+					"email": "mully@mapbox.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/tiny-sdf-1.0.1.tgz_1481323835543_0.6071293589193374"
+			},
+			"deprecated": "The",
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "tiny-sdf",
+			"version": "1.0.2",
+			"description": "Browser-side SDF font generator",
+			"main": "index.js",
+			"scripts": {
+				"test": "eslint index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/tiny-sdf.git"
+			},
+			"keywords": [
+				"sdf",
+				"signed distance fields",
+				"font",
+				"canvas",
+				"text",
+				"distance transform"
+			],
+			"author": {
+				"name": "Vladimir Agafonkin"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/mapbox/tiny-sdf/issues"
+			},
+			"homepage": "https://github.com/mapbox/tiny-sdf#readme",
+			"devDependencies": {
+				"eslint": "^3.12.0",
+				"eslint-config-mourner": "^2.0.1"
+			},
+			"eslintConfig": {
+				"extends": "mourner"
+			},
+			"gitHead": "599c94ef923eef610e91abcccba73c5d096f6026",
+			"_id": "tiny-sdf@1.0.2",
+			"_shasum": "28e76985c44c4e584c4b67d8ecdd9b33a1cac28c",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "28e76985c44c4e584c4b67d8ecdd9b33a1cac28c",
+				"tarball": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/tiny-sdf-1.0.2.tgz_1482513072311_0.4626456401310861"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_distfiles": {
+		"tiny-sdf-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.0.tgz",
+			"sha": "b6ad1411e8fa9c24672458cf5b065fde3c993387",
+			"registry": "npmjs"
+		},
+		"tiny-sdf-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.1.tgz",
+			"sha": "9cf465721b1217066c2c4999753b1d534d6accfc",
+			"registry": "npmjs"
+		},
+		"tiny-sdf-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/tiny-sdf/-/tiny-sdf-1.0.2.tgz",
+			"sha": "28e76985c44c4e584c4b67d8ecdd9b33a1cac28c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59759087-45fa\"",
+			"fetched": 1501276745125
+		}
+	},
+	"_rev": "1-ba8586593231cdb7",
+	"readme": "# TinySDF\n\nTinySDF is a tiny and fast JavaScript library for generating SDF (signed distance field)\nfrom system fonts on the browser using Canvas 2D and\n[Felzenszwalb/Huttenlocher distance transform](https://cs.brown.edu/~pff/dt/).\nThis is very useful for [rendering text with WebGL](https://www.mapbox.com/blog/text-signed-distance-fields/).\n\nDemo: http://mapbox.github.io/tiny-sdf/\n"
+}

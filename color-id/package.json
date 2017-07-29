@@ -1,0 +1,309 @@
+{
+	"name": "color-id",
+	"versions": {
+		"1.0.0": {
+			"name": "color-id",
+			"version": "1.0.0",
+			"description": "Get integer id for a color",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/color-id.git"
+			},
+			"keywords": [
+				"color"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/color-id/issues"
+			},
+			"homepage": "https://github.com/dfcreative/color-id#readme",
+			"dependencies": {
+				"clamp": "^1.0.1"
+			},
+			"gitHead": "80e60ed4d8c16f4282737886c894d77a7afdf578",
+			"_id": "color-id@1.0.0",
+			"_shasum": "8d1b64234876cb1d5ab38b0deff76aea689b617d",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8d1b64234876cb1d5ab38b0deff76aea689b617d",
+				"tarball": "https://registry.npmjs.org/color-id/-/color-id-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/color-id-1.0.0.tgz_1486559369960_0.19569429708644748"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "color-id",
+			"version": "1.0.1",
+			"description": "Get integer id for a color",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/color-id.git"
+			},
+			"keywords": [
+				"color"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/color-id/issues"
+			},
+			"homepage": "https://github.com/dfcreative/color-id#readme",
+			"dependencies": {
+				"clamp": "^1.0.1"
+			},
+			"gitHead": "6ec9a4a3600087abd15e16e483783e193a1de8c1",
+			"_id": "color-id@1.0.1",
+			"_shasum": "7388e458dce1ba73b08932876d8ce2a71c981976",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7388e458dce1ba73b08932876d8ce2a71c981976",
+				"tarball": "https://registry.npmjs.org/color-id/-/color-id-1.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/color-id-1.0.1.tgz_1486559613410_0.05580890458077192"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "color-id",
+			"version": "1.0.2",
+			"description": "Get integer id for a color",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/color-id.git"
+			},
+			"keywords": [
+				"color"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/color-id/issues"
+			},
+			"homepage": "https://github.com/dfcreative/color-id#readme",
+			"dependencies": {
+				"clamp": "^1.0.1"
+			},
+			"gitHead": "9ab5cda16cd8fd42552545fccdf54628cdfdbfb5",
+			"_id": "color-id@1.0.2",
+			"_shasum": "281ee4047fcf207b635b5ee6ed41a428881908e4",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "281ee4047fcf207b635b5ee6ed41a428881908e4",
+				"tarball": "https://registry.npmjs.org/color-id/-/color-id-1.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/color-id-1.0.2.tgz_1486839061826_0.4721676013432443"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "color-id",
+			"version": "1.0.3",
+			"description": "Get integer id for a color",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/color-id.git"
+			},
+			"keywords": [
+				"color"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/color-id/issues"
+			},
+			"homepage": "https://github.com/dfcreative/color-id#readme",
+			"dependencies": {
+				"clamp": "^1.0.1"
+			},
+			"gitHead": "8a8ba87d1891e81bad665ddb298a405d5290747e",
+			"_id": "color-id@1.0.3",
+			"_shasum": "f681e64010f4fd466009b99a295e248e400c1187",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f681e64010f4fd466009b99a295e248e400c1187",
+				"tarball": "https://registry.npmjs.org/color-id/-/color-id-1.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/color-id-1.0.3.tgz_1487151051473_0.4352906986605376"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "color-id",
+			"version": "1.1.0",
+			"description": "Get integer id for a color",
+			"main": "index.js",
+			"scripts": {
+				"test": "node test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/colorjs/color-id.git"
+			},
+			"keywords": [
+				"color",
+				"colorjs"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/colorjs/color-id/issues"
+			},
+			"homepage": "https://github.com/colorjs/color-id#readme",
+			"dependencies": {
+				"clamp": "^1.0.1"
+			},
+			"gitHead": "f9b11dde281e250bad85d8bd26a7a722551f240d",
+			"_id": "color-id@1.1.0",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-2iRtAn6dC/6/G7bBIo0uupVrIne1NsQJvJxZOBCzQOfk7jRq97feaDZ3RdzuHakRXXnHGNwglto3pqtRx1sX0g==",
+				"shasum": "5e9159b99a73ac98f74820cb98a15fde3d7e034c",
+				"tarball": "https://registry.npmjs.org/color-id/-/color-id-1.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/color-id-1.1.0.tgz_1496698561937_0.42981479968875647"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_distfiles": {
+		"color-id-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/color-id/-/color-id-1.0.0.tgz",
+			"sha": "8d1b64234876cb1d5ab38b0deff76aea689b617d",
+			"registry": "npmjs"
+		},
+		"color-id-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/color-id/-/color-id-1.0.1.tgz",
+			"sha": "7388e458dce1ba73b08932876d8ce2a71c981976",
+			"registry": "npmjs"
+		},
+		"color-id-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/color-id/-/color-id-1.0.2.tgz",
+			"sha": "281ee4047fcf207b635b5ee6ed41a428881908e4",
+			"registry": "npmjs"
+		},
+		"color-id-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/color-id/-/color-id-1.0.3.tgz",
+			"sha": "f681e64010f4fd466009b99a295e248e400c1187",
+			"registry": "npmjs"
+		},
+		"color-id-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/color-id/-/color-id-1.1.0.tgz",
+			"sha": "5e9159b99a73ac98f74820cb98a15fde3d7e034c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5935cec2-1da1\"",
+			"fetched": 1501276752784
+		}
+	},
+	"_rev": "1-be99c0f5f9ca1db2",
+	"readme": "# color-id [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/colorjs/color-id.svg)](https://travis-ci.org/colorjs/color-id)\r\n\r\nConvert color channels to single integer and back. Useful to get an id for a color.\r\n\r\n[![npm install color-id](https://nodei.co/npm/color-id.png?mini=true)](https://npmjs.org/package/color-id/)\r\n\r\n```js\r\nconst colorId = require('color-id');\r\n\r\ncolorId([.1, .5, .5, .1]); // 0x197f7f19\r\n```\r\n\r\n## `colorId(channels, normalized=true)`\r\n\r\nGet id for normalized to 0..1 rgb[a] channel values. Optionally pass normalized flag to indicate that values are normalized to 0..1 range, defaults to `true`.\r\n\r\n## `colorId.from(number, normalized=true)`\r\n\r\nGet color channels values from the color id. Optionally pass normalized flag to align values to `0..1` range.\r\n\r\n## Related\r\n\r\n> [color-interpolate](https://github.com/dfcreative/color-interpolate) — interpolate color over palette, colormap or gradient.<br/>\r\n> [color-rgba](https://github.com/dfcreative/color-rgba) — convert color string to rgba array.<br/>\r\n> [color-alpha](https://github.com/dfcreative/color-alpha) — change alpha channel for a color.\r\n"
+}

@@ -1,0 +1,199 @@
+{
+	"name": "to-px",
+	"versions": {
+		"1.0.0": {
+			"name": "to-px",
+			"version": "1.0.0",
+			"description": "Convert any CSS unit to logical pixels (\"px\")",
+			"main": "topx.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"parse-unit": "^1.0.1"
+			},
+			"devDependencies": {
+				"almost-equal": "^0.0.0",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/to-px.git"
+			},
+			"keywords": [
+				"css",
+				"px",
+				"em",
+				"ex",
+				"line",
+				"height",
+				"ch",
+				"rem",
+				"vh",
+				"vw",
+				"vmin",
+				"vmax",
+				"unit",
+				"conversion",
+				"scale",
+				"factor"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/to-px/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/to-px",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/17..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"gitHead": "d9bd0e5ad0d8f4bc166f39a8e08c9b643e2d4053",
+			"_id": "to-px@1.0.0",
+			"_shasum": "07f206d7e77e9dd5d8687306a49252c38da9baae",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "07f206d7e77e9dd5d8687306a49252c38da9baae",
+				"tarball": "https://registry.npmjs.org/to-px/-/to-px-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "to-px",
+			"version": "1.0.1",
+			"description": "Convert any CSS unit to logical pixels (\"px\")",
+			"main": "topx.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"parse-unit": "^1.0.1"
+			},
+			"devDependencies": {
+				"almost-equal": "^0.0.0",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/to-px.git"
+			},
+			"keywords": [
+				"css",
+				"px",
+				"em",
+				"ex",
+				"line",
+				"height",
+				"ch",
+				"rem",
+				"vh",
+				"vw",
+				"vmin",
+				"vmax",
+				"unit",
+				"conversion",
+				"scale",
+				"factor"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/to-px/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/to-px",
+			"testling": {
+				"files": "test/*.js",
+				"browsers": [
+					"ie/8..latest",
+					"firefox/17..latest",
+					"firefox/nightly",
+					"chrome/22..latest",
+					"chrome/canary",
+					"opera/12..latest",
+					"opera/next",
+					"safari/5.1..latest",
+					"ipad/6.0..latest",
+					"iphone/6.0..latest",
+					"android-browser/4.2..latest"
+				]
+			},
+			"gitHead": "14afb29d7020430c7721869a469946deb865145e",
+			"_id": "to-px@1.0.1",
+			"_shasum": "5bbaed5e5d4f76445bcc903c293a2307dd324646",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5bbaed5e5d4f76445bcc903c293a2307dd324646",
+				"tarball": "https://registry.npmjs.org/to-px/-/to-px-1.0.1.tgz"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"to-px-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/to-px/-/to-px-1.0.0.tgz",
+			"sha": "07f206d7e77e9dd5d8687306a49252c38da9baae",
+			"registry": "npmjs"
+		},
+		"to-px-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/to-px/-/to-px-1.0.1.tgz",
+			"sha": "5bbaed5e5d4f76445bcc903c293a2307dd324646",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"54e3b25b-115d\"",
+			"fetched": 1501276751893
+		}
+	},
+	"_rev": "1-e322924bda388fbf",
+	"readme": "to-px\n=====\nGet the scale factor to convert any CSS unit to `px` (logical pixel units).\n\n[![testling badge](https://ci.testling.com/mikolalysenko/to-px.png)](https://ci.testling.com/mikolalysenko/to-px)\n\n# Example\n\n```javascript\nvar toPX = require('to-px')\n\nconsole.log(toPX('em'))\nconsole.log(toPX('vh'))\nconsole.log(toPX('in'))\n```\n\n# Install\n\nNote that this module only works within the DOM.\n\n```\nnpm i to-px\n```\n\n# API\n\n#### `var scaleFactor = require('to-px')(unit[, element])`\nComputes the number of pixels in the unit `unit`.\n\n* `unit` is a CSS unit type\n* `element` is an optional element in which the unit is computed (default is `document.body`)\n\n**Returns** The number of pixels in one `unit`\n\n**Note** Conversions for `%` are not supported since they are context dependent.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License"
+}

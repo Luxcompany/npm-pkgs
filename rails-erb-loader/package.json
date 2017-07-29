@@ -1,0 +1,962 @@
+{
+	"name": "rails-erb-loader",
+	"versions": {
+		"2.0.0": {
+			"name": "rails-erb-loader",
+			"version": "2.0.0",
+			"description": "Embedded Ruby (`.erb`) Webpack loader for Ruby on Rails projects.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "UsabilityHub"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^0.2.16",
+				"lodash.defaults": "^4.2.0",
+				"node-uuid": "^1.4.7"
+			},
+			"devDependencies": {
+				"eslint": "^3.9.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "e70aedcb0ed5e2a2e804a55c00df25beabc02467",
+			"_id": "rails-erb-loader@2.0.0",
+			"_shasum": "2fe2a256dfe180623a795957e3b8719d363c38b0",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "5.10.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "2fe2a256dfe180623a795957e3b8719d363c38b0",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-2.0.0.tgz_1478478039402_0.7554065252188593"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "rails-erb-loader",
+			"version": "3.0.0",
+			"description": "Embedded Ruby (`.erb`) Webpack loader for Ruby on Rails projects.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "UsabilityHub"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^0.2.16",
+				"lodash.defaults": "^4.2.0",
+				"node-uuid": "^1.4.7"
+			},
+			"devDependencies": {
+				"eslint": "^3.9.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "c0411f86a6395f53c527c7b67750369ed6c280a7",
+			"_id": "rails-erb-loader@3.0.0",
+			"_shasum": "167c0bc6647e6ddd8ff7fc1bc280ff2b1c500454",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "167c0bc6647e6ddd8ff7fc1bc280ff2b1c500454",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-3.0.0.tgz_1479533317062_0.4301729167345911"
+			},
+			"directories": {}
+		},
+		"3.0.1": {
+			"name": "rails-erb-loader",
+			"version": "3.0.1",
+			"description": "Embedded Ruby (`.erb`) Webpack loader for Ruby on Rails projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^0.2.16",
+				"lodash.defaults": "^4.2.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.4",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "c53adc5eb628b76cd5f37ceaf69023ab6e6a0f4c",
+			"_id": "rails-erb-loader@3.0.1",
+			"_shasum": "a2ed3a07cc1a684cb1e7604cf2f07c539cecc052",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "a2ed3a07cc1a684cb1e7604cf2f07c539cecc052",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-3.0.1.tgz_1480462540661_0.6286740547511727"
+			},
+			"directories": {}
+		},
+		"3.1.0": {
+			"name": "rails-erb-loader",
+			"version": "3.1.0",
+			"description": "Embedded Ruby (`.erb`) Webpack loader for Ruby on Rails projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^0.2.16",
+				"lodash.defaults": "^4.2.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "ebb6a3d51a97b3c39f233f572c5cbc559271f4d6",
+			"_id": "rails-erb-loader@3.1.0",
+			"_shasum": "7d766ba7972c1c89c84b8770620f1bd6ec5a03e4",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "7d766ba7972c1c89c84b8770620f1bd6ec5a03e4",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-3.1.0.tgz_1481426716403_0.6374063736293465"
+			},
+			"directories": {}
+		},
+		"3.2.0": {
+			"name": "rails-erb-loader",
+			"version": "3.2.0",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^0.2.16",
+				"lodash.defaults": "^4.2.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "ea63a3d3d1db8b19aef86e46f906dabe9b175223",
+			"_id": "rails-erb-loader@3.2.0",
+			"_shasum": "b3972cffaedc04ae06e989b5a1b1d3223feca023",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "b3972cffaedc04ae06e989b5a1b1d3223feca023",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-3.2.0.tgz_1481514126975_0.8055526679381728"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "rails-erb-loader",
+			"version": "4.0.0",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.2.0"
+			},
+			"peerDependencies": {
+				"webpack": "2"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "a2e8ca24051592751220ce822197f616d8c8a787",
+			"_id": "rails-erb-loader@4.0.0",
+			"_shasum": "761b3690da73a4761aad0a271d2033d8630020f2",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "761b3690da73a4761aad0a271d2033d8630020f2",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-4.0.0.tgz_1491037104340_0.22003135248087347"
+			},
+			"directories": {}
+		},
+		"5.0.0": {
+			"name": "rails-erb-loader",
+			"version": "5.0.0",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jeremiah Atwood",
+					"url": "https://github.com/atwoodjw"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.2.0"
+			},
+			"peerDependencies": {
+				"webpack": "2"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "62b1aca21bebd3cbb7b33d620925b494e1eb72d7",
+			"_id": "rails-erb-loader@5.0.0",
+			"_shasum": "33fcfbae3fd4584801283c4d5bc1195ae7b56723",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "33fcfbae3fd4584801283c4d5bc1195ae7b56723",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-5.0.0.tgz_1491438184192_0.06504202540963888"
+			},
+			"directories": {}
+		},
+		"5.0.1": {
+			"name": "rails-erb-loader",
+			"version": "5.0.1",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Ammar Alammar",
+					"url": "https://github.com/a3ammar"
+				},
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jeremiah Atwood",
+					"url": "https://github.com/atwoodjw"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.2.0"
+			},
+			"peerDependencies": {
+				"webpack": "2"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "3b597036f728bdb5991d9074a816bf12bc8a0d43",
+			"_id": "rails-erb-loader@5.0.1",
+			"_shasum": "d044251851e38259f971105e66b8f43ef3488897",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "d044251851e38259f971105e66b8f43ef3488897",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/rails-erb-loader-5.0.1.tgz_1494896065766_0.6242783966008574"
+			},
+			"directories": {}
+		},
+		"5.0.2": {
+			"name": "rails-erb-loader",
+			"version": "5.0.2",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Ammar Alammar",
+					"url": "https://github.com/a3ammar"
+				},
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jeremiah Atwood",
+					"url": "https://github.com/atwoodjw"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.2.0"
+			},
+			"peerDependencies": {
+				"webpack": "2"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1"
+			},
+			"gitHead": "49dbe54d94037949420d2143f00d9b723fb41792",
+			"_id": "rails-erb-loader@5.0.2",
+			"_shasum": "7ebf66d087f9873900b307added7aecae64d7033",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "7ebf66d087f9873900b307added7aecae64d7033",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rails-erb-loader-5.0.2.tgz_1497318947637_0.6116237554233521"
+			},
+			"directories": {}
+		},
+		"5.1.0": {
+			"name": "rails-erb-loader",
+			"version": "5.1.0",
+			"description": "Embedded Ruby (`.erb`) `webpack` loader for Ruby projects.",
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"lint": "eslint index.js",
+				"test": "jest",
+				"test-webpack-2": "npm install webpack@2 --save-dev && jest",
+				"test-webpack-3": "npm install webpack@3 --save-dev && jest"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/usabilityhub/rails-erb-loader.git"
+			},
+			"keywords": [
+				"erb",
+				"loader",
+				"webpack",
+				"ruby",
+				"rails"
+			],
+			"author": {
+				"name": "Rhys van der Waerden",
+				"email": "rhys.vdw@gmail.com",
+				"url": "https://github.com/rhys-vdw"
+			},
+			"contributors": [
+				{
+					"name": "Ammar Alammar",
+					"url": "https://github.com/a3ammar"
+				},
+				{
+					"name": "Guillermo Iguaran",
+					"email": "guilleiguaran@gmail.com",
+					"url": "https://github.com/guilleiguaran"
+				},
+				{
+					"name": "Jeremiah Atwood",
+					"url": "https://github.com/atwoodjw"
+				},
+				{
+					"name": "Jonathan Lehman",
+					"url": "https://github.com/jdlehman"
+				},
+				{
+					"name": "Maria Kousta",
+					"url": "https://github.com/mkousta"
+				},
+				{
+					"name": "Stanislav E. Govorov",
+					"url": "https://github.com/govorov"
+				},
+				{
+					"name": "Faraz Yashar",
+					"url": "https://github.com/fny"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/usabilityhub/rails-erb-loader/issues"
+			},
+			"homepage": "https://github.com/usabilityhub/rails-erb-loader#readme",
+			"dependencies": {
+				"loader-utils": "^1.1.0",
+				"lodash.defaults": "^4.2.0"
+			},
+			"peerDependencies": {
+				"webpack": "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.11.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-plugin-node": "^3.0.5",
+				"eslint-plugin-promise": "^3.3.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"jest": "^20.0.4",
+				"webpack": "^3.0.0"
+			},
+			"gitHead": "a6436e729249ef697b6d8fc4af505c1440ee7a21",
+			"_id": "rails-erb-loader@5.1.0",
+			"_shasum": "8043c175e88d600c6f3d7730172c7885a5d24827",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "rhys-vdw",
+				"email": "rhys.vdw@gmail.com"
+			},
+			"dist": {
+				"shasum": "8043c175e88d600c6f3d7730172c7885a5d24827",
+				"tarball": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "rhys-vdw",
+					"email": "rhys.vdw@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rails-erb-loader-5.1.0.tgz_1501200039063_0.0779219102114439"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "5.1.0"
+	},
+	"_distfiles": {
+		"rails-erb-loader-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-2.0.0.tgz",
+			"sha": "2fe2a256dfe180623a795957e3b8719d363c38b0",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.0.0.tgz",
+			"sha": "167c0bc6647e6ddd8ff7fc1bc280ff2b1c500454",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.0.1.tgz",
+			"sha": "a2ed3a07cc1a684cb1e7604cf2f07c539cecc052",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.1.0.tgz",
+			"sha": "7d766ba7972c1c89c84b8770620f1bd6ec5a03e4",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-3.2.0.tgz",
+			"sha": "b3972cffaedc04ae06e989b5a1b1d3223feca023",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-4.0.0.tgz",
+			"sha": "761b3690da73a4761aad0a271d2033d8630020f2",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.0.tgz",
+			"sha": "33fcfbae3fd4584801283c4d5bc1195ae7b56723",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.1.tgz",
+			"sha": "d044251851e38259f971105e66b8f43ef3488897",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-5.0.2.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.0.2.tgz",
+			"sha": "7ebf66d087f9873900b307added7aecae64d7033",
+			"registry": "npmjs"
+		},
+		"rails-erb-loader-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/rails-erb-loader/-/rails-erb-loader-5.1.0.tgz",
+			"sha": "8043c175e88d600c6f3d7730172c7885a5d24827",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"rails-erb-loader-5.1.0.tgz": {
+			"shasum": "8043c175e88d600c6f3d7730172c7885a5d24827"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597a7ea7-5e03\"",
+			"fetched": 1501274969544
+		}
+	},
+	"_rev": "2-3e1c82b5508c505f",
+	"readme": "# rails-erb-loader\n\n[![npm version](https://img.shields.io/npm/v/rails-erb-loader.svg?style=flat-square)](https://www.npmjs.com/package/rails-erb-loader)\n[![npm downloads](https://img.shields.io/npm/dm/rails-erb-loader.svg?style=flat-square)](https://npm-stat.com/charts.html?package=rails-erb-loader&from=2016-11-07)\n[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)\n[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\n\n> Embedded Ruby (`.erb`) webpack loader for Ruby projects.\n\nCompiles Embedded Ruby template files in any Ruby project. Files are built using either the `Erubis` or `ERB` gem.\n\n## Table of Contents\n- [Install](#install)\n- [Usage](#usage)\n- [Configuration](#configuration)\n  - [Options](#options)\n  - [Dependencies](#dependencies)\n- [Contribute](#contribute)\n- [License](#license)\n\n## Install\n\n### npm\n\n```console\n$ npm install rails-erb-loader --save-dev\n```\n\n### yarn\n\n```console\n$ yarn add -D rails-erb-loader\n```\n\n## Usage\n\nAdd `rails-erb-loader` to your rules.\n\n```js\n// webpack.config.js\n\nmodule.exports = {\n    module: {\n      rules: [\n        {\n          test: /\\.erb$/,\n          enforce: 'pre',\n          loader: 'rails-erb-loader'\n        },\n      ]\n    }\n  }\n};\n```\n\nNow you can use `.erb` files in your project, for example:\n\n`app/assets/javascripts/UserFormFields.jsx.erb`\n```erb\n/* rails-erb-loader-dependencies models/user models/image */\n\nexport default function UserFormFields() {\n  return (\n    <div>\n      <label htmlFor='avatar'>\n        Avatar\n      </label>\n      <ImageField id='avatar' maxSize={<%= Image::MAX_SIZE %>} />\n      <label htmlFor='name'>\n        Name\n      </label>\n      <input\n        id='name'\n        type='text'\n        maxLength={<%= User::MAX_NAME_LENGTH %>}\n      />\n      <label htmlFor='age'>\n        Age\n      </label>\n      <input\n        id='age'\n        type='number'\n        min={<%= User::MIN_AGE %>}\n        max={<%= User::MAX_AGE %>}\n      />\n    </div>\n  )\n}\n```\n\n## Configuration\n\n### Options\n\nCan be configured with [UseEntry#options](https://webpack.js.org/configuration/module/#useentry).\n\n| Option | Default | Description |\n| ------ | ------- | ----------- |\n| `dependenciesRoot` | `\"app\"` | The root of your Rails project, relative to webpack's working directory. |\n| `engine` | `\"erb\"` | ERB Template engine, `\"erubi\"`, `\"erubis\"` and `\"erb\"` are supported. |\n| `runner` | `\"./bin/rails runner\"` | Command to run Ruby scripts, relative to webpack's working directory. |\n\nFor example, if your webpack process is running in a subdirectory of your Rails project:\n\n```js\n{\n  loader: 'rails-erb-loader',\n  options: {\n    runner: '../bin/rails runner',\n    dependenciesRoot: '../app',\n  }\n}\n```\n\nAlso supports building without Rails:\n\n```js\n{\n  loader: 'rails-erb-loader',\n  options: {\n    runner: 'ruby',\n    engine: 'erb'\n  }\n}\n```\n\n### Dependencies\n\nIf your `.erb` files depend on files in your Ruby project, you can list them explicitly. Inclusion of the `rails-erb-loader-dependency` (or `-dependencies`) comment will tell webpack to watch these files - causing webpack-dev-server to rebuild when they are changed.\n\n#### Watch individual files\n\nList dependencies in the comment. `.rb` extension is optional.\n\n```js\n/* rails-erb-loader-dependencies models/account models/user */\n```\n\n#### Watch a whole directory\n\nTo watch all files in a directory, end the path in a `/`.\n\n```js\n/* rails-erb-loader-dependencies ../config/locales/ */\n```\n\n## Contribute\n\nQuestions, bug reports and pull requests welcome. See [GitHub issues](https://github.com/usabilityhub/rails-erb-loader/issues).\n\n## License\n\nMIT\n"
+}

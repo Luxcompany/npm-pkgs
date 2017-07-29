@@ -1,0 +1,201 @@
+{
+	"name": "barycentric",
+	"versions": {
+		"0.0.0": {
+			"name": "barycentric",
+			"version": "0.0.0",
+			"description": "Converts points to barycentric coordinates",
+			"main": "barycentric.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"numeric": "~1.2.6"
+			},
+			"devDependencies": {
+				"tap": "~0.4.1"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/barycentric.git"
+			},
+			"keywords": [
+				"simplex",
+				"triangle",
+				"tetrahedra",
+				"line",
+				"barycentric",
+				"coordinate",
+				"geometry"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9158ac95623661f3c955980e4148123b72994601",
+			"_id": "barycentric@0.0.0",
+			"dist": {
+				"shasum": "a16fce945af217220ea6fff33ffd7238280ddc61",
+				"tarball": "https://registry.npmjs.org/barycentric/-/barycentric-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "barycentric",
+			"version": "1.0.0",
+			"description": "Converts points to barycentric coordinates",
+			"main": "barycentric.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"robust-linear-solve": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^2.14.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/barycentric.git"
+			},
+			"keywords": [
+				"simplex",
+				"triangle",
+				"tetrahedra",
+				"line",
+				"barycentric",
+				"coordinate",
+				"geometry"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9158ac95623661f3c955980e4148123b72994601",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/barycentric/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/barycentric",
+			"_id": "barycentric@1.0.0",
+			"dist": {
+				"shasum": "1d484ba7563f2c7839d52a531af9bd9e468ca035",
+				"tarball": "https://registry.npmjs.org/barycentric/-/barycentric-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "barycentric",
+			"version": "1.0.1",
+			"description": "Converts points to barycentric coordinates",
+			"main": "barycentric.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"robust-linear-solve": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^2.14.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/barycentric.git"
+			},
+			"keywords": [
+				"simplex",
+				"triangle",
+				"tetrahedra",
+				"line",
+				"barycentric",
+				"coordinate",
+				"geometry"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "9158ac95623661f3c955980e4148123b72994601",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/barycentric/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/barycentric",
+			"_id": "barycentric@1.0.1",
+			"dist": {
+				"shasum": "f1562bb891b26f4fec463a82eeda3657800ec688",
+				"tarball": "https://registry.npmjs.org/barycentric/-/barycentric-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"barycentric-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/barycentric/-/barycentric-0.0.0.tgz",
+			"sha": "a16fce945af217220ea6fff33ffd7238280ddc61",
+			"registry": "npmjs"
+		},
+		"barycentric-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/barycentric/-/barycentric-1.0.0.tgz",
+			"sha": "1d484ba7563f2c7839d52a531af9bd9e468ca035",
+			"registry": "npmjs"
+		},
+		"barycentric-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/barycentric/-/barycentric-1.0.1.tgz",
+			"sha": "f1562bb891b26f4fec463a82eeda3657800ec688",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53fbb512-1143\"",
+			"fetched": 1501276749440
+		}
+	},
+	"_rev": "1-d24deed7072aa238",
+	"readme": "barycentric\n===========\nComputes the location of a point in a simplex in [barycentric coordinates](http://en.wikipedia.org/wiki/Barycentric_coordinate_system#Generalized_barycentric_coordinates) (aka [areal coordinates](http://mathworld.wolfram.com/BarycentricCoordinates.html)).\n\nUsage\n=====\nInstall using npm:\n\n    npm install barycentric\n    \nAnd then use as follows:\n\n```javascript\nvar barycentric = require(\"barycentric\")\n\nconsole.log(barycentric([[0,0], [0,1], [1,0]], [0.5, 0.5]))\n//Prints:\n//\n//  [0, 0.5, 0.5]\n//\n```\n\nCredits\n=======\n(c) 2013 Mikola Lysenko. MIT License"
+}

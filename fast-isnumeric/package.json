@@ -1,0 +1,208 @@
+{
+	"name": "fast-isnumeric",
+	"versions": {
+		"1.0.0": {
+			"name": "fast-isnumeric",
+			"version": "1.0.0",
+			"description": "The fast way to check if a JS object is numeric",
+			"main": "index.js",
+			"scripts": {
+				"test": "karma start karma.conf.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/plotly/fast-isnumeric.git"
+			},
+			"keywords": [
+				"number",
+				"numeric",
+				"isnumeric",
+				"fast"
+			],
+			"author": {
+				"name": "Alex Johnson",
+				"url": "@alexcjohnson"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/plotly/fast-isnumeric/issues"
+			},
+			"homepage": "https://github.com/plotly/fast-isnumeric#readme",
+			"devDependencies": {
+				"jasmine-core": "^2.3.4",
+				"karma": "^0.13.15",
+				"karma-browserify": "^4.4.0",
+				"karma-chrome-launcher": "^0.2.1",
+				"karma-coverage": "^0.5.3",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-jasmine": "^0.3.6"
+			},
+			"gitHead": "83471e994cb352836b677baeacce7ea9005d8203",
+			"_id": "fast-isnumeric@1.0.0",
+			"_shasum": "f9e05a10240d48c5ee966e80fd8ee078f0934878",
+			"_from": ".",
+			"_npmVersion": "2.14.1",
+			"_nodeVersion": "0.10.37",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "f9e05a10240d48c5ee966e80fd8ee078f0934878",
+				"tarball": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "fast-isnumeric",
+			"version": "1.1.0",
+			"description": "The fast way to check if a JS object is numeric",
+			"main": "index.js",
+			"scripts": {
+				"test": "karma start karma.conf.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/plotly/fast-isnumeric.git"
+			},
+			"keywords": [
+				"number",
+				"numeric",
+				"isnumeric",
+				"fast"
+			],
+			"author": {
+				"name": "Alex Johnson",
+				"url": "@alexcjohnson"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/plotly/fast-isnumeric/issues"
+			},
+			"homepage": "https://github.com/plotly/fast-isnumeric#readme",
+			"devDependencies": {
+				"jasmine-core": "^2.3.4",
+				"karma": "^0.13.15",
+				"karma-browserify": "^4.4.0",
+				"karma-chrome-launcher": "^0.2.1",
+				"karma-coverage": "^0.5.3",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-jasmine": "^0.3.6"
+			},
+			"gitHead": "8495399247a4d16acf51442f735c8b747ef65477",
+			"_id": "fast-isnumeric@1.1.0",
+			"_shasum": "1d79c8d7a5e7ba036a2ff2c68db32d0bca7f31d6",
+			"_from": ".",
+			"_npmVersion": "2.14.1",
+			"_nodeVersion": "0.10.37",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "1d79c8d7a5e7ba036a2ff2c68db32d0bca7f31d6",
+				"tarball": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "fast-isnumeric",
+			"version": "1.1.1",
+			"description": "The fast way to check if a JS object is numeric",
+			"main": "index.js",
+			"scripts": {
+				"test": "karma start karma.conf.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/plotly/fast-isnumeric.git"
+			},
+			"keywords": [
+				"number",
+				"numeric",
+				"isnumeric",
+				"fast"
+			],
+			"author": {
+				"name": "Alex Johnson",
+				"url": "@alexcjohnson"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/plotly/fast-isnumeric/issues"
+			},
+			"homepage": "https://github.com/plotly/fast-isnumeric#readme",
+			"devDependencies": {
+				"jasmine-core": "^2.3.4",
+				"karma": "^0.13.15",
+				"karma-browserify": "^4.4.0",
+				"karma-chrome-launcher": "^0.2.1",
+				"karma-coverage": "^0.5.3",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-jasmine": "^0.3.6"
+			},
+			"gitHead": "efdd602521132349539fcf32161f4f62f10ea741",
+			"_id": "fast-isnumeric@1.1.1",
+			"_shasum": "57b81c07a3c09cb9ec3bef9c161818992d893643",
+			"_from": ".",
+			"_npmVersion": "2.14.1",
+			"_nodeVersion": "0.10.37",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "57b81c07a3c09cb9ec3bef9c161818992d893643",
+				"tarball": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.1"
+	},
+	"_distfiles": {
+		"fast-isnumeric-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.0.0.tgz",
+			"sha": "f9e05a10240d48c5ee966e80fd8ee078f0934878",
+			"registry": "npmjs"
+		},
+		"fast-isnumeric-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.1.0.tgz",
+			"sha": "1d79c8d7a5e7ba036a2ff2c68db32d0bca7f31d6",
+			"registry": "npmjs"
+		},
+		"fast-isnumeric-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/fast-isnumeric/-/fast-isnumeric-1.1.1.tgz",
+			"sha": "57b81c07a3c09cb9ec3bef9c161818992d893643",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"563b8d64-1693\"",
+			"fetched": 1501276740293
+		}
+	},
+	"_rev": "1-d68c37ab4e8333c0",
+	"readme": "# fast-isnumeric\n\nThe fast way to check if a JS object is numeric\n\n### Install\n\n```\nnpm install fast-isnumeric\n```\n\n### API\n\n```js\nvar isNumeric = require('fast-isnumeric');\n\nisNumeric(/* any JS object */);\n```\n\n### How fast\n\nRun comparison on jsperf: http://jsperf.com/isnumeric-jquery-and-alternate/5\n\n![](http://i.imgur.com/dczrlVE.png)\n\n### Warning\n\nPlease look up the test cases in\n[test.js](https://github.com/plotly/fast-isnumeric/blob/master/test.js) before\nusing this module.\n\nMost importantly, `fast-isnumeric` returns false on number and string\nconstructors. That is, `isNumeric(new Number(1))` and `isNumeric(new\nString('1'))` are **false**.\n\n### Tests\n\nTest locally with karma:\n\n```\nnpm test\n```\n\n### Why?\n\nIn [plotly](https://plot.ly/)'s javascript graphing library\n[plotly.js](https://plot.ly/javascript/) numerical objects must be accounted\nfor in numerous hot code paths. Inspired by Jon Schlinkert's\n[is-number](https://github.com/jonschlinkert/is-number), `fast-isnumeric` is\nsignificantly simplified and sped up by ignoring number and string constructors.\n\n### Author\n\nAlex Johnson | https://github.com/alexcjohnson\n\n### License\n\nCopyright (c) 2015 Alex Johnson Released under the MIT license.\n"
+}

@@ -1,0 +1,303 @@
+{
+	"name": "ndarray-sort",
+	"versions": {
+		"0.0.0": {
+			"name": "ndarray-sort",
+			"version": "0.0.0",
+			"description": "Sorts ndarrays in place",
+			"main": "sort.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"typedarray-pool": "~0.1.1"
+			},
+			"devDependencies": {
+				"ndarray-ops": "~1.1.1",
+				"ndarray-pack": "~1.0.1",
+				"ndarray": "~1.0.5",
+				"ndarray-unpack": "~0.0.0",
+				"tape": "~1.0.4"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-sort.git"
+			},
+			"keywords": [
+				"ndarray",
+				"sort",
+				"typed",
+				"array",
+				"int",
+				"quicksort"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "12e9c82d410e74e0137a5de773e931b1c6366eb0",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-sort/issues"
+			},
+			"_id": "ndarray-sort@0.0.0",
+			"dist": {
+				"shasum": "ebb606b07c25c98853ea5196b511a2a2fc179b65",
+				"tarball": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.0": {
+			"name": "ndarray-sort",
+			"version": "0.1.0",
+			"description": "Sorts ndarrays in place",
+			"main": "sort.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"typedarray-pool": "~0.1.1"
+			},
+			"devDependencies": {
+				"ndarray-ops": "~1.1.1",
+				"ndarray-pack": "~1.0.1",
+				"ndarray": "~1.0.5",
+				"ndarray-unpack": "~0.0.0",
+				"tape": "~1.0.4",
+				"crossfilter": "~1.2.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-sort.git"
+			},
+			"keywords": [
+				"ndarray",
+				"sort",
+				"typed",
+				"array",
+				"int",
+				"quicksort"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "12e9c82d410e74e0137a5de773e931b1c6366eb0",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-sort/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-sort",
+			"_id": "ndarray-sort@0.1.0",
+			"dist": {
+				"shasum": "2ec0185587dc5390ab25e08dd46acb8bf874cc1b",
+				"tarball": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "ndarray-sort",
+			"version": "1.0.0",
+			"description": "Sorts ndarrays in place",
+			"main": "sort.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"ndarray-ops": "~1.1.1",
+				"ndarray-pack": "~1.0.1",
+				"ndarray": "~1.0.5",
+				"ndarray-unpack": "~0.0.0",
+				"crossfilter": "~1.2.0",
+				"tape": "^2.13.2"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-sort.git"
+			},
+			"keywords": [
+				"ndarray",
+				"sort",
+				"typed",
+				"array",
+				"int",
+				"quicksort"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "12e9c82d410e74e0137a5de773e931b1c6366eb0",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-sort/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-sort",
+			"_id": "ndarray-sort@1.0.0",
+			"dist": {
+				"shasum": "7d8fd7087224551b58cf80817c9ac3c9cf71b2fa",
+				"tarball": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "ndarray-sort",
+			"version": "1.0.1",
+			"description": "Sorts ndarrays in place",
+			"main": "sort.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"ndarray-ops": "^1.1.1",
+				"ndarray-pack": "^1.0.1",
+				"ndarray": "^1.0.5",
+				"ndarray-unpack": "^1.0.0",
+				"crossfilter": "^1.2.0",
+				"tape": "^2.13.2"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/ndarray-sort.git"
+			},
+			"keywords": [
+				"ndarray",
+				"sort",
+				"typed",
+				"array",
+				"int",
+				"quicksort"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "12e9c82d410e74e0137a5de773e931b1c6366eb0",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/ndarray-sort/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/ndarray-sort",
+			"_id": "ndarray-sort@1.0.1",
+			"_shasum": "fea05b4cb834c7f4e0216a354f3ca751300dfd6a",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "fea05b4cb834c7f4e0216a354f3ca751300dfd6a",
+				"tarball": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				},
+				{
+					"name": "planeshifter",
+					"email": "pgb@andrew.cmu.edu"
+				},
+				{
+					"name": "jaspervdg",
+					"email": "th.v.d.gronde@hccnet.nl"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"ndarray-sort-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-0.0.0.tgz",
+			"sha": "ebb606b07c25c98853ea5196b511a2a2fc179b65",
+			"registry": "npmjs"
+		},
+		"ndarray-sort-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-0.1.0.tgz",
+			"sha": "2ec0185587dc5390ab25e08dd46acb8bf874cc1b",
+			"registry": "npmjs"
+		},
+		"ndarray-sort-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-1.0.0.tgz",
+			"sha": "7d8fd7087224551b58cf80817c9ac3c9cf71b2fa",
+			"registry": "npmjs"
+		},
+		"ndarray-sort-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/ndarray-sort/-/ndarray-sort-1.0.1.tgz",
+			"sha": "fea05b4cb834c7f4e0216a354f3ca751300dfd6a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5554ec94-1aad\"",
+			"fetched": 1501276749784
+		}
+	},
+	"_rev": "1-7e1f0461bdfcd63b",
+	"readme": "ndarray-sort\n============\nSorts [ndarrays](https://github.com/mikolalysenko/ndarray) in place using a dual pivot quick sort.\n\n## Example\n\n```javascript\nvar ndarray = require(\"ndarray\")\nvar ndsort = require(\"ndarray-sort\")\nvar unpack = require(\"ndarray-unpack\")\n\n//Create an array\nvar x = ndarray(new Float32Array(60), [20, 3])\n\nfor(var i=0; i<20; ++i) {\n  for(var j=0; j<3; ++j) {\n    x.set(i,j, Math.random())\n  }\n}\n\n//Print out x:\nconsole.log(\"Unsorted:\", unpack(x))\n\n//Sort x\nndsort(x)\n\n//Print out sorted x:\nconsole.log(\"Sorted:\", unpack(x))\n```\n\n## Install\n\n    npm install ndarray-sort\n\n## API\n\n### `require(\"ndarray-sort\")(array)`\nSorts the given array along the first axis in lexicographic order.  The sorting is done in place.\n\n* `array` is an ndarray\n\n**Returns** `array`\n\n## Credits\nBased on Google Dart's dual pivot quick sort implementation by Ola Martin Bini and Michael Haubenwallner.  For more information see lib/dart/AUTHORS and lib/dart/LICENSE\n\nJavaScript implementation (c) 2013 Mikola Lysenko.  MIT License"
+}

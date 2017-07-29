@@ -1,0 +1,371 @@
+{
+	"name": "cross-unzip",
+	"versions": {
+		"0.0.0": {
+			"name": "cross-unzip",
+			"version": "0.0.0",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"tags": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"devDependencies": {
+				"7zip": "0.0.5"
+			},
+			"gitHead": "9ea8fbc8c0aae176d28171ac2fdffd827035e9df",
+			"_id": "cross-unzip@0.0.0",
+			"scripts": {},
+			"_shasum": "cc68ec862d20d0d2b34064039ba9d8d9429b1b1b",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.11.0",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "cc68ec862d20d0d2b34064039ba9d8d9429b1b1b",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.0.0.tgz_1461769702657_0.6402339870110154"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "cross-unzip",
+			"version": "0.0.1",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"tags": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"license": "GNU LGPL",
+			"devDependencies": {
+				"7zip": "0.0.5"
+			},
+			"gitHead": "9c231ebe83cdf35a944cf034c7d324c5122e4ec9",
+			"_id": "cross-unzip@0.0.1",
+			"scripts": {},
+			"_shasum": "fe5c6367cff990511150945e61bf815f01a2b2bf",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.11.0",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "fe5c6367cff990511150945e61bf815f01a2b2bf",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.0.1.tgz_1461856980423_0.5694499867968261"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "cross-unzip",
+			"version": "0.0.2",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"keywords": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"license": "GNU LGPL",
+			"devDependencies": {
+				"7zip": "0.0.5"
+			},
+			"gitHead": "9c231ebe83cdf35a944cf034c7d324c5122e4ec9",
+			"_id": "cross-unzip@0.0.2",
+			"scripts": {},
+			"_shasum": "5183bc47a09559befcf98cc4657964999359372f",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "5183bc47a09559befcf98cc4657964999359372f",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.0.2.tgz_1461912088295_0.5703336899168789"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "cross-unzip",
+			"version": "0.0.3",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"keywords": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip",
+				"cross",
+				"native"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"license": "GNU LGPL",
+			"devDependencies": {
+				"7zip": "0.0.5"
+			},
+			"gitHead": "31cd16016f192a04ec91a9f73a46f2d5e634b091",
+			"_id": "cross-unzip@0.0.3",
+			"scripts": {},
+			"_shasum": "6a704a63777cf771eb2ed8190302883340576e34",
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.2",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "6a704a63777cf771eb2ed8190302883340576e34",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.0.3.tgz_1475153079131_0.762205675477162"
+			},
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "cross-unzip",
+			"version": "0.1.0",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"keywords": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip",
+				"cross",
+				"native"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"license": "GNU LGPL",
+			"devDependencies": {
+				"win-7zip": "^0.1.0"
+			},
+			"gitHead": "4203dd53f70ae27d1ddf29331234eb216ebbc187",
+			"_id": "cross-unzip@0.1.0",
+			"scripts": {},
+			"_shasum": "b20c950f3257aea48e47dce308f1e6c339211f24",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "b20c950f3257aea48e47dce308f1e6c339211f24",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.1.0.tgz_1475672569803_0.1312703767325729"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "cross-unzip",
+			"version": "0.2.0",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"keywords": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip",
+				"cross",
+				"native"
+			],
+			"homepage": "https://github.com/fritx/cross-unzip",
+			"license": "GNU LGPL",
+			"scripts": {
+				"test": "ava"
+			},
+			"devDependencies": {
+				"ava": "^0.18.2",
+				"fs-extra": "^2.1.2",
+				"fs-extra-promise": "^0.4.1",
+				"win-7zip": "^0.1.0"
+			},
+			"gitHead": "e9339a46045e922b79e0f21cd864a64169265423",
+			"_id": "cross-unzip@0.2.0",
+			"_shasum": "05bffc694d7f6dd6fa160e619bce391e8be62980",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "05bffc694d7f6dd6fa160e619bce391e8be62980",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.2.0.tgz_1489853794344_0.8879906581714749"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "cross-unzip",
+			"version": "0.2.1",
+			"description": "Cross-platform 'native' unzip in Node.js",
+			"keywords": [
+				"7zip",
+				"7z",
+				"zip",
+				"unzip",
+				"cross",
+				"native"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fritx/cross-unzip.git"
+			},
+			"license": "GNU LGPL",
+			"scripts": {
+				"test": "ava"
+			},
+			"devDependencies": {
+				"ava": "^0.18.2",
+				"fs-extra-promise": "^0.4.1",
+				"win-7zip": "^0.1.0"
+			},
+			"gitHead": "d0122618971e92736fb74d9763e7f691be2c35f9",
+			"bugs": {
+				"url": "https://github.com/fritx/cross-unzip/issues"
+			},
+			"homepage": "https://github.com/fritx/cross-unzip#readme",
+			"_id": "cross-unzip@0.2.1",
+			"_shasum": "01ed1d4bb243ba339b2c3f03c5ba7a78818984c6",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "fritx",
+				"email": "uxfritz@163.com"
+			},
+			"dist": {
+				"shasum": "01ed1d4bb243ba339b2c3f03c5ba7a78818984c6",
+				"tarball": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fritx",
+					"email": "uxfritz@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cross-unzip-0.2.1.tgz_1489913394367_0.3282173527404666"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.2.1"
+	},
+	"_distfiles": {
+		"cross-unzip-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.0.tgz",
+			"sha": "cc68ec862d20d0d2b34064039ba9d8d9429b1b1b",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.1.tgz",
+			"sha": "fe5c6367cff990511150945e61bf815f01a2b2bf",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.2.tgz",
+			"sha": "5183bc47a09559befcf98cc4657964999359372f",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.0.3.tgz",
+			"sha": "6a704a63777cf771eb2ed8190302883340576e34",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.1.0.tgz",
+			"sha": "b20c950f3257aea48e47dce308f1e6c339211f24",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.2.0.tgz",
+			"sha": "05bffc694d7f6dd6fa160e619bce391e8be62980",
+			"registry": "npmjs"
+		},
+		"cross-unzip-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/cross-unzip/-/cross-unzip-0.2.1.tgz",
+			"sha": "01ed1d4bb243ba339b2c3f03c5ba7a78818984c6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58ce4632-21d5\"",
+			"fetched": 1501276782452
+		}
+	},
+	"_rev": "1-25668a1c309a294a",
+	"readme": "# cross-unzip\n\n<a href=\"https://www.npmjs.com/package/cross-unzip\"><img height=\"20\" src=\"https://img.shields.io/npm/dm/cross-unzip.svg\"></a>&nbsp;&nbsp;<a href=\"https://github.com/fritx/cross-unzip\"><img width=\"90\" height=\"20\" src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" /></a>&nbsp;&nbsp;<a href=\"https://github.com/fritx/cross-unzip\"><img width=\"84\" height=\"20\" src=\"https://img.shields.io/badge/license-LGPL-yellow.svg\"></a>&nbsp;&nbsp;<a href=\"https://ci.appveyor.com/project/fritx/cross-unzip/branch/dev\"><img height=\"20\" src=\"https://ci.appveyor.com/api/projects/status/2tly5xnv1243l5jo/branch/dev?svg=true\"></a>&nbsp;&nbsp;<a href=\"https://circleci.com/gh/fritx/cross-unzip/tree/dev\"><img height=\"20\" src=\"https://circleci.com/gh/fritx/cross-unzip/tree/dev.svg?style=svg\"></a>\n\nSee also: [win-7zip](https://github.com/fritx/win-7zip), [feross/cross-zip](https://github.com/feross/cross-zip)\n\n- [x] Tested on OSX\n- [x] Tested on Windows\n- [x] Zip compress/decompress\n- [ ] Progress feedback\n\n```plain\n$ npm install cross-unzip\n$ npm install win-7zip  # Windows support\n```\n\n```js\nlet { zip, unzip } = require('cross-unzip')\n\n// extract files\nunzip('some/archive.zip', 'some/dir', err => {\n  // done\n})\n\n// compress files\nzip('some/dir', 'some/archive.zip', err => {\n  // done\n})\n```\n"
+}

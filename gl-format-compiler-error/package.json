@@ -1,0 +1,198 @@
+{
+	"name": "gl-format-compiler-error",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-format-compiler-error",
+			"version": "1.0.0",
+			"description": "Formats a webgl glsl compiler error.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wwwtyro/gl-format-compiler-error.git"
+			},
+			"keywords": [
+				"stackgl",
+				"webgl",
+				"glsl"
+			],
+			"author": {
+				"name": "Rye Terrell",
+				"email": "ryeterrell@ryeterrell.net",
+				"url": "http://wwwtyro.github.io"
+			},
+			"license": "Unlicense",
+			"bugs": {
+				"url": "https://github.com/wwwtyro/gl-format-compiler-error/issues"
+			},
+			"homepage": "https://github.com/wwwtyro/gl-format-compiler-error#readme",
+			"dependencies": {
+				"gl-constants": "^1.0.0",
+				"glsl-shader-name": "^1.0.0",
+				"sprintf-js": "^1.0.3"
+			},
+			"gitHead": "d94e3ddc51f962524d9be51b9f49b39a4f822ecf",
+			"_id": "gl-format-compiler-error@1.0.0",
+			"_shasum": "68bd00c802ab9758edb0b0ebac71721f53f6d987",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wwwtyro",
+				"email": "wwwtyro@gmail.com"
+			},
+			"dist": {
+				"shasum": "68bd00c802ab9758edb0b0ebac71721f53f6d987",
+				"tarball": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "gl-format-compiler-error",
+			"version": "1.0.1",
+			"description": "Formats a webgl glsl compiler error.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wwwtyro/gl-format-compiler-error.git"
+			},
+			"keywords": [
+				"stackgl",
+				"webgl",
+				"glsl"
+			],
+			"author": {
+				"name": "Rye Terrell",
+				"email": "ryeterrell@ryeterrell.net",
+				"url": "http://wwwtyro.github.io"
+			},
+			"license": "Unlicense",
+			"bugs": {
+				"url": "https://github.com/wwwtyro/gl-format-compiler-error/issues"
+			},
+			"homepage": "https://github.com/wwwtyro/gl-format-compiler-error#readme",
+			"dependencies": {
+				"add-line-numbers": "^1.0.1",
+				"gl-constants": "^1.0.0",
+				"glsl-shader-name": "^1.0.0",
+				"sprintf-js": "^1.0.3"
+			},
+			"gitHead": "8a54dbb7790f17eda16e67a4ff182382035bb582",
+			"_id": "gl-format-compiler-error@1.0.1",
+			"_shasum": "9eac415929c84135599298752e562867cf74227b",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wwwtyro",
+				"email": "wwwtyro@gmail.com"
+			},
+			"dist": {
+				"shasum": "9eac415929c84135599298752e562867cf74227b",
+				"tarball": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "gl-format-compiler-error",
+			"version": "1.0.2",
+			"description": "Formats a webgl glsl compiler error.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wwwtyro/gl-format-compiler-error.git"
+			},
+			"keywords": [
+				"stackgl",
+				"webgl",
+				"glsl"
+			],
+			"author": {
+				"name": "Rye Terrell",
+				"email": "ryeterrell@ryeterrell.net",
+				"url": "http://wwwtyro.github.io"
+			},
+			"license": "Unlicense",
+			"bugs": {
+				"url": "https://github.com/wwwtyro/gl-format-compiler-error/issues"
+			},
+			"homepage": "https://github.com/wwwtyro/gl-format-compiler-error#readme",
+			"dependencies": {
+				"add-line-numbers": "^1.0.1",
+				"gl-constants": "^1.0.0",
+				"glsl-shader-name": "^1.0.0",
+				"sprintf-js": "^1.0.3"
+			},
+			"gitHead": "64eed8e38749a7884ed84f7dde2ca26781f089eb",
+			"_id": "gl-format-compiler-error@1.0.2",
+			"_shasum": "34397d2ae613e2d83a58f35d571de1be7d3080fa",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wwwtyro",
+				"email": "wwwtyro@gmail.com"
+			},
+			"dist": {
+				"shasum": "34397d2ae613e2d83a58f35d571de1be7d3080fa",
+				"tarball": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_distfiles": {
+		"gl-format-compiler-error-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.0.tgz",
+			"sha": "68bd00c802ab9758edb0b0ebac71721f53f6d987",
+			"registry": "npmjs"
+		},
+		"gl-format-compiler-error-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.1.tgz",
+			"sha": "9eac415929c84135599298752e562867cf74227b",
+			"registry": "npmjs"
+		},
+		"gl-format-compiler-error-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-format-compiler-error/-/gl-format-compiler-error-1.0.2.tgz",
+			"sha": "34397d2ae613e2d83a58f35d571de1be7d3080fa",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"56549d00-1896\"",
+			"fetched": 1501276746016
+		}
+	},
+	"_rev": "1-6bbeec9f64cf6fa4",
+	"readme": "# gl-format-compiler-error\n\nFormats a webgl glsl compiler error. Use in conjunction with\n[glsl-shader-name](https://www.npmjs.com/package/glsl-shader-name) to include your shader's \nname in the formatted error string.\n\n## Example\n\n```js\n    var formatCompilerError = require('gl-format-compiler-error');\n    \n    ...\n    \n    var shader = gl.createShader(type)\n    gl.shaderSource(shader, src)\n    gl.compileShader(shader)\n    if(!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {\n        var errLog = gl.getShaderInfoLog(shader)\n        var fmt = formatCompilerError(errLog, src, type);\n        console.warn(fmt.long);\n        throw new Error(fmt.short);\n    }\n```\n\nyields warning:\n\n```text\nError in vertex shader generic:\n  13: \n  14: void main() {\n  15:     bug;\n^^^^: 'bug' : undeclared identifier\n\n  17:     vUV = aUV;\n  18:     vPos = vec3(uModel * vec4(aPosition, 1.0))\n  19: }\n^^^^: '}' : syntax error\n```\n\nand error:\n\n```text\nUncaught Error: Error in vertex shader generic:\nERROR: 0:15: 'bug' : undeclared identifier \nERROR: 0:19: '}' : syntax error \n```\n\n## Usage\n\n### Install\n\n```sh\nnpm install gl-format-compiler-error --save\n```\n\n### API\n\n```js\nvar formatCompilerError = require('gl-format-compiler-error');\n```\n\n#### `fmt = formatCompilerError(errLog, source, type)`\n\nTakes `errLog` result from `gl.getShaderInfoLog`, the shader `source` string, and the `type` of shader,\neither `gl.VERTEX_SHADER` or `gl.FRAGMENT_SHADER`. Returns an object that contains the long and short\nform of the formatted error:\n\n```js\n{\n    long: \"long form error with code snippets\",\n    short: \"short form error, similar to the original error log\"\n}\n```"
+}

@@ -1,0 +1,1882 @@
+{
+	"name": "autosize",
+	"versions": {
+		"1.18.13": {
+			"name": "autosize",
+			"title": "Autosize",
+			"description": "Automatically adjust textarea height based on user input.",
+			"version": "1.18.13",
+			"dependencies": {
+				"jquery": ">=1.7"
+			},
+			"keywords": [
+				"form",
+				"textarea",
+				"ui",
+				"jQuery"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://www.opensource.org/licenses/mit-license.php"
+				}
+			],
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"devDependencies": {
+				"jshint": "^2.5.6",
+				"lodash": "^2.4.1",
+				"uglifyjs": "^2.3.6"
+			},
+			"scripts": {
+				"bump": "",
+				"build": "npm run lint && npm run minify && npm run release",
+				"release": "",
+				"lint": "jshint dest/jquery.autosize.js",
+				"minify": "(node header.js; uglifyjs dest/jquery.autosize.js) > dest/jquery.autosize.min.js"
+			},
+			"gitHead": "79542945bfbcddc8f993f3d3f8a9fa968c2ec606",
+			"_id": "autosize@1.18.13",
+			"_shasum": "ee58cff0ed9dcd50c1ff107e72e954031c9197bf",
+			"_from": ".",
+			"_npmVersion": "2.0.2",
+			"_nodeVersion": "0.10.31",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "ee58cff0ed9dcd50c1ff107e72e954031c9197bf",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-1.18.13.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "2.0.1",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15",
+				"watch": "^0.14.0"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"fileName": "autosize"
+			},
+			"gitHead": "78a1b26f204e08f5d5c649a52c027b8e62578e54",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@2.0.1",
+			"scripts": {},
+			"_shasum": "dc90e9006b3f2589fb79d012047f0f1e414fe99a",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "dc90e9006b3f2589fb79d012047f0f1e414fe99a",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-2.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.0",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"fileName": "autosize"
+			},
+			"gitHead": "cea135066ed10e281b47b8db7cf63709c0b4e3ad",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.0",
+			"scripts": {},
+			"_shasum": "f5d3efd92e72377639baa6df5fccb1714819b547",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "f5d3efd92e72377639baa6df5fccb1714819b547",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.1": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.1",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"fileName": "autosize"
+			},
+			"gitHead": "f32d65b2e57a8ab354053ffa1cf13015ec2b509e",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.1",
+			"scripts": {},
+			"_shasum": "b80121c08fdad6023f36b9f6a297f8a58f2a3dfe",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "b80121c08fdad6023f36b9f6a297f8a58f2a3dfe",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.2": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.2",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"gitHead": "85ccb80b34a5bcb60693fab27d5cb5aceb4cf0ad",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.2",
+			"scripts": {},
+			"_shasum": "bbe558a25c2857d63400d8e5cfc9c8007e1dd14e",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "bbe558a25c2857d63400d8e5cfc9c8007e1dd14e",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.3": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.3",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"gitHead": "8c438c780b2a8e36a9fc87e0ed27d9e0ac87df26",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.3",
+			"scripts": {},
+			"_shasum": "305ed78f3d96633b449c607b4307e9bef5ecfca0",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "305ed78f3d96633b449c607b4307e9bef5ecfca0",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.4": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.4",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"gitHead": "93b5d45dad7a259a03f953398ae2cd08ef55fb9b",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.4",
+			"scripts": {},
+			"_shasum": "6e25d0893a9304ce1dbf4118b09af3d6bc400700",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "6e25d0893a9304ce1dbf4118b09af3d6bc400700",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.4.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.5": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.5",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dest/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.1.9",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.15"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": []
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"gitHead": "70a0cb966223c5bea467257b6bfc8dc01730c068",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.5",
+			"scripts": {},
+			"_shasum": "46d48c23d691555b44123cd2a6abd617e92e5327",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "46d48c23d691555b44123cd2a6abd617e92e5327",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.5.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.6": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.6",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"major-release": "npm version major && npm publish && git push --follow-tags",
+				"minor-release": "npm version minor && npm publish && git push --follow-tags",
+				"patch-release": "npm version patch && npm publish && git push --follow-tags",
+				"build": "node build"
+			},
+			"gitHead": "1333cdfb60623de083b30963eb05f37c4d258c7e",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.6",
+			"_shasum": "0a8cb966333a512b989e5662ef2423b2a71044c2",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "0a8cb966333a512b989e5662ef2423b2a71044c2",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.6.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.7": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.7",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"major-release": "npm version major && npm publish && git push --follow-tags",
+				"minor-release": "npm version minor && npm publish && git push --follow-tags",
+				"patch-release": "npm version patch && npm publish && git push --follow-tags",
+				"build": "node build"
+			},
+			"gitHead": "8ec02cb236a7063e66f5035eac5f8a1afe5561c4",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.7",
+			"_shasum": "047749c9401f6d31394f85e4f40cfb5d9fe9ee96",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "047749c9401f6d31394f85e4f40cfb5d9fe9ee96",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.7.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.8": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.8",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "09db6a215fceecbd619af5efefab81f666e79625",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.8",
+			"_shasum": "d28fdad4d6630a014a9fbb739a8f4c46b6929123",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "d28fdad4d6630a014a9fbb739a8f4c46b6929123",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.8.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.9": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.9",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "d40e47410fc1877ed701d943442df7bf6b177c64",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.9",
+			"_shasum": "386a649694d7cc8ca4e4bd9738ef39a5c53aeb73",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "386a649694d7cc8ca4e4bd9738ef39a5c53aeb73",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.9.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.10": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.10",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "08d62d08afde5c6cf54476fc2e184b6a3f97cd87",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.10",
+			"_shasum": "dcf680d4120066b055f4cbb7ea349375d4a3646b",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "dcf680d4120066b055f4cbb7ea349375d4a3646b",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.10.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.11": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.11",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "884ea545d6871621c815b935907dcec56600b63d",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.11",
+			"_shasum": "57b93a39b353c8a573979ca6eb8141d13a966776",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "57b93a39b353c8a573979ca6eb8141d13a966776",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.11.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.12": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.12",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "037f61bd04313d62d65e7820073e5a40deba119e",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.12",
+			"_shasum": "e8460fdebeeee56d3a3460c2382ca2bb70dcc6e4",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "e8460fdebeeee56d3a3460c2382ca2bb70dcc6e4",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.12.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.13": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.13",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "9ed036fec43850b2dfe1a6a91d008a470ad69ebd",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.13",
+			"_shasum": "34bc43675cbc9ef0fe89cb294797c75f2df24ffc",
+			"_from": ".",
+			"_npmVersion": "3.3.4",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "34bc43675cbc9ef0fe89cb294797c75f2df24ffc",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.13.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.14": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.14",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "97a0f84414f8ddafa06d80555fa021823f01fc51",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.14",
+			"_shasum": "ecabb201c6bb722a51a3f7e0ddc474d23fd32b0a",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "ecabb201c6bb722a51a3f7e0ddc474d23fd32b0a",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.14.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.15": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.15",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "1e94f8aa0e6dfa7b52217bd4527e1dfdf38ed364",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.15",
+			"_shasum": "8a7e37fafa5f42a3f4f8f1153a7fb5e631e8cab5",
+			"_from": ".",
+			"_npmVersion": "3.5.3",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "8a7e37fafa5f42a3f4f8f1153a7fb5e631e8cab5",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.15.tgz"
+			},
+			"directories": {}
+		},
+		"3.0.16": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.16",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "b7f730623e8af653a3e6d8bad5bf797e5cfe6ed5",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.16",
+			"_shasum": "1d66be13a7439b6066ba1cb1b8a7d7c0d258d676",
+			"_from": ".",
+			"_npmVersion": "3.7.3",
+			"_nodeVersion": "4.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "1d66be13a7439b6066ba1cb1b8a7d7c0d258d676",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.16.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/autosize-3.0.16.tgz_1468447424569_0.420701569179073"
+			},
+			"directories": {}
+		},
+		"3.0.17": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.17",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "3838f1939045804b3166fd217ed59184758e8de3",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.17",
+			"_shasum": "f5a2cd35b96d864634cffc600c8c628c658d805b",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "f5a2cd35b96d864634cffc600c8c628c658d805b",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.17.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/autosize-3.0.17.tgz_1469488832052_0.2660804772749543"
+			},
+			"directories": {}
+		},
+		"3.0.18": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.18",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^0.5.1",
+				"jshint": "^2.5.6",
+				"uglify-js": "^2.4.22"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "fa2fa308e91ff9f8ba1a9fb17a1b9cc620671ca8",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.18",
+			"_shasum": "75ecffa2debb2c6398001a8847a570ad6bf94fd4",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "75ecffa2debb2c6398001a8847a570ad6bf94fd4",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.18.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/autosize-3.0.18.tgz_1477503706877_0.8456592778675258"
+			},
+			"directories": {}
+		},
+		"3.0.19": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.19",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^1.1.2",
+				"jshint": "^2.9.4",
+				"uglify-js": "^2.7.4"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "5c747b00a93f85e53c083de036004682a5f04af6",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.19",
+			"_shasum": "3ee11b8683e534aeb680eb80dba3970c8f3da7ea",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "3ee11b8683e534aeb680eb80dba3970c8f3da7ea",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.19.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/autosize-3.0.19.tgz_1479928757470_0.8233025728259236"
+			},
+			"directories": {}
+		},
+		"3.0.20": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.20",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^1.1.2",
+				"jshint": "^2.9.4",
+				"uglify-js": "^2.7.4"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "6c198a8e95c576dd9d5b8b9a1f996963ae1ea15c",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.20",
+			"_shasum": "e343ea7c5603834738169420f0349dc953e62a9e",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "e343ea7c5603834738169420f0349dc953e62a9e",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.20.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/autosize-3.0.20.tgz_1480883311139_0.5215430331882089"
+			},
+			"directories": {}
+		},
+		"3.0.21": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "3.0.21",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^1.1.2",
+				"jshint": "^2.9.4",
+				"uglify-js": "^2.7.4"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "5284a460d160bd11fda219941b20eb2a82155294",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@3.0.21",
+			"_shasum": "f182f40d17757d978a139a4c9ca40c4c0e448603",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "f182f40d17757d978a139a4c9ca40c4c0e448603",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-3.0.21.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/autosize-3.0.21.tgz_1495208214552_0.17602684069424868"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "autosize",
+			"description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+			"version": "4.0.0",
+			"keywords": [
+				"textarea",
+				"form",
+				"ui"
+			],
+			"files": [
+				"dist",
+				"src"
+			],
+			"author": {
+				"name": "Jack Moore",
+				"email": "hello@jacklmoore.com",
+				"url": "http://www.jacklmoore.com"
+			},
+			"main": "dist/autosize.js",
+			"license": "MIT",
+			"homepage": "http://www.jacklmoore.com/autosize",
+			"demo": "http://www.jacklmoore.com/autosize",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/jackmoore/autosize.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"babel": "^5.4.3",
+				"gaze": "^1.1.2",
+				"jshint": "^2.9.4",
+				"uglify-js": "^2.7.4"
+			},
+			"config": {
+				"bower": {
+					"name": "autosize",
+					"ignore": [],
+					"moduleType": [
+						"amd",
+						"node"
+					]
+				},
+				"title": "Autosize",
+				"filename": "autosize"
+			},
+			"scripts": {
+				"build": "node build"
+			},
+			"gitHead": "113f1b345868901619d4b01cda02b09aa1690ebd",
+			"bugs": {
+				"url": "https://github.com/jackmoore/autosize/issues"
+			},
+			"_id": "autosize@4.0.0",
+			"_shasum": "7a0599b1ba84d73bd7589b0d9da3870152c69237",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "jacklmoore",
+				"email": "hello@jacklmoore.com"
+			},
+			"maintainers": [
+				{
+					"name": "jacklmoore",
+					"email": "hello@jacklmoore.com"
+				}
+			],
+			"dist": {
+				"shasum": "7a0599b1ba84d73bd7589b0d9da3870152c69237",
+				"tarball": "https://registry.npmjs.org/autosize/-/autosize-4.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/autosize-4.0.0.tgz_1499903913938_0.5748325106687844"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_distfiles": {
+		"autosize-1.18.13.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-1.18.13.tgz",
+			"sha": "ee58cff0ed9dcd50c1ff107e72e954031c9197bf",
+			"registry": "npmjs"
+		},
+		"autosize-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-2.0.1.tgz",
+			"sha": "dc90e9006b3f2589fb79d012047f0f1e414fe99a",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.0.tgz",
+			"sha": "f5d3efd92e72377639baa6df5fccb1714819b547",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.1.tgz",
+			"sha": "b80121c08fdad6023f36b9f6a297f8a58f2a3dfe",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.2.tgz",
+			"sha": "bbe558a25c2857d63400d8e5cfc9c8007e1dd14e",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.3.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.3.tgz",
+			"sha": "305ed78f3d96633b449c607b4307e9bef5ecfca0",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.4.tgz",
+			"sha": "6e25d0893a9304ce1dbf4118b09af3d6bc400700",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.5.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.5.tgz",
+			"sha": "46d48c23d691555b44123cd2a6abd617e92e5327",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.6.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.6.tgz",
+			"sha": "0a8cb966333a512b989e5662ef2423b2a71044c2",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.7.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.7.tgz",
+			"sha": "047749c9401f6d31394f85e4f40cfb5d9fe9ee96",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.8.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.8.tgz",
+			"sha": "d28fdad4d6630a014a9fbb739a8f4c46b6929123",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.9.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.9.tgz",
+			"sha": "386a649694d7cc8ca4e4bd9738ef39a5c53aeb73",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.10.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.10.tgz",
+			"sha": "dcf680d4120066b055f4cbb7ea349375d4a3646b",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.11.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.11.tgz",
+			"sha": "57b93a39b353c8a573979ca6eb8141d13a966776",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.12.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.12.tgz",
+			"sha": "e8460fdebeeee56d3a3460c2382ca2bb70dcc6e4",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.13.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.13.tgz",
+			"sha": "34bc43675cbc9ef0fe89cb294797c75f2df24ffc",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.14.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.14.tgz",
+			"sha": "ecabb201c6bb722a51a3f7e0ddc474d23fd32b0a",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.15.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.15.tgz",
+			"sha": "8a7e37fafa5f42a3f4f8f1153a7fb5e631e8cab5",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.16.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.16.tgz",
+			"sha": "1d66be13a7439b6066ba1cb1b8a7d7c0d258d676",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.17.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.17.tgz",
+			"sha": "f5a2cd35b96d864634cffc600c8c628c658d805b",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.18.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.18.tgz",
+			"sha": "75ecffa2debb2c6398001a8847a570ad6bf94fd4",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.19.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.19.tgz",
+			"sha": "3ee11b8683e534aeb680eb80dba3970c8f3da7ea",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.20.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.20.tgz",
+			"sha": "e343ea7c5603834738169420f0349dc953e62a9e",
+			"registry": "npmjs"
+		},
+		"autosize-3.0.21.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-3.0.21.tgz",
+			"sha": "f182f40d17757d978a139a4c9ca40c4c0e448603",
+			"registry": "npmjs"
+		},
+		"autosize-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/autosize/-/autosize-4.0.0.tgz",
+			"sha": "7a0599b1ba84d73bd7589b0d9da3870152c69237",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5966b7aa-8ec4\"",
+			"fetched": 1501276761554
+		}
+	},
+	"_rev": "1-68beb94017bb4a65",
+	"readme": "## Summary\n\nAutosize is a small, stand-alone script to automatically adjust textarea height to fit text.\n\n#### Demo\n\nFull documentation and a demo can be found at [jacklmoore.com/autosize](http://jacklmoore.com/autosize)\n\n#### Install via NPM\n```bash\nnpm install autosize\n```\n\n#### Browser compatibility\n\nChrome | Firefox | IE | Safari | iOS Safari | Android | Opera Mini | Windows Phone IE\n------ | --------|----|--------|------------|---------|------------|------------------\nyes    | yes     | 9  | yes    | yes        | 4       | ?          | 8.1\n\n#### Usage\n\nThe autosize function accepts a single textarea element, or an array or array-like object (such as a NodeList or jQuery collection) of textarea elements.\n\n```javascript\n// from a NodeList\nautosize(document.querySelectorAll('textarea'));\n\n// from a single Node\nautosize(document.querySelector('textarea'));\n\n// from a jQuery collection\nautosize($('textarea'));\n```\n\nReleased under the [MIT License](http://www.opensource.org/licenses/mit-license.php)\n"
+}

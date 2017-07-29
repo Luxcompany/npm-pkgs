@@ -1,0 +1,325 @@
+{
+	"name": "snap-points-2d",
+	"versions": {
+		"1.0.0": {
+			"name": "snap-points-2d",
+			"version": "1.0.0",
+			"description": "snap round 2d points",
+			"main": "snap.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/snap-points-2d.git"
+			},
+			"keywords": [
+				"snap",
+				"round",
+				"iterated",
+				"plot",
+				"2d",
+				"data",
+				"vis"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/snap-points-2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/snap-points-2d#readme",
+			"dependencies": {
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "5e6a3314786b99b768fb56fe0890f08006d0d790",
+			"_id": "snap-points-2d@1.0.0",
+			"_shasum": "6796fd576dde3e5c3a0c03aaf4f73512452da812",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "6796fd576dde3e5c3a0c03aaf4f73512452da812",
+				"tarball": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "snap-points-2d",
+			"version": "1.0.1",
+			"description": "snap round 2d points",
+			"main": "snap.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/snap-points-2d.git"
+			},
+			"keywords": [
+				"snap",
+				"round",
+				"iterated",
+				"plot",
+				"2d",
+				"data",
+				"vis"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/snap-points-2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/snap-points-2d#readme",
+			"dependencies": {
+				"typedarray-pool": "^1.1.0"
+			},
+			"gitHead": "db573702bc5ba7707fbf94f1115ca4766923548e",
+			"_id": "snap-points-2d@1.0.1",
+			"_shasum": "8a679a47e195fa31405b03dc6e0c03e18228dcf4",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "8a679a47e195fa31405b03dc6e0c03e18228dcf4",
+				"tarball": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "snap-points-2d",
+			"version": "2.0.0",
+			"description": "snap round 2d points",
+			"main": "snap.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/snap-points-2d.git"
+			},
+			"keywords": [
+				"snap",
+				"round",
+				"iterated",
+				"plot",
+				"2d",
+				"data",
+				"vis"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/snap-points-2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/snap-points-2d#readme",
+			"dependencies": {
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gauss-random": "^1.0.1"
+			},
+			"gitHead": "b700c1a441e5f997b4011a78198255310974a926",
+			"_id": "snap-points-2d@2.0.0",
+			"_shasum": "19415ac5677a401695f0183639935b81649db60f",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "19415ac5677a401695f0183639935b81649db60f",
+				"tarball": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "snap-points-2d",
+			"version": "3.0.0",
+			"description": "snap round 2d points",
+			"main": "snap.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/snap-points-2d.git"
+			},
+			"keywords": [
+				"snap",
+				"round",
+				"iterated",
+				"plot",
+				"2d",
+				"data",
+				"vis"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/snap-points-2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/snap-points-2d#readme",
+			"dependencies": {
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"gauss-random": "^1.0.1"
+			},
+			"gitHead": "fccdceda5b5e741cd2ece1e8e18a5d32a1645a00",
+			"_id": "snap-points-2d@3.0.0",
+			"_shasum": "c96499bcf8c40ce2e7590305a98ca93b17f0675e",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c96499bcf8c40ce2e7590305a98ca93b17f0675e",
+				"tarball": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"3.1.0": {
+			"name": "snap-points-2d",
+			"version": "3.1.0",
+			"description": "snap round 2d points",
+			"main": "snap.js",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/snap-points-2d.git"
+			},
+			"keywords": [
+				"snap",
+				"round",
+				"iterated",
+				"plot",
+				"2d",
+				"data",
+				"vis"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/snap-points-2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/snap-points-2d#readme",
+			"dependencies": {
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"almost-equal": "^1.0.0",
+				"gauss-random": "^1.0.1",
+				"tape": "^4.2.0"
+			},
+			"gitHead": "7bb63265677d565b62e66cb2b5571edf0e040a2e",
+			"_id": "snap-points-2d@3.1.0",
+			"_shasum": "6dcfc2a3c5de9dab02c2724b8577b907e463cf1a",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "6dcfc2a3c5de9dab02c2724b8577b907e463cf1a",
+				"tarball": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "3.1.0"
+	},
+	"_distfiles": {
+		"snap-points-2d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-1.0.0.tgz",
+			"sha": "6796fd576dde3e5c3a0c03aaf4f73512452da812",
+			"registry": "npmjs"
+		},
+		"snap-points-2d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-1.0.1.tgz",
+			"sha": "8a679a47e195fa31405b03dc6e0c03e18228dcf4",
+			"registry": "npmjs"
+		},
+		"snap-points-2d-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-2.0.0.tgz",
+			"sha": "19415ac5677a401695f0183639935b81649db60f",
+			"registry": "npmjs"
+		},
+		"snap-points-2d-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-3.0.0.tgz",
+			"sha": "c96499bcf8c40ce2e7590305a98ca93b17f0675e",
+			"registry": "npmjs"
+		},
+		"snap-points-2d-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/snap-points-2d/-/snap-points-2d-3.1.0.tgz",
+			"sha": "6dcfc2a3c5de9dab02c2724b8577b907e463cf1a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57dc7bbf-1e0b\"",
+			"fetched": 1501276749018
+		}
+	},
+	"_rev": "1-c8b62075b8026275",
+	"readme": "snap-points-2d\n==============\nRuns iterative snap rounding on a set of 2D coordinates to produce a hierarchical level of detail for optimizing online rendering of huge 2D plots.\n\n# Install\n\n```\nnpm i snap-points-2d\n```\n\n# API\n\n#### `var hlod = require('snap-points-2d')(points, ids, weights, [, bounds])`\nReorders the points hierarchically such that those which are drawn at the same pixel coordinate are grouped together.\n\n* `points` is an array of 2*n values\n* `ids` is an array which gets the reordered index of the points\n* `weights` is an array of point weights, which can be used for transparent rendering\n* `bounds` is an optional array of 4 values giving the bounding box of the points\n\n**Returns** An array of LOD scales.  Each record is an object with the following properties:\n\n* `pixelSize` the pixel size of this level of detail in data units\n* `offset` the offset of this lod within the output array\n* `count` the number of items in the lod\n\n**Note** the points in `output` are rescaled to the unit box `[0,1]x[0,1]` and the array `points` in the input is shuffled during execution.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

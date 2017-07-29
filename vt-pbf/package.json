@@ -1,0 +1,1251 @@
+{
+	"name": "vt-pbf",
+	"versions": {
+		"1.0.0": {
+			"name": "vt-pbf",
+			"version": "1.0.0",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "e7b680bd618a5211d0ac7df0a49f28f67ef88693",
+			"_id": "vt-pbf@1.0.0",
+			"_shasum": "9a837893c1c026eeea20eeba885d104929091f0e",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "2.2.1",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "9a837893c1c026eeea20eeba885d104929091f0e",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vt-pbf",
+			"version": "1.0.1",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "73dc0e1b1219b646177b6f94d83b4bd594ff6906",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@1.0.1",
+			"_shasum": "ffe516053174e4edd0f022fcad01a694a7a35123",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "2.2.1",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "ffe516053174e4edd0f022fcad01a694a7a35123",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vt-pbf",
+			"version": "1.0.2",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "2c9618974d2f5061d8eb861d56bc73635b42df58",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@1.0.2",
+			"_shasum": "de4fedb866463b063777047ed68bffdc051aaebf",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "2.2.1",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "de4fedb866463b063777047ed68bffdc051aaebf",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "vt-pbf",
+			"version": "2.0.0",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "632c5bd70a79709326c18bd075c1f22a25153180",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.0.0",
+			"_shasum": "08da941fdd67d50fd4d1ba3b980bbb4e7294623b",
+			"_from": ".",
+			"_npmVersion": "2.12.0",
+			"_nodeVersion": "2.2.1",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "08da941fdd67d50fd4d1ba3b980bbb4e7294623b",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "vt-pbf",
+			"version": "2.0.1",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"point-geometry": "0.0.0",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "a970bf4e0ce6c9da54c418dc9aa4a5bf8a27409b",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.0.1",
+			"_shasum": "9a30608b258f33d9dda9314d7b840df422805c48",
+			"_from": ".",
+			"_npmVersion": "2.13.2",
+			"_nodeVersion": "2.5.0",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "9a30608b258f33d9dda9314d7b840df422805c48",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.2": {
+			"name": "vt-pbf",
+			"version": "2.0.2",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"point-geometry": "0.0.0",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "81b42b3908a987e120674edce209d101a67097ef",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.0.2",
+			"_shasum": "6033e55ae72522b58c449edb82f246cafbd21266",
+			"_from": ".",
+			"_npmVersion": "3.3.4",
+			"_nodeVersion": "2.5.0",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "6033e55ae72522b58c449edb82f246cafbd21266",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "vt-pbf",
+			"version": "2.1.0",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"point-geometry": "0.0.0",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "f7d10e241f1d0fb17e0d459e5dd2d6d582c98ab4",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.1.0",
+			"_shasum": "1e00587ac11b8b0133a64704c2dd34286bd77c30",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "1e00587ac11b8b0133a64704c2dd34286bd77c30",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "1ec5",
+					"email": "mxn@1ec5.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bhousel",
+					"email": "bryan@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden.halperin@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "lyzidiamond",
+					"email": "lyzi@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "mcwhittemore",
+					"email": "mcwhittemore@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "mtirwin",
+					"email": "irwin@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sbma44",
+					"email": "tlee@mapbox.com"
+				},
+				{
+					"name": "scothis",
+					"email": "scothis@gmail.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vt-pbf-2.1.0.tgz_1471263292722_0.7257868007291108"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "vt-pbf",
+			"version": "2.1.1",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"point-geometry": "0.0.0",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "510c2b935d360de466a7b68591ee5d33d13ee034",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.1.1",
+			"_shasum": "f3bea47b82fa35dcb58cdb6e1fe5dc2f980a8ed8",
+			"_from": ".",
+			"_npmVersion": "3.9.5",
+			"_nodeVersion": "6.2.2",
+			"_npmUser": {
+				"name": "anandthakker",
+				"email": "vestibule@anandthakker.net"
+			},
+			"dist": {
+				"shasum": "f3bea47b82fa35dcb58cdb6e1fe5dc2f980a8ed8",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "1ec5",
+					"email": "mxn@1ec5.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bhousel",
+					"email": "bryan@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden.halperin@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "lyzidiamond",
+					"email": "lyzi@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "mcwhittemore",
+					"email": "mcwhittemore@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "mtirwin",
+					"email": "irwin@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sbma44",
+					"email": "tlee@mapbox.com"
+				},
+				{
+					"name": "scothis",
+					"email": "scothis@gmail.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vt-pbf-2.1.1.tgz_1471270522027_0.13955825613811612"
+			},
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "vt-pbf",
+			"version": "2.1.2",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/anandthakker/vt-pbf.git"
+			},
+			"dependencies": {
+				"pbf": "^1.3.2",
+				"point-geometry": "0.0.0",
+				"vector-tile": "^1.1.3"
+			},
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "ff0ee8c6cefd13fc3803f7540a7ab3e788a3faa6",
+			"bugs": {
+				"url": "https://github.com/anandthakker/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/anandthakker/vt-pbf#readme",
+			"_id": "vt-pbf@2.1.2",
+			"_shasum": "75409fded5f6c3910073a64c3e575cdeba387f01",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "75409fded5f6c3910073a64c3e575cdeba387f01",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "1ec5",
+					"email": "mxn@1ec5.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "anandthakker",
+					"email": "vestibule@anandthakker.net"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bhousel",
+					"email": "bryan@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden.halperin@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "lyzidiamond",
+					"email": "lyzi@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "mcwhittemore",
+					"email": "mcwhittemore@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "mtirwin",
+					"email": "irwin@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sbma44",
+					"email": "tlee@mapbox.com"
+				},
+				{
+					"name": "scothis",
+					"email": "scothis@gmail.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vt-pbf-2.1.2.tgz_1471361518526_0.8993709885980934"
+			},
+			"directories": {}
+		},
+		"2.1.3": {
+			"name": "vt-pbf",
+			"version": "2.1.3",
+			"description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard index.js test/*.js && tape test/*.js"
+			},
+			"author": {
+				"name": "Anand Thakker",
+				"email": "vestibule@anandthakker.net",
+				"url": "http://anandthakker.net/"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/vt-pbf.git"
+			},
+			"dependencies": {
+				"@mapbox/point-geometry": "0.1.0",
+				"@mapbox/vector-tile": "^1.3.0",
+				"pbf": "^3.0.5"
+			},
+			"devDependencies": {
+				"benchmark": "^1.0.0",
+				"geojson-equality": "^0.1.5",
+				"geojson-vt": "^2.1.1",
+				"standard": "^4.5.4",
+				"tape": "^4.0.1"
+			},
+			"gitHead": "175d09f4c9261aa8d96e86e41e7686d94c7b4c93",
+			"bugs": {
+				"url": "https://github.com/mapbox/vt-pbf/issues"
+			},
+			"homepage": "https://github.com/mapbox/vt-pbf#readme",
+			"_id": "vt-pbf@2.1.3",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "6.10.1",
+			"_npmUser": {
+				"name": "jfirebaugh",
+				"email": "john.firebaugh@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-9bGaA8H0U183SsBrstpDjZNxEutNqIM+eEPDQFvE9o5/eJ1MmXozrJ2LJIPmP/w00Anv+rcYlPfI2P1iG5nSsQ==",
+				"shasum": "de403e1dd3af363924b469ca713a81d60673223c",
+				"tarball": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "ulsh@mapbox.com",
+					"name": "alulsh"
+				},
+				{
+					"email": "accounts@mapbox.com",
+					"name": "mapbox-admin"
+				},
+				{
+					"email": "ryan.clark.j@gmail.com",
+					"name": "rclark"
+				},
+				{
+					"email": "morgan.herlocker@gmail.com",
+					"name": "morganherlocker"
+				},
+				{
+					"email": "jeff@miccolis.net",
+					"name": "miccolis"
+				},
+				{
+					"email": "john.firebaugh@gmail.com",
+					"name": "jfirebaugh"
+				},
+				{
+					"email": "ansis.brammanis@gmail.com",
+					"name": "ansis"
+				},
+				{
+					"email": "nicholas.ingalls@gmail.com",
+					"name": "ingalls"
+				},
+				{
+					"email": "tristen.brown@gmail.com",
+					"name": "tristen"
+				},
+				{
+					"email": "agafonkin@gmail.com",
+					"name": "mourner"
+				},
+				{
+					"email": "ian@mapbox.com",
+					"name": "ianshward"
+				},
+				{
+					"email": "alex@mapbox.com",
+					"name": "lxbarth"
+				},
+				{
+					"email": "aj@mapbox.com",
+					"name": "ajashton"
+				},
+				{
+					"email": "saman@mapbox.com",
+					"name": "samanbb"
+				},
+				{
+					"email": "nicki@mapbox.com",
+					"name": "nickidlugash"
+				},
+				{
+					"email": "ian.villeda@gmail.com",
+					"name": "ian29"
+				},
+				{
+					"email": "damon@mapbox.com",
+					"name": "dnomadb"
+				},
+				{
+					"email": "bobby@mapbox.com",
+					"name": "bsudekum"
+				},
+				{
+					"email": "lauren@mapbox.com",
+					"name": "lbud"
+				},
+				{
+					"email": "sean@mapbox.com",
+					"name": "sgillies"
+				},
+				{
+					"email": "karen@mapbox.com",
+					"name": "karenzshea"
+				},
+				{
+					"email": "spam@freenerd.de",
+					"name": "freenerd"
+				},
+				{
+					"email": "flippmoke@gmail.com",
+					"name": "flippmoke"
+				},
+				{
+					"email": "wb@bergwerk-gis.at",
+					"name": "bergwerkgis"
+				},
+				{
+					"email": "patrick@mapbox.com",
+					"name": "themarex"
+				},
+				{
+					"email": "emily@mapbox.com",
+					"name": "emilymcafee"
+				},
+				{
+					"email": "jake@jakepruitt.com",
+					"name": "jrpruit1"
+				},
+				{
+					"email": "arun.planemad@gmail.com",
+					"name": "planemad"
+				},
+				{
+					"email": "tlee@mapbox.com",
+					"name": "sbma44"
+				},
+				{
+					"email": "lyzi@mapbox.com",
+					"name": "lyzidiamond"
+				},
+				{
+					"email": "bryan@mapbox.com",
+					"name": "bhousel"
+				},
+				{
+					"email": "mcwhittemore@gmail.com",
+					"name": "mcwhittemore"
+				},
+				{
+					"email": "irwin@mapbox.com",
+					"name": "mtirwin"
+				},
+				{
+					"email": "mxn@1ec5.org",
+					"name": "1ec5"
+				},
+				{
+					"email": "carol@mapbox.com",
+					"name": "gretacb"
+				},
+				{
+					"email": "vestibule@anandthakker.net",
+					"name": "anandthakker"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vt-pbf-2.1.3.tgz_1500929497952_0.7055234289728105"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.3"
+	},
+	"_distfiles": {
+		"vt-pbf-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.0.tgz",
+			"sha": "9a837893c1c026eeea20eeba885d104929091f0e",
+			"registry": "npmjs"
+		},
+		"vt-pbf-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.1.tgz",
+			"sha": "ffe516053174e4edd0f022fcad01a694a7a35123",
+			"registry": "npmjs"
+		},
+		"vt-pbf-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-1.0.2.tgz",
+			"sha": "de4fedb866463b063777047ed68bffdc051aaebf",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.0.tgz",
+			"sha": "08da941fdd67d50fd4d1ba3b980bbb4e7294623b",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.1.tgz",
+			"sha": "9a30608b258f33d9dda9314d7b840df422805c48",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.0.2.tgz",
+			"sha": "6033e55ae72522b58c449edb82f246cafbd21266",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.0.tgz",
+			"sha": "1e00587ac11b8b0133a64704c2dd34286bd77c30",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.1.tgz",
+			"sha": "f3bea47b82fa35dcb58cdb6e1fe5dc2f980a8ed8",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.2.tgz",
+			"sha": "75409fded5f6c3910073a64c3e575cdeba387f01",
+			"registry": "npmjs"
+		},
+		"vt-pbf-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/vt-pbf/-/vt-pbf-2.1.3.tgz",
+			"sha": "de403e1dd3af363924b469ca713a81d60673223c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vt-pbf-2.1.3.tgz": {
+			"shasum": "de403e1dd3af363924b469ca713a81d60673223c"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59765dda-5eac\"",
+			"fetched": 1501276753542
+		}
+	},
+	"_rev": "2-ebe44bb3d9bb39d2",
+	"readme": "# vt-pbf [![CircleCI](https://circleci.com/gh/mapbox/vt-pbf.svg?style=svg)](https://circleci.com/gh/mapbox/vt-pbf)\n\nSerialize [Mapbox vector tiles](https://github.com/mapbox/vector-tile-spec) to binary protobufs in javascript.\n\n## Usage\n\nAs far as I know, the two places you might get a JS representation of a vector\ntile are [geojson-vt](https://github.com/mapbox/geojson-vt) and\n[vector-tile-js](https://github.com/mapbox/vector-tile-js).  These both use\nslightly different internal representations, so serializing each looks slightly\ndifferent:\n\n## From vector-tile-js\n\n```javascript\nvar vtpbf = require('vt-pbf')\nvar VectorTile = require('vector-tile').VectorTile\n\nvar data = fs.readFileSync(__dirname + '/fixtures/rectangle-1.0.0.pbf')\nvar tile = new VectorTile(new Pbf(data))\nvar orig = tile.layers['geojsonLayer'].feature(0).toGeoJSON(0, 0, 1)\n\nvar buff = vtpbf(tile)\nfs.writeFileSync('my-tile.pbf', buff)\n```\n\n## From geojson-vt\n\n```javascript\nvar vtpbf = require('vt-pbf')\nvar geojsonVt = require('geojson-vt')\n\nvar orig = JSON.parse(fs.readFileSync(__dirname + '/fixtures/rectangle.geojson'))\nvar tileindex = geojsonVt(orig)\nvar tile = tileindex.getTile(1, 0, 0)\n\n// pass in an object mapping layername -> tile object\nvar buff = vtpbf.fromGeojsonVt({ 'geojsonLayer': tile })\nfs.writeFileSync('my-tile.pbf', buff)\n```\n\n\n"
+}

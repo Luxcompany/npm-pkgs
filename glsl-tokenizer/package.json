@@ -1,0 +1,1266 @@
+{
+	"name": "glsl-tokenizer",
+	"versions": {
+		"0.0.0": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.0",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.0",
+			"dist": {
+				"shasum": "f47d86bd136059763aeb270f85f054701cc18d20",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.1": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.1",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.1",
+			"dist": {
+				"shasum": "f3c4f2bff1eb600b0df590884dc352e90537fe6e",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.2": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.2",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.2",
+			"dist": {
+				"shasum": "656ff9ac575c7c26baaf1e30b0fc58b7b3e41b1f",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.3": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.3",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.3",
+			"dist": {
+				"shasum": "1cfd8f9804e901d1b67906799cf950bfdd7c27b7",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.4": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.4",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.4",
+			"dist": {
+				"shasum": "efcdaf758e8442052244353990a4a61868c63436",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.5": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.5",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.5",
+			"dist": {
+				"shasum": "b5f0d71182e40613a36151badcbd37964d074e1c",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.6": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.6",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"_id": "glsl-tokenizer@0.0.6",
+			"dist": {
+				"shasum": "09fa79dabe6fb97dd152e5f509bb6c31f8019054",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.7": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.7",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"_id": "glsl-tokenizer@0.0.7",
+			"dist": {
+				"shasum": "a735ef07ffec97855781d005592f8682e86ec3fe",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.8": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.8",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"_id": "glsl-tokenizer@0.0.8",
+			"dist": {
+				"shasum": "c3137528a2aa99707955de12b27b77c8c7f21902",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			]
+		},
+		"0.0.9": {
+			"name": "glsl-tokenizer",
+			"version": "0.0.9",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/chrisdickinson/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"bugs": {
+				"url": "https://github.com/chrisdickinson/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/chrisdickinson/glsl-tokenizer",
+			"_id": "glsl-tokenizer@0.0.9",
+			"_shasum": "73463c0b9d39d4c2643a5fe0cdd258b679377d97",
+			"_from": ".",
+			"_npmVersion": "1.4.9",
+			"_npmUser": {
+				"name": "chrisdickinson",
+				"email": "chris@neversaw.us"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			],
+			"dist": {
+				"shasum": "73463c0b9d39d4c2643a5fe0cdd258b679377d97",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.9.tgz"
+			}
+		},
+		"1.0.0": {
+			"name": "glsl-tokenizer",
+			"version": "1.0.0",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"gitHead": "fe5549deb922eacb750433a1f5f3a656dd33ad67",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@1.0.0",
+			"_shasum": "6f0f4a309300394a9e5db0f9e8f906f84cae8611",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "chrisdickinson",
+				"email": "chris@neversaw.us"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6f0f4a309300394a9e5db0f9e8f906f84cae8611",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.0.0.tgz"
+			}
+		},
+		"1.1.0": {
+			"name": "glsl-tokenizer",
+			"version": "1.1.0",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"gitHead": "0836b33a0a5cb7d2a6ded1faa6b3b1665f95fa90",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@1.1.0",
+			"_shasum": "582d5ee108f1f96b162f992207261340817e8101",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "chrisdickinson",
+				"email": "chris@neversaw.us"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "582d5ee108f1f96b162f992207261340817e8101",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.1.0.tgz"
+			}
+		},
+		"1.1.1": {
+			"name": "glsl-tokenizer",
+			"version": "1.1.1",
+			"description": "r/w stream of glsl tokens",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through": "X.X.X"
+			},
+			"gitHead": "86fe74158fd72d3d773227196b7de077b45dc8cf",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@1.1.1",
+			"_shasum": "ea1049e6436a764c79d911ccf7a6e6aa7a6648da",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "chrisdickinson",
+				"email": "chris@neversaw.us"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ea1049e6436a764c79d911ccf7a6e6aa7a6648da",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.1.1.tgz"
+			}
+		},
+		"2.0.0": {
+			"name": "glsl-tokenizer",
+			"version": "2.0.0",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "0da7b50532691be2e9672f19d2651fc40ee31534",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@2.0.0",
+			"_shasum": "bac846fe2a39eff6f364bdb4817c66daf4295833",
+			"_from": ".",
+			"_npmVersion": "2.5.0",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "hughsk",
+				"email": "hughskennedy@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				}
+			],
+			"dist": {
+				"shasum": "bac846fe2a39eff6f364bdb4817c66daf4295833",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.0.tgz"
+			}
+		},
+		"2.0.1": {
+			"name": "glsl-tokenizer",
+			"version": "2.0.1",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "2b7075a415a524b3b1e26184aac4eb3a750265c3",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@2.0.1",
+			"_shasum": "e056257dc92edcac71832056e3dd40e742bbec28",
+			"_from": ".",
+			"_npmVersion": "2.5.0",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "hughsk",
+				"email": "hughskennedy@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e056257dc92edcac71832056e3dd40e742bbec28",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.1.tgz"
+			}
+		},
+		"2.0.2": {
+			"name": "glsl-tokenizer",
+			"version": "2.0.2",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "00bc61bcd18c4f5830af62622a9d835ccf0542e4",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer",
+			"_id": "glsl-tokenizer@2.0.2",
+			"_shasum": "9e146a1d2319ed336439380d6818bbfebc7f2f26",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9e146a1d2319ed336439380d6818bbfebc7f2f26",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.2.tgz"
+			}
+		},
+		"2.1.0": {
+			"name": "glsl-tokenizer",
+			"version": "2.1.0",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "d386d18b4db69caf72c7fb18c46dad2a6dc1c377",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer#readme",
+			"_id": "glsl-tokenizer@2.1.0",
+			"_shasum": "162fcaa7bf44eb5fc64a87fe1dbcac027dd6c249",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "162fcaa7bf44eb5fc64a87fe1dbcac027dd6c249",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/glsl-tokenizer-2.1.0.tgz_1456416804931_0.9468672182410955"
+			}
+		},
+		"2.1.1": {
+			"name": "glsl-tokenizer",
+			"version": "2.1.1",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "d63d86655bd1d31f0cca6bb247a5ee894ce293af",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer#readme",
+			"_id": "glsl-tokenizer@2.1.1",
+			"_shasum": "34ef0c895035a598fc7721ecc1897737a5f941d8",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "gre",
+				"email": "renaudeau.gaetan@gmail.com"
+			},
+			"dist": {
+				"shasum": "34ef0c895035a598fc7721ecc1897737a5f941d8",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "gre",
+					"email": "renaudeau.gaetan@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/glsl-tokenizer-2.1.1.tgz_1456426295980_0.2598687147255987"
+			}
+		},
+		"2.1.2": {
+			"name": "glsl-tokenizer",
+			"version": "2.1.2",
+			"description": "r/w stream of glsl tokens",
+			"main": "string.js",
+			"directories": {
+				"test": "test"
+			},
+			"authors": [
+				"Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+				"Mikola Lysenko <mikolalysenko@gmail.com> (http://0fps.net)",
+				"Chris Dickinson <chris@neversaw.us> (http://neversaw.us)"
+			],
+			"scripts": {
+				"test": "node test/index.js | tap-spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/gl-modules/glsl-tokenizer.git"
+			},
+			"keywords": [
+				"glsl",
+				"tokenizer",
+				"stream"
+			],
+			"author": {
+				"name": "Chris Dickinson",
+				"email": "chris@neversaw.us"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"through2": "^0.6.3"
+			},
+			"devDependencies": {
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.2"
+			},
+			"gitHead": "e7520f8741259051a74840e32f34d8b97877d519",
+			"bugs": {
+				"url": "https://github.com/gl-modules/glsl-tokenizer/issues"
+			},
+			"homepage": "https://github.com/gl-modules/glsl-tokenizer#readme",
+			"_id": "glsl-tokenizer@2.1.2",
+			"_shasum": "720307522e03c57af35c00551950c4a70ef2dfb9",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"dist": {
+				"shasum": "720307522e03c57af35c00551950c4a70ef2dfb9",
+				"tarball": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "gre",
+					"email": "renaudeau.gaetan@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "mikkoh",
+					"email": "me@mikkoh.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "rezaali",
+					"email": "syed.reza.ali@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "substack@gmail.com"
+				},
+				{
+					"name": "tatumcreative",
+					"email": "tatum.creative@gmail.com"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "wwwtyro",
+					"email": "wwwtyro@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/glsl-tokenizer-2.1.2.tgz_1464276268897_0.221282874699682"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.2"
+	},
+	"_distfiles": {
+		"glsl-tokenizer-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.0.tgz",
+			"sha": "f47d86bd136059763aeb270f85f054701cc18d20",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.1.tgz",
+			"sha": "f3c4f2bff1eb600b0df590884dc352e90537fe6e",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.2.tgz",
+			"sha": "656ff9ac575c7c26baaf1e30b0fc58b7b3e41b1f",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.3.tgz",
+			"sha": "1cfd8f9804e901d1b67906799cf950bfdd7c27b7",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.4.tgz",
+			"sha": "efcdaf758e8442052244353990a4a61868c63436",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.5.tgz",
+			"sha": "b5f0d71182e40613a36151badcbd37964d074e1c",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.6.tgz",
+			"sha": "09fa79dabe6fb97dd152e5f509bb6c31f8019054",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.7.tgz",
+			"sha": "a735ef07ffec97855781d005592f8682e86ec3fe",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.8.tgz",
+			"sha": "c3137528a2aa99707955de12b27b77c8c7f21902",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-0.0.9.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-0.0.9.tgz",
+			"sha": "73463c0b9d39d4c2643a5fe0cdd258b679377d97",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.0.0.tgz",
+			"sha": "6f0f4a309300394a9e5db0f9e8f906f84cae8611",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.1.0.tgz",
+			"sha": "582d5ee108f1f96b162f992207261340817e8101",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-1.1.1.tgz",
+			"sha": "ea1049e6436a764c79d911ccf7a6e6aa7a6648da",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.0.tgz",
+			"sha": "bac846fe2a39eff6f364bdb4817c66daf4295833",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.1.tgz",
+			"sha": "e056257dc92edcac71832056e3dd40e742bbec28",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.0.2.tgz",
+			"sha": "9e146a1d2319ed336439380d6818bbfebc7f2f26",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.0.tgz",
+			"sha": "162fcaa7bf44eb5fc64a87fe1dbcac027dd6c249",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.1.tgz",
+			"sha": "34ef0c895035a598fc7721ecc1897737a5f941d8",
+			"registry": "npmjs"
+		},
+		"glsl-tokenizer-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/glsl-tokenizer/-/glsl-tokenizer-2.1.2.tgz",
+			"sha": "720307522e03c57af35c00551950c4a70ef2dfb9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5973bdf0-60fd\"",
+			"fetched": 1501276746391
+		}
+	},
+	"_rev": "1-cd56b4dcace25e00",
+	"readme": "# glsl-tokenizer\n\nMaps GLSL string data into GLSL tokens, either synchronously or using a\nstreaming API.\n\n``` javascript\nvar tokenString = require('glsl-tokenizer/string')\nvar tokenStream = require('glsl-tokenizer/stream')\nvar fs = require('fs')\n\n// Synchronously:\nvar tokens = tokenString(fs.readFileSync('some.glsl'))\n\n// Streaming API:\nfs.createReadStream('some.glsl')\n  .pipe(tokenStream())\n  .on('data', function(token) {\n    console.log(token.data, token.position, token.type)\n  })\n```\n\n# API\n\n## tokens = require('glsl-tokenizer/string')(src, [opt])\n\nReturns an array of `tokens` given the GLSL source string `src`\n\nYou can specify `opt.version` string to use different keywords/builtins, such as `'300 es'` for WebGL2. Otherwise, will assume GLSL 100 (WebGL1).\n\n```js\nvar tokens = tokenizer(src, {\n  version: '300 es'\n})\n```\n\n## stream = require('glsl-tokenizer/stream')([opt])\n\nEmits 'data' events whenever a token is parsed with a token object as output.\n\nAs above, you can specify `opt.version`.\n\n# Tokens\n\n```javascript\n{ 'type': TOKEN_TYPE\n, 'data': \"string of constituent data\"\n, 'position': integer position within the GLSL source\n, 'line': line number within the GLSL source\n, 'column': column number within the GLSL source }\n```\n\nThe available token types are:\n\n* `block-comment`: `/* ... */`\n* `line-comment`: `// ... \\n`\n* `preprocessor`: `# ... \\n`\n* `operator`: Any operator. If it looks like punctuation, it's an operator.\n* `float`: Optionally suffixed with `f`\n* `ident`: User defined identifier.\n* `builtin`: Builtin function.\n* `eof`: Emitted on `end`; data will === `'(eof)'`.\n* `integer`\n* `whitespace`\n* `keyword`\n\n# License\n\nMIT, see [LICENSE.md](LICENSE.md) for further information.\n"
+}

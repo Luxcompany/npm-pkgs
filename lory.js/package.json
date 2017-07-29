@@ -1,0 +1,6209 @@
+{
+	"name": "lory.js",
+	"versions": {
+		"0.0.0": {
+			"name": "lory.js",
+			"version": "0.0.0",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "507aa53ab8e5d65e74a85309285edf1aac2848f0",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.0.0",
+			"_shasum": "aac77c122d6a4bdf6005041ab44e16c092ab2e5c",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "aac77c122d6a4bdf6005041ab44e16c092ab2e5c",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.1.0": {
+			"name": "lory.js",
+			"version": "0.1.0",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "320f5fe03ede4f8d3ca3aaf79419994b18c09552",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.1.0",
+			"_shasum": "94029e7c85baa35d9e6e3172e94b782a5969fe15",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "94029e7c85baa35d9e6e3172e94b782a5969fe15",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "lory.js",
+			"version": "0.2.0",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "b792818638be5180408ae4b92c54482ff3294ab1",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.2.0",
+			"_shasum": "4dee2bb6c1fc694526eee4c9c4b8eeb9b9da1bca",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4dee2bb6c1fc694526eee4c9c4b8eeb9b9da1bca",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "lory.js",
+			"version": "0.2.1",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "d1fce5ebf6636cd44f1b2616ea475c468854641d",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.2.1",
+			"_shasum": "f5e872d8f812c0ec6b3a5b7f61ba117fb82cc487",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f5e872d8f812c0ec6b3a5b7f61ba117fb82cc487",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "lory.js",
+			"version": "0.2.2",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "dc41fdd4abf236e3b6fb8570f0d671f7eddef656",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.2.2",
+			"_shasum": "71eb0b8e03ea4a251c354f4a4d3feef1a0c4defc",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "71eb0b8e03ea4a251c354f4a4d3feef1a0c4defc",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "lory.js",
+			"version": "0.2.3",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "9ba6c3e83ad8cac31c0ef1cb0410eaaad82a6f28",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.2.3",
+			"_shasum": "61cfe8054fd5de75a5ef32ac7bac8b78189bd193",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "61cfe8054fd5de75a5ef32ac7bac8b78189bd193",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "lory.js",
+			"version": "0.2.4",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory.js/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.js.git"
+			},
+			"main": "./lory.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "bc2a239df7faf900d7b1cd9abbae312523f98a21",
+			"homepage": "https://github.com/meandmax/lory.js",
+			"_id": "lory.js@0.2.4",
+			"_shasum": "766380581936265d9ebdfa53f9ad1dcdf0dddcc5",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "766380581936265d9ebdfa53f9ad1dcdf0dddcc5",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "lory.js",
+			"version": "0.3.0",
+			"description": "Touch enabled lean slider using Vanilla JavaScript & latest technologies without any compromises for fallbacks.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "3f95321f9d890a4e4228d129ad9038c6cfa46bc8",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.3.0",
+			"_shasum": "60029fd091705a3d500f28012bcc1e2d966b2314",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "60029fd091705a3d500f28012bcc1e2d966b2314",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.3.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "lory.js",
+			"version": "0.3.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "82678ef12f538ce7057cb0a7a5ec9d6003a90030",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.3.1",
+			"_shasum": "bdda87765cec63421d93c07f81043d2c9aaa0ef1",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "bdda87765cec63421d93c07f81043d2c9aaa0ef1",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.3.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "lory.js",
+			"version": "0.4.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "61394c95f81e425a96afdd183367e7a7ac12b6c4",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.0",
+			"_shasum": "b1c0a2c45e86aa671549d0e4d1ea55c3cab642f2",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "b1c0a2c45e86aa671549d0e4d1ea55c3cab642f2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "lory.js",
+			"version": "0.4.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "61f7a92e7decac24958bff909cba81f87ed46f73",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.1",
+			"_shasum": "7a1213c54a8fa922b410bbd6c8c9f64680741f55",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "7a1213c54a8fa922b410bbd6c8c9f64680741f55",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.2": {
+			"name": "lory.js",
+			"version": "0.4.2",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "fcec8a248dfd84e826eb0a1d6c1f89be4408b785",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.2",
+			"_shasum": "f5e6faf22dcda00d752bf555a8752070f8645183",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f5e6faf22dcda00d752bf555a8752070f8645183",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.3": {
+			"name": "lory.js",
+			"version": "0.4.3",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "5344093039ac0b2c8e168b6f603f543a9066ed00",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.3",
+			"_shasum": "d14a80f1b33c5f6cdd2cf27b248e7c1994d9482c",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "d14a80f1b33c5f6cdd2cf27b248e7c1994d9482c",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.4": {
+			"name": "lory.js",
+			"version": "0.4.4",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "0d17290fab63c06b2fe765c62550382864a17169",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.4",
+			"_shasum": "ed2996f14c708d0e9dac34b0e4b0464a33313b99",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ed2996f14c708d0e9dac34b0e4b0464a33313b99",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.4.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.5": {
+			"name": "lory.js",
+			"version": "0.4.5",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "b5b81a4027f97159f46828199ecda4b23ca1749b",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.5",
+			"_shasum": "560b15e232d597f5e870b988cb1a6e7a4a609bad",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "560b15e232d597f5e870b988cb1a6e7a4a609bad",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.5.tgz"
+			},
+			"directories": {}
+		},
+		"0.4.6": {
+			"name": "lory.js",
+			"version": "0.4.6",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "01c3ed4f7c8ace48a59512536aacc73281f2da1d",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.4.6",
+			"_shasum": "605af31869fc220e52eb24267dc6a6be972a8cc2",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "605af31869fc220e52eb24267dc6a6be972a8cc2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.6.tgz"
+			},
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "lory.js",
+			"version": "0.5.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "^0.5.1",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "b9624e88f5cd112a9595b8ada0d0507df410556c",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.5.0",
+			"_shasum": "74d3d65f70e1dab7b81d68c658cf76add452c8e1",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.11.16",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "74d3d65f70e1dab7b81d68c658cf76add452c8e1",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.5.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "lory.js",
+			"version": "0.6.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "de2574cc08a26728de2f1f71de1dbebd8a97c8f6",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.6.0",
+			"_shasum": "38b47a00a9420cd91ac1c364d37766dba299c9cd",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.11.16",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "38b47a00a9420cd91ac1c364d37766dba299c9cd",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "lory.js",
+			"version": "0.6.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "6277b3e4760debcb0154ae8840878bb3e85f0f25",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.6.1",
+			"_shasum": "5a244ef568809fa09e66fc946c4ae8fa1d8286a8",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5a244ef568809fa09e66fc946c4ae8fa1d8286a8",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.6.2": {
+			"name": "lory.js",
+			"version": "0.6.2",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "bb5e263a05e4a765a5af0f5e5fa5990a96990bc9",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.6.2",
+			"_shasum": "2279e62d69fac6cf6ffad06eb8463bd88aa9ec65",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2279e62d69fac6cf6ffad06eb8463bd88aa9ec65",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "lory.js",
+			"version": "0.7.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "6064a133ff5cc8a1ae7d1af2ac89a93066483827",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@0.7.0",
+			"_shasum": "6a655163281f31e1d824686e0fa9ac2ee7d44ac7",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6a655163281f31e1d824686e0fa9ac2ee7d44ac7",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-0.7.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "lory.js",
+			"version": "1.0.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "ee02b6f922da915e2e2a552bb6946c6f9cff1ef8",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.0.0",
+			"_shasum": "142ba70b67c39b64658abbe4da910e012f42c66d",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "142ba70b67c39b64658abbe4da910e012f42c66d",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "lory.js",
+			"version": "1.1.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "72973802ed81dd99ab9b940c1200810bcaa38ae0",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.1.0",
+			"_shasum": "0897e388d45d494ad9855e8134a83ead621030f2",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0897e388d45d494ad9855e8134a83ead621030f2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "lory.js",
+			"version": "1.1.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "71db6ea440ba34d96db64a4103e083fee1042daf",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.1.1",
+			"_shasum": "42262fdadda5490ca47941827d5c236c549dc814",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "42262fdadda5490ca47941827d5c236c549dc814",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "lory.js",
+			"version": "1.2.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "96227f2934cb35d31a6ebb6511c5ef114ff43da7",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.0",
+			"_shasum": "11e9eeb66f8a62bc9728ec5cf744b81b7f8376c2",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "11e9eeb66f8a62bc9728ec5cf744b81b7f8376c2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "lory.js",
+			"version": "1.2.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "1761c218824d91db240d2cbbbdcd3cb1ea36014a",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.1",
+			"_shasum": "8dc2c0a8256fa6e27c5447be225ce6324c4ede03",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8dc2c0a8256fa6e27c5447be225ce6324c4ede03",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "lory.js",
+			"version": "1.2.2",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "6dfd2786789f32572c0dfee089f3cc5a7d136c23",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.2",
+			"_shasum": "2eaeb4522758af591e95a03ac6b41e3011cd70ee",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2eaeb4522758af591e95a03ac6b41e3011cd70ee",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.3": {
+			"name": "lory.js",
+			"version": "1.2.3",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "c036f841e9a8a64e1007efb94fa37208f16b4ab2",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.3",
+			"_shasum": "3fc9be88c0bf144ba1781a07a34afe117959d5ed",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3fc9be88c0bf144ba1781a07a34afe117959d5ed",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.4": {
+			"name": "lory.js",
+			"version": "1.2.4",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "f119cd030ecc75dd29daa5abda6d3d3a9cb1699d",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.4",
+			"_shasum": "56d25cba9cd9476901e72effa0dffa140c7156a1",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "56d25cba9cd9476901e72effa0dffa140c7156a1",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.4.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.5": {
+			"name": "lory.js",
+			"version": "1.2.5",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "f076b423b90aae98bae540452a497285ae4b9986",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.5",
+			"_shasum": "6ebb57331a5911a360c0038119ca9e909b16de2d",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6ebb57331a5911a360c0038119ca9e909b16de2d",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.5.tgz"
+			},
+			"directories": {}
+		},
+		"1.2.6": {
+			"name": "lory.js",
+			"version": "1.2.6",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"grunt": "latest",
+				"grunt-browser-sync": "latest",
+				"grunt-bumpup": "latest",
+				"grunt-cli": "latest",
+				"grunt-contrib-concat": "latest",
+				"grunt-contrib-copy": "latest",
+				"grunt-contrib-jshint": "latest",
+				"grunt-contrib-uglify": "latest",
+				"grunt-contrib-watch": "latest",
+				"grunt-coveralls": "latest",
+				"grunt-jscs": "latest",
+				"grunt-karma": "latest",
+				"grunt-module": "latest",
+				"grunt-notify": "latest",
+				"grunt-umd": "latest",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"load-grunt-tasks": "latest",
+				"time-grunt": "latest"
+			},
+			"scripts": {
+				"test": "grunt"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "11ec05b590df75a7a4f755e688565dbe76fc1702",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.2.6",
+			"_shasum": "cb242f54e0d8d250ec3bc7e0bfa73c87eca8bae7",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "cb242f54e0d8d250ec3bc7e0bfa73c87eca8bae7",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.6.tgz"
+			},
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "lory.js",
+			"version": "1.3.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"babel-core": "^5.8.23",
+				"babel-loader": "^5.3.2",
+				"clamp.js": "^0.2.2",
+				"custom-event": "^1.0.0",
+				"dependency-check": "^2.5.0",
+				"eslint": "^1.5.1",
+				"eslint-config-standard": "^4.4.0",
+				"eslint-plugin-standard": "^1.3.1",
+				"karma-chai": "latest",
+				"karma-chrome-launcher": "latest",
+				"karma-fixture": "latest",
+				"karma-html2js-preprocessor": "latest",
+				"karma-mocha": "latest",
+				"karma-mocha-reporter": "^1.0.2",
+				"rimraf": "^2.4.3",
+				"uglify-js": "^2.4.24",
+				"webpack": "^1.12.0",
+				"webpack-dev-server": "^1.10.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"patch": "npm version patch && npm publish",
+				"minor": "npm version minor && npm publish",
+				"major": "npm version major && npm publish"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "08be02cfba66026d39987fbf6baa566df47c142a",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.3.0",
+			"_shasum": "95e5e0c1b725188721819f4daec9f88c04c10220",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "95e5e0c1b725188721819f4daec9f88c04c10220",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.4.0": {
+			"name": "lory.js",
+			"version": "1.4.0",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.6.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"rimraf": "2.4.3",
+				"uglify-js": "2.4.24",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"patch": "npm version patch && npm publish",
+				"minor": "npm version minor && npm publish",
+				"major": "npm version major && npm publish"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "8c8ed58894907bab63006aedbb835874a8986abc",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.4.0",
+			"_shasum": "a0c18708b94cdcc553fdb7b29b23bbebf12c00f2",
+			"_from": ".",
+			"_npmVersion": "2.11.3",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "a0c18708b94cdcc553fdb7b29b23bbebf12c00f2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.4.1": {
+			"name": "lory.js",
+			"version": "1.4.1",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.6.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"rimraf": "2.4.3",
+				"uglify-js": "2.5.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"patch": "npm version patch && npm publish",
+				"minor": "npm version minor && npm publish",
+				"major": "npm version major && npm publish"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"gitHead": "0a67c3096c4837cd355921d46e96e810261ad3b4",
+			"homepage": "https://github.com/meandmax/lory",
+			"_id": "lory.js@1.4.1",
+			"_shasum": "e1b73ec2b1542b0523237251ed8e99e37647450d",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e1b73ec2b1542b0523237251ed8e99e37647450d",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.4.2": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.min.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.6.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"rimraf": "2.4.3",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.4.2",
+			"gitHead": "176671ef540b419cc25c354e9d5ba322db73a80c",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.4.2",
+			"_shasum": "42e0489346ed78600b7c52ba4b3bcd919b51c3dd",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "42e0489346ed78600b7c52ba4b3bcd919b51c3dd",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.4.3": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.6.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"rimraf": "2.4.3",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.4.3",
+			"gitHead": "c1a31cc9caa079d4db3de821d455fdb9369bf716",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.4.3",
+			"_shasum": "142010c25ae5238d5488e73e0aaf8bc40851d271",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "142010c25ae5238d5488e73e0aaf8bc40851d271",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.5.0": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.6.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"rimraf": "2.4.3",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma": "karma start",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.5.0",
+			"gitHead": "f8e46cda8b3a2bef9d02c51e3368e335ac28760e",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.5.0",
+			"_shasum": "ac4cd35255b29b0f7e1c9ab5fa18be57c7571b15",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "ac4cd35255b29b0f7e1c9ab5fa18be57c7571b15",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.5.1": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.25",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.1",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.2.14",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/* && rimraf src/jquery.lory.js",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"karma-local": "karma start local.karma.conf.js",
+				"prebuild": "cat src/lory.js src/jquery.plugin.js > src/jquery.lory.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.5.1",
+			"gitHead": "7eb4341fd11f76ef526457de1d991dd9c924f989",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.5.1",
+			"_shasum": "a55b1582b3f0eb30253b68d9b29542edf7f84b3b",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "a55b1582b3f0eb30253b68d9b29542edf7f84b3b",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.5.2": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.29",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.5.2",
+			"gitHead": "9b3fa29a415a436a79e5729dd3fdae294a3aaef0",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.5.2",
+			"_shasum": "8d1320f3aaa688a9d9a8792c2f30bde0c62abcce",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "8d1320f3aaa688a9d9a8792c2f30bde0c62abcce",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.0": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.29",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.6.0",
+			"gitHead": "f1a5a65e1f8d77f2a33d5efd760cc460dbda40d4",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.0",
+			"_shasum": "7be9f8c9cac0077d3a3eae579dbd80a6acabf0d6",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "7be9f8c9cac0077d3a3eae579dbd80a6acabf0d6",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.1": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.33",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.6.1",
+			"gitHead": "e20574c72ed616a6c597a2c4c0c7b7121acba9bf",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.1",
+			"_shasum": "4f14ec68030193b4e38fb362075d46796dafbdeb",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "4f14ec68030193b4e38fb362075d46796dafbdeb",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.2": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.33",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.6.2",
+			"gitHead": "1d2aa9cd0fb106c9cf5a934561361fd8bd455cdb",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.2",
+			"_shasum": "52dc843cce6b57a4a2588da9b5d17e72823a6bbc",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "52dc843cce6b57a4a2588da9b5d17e72823a6bbc",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.3": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.33",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.6.3",
+			"gitHead": "156a0f3d5adf7810129e0705522e77ffbbf7dc18",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.3",
+			"_shasum": "3189758e34060f367bc2ada95be2e2037fcd122a",
+			"_from": ".",
+			"_npmVersion": "2.14.8",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "3189758e34060f367bc2ada95be2e2037fcd122a",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.4": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "5.8.33",
+				"babel-loader": "5.3.2",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "^0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"version": "1.6.4",
+			"gitHead": "bf917ffc8c3455968f6ff6d1c5f59371536d609a",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.4",
+			"_shasum": "f5956fb5ba1050dc5a0ae82d51a4760a24b9df18",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "f5956fb5ba1050dc5a0ae82d51a4760a24b9df18",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.5": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.0.20",
+				"babel-loader": "6.0.1",
+				"babel-preset-es2015": "^6.0.15",
+				"babel-preset-stage-0": "^6.0.15",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "^1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.7.3",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "^0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "1.6.5",
+			"gitHead": "95aa9d4e878baa4f400581138e98581e381975bd",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.5",
+			"_shasum": "f0addadc5a574708955a5235b25f1795947fc237",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "f0addadc5a574708955a5235b25f1795947fc237",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.6": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.1.2",
+				"babel-loader": "6.0.1",
+				"babel-preset-es2015": "^6.0.15",
+				"babel-preset-stage-0": "^6.0.15",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "^1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.8.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "^0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.2",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "1.6.6",
+			"gitHead": "41460e5bde6bb8758fe15afc30b0e4ac0d1cc982",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.6",
+			"_shasum": "184996b098bd8a5aa2bc2c883833f103e3c4cebd",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "184996b098bd8a5aa2bc2c883833f103e3c4cebd",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.7": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.1.2",
+				"babel-loader": "6.0.1",
+				"babel-preset-es2015": "^6.0.15",
+				"babel-preset-stage-0": "^6.0.15",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "^1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.8.0",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "^0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.6",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.1",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.3",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.5.0",
+				"watch": "^0.16.0",
+				"webpack": "1.12.3",
+				"webpack-dev-server": "1.12.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "1.6.7",
+			"gitHead": "dd5754826187b1d797a0147cf901ac3ddb54700d",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.7",
+			"_shasum": "bc9f401bdf5221ba872e7e20fcbafb880a94e0fa",
+			"_from": ".",
+			"_npmVersion": "2.14.10",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "bc9f401bdf5221ba872e7e20fcbafb880a94e0fa",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.6.8": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-loader": "6.2.0",
+				"babel-core": "6.2.1",
+				"babel-preset-es2015": "^6.0.15",
+				"babel-preset-stage-0": "^6.0.15",
+				"chai": "3.4.1",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "^1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.10.1",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "^0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "^0.1.7",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "^0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.3",
+				"karma-opera-launcher": "^0.3.0",
+				"karma-phantomjs-launcher": "^0.2.1",
+				"karma-safari-launcher": "^0.1.1",
+				"karma-sauce-launcher": "^0.3.0",
+				"mocha": "2.3.4",
+				"phantomjs": "^1.9.18",
+				"rimraf": "2.4.4",
+				"sauce-connect-launcher": "^0.13.0",
+				"saucelabs": "^1.0.1",
+				"semantic-release": "^4.3.5",
+				"uglify-js": "2.6.1",
+				"watch": "^0.16.0",
+				"webpack": "1.12.9",
+				"webpack-dev-server": "1.14.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "1.6.8",
+			"gitHead": "0b624666f95344d99bffbc5a8b724a0d6e19bbb7",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@1.6.8",
+			"_shasum": "03e658b96900dc87d8efdad0d17d15b9e116bf1c",
+			"_from": ".",
+			"_npmVersion": "2.14.13",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "03e658b96900dc87d8efdad0d17d15b9e116bf1c",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-loader": "6.2.0",
+				"babel-core": "6.2.1",
+				"babel-preset-es2015": "6.0.15",
+				"babel-preset-stage-0": "6.0.15",
+				"chai": "3.4.1",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.10.1",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "0.13.14",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "0.1.7",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.3",
+				"karma-opera-launcher": "0.3.0",
+				"karma-phantomjs-launcher": "0.2.1",
+				"karma-safari-launcher": "0.1.1",
+				"karma-sauce-launcher": "0.3.0",
+				"mocha": "2.3.4",
+				"phantomjs": "1.9.18",
+				"rimraf": "2.4.4",
+				"sauce-connect-launcher": "0.13.0",
+				"saucelabs": "1.0.1",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.6.1",
+				"watch": "0.16.0",
+				"webpack": "1.12.9",
+				"webpack-dev-server": "1.14.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.0.0",
+			"gitHead": "ff25b49c0b414fe2541ba4117bc8462353a2491d",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.0.0",
+			"_shasum": "83c416ee4032b56f5b15fd4c14b5eaa482510f44",
+			"_from": ".",
+			"_npmVersion": "2.14.15",
+			"_nodeVersion": "4.2.3",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "83c416ee4032b56f5b15fd4c14b5eaa482510f44",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-loader": "6.2.1",
+				"babel-core": "6.4.5",
+				"babel-preset-es2015": "6.0.15",
+				"babel-preset-stage-0": "6.0.15",
+				"chai": "3.4.1",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "1.10.1",
+				"eslint-config-standard": "4.4.0",
+				"eslint-plugin-standard": "1.3.1",
+				"karma": "0.13.19",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.0",
+				"karma-firefox-launcher": "0.1.7",
+				"karma-fixture": "0.2.5",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "0.2.0",
+				"karma-mocha": "0.2.0",
+				"karma-mocha-reporter": "1.1.5",
+				"karma-opera-launcher": "0.3.0",
+				"karma-phantomjs-launcher": "0.2.3",
+				"karma-safari-launcher": "0.1.1",
+				"karma-sauce-launcher": "0.3.0",
+				"mocha": "2.3.4",
+				"phantomjs": "1.9.18",
+				"rimraf": "2.5.0",
+				"sauce-connect-launcher": "0.14.0",
+				"saucelabs": "1.0.1",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.6.1",
+				"watch": "0.17.1",
+				"webpack": "1.12.11",
+				"webpack-dev-server": "1.14.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.0.1",
+			"gitHead": "46b55f54eabe9b270ca7bfc0879d4ba96941bd00",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.0.1",
+			"_shasum": "8b4cc34dc0775136f397dbe6d00adfa3722bb43e",
+			"_from": ".",
+			"_npmVersion": "2.14.16",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "8b4cc34dc0775136f397dbe6d00adfa3722bb43e",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.7.4",
+				"babel-loader": "6.2.4",
+				"babel-preset-es2015": "6.6.0",
+				"babel-preset-stage-0": "6.5.0",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.1.4",
+				"dependency-check": "2.5.1",
+				"eslint": "2.5.3",
+				"eslint-config-standard": "5.1.0",
+				"eslint-plugin-promise": "1.1.0",
+				"eslint-plugin-standard": "1.3.2",
+				"karma": "0.13.22",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "0.2.3",
+				"karma-firefox-launcher": "0.1.7",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "0.1.0",
+				"karma-ie-launcher": "0.2.0",
+				"karma-mocha": "0.2.2",
+				"karma-mocha-reporter": "2.0.0",
+				"karma-opera-launcher": "0.3.0",
+				"karma-phantomjs-launcher": "1.0.0",
+				"karma-safari-launcher": "0.1.1",
+				"karma-sauce-launcher": "0.3.1",
+				"mocha": "2.4.4",
+				"phantomjs-prebuilt": "2.1.7",
+				"rimraf": "2.5.2",
+				"sauce-connect-launcher": "0.14.0",
+				"saucelabs": "1.2.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.6.2",
+				"watch": "0.17.1",
+				"webpack": "1.12.14",
+				"webpack-dev-server": "1.14.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/* && rimraf demo/js/*",
+				"check": "npm run lint -s && dependency-check package.json --entry src",
+				"lint": "eslint src",
+				"watch": "watch 'npm run build' src",
+				"karma-local": "karma start local.karma.conf.js",
+				"build": "npm run lint && webpack",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"uglify": "uglifyjs dist/lory.js -o dist/lory.min.js --compress --mangle && uglifyjs dist/jquery.lory.js -o dist/jquery.lory.min.js --compress --mangle",
+				"postbuild": "npm run uglify && cp -r dist/* demo/js/",
+				"start": "webpack-dev-server && npm run watch",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"engines": {
+				"node": ">= 0.10.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.0",
+			"gitHead": "0bc0a95b46f58dc147dda5a143413563b35591d5",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.0",
+			"_shasum": "d35fbf862a0f81079a47754d2e346f67dfbffa1b",
+			"_from": ".",
+			"_npmVersion": "2.15.2",
+			"_nodeVersion": "4.4.1",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "d35fbf862a0f81079a47754d2e346f67dfbffa1b",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.0.tgz_1459339305338_0.6719460799358785"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.11.4",
+				"babel-core": "6.13.1",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.13.2",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.11.6",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "5.3.5",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.0",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"url-loader": "0.5.7",
+				"watch": "0.19.1",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.14.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.1",
+			"gitHead": "1205104964902662589b2e75f3afd4a5b17b814a",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.1",
+			"_shasum": "8f65fbd7327b863849d0bc54a75cf20e72234987",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "8f65fbd7327b863849d0bc54a75cf20e72234987",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.1.tgz_1471789011148_0.9193898434750736"
+			},
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.11.4",
+				"babel-core": "6.13.1",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.13.2",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.11.6",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "5.3.5",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.0",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"url-loader": "0.5.7",
+				"watch": "0.19.1",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.14.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.2",
+			"gitHead": "2376b10c36467d50c808be6619dd3cc77e6152b9",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.2",
+			"_shasum": "1a414247c00dcd1ee797843c82a08ee7c17e5160",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "1a414247c00dcd1ee797843c82a08ee7c17e5160",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.2.tgz_1471790862882_0.6883724732324481"
+			},
+			"directories": {}
+		},
+		"2.1.3": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.11.4",
+				"babel-core": "6.13.2",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.13.2",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.11.6",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "5.3.5",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.14.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && karma start saucelabs.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.3",
+			"gitHead": "dab9c4b233ae4a9dd0354ee84b9f804c96755c58",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.3",
+			"_shasum": "410a7e463017afae109194d146dc9e6b67a53ba9",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "410a7e463017afae109194d146dc9e6b67a53ba9",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.3.tgz_1471792265502_0.7721931908745319"
+			},
+			"directories": {}
+		},
+		"2.1.4": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.14.0",
+				"babel-cli": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "6.0.0",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.15.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.4",
+			"gitHead": "5b85f371e0dc8ec8e06b871386b7a44e66961975",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.4",
+			"_shasum": "1763361c7a4ec64c30c114632cbe8337ce0ad4d2",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "1763361c7a4ec64c30c114632cbe8337ce0ad4d2",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.4.tgz_1472210935688_0.7918705262709409"
+			},
+			"directories": {}
+		},
+		"2.1.5": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-core": "6.14.0",
+				"babel-cli": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "6.0.0",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.15.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.5",
+			"gitHead": "4aff01d3d9e791366b8e7d5ad866082dafbad30b",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.5",
+			"_shasum": "76257b57c84713a4d4fd9b8c34820257268fa24c",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "76257b57c84713a4d4fd9b8c34820257268fa24c",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.5.tgz_1472228216415_0.3476981658022851"
+			},
+			"directories": {}
+		},
+		"2.1.6": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.14.0",
+				"babel-core": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "6.0.0",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"unminified-webpack-plugin": "1.1.0",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.15.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.6",
+			"gitHead": "6b71dcff0a797be6cde5ae4588614003dcc02d6a",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.6",
+			"_shasum": "cf4926df24ff1cd7dfb25ecbfff817591447b1c6",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "cf4926df24ff1cd7dfb25ecbfff817591447b1c6",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.6.tgz_1472230157596_0.2927869912236929"
+			},
+			"directories": {}
+		},
+		"2.1.7": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.14.0",
+				"babel-core": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.3.1",
+				"eslint-config-standard": "6.0.0",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.1",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"unminified-webpack-plugin": "1.1.0",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.15.0"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.1.7",
+			"gitHead": "6f3d28006af02dc8e6973a94b707450d541e4ada",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.1.7",
+			"_shasum": "72fc35c54c1047aef8a50956b9ea84da5694c7cd",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "72fc35c54c1047aef8a50956b9ea84da5694c7cd",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.1.7.tgz_1472235422313_0.27823956264182925"
+			},
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.14.0",
+				"babel-core": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.4.0",
+				"eslint-config-standard": "6.0.0",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.3",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.2.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.2",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.15.1",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"unminified-webpack-plugin": "1.1.0",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.15.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.2.0",
+			"gitHead": "8da5271a9ccae6dd5501d388195ec45138ce44cc",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.2.0",
+			"_shasum": "ebc3d2f5dcf2f41690630481876f3846bf89388a",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "ebc3d2f5dcf2f41690630481876f3846bf89388a",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.2.0.tgz_1472816967154_0.08067258703522384"
+			},
+			"directories": {}
+		},
+		"2.2.1": {
+			"name": "lory.js",
+			"description": "Touch enabled minimalistic slider written in vanilla JavaScript.",
+			"author": {
+				"name": "Maximilian Heinz",
+				"email": "info@maximilian-heinz.de",
+				"url": "https://twitter.com/_meandmax_"
+			},
+			"bugs": {
+				"url": "https://github.com/meandmax/lory/issues"
+			},
+			"inceptionYear": 2015,
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.githubusercontent.com/meandmax/lory/master/LICENSE"
+				}
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/meandmax/lory.git"
+			},
+			"keywords": [
+				"responsive",
+				"lightweight",
+				"minimalistic",
+				"carousel",
+				"slider",
+				"touch",
+				"slideshow",
+				"jQuery",
+				"mobile"
+			],
+			"main": "./dist/lory.js",
+			"jsnext:main": "./src/lory.js",
+			"devDependencies": {
+				"babel-cli": "6.14.0",
+				"babel-core": "6.14.0",
+				"babel-loader": "6.2.5",
+				"babel-preset-es2015": "6.14.0",
+				"babel-preset-stage-0": "6.5.0",
+				"babel-register": "6.14.0",
+				"babel-runtime": "6.11.6",
+				"better-npm-run": "0.0.11",
+				"chai": "3.5.0",
+				"clamp.js": "0.2.9",
+				"custom-event": "1.0.0",
+				"cz-conventional-changelog": "1.2.0",
+				"debug": "2.2.0",
+				"dependency-check": "2.6.0",
+				"eslint": "3.5.0",
+				"eslint-config-standard": "6.0.1",
+				"eslint-plugin-promise": "2.0.1",
+				"eslint-plugin-standard": "2.0.0",
+				"extract-text-webpack-plugin": "1.0.1",
+				"file-loader": "0.9.0",
+				"fs-extra": "0.30.0",
+				"html-loader": "0.4.4",
+				"html-webpack-plugin": "2.22.0",
+				"karma": "1.3.0",
+				"karma-chai": "0.1.0",
+				"karma-chrome-launcher": "2.0.0",
+				"karma-firefox-launcher": "1.0.0",
+				"karma-fixture": "0.2.6",
+				"karma-html2js-preprocessor": "1.0.0",
+				"karma-ie-launcher": "1.0.0",
+				"karma-mocha": "1.1.1",
+				"karma-mocha-reporter": "2.1.0",
+				"karma-opera-launcher": "1.0.0",
+				"karma-phantomjs-launcher": "1.0.2",
+				"karma-safari-launcher": "1.0.0",
+				"karma-sauce-launcher": "1.0.0",
+				"mocha": "3.0.2",
+				"nodemon": "1.10.2",
+				"phantomjs-prebuilt": "2.1.12",
+				"rimraf": "2.5.4",
+				"sauce-connect-launcher": "0.16.0",
+				"saucelabs": "1.3.0",
+				"semantic-release": "4.3.5",
+				"uglify-js": "2.7.3",
+				"unminified-webpack-plugin": "1.1.0",
+				"url-loader": "0.5.7",
+				"webpack": "1.13.2",
+				"webpack-dev-server": "1.16.1"
+			},
+			"scripts": {
+				"clean": "rimraf dist/*",
+				"check": "npm run lint -s && dependency-check package.json",
+				"lint": "eslint src",
+				"start": "better-npm-run start",
+				"dev": "better-npm-run dev",
+				"build": "better-npm-run build",
+				"travis": "npm run build && npm run karma-travis",
+				"karma-sauce": "karma start saucelabs.karma.conf.js",
+				"karma-travis": "karma start travis.karma.conf.js",
+				"karma-local": "karma start local.karma.conf.js",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"betterScripts": {
+				"compile": {
+					"command": "babel-node bin/compile",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"start": {
+					"command": "babel-node bin/server",
+					"env": {
+						"DEBUG": "app:*"
+					}
+				},
+				"dev": {
+					"command": "nodemon --exec babel-node bin/server",
+					"env": {
+						"NODE_ENV": "development",
+						"DEBUG": "app:*"
+					}
+				},
+				"build": {
+					"command": "npm run clean && better-npm-run compile",
+					"env": {
+						"NODE_ENV": "production",
+						"DEBUG": "app:*"
+					}
+				}
+			},
+			"engines": {
+				"node": ">= 5.2.0"
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"version": "2.2.1",
+			"gitHead": "3d71658eddc1cf3af1d9b3ba9b44c43f216a5797",
+			"homepage": "https://github.com/meandmax/lory#readme",
+			"_id": "lory.js@2.2.1",
+			"_shasum": "e45ff82f1e403ee9df5e9c01b31636a09f45a743",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "meandmax",
+				"email": "heinzmaximilian@googlemail.com"
+			},
+			"dist": {
+				"shasum": "e45ff82f1e403ee9df5e9c01b31636a09f45a743",
+				"tarball": "https://registry.npmjs.org/lory.js/-/lory.js-2.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "meandmax",
+					"email": "heinzmaximilian@googlemail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/lory.js-2.2.1.tgz_1475160100494_0.038260380271822214"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.2.1"
+	},
+	"_distfiles": {
+		"lory.js-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.0.0.tgz",
+			"sha": "aac77c122d6a4bdf6005041ab44e16c092ab2e5c",
+			"registry": "npmjs"
+		},
+		"lory.js-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.1.0.tgz",
+			"sha": "94029e7c85baa35d9e6e3172e94b782a5969fe15",
+			"registry": "npmjs"
+		},
+		"lory.js-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.0.tgz",
+			"sha": "4dee2bb6c1fc694526eee4c9c4b8eeb9b9da1bca",
+			"registry": "npmjs"
+		},
+		"lory.js-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.1.tgz",
+			"sha": "f5e872d8f812c0ec6b3a5b7f61ba117fb82cc487",
+			"registry": "npmjs"
+		},
+		"lory.js-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.2.tgz",
+			"sha": "71eb0b8e03ea4a251c354f4a4d3feef1a0c4defc",
+			"registry": "npmjs"
+		},
+		"lory.js-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.3.tgz",
+			"sha": "61cfe8054fd5de75a5ef32ac7bac8b78189bd193",
+			"registry": "npmjs"
+		},
+		"lory.js-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.2.4.tgz",
+			"sha": "766380581936265d9ebdfa53f9ad1dcdf0dddcc5",
+			"registry": "npmjs"
+		},
+		"lory.js-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.3.0.tgz",
+			"sha": "60029fd091705a3d500f28012bcc1e2d966b2314",
+			"registry": "npmjs"
+		},
+		"lory.js-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.3.1.tgz",
+			"sha": "bdda87765cec63421d93c07f81043d2c9aaa0ef1",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.0.tgz",
+			"sha": "b1c0a2c45e86aa671549d0e4d1ea55c3cab642f2",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.1.tgz",
+			"sha": "7a1213c54a8fa922b410bbd6c8c9f64680741f55",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.2.tgz",
+			"sha": "f5e6faf22dcda00d752bf555a8752070f8645183",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.3.tgz",
+			"sha": "d14a80f1b33c5f6cdd2cf27b248e7c1994d9482c",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.4.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.4.tgz",
+			"sha": "ed2996f14c708d0e9dac34b0e4b0464a33313b99",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.5.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.5.tgz",
+			"sha": "560b15e232d597f5e870b988cb1a6e7a4a609bad",
+			"registry": "npmjs"
+		},
+		"lory.js-0.4.6.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.4.6.tgz",
+			"sha": "605af31869fc220e52eb24267dc6a6be972a8cc2",
+			"registry": "npmjs"
+		},
+		"lory.js-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.5.0.tgz",
+			"sha": "74d3d65f70e1dab7b81d68c658cf76add452c8e1",
+			"registry": "npmjs"
+		},
+		"lory.js-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.0.tgz",
+			"sha": "38b47a00a9420cd91ac1c364d37766dba299c9cd",
+			"registry": "npmjs"
+		},
+		"lory.js-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.1.tgz",
+			"sha": "5a244ef568809fa09e66fc946c4ae8fa1d8286a8",
+			"registry": "npmjs"
+		},
+		"lory.js-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.6.2.tgz",
+			"sha": "2279e62d69fac6cf6ffad06eb8463bd88aa9ec65",
+			"registry": "npmjs"
+		},
+		"lory.js-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-0.7.0.tgz",
+			"sha": "6a655163281f31e1d824686e0fa9ac2ee7d44ac7",
+			"registry": "npmjs"
+		},
+		"lory.js-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.0.0.tgz",
+			"sha": "142ba70b67c39b64658abbe4da910e012f42c66d",
+			"registry": "npmjs"
+		},
+		"lory.js-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.1.0.tgz",
+			"sha": "0897e388d45d494ad9855e8134a83ead621030f2",
+			"registry": "npmjs"
+		},
+		"lory.js-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.1.1.tgz",
+			"sha": "42262fdadda5490ca47941827d5c236c549dc814",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.0.tgz",
+			"sha": "11e9eeb66f8a62bc9728ec5cf744b81b7f8376c2",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.1.tgz",
+			"sha": "8dc2c0a8256fa6e27c5447be225ce6324c4ede03",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.2.tgz",
+			"sha": "2eaeb4522758af591e95a03ac6b41e3011cd70ee",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.3.tgz",
+			"sha": "3fc9be88c0bf144ba1781a07a34afe117959d5ed",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.4.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.4.tgz",
+			"sha": "56d25cba9cd9476901e72effa0dffa140c7156a1",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.5.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.5.tgz",
+			"sha": "6ebb57331a5911a360c0038119ca9e909b16de2d",
+			"registry": "npmjs"
+		},
+		"lory.js-1.2.6.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.2.6.tgz",
+			"sha": "cb242f54e0d8d250ec3bc7e0bfa73c87eca8bae7",
+			"registry": "npmjs"
+		},
+		"lory.js-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.3.0.tgz",
+			"sha": "95e5e0c1b725188721819f4daec9f88c04c10220",
+			"registry": "npmjs"
+		},
+		"lory.js-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.0.tgz",
+			"sha": "a0c18708b94cdcc553fdb7b29b23bbebf12c00f2",
+			"registry": "npmjs"
+		},
+		"lory.js-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.1.tgz",
+			"sha": "e1b73ec2b1542b0523237251ed8e99e37647450d",
+			"registry": "npmjs"
+		},
+		"lory.js-1.4.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.2.tgz",
+			"sha": "42e0489346ed78600b7c52ba4b3bcd919b51c3dd",
+			"registry": "npmjs"
+		},
+		"lory.js-1.4.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.4.3.tgz",
+			"sha": "142010c25ae5238d5488e73e0aaf8bc40851d271",
+			"registry": "npmjs"
+		},
+		"lory.js-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.0.tgz",
+			"sha": "ac4cd35255b29b0f7e1c9ab5fa18be57c7571b15",
+			"registry": "npmjs"
+		},
+		"lory.js-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.1.tgz",
+			"sha": "a55b1582b3f0eb30253b68d9b29542edf7f84b3b",
+			"registry": "npmjs"
+		},
+		"lory.js-1.5.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.5.2.tgz",
+			"sha": "8d1320f3aaa688a9d9a8792c2f30bde0c62abcce",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.0.tgz",
+			"sha": "7be9f8c9cac0077d3a3eae579dbd80a6acabf0d6",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.1.tgz",
+			"sha": "4f14ec68030193b4e38fb362075d46796dafbdeb",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.2.tgz",
+			"sha": "52dc843cce6b57a4a2588da9b5d17e72823a6bbc",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.3.tgz",
+			"sha": "3189758e34060f367bc2ada95be2e2037fcd122a",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.4.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.4.tgz",
+			"sha": "f5956fb5ba1050dc5a0ae82d51a4760a24b9df18",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.5.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.5.tgz",
+			"sha": "f0addadc5a574708955a5235b25f1795947fc237",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.6.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.6.tgz",
+			"sha": "184996b098bd8a5aa2bc2c883833f103e3c4cebd",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.7.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.7.tgz",
+			"sha": "bc9f401bdf5221ba872e7e20fcbafb880a94e0fa",
+			"registry": "npmjs"
+		},
+		"lory.js-1.6.8.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-1.6.8.tgz",
+			"sha": "03e658b96900dc87d8efdad0d17d15b9e116bf1c",
+			"registry": "npmjs"
+		},
+		"lory.js-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.0.0.tgz",
+			"sha": "83c416ee4032b56f5b15fd4c14b5eaa482510f44",
+			"registry": "npmjs"
+		},
+		"lory.js-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.0.1.tgz",
+			"sha": "8b4cc34dc0775136f397dbe6d00adfa3722bb43e",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.0.tgz",
+			"sha": "d35fbf862a0f81079a47754d2e346f67dfbffa1b",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.1.tgz",
+			"sha": "8f65fbd7327b863849d0bc54a75cf20e72234987",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.2.tgz",
+			"sha": "1a414247c00dcd1ee797843c82a08ee7c17e5160",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.3.tgz",
+			"sha": "410a7e463017afae109194d146dc9e6b67a53ba9",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.4.tgz",
+			"sha": "1763361c7a4ec64c30c114632cbe8337ce0ad4d2",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.5.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.5.tgz",
+			"sha": "76257b57c84713a4d4fd9b8c34820257268fa24c",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.6.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.6.tgz",
+			"sha": "cf4926df24ff1cd7dfb25ecbfff817591447b1c6",
+			"registry": "npmjs"
+		},
+		"lory.js-2.1.7.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.1.7.tgz",
+			"sha": "72fc35c54c1047aef8a50956b9ea84da5694c7cd",
+			"registry": "npmjs"
+		},
+		"lory.js-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.2.0.tgz",
+			"sha": "ebc3d2f5dcf2f41690630481876f3846bf89388a",
+			"registry": "npmjs"
+		},
+		"lory.js-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/lory.js/-/lory.js-2.2.1.tgz",
+			"sha": "e45ff82f1e403ee9df5e9c01b31636a09f45a743",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59358a2d-242c5\"",
+			"fetched": 1501276764926
+		}
+	},
+	"_rev": "1-ffe5de264efc81c8",
+	"readme": "\n<p align=\"center\">\n  <img src=\"./static/lory.png\" width=\"200px\" />\n</p>\n\nPlease visit: [http://meandmax.github.io/lory/](http://meandmax.github.io/lory/ \"lory\")\n\n> Touch enabled minimalistic slider written in vanilla JavaScript.\n\n[![license](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/meandmax/lory/master/LICENSE)\n[![npm](http://img.shields.io/npm/v/lory.js.svg?style=flat)](https://www.npmjs.com/package/lory.js)\n\n[![build](http://img.shields.io/travis/meandmax/lory/master.svg?style=flat)](https://travis-ci.org/meandmax/lory)\n[![code climate](http://img.shields.io/codeclimate/github/meandmax/lory.svg?style=flat)](https://codeclimate.com/github/meandmax/lory)\n[![devDependencies](http://img.shields.io/david/dev/meandmax/lory.svg?style=flat)](https://david-dm.org/meandmax/lory#info=devDependencies&view=table)\n[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)\n\n[![Join the chat at https://gitter.im/meandmax/lory](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/meandmax/lory?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/meandmax.svg)](https://saucelabs.com/u/meandmax)\n\n## Download\n\nlory is released under the MIT license & supports modern environments.\nThere is also a prebundled CDN version which you can use.\n\n####  Vanilla JavaScript: https://cdnjs.cloudflare.com/ajax/libs/lory.js/2.2.0/lory.min.js\n#### jQuery plugin: https://cdnjs.cloudflare.com/ajax/libs/lory.js/2.2.0/jquery.lory.min.js\n\n## Install with node:\n\n```\nnpm install --save lory.js\n```\n\n## Consume it as an ES2015 module:\n\n```js\n    import {lory} from 'lory.js';\n\n    document.addEventListener('DOMContentLoaded', () => {\n        const slider = document.querySelector('.js_slider');\n\n        lory(slider, {\n            // options going here\n        });\n    });\n```\n\n## Consume it as an commonJS module:\n\n```js\n    var lory = require('lory.js').lory;\n\n    document.addEventListener('DOMContentLoaded', function() {\n        var slider = document.querySelector('.js_slider');\n\n        lory(slider, {\n            // options going here\n        });\n    });\n```\n\n## Install with bower\n\n```\nbower install lory --save\n```\n\n## Local development\n\n```\n// To install dev dependencies run:\n\nnpm install\n\n// To start the development server run:\n\nnpm run dev\n\n// To lint your code run:\n\nnpm run lint\n\n// To make a full new build run:\n\nnpm run build\n```\n\n## Run tests\n\n```\n// To install dev dependencies run:\n\nnpm install\n\n// To start the karma tests locally run:\n\nnpm run karma-local\n```\n\n<p align=\"center\">\n  <img src=\"./static/tests.png\" />\n</p>\n\n## Prerequisited markup\n\n```html\n<div class=\"slider js_slider\">\n    <div class=\"frame js_frame\">\n        <ul class=\"slides js_slides\">\n            <li class=\"js_slide\">1</li>\n            <li class=\"js_slide\">2</li>\n            <li class=\"js_slide\">3</li>\n            <li class=\"js_slide\">4</li>\n            <li class=\"js_slide\">5</li>\n            <li class=\"js_slide\">6</li>\n        </ul>\n    </div>\n</div>\n```\n\n## Prerequisited css\n\n```css\n/**\n * (optional) define here the style definitions which should be applied on the slider container\n * e.g. width including further controls like arrows etc.\n */\n.slider {}\n\n.frame {\n    /**\n     * (optional) wrapper width, specifies width of the slider frame.\n     */\n    width: 880px;\n\n    position: relative;\n    font-size: 0;\n    line-height: 0;\n    overflow: hidden;\n    white-space: nowrap;\n}\n\n.slides {\n    display: inline-block;\n}\n\nli {\n    position: relative;\n    display: inline-block;\n\n    /**\n     * (optional) if the content inside the slide element has a defined size.\n     */\n    width: 880px;\n}\n```\n\n## Integration\n\n```js\n<script src=\"js/lory.min.js\"></script>\n<script>\n    'use strict';\n\n    document.addEventListener('DOMContentLoaded', function() {\n        var slider = document.querySelector('.js_slider');\n\n        lory(slider, {\n            // options going here\n        });\n    });\n</script>\n```\n\n## Integration as a jQuery Plugin\n\n```js\n<script src=\"dist/jquery.lory.js\"></script>\n<script>\n    'use strict';\n\n    $(function() {\n        $('.js_slider').lory({\n            infinite: 1\n        });\n    });\n</script>\n```\n\n## Integration of multiple sliders on one page\n\n```javascript\n<script src=\"dist/lory.js\"></script>\n<script>\n    'use strict';\n\n    document.addEventListener('DOMContentLoaded', function() {\n        Array.prototype.slice.call(document.querySelectorAll('.js_slider')).forEach(function (element, index) {\n            lory(element, {});\n        });\n    });\n</script>\n```\n\n# Public API\n\n<table>\n    <tr>\n        <td>prev</td>\n        <td>slides to the previous slide</td>\n    </tr>\n    <tr>\n        <td>next</td>\n        <td>slides to the next slide</td>\n    </tr>\n    <tr>\n        <td>slideTo</td>\n        <td>slides to the index given as an argument: (arguments: index {number})</td>\n    </tr>\n    <tr>\n        <td>returnIndex</td>\n        <td>returns the index of the current slide element</td>\n    </tr>\n    <tr>\n        <td>setup</td>\n        <td>Binds eventlisteners, merging default and user options, setup the slides based on DOM (called once during initialisation). Call setup if DOM or user options have changed or eventlisteners needs to be rebinded.</td>\n    </tr>\n    <tr>\n        <td>reset</td>\n        <td>sets the slider back to the starting position and resets the current index (called on Resize event)</td>\n    </tr>\n    <tr>\n        <td>destroy</td>\n        <td>destroys the lory instance by removing all lory specific event listeners</td>\n    </tr>\n</table>\n\n## Options\n\n<table>\n    <tr>\n        <td>slidesToScroll</td>\n        <td>slides scrolled at once</td>\n        <td>default: 1</td>\n    </tr>\n    <tr>\n        <td>infinite</td>\n        <td>like carousel, works with multiple slides. (do not combine with rewind)</td>\n        <td>default: false (number of visible slides)</td>\n    </tr>\n    <tr>\n        <td>enableMouseEvents</td>\n        <td>enabled mouse events</td>\n        <td>default: false</td>\n    </tr>\n    <tr>\n        <td>rewind</td>\n        <td>if slider reached the last slide, with next click the slider goes back to the startindex. (do not combine with infinite)</td>\n        <td>default: false</td>\n    </tr>\n    <tr>\n        <td>slideSpeed</td>\n        <td>time in milliseconds for the animation of a valid slide attempt</td>\n        <td>default: 300</td>\n    </tr>\n    <tr>\n        <td>rewindSpeed</td>\n        <td>time in milliseconds for the animation of the rewind after the last slide</td>\n        <td>default: 600</td>\n    </tr>\n    <tr>\n        <td>snapBackSpeed</td>\n        <td>time for the snapBack of the slider if the slide attempt was not valid</td>\n        <td>default: 200</td>\n    </tr>\n    <tr>\n        <td>ease</td>\n        <td>cubic bezier easing functions: http://easings.net/de</td>\n        <td>default: 'ease'</td>\n    </tr>\n    <tr>\n        <td>classNameFrame</td>\n        <td>class name for slider frame</td>\n        <td>default: 'js_frame'</td>\n    </tr>\n    <tr>\n        <td>classNameSlideContainer</td>\n        <td>class name for slides container</td>\n        <td>default: 'js_slides'</td>\n    </tr>\n    <tr>\n        <td>classNamePrevCtrl</td>\n        <td>class name for slider previous control</td>\n        <td>default: 'js_prev'</td>\n    </tr>\n    <tr>\n        <td>classNameNextCtrl</td>\n        <td>class name for slider next control</td>\n        <td>default: 'js_next'</td>\n    </tr>\n</table>\n\n## Events\n\n<table>\n    <tr>\n        <td>before.lory.init</td>\n        <td>fires before initialisation (first in setup function)</td>\n    </tr>\n    <tr>\n        <td>after.lory.init</td>\n        <td>fires after initialisation (end of setup function)</td>\n    </tr>\n    <tr>\n        <td>before.lory.slide</td>\n        <td>fires before slide change | <strong>arguments:</strong> currentSlide, nextSlide</td>\n    </tr>\n    <tr>\n        <td>after.lory.slide</td>\n        <td>fires after slide change | <strong>arguments:</strong> currentSlide</td>\n    </tr>\n    <tr>\n        <td>on.lory.resize</td>\n        <td>fires on every resize event</td>\n    </tr>\n    <tr>\n        <td>on.lory.touchstart</td>\n        <td>fires on every slider touchstart event</td>\n    </tr>\n    <tr>\n        <td>on.lory.touchmove</td>\n        <td>fires on every slider touchmove event</td>\n    </tr>\n    <tr>\n        <td>on.lory.touchend</td>\n        <td>fires on every slider touchend event</td>\n    </tr>\n    <tr>\n        <td>on.lory.destroy</td>\n        <td>fires when the slider instance gets destroyed</td>\n    </tr>\n</table>\n\n## Browser Support\n\n* Chrome\n* Safari\n* FireFox\n* Opera\n* Internet Explorer 10+\n\n* Internet Explorer 9 (graceful, without transitions + classlistp)\n    - graceful, without transitions\n    - you need to polyfill classlist (https://github.com/eligrey/classList.js/)\n\n## Copyright\n\nCopyright &copy; 2015 Maximilian Heinz, contributors. Released under the MIT License\n"
+}

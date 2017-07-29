@@ -1,0 +1,689 @@
+{
+	"name": "starability",
+	"versions": {
+		"1.0.1-rc.1": {
+			"name": "starability",
+			"version": "1.0.1-rc.1",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "06cf9e8930b9aa8adb4e6050ebd3e0513ea7093c",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability",
+			"_id": "starability@1.0.1-rc.1",
+			"scripts": {},
+			"_shasum": "046b1ded1526bff4f94041f5e89ade3b3a5900e8",
+			"_from": ".",
+			"_npmVersion": "2.5.1",
+			"_nodeVersion": "0.12.0",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "046b1ded1526bff4f94041f5e89ade3b3a5900e8",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.0.1-rc.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/starability-1.0.1-rc.1.tgz_1464624414352_0.974198094336316"
+			},
+			"directories": {}
+		},
+		"1.0.2-rc.1": {
+			"name": "starability",
+			"version": "1.0.2-rc.1",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "7a98e5136ddf4b2d9a9b38f10a8033a71691b801",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.0.2-rc.1",
+			"scripts": {},
+			"_shasum": "97e35f113dc81c9b58be542743213cf1ba3582af",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "97e35f113dc81c9b58be542743213cf1ba3582af",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.0.2-rc.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/starability-1.0.2-rc.1.tgz_1465640584882_0.29207970085553825"
+			},
+			"directories": {}
+		},
+		"1.0.3-rc.1": {
+			"name": "starability",
+			"version": "1.0.3-rc.1",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "3bc47c67d2e89f1c1355469a51be1f2aa21bf19a",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.0.3-rc.1",
+			"scripts": {},
+			"_shasum": "c66a30794088129dd93f5403c4874710f3214605",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "c66a30794088129dd93f5403c4874710f3214605",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.0.3-rc.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/starability-1.0.3-rc.1.tgz_1466610526353_0.2582797324284911"
+			},
+			"directories": {}
+		},
+		"1.0.4-rc.1": {
+			"name": "starability",
+			"version": "1.0.4-rc.1",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "5260cc103ea772ac134212191a500ad051eeeddc",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.0.4-rc.1",
+			"scripts": {},
+			"_shasum": "31ced4be955dea1ec4342083ed4429118cd4b78f",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "31ced4be955dea1ec4342083ed4429118cd4b78f",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.0.4-rc.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/starability-1.0.4-rc.1.tgz_1467121083024_0.608894610311836"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "starability",
+			"version": "1.0.5",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "27d54692df0754cf846731af601542fb71c845cf",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.0.5",
+			"scripts": {},
+			"_shasum": "5419145ec7d57dd169db353089acae19cffd05e0",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "5419145ec7d57dd169db353089acae19cffd05e0",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/starability-1.0.5.tgz_1470143933411_0.6480503778439015"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "starability",
+			"version": "1.1.0",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "4d5e8dfdcf1a096c9fceae086a767b2b38cb21c2",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.1.0",
+			"scripts": {},
+			"_shasum": "08652406635328d855d44dda50b43e423dd44e44",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "08652406635328d855d44dda50b43e423dd44e44",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/starability-1.1.0.tgz_1485964512012_0.8043744985479861"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "starability",
+			"version": "1.1.1",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "67739c620c960b9e79fc19ccafda55f518755c39",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.1.1",
+			"scripts": {},
+			"_shasum": "879cfc39e58cfd47278f0bda74f5227ad251d72f",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "879cfc39e58cfd47278f0bda74f5227ad251d72f",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/starability-1.1.1.tgz_1486036349229_0.2436435124836862"
+			},
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "starability",
+			"version": "1.3.0",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "f3b34818d6b704465278f69dde506c78a6a6f444",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.3.0",
+			"scripts": {},
+			"_shasum": "e7a2ee8e6374edae59cb8e019f8edf4cb57db4db",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "e7a2ee8e6374edae59cb8e019f8edf4cb57db4db",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/starability-1.3.0.tgz_1487067542529_0.44426803500391543"
+			},
+			"directories": {}
+		},
+		"1.3.2": {
+			"name": "starability",
+			"version": "1.3.2",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "03e85e9cd772e4d51a6c442e9cbe22c342d38695",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@1.3.2",
+			"scripts": {},
+			"_shasum": "991f30e9e8d532b0fe78168b07c240330657d587",
+			"_from": ".",
+			"_npmVersion": "3.9.3",
+			"_nodeVersion": "6.2.1",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "991f30e9e8d532b0fe78168b07c240330657d587",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-1.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/starability-1.3.2.tgz_1487071103631_0.0910811829380691"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "starability",
+			"version": "2.0.0",
+			"description": "Starability.css is an accessible rating system with cute animations on top. No JavaScript included.",
+			"main": "./starability-css/starability-all.css",
+			"author": {
+				"name": "Anna Migas",
+				"email": "amjmigas@gmail.com"
+			},
+			"keywords": [
+				"rating",
+				"accessibility",
+				"css",
+				"sass",
+				"scss",
+				"animations"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LunarLogic/starability.git"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"gulp": "^3.9.1",
+				"gulp-autoprefixer": "^3.1.0",
+				"gulp-cssnano": "^2.1.2",
+				"gulp-rename": "^1.2.2",
+				"gulp-sass": "^2.3.1",
+				"run-sequence": "^1.1.5"
+			},
+			"gitHead": "d4c2d3e56b2ce9f030ac12fd12cc0f3cb210a2c2",
+			"bugs": {
+				"url": "https://github.com/LunarLogic/starability/issues"
+			},
+			"homepage": "https://github.com/LunarLogic/starability#readme",
+			"_id": "starability@2.0.0",
+			"scripts": {},
+			"_shasum": "804dce6ee5121b279141177e4876639e5605cb68",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.0",
+			"_npmUser": {
+				"name": "lunarlogic",
+				"email": "info@lunarlogic.io"
+			},
+			"dist": {
+				"shasum": "804dce6ee5121b279141177e4876639e5605cb68",
+				"tarball": "https://registry.npmjs.org/starability/-/starability-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "lunarlogic",
+					"email": "info@lunarlogic.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/starability-2.0.0.tgz_1497270880077_0.4495151119772345"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_distfiles": {
+		"starability-1.0.1-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.0.1-rc.1.tgz",
+			"sha": "046b1ded1526bff4f94041f5e89ade3b3a5900e8",
+			"registry": "npmjs"
+		},
+		"starability-1.0.2-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.0.2-rc.1.tgz",
+			"sha": "97e35f113dc81c9b58be542743213cf1ba3582af",
+			"registry": "npmjs"
+		},
+		"starability-1.0.3-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.0.3-rc.1.tgz",
+			"sha": "c66a30794088129dd93f5403c4874710f3214605",
+			"registry": "npmjs"
+		},
+		"starability-1.0.4-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.0.4-rc.1.tgz",
+			"sha": "31ced4be955dea1ec4342083ed4429118cd4b78f",
+			"registry": "npmjs"
+		},
+		"starability-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.0.5.tgz",
+			"sha": "5419145ec7d57dd169db353089acae19cffd05e0",
+			"registry": "npmjs"
+		},
+		"starability-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.1.0.tgz",
+			"sha": "08652406635328d855d44dda50b43e423dd44e44",
+			"registry": "npmjs"
+		},
+		"starability-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.1.1.tgz",
+			"sha": "879cfc39e58cfd47278f0bda74f5227ad251d72f",
+			"registry": "npmjs"
+		},
+		"starability-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.3.0.tgz",
+			"sha": "e7a2ee8e6374edae59cb8e019f8edf4cb57db4db",
+			"registry": "npmjs"
+		},
+		"starability-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-1.3.2.tgz",
+			"sha": "991f30e9e8d532b0fe78168b07c240330657d587",
+			"registry": "npmjs"
+		},
+		"starability-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/starability/-/starability-2.0.0.tgz",
+			"sha": "804dce6ee5121b279141177e4876639e5605cb68",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"593e8a61-5965\"",
+			"fetched": 1501276764535
+		}
+	},
+	"_rev": "1-fa72ce01f0dc6998",
+	"readme": "# Starability.css - Accessible rating with animations on top\n\nAccessible rating forms with cute animations on top. The name is the combination of two words: star and accessibility (or ability in general, whatever pleases you). Starability ratings are made with HTML, CSS (no JavaScript), and are accessible by keyboard, so even people using screen readers are able to use them. To achieve this effect I am using the sibling combinators technique that was introduced by [Lea Verou](http://lea.verou.me) in [\"Accessible star rating widget with pure CSS\" blogpost](http://lea.verou.me/2011/08/accessible-star-rating-widget-with-pure-css/), but it is bit upgraded: does not rely on a reverse order of the inputs, what makes it even more accessible. The goal of this small library was to combine the Lea's technique with neat animations and make it easy to quickly use it on your website.\n\n**Remember:** to submit the data you will need to add a bit of your own code. Here we have just a fieldset with a collection of radio buttons, neatly styled.\n\n**Important:** The library does not rely on a reverse order of inputs any more. This means that the issue with the keyboard arrows moving in a reverse direction is no longer there. It is strongly advised to update the HTML structure in your project, although the updated CSS doesn't break the functionality even for [the previous version of HTML markup](https://github.com/LunarLogic/starability/blob/f3b34818d6b704465278f69dde506c78a6a6f444/README.md#how-to-use).\n\n## Demo\n\n[You can check how Starability.css looks here.](http://lunarlogic.github.io/starability/)\n\n## Folder Structure\n\n**This step by step tutorial is based on an assumption that project directory structure looks as follows:**\n\n* index.html\n* /css\n  * css file with chosen rating (eg.: starability-fade.min.css)\n\nIf you have a different file structure, remember to update file path for CSS stylesheet links (in HTML `<head>`).\n\n## How to use\n\n1. [Copy the structure of HTML](https://github.com/LunarLogic/starability/blob/master/index.html) (fieldset and insides), to make sure the styles work correctly.  If you want more than one rating widget on the same page, remember that the **id's need to be different for each radio buttons collection**:\n\n    ```html\n\n    <fieldset class=\"starability-basic\">\n      <legend>First rating:</legend>\n      <input type=\"radio\" id=\"first-rate1\" name=\"rating\" value=\"1\" />\n      <label for=\"first-rate1\" title=\"Terrible\">1 star</label>\n      <input type=\"radio\" id=\"first-rate2\" name=\"rating\" value=\"2\" />\n      <label for=\"first-rate2\" title=\"Not good\">2 stars</label>\n      <input type=\"radio\" id=\"first-rate3\" name=\"rating\" value=\"3\" />\n      <label for=\"first-rate3\" title=\"Average\">3 stars</label>\n      <input type=\"radio\" id=\"first-rate4\" name=\"rating\" value=\"4\" />\n      <label for=\"first-rate4\" title=\"Very good\">4 stars</label>\n      <input type=\"radio\" id=\"first-rate5\" name=\"rating\" value=\"5\" />\n      <label for=\"first-rate5\" title=\"Amazing\">5 stars</label>\n    </fieldset>\n\n    <fieldset class=\"starability-basic\">\n      <legend>First rating:</legend>\n      <input type=\"radio\" id=\"second-rate1\" name=\"rating\" value=\"1\" />\n      <label for=\"second-rate1\" title=\"Terrible\">1 star</label>\n      <input type=\"radio\" id=\"second-rate2\" name=\"rating\" value=\"2\" />\n      <label for=\"second-rate2\" title=\"Not good\">2 stars</label>\n      <input type=\"radio\" id=\"second-rate3\" name=\"rating\" value=\"3\" />\n      <label for=\"second-rate3\" title=\"Average\">3 stars</label>\n      <input type=\"radio\" id=\"second-rate4\" name=\"rating\" value=\"4\" />\n      <label for=\"second-rate4\" title=\"Very good\">4 stars</label>\n      <input type=\"radio\" id=\"second-rate5\" name=\"rating\" value=\"5\" />\n      <label for=\"second-rate5\" title=\"Amazing\">5 stars</label>\n    </fieldset>\n    ```\n\n\n2. Add a stylesheet with a name of an animation that works best for your app name inside your website's <head> element. There are [the minified versions](https://github.com/LunarLogic/starability/tree/master/starability-minified) or [standard CSS files](https://github.com/LunarLogic/starability/tree/master/starability-css). Let's say we want a fading animation:\n\n    ```html\n    <head>\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"css/starability-fade.min.css\"/>\n    </head>\n    ```\n\n    If you wish to use more than one animation per website (though better stick to one!), you can include the file with all of the animations combined:\n\n    ```html\n    <head>\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"css/starability-all.min.css\"/>\n    </head>\n    ```\n\n\n3. Add the chosen rating version class name to the fieldset element in your HTML. For our fading animation you would have to add the `.starability-fade` class:\n\n    ```html\n    <fieldset class=\"starability-fade\">\n    ```\n\n## List of rating animations\n\nFor now you can choose one of the animations listed below. Go to the [demo](http://lunarlogic.github.io/starability/) to see how they look.\n\n  - starability-basic\n  - starability-slot\n  - starability-grow\n  - starability-growRotate\n  - starability-fade\n  - starability-checkmark\n  - starability-heart\n  - starability-heartbeat\n\n## Supported browsers\n\nStarability.css works in IE10+ and all modern browsers. If you want to support browsers below IE10, you should disable animations for them, for example by using [Modernizr](https://modernizr.com/).\n\n## Disabling hover action\n\nThis rating system by default reacts to `:hover`, changing the background image position. This is an operation that causes repaints. If you want to make your website as light as possible, you can remove declaration that will highlight stars on hover:\n\n```css\n.starability-fade > input:hover ~ label {\n  background-position: 0 -30px;\n}\n```\n\n## Showing the static rating result\n\nYou can add the static results of the rating anywhere you need it. To indicate how many stars were added, change the `data-rating` value on an element with the `starability-result` class. Please note, that this supports only integer numbers. If you wish to show the results as the float numbers, you might need to use other solution.\n\n```html\n  <p id=\"rated-element\">Rated element name</p>\n  <div class=\"starability-result\" data-rating=\"3\" aria-describedby=\"rated-element\">\n    3 stars\n  </div>\n```\n\n## Further customisation with SASS\n\nIf you are well-versed with SASS, you can easily adjust rating widget to your needs, e.g. have a 10-star based system or turn off outline and hover. It can be done by setting `true`/`false` values to the variables in the [_variables.scss file](https://github.com/LunarLogic/starability/blob/master/starability-scss/_variables.scss) and running the gulp task to process the files. Of course, to have a 10-stars system you also need add additional radio inputs in your HTML.\n\nIf you are not using SCSS syntax, you can also have a 10-star based system. Just remember to change the width of the fieldset element in your CSS, so that the stars would all fit it (for example for 10 stars, the width of fieldset should be 10x the width of a star, so 300px).\n\n## Changelog\n\nCheck what was changed in the newest version in the [Changelog](https://github.com/LunarLogic/starability/blob/master/CHANGELOG.md).\n\n## License\n\nThe library is [licensed](https://github.com/LunarLogic/starability/blob/master/LICENSE) under [The MIT License (MIT)](http://choosealicense.com/licenses/mit/).\n\nGo to the [Lunar Logic website](http://www.lunarlogic.io/) to learn more [about us](http://www.lunarlogic.io/company) and [our work](http://www.lunarlogic.io/portfolio).\n"
+}

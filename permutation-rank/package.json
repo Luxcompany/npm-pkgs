@@ -1,0 +1,262 @@
+{
+	"name": "permutation-rank",
+	"versions": {
+		"0.0.0": {
+			"name": "permutation-rank",
+			"version": "0.0.0",
+			"description": "Ranks and unranks permutations",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"invert-permutation": "~0.0.0"
+			},
+			"devDependencies": {
+				"tap": "~0.4.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/permutation-rank.git"
+			},
+			"keywords": [
+				"permutation",
+				"rank",
+				"unrank",
+				"order",
+				"compare",
+				"sort"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "878988862d074ad307eed0a60928810e62aeb792",
+			"_id": "permutation-rank@0.0.0",
+			"dist": {
+				"shasum": "3c103a40cc13a306c02864c10a2e5927f520363d",
+				"tarball": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.0.0.tgz"
+			},
+			"_npmVersion": "1.1.69",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.0": {
+			"name": "permutation-rank",
+			"version": "0.1.0",
+			"description": "Ranks and unranks permutations",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"invert-permutation": "~0.1.0",
+				"typedarray-pool": "~0.1.1"
+			},
+			"devDependencies": {
+				"tap": "~0.4.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/permutation-rank.git"
+			},
+			"keywords": [
+				"permutation",
+				"rank",
+				"unrank",
+				"order",
+				"compare",
+				"sort",
+				"group"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "878988862d074ad307eed0a60928810e62aeb792",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/permutation-rank/issues"
+			},
+			"_id": "permutation-rank@0.1.0",
+			"dist": {
+				"shasum": "a6347f28353ab607c8228eaf9390becce5b1fd7e",
+				"tarball": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.1": {
+			"name": "permutation-rank",
+			"version": "0.1.1",
+			"description": "Ranks and unranks permutations",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"invert-permutation": "~0.1.0",
+				"typedarray-pool": "~0.1.1"
+			},
+			"devDependencies": {
+				"tap": "~0.4.0"
+			},
+			"scripts": {
+				"test": "tap test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/permutation-rank.git"
+			},
+			"keywords": [
+				"permutation",
+				"rank",
+				"unrank",
+				"order",
+				"compare",
+				"sort",
+				"group"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "878988862d074ad307eed0a60928810e62aeb792",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/permutation-rank/issues"
+			},
+			"_id": "permutation-rank@0.1.1",
+			"dist": {
+				"shasum": "a02d3996d16129d2ed5d4e57e97b8020f1c5139c",
+				"tarball": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "permutation-rank",
+			"version": "1.0.0",
+			"description": "Ranks and unranks permutations",
+			"main": "index.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"invert-permutation": "^1.0.0",
+				"typedarray-pool": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/permutation-rank.git"
+			},
+			"keywords": [
+				"permutation",
+				"rank",
+				"unrank",
+				"order",
+				"compare",
+				"sort",
+				"group"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "878988862d074ad307eed0a60928810e62aeb792",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/permutation-rank/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/permutation-rank",
+			"_id": "permutation-rank@1.0.0",
+			"dist": {
+				"shasum": "9fd98bbcecf08fbf5994b5eadc94a62e679483b5",
+				"tarball": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"permutation-rank-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.0.0.tgz",
+			"sha": "3c103a40cc13a306c02864c10a2e5927f520363d",
+			"registry": "npmjs"
+		},
+		"permutation-rank-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.1.0.tgz",
+			"sha": "a6347f28353ab607c8228eaf9390becce5b1fd7e",
+			"registry": "npmjs"
+		},
+		"permutation-rank-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-0.1.1.tgz",
+			"sha": "a02d3996d16129d2ed5d4e57e97b8020f1c5139c",
+			"registry": "npmjs"
+		},
+		"permutation-rank-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/permutation-rank/-/permutation-rank-1.0.0.tgz",
+			"sha": "9fd98bbcecf08fbf5994b5eadc94a62e679483b5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5554cf5d-195a\"",
+			"fetched": 1501276748190
+		}
+	},
+	"_rev": "1-c62693c8d2964aa7",
+	"readme": "permutation-rank\n================\nRanks and unranks permutations.  Based on the following paper:\n\nW. Myrvold, F. Ruskey. (2000) \"[Ranking and Unranking Permutations in Linear Time](http://webhome.cs.uvic.ca/~ruskey/Publications/RankPerm/RankPerm.html)\". Information Processing Letters.  \n\nUsage\n=====\nFirst install using npm:\n\n    npm install permutation-rank\n\nThen you can use it like this:\n\n```javascript\nvar prank = require(\"permutation-rank\")\nvar perm = [0,3,1,2]\nvar r = prank.rank(perm)\nconsole.log(\"r = \", r)\nvar u = prank.unrank(perm.length, r)\nconsole.log(\"u = \", u)\n\n//Prints:\n//        r =  15\n//        u =  [ 0, 3, 1, 2 ]\n```\n\n`prank.rank(permutation)`\n-----------------------------------------------\nComputes an integer representing the colexicographic rank of the permutation\n\n* `permutation` is an array encoding some permutation\n\n**Returns** An integer representing the ranked encoding of the permutation\n\n\n`prank.unrank(length, rank[, result])`\n--------------------------------------------------\nComputes a permutation from a rank order with the given length\n\n* `length` is the length of the permuation\n* `rank` is the index of the permutation\n* `result` is an optional argument which stores the result of the inversion\n\n**Returns** The permutation at the given rank\n\nCredits\n=======\n(c) 2013 Mikola Lysenko. MIT License"
+}

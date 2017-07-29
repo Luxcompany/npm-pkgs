@@ -1,0 +1,79 @@
+{
+	"name": "robust-compress",
+	"versions": {
+		"1.0.0": {
+			"name": "robust-compress",
+			"version": "1.0.0",
+			"description": "Compress a robust sequence",
+			"main": "compress.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"robust-scale": "^1.0.2",
+				"robust-sequence-to-fixed-point": "^2.0.0",
+				"tape": "^2.12.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/robust-compress.git"
+			},
+			"keywords": [
+				"robust",
+				"predicate",
+				"floating",
+				"point",
+				"normalize",
+				"compress"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/robust-compress/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/robust-compress",
+			"_id": "robust-compress@1.0.0",
+			"dist": {
+				"shasum": "4cf62c4b318d8308516012bb8c11752f39329b1b",
+				"tarball": "https://registry.npmjs.org/robust-compress/-/robust-compress-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"robust-compress-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/robust-compress/-/robust-compress-1.0.0.tgz",
+			"sha": "4cf62c4b318d8308516012bb8c11752f39329b1b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53691dc5-a74\"",
+			"fetched": 1501276742219
+		}
+	},
+	"_rev": "1-64ef5a230d0407d0",
+	"readme": "robust-compress\n===============\nQuickly compress a non-overlapping increasing sequence.  This does not normalize the sequence, but can be useful in some situations.  Based on the algorithm in:\n\nJonathan Shewchuk, [\"Adaptive precision floating-point arithmetic and fast robust predicates for computational geometry\"](http://www.cs.cmu.edu/~quake/robust.html)\n\n# Example\n\n```javascript\nvar compress = require(\"robust-compress\")\n\nvar seq = [1, 2]\n\ncompress(seq)\n\nconsole.log(seq)\n```\n\nOutput:\n\n```javascript\n[ 3 ]\n```\n\n# Install\n\n```\nnpm install robust-compress\n```\n\n# API\n\n#### `require(\"robust-compress\")(seq)`\nApproximately compress a non-overlapping increasing floating point expansion in place.\n\n* `seq` is a robust sequence\n\n**Returns** `seq`\n\n**Note** This method updates `seq` in place\n\n# Credits\n(c) 2014 Mikola Lysenko.  MIT License"
+}

@@ -1,0 +1,261 @@
+{
+	"name": "convex-hull",
+	"versions": {
+		"1.0.0": {
+			"name": "convex-hull",
+			"version": "1.0.0",
+			"description": "Any dimensional convex hull",
+			"main": "ch.js",
+			"dependencies": {
+				"monotone-convex-hull-2d": "^1.0.1",
+				"incremental-convex-hull": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^2.13.1"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/convex-hull.git"
+			},
+			"keywords": [
+				"convex",
+				"hull",
+				"any",
+				"dimension"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/convex-hull/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/convex-hull",
+			"gitHead": "e1f4e8d0d089c11622ecb29fbd3b8a167b688b0f",
+			"_id": "convex-hull@1.0.0",
+			"_shasum": "17a13d46201732c8005a1cd0350b77f7d17475a4",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "17a13d46201732c8005a1cd0350b77f7d17475a4",
+				"tarball": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "convex-hull",
+			"version": "1.0.1",
+			"description": "Any dimensional convex hull",
+			"main": "ch.js",
+			"dependencies": {
+				"monotone-convex-hull-2d": "^1.0.1",
+				"incremental-convex-hull": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^2.13.1"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/convex-hull.git"
+			},
+			"keywords": [
+				"convex",
+				"hull",
+				"any",
+				"dimension"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/convex-hull/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/convex-hull",
+			"gitHead": "18598b4cacd660b6083cd8131b00493e0056a100",
+			"_id": "convex-hull@1.0.1",
+			"_shasum": "3df330bd1c5afb4cb3aeadefa054f097e30b06a0",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3df330bd1c5afb4cb3aeadefa054f097e30b06a0",
+				"tarball": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "convex-hull",
+			"version": "1.0.2",
+			"description": "Any dimensional convex hull",
+			"main": "ch.js",
+			"dependencies": {
+				"affine-hull": "^1.0.0",
+				"incremental-convex-hull": "^1.0.1",
+				"monotone-convex-hull-2d": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/convex-hull.git"
+			},
+			"keywords": [
+				"convex",
+				"hull",
+				"any",
+				"dimension"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/convex-hull/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/convex-hull",
+			"gitHead": "138b4fffd3913aaa71f292d17f9030720b7f6c14",
+			"_id": "convex-hull@1.0.2",
+			"_shasum": "4f402ab781053562faeb2f70067ab71788483af0",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4f402ab781053562faeb2f70067ab71788483af0",
+				"tarball": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "convex-hull",
+			"version": "1.0.3",
+			"description": "Any dimensional convex hull",
+			"main": "ch.js",
+			"dependencies": {
+				"affine-hull": "^1.0.0",
+				"incremental-convex-hull": "^1.0.1",
+				"monotone-convex-hull-2d": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/mikolalysenko/convex-hull.git"
+			},
+			"keywords": [
+				"convex",
+				"hull",
+				"any",
+				"dimension"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/convex-hull/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/convex-hull",
+			"gitHead": "631814469a13512540b792101800e459fc736220",
+			"_id": "convex-hull@1.0.3",
+			"_shasum": "20a3aa6ce87f4adea2ff7d17971c9fc1c67e1fff",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "20a3aa6ce87f4adea2ff7d17971c9fc1c67e1fff",
+				"tarball": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.3.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_distfiles": {
+		"convex-hull-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.0.tgz",
+			"sha": "17a13d46201732c8005a1cd0350b77f7d17475a4",
+			"registry": "npmjs"
+		},
+		"convex-hull-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.1.tgz",
+			"sha": "3df330bd1c5afb4cb3aeadefa054f097e30b06a0",
+			"registry": "npmjs"
+		},
+		"convex-hull-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.2.tgz",
+			"sha": "4f402ab781053562faeb2f70067ab71788483af0",
+			"registry": "npmjs"
+		},
+		"convex-hull-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/convex-hull/-/convex-hull-1.0.3.tgz",
+			"sha": "20a3aa6ce87f4adea2ff7d17971c9fc1c67e1fff",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"54701121-19e0\"",
+			"fetched": 1501276740293
+		}
+	},
+	"_rev": "1-09156342a4996d8b",
+	"readme": "convex-hull\n===========\nThis module is a wrapper over various convex hull modules which exposes a simple interface for computing convex hulls of point sets in any dimension.\n\n# Example\n\n```javascript\nvar ch = require('convex-hull')\n\nvar points = [\n  [0,0],\n  [1,0],\n  [0,1],\n  [0.15,0.15],\n  [0.5, 0.5]\n]\n\n\n//Picture:\n//\n// [0,1] *\n//       |\\\n//       | \\\n//       |  \\\n//       |   \\\n//       |    \\\n//       |     \\\n//       |      \\\n//       |       * [0.5,0.5]\n//       |        \\\n//       |         \\\n//       |          \\\n//       |           \\\n//       |            \\\n//       |    *        \\\n//       | [0.15,0.15]  \\\n// [0,0] *---------------* [1,0]\n//\n\nconsole.log(ch(points))\n```\n\nOutput:\n\n```javascript\n[[0, 1], [1, 2], [2, 0]]\n```\n\n# Install\n\n```\nnpm install convex-hull\n```\n\nIf you want to use it in a webpage, use [browserify](http://browserify.org).\n\n# API\n\n#### `require('convex-hull')(points)`\nComputes the convex hull of `points`\n\n* `points` is an array of points encoded as `d` length arrays\n\n**Returns** A polytope encoding the convex hull of the point set.\n\n**Time complexity** The procedure takes O(n^floor(d/2) + n log(n)) time.\n\n**Note** This module is a wrapper over incremental-convex-hull and monotone-convex-hull for convenience.  It will select an optimal algorithm for whichever dimension is appropriate.\n\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
+}

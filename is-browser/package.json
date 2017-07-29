@@ -1,0 +1,150 @@
+{
+	"name": "is-browser",
+	"versions": {
+		"1.0.0": {
+			"name": "is-browser",
+			"version": "1.0.0",
+			"description": "Test whether you're a component in browser or a package in npm",
+			"main": "server.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ForbesLindesay/is-browser.git"
+			},
+			"author": {
+				"name": "ForbesLindesay"
+			},
+			"license": "MIT",
+			"scripts": {
+				"start": "node server.js"
+			},
+			"_id": "is-browser@1.0.0",
+			"dist": {
+				"shasum": "2cd73e77b2af3936b136d207154700a0ea80a14a",
+				"tarball": "https://registry.npmjs.org/is-browser/-/is-browser-1.0.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "forbeslindesay",
+				"email": "forbes@lindesay.co.uk"
+			},
+			"maintainers": [
+				{
+					"name": "forbeslindesay",
+					"email": "forbes@lindesay.co.uk"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "is-browser",
+			"version": "2.0.0",
+			"description": "Test whether you're a component in browser or a package in npm",
+			"main": "server.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ForbesLindesay/is-browser.git"
+			},
+			"author": {
+				"name": "ForbesLindesay"
+			},
+			"license": "MIT",
+			"browser": "client.js",
+			"scripts": {
+				"start": "node server.js"
+			},
+			"_id": "is-browser@2.0.0",
+			"dist": {
+				"shasum": "82d004df7b52896ee6febfe640716e46ce61a28b",
+				"tarball": "https://registry.npmjs.org/is-browser/-/is-browser-2.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.10",
+			"_npmUser": {
+				"name": "forbeslindesay",
+				"email": "forbes@lindesay.co.uk"
+			},
+			"maintainers": [
+				{
+					"name": "forbeslindesay",
+					"email": "forbes@lindesay.co.uk"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "is-browser",
+			"version": "2.0.1",
+			"description": "Test whether you're a component in browser or a package in npm",
+			"main": "server.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ForbesLindesay/is-browser.git"
+			},
+			"author": {
+				"name": "ForbesLindesay"
+			},
+			"license": "MIT",
+			"browser": "client.js",
+			"scripts": {
+				"start": "node server.js"
+			},
+			"gitHead": "42574af5712c2344387b60fddd2a96a4ba05c3d5",
+			"bugs": {
+				"url": "https://github.com/ForbesLindesay/is-browser/issues"
+			},
+			"homepage": "https://github.com/ForbesLindesay/is-browser",
+			"_id": "is-browser@2.0.1",
+			"_shasum": "8bf0baf799a9c62fd9de5bcee4cf3397c3e7529a",
+			"_from": ".",
+			"_npmVersion": "1.5.0-alpha-4",
+			"_npmUser": {
+				"name": "forbeslindesay",
+				"email": "forbes@lindesay.co.uk"
+			},
+			"maintainers": [
+				{
+					"name": "forbeslindesay",
+					"email": "forbes@lindesay.co.uk"
+				}
+			],
+			"dist": {
+				"shasum": "8bf0baf799a9c62fd9de5bcee4cf3397c3e7529a",
+				"tarball": "https://registry.npmjs.org/is-browser/-/is-browser-2.0.1.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_distfiles": {
+		"is-browser-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-browser/-/is-browser-1.0.0.tgz",
+			"sha": "2cd73e77b2af3936b136d207154700a0ea80a14a",
+			"registry": "npmjs"
+		},
+		"is-browser-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-browser/-/is-browser-2.0.0.tgz",
+			"sha": "82d004df7b52896ee6febfe640716e46ce61a28b",
+			"registry": "npmjs"
+		},
+		"is-browser-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-browser/-/is-browser-2.0.1.tgz",
+			"sha": "8bf0baf799a9c62fd9de5bcee4cf3397c3e7529a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"is-browser-2.0.1.tgz": {
+			"shasum": "8bf0baf799a9c62fd9de5bcee4cf3397c3e7529a"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58c6d823-db4\"",
+			"fetched": 1501276753241
+		}
+	},
+	"_rev": "2-63ee618345a48fcf",
+	"readme": "# is-browser\n\n  Test whether you're running on the server or in the browser (using browserify)\n## Installation\n\n    $ npm install is-browser\n\n## API\n\nThis simply exports `true` or `false`:\n\n```javascript\nif (require('is-browser')) {\n  console.log('The module was installed using component');\n} else {\n  console.log('The module was installed using npm');\n}\n```\n\n## License\n\nMIT\n"
+}

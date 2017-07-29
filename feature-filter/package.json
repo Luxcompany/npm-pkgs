@@ -1,0 +1,1465 @@
+{
+	"name": "feature-filter",
+	"versions": {
+		"1.0.0": {
+			"name": "feature-filter",
+			"version": "1.0.0",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "2.13.x"
+			},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"engines": {
+				"node": "0.10.x"
+			},
+			"gitHead": "999e999bf348b769f7e33593ddb12ece4e06c3f6",
+			"_id": "feature-filter@1.0.0",
+			"_shasum": "caf0318731f7a398e7730f8f2ce616e11a06cc3e",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "jfirebaugh",
+				"email": "john.firebaugh@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "caf0318731f7a398e7730f8f2ce616e11a06cc3e",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.0.tgz"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "feature-filter",
+			"version": "1.0.1",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "2.13.x"
+			},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"engines": {
+				"node": "0.10.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "d3198bc00513de013e10dcdb7332056379f45776",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@1.0.1",
+			"_shasum": "5c8789d37c60955917d736c5fedcc1cc7463dda0",
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_nodeVersion": "0.10.36",
+			"_npmUser": {
+				"name": "tmcw",
+				"email": "tom@macwright.org"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "mapbox",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "5c8789d37c60955917d736c5fedcc1cc7463dda0",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.1.tgz"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "feature-filter",
+			"version": "1.0.2",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.2.1"
+			},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "94cbae8f223e0f4beaae586bc6317cff9485fbb6",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@1.0.2",
+			"_shasum": "4815753f27fdadfe67f0aeb80002d3c1e689202d",
+			"_from": ".",
+			"_npmVersion": "2.9.0",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "tmcw",
+				"email": "tom@macwright.org"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "mapbox",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "4815753f27fdadfe67f0aeb80002d3c1e689202d",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.2.tgz"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "feature-filter",
+			"version": "1.0.3",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.2.1"
+			},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "d2e04ecbfceb83b41e2519f14351d0af94ebc407",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@1.0.3",
+			"_shasum": "754f05e526abf36aedf338c2acb76673121192ac",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "jfirebaugh",
+				"email": "john.firebaugh@gmail.com"
+			},
+			"dist": {
+				"shasum": "754f05e526abf36aedf338c2acb76673121192ac",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "feature-filter",
+			"version": "2.0.0",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"eslint": "^1.10.3",
+				"eslint-config-mourner": "^1.0.1",
+				"pbf": "^1.3.5",
+				"tape": "^3.2.1",
+				"vector-tile": "^1.2.0"
+			},
+			"scripts": {
+				"pretest": "eslint index.js test.js",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"space-before-function-paren": [
+						2,
+						"never"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "ecd7f5a9d04d6c4e518b6c1d4f547963531b5714",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@2.0.0",
+			"_shasum": "f0f576e21dd99cdbcbce36399ae8a2260e9df5cb",
+			"_from": ".",
+			"_npmVersion": "2.14.14",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "f0f576e21dd99cdbcbce36399ae8a2260e9df5cb",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "feature-filter",
+			"version": "2.0.1",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"eslint": "^1.10.3",
+				"eslint-config-mourner": "^1.0.1",
+				"pbf": "^1.3.5",
+				"tape": "^3.2.1",
+				"vector-tile": "^1.2.0"
+			},
+			"scripts": {
+				"pretest": "eslint index.js test.js",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"space-before-function-paren": [
+						2,
+						"never"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "518f834ef096e489f454763458a936eab3c1c354",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@2.0.1",
+			"_shasum": "5f0e373e7e297ee0e8e2889f9097bcb2c1b63c07",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.6.0",
+			"_npmUser": {
+				"name": "mourner",
+				"email": "agafonkin@gmail.com"
+			},
+			"dist": {
+				"shasum": "5f0e373e7e297ee0e8e2889f9097bcb2c1b63c07",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/feature-filter-2.0.1.tgz_1455923820607_0.35449846647679806"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "feature-filter",
+			"version": "2.1.0",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"eslint": "^1.10.3",
+				"eslint-config-mourner": "^1.0.1",
+				"pbf": "^1.3.5",
+				"tape": "^3.2.1",
+				"vector-tile": "^1.2.0"
+			},
+			"scripts": {
+				"pretest": "eslint index.js test.js",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"space-before-function-paren": [
+						2,
+						"never"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "e953226ff5b526ca25ba6b9db62556c8a932adab",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@2.1.0",
+			"_shasum": "3ceb785bebee3e46bf143e30292678fe8f55485b",
+			"_from": ".",
+			"_npmVersion": "2.15.3",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@mapbox.com"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "3ceb785bebee3e46bf143e30292678fe8f55485b",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/feature-filter-2.1.0.tgz_1462479425701_0.8743821978569031"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "feature-filter",
+			"version": "2.2.0",
+			"main": "./index.js",
+			"description": "Creates filtering function for vector tile features",
+			"dependencies": {},
+			"devDependencies": {
+				"eslint": "^1.10.3",
+				"eslint-config-mourner": "^1.0.1",
+				"pbf": "^1.3.5",
+				"tape": "^3.2.1",
+				"vector-tile": "^1.2.0"
+			},
+			"scripts": {
+				"pretest": "eslint index.js test.js",
+				"test": "tape test.js"
+			},
+			"eslintConfig": {
+				"extends": "mourner",
+				"rules": {
+					"space-before-function-paren": [
+						2,
+						"never"
+					]
+				}
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/feature-filter.git"
+			},
+			"gitHead": "2c75ce1c539ed365fc3871af7263b3604467828b",
+			"bugs": {
+				"url": "https://github.com/mapbox/feature-filter/issues"
+			},
+			"homepage": "https://github.com/mapbox/feature-filter#readme",
+			"_id": "feature-filter@2.2.0",
+			"_shasum": "3cc356015e968c362afbdf7ff1bb744ddf7fc2e0",
+			"_from": ".",
+			"_npmVersion": "2.15.1",
+			"_nodeVersion": "4.4.4",
+			"_npmUser": {
+				"name": "jfirebaugh",
+				"email": "john.firebaugh@gmail.com"
+			},
+			"dist": {
+				"shasum": "3cc356015e968c362afbdf7ff1bb744ddf7fc2e0",
+				"tarball": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/feature-filter-2.2.0.tgz_1468873240295_0.9949669621419162"
+			},
+			"deprecated": "This package has been merged into the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.2.0"
+	},
+	"_distfiles": {
+		"feature-filter-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.0.tgz",
+			"sha": "caf0318731f7a398e7730f8f2ce616e11a06cc3e",
+			"registry": "npmjs"
+		},
+		"feature-filter-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.1.tgz",
+			"sha": "5c8789d37c60955917d736c5fedcc1cc7463dda0",
+			"registry": "npmjs"
+		},
+		"feature-filter-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.2.tgz",
+			"sha": "4815753f27fdadfe67f0aeb80002d3c1e689202d",
+			"registry": "npmjs"
+		},
+		"feature-filter-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-1.0.3.tgz",
+			"sha": "754f05e526abf36aedf338c2acb76673121192ac",
+			"registry": "npmjs"
+		},
+		"feature-filter-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.0.0.tgz",
+			"sha": "f0f576e21dd99cdbcbce36399ae8a2260e9df5cb",
+			"registry": "npmjs"
+		},
+		"feature-filter-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.0.1.tgz",
+			"sha": "5f0e373e7e297ee0e8e2889f9097bcb2c1b63c07",
+			"registry": "npmjs"
+		},
+		"feature-filter-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.1.0.tgz",
+			"sha": "3ceb785bebee3e46bf143e30292678fe8f55485b",
+			"registry": "npmjs"
+		},
+		"feature-filter-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/feature-filter/-/feature-filter-2.2.0.tgz",
+			"sha": "3cc356015e968c362afbdf7ff1bb744ddf7fc2e0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59745c79-65c6\"",
+			"fetched": 1501276753448
+		}
+	},
+	"_rev": "1-bda8891965bbe4ed",
+	"readme": "## Filter\n\nFilter expressions are used to target specific data in a layer. This library implements the semantics specified by the [Mapbox GL JS spec](https://www.mapbox.com/mapbox-gl-style-spec/#filter).\n\n### API\n\n`featureFilter(filter)`\n\nGiven a filter expressed as nested arrays, return a new function\nthat evaluates whether a given feature (with a .properties or .tags property)\npasses its test.\n\n#### Parameters\n\n| parameter | type  | description      |\n| --------- | ----- | ---------------- |\n| `filter`  | Array | mapbox gl filter |\n\n**Returns** `Function`, filter-evaluating function\n\n### Usage\n\n``` javascript\nvar ff = require('feature-filter');\n\n// will match a feature with class of street_limited,\n// AND an admin_level less than or equal to 3,\n// that's NOT a polygon.\nvar filter = [\n    \"all\",\n    [\"==\", \"class\", \"street_limited\"],\n    [\"<=\", \"admin_level\", 3],\n    [\"!=\", \"$type\", \"Polygon\"]\n]\n\n// will match a feature that has a class of\n// wetland OR wetland_noveg.\n// [\"in\", \"class\", \"wetland\", \"wetland_noveg\"]\n\n// testFilter will be a function that returns a boolean\nvar testFilter = ff(filter);\n\n// Layer feature that you're testing. Must have type\n// and properties keys.\nvar feature = {\n    type: 2,\n    properties: {\n       class: \"street_limited\"\n       admin_level: 1\n    }\n};\n\n// will return a boolean based on whether the feature matched the filter\nreturn testFilter(feature);\n```\n"
+}

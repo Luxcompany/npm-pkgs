@@ -1,0 +1,275 @@
+{
+	"name": "vue-bulma-collapse",
+	"versions": {
+		"1.0.0": {
+			"name": "vue-bulma-collapse",
+			"version": "1.0.0",
+			"description": "Collapse component for Vue Bulma",
+			"main": "src/index.js",
+			"devDependencies": {
+				"bulma": "0.1.0",
+				"vue": "1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/collapse.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-collapse",
+				"collapse"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "57cf306dcf137af91025ce227f61b3c0f594d82e",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/collapse/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/collapse#readme",
+			"_id": "vue-bulma-collapse@1.0.0",
+			"_shasum": "e1f9ecc70939b9542600d3510a5955c878757e51",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "e1f9ecc70939b9542600d3510a5955c878757e51",
+				"tarball": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-collapse-1.0.0.tgz_1468518657806_0.9219379080459476"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vue-bulma-collapse",
+			"version": "1.0.1",
+			"description": "Collapse component for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/collapse.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-collapse",
+				"collapse"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"animejs": ">=1.1",
+				"vue": ">=2"
+			},
+			"gitHead": "08f6074bcc245c3a0382dab5e84ee79e058225d2",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/collapse/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/collapse#readme",
+			"_id": "vue-bulma-collapse@1.0.1",
+			"scripts": {},
+			"_shasum": "c324af7ee73a67d3c92d5f8563c6f3b17977a931",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "c324af7ee73a67d3c92d5f8563c6f3b17977a931",
+				"tarball": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-collapse-1.0.1.tgz_1477405645594_0.564899462275207"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vue-bulma-collapse",
+			"version": "1.0.2",
+			"description": "Collapse component for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/collapse.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-collapse",
+				"collapse"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"animejs": ">=1.1",
+				"vue": ">=2"
+			},
+			"gitHead": "26920a4b9658c6e4d077d1d4d0f7d864c55ac32d",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/collapse/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/collapse#readme",
+			"_id": "vue-bulma-collapse@1.0.2",
+			"scripts": {},
+			"_shasum": "1e91000bd738c778656eec3cb89009e98847503c",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "1e91000bd738c778656eec3cb89009e98847503c",
+				"tarball": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-collapse-1.0.2.tgz_1477407870195_0.44938508328050375"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "vue-bulma-collapse",
+			"version": "1.0.3",
+			"description": "Collapse component for Vue Bulma",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/collapse.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com",
+				"url": "fundon.me"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-collapse",
+				"collapse"
+			],
+			"main": "src/index.js",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"dependencies": {
+				"animejs": "1"
+			},
+			"gitHead": "3a9b533b7e9782384feeb87290b77c6947f01c54",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/collapse/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/collapse#readme",
+			"_id": "vue-bulma-collapse@1.0.3",
+			"scripts": {},
+			"_shasum": "61038b566dde6e857e04954d178725348606dc09",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "61038b566dde6e857e04954d178725348606dc09",
+				"tarball": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-collapse-1.0.3.tgz_1477442828823_0.7099062514025718"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_distfiles": {
+		"vue-bulma-collapse-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.0.tgz",
+			"sha": "e1f9ecc70939b9542600d3510a5955c878757e51",
+			"registry": "npmjs"
+		},
+		"vue-bulma-collapse-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.1.tgz",
+			"sha": "c324af7ee73a67d3c92d5f8563c6f3b17977a931",
+			"registry": "npmjs"
+		},
+		"vue-bulma-collapse-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.2.tgz",
+			"sha": "1e91000bd738c778656eec3cb89009e98847503c",
+			"registry": "npmjs"
+		},
+		"vue-bulma-collapse-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-collapse/-/vue-bulma-collapse-1.0.3.tgz",
+			"sha": "61038b566dde6e857e04954d178725348606dc09",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"580ffd0e-1c36\"",
+			"fetched": 1501276735037
+		}
+	},
+	"_rev": "1-6106ef176d7df3c7",
+	"readme": "# Collapse\n\nCollapse component for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-collapse --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <collapse accordion is-fullwidth>\n    <collapse-item title=\"Components\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n    </collapse-item>\n    <collapse-item title=\"Elements\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n    </collapse-item>\n      <collapse-item title=\"Nests\" selected>\n      <collapse>\n        <collapse-item title=\"Nest Child\" selected>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n        </collapse-item>\n      </collapse>\n    </collapse-item>\n  </collapse>\n</template>\n\n<script>\nimport { Collapse, Item as CollapseItem } from 'vue-bulma-collapse'\n\nexport default {\n  components: {\n    Collapse,\n    CollapseItem\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
+}

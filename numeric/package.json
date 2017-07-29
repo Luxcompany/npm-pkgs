@@ -1,0 +1,395 @@
+{
+	"name": "numeric",
+	"versions": {
+		"1.0.3": {
+			"name": "numeric",
+			"version": "1.0.3",
+			"description": "Numerical computations in Javascript",
+			"keywords": [
+				"linear-algebra",
+				"numeric"
+			],
+			"homepage": "https://github.com/clayw/numeric.js",
+			"main": "./numeric.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/clayw/numeric.js.git"
+			},
+			"devDependencies": {
+				"uglify-js": "1.2.5"
+			},
+			"_npmUser": {
+				"name": "clay",
+				"email": "clay@woolam.org"
+			},
+			"_id": "numeric@1.0.3",
+			"dependencies": {},
+			"optionalDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-3",
+			"_nodeVersion": "v0.6.18",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c18d92550d589a6e8a4b506114efb98c19329ed4",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.9": {
+			"name": "numeric",
+			"version": "1.1.9",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.1.9.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.1.9",
+			"dist": {
+				"shasum": "4d785d6f81abef7eeee7167bd8dade2de445aba8",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.1.9.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "numeric",
+			"version": "1.2.0",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.0.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.0",
+			"dist": {
+				"shasum": "1984f94a1cdf19b7c4d257d3f6b5348c7d5867b3",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.0.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "numeric",
+			"version": "1.2.1",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.1.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.1",
+			"dist": {
+				"shasum": "424bf7756fbc5db7c6e6053fee455e0aefa8e9cd",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.1.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.2": {
+			"name": "numeric",
+			"version": "1.2.2",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.2.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.2",
+			"dist": {
+				"shasum": "151b917a7344ea96726fb065d5eb685c3759c939",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.2.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.3": {
+			"name": "numeric",
+			"version": "1.2.3",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.3.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.3",
+			"dist": {
+				"shasum": "71bf379805518f955a490d537ce9a028ec90424c",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.3.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.4": {
+			"name": "numeric",
+			"version": "1.2.4",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.4.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.4",
+			"dist": {
+				"shasum": "618cdca49ff5207054e7cf3878f0b7805e6184df",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.4.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.5": {
+			"name": "numeric",
+			"version": "1.2.5",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.5.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.5",
+			"dist": {
+				"shasum": "3820f0f7a3daa1305aeb39814625f3e6095ffd11",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.5.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.6": {
+			"name": "numeric",
+			"version": "1.2.6",
+			"author": {
+				"name": "Sébastien Loisel"
+			},
+			"description": "Numerical analysis in javascript",
+			"keywords": [
+				"numeric",
+				"analysis",
+				"math"
+			],
+			"homepage": "http://numericjs.com",
+			"main": "numeric-1.2.6.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/sloisel/numeric.git"
+			},
+			"_id": "numeric@1.2.6",
+			"dist": {
+				"shasum": "765b02bef97988fcf880d4eb3f36b80fa31335aa",
+				"tarball": "https://registry.npmjs.org/numeric/-/numeric-1.2.6.tgz"
+			},
+			"scripts": {},
+			"maintainers": [
+				{
+					"name": "clay",
+					"email": "clay@woolam.org"
+				},
+				{
+					"name": "sloisel",
+					"email": "sloisel+npm@gmail.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.2.6"
+	},
+	"_distfiles": {
+		"numeric-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.0.3.tgz",
+			"sha": "c18d92550d589a6e8a4b506114efb98c19329ed4",
+			"registry": "npmjs"
+		},
+		"numeric-1.1.9.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.1.9.tgz",
+			"sha": "4d785d6f81abef7eeee7167bd8dade2de445aba8",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.0.tgz",
+			"sha": "1984f94a1cdf19b7c4d257d3f6b5348c7d5867b3",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.1.tgz",
+			"sha": "424bf7756fbc5db7c6e6053fee455e0aefa8e9cd",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.2.tgz",
+			"sha": "151b917a7344ea96726fb065d5eb685c3759c939",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.3.tgz",
+			"sha": "71bf379805518f955a490d537ce9a028ec90424c",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.4.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.4.tgz",
+			"sha": "618cdca49ff5207054e7cf3878f0b7805e6184df",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.5.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.5.tgz",
+			"sha": "3820f0f7a3daa1305aeb39814625f3e6095ffd11",
+			"registry": "npmjs"
+		},
+		"numeric-1.2.6.tgz": {
+			"url": "https://registry.npmjs.org/numeric/-/numeric-1.2.6.tgz",
+			"sha": "765b02bef97988fcf880d4eb3f36b80fa31335aa",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"586a1658-57c5\"",
+			"fetched": 1501276749706
+		}
+	},
+	"_rev": "1-b36f4ff52773049a",
+	"readme": ""
+}

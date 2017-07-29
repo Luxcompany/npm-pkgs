@@ -1,0 +1,147 @@
+{
+	"name": "zero-crossings",
+	"versions": {
+		"1.0.0": {
+			"name": "zero-crossings",
+			"version": "1.0.0",
+			"description": "Finds all zero crossings in a 1D ndarray",
+			"main": "zc.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise-compiler": "^0.1.0"
+			},
+			"devDependencies": {
+				"cwise-parser": "^0.0.1",
+				"ndarray": "^1.0.11",
+				"tape": "^2.12.3",
+				"js-beautify": "^1.4.2"
+			},
+			"scripts": {
+				"test": "tape test/*.js",
+				"build": "node lib/generate-module.js > lib/zc-core.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/zero-crossings.git"
+			},
+			"keywords": [
+				"zero",
+				"crossing",
+				"ndarray",
+				"1D",
+				"linear",
+				"interpolate"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/zero-crossings/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/zero-crossings",
+			"_id": "zero-crossings@1.0.0",
+			"dist": {
+				"shasum": "982f5e05db8ac6e35120313633bd595f6c1f75b1",
+				"tarball": "https://registry.npmjs.org/zero-crossings/-/zero-crossings-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "zero-crossings",
+			"version": "1.0.1",
+			"description": "Finds all zero crossings in a 1D ndarray",
+			"main": "zc.js",
+			"directories": {
+				"test": "test"
+			},
+			"dependencies": {
+				"cwise-compiler": "^1.0.0"
+			},
+			"devDependencies": {
+				"cwise-parser": "^0.0.1",
+				"ndarray": "^1.0.11",
+				"tape": "^2.12.3",
+				"js-beautify": "^1.4.2"
+			},
+			"scripts": {
+				"test": "tape test/*.js",
+				"build": "node lib/generate-module.js > lib/zc-core.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/zero-crossings.git"
+			},
+			"keywords": [
+				"zero",
+				"crossing",
+				"ndarray",
+				"1D",
+				"linear",
+				"interpolate"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/zero-crossings/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/zero-crossings",
+			"_id": "zero-crossings@1.0.1",
+			"dist": {
+				"shasum": "c562bd3113643f3443a245d12406b88b69b9a9ff",
+				"tarball": "https://registry.npmjs.org/zero-crossings/-/zero-crossings-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.1"
+	},
+	"_distfiles": {
+		"zero-crossings-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/zero-crossings/-/zero-crossings-1.0.0.tgz",
+			"sha": "982f5e05db8ac6e35120313633bd595f6c1f75b1",
+			"registry": "npmjs"
+		},
+		"zero-crossings-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/zero-crossings/-/zero-crossings-1.0.1.tgz",
+			"sha": "c562bd3113643f3443a245d12406b88b69b9a9ff",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"536aa02c-e65\"",
+			"fetched": 1501276748096
+		}
+	},
+	"_rev": "1-198c5189ebad4a09",
+	"readme": "zero-crossings\n==============\nFinds all zero crossings in a 1D ndarray assuming piecewise-linear interpolation.\n\n# Example\n\n```javascript\nvar ndarray = require(\"ndarray\")\nvar zc = require(\"zero-crossings\")\n\nvar array = ndarray([1, -1, 0, 10, 3, -1])\n\nconsole.log(zc(array))\n```\n\nOutput:\n\n```\n[ 0.5, 2, 4.75 ]\n```\n\n# Install\n\n```\nnpm install zero-crossings\n```\n\n# API\n\n#### `require(\"zero-crossings\")(array[,level])`\nFinds all zero crossings in the 1D ndarray `array`\n\n* `array` is a 1D ndarray\n* `level` is an optional parameter which indicates the crossings\n\n**Returns** A list of all zero crossings in `array`\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
+}

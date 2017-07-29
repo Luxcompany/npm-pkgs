@@ -1,0 +1,279 @@
+{
+	"name": "text-cache",
+	"versions": {
+		"1.0.0": {
+			"name": "text-cache",
+			"version": "1.0.0",
+			"description": "Internal module - vectorized text pooling for gl-vis",
+			"main": "textcache.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"vectorize-text": "^3.0.1"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/text-cache.git"
+			},
+			"keywords": [
+				"vectorize",
+				"text",
+				"pool",
+				"cache"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/text-cache/issues"
+			},
+			"homepage": "https://github.com/gl-vis/text-cache",
+			"gitHead": "f6c7a2b29892bf08c02cc0dd4ecedb1d3126db71",
+			"_id": "text-cache@1.0.0",
+			"_shasum": "27b7e4bc380c47b05ee7f35a30e60f3bc98b001e",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "27b7e4bc380c47b05ee7f35a30e60f3bc98b001e",
+				"tarball": "https://registry.npmjs.org/text-cache/-/text-cache-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"3.0.0": {
+			"name": "text-cache",
+			"version": "3.0.0",
+			"description": "Internal module - vectorized text pooling for gl-vis",
+			"main": "textcache.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"vectorize-text": "^3.0.1"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/text-cache.git"
+			},
+			"keywords": [
+				"vectorize",
+				"text",
+				"pool",
+				"cache"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/text-cache/issues"
+			},
+			"homepage": "https://github.com/gl-vis/text-cache",
+			"gitHead": "a80126030b0cf1b607aaa4e858b87918572b45b4",
+			"_id": "text-cache@3.0.0",
+			"_shasum": "63e75e4200675e9be66c99646642144662a90831",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "63e75e4200675e9be66c99646642144662a90831",
+				"tarball": "https://registry.npmjs.org/text-cache/-/text-cache-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"4.0.0": {
+			"name": "text-cache",
+			"version": "4.0.0",
+			"description": "Internal module - vectorized text pooling for gl-vis",
+			"main": "textcache.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"vectorize-text": "^3.0.1"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/text-cache.git"
+			},
+			"keywords": [
+				"vectorize",
+				"text",
+				"pool",
+				"cache"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/text-cache/issues"
+			},
+			"homepage": "https://github.com/gl-vis/text-cache",
+			"gitHead": "7238c922635ba69e747a33e4b5a9f14cfd314b7a",
+			"_id": "text-cache@4.0.0",
+			"_shasum": "b71319c5208abb051097ff8d5aec64af8d9cc876",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b71319c5208abb051097ff8d5aec64af8d9cc876",
+				"tarball": "https://registry.npmjs.org/text-cache/-/text-cache-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"4.1.0": {
+			"name": "text-cache",
+			"version": "4.1.0",
+			"description": "Internal module - vectorized text pooling for gl-vis",
+			"main": "textcache.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"vectorize-text": "^3.0.1"
+			},
+			"devDependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/text-cache.git"
+			},
+			"keywords": [
+				"vectorize",
+				"text",
+				"pool",
+				"cache"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/text-cache/issues"
+			},
+			"homepage": "https://github.com/gl-vis/text-cache",
+			"gitHead": "006e4033e91c24b21261e75981e237d308bc845c",
+			"_id": "text-cache@4.1.0",
+			"_shasum": "7c58090e85ac0910f976df4cfc8ce8aa0ea58766",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "7c58090e85ac0910f976df4cfc8ce8aa0ea58766",
+				"tarball": "https://registry.npmjs.org/text-cache/-/text-cache-4.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/text-cache-4.1.0.tgz_1477321582543_0.14612500881776214"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "4.1.0"
+	},
+	"_distfiles": {
+		"text-cache-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/text-cache/-/text-cache-1.0.0.tgz",
+			"sha": "27b7e4bc380c47b05ee7f35a30e60f3bc98b001e",
+			"registry": "npmjs"
+		},
+		"text-cache-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/text-cache/-/text-cache-3.0.0.tgz",
+			"sha": "63e75e4200675e9be66c99646642144662a90831",
+			"registry": "npmjs"
+		},
+		"text-cache-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/text-cache/-/text-cache-4.0.0.tgz",
+			"sha": "b71319c5208abb051097ff8d5aec64af8d9cc876",
+			"registry": "npmjs"
+		},
+		"text-cache-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/text-cache/-/text-cache-4.1.0.tgz",
+			"sha": "7c58090e85ac0910f976df4cfc8ce8aa0ea58766",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5881400c-183f\"",
+			"fetched": 1501276749893
+		}
+	},
+	"_rev": "1-deaaa7b222de5a5e",
+	"readme": "text-cache\n==========\nA cache of generated vector font meshes.  This is an internal module used to share generated fonts/glyphs across gl-vis packages.\n\n# API\n\n#### `require('text-cache')(font, str)`\nGenerates a vectorized text mesh.\n\n* `font` is the font to use\n* `str` is the string to generate\n\n**Returns** A triangulation encoding the vectorized text string.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
+}

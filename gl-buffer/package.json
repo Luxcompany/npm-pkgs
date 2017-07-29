@@ -1,0 +1,1102 @@
+{
+	"name": "gl-buffer",
+	"versions": {
+		"0.0.0": {
+			"name": "gl-buffer",
+			"version": "0.0.0",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "~0.2.4",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~0.1.3"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"_id": "gl-buffer@0.0.0",
+			"dist": {
+				"shasum": "cf336a5e96faa9151e060ded8e8ab85bd2524ae7",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.0": {
+			"name": "gl-buffer",
+			"version": "0.1.0",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "~1.0.0",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"_id": "gl-buffer@0.1.0",
+			"dist": {
+				"shasum": "d5ef22be7cb0d85b896de64c7dcebbf7284fa395",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.24",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.1": {
+			"name": "gl-buffer",
+			"version": "0.1.1",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "~1.0.0",
+				"typedarray-pool": "~0.1.1",
+				"ndarray-ops": "~1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"_id": "gl-buffer@0.1.1",
+			"dist": {
+				"shasum": "28392ed29ce0b9d078c088fb953dc90968c7f695",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.8",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"0.1.2": {
+			"name": "gl-buffer",
+			"version": "0.1.2",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.10",
+				"typedarray-pool": "^0.1.1",
+				"ndarray-ops": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@0.1.2",
+			"dist": {
+				"shasum": "7113a58f216bf59584b6e0e95bebc278e288776f",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.0": {
+			"name": "gl-buffer",
+			"version": "1.0.0",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "<2 >=1.0.10",
+				"typedarray-pool": "<1 >=0.1.1",
+				"ndarray-ops": "<2 >=1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@1.0.0",
+			"dist": {
+				"shasum": "f07889871ca26aac225071b4c2ea07b1bf0f6eba",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.1": {
+			"name": "gl-buffer",
+			"version": "2.0.1",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "<2 >=1.0.10",
+				"typedarray-pool": "<1 >=0.1.1",
+				"ndarray-ops": "<2 >=1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.1",
+			"dist": {
+				"shasum": "bf73e94454165b2d191f213859234f33141a953c",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.2": {
+			"name": "gl-buffer",
+			"version": "2.0.2",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "<2 >=1.0.10",
+				"typedarray-pool": "<1 >=0.1.1",
+				"ndarray-ops": "<2 >=1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.2",
+			"dist": {
+				"shasum": "e8eb5aea1da9c9fccde88ec0379e7e6f83720726",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.3": {
+			"name": "gl-buffer",
+			"version": "2.0.3",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "<2 >=1.0.10",
+				"typedarray-pool": "<1 >=0.1.1",
+				"ndarray-ops": "<2 >=1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.3",
+			"dist": {
+				"shasum": "19a702dba6c14b07cdcdfa71f227011b6684b973",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.4": {
+			"name": "gl-buffer",
+			"version": "2.0.4",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.11",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.4",
+			"dist": {
+				"shasum": "538b5fc69fe73950a71f84c8b4f7c260566240a6",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.5": {
+			"name": "gl-buffer",
+			"version": "2.0.5",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.11",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "0.0.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.5",
+			"dist": {
+				"shasum": "207dab51ff6876ace414385d0cd535015b98b11c",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.5.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.6": {
+			"name": "gl-buffer",
+			"version": "2.0.6",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.11",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-shader": "~0.0.2",
+				"gl-now": "~0.0.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.6",
+			"dist": {
+				"shasum": "73c000b94fe4849902234720015e8f17c2c8ba88",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.6.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.7": {
+			"name": "gl-buffer",
+			"version": "2.0.7",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"glslify": "^1.4.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.7",
+			"dist": {
+				"shasum": "ff2b472bd0dc64aa4711034a8966ab18753dd352",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.7.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.8": {
+			"name": "gl-buffer",
+			"version": "2.0.8",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"glslify": "^1.4.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.8",
+			"dist": {
+				"shasum": "9ad9ef3f63ce134de49315e8ac3499cc548d9041",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.8.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"2.0.9": {
+			"name": "gl-buffer",
+			"version": "2.0.9",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"glslify": "^1.4.0"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.0.9",
+			"_shasum": "201d9b7f150874e85d76ea4a827cce09ce88e571",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "chrisdickinson",
+				"email": "chris@neversaw.us"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			],
+			"dist": {
+				"shasum": "201d9b7f150874e85d76ea4a827cce09ce88e571",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.9.tgz"
+			}
+		},
+		"2.1.1": {
+			"name": "gl-buffer",
+			"version": "2.1.1",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0",
+				"webglew": "^1.0.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"glslify": "^1.4.0",
+				"smokestack": "^2.0.0",
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.1"
+			},
+			"scripts": {
+				"test": "browserify ./test/index.js | smokestack | tap-spec",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mikolalysenko/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-buffer",
+			"_id": "gl-buffer@2.1.1",
+			"_shasum": "76f19206aee78018842b1a8c88e3bd3b5d10d494",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.28",
+			"_npmUser": {
+				"name": "hughsk",
+				"email": "hughskennedy@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				}
+			],
+			"dist": {
+				"shasum": "76f19206aee78018842b1a8c88e3bd3b5d10d494",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.1.1.tgz"
+			}
+		},
+		"2.1.2": {
+			"name": "gl-buffer",
+			"version": "2.1.2",
+			"description": "WebGL buffer wrapper",
+			"main": "buffer.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"ndarray": "^1.0.15",
+				"typedarray-pool": "^1.0.0",
+				"ndarray-ops": "^1.1.0"
+			},
+			"devDependencies": {
+				"gl-now": "^1.3.1",
+				"glslify": "^1.4.0",
+				"smokestack": "^2.0.0",
+				"tap-spec": "^1.0.1",
+				"tape": "^3.0.1"
+			},
+			"scripts": {
+				"test": "browserify ./test/index.js | smokestack | tap-spec",
+				"start": "beefy --open example/example.js -- --transform glslify"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/stackgl/gl-buffer.git"
+			},
+			"keywords": [
+				"webgl",
+				"buffer",
+				"vertex",
+				"array",
+				"element",
+				"array"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"gitHead": "fa00ce204834850a2a9118824aca293399bc3e4d",
+			"bugs": {
+				"url": "https://github.com/stackgl/gl-buffer/issues"
+			},
+			"homepage": "https://github.com/stackgl/gl-buffer",
+			"_id": "gl-buffer@2.1.2",
+			"_shasum": "2db8d9c1a5527fba0cdb91289c206e882b889cdb",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2db8d9c1a5527fba0cdb91289c206e882b889cdb",
+				"tarball": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "hughsk",
+					"email": "hughskennedy@gmail.com"
+				},
+				{
+					"name": "chrisdickinson",
+					"email": "chris@neversaw.us"
+				},
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				},
+				{
+					"name": "substack",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "thibauts",
+					"email": "thibaut.seguy@gmail.com"
+				},
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			]
+		}
+	},
+	"dist-tags": {
+		"latest": "2.1.2"
+	},
+	"_distfiles": {
+		"gl-buffer-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.0.0.tgz",
+			"sha": "cf336a5e96faa9151e060ded8e8ab85bd2524ae7",
+			"registry": "npmjs"
+		},
+		"gl-buffer-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.0.tgz",
+			"sha": "d5ef22be7cb0d85b896de64c7dcebbf7284fa395",
+			"registry": "npmjs"
+		},
+		"gl-buffer-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.1.tgz",
+			"sha": "28392ed29ce0b9d078c088fb953dc90968c7f695",
+			"registry": "npmjs"
+		},
+		"gl-buffer-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-0.1.2.tgz",
+			"sha": "7113a58f216bf59584b6e0e95bebc278e288776f",
+			"registry": "npmjs"
+		},
+		"gl-buffer-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-1.0.0.tgz",
+			"sha": "f07889871ca26aac225071b4c2ea07b1bf0f6eba",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.1.tgz",
+			"sha": "bf73e94454165b2d191f213859234f33141a953c",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.2.tgz",
+			"sha": "e8eb5aea1da9c9fccde88ec0379e7e6f83720726",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.3.tgz",
+			"sha": "19a702dba6c14b07cdcdfa71f227011b6684b973",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.4.tgz",
+			"sha": "538b5fc69fe73950a71f84c8b4f7c260566240a6",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.5.tgz",
+			"sha": "207dab51ff6876ace414385d0cd535015b98b11c",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.6.tgz",
+			"sha": "73c000b94fe4849902234720015e8f17c2c8ba88",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.7.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.7.tgz",
+			"sha": "ff2b472bd0dc64aa4711034a8966ab18753dd352",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.8.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.8.tgz",
+			"sha": "9ad9ef3f63ce134de49315e8ac3499cc548d9041",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.0.9.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.0.9.tgz",
+			"sha": "201d9b7f150874e85d76ea4a827cce09ce88e571",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.1.1.tgz",
+			"sha": "76f19206aee78018842b1a8c88e3bd3b5d10d494",
+			"registry": "npmjs"
+		},
+		"gl-buffer-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-buffer/-/gl-buffer-2.1.2.tgz",
+			"sha": "2db8d9c1a5527fba0cdb91289c206e882b889cdb",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5973bda4-59ef\"",
+			"fetched": 1501276745203
+		}
+	},
+	"_rev": "1-9d11509b4985af1f",
+	"readme": "gl-buffer\n=========\nA wrapper for WebGL buffer objects.\n\n# Example\n\n[View this demo in your browser](http://stack.gl/gl-buffer)\n\n```javascript\nvar shell = require(\"gl-now\")()\nvar glslify = require(\"glslify\")\nvar createBuffer = require(\"gl-buffer\")\n\nvar createShader = glslify({\n  vertex: \"\\\n    attribute vec2 position;\\\n    varying vec2 uv;\\\n    void main() {\\\n      gl_Position = vec4(position, 0.0, 1.0);\\\n      uv = position.xy;\\\n    }\",\n  fragment: \"\\\n    precision highp float;\\\n    uniform float tick;\\\n    varying vec2 uv;\\\n    void main() {\\\n      gl_FragColor = vec4(0.5*(uv+1.0), 0.5*(cos(tick)+1.0), 1.0);\\\n    }\",\n  inline: true\n})\n\nvar buffer, shader\n\nshell.on(\"gl-init\", function() {\n  var gl = shell.gl\n\n  //Create buffer\n  buffer = createBuffer(gl, [-1, 0, 0,-1, 1, 1])\n\n  //Create shader\n  shader = createShader(gl)\n  shader.attributes.position.location = 0\n})\n\nshell.on(\"gl-render\", function(t) {\n  var gl = shell.gl\n  shader.bind()\n  buffer.bind()\n  shader.attributes.position.pointer()\n  shader.uniforms.tick = Date.now() / 1000.0\n  gl.drawArrays(gl.TRIANGLES, 0, 3)\n})\n```\n\nOutput:\n\n<img src=\"http://stack.gl/gl-buffer/screenshot.png\">\n\n# Install\n\n    npm install gl-buffer\n\n# API\n\n```javascript\nvar createBuffer = require(\"gl-buffer\")\n```\n\n## Constructor\nThe constructor for a GL buffer works as follows:\n\n### `var buffer = createBuffer(gl[, data, type, usage])`\n\n* `gl` is a WebGL context\n* `data` is either an integer, an array, a typed array, an array buffer or an ndarray representing the data of the buffer.  Default is `0`\n* `type` is an optional parameter specifying the type of the webgl buffer.  Default is `gl.ARRAY_BUFFER`.\n* `usage` is an optional parameter representing the intended usage for the buffer (in the WebGL sense).  It is not clear this does anything in current WebGL implementations.  Default `gl.DYNAMIC_DRAW`\n\n## Properties\n\n### `buffer.gl`\nA reference to the buffer's WebGL context\n\n### `buffer.handle`\nA handle to the underlying WebGLBuffer object\n\n### `buffer.type`\nThe type of the buffer (either `gl.ARRAY_BUFFER` or `gl.ELEMENT_ARRAY_BUFFER`)\n\n### `buffer.length`\nThe size of the buffer in bytes\n\n### `buffer.usage`\nThe internal WebGL usage for the buffer.\n\n## Methods\n\n### `buffer.bind()`\nBinds the buffer to the appropriate target.  Equivalent to `gl.bindBuffer( ... )`\n\n### `buffer.dispose()`\nDeletes the buffer releasing all associated resources.  Equivalent to `gl.deleteBuffer(...)`\n\n### `buffer.update(data[, offset])`\nUpdates the data in the buffer. There are two basic modes to this function.  In the first, it calls `gl.bufferSubData` to update a portion of the buffer in place, and in the second it calls `gl.bufferData` to completely resize the buffer.\n\n* `data` the new data to add to the buffer.  This follows the same semantics as in the constructor.\n* `offset` the offset **in bytes** to copy data into the buffer from *or* if unspecified then the buffer is resized by calling `gl.bufferData` instead of `gl.bufferSubData`.  Default `0`.\n\n## Credits\n(c) 2013-2014 Mikola Lysenko. MIT License\n"
+}

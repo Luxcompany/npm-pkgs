@@ -1,0 +1,1978 @@
+{
+	"name": "gl-plot3d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-plot3d",
+			"version": "1.0.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"canvas-fit": "^1.2.0",
+				"gl-axes3d": "^1.0.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"orbiter": "^1.0.2"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "39d8276001fa58ee676748250b312d7c2080edc3",
+			"_id": "gl-plot3d@1.0.0",
+			"_shasum": "afcbbfdc328b3c1e4f2066d6fbe72ca9d970b5a1",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "afcbbfdc328b3c1e4f2066d6fbe72ca9d970b5a1",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.0.tgz"
+			}
+		},
+		"1.0.1": {
+			"name": "gl-plot3d",
+			"version": "1.0.1",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"canvas-fit": "^1.2.0",
+				"gl-axes3d": "^1.0.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"orbiter": "^1.0.2"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "de51285015a097e4d486a9cf3848939e28fe23b6",
+			"_id": "gl-plot3d@1.0.1",
+			"_shasum": "a4d2b361434e8f31eae4530aa504dec90507087b",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "a4d2b361434e8f31eae4530aa504dec90507087b",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.1.tgz"
+			}
+		},
+		"1.0.2": {
+			"name": "gl-plot3d",
+			"version": "1.0.2",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.0.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"orbiter": "^1.0.2"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "8734d4dcbb38fc774984f0bc4228d6fcb96675c0",
+			"_id": "gl-plot3d@1.0.2",
+			"_shasum": "0ea8985dc4bf66849921e7dd0dde03a849fbaf5a",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0ea8985dc4bf66849921e7dd0dde03a849fbaf5a",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.2.tgz"
+			}
+		},
+		"1.1.0": {
+			"name": "gl-plot3d",
+			"version": "1.1.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.0.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "8d538d3d53e40a547cbed792295517659b398ba1",
+			"_id": "gl-plot3d@1.1.0",
+			"_shasum": "acf120d52dbe61a3f1594f5403c1ab8511b0b2fa",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "acf120d52dbe61a3f1594f5403c1ab8511b0b2fa",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.0.tgz"
+			}
+		},
+		"1.1.1": {
+			"name": "gl-plot3d",
+			"version": "1.1.1",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "3352533fe60b7b4f0226c713a26d90b4bce89084",
+			"_id": "gl-plot3d@1.1.1",
+			"_shasum": "db28e65e8e76caa6bf572d21ab41f6812153842a",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "db28e65e8e76caa6bf572d21ab41f6812153842a",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.1.tgz"
+			}
+		},
+		"1.1.2": {
+			"name": "gl-plot3d",
+			"version": "1.1.2",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "e75e945d6ab4b144e051f25a8716c711fff46ae8",
+			"_id": "gl-plot3d@1.1.2",
+			"_shasum": "3bc991e5b837dcebabb05f4c502d1ae1ceacfdc6",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3bc991e5b837dcebabb05f4c502d1ae1ceacfdc6",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.2.tgz"
+			}
+		},
+		"1.1.3": {
+			"name": "gl-plot3d",
+			"version": "1.1.3",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "6aeb7deb6a06c38c80ecb7d12737714d34ed76f9",
+			"_id": "gl-plot3d@1.1.3",
+			"_shasum": "11616a3af5e0155546e47c9c96ae229a62b93edf",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "11616a3af5e0155546e47c9c96ae229a62b93edf",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.3.tgz"
+			}
+		},
+		"1.1.4": {
+			"name": "gl-plot3d",
+			"version": "1.1.4",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.0",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.0",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.0",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "24fd734409a1965a50d4c77c34d76243c576cd4c",
+			"_id": "gl-plot3d@1.1.4",
+			"_shasum": "2c561c213b68c150a4131a0723e6b28d003cfe9e",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.26",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2c561c213b68c150a4131a0723e6b28d003cfe9e",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.4.tgz"
+			}
+		},
+		"1.2.0": {
+			"name": "gl-plot3d",
+			"version": "1.2.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "73649eabb5977578552652d42d75b959c20d88af",
+			"_id": "gl-plot3d@1.2.0",
+			"_shasum": "b98b3c261fcc92b6b52ad4213d8c5dcbd145331a",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "b98b3c261fcc92b6b52ad4213d8c5dcbd145331a",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.2.1": {
+			"name": "gl-plot3d",
+			"version": "1.2.1",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "ef0d302df152389550ab84d78776f9c60bbe8bb6",
+			"_id": "gl-plot3d@1.2.1",
+			"_shasum": "af3f2419620cb3c965ef3b40393d11c0c24a6f6f",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "af3f2419620cb3c965ef3b40393d11c0c24a6f6f",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.3.0": {
+			"name": "gl-plot3d",
+			"version": "1.3.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.0",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^1.0.0",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16",
+				"3d-view-controls": "^2.0.0"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "220d9c236532339afe7bd5fedf2cee93a4d876a7",
+			"_id": "gl-plot3d@1.3.0",
+			"_shasum": "5bed19259a56b35d75249bbff8511e9d8b030252",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "5bed19259a56b35d75249bbff8511e9d8b030252",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.2.2": {
+			"name": "gl-plot3d",
+			"version": "1.2.2",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.1.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"beefy": "^2.1.3",
+				"browserify": "^9.0.3",
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "7e20a8d35d18fbec12fa909aec90d6e55813fbe0",
+			"_id": "gl-plot3d@1.2.2",
+			"_shasum": "c6c15f03273e11da745bcd01292a354dc409f279",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "c6c15f03273e11da745bcd01292a354dc409f279",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.2.3": {
+			"name": "gl-plot3d",
+			"version": "1.2.3",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "8165cab1f86cec2209c4596a5ded5472dd172c63",
+			"_id": "gl-plot3d@1.2.3",
+			"_shasum": "49baa54881b029f72574045ccd78fea0bd2e08a1",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "49baa54881b029f72574045ccd78fea0bd2e08a1",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.4.0": {
+			"name": "gl-plot3d",
+			"version": "1.4.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "a9ac3f88117d2ffb673faa873589a03084b3dc5e",
+			"_id": "gl-plot3d@1.4.0",
+			"_shasum": "527a0772b730f9948a3a86d891509d1e39823197",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "527a0772b730f9948a3a86d891509d1e39823197",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.4.1": {
+			"name": "gl-plot3d",
+			"version": "1.4.1",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "2d42e665b0650543d3ac45de5cc74771b5291d1e",
+			"_id": "gl-plot3d@1.4.1",
+			"_shasum": "8d25aa9e697c9a33408564c948ee82ce36725748",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "8d25aa9e697c9a33408564c948ee82ce36725748",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.4.2": {
+			"name": "gl-plot3d",
+			"version": "1.4.2",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "8946755b82b9deccc6690969933b9238ba9c25b1",
+			"_id": "gl-plot3d@1.4.2",
+			"_shasum": "db5bb2dacd000020ad0ff211a43402bb74882584",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "db5bb2dacd000020ad0ff211a43402bb74882584",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.4.3": {
+			"name": "gl-plot3d",
+			"version": "1.4.3",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "c42cd985d6ac40d592d9970f74f7c99af24a3c4e",
+			"_id": "gl-plot3d@1.4.3",
+			"_shasum": "87e3b1b984e560a0e5f1dafdc98fa02f18099017",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "87e3b1b984e560a0e5f1dafdc98fa02f18099017",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				}
+			]
+		},
+		"1.5.0": {
+			"name": "gl-plot3d",
+			"version": "1.5.0",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.2",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "31d8d4e84bf385373aa050d9d980a242917328e5",
+			"_id": "gl-plot3d@1.5.0",
+			"_shasum": "41495901490034914378d421aa89cc44e2bc1664",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.2.4",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "41495901490034914378d421aa89cc44e2bc1664",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/gl-plot3d-1.5.0.tgz_1456415339210_0.24658720823936164"
+			}
+		},
+		"1.5.1": {
+			"name": "gl-plot3d",
+			"version": "1.5.1",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.0",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "9e2bc26d65cf8dcd590d3f27757a0099fee9b966",
+			"_id": "gl-plot3d@1.5.1",
+			"_shasum": "0230eee1d6cb95dfe6d85218d0afc16e0cc45578",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "bpostlethwaite",
+				"email": "post.ben.here@gmail.com"
+			},
+			"dist": {
+				"shasum": "0230eee1d6cb95dfe6d85218d0afc16e0cc45578",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/gl-plot3d-1.5.1.tgz_1474985992667_0.12070114142261446"
+			}
+		},
+		"1.5.2": {
+			"name": "gl-plot3d",
+			"version": "1.5.2",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.0.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"is-mobile": "^0.2.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"enable-mobile": "^1.0.7",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.10",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "34a4ce23af5de51a5f301a6bcc07262b5e7e2639",
+			"_id": "gl-plot3d@1.5.2",
+			"_shasum": "bf2d528f6451db17f19668a761f4e07e67e3718c",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "bf2d528f6451db17f19668a761f4e07e67e3718c",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-plot3d-1.5.2.tgz_1487750613357_0.6701878421008587"
+			}
+		},
+		"1.5.3": {
+			"name": "gl-plot3d",
+			"version": "1.5.3",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.2.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"is-mobile": "^0.2.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"enable-mobile": "^1.0.7",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.10",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "1fc9a8161d36d57539d009dd042ab413d863cf32",
+			"_id": "gl-plot3d@1.5.3",
+			"_shasum": "e5224b6f5120c5ef2103f87caab7346750a08c15",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "etpinard",
+				"email": "etienne.t.pinard@gmail.com"
+			},
+			"dist": {
+				"shasum": "e5224b6f5120c5ef2103f87caab7346750a08c15",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-plot3d-1.5.3.tgz_1488226039514_0.1988415054511279"
+			}
+		},
+		"1.5.4": {
+			"name": "gl-plot3d",
+			"version": "1.5.4",
+			"description": "Quick start rendering engine for plotting/data visualization",
+			"main": "scene.js",
+			"directories": {
+				"example": "example"
+			},
+			"dependencies": {
+				"3d-view-controls": "^2.2.0",
+				"a-big-triangle": "^1.0.0",
+				"gl-axes3d": "^1.2.5",
+				"gl-fbo": "^2.0.3",
+				"gl-mat4": "^1.1.2",
+				"gl-select-static": "^2.0.2",
+				"gl-shader": "^4.0.4",
+				"gl-spikes3d": "^1.0.3",
+				"glslify": "^2.1.2",
+				"is-mobile": "^0.2.2",
+				"mouse-change": "^1.1.1",
+				"ndarray": "^1.0.16"
+			},
+			"devDependencies": {
+				"bunny": "^1.0.1",
+				"dirichlet": "0.0.0",
+				"enable-mobile": "^1.0.7",
+				"gl-line3d": "^1.0.0",
+				"gl-mesh3d": "^1.0.0",
+				"gl-scatter3d": "^1.0.10",
+				"gl-surface3d": "^1.0.0",
+				"ndarray-fill": "^1.0.1",
+				"simplicial-complex": "^1.0.0"
+			},
+			"scripts": {
+				"scatter": "beefy ./example/scatter.js --open",
+				"line": "beefy ./example/line.js --open",
+				"surface": "beefy ./example/surface.js --open",
+				"mesh": "beefy ./example/mesh.js --open",
+				"wireframe": "beefy ./example/wireframe.js --open"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-plot3d.git"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-plot3d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-plot3d",
+			"gitHead": "508ccc89b2648a19be87ecba74060c7f9d836281",
+			"_id": "gl-plot3d@1.5.4",
+			"_shasum": "be9c1868c829a47d0a2ab03c70d528af868f9e86",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "be9c1868c829a47d0a2ab03c70d528af868f9e86",
+				"tarball": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/gl-plot3d-1.5.4.tgz_1491512616803_0.8033860917203128"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.5.4"
+	},
+	"_distfiles": {
+		"gl-plot3d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.0.tgz",
+			"sha": "afcbbfdc328b3c1e4f2066d6fbe72ca9d970b5a1",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.1.tgz",
+			"sha": "a4d2b361434e8f31eae4530aa504dec90507087b",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.0.2.tgz",
+			"sha": "0ea8985dc4bf66849921e7dd0dde03a849fbaf5a",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.0.tgz",
+			"sha": "acf120d52dbe61a3f1594f5403c1ab8511b0b2fa",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.1.tgz",
+			"sha": "db28e65e8e76caa6bf572d21ab41f6812153842a",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.2.tgz",
+			"sha": "3bc991e5b837dcebabb05f4c502d1ae1ceacfdc6",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.3.tgz",
+			"sha": "11616a3af5e0155546e47c9c96ae229a62b93edf",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.1.4.tgz",
+			"sha": "2c561c213b68c150a4131a0723e6b28d003cfe9e",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.0.tgz",
+			"sha": "b98b3c261fcc92b6b52ad4213d8c5dcbd145331a",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.1.tgz",
+			"sha": "af3f2419620cb3c965ef3b40393d11c0c24a6f6f",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.3.0.tgz",
+			"sha": "5bed19259a56b35d75249bbff8511e9d8b030252",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.2.tgz",
+			"sha": "c6c15f03273e11da745bcd01292a354dc409f279",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.2.3.tgz",
+			"sha": "49baa54881b029f72574045ccd78fea0bd2e08a1",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.0.tgz",
+			"sha": "527a0772b730f9948a3a86d891509d1e39823197",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.1.tgz",
+			"sha": "8d25aa9e697c9a33408564c948ee82ce36725748",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.4.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.2.tgz",
+			"sha": "db5bb2dacd000020ad0ff211a43402bb74882584",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.4.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.4.3.tgz",
+			"sha": "87e3b1b984e560a0e5f1dafdc98fa02f18099017",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.0.tgz",
+			"sha": "41495901490034914378d421aa89cc44e2bc1664",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.1.tgz",
+			"sha": "0230eee1d6cb95dfe6d85218d0afc16e0cc45578",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.5.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.2.tgz",
+			"sha": "bf2d528f6451db17f19668a761f4e07e67e3718c",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.5.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.3.tgz",
+			"sha": "e5224b6f5120c5ef2103f87caab7346750a08c15",
+			"registry": "npmjs"
+		},
+		"gl-plot3d-1.5.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-plot3d/-/gl-plot3d-1.5.4.tgz",
+			"sha": "be9c1868c829a47d0a2ab03c70d528af868f9e86",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58e6ad29-bf36\"",
+			"fetched": 1501276740418
+		}
+	},
+	"_rev": "1-35e813c9a6d8c7e8",
+	"readme": "gl-plot3d\r\n=========\r\nThis is the core module for 3D plotting in gl-vis. It is compatible with the following modules:\r\n\r\n* [gl-scatter3d](https://github.com/gl-vis/gl-scatter3d): 3D scatter plots\r\n* [gl-line3d](https://github.com/gl-vis/gl-line3d): 3D line plots\r\n* [gl-surface3d](https://github.com/gl-vis/gl-surface3d): 3D surface plots\r\n* [gl-mesh3d](https://github.com/gl-vis/gl-mesh3d): General mesh drawing\r\n\r\nThis module (and this whole subecosystem) skew more towards the easy-side of the simple vs. easy tradeoff spectrum.  It has lots of options, but has opinionated and reasonable defaults which should make it suitable for small projects like mesh viewers or knocking out one-off data visualizations.  If you want more precise, low level control, check out [stack.gl](https://stack.gl).\r\n\r\n# Examples\r\n\r\n### Scatter plot\r\n\r\n[<img src=\"images/scatter3d.png\" width=\"400px\" alt=\"3D scatter plot\">](http://requirebin.com/?gist=cf75d78184f6b8cac15a) [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=cf75d78184f6b8cac15a)\r\n\r\n```javascript\r\nvar createScene   = require('gl-plot3d')\r\nvar createScatter = require('gl-scatter3d')\r\nvar bunny         = require('bunny')\r\n\r\nvar scene = createScene()\r\n\r\nvar scatter = createScatter({\r\n  gl:             scene.gl,\r\n  position:       bunny.positions,\r\n  size:           10,\r\n  glyph:          '★',\r\n  orthographic:   true,\r\n  lineColor:      [0,0,0],\r\n  color:          [1,0,0],\r\n  lineWidth:      1,\r\n  projectOpacity: 0.3\r\n})\r\n\r\nscene.add(scatter)\r\n```\r\n\r\n### Line plot\r\n\r\n[<img src=\"images/line3d.png\" width=\"400px\" alt=\"3D line plot\">](http://requirebin.com/?gist=16dee68aba0f2aee6068) [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=16dee68aba0f2aee6068)\r\n\r\n```javascript\r\nvar createScene = require('gl-plot3d')\r\nvar createLine  = require('gl-line3d')\r\n\r\nvar scene = createScene()\r\n\r\nvar points = []\r\nfor(var t = 0; t< 1000; ++t) {\r\n  var theta = Math.PI * t / 200.0\r\n  points.push([Math.cos(theta), 0.002 * t, Math.sin(theta)])\r\n}\r\n\r\nvar linePlot = createLine({\r\n  gl:        scene.gl,\r\n  position:  points,\r\n  lineWidth: 5,\r\n  color:     [1,0,0]\r\n})\r\n\r\nscene.add(linePlot)\r\n```\r\n\r\n### Surfaces\r\n\r\n[<img src=\"images/surface3d.png\" width=\"400px\" alt=\"3D surface plot\">](http://requirebin.com/?gist=1191b34203ffd9adc905)\r\n[![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=1191b34203ffd9adc905)\r\n\r\n```javascript\r\nvar createScene       = require('gl-plot3d')\r\nvar createSurfacePlot = require('gl-surface3d')\r\nvar ndarray           = require('ndarray')\r\nvar fill              = require('ndarray-fill')\r\nvar diric             = require('dirichlet')\r\n\r\nvar scene = createScene()\r\n\r\nvar field = ndarray(new Float32Array(512*512), [512,512])\r\nfill(field, function(x,y) {\r\n  return 128 * diric(10, 10.0*(x-256)/512) * diric(10, 10.0*(y-256)/512)\r\n})\r\n\r\nvar surface = createSurfacePlot({\r\n  gl:             scene.gl,\r\n  field:          field,\r\n  contourProject: true\r\n})\r\n\r\nscene.add(surface)\r\n```\r\n\r\n### Parametric surfaces\r\n\r\n[<img src=\"images/torus3d.png\" width=\"400px\" alt=\"3D parametric surface plot\">](http://requirebin.com/?gist=5feeac1f3767298d55ca) [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=5feeac1f3767298d55ca)\r\n\r\n```javascript\r\nvar createScene   = require('gl-plot3d')\r\nvar createSurface = require('gl-surface3d')\r\nvar ndarray       = require('ndarray')\r\n\r\nvar scene = createScene()\r\n\r\nvar size = 64\r\nvar coords = [\r\n  ndarray(new Float32Array(4*(size+1)*(size+1)), [2*size+1,2*size+1]),\r\n  ndarray(new Float32Array(4*(size+1)*(size+1)), [2*size+1,2*size+1]),\r\n  ndarray(new Float32Array(4*(size+1)*(size+1)), [2*size+1,2*size+1])\r\n]\r\nfor(var i=0; i<=2*size; ++i) {\r\n  var theta = Math.PI * (i - size) / size\r\n  for(var j=0; j<=2*size; ++j) {\r\n    var phi = Math.PI * (j - size) / size\r\n    coords[0].set(i, j, (50.0 + 20.0 * Math.cos(theta)) * Math.cos(phi))\r\n    coords[1].set(i, j, (50.0 + 20.0 * Math.cos(theta)) * Math.sin(phi))\r\n    coords[2].set(i, j, 20.0 * Math.sin(theta))\r\n  }\r\n}\r\n\r\nvar surface = createSurface({\r\n  gl:             scene.gl,\r\n  coords:         coords,\r\n  contourProject: true,\r\n  showContour:    true\r\n})\r\n\r\nscene.add(surface)\r\n```\r\n\r\n### Meshes\r\n\r\n[<img src=\"images/mesh3d.png\" width=\"400px\" alt=\"3D mesh\">](http://requirebin.com/?gist=0d4c38d1aa80edbe4a28) [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=0d4c38d1aa80edbe4a28)\r\n\r\n```javascript\r\nvar createScene = require('gl-plot3d')\r\nvar createMesh  = require('gl-mesh3d')\r\nvar bunny       = require('bunny')\r\n\r\nvar scene = createScene()\r\n\r\nvar mesh = createMesh({\r\n  gl:         scene.gl,\r\n  cells:      bunny.cells,\r\n  positions:  bunny.positions,\r\n  colormap:   'jet'\r\n})\r\n\r\nscene.add(mesh)\r\n```\r\n\r\n### Wireframe meshes\r\n\r\n[<img src=\"images/wire3d.png\" width=\"400px\" alt=\"3D wire frame\">](http://requirebin.com/?gist=37a8df8ace4ecafa010f) [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=37a8df8ace4ecafa010f)\r\n\r\n```javascript\r\nvar createScene = require('gl-plot3d')\r\nvar createMesh  = require('gl-mesh3d')\r\nvar bunny       = require('bunny')\r\nvar sc          = require('simplicial-complex')\r\n\r\nvar scene = createScene()\r\n\r\nvar mesh = createMesh({\r\n  gl:         scene.gl,\r\n  cells:      sc.skeleton(bunny.cells, 1),\r\n  positions:  bunny.positions,\r\n  colormap:   'jet'\r\n})\r\n\r\nscene.add(mesh)\r\n```\r\n\r\n# Install\r\n\r\n```\r\nnpm i gl-plot3d\r\n```\r\n\r\n# API\r\n\r\n## Constructor\r\n\r\n#### `var scene = require('gl-plot3d')(canvas[, options])`\r\n\r\nCreates a new scene object.\r\n\r\n* `canvas` is an HTML canvas element into which the scene is inserted. (If not specified, a new fullscreen canvas is created and appended to the document)\r\n* `gl` is a WebGL context (If not specified, a new context is created)\r\n* `glOptions` is a set of options passed to the new WebGL context, `gl` is not specified\r\n* `camera` an object storing camera options.  See [orbiter](https://github.com/mikolalysenko/orbiter) for more details\r\n* `axes` options passed to the axes object.  See [gl-axes](https://github.com/mikolalysenko/gl-axes) for more details\r\n* `spikes` options passed to the axes spikes.  See [gl-spikes](https://github.com/mikolalysenko/gl-spikes) for more details\r\n* `clearColor` a length 4 array of color values for the clear\r\n* `fovy` the vertical field of view\r\n* `zNear` near clip plane distance\r\n* `zFar` far clip plane distance\r\n* `pickRadius` the distance for mouse picking\r\n* `autoBounds` a flag, if set automatically recalculates object bounds (default `true`)\r\n* `autoScale` a flag, if set automatically scales the data set to unit length, preserving aspect ratio (default `true`)\r\n* `autoCenter` a flag, if set translates data to the center of the coordinate system (default `true`)\r\n* `clipToBounds` clip data points to remain within the axes bounds\r\n* `snapToData` snap selections to data points\r\n* `onselect` called whenever the currently highlighted data point changes\r\n* `onrender` called whenever the scene is drawn\r\n\r\n## Methods\r\n\r\n#### `scene.addObject(obj)`\r\nAdds a new object to the scene\r\n\r\n#### `scene.removeObject(obj)`\r\nRemoves an object from the scene\r\n\r\n#### `scene.redraw()`\r\nForces an immediate redraw of the scene and pick buffer.  Useful if you are s\r\n\r\n#### `scene.dispose()`\r\nDestroys the scene and releases all associated resources.  Also destroys all attached objects.\r\n\r\n## Properties\r\n\r\n#### `scene.selection`\r\nInformation about the currently selected object in the scene.\r\n\r\n#### `scene.objects`\r\nA list of all objects in the scene.\r\n\r\n#### `scene.canvas`\r\nThe canvas element associated with the scene\r\n\r\n#### `scene.gl`\r\nThe WebGL context associated with the scene.\r\n\r\n#### `scene.axes`\r\nA reference to the axes object for the scene\r\n\r\n#### `scene.camera`\r\nA reference to the camera object for the scene\r\n\r\n#### `scene.bounds`\r\nBounds for the scene\r\n\r\n# License\r\n(c) 2015 Mikola Lysenko. MIT License\r\n\r\nDevelopment support by [plot.ly](http://plot.ly)\r\n\r\n[<img src=\"images/plotly.png\" width=\"250px\">](http://plot.ly)\r\n"
+}

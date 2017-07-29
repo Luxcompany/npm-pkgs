@@ -1,0 +1,99 @@
+{
+	"name": "progress-tracker",
+	"versions": {
+		"1.0.0": {
+			"name": "progress-tracker",
+			"description": "A progress tracker written in SASS with flexbox to be flexible and responsive out of the box. This can be used to illustrate a multi stage process e.g. form, quiz or a timeline.</h3>",
+			"version": "1.0.0",
+			"main": "gulpfile.js",
+			"dependencies": {},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://nigelotoole@github.com/NigelOToole/progress-tracker.git"
+			},
+			"keywords": [
+				"progress",
+				"tracker",
+				"progress",
+				"multi",
+				"step",
+				"multi-step",
+				"multi",
+				"stage",
+				"multi-stage",
+				"sass",
+				"css",
+				"gulp"
+			],
+			"author": {
+				"name": "Nigel O Toole",
+				"email": "pure@purestructure.com",
+				"url": "http://www.purestructure.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/NigelOToole/progress-tracker/issues"
+			},
+			"homepage": "https://github.com/NigelOToole/progress-tracker#readme",
+			"engines": {
+				"node": ">=4"
+			},
+			"devDependencies": {
+				"browser-sync": "^2.2.1",
+				"gulp": "^3.9.0",
+				"gulp-autoprefixer": "^3.0.1",
+				"gulp-load-plugins": "^0.10.0",
+				"gulp-plumber": "^1.0.1",
+				"gulp-sass": "^2.0.0",
+				"gulp-sourcemaps": "^1.5.0"
+			},
+			"gitHead": "1667a00c5f00c76a5a3966bb5b78dbbe903a31ca",
+			"_id": "progress-tracker@1.0.0",
+			"_shasum": "86df6909f9649bc5a347459725ba9c5bbb666bed",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "nigelotoole",
+				"email": "pure@purestructure.com"
+			},
+			"dist": {
+				"shasum": "86df6909f9649bc5a347459725ba9c5bbb666bed",
+				"tarball": "https://registry.npmjs.org/progress-tracker/-/progress-tracker-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "nigelotoole",
+					"email": "pure@purestructure.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/progress-tracker-1.0.0.tgz_1466002588847_0.3415691666305065"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"progress-tracker-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/progress-tracker/-/progress-tracker-1.0.0.tgz",
+			"sha": "86df6909f9649bc5a347459725ba9c5bbb666bed",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"57616ca0-10d3\"",
+			"fetched": 1501276764114
+		}
+	},
+	"_rev": "1-6789f4f22244dcbb",
+	"readme": "# SASS Progress Tracker\n\nA progress tracker written in SASS with flexbox to be flexible and responsive out of the box. This can be used to illustrate a multi stage process e.g. form, quiz or a timeline.\n\n\n##Installation\n\n###npm\n```javascript\n$ npm install progress-tracker --save-dev\n```\n\n###bower\n```javascript\n$ bower install progress-tracker --save-dev\n```\n\n\n##Usage\nOnce you have downloaded the code, you can run $ npm install and $ gulp serve to run this demo.\n\nYou can also just import progress-tracker.scss into your own project and modify as needed. Optional files are progress-tracker-animations.scss to add animations and progress-tracker-theme.scss for quicker theming.\n\nFollow the code example below for basic usage, each demo sets the first two steps as complete, the third step as active and the last two steps as inactive. For additional styles add a modifier classes to the ul and add additional markup as needed in the examples.\n\n```html\n<ul class=\"progress-tracker\">\n  <li class=\"progress-step is-complete\">\n    <span class=\"progress-marker\"></span>\n  </li>\n  <li class=\"progress-step is-complete\">\n    <span class=\"progress-marker\"></span>\n  </li>\n  <li class=\"progress-step is-active\">\n    <span class=\"progress-marker\"></span>\n  </li>\n  <li class=\"progress-step\">\n    <span class=\"progress-marker\"></span>\n  </li>\n  <li class=\"progress-step\">\n    <span class=\"progress-marker\"></span>\n  </li>\n</ul>\n```\n\n\n### License\nMIT © Nigel O Toole\n"
+}

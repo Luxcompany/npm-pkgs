@@ -1,0 +1,129 @@
+{
+	"name": "grid-index",
+	"versions": {
+		"0.1.0": {
+			"name": "grid-index",
+			"version": "0.1.0",
+			"description": "A 2D spatial index for axis-aligned boxes",
+			"main": "grid-index.js",
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/grid-index.git"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/mapbox/grid-index/issues"
+			},
+			"homepage": "https://github.com/mapbox/grid-index#readme",
+			"devDependencies": {
+				"tap": "^5.7.0"
+			},
+			"gitHead": "aaa4e8dcf20628fc0a32d364fb5295451d9a9a49",
+			"_id": "grid-index@0.1.0",
+			"_shasum": "3a585312a969244b4c4d5d99e3a568e65b109543",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "ansis",
+				"email": "ansis.brammanis@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3a585312a969244b4c4d5d99e3a568e65b109543",
+				"tarball": "https://registry.npmjs.org/grid-index/-/grid-index-0.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/grid-index-0.1.0.tgz_1458869905514_0.5811388816218823"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "grid-index",
+			"version": "1.0.0",
+			"description": "A 2D spatial index for axis-aligned boxes",
+			"main": "grid-index.js",
+			"scripts": {
+				"test": "node test/index.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mapbox/grid-index.git"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/mapbox/grid-index/issues"
+			},
+			"homepage": "https://github.com/mapbox/grid-index#readme",
+			"devDependencies": {
+				"tap": "^5.7.0"
+			},
+			"gitHead": "bf809d6ccf27945890f9333335659cf52b3761e9",
+			"_id": "grid-index@1.0.0",
+			"_shasum": "ad2c5d54ce5b35437faff1d70a9aeb3d1d261110",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@mapbox.com"
+			},
+			"maintainers": [
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				}
+			],
+			"dist": {
+				"shasum": "ad2c5d54ce5b35437faff1d70a9aeb3d1d261110",
+				"tarball": "https://registry.npmjs.org/grid-index/-/grid-index-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/grid-index-1.0.0.tgz_1467933356075_0.8242481658235192"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"grid-index-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/grid-index/-/grid-index-0.1.0.tgz",
+			"sha": "3a585312a969244b4c4d5d99e3a568e65b109543",
+			"registry": "npmjs"
+		},
+		"grid-index-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/grid-index/-/grid-index-1.0.0.tgz",
+			"sha": "ad2c5d54ce5b35437faff1d70a9aeb3d1d261110",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5922b982-1729\"",
+			"fetched": 1501276753432
+		}
+	},
+	"_rev": "1-a2446939962bebd3",
+	"readme": "# grid-index\n\nGridIndex is a 2D spatial index that is [transferable](https://developer.mozilla.org/en-US/docs/Web/API/Transferable).\n\nPairs of keys and boxes can be inserted into GridIndex. The grid can then be queried to find all the keys that intersect a given box. The grid can be serialized to an ArrayBuffer so that it can be transferred between WebWorkers.\n\n**You should probably use [rbush](https://github.com/mourner/rbush) instead of GridIndex!** It's easier to use and it's as fast or faster in many cases.\n\nGridIndex can be faster in a specific set of cases:\n- the constructed index needs to be transferred between workers\n- the extent of the features is fixed\n- features are somewhat evenly sized and distributed\n- a high number of insertions relative to the number of queries\n\nGridIndex is used by [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) for label collision detection and feature picking.\n\n## Example\n\n```js\nvar GridIndex = require('grid-index');\n\nvar grid = new GridIndex(100, 5, 0);\nvar key1 = 1;\nvar key2 = 2;\nvar key3 = 3;\ngrid.insert(key1, 30, 10, 35, 15);\ngrid.insert(key2, 60, 20, 65, 25);\ngrid.insert(key3, 40, 10, 45, 15);\n\nvar keys = grid.query(0, 0, 100, 13);\n// `keys` is now [key1, key3]\n\nvar arrayBuffer = grid.toArrayBuffer();\n// transfer the ArrayBuffer to a different worker \n\nvar grid2 = new GridIndex(arrayBuffer);\nvar keys2 = grid2.query(0, 0, 100, 13);\n// `keys2` is now [key1, key3]\n```\n\n## API\n\n### `GridIndex(extent, n, padding)`\nCreate a new GridIndex.\n\n- **extent**: The width and height of the square area that needs to be indexed, for example `4096`.\n- **n**: The rows and columns the grid will be split into. `4` would divide the grid into 16 cells.\n- **padding**: The number of extra rows and columns that should be added on each side of the main grid square.\n\n\n### `GridIndex(arrayBuffer)`\nUnserialize a GridIndex.\n\n- **arrayBuffer**: an ArrayBuffer produced by `gridIndex.toArrayBuffer()`.\n\n\n### `gridIndex.insert(key, x1, x2, y1, y2)`\n\nInsert a new key, box pair into the grid.\n\n- **key**: An unsigned 32bit integer.\n- **x1**: The x coordinate of the left edge of the box.\n- **x2**: The x coordinate of the right edge of the box.\n- **y1**: The y coordinate of the top edge of the box.\n- **y2**: The y coordinate of the bottom edge of the box.\n\n\n### `gridIndex.query(key, x1, x2, y1, y2)`\n\nFind the keys that intersect with the given box.\n\n- **x1**: The x coordinate of the left edge of the box.\n- **x2**: The x coordinate of the right edge of the box.\n- **y1**: The y coordinate of the top edge of the box.\n- **y2**: The y coordinate of the bottom edge of the box.\n\n**returns** an array of keys.\n\n\n### `gridIndex.toArrayBuffer()`\n\nSerialize a GridIndex to an ArrayBuffer so that it can be transferred between WebWorkers efficiently.\n\n**returns** an ArrayBuffer that can later be deserialized with `new GridIndex(arrayBuffer)`.\n"
+}

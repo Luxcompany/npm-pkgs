@@ -1,0 +1,1213 @@
+{
+	"name": "gl-scatter2d",
+	"versions": {
+		"1.0.0": {
+			"name": "gl-scatter2d",
+			"version": "1.0.0",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^2.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "7d06df6a5d4a768e7633266aa502f8817d948ea9",
+			"_id": "gl-scatter2d@1.0.0",
+			"_shasum": "fad863cde4a5cd87bc8d608d7b7072c45794c906",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "fad863cde4a5cd87bc8d608d7b7072c45794c906",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.1": {
+			"name": "gl-scatter2d",
+			"version": "1.0.1",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "0b7d1dbd2d2d568ef90b4c27d69b7134a3717f1a",
+			"_id": "gl-scatter2d@1.0.1",
+			"_shasum": "a22d4fc0e83fc685e168d9bfb9593e09812029be",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "a22d4fc0e83fc685e168d9bfb9593e09812029be",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.2": {
+			"name": "gl-scatter2d",
+			"version": "1.0.2",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "1ccbef63e95c9e1954bb41361f7607fa27f8efee",
+			"_id": "gl-scatter2d@1.0.2",
+			"_shasum": "229bfa253e579fe705fb03da4aceda8a47f4e5ab",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "229bfa253e579fe705fb03da4aceda8a47f4e5ab",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.3": {
+			"name": "gl-scatter2d",
+			"version": "1.0.3",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "940ca39c3c7651d44bebb0d7cdfaf87084d1ed90",
+			"_id": "gl-scatter2d@1.0.3",
+			"_shasum": "f488ca3260aa34cad07ca16f83addb5d8371c71d",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "f488ca3260aa34cad07ca16f83addb5d8371c71d",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.4": {
+			"name": "gl-scatter2d",
+			"version": "1.0.4",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "8b35fe4de48c6a2107230bea54e4c5321c6a53a1",
+			"_id": "gl-scatter2d@1.0.4",
+			"_shasum": "4ee724a34165fa29ef0181c4525b04397404d5fb",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "4ee724a34165fa29ef0181c4525b04397404d5fb",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.5": {
+			"name": "gl-scatter2d",
+			"version": "1.0.5",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "d4a1632ff8ef37cbd0ae1f57626fe1354c022d8b",
+			"_id": "gl-scatter2d@1.0.5",
+			"_shasum": "a44022fd256361710f6c58fea78b1c398829790d",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "a44022fd256361710f6c58fea78b1c398829790d",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			]
+		},
+		"1.0.6": {
+			"name": "gl-scatter2d",
+			"version": "1.0.6",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mikolalysenko/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mikolalysenko/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/mikolalysenko/gl-scatter2d#readme",
+			"gitHead": "20606525aaf3e31312da63dc131591641daeb369",
+			"_id": "gl-scatter2d@1.0.6",
+			"_shasum": "2842eb97609e2184244bf7c694b6778207cdd06c",
+			"_from": ".",
+			"_npmVersion": "2.13.1",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "mikolalysenko",
+				"email": "mikolalysenko@gmail.com"
+			},
+			"dist": {
+				"shasum": "2842eb97609e2184244bf7c694b6778207cdd06c",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/gl-scatter2d-1.0.6.tgz_1457667817496_0.13281721901148558"
+			}
+		},
+		"1.2.0": {
+			"name": "gl-scatter2d",
+			"version": "1.2.0",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "95f1cae95f501cad10fad612bfcf1246ad375fbb",
+			"_id": "gl-scatter2d@1.2.0",
+			"_shasum": "34d0ccc2c51848f2366265bbd1884fba7da574fc",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "monfera",
+				"email": "monfera.robert@gmail.com"
+			},
+			"dist": {
+				"shasum": "34d0ccc2c51848f2366265bbd1884fba7da574fc",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-scatter2d-1.2.0.tgz_1477419777339_0.9804350670892745"
+			}
+		},
+		"1.2.1": {
+			"name": "gl-scatter2d",
+			"version": "1.2.1",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "0259c20918c4596ca30bdd9b6da94f6e62190201",
+			"_id": "gl-scatter2d@1.2.1",
+			"_shasum": "8666daee4e977e99df9c2e9927ec2c7aa3d57948",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "monfera",
+				"email": "monfera.robert@gmail.com"
+			},
+			"dist": {
+				"shasum": "8666daee4e977e99df9c2e9927ec2c7aa3d57948",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-scatter2d-1.2.1.tgz_1478536318498_0.18205489264801145"
+			}
+		},
+		"1.2.2": {
+			"name": "gl-scatter2d",
+			"version": "1.2.2",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"mouse-change": "^1.2.1",
+				"mouse-wheel": "^1.0.2",
+				"gauss-random": "^1.0.1",
+				"canvas-fit": "^1.4.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "39063f835ed4a0dfb134f3da5b1f2b38e5096261",
+			"_id": "gl-scatter2d@1.2.2",
+			"_shasum": "34afb2a391f54e458b2c0d89afa73c1ef69ad14b",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "4.2.6",
+			"_npmUser": {
+				"name": "monfera",
+				"email": "monfera.robert@gmail.com"
+			},
+			"dist": {
+				"shasum": "34afb2a391f54e458b2c0d89afa73c1ef69ad14b",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/gl-scatter2d-1.2.2.tgz_1479238513192_0.12197116552852094"
+			}
+		},
+		"1.3.0": {
+			"name": "gl-scatter2d",
+			"version": "1.3.0",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0"
+			},
+			"devDependencies": {
+				"array-bounds": "^1.0.0",
+				"array-normalize": "^1.1.2",
+				"canvas-fit": "^1.5.0",
+				"enable-mobile": "^1.0.7",
+				"fps-indicator": "^1.1.0",
+				"gauss-random": "^1.0.1",
+				"gl-plot2d": "^1.2.0",
+				"gl-select-box": "^1.0.1",
+				"gl-spikes2d": "^1.0.1",
+				"mouse-change": "^1.4.0",
+				"mouse-wheel": "^1.2.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Dima Yv"
+				},
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "056817e6f0a0d34179c3eb53299a54e89056a7e5",
+			"_id": "gl-scatter2d@1.3.0",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-xrLqt5y1ps4OBvTOGhUEmRutzYQLVtSM/GXWTVA8jPp03xngtfrPuX6kFji9CYw/+4GkDr/GQzxoTF+bEHwAjg==",
+				"shasum": "ec556832064cfeec6f979261b6836f44ef36fef9",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-scatter2d-1.3.0.tgz_1496726941607_0.5673778424970806"
+			}
+		},
+		"1.3.1": {
+			"name": "gl-scatter2d",
+			"version": "1.3.1",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0",
+				"array-bounds": "^1.0.0",
+				"array-normalize": "^1.1.2"
+			},
+			"devDependencies": {
+				"canvas-fit": "^1.5.0",
+				"enable-mobile": "^1.0.7",
+				"fps-indicator": "^1.1.0",
+				"gauss-random": "^1.0.1",
+				"gl-plot2d": "^1.2.0",
+				"gl-select-box": "^1.0.1",
+				"gl-spikes2d": "^1.0.1",
+				"mouse-change": "^1.4.0",
+				"mouse-wheel": "^1.2.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Dima Yv"
+				},
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "664c3b6b9013935daaa3363a4547c7c1d8d05fbf",
+			"_id": "gl-scatter2d@1.3.1",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-n9/6FoJi7hqWeq8A7KicKCvZC3brNwsuqPtXRGqYecOqq2TlVMj4ESar8xAEBWTh5nhAXz4V5Pvj2v+1xjcN6w==",
+				"shasum": "5880abf40bf3c03ecdd5bb26ee366408ea818843",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-scatter2d-1.3.1.tgz_1496727221764_0.2379901851527393"
+			}
+		},
+		"1.3.2": {
+			"name": "gl-scatter2d",
+			"version": "1.3.2",
+			"description": "2D WebGL scatter plots",
+			"main": "scatter2d.js",
+			"directories": {
+				"example": "example"
+			},
+			"browserify": {
+				"transform": [
+					"glslify"
+				]
+			},
+			"dependencies": {
+				"binary-search-bounds": "^2.0.3",
+				"gl-buffer": "^2.1.2",
+				"gl-shader": "^4.0.4",
+				"glslify": "^2.1.2",
+				"snap-points-2d": "^3.0.0",
+				"typedarray-pool": "^1.1.0",
+				"array-bounds": "^1.0.0",
+				"array-normalize": "^1.1.2"
+			},
+			"devDependencies": {
+				"canvas-fit": "^1.5.0",
+				"enable-mobile": "^1.0.7",
+				"fps-indicator": "^1.1.0",
+				"gauss-random": "^1.0.1",
+				"gl-plot2d": "^1.2.0",
+				"gl-select-box": "^1.0.1",
+				"gl-spikes2d": "^1.0.1",
+				"mouse-change": "^1.4.0",
+				"mouse-wheel": "^1.2.0"
+			},
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gl-vis/gl-scatter2d.git"
+			},
+			"keywords": [
+				"webgl",
+				"scatter",
+				"gl-vis",
+				"2d"
+			],
+			"author": {
+				"name": "Mikola Lysenko"
+			},
+			"contributors": [
+				{
+					"name": "Dima Yv"
+				},
+				{
+					"name": "Étienne Tétreault-Pinard"
+				},
+				{
+					"name": "Robert Monfera"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gl-vis/gl-scatter2d/issues"
+			},
+			"homepage": "https://github.com/gl-vis/gl-scatter2d#readme",
+			"gitHead": "5a14c8a7e7527fd5bcd032f8c9d09d5a3205a361",
+			"_id": "gl-scatter2d@1.3.2",
+			"_shasum": "27f12ffa7b4303f4215f2209a573d728f1804371",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"shasum": "27f12ffa7b4303f4215f2209a573d728f1804371",
+				"tarball": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bpostlethwaite",
+					"email": "post.ben.here@gmail.com"
+				},
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				},
+				{
+					"name": "etpinard",
+					"email": "etienne.t.pinard@gmail.com"
+				},
+				{
+					"name": "mikolalysenko",
+					"email": "mikolalysenko@gmail.com"
+				},
+				{
+					"name": "monfera",
+					"email": "monfera.robert@gmail.com"
+				},
+				{
+					"name": "rreusser",
+					"email": "rsreusser@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/gl-scatter2d-1.3.2.tgz_1497905724606_0.5443407811690122"
+			}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.3.2"
+	},
+	"_distfiles": {
+		"gl-scatter2d-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.0.tgz",
+			"sha": "fad863cde4a5cd87bc8d608d7b7072c45794c906",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.1.tgz",
+			"sha": "a22d4fc0e83fc685e168d9bfb9593e09812029be",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.2.tgz",
+			"sha": "229bfa253e579fe705fb03da4aceda8a47f4e5ab",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.3.tgz",
+			"sha": "f488ca3260aa34cad07ca16f83addb5d8371c71d",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.4.tgz",
+			"sha": "4ee724a34165fa29ef0181c4525b04397404d5fb",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.5.tgz",
+			"sha": "a44022fd256361710f6c58fea78b1c398829790d",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.0.6.tgz",
+			"sha": "2842eb97609e2184244bf7c694b6778207cdd06c",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.0.tgz",
+			"sha": "34d0ccc2c51848f2366265bbd1884fba7da574fc",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.1.tgz",
+			"sha": "8666daee4e977e99df9c2e9927ec2c7aa3d57948",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.2.2.tgz",
+			"sha": "34afb2a391f54e458b2c0d89afa73c1ef69ad14b",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.0.tgz",
+			"sha": "ec556832064cfeec6f979261b6836f44ef36fef9",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.1.tgz",
+			"sha": "5880abf40bf3c03ecdd5bb26ee366408ea818843",
+			"registry": "npmjs"
+		},
+		"gl-scatter2d-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/gl-scatter2d/-/gl-scatter2d-1.3.2.tgz",
+			"sha": "27f12ffa7b4303f4215f2209a573d728f1804371",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59483a3d-5cad\"",
+			"fetched": 1501276740324
+		}
+	},
+	"_rev": "1-144cf6eb5326a2f6",
+	"readme": "gl-scatter2d\r\n============\r\nWebGL 2D scatter plots for lots of points\r\n\r\n## Example\r\nFor now, see [`gl-plot2d`](https://github.com/gl-vis/gl-plot2d).\r\n\r\n## Install\r\nUsing [npm](https://docs.npmjs.com/), you can install this module as follows:\r\n\r\n```\r\nnpm i gl-scatter2d\r\n```\r\n\r\n## API\r\n\r\n### Constructor\r\n\r\n#### `var scatter = require('gl-scatter2d')(plot, options)`\r\nCreates a new 2D scatter plot.\r\n\r\n* `plot` is a reference to a `gl-plot2d` object\r\n* `options` is a JSON object containing the parameters which are passed to the object when it is updated.\r\n\r\n`options` has the following properties:\r\n\r\n* `positions` is a packed 2*n length array of the unrolled xy coordinates of the points (required)\r\n* `size` is a number giving the diameter of a marker in pixels (default `12`)\r\n* `color` is the color of a marker as a length 4 RGBA array (default `[1,0,0,1]`)\r\n* `borderSize` is the width of the border around each point in pixels (default `1`)\r\n* `borderColor` is the color of the border of each point (default `[0,0,0,1]`)\r\n* `snapPoints` defines whether points should be grouped hierarchically to optimize rendering of huge number of points\r\n\r\n**Returns** A new scatter plot object, which is also registered to `plot`\r\n\r\n### Methods\r\n\r\n#### `scatter.update(options)`\r\nUpdates the scatter plot.\r\n\r\n* `options` is an object with the same properties as in the scatter plot constructor\r\n\r\n#### `scatter.dispose()`\r\nDestroys the scatter plot and all associated resources.\r\n\r\n## License\r\n(c) 2015 Mikola Lysenko. MIT License\r\n\r\nDevelopment supported by plot.ly\r\n"
+}

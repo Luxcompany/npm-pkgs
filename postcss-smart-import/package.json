@@ -1,0 +1,4293 @@
+{
+	"name": "postcss-smart-import",
+	"versions": {
+		"0.1.0": {
+			"name": "postcss-smart-import",
+			"version": "0.1.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"jsnext:main": "es/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"eslint": "^3.3.0",
+				"eslint-config-i-am-meticulous": "^4.2.1",
+				"postcss-scss": "^0.1.9"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint .",
+				"test": "ava"
+			},
+			"gitHead": "855b989d3cf251bddb3a2246e3d23371232159e6",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.1.0",
+			"_shasum": "76837844a0749bbc794446bc3b1a0fea0e61ab5b",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "76837844a0749bbc794446bc3b1a0fea0e61ab5b",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.1.0.tgz_1471080723801_0.05287925712764263"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "postcss-smart-import",
+			"version": "0.2.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"jsnext:main": "es/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.11.6",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"eslint": "^3.3.0",
+				"s15e-javascript": "^0.2.2"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava"
+			},
+			"gitHead": "7901be88aa3debc21d017bc5b416b88441eae6cc",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.0",
+			"_shasum": "e0c2e2b165c0acc0b9d50d8a1e83946f31cb9865",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "e0c2e2b165c0acc0b9d50d8a1e83946f31cb9865",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.0.tgz_1471198767115_0.94383330992423"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "postcss-smart-import",
+			"version": "0.2.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"jsnext:main": "es/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.0",
+				"fs-extra": "^0.30.0",
+				"s15e-javascript": "^0.2.2"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "npm run transpile",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "cf1df711ba6e5d431905183690a3a5e338847898",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.1",
+			"_shasum": "8197a6e4a962e71a38932e98e8fca485630105dd",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "8197a6e4a962e71a38932e98e8fca485630105dd",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.1.tgz_1471202998301_0.9757922233548015"
+			},
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "postcss-smart-import",
+			"version": "0.2.2",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"jsnext:main": "es/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.0",
+				"fs-extra": "^0.30.0",
+				"s15e-javascript": "^0.2.2"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "npm run transpile",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "ce46d9d9f9255bf1f38ede9e81add0fd742125fe",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.2",
+			"_shasum": "c061e085dc045e0670aaf0e7c35e3c7418ed1adb",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "c061e085dc045e0670aaf0e7c35e3c7418ed1adb",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.2.tgz_1471203234448_0.07091138605028391"
+			},
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "postcss-smart-import",
+			"version": "0.2.3",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"prepublish-lib": "^0.1.2",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.1",
+				"fs-extra": "^0.30.0",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "bb7e94e5a6df57be3baee8e681e7a6840efa6710",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.3",
+			"_shasum": "34483da43a72c03e8da245693510248f504c6bf4",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "34483da43a72c03e8da245693510248f504c6bf4",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.3.tgz_1471360094894_0.1878508785739541"
+			},
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "postcss-smart-import",
+			"version": "0.2.4",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"prepublish-lib": "^0.2.3",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.1",
+				"fs-extra": "^0.30.0",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "284239bcc726a61d9b1862e497a91f513fd68610",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.4",
+			"_shasum": "50c047e4995efc6643a02685b003b6f31f82bd60",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.3.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "50c047e4995efc6643a02685b003b6f31f82bd60",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.4.tgz_1471463637552_0.76432378240861"
+			},
+			"directories": {}
+		},
+		"0.2.5": {
+			"name": "postcss-smart-import",
+			"version": "0.2.5",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.1",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.2.5",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "16e92f8d31aa75c95fddb3b07fba98c7710ee461",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.5",
+			"_shasum": "5dd40aa61f7a811e1bcb1c478b2342709b1e2cee",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.4.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "5dd40aa61f7a811e1bcb1c478b2342709b1e2cee",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.5.tgz_1471794876630_0.7217698288150132"
+			},
+			"directories": {}
+		},
+		"0.2.6": {
+			"name": "postcss-smart-import",
+			"version": "0.2.6",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.1",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.2.6",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "87280862f53b7761627bf720605b2062f952ce02",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.6",
+			"_shasum": "4b5c4f531d118f1306127e79ef64c0150d79dd1f",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.4.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "4b5c4f531d118f1306127e79ef64c0150d79dd1f",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.6.tgz_1471807141692_0.8551365265157074"
+			},
+			"directories": {}
+		},
+		"0.2.7": {
+			"name": "postcss-smart-import",
+			"version": "0.2.7",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.1.2",
+				"postcss-scss": "^0.1.9",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.5"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.11.4",
+				"babel-runtime": "^6.11.6",
+				"babel-core": "^6.13.2",
+				"babel-plugin-transform-runtime": "^6.12.0",
+				"babel-preset-es2015": "^6.13.2",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.3.1",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.2.7",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "77d5004decebcb929fbb1d987c877be08e05353c",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.7",
+			"_shasum": "0107a22884384323e44c7424d6e175495bf0369d",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.4.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "0107a22884384323e44c7424d6e175495bf0369d",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.7.tgz_1471879490805_0.9153571529313922"
+			},
+			"directories": {}
+		},
+		"0.2.8": {
+			"name": "postcss-smart-import",
+			"version": "0.2.8",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.0",
+				"postcss-scss": "^0.3.0",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.6"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.14.0",
+				"babel-runtime": "^6.11.6",
+				"babel-core": "^6.14.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"eslint": "^3.4.0",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.0",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "c603b9264f7acced212d12f73eab60c913d745cd",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.8",
+			"_shasum": "2d26eee95604fad7632fc06eccfebe23ebd84225",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "2d26eee95604fad7632fc06eccfebe23ebd84225",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.8.tgz_1473360647501_0.12124100653454661"
+			},
+			"directories": {}
+		},
+		"0.2.9": {
+			"name": "postcss-smart-import",
+			"version": "0.2.9",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.0",
+				"postcss-scss": "^0.3.0",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.6"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.14.0",
+				"babel-core": "^6.14.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.4.0",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "4c1659b125eaab7fae7e83a6649f58b526bfd7e3",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.9",
+			"_shasum": "97df5b04b599ab58b7c687a0d5ca5b7ec9bcde54",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "97df5b04b599ab58b7c687a0d5ca5b7ec9bcde54",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.9.tgz_1473360745156_0.5866805179975927"
+			},
+			"directories": {}
+		},
+		"0.2.10": {
+			"name": "postcss-smart-import",
+			"version": "0.2.10",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.0",
+				"postcss-scss": "^0.3.0",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.6"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.14.0",
+				"babel-core": "^6.14.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.4.0",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "114c49957608fa12ccc2f6bc232ba50ec59b742a",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.2.10",
+			"_shasum": "d18c0025c89a27f2a75616b208fd24ca5c2535a2",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "d18c0025c89a27f2a75616b208fd24ca5c2535a2",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.2.10.tgz_1473409021590_0.4742844554129988"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "postcss-smart-import",
+			"version": "0.3.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.0",
+				"postcss-scss": "^0.3.0",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.6"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.14.0",
+				"babel-core": "^6.14.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.4.0",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "36130b6d0e8bac545851ac0db2948212f53fa6f1",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.3.0",
+			"_shasum": "611bc6d36587bb46ea3cc60a88d809f9c9f63e4d",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "611bc6d36587bb46ea3cc60a88d809f9c9f63e4d",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.3.0.tgz_1473409152920_0.2761224254500121"
+			},
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "postcss-smart-import",
+			"version": "0.3.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.0",
+				"postcss-scss": "^0.3.0",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.1.6"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.14.0",
+				"babel-core": "^6.14.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-es2016": "^6.11.3",
+				"babel-preset-stage-1": "^6.13.0",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.5.0",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "be93a9344138e713062d434c92dc88a8c83c5723",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.3.1",
+			"_shasum": "8d062c6c5b3757a5064fd079b56962ef1c82779f",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "8d062c6c5b3757a5064fd079b56962ef1c82779f",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.3.1.tgz_1474401296138_0.4209732739254832"
+			},
+			"directories": {}
+		},
+		"0.3.2": {
+			"name": "postcss-smart-import",
+			"version": "0.3.2",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "~6.3.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.4",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.7.1",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.3"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "01bfce5f8381690a553ff1e6f777126b9e86e8dd",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.3.2",
+			"_shasum": "b6707408e3f5166df27f056758abe698fe3e3cdd",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "b6707408e3f5166df27f056758abe698fe3e3cdd",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.3.2.tgz_1476176878416_0.512371362419799"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "postcss-smart-import",
+			"version": "0.4.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "> 4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.4",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-register": "^6.16.3",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.8.0",
+				"espower": "^1.3.2",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.4"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib",
+				"transpile": "node scripts/transpile.js"
+			},
+			"gitHead": "78cc62ed5105c0d1ac82ec264d57fd2b29afe18d",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.4.0",
+			"_shasum": "a69022f311aa4eecc9c08e9c82b2255636e25803",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "a69022f311aa4eecc9c08e9c82b2255636e25803",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.4.0.tgz_1476687574224_0.6160865498241037"
+			},
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "postcss-smart-import",
+			"version": "0.4.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "> 4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.4",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-register": "^6.16.3",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.8.0",
+				"espower": "^1.3.2",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.4"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "181c7bfcb6e5b2cca02507d03e1554f15540c38d",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.4.1",
+			"_shasum": "dbc0de286282c41023c3969ec29cb25d2c70ee81",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "dbc0de286282c41023c3969ec29cb25d2c70ee81",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.4.1.tgz_1476703093389_0.02378280204720795"
+			},
+			"directories": {}
+		},
+		"0.4.2": {
+			"name": "postcss-smart-import",
+			"version": "0.4.2",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "> 4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.4",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-register": "^6.16.3",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.8.0",
+				"espower": "^1.3.2",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.4.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.4"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "b63ff2c6cef4cb09e00e26e047b6a52d71560491",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.4.2",
+			"_shasum": "95321c40b221eb8f7eb52751175683ec8b07014d",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "95321c40b221eb8f7eb52751175683ec8b07014d",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.4.2.tgz_1476709734389_0.1305462836753577"
+			},
+			"directories": {}
+		},
+		"0.4.3": {
+			"name": "postcss-smart-import",
+			"version": "0.4.3",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "> 4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.4",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-register": "^6.16.3",
+				"babel-runtime": "^6.11.6",
+				"eslint": "^3.8.1",
+				"espower": "^1.3.2",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.5.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.4"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "b4d5adaf6977de32901d8304b2203589dd8a40b9",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.4.3",
+			"_shasum": "5b86bb896673eb464681a18a98ee7fd037d191f3",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "5b86bb896673eb464681a18a98ee7fd037d191f3",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.4.3.tgz_1476871413262_0.01910824957303703"
+			},
+			"directories": {}
+		},
+		"0.4.4": {
+			"name": "postcss-smart-import",
+			"version": "0.4.4",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": "> 4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.5",
+				"postcss-scss": "^0.3.1",
+				"postcss-value-parser": "^3.3.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.18.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-preset-es2016": "^6.16.0",
+				"babel-preset-stage-1": "^6.16.0",
+				"babel-register": "^6.18.0",
+				"babel-runtime": "^6.18.0",
+				"eslint": "^3.8.1",
+				"espower": "^1.3.2",
+				"fs-extra": "^0.30.0",
+				"prepublish-lib": "^0.5.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.2.4"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "ed56d91a9476892591a05ae0824af0f4d59ba733",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.4.4",
+			"_shasum": "5ca4180e72d18997f3f0ea5c236159cb3a2d9ca7",
+			"_from": ".",
+			"_npmVersion": "4.0.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "5ca4180e72d18997f3f0ea5c236159cb3a2d9ca7",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.4.4.tgz_1477512579553_0.4417645069770515"
+			},
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "postcss-smart-import",
+			"version": "0.5.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.18.0",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.5",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.18.2",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.9.1",
+				"espower": "^1.3.2",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.6.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.4.0"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "b2a63bed8a9a59c5c1f67e5a3702aadef9c04ff7",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.5.0",
+			"_shasum": "a46df08859fe99fe2062da2eafa5c26effe171e3",
+			"_from": ".",
+			"_npmVersion": "4.0.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "a46df08859fe99fe2062da2eafa5c26effe171e3",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.5.0.tgz_1478270607663_0.01806526887230575"
+			},
+			"directories": {}
+		},
+		"0.5.1": {
+			"name": "postcss-smart-import",
+			"version": "0.5.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.18.0",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.5",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.16.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.18.2",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.9.1",
+				"espower": "^1.3.2",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.6.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.4.0"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "68816527484088d0a46cdc887f35b14136d20daf",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.5.1",
+			"_shasum": "f8b6b056330f567deeb9c393b39bfec269890011",
+			"_from": ".",
+			"_npmVersion": "4.0.1",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "f8b6b056330f567deeb9c393b39bfec269890011",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.5.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.5.1.tgz_1478352923236_0.13976865424774587"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "postcss-smart-import",
+			"version": "0.6.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"module": "lib/index.es.js",
+			"jsnext:main": "lib/index.es.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.18.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.1.7",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.18.2",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.10.2",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.7.2",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.5.9"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "8c5ec5926a569a55a14b3edbd32029ecd147985e",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.0",
+			"_shasum": "92ca8257c3d15972d565e5104433e3a9a88643c2",
+			"_from": ".",
+			"_npmVersion": "4.0.2",
+			"_nodeVersion": "7.1.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "92ca8257c3d15972d565e5104433e3a9a88643c2",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.0.tgz_1479914260896_0.13478273595683277"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "postcss-smart-import",
+			"version": "0.6.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"npm"
+			],
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.20.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.12.1",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.9.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.6"
+			},
+			"scripts": {
+				"nsp": "nsp check --output summary",
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "97d19fc8e0f5b6f58b6a3b0cd57d3ca34db3964b",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.1",
+			"_shasum": "56330bbf3dad187e6478440571ec1a5a4ce1bf8e",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "56330bbf3dad187e6478440571ec1a5a4ce1bf8e",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.1.tgz_1481701292257_0.7041962849907577"
+			},
+			"directories": {}
+		},
+		"0.6.2": {
+			"name": "postcss-smart-import",
+			"version": "0.6.2",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=4.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.20.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.12.1",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.9.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.6"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "34f500cb821270767e58c12a0ce6d3ef8b70eff2",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.2",
+			"_shasum": "67696d462c59b8f87daa2fdc4b3ec1dc7b9109c2",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "67696d462c59b8f87daa2fdc4b3ec1dc7b9109c2",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.2.tgz_1481701374787_0.935917540686205"
+			},
+			"directories": {}
+		},
+		"0.6.3": {
+			"name": "postcss-smart-import",
+			"version": "0.6.3",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.20.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-register": "^6.18.0",
+				"eslint": "^3.12.1",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.9.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.6"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"lint": "eslint --quiet src/ test/ || true",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "2e88cd7704196352650f027934ec370cdcf21199",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.3",
+			"_shasum": "72021b9d76589df15db72bf89ea8067710bad2e0",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "72021b9d76589df15db72bf89ea8067710bad2e0",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.3.tgz_1481701724138_0.35368827264755964"
+			},
+			"directories": {}
+		},
+		"0.6.4": {
+			"name": "postcss-smart-import",
+			"version": "0.6.4",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.21.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-latest": "^6.16.0",
+				"babel-register": "^6.18.0",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.11.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.10"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "60e7908c25a47959dedfb3146aaa6463384c0a74",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.4",
+			"_shasum": "5ae99ad9b5a760603c690efa7e76abf597706025",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "5ae99ad9b5a760603c690efa7e76abf597706025",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.4.tgz_1482477959002_0.6953406480606645"
+			},
+			"directories": {}
+		},
+		"0.6.5": {
+			"name": "postcss-smart-import",
+			"version": "0.6.5",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.21.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-latest": "^6.16.0",
+				"babel-register": "^6.18.0",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish-lib": "^0.11.1",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.10"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish-lib"
+			},
+			"gitHead": "dc6afe6434a012983fecd087df657716b00d44aa",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.5",
+			"_shasum": "9bb3df955f916ad8b89503c22c6936e127b9b62a",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "9bb3df955f916ad8b89503c22c6936e127b9b62a",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.5.tgz_1482478912418_0.7139297286048532"
+			},
+			"directories": {}
+		},
+		"0.6.6": {
+			"name": "postcss-smart-import",
+			"version": "0.6.6",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.2",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.6",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.21.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-latest": "^6.16.0",
+				"babel-register": "^6.18.0",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish": "^0.12.0",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.10"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "faceae7656b563274256973f1b6dba75f0732320",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.6",
+			"_shasum": "2c47702c3ce13eb9f10f5aad6a1bd38f80e6ec83",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "2c47702c3ce13eb9f10f5aad6a1bd38f80e6ec83",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.6.tgz_1482483701360_0.7627190197817981"
+			},
+			"directories": {}
+		},
+		"0.6.7": {
+			"name": "postcss-smart-import",
+			"version": "0.6.7",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.20.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.2.9",
+				"postcss-scss": "^0.4.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.17.0",
+				"babel-cli": "^6.18.0",
+				"babel-core": "^6.21.0",
+				"babel-plugin-transform-runtime": "^6.15.0",
+				"babel-preset-latest": "^6.16.0",
+				"babel-register": "^6.18.0",
+				"espower": "^2.0.1",
+				"fs-extra": "^1.0.0",
+				"prepublish": "^0.12.2",
+				"rimraf": "^2.5.4",
+				"s15e-javascript": "^0.7.11"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "c21abea2d86f542d3b94911d5e1ae3485ec21a63",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.7",
+			"_shasum": "653a69b524cb4a75533e7f6d17edaefb72dc68dd",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "653a69b524cb4a75533e7f6d17edaefb72dc68dd",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.7.tgz_1483961592476_0.3303621259983629"
+			},
+			"directories": {}
+		},
+		"0.6.8": {
+			"name": "postcss-smart-import",
+			"version": "0.6.8",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^5.2.14",
+				"postcss-scss": "^0.4.1",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.18.2",
+				"babel-cli": "^6.23.0",
+				"babel-core": "^6.23.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-latest": "^6.22.0",
+				"babel-register": "^6.23.0",
+				"espower": "^2.0.2",
+				"fs-extra": "^2.0.0",
+				"prepublish": "^0.13.2",
+				"rimraf": "^2.6.0",
+				"s15e-javascript": "^0.8.13"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "3c73690822989564a6910509303eea9185961a70",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.8",
+			"_shasum": "5886ed2a6b41633f576c9141b4e31094edaa1d5e",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "5886ed2a6b41633f576c9141b4e31094edaa1d5e",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.8.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.8.tgz_1487508281177_0.43222860037349164"
+			},
+			"directories": {}
+		},
+		"0.6.9": {
+			"name": "postcss-smart-import",
+			"version": "0.6.9",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^5.2.14",
+				"postcss-scss": "^0.4.1",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.2.0",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.18.2",
+				"babel-cli": "^6.23.0",
+				"babel-core": "^6.23.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-latest": "^6.22.0",
+				"babel-register": "^6.23.0",
+				"espower": "^2.0.3",
+				"fs-extra": "^2.0.0",
+				"prepublish": "^0.13.3",
+				"rimraf": "^2.6.0",
+				"s15e-javascript": "^0.8.13"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "c05413f23fc861cd01d949a0385f277acdfeda25",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.9",
+			"_shasum": "cf3fb0bef10acd993624f9f67fc13d643cd4489c",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "cf3fb0bef10acd993624f9f67fc13d643cd4489c",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.9.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.9.tgz_1487579612927_0.7565251477062702"
+			},
+			"directories": {}
+		},
+		"0.6.10": {
+			"name": "postcss-smart-import",
+			"version": "0.6.10",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^5.2.16",
+				"postcss-scss": "^0.4.1",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.2",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.18.2",
+				"babel-cli": "^6.24.0",
+				"babel-core": "^6.24.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-latest": "^6.24.0",
+				"babel-register": "^6.24.0",
+				"espower": "^2.0.3",
+				"fs-extra": "^2.0.0",
+				"prepublish": "^0.14.2",
+				"rimraf": "^2.6.1",
+				"s15e-javascript": "^0.8.13"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "731fb42c4f3160691ecb5cccb643022a6640a0db",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.10",
+			"_shasum": "4e6345cfbafc32c9ef5d6097e6a443738be3f4c0",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "4e6345cfbafc32c9ef5d6097e6a443738be3f4c0",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.10.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.10.tgz_1489398313814_0.64944674866274"
+			},
+			"directories": {}
+		},
+		"0.6.11": {
+			"name": "postcss-smart-import",
+			"version": "0.6.11",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^5.2.16",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^0.4.1",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.2",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.0",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.3.3",
+				"babel-register": "^6.24.1",
+				"espower": "^2.0.3",
+				"flow-bin": "^0.43.1",
+				"fs-extra": "^2.1.2",
+				"prepublish": "^0.15.2",
+				"readable-code": "^1.7.0",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "28ac394b8155648270a172273faea0692b0c79ef",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.11",
+			"_shasum": "d9982611d063985e91c0a2e2462ed5c068d8bb8e",
+			"_from": ".",
+			"_npmVersion": "4.4.4",
+			"_nodeVersion": "7.8.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "d9982611d063985e91c0a2e2462ed5c068d8bb8e",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.11.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.11.tgz_1491760226527_0.1014629639685154"
+			},
+			"directories": {}
+		},
+		"0.6.12": {
+			"name": "postcss-smart-import",
+			"version": "0.6.12",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^5.2.17",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^0.4.1",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^0.2.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.4.0",
+				"babel-register": "^6.24.1",
+				"espower": "^2.0.3",
+				"flow-bin": "^0.44.2",
+				"fs-extra": "^2.1.2",
+				"prepublish": "^0.15.4",
+				"readable-code": "^2.0.0",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "262d123df9e6ce61e15b09596c38fdb4798270a0",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.12",
+			"_shasum": "6bd50846547383d15332206615265b87b4a6ae89",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "7.9.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "6bd50846547383d15332206615265b87b4a6ae89",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.12.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.12.tgz_1492784403369_0.6718307791743428"
+			},
+			"directories": {}
+		},
+		"0.6.13": {
+			"name": "postcss-smart-import",
+			"version": "0.6.13",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.4.0",
+				"babel-register": "^6.24.1",
+				"espower": "^2.0.3",
+				"flow-bin": "^0.45.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.0",
+				"readable-code": "^2.1.0",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "be7a0c4ced33b3f3bcfb91757d1cf3aaf733951a",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.6.13",
+			"_shasum": "f1a8272aedbc1b820991c3680a6678e8969773fd",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "f1a8272aedbc1b820991c3680a6678e8969773fd",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.13.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.6.13.tgz_1494176803847_0.7996275490149856"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "postcss-smart-import",
+			"version": "0.7.0",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Werner"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.4.0",
+				"babel-register": "^6.24.1",
+				"espower": "^2.0.3",
+				"flow-bin": "^0.45.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.0",
+				"readable-code": "^2.2.0",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "8eaf8373a668c45371b4a7d1520ec40200843c8c",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.0",
+			"_shasum": "563801a3a104c893ebcff0d6c4e64e16c1960d30",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "563801a3a104c893ebcff0d6c4e64e16c1960d30",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-smart-import-0.7.0.tgz_1494418967187_0.28686636476777494"
+			},
+			"directories": {}
+		},
+		"0.7.1": {
+			"name": "postcss-smart-import",
+			"version": "0.7.1",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "sebastian-software.de"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.5.1",
+				"babel-register": "^6.24.1",
+				"espower": "^2.1.0",
+				"flow-bin": "^0.46.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.0",
+				"readable-code": "^2.2.0",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "f8acc8e0a3829eb5d32650acf8014b3bd41c5ff9",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.1",
+			"_shasum": "e564269f8294682d80f00ff5862405116b26c604",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "e564269f8294682d80f00ff5862405116b26c604",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-smart-import-0.7.1.tgz_1495536305970_0.797514732228592"
+			},
+			"directories": {}
+		},
+		"0.7.2": {
+			"name": "postcss-smart-import",
+			"version": "0.7.2",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "sebastian-software.de"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.5.1",
+				"babel-register": "^6.24.1",
+				"espower": "^2.1.0",
+				"flow-bin": "^0.46.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.1",
+				"readable-code": "^2.2.1",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "96d5b5633b433e8ef939653593316e96807548e2",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.2",
+			"_shasum": "3d37bd5e7501614ba3c809a1b2fe418b26d9c631",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"shasum": "3d37bd5e7501614ba3c809a1b2fe418b26d9c631",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-smart-import-0.7.2.tgz_1495541011255_0.8190969214774668"
+			},
+			"directories": {}
+		},
+		"0.7.3": {
+			"name": "postcss-smart-import",
+			"version": "0.7.3",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "sebastian-software.de"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.5.1",
+				"babel-register": "^6.24.1",
+				"espower": "^2.1.0",
+				"flow-bin": "^0.47.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.1",
+				"readable-code": "^2.3.1",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "107f9512b182a212a8d0b277ce2ee276f10d97bc",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.3",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"integrity": "sha512-8jmlmPI6Y+lOxOJ0oioztI2qARp8G4WwdvEeqdFgWxyq7jCUJnccfTN9eH2mDiZbzOdFM7lI1DkfOkUK/Y35oQ==",
+				"shasum": "1332bff885bb85ae61304cf8e9a23cf620609dc3",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-smart-import-0.7.3.tgz_1495878543251_0.06732859089970589"
+			},
+			"directories": {}
+		},
+		"0.7.4": {
+			"name": "postcss-smart-import",
+			"version": "0.7.4",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "sebastian-software.de"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.1",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.0",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.19.1",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.5.1",
+				"babel-register": "^6.24.1",
+				"espower": "^2.1.0",
+				"flow-bin": "^0.47.0",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.16.1",
+				"readable-code": "^2.3.1",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "3cdbf96689e7fe5644c9522268c97dbdefa31d58",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.4",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"integrity": "sha512-t8GOyVCXrbGwpvBE+hiSMNnFt0oy7YdLGv0fdPcqKq/HF5EvOTzbzdn9C5Je7cr5WTCwMP+o2HZQFM7uLi18ZQ==",
+				"shasum": "50cfb3d9a49b70a61f911451bc24d841f8dbf200",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-smart-import-0.7.4.tgz_1495878565146_0.8739251596853137"
+			},
+			"directories": {}
+		},
+		"0.7.5": {
+			"name": "postcss-smart-import",
+			"version": "0.7.5",
+			"description": "PostCSS plugin to import CSS/SugarSS files",
+			"keywords": [
+				"css",
+				"postcss",
+				"postcss-plugin",
+				"import",
+				"sugarss",
+				"sass",
+				"scss"
+			],
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=4.0.0",
+				"yarn": ">=0.17.0"
+			},
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "sebastian-software.de"
+			},
+			"license": "MIT",
+			"main": "lib/index.classic.commonjs.js",
+			"module": "lib/index.classic.esmodule.js",
+			"jsnext:main": "lib/index.classic.esmodule.js",
+			"main:modern": "lib/index.modern.commonjs.js",
+			"module:modern": "lib/index.modern.esmodule.js",
+			"es2015": "lib/index.es2015.esmodule.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/postcss-smart-import.git"
+			},
+			"ava": {
+				"require": [
+					"babel-register"
+				],
+				"babel": "inherit",
+				"failWithoutAssertions": false
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"lodash": "^4.17.4",
+				"object-assign": "^4.1.1",
+				"postcss": "^6.0.6",
+				"postcss-sass": "^0.1.0",
+				"postcss-scss": "^1.0.2",
+				"postcss-value-parser": "^3.3.0",
+				"promise-each": "^2.2.0",
+				"read-cache": "^1.0.0",
+				"resolve": "^1.3.3",
+				"sugarss": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.20.0",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.25.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-register": "^6.24.1",
+				"espower": "^2.1.0",
+				"flow-bin": "^0.49.1",
+				"fs-extra": "^3.0.1",
+				"prepublish": "^0.20.0",
+				"readable-code": "^3.3.2",
+				"rimraf": "^2.6.1"
+			},
+			"scripts": {
+				"release": "release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "release-it --github.release --npm.publish --non-interactive --increment major",
+				"test": "ava",
+				"prepublish": "rimraf lib && prepublish"
+			},
+			"gitHead": "083dfd5b60d91a1ca290a4f79638b09670ae1188",
+			"bugs": {
+				"url": "https://github.com/sebastian-software/postcss-smart-import/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/postcss-smart-import#readme",
+			"_id": "postcss-smart-import@0.7.5",
+			"_npmVersion": "5.1.0",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "swernerx",
+				"email": "s.werner@sebastian-software.de"
+			},
+			"dist": {
+				"integrity": "sha512-Bs9wAFxH5irGpenBg9a65jTcydZLh7VBTX6NYwMXvVXO6y9CQ83kRmfpQDs5lHhl6IODeIeQfJep5HBMd9UVCQ==",
+				"shasum": "df9a9c6dd60d916e5e0670d1c57d03af5d3dcc31",
+				"tarball": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "swernerx",
+					"email": "s.werner@sebastian-software.de"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/postcss-smart-import-0.7.5.tgz_1499377624658_0.8212598864920437"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.7.5"
+	},
+	"_distfiles": {
+		"postcss-smart-import-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.1.0.tgz",
+			"sha": "76837844a0749bbc794446bc3b1a0fea0e61ab5b",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.0.tgz",
+			"sha": "e0c2e2b165c0acc0b9d50d8a1e83946f31cb9865",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.1.tgz",
+			"sha": "8197a6e4a962e71a38932e98e8fca485630105dd",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.2.tgz",
+			"sha": "c061e085dc045e0670aaf0e7c35e3c7418ed1adb",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.3.tgz",
+			"sha": "34483da43a72c03e8da245693510248f504c6bf4",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.4.tgz",
+			"sha": "50c047e4995efc6643a02685b003b6f31f82bd60",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.5.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.5.tgz",
+			"sha": "5dd40aa61f7a811e1bcb1c478b2342709b1e2cee",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.6.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.6.tgz",
+			"sha": "4b5c4f531d118f1306127e79ef64c0150d79dd1f",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.7.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.7.tgz",
+			"sha": "0107a22884384323e44c7424d6e175495bf0369d",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.8.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.8.tgz",
+			"sha": "2d26eee95604fad7632fc06eccfebe23ebd84225",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.9.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.9.tgz",
+			"sha": "97df5b04b599ab58b7c687a0d5ca5b7ec9bcde54",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.2.10.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.2.10.tgz",
+			"sha": "d18c0025c89a27f2a75616b208fd24ca5c2535a2",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.0.tgz",
+			"sha": "611bc6d36587bb46ea3cc60a88d809f9c9f63e4d",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.1.tgz",
+			"sha": "8d062c6c5b3757a5064fd079b56962ef1c82779f",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.3.2.tgz",
+			"sha": "b6707408e3f5166df27f056758abe698fe3e3cdd",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.0.tgz",
+			"sha": "a69022f311aa4eecc9c08e9c82b2255636e25803",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.1.tgz",
+			"sha": "dbc0de286282c41023c3969ec29cb25d2c70ee81",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.2.tgz",
+			"sha": "95321c40b221eb8f7eb52751175683ec8b07014d",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.3.tgz",
+			"sha": "5b86bb896673eb464681a18a98ee7fd037d191f3",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.4.4.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.4.4.tgz",
+			"sha": "5ca4180e72d18997f3f0ea5c236159cb3a2d9ca7",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.5.0.tgz",
+			"sha": "a46df08859fe99fe2062da2eafa5c26effe171e3",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.5.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.5.1.tgz",
+			"sha": "f8b6b056330f567deeb9c393b39bfec269890011",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.0.tgz",
+			"sha": "92ca8257c3d15972d565e5104433e3a9a88643c2",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.1.tgz",
+			"sha": "56330bbf3dad187e6478440571ec1a5a4ce1bf8e",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.2.tgz",
+			"sha": "67696d462c59b8f87daa2fdc4b3ec1dc7b9109c2",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.3.tgz",
+			"sha": "72021b9d76589df15db72bf89ea8067710bad2e0",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.4.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.4.tgz",
+			"sha": "5ae99ad9b5a760603c690efa7e76abf597706025",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.5.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.5.tgz",
+			"sha": "9bb3df955f916ad8b89503c22c6936e127b9b62a",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.6.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.6.tgz",
+			"sha": "2c47702c3ce13eb9f10f5aad6a1bd38f80e6ec83",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.7.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.7.tgz",
+			"sha": "653a69b524cb4a75533e7f6d17edaefb72dc68dd",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.8.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.8.tgz",
+			"sha": "5886ed2a6b41633f576c9141b4e31094edaa1d5e",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.9.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.9.tgz",
+			"sha": "cf3fb0bef10acd993624f9f67fc13d643cd4489c",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.10.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.10.tgz",
+			"sha": "4e6345cfbafc32c9ef5d6097e6a443738be3f4c0",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.11.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.11.tgz",
+			"sha": "d9982611d063985e91c0a2e2462ed5c068d8bb8e",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.12.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.12.tgz",
+			"sha": "6bd50846547383d15332206615265b87b4a6ae89",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.6.13.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.6.13.tgz",
+			"sha": "f1a8272aedbc1b820991c3680a6678e8969773fd",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.0.tgz",
+			"sha": "563801a3a104c893ebcff0d6c4e64e16c1960d30",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.1.tgz",
+			"sha": "e564269f8294682d80f00ff5862405116b26c604",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.2.tgz",
+			"sha": "3d37bd5e7501614ba3c809a1b2fe418b26d9c631",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.3.tgz",
+			"sha": "1332bff885bb85ae61304cf8e9a23cf620609dc3",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.4.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.4.tgz",
+			"sha": "50cfb3d9a49b70a61f911451bc24d841f8dbf200",
+			"registry": "npmjs"
+		},
+		"postcss-smart-import-0.7.5.tgz": {
+			"url": "https://registry.npmjs.org/postcss-smart-import/-/postcss-smart-import-0.7.5.tgz",
+			"sha": "df9a9c6dd60d916e5e0670d1c57d03af5d3dcc31",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"595eafd9-1aa64\"",
+			"fetched": 1501274969732
+		}
+	},
+	"_rev": "1-019996420cac3fcf",
+	"readme": "<img src=\"assets/postcss.png\" alt=\"PostCSS Logo\" width=\"200\" height=\"200\"/>\n\n# PostCSS Smart Import <br/>[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm] [![Build Status Unix][travis-img]][travis] [![Build Status Windows][appveyor-img]][appveyor] [![Dependencies][deps-img]][deps]\n\n[PostCSS] plugin for loading/including other files (transform `@import` rules by inlining content) and quering/referring assets (referred in `url()` functions).\n\n[PostCSS]: https://github.com/postcss/postcss\n[sponsor-img]: https://img.shields.io/badge/Sponsored%20by-Sebastian%20Software-692446.svg\n[sponsor]: https://www.sebastian-software.de\n[deps]: https://david-dm.org/sebastian-software/postcss-smart-import\n[deps-img]: https://david-dm.org/sebastian-software/postcss-smart-import.svg\n[npm]: https://www.npmjs.com/package/postcss-smart-import\n[npm-downloads-img]: https://img.shields.io/npm/dm/postcss-smart-import.svg\n[npm-version-img]: https://img.shields.io/npm/v/postcss-smart-import.svg\n[travis-img]: https://img.shields.io/travis/sebastian-software/postcss-smart-import/master.svg?branch=master&label=unix%20build\n[appveyor-img]: https://img.shields.io/appveyor/ci/swernerx/postcss-smart-import-0se3r/master.svg?label=windows%20build\n[travis]: https://travis-ci.org/sebastian-software/postcss-smart-import\n[appveyor]: https://ci.appveyor.com/project/swernerx/postcss-smart-import-0se3r/branch/master\n\nThink of `postcss-import` + `postcss-url` + `postcss-assets`.\n\nThis plugin can consume local files, `node_modules` or `web_modules`.\nTo resolve path of an `@import` rule, it can look into root directory (by default `process.cwd()`), `web_modules`, `node_modules`\nor local modules. _When importing a module, it will look for `index.[css,sss,scss,sass]` or file referenced in `package.json` in the `style`, `browser`, `main` fields._\nYou can also provide manually multiples paths where to look at.\n\n\n\n\n\n## Links\n\n- [GitHub](https://github.com/sebastian-software/postcss-smart-import)\n- [NPM](https://www.npmjs.com/package/postcss-smart-import)\n\n\n**Notes:**\n\n- **This plugin should probably be used as the first plugin of your list.\nThis way, other plugins will work on the AST as if there were only a single file\nto process, and will probably work as you can expect**.\n- This plugin works great with\n[postcss-url](https://github.com/postcss/postcss-url) plugin,\nwhich will allow you to adjust assets `url()` (or even inline them) after\ninlining imported files.\n- In order to optimize output, **this plugin will only import a file once**.\nTests are made from the path & the content of imported files (using a hash\ntable).\nIf this behavior is not what you want, look at `skipDuplicates` option\n\n\n## Installation\n\n```console\n$ npm install postcss-smart-import\n```\n\n## Usage\n\nIf your stylesheets are not in the same place where you run postcss\n(`process.cwd()`), you will need to use `from` option to make relative imports\nwork from input dirname.\n\n```js\n// dependencies\nvar fs = require(\"fs\")\nvar postcss = require(\"postcss\")\nvar smartImport = require(\"postcss-smart-import\")\n\n// css to be processed\nvar css = fs.readFileSync(\"css/input.css\", \"utf8\")\n\n// process css\npostcss()\n  .use(smartImport())\n  .process(css, {\n    // `from` option is required so relative import can work from input dirname\n    from: \"css/input.css\"\n  })\n  .then(function (result) {\n    var output = result.css\n\n    console.log(output)\n  })\n```\n\nUsing this `input.css`:\n\n```css\n/* can consume `node_modules`, `web_modules` or local modules */\n@import \"cssrecipes-defaults\"; /* == @import \"./node_modules/cssrecipes-defaults/index.css\"; */\n@import \"normalize.css\"; /* == @import \"./node_modules/normalize.css/normalize.css\"; */\n\n@import \"css/foo.css\"; /* relative to stylesheets/ according to `from` option above */\n\nbody {\n  background: black;\n}\n```\n\nwill give you:\n\n```css\n/* ... content of ./node_modules/cssrecipes-defaults/index.css */\n/* ... content of ./node_modules/normalize.css/normalize.css */\n\n/* ... content of foo.css */\n\nbody {\n  background: black;\n}\n```\n\nCheckout [tests](test) for more examples.\n\n### Options\n\n#### `root`\n\nType: `String`  \nDefault: `process.cwd()` or _dirname of\n[the postcss `from`](https://github.com/postcss/postcss#node-source)_\n\nDefine the root where to resolve path (eg: place where `node_modules` are).\nShould not be used that much.  \n_Note: nested `@import` will additionally benefit of the relative dirname of\nimported files._\n\n#### `path`\n\nType: `String|Array`  \nDefault: `[]`\n\nA string or an array of paths in where to look for files.\n\n#### `transform`\n\nType: `Function`  \nDefault: `null`\n\nA function to transform the content of imported files. Take one argument (file\n  content) and should return the modified content or a resolved promise with it.\n`undefined` result will be skipped.\n\n```js\ntransform: function(css) {\n  return postcss([somePlugin]).process(css).then(function(result) {\n    return result.css;\n  });\n}\n```\n\n#### `plugins`\n\nType: `Array`  \nDefault: `undefined`\n\nAn array of plugins to be applied on each imported files.\n\n#### `onImport`\n\nType: `Function`  \nDefault: `null`\n\nFunction called after the import process. Take one argument (array of imported\nfiles).\n\n#### `resolve`\n\nType: `Function`  \nDefault: `null`\n\nYou can overwrite the default path resolving way by setting this option.\nThis function gets `(id, basedir, importOptions)` arguments and returns full\npath, array of paths or promise resolving paths.\nYou can use [resolve](https://github.com/substack/node-resolve) for that.\n\n#### `load`\n\nType: `Function`  \nDefault: null\n\nYou can overwrite the default loading way by setting this option.\nThis function gets `(filename, importOptions)` arguments and returns content or\npromised content.\n\n#### `skipDuplicates`\n\nType: `Boolean`  \nDefault: `true`\n\nBy default, similar files (based on the same content) are being skipped.\nIt's to optimize output and skip similar files like `normalize.css` for example.\nIf this behavior is not what you want, just set this option to `false` to\ndisable it.\n\n#### `addDependencyTo`\n\nType: `Object`  \nDefault: null\n\nAn object with `addDependency()` method, taking file path as an argument.\nCalled whenever a file is imported.\nYou can use it for hot-reloading in webpack `postcss-loader` like this:\n\n```js\nvar smartImport = require(\"postcss-smart-import\")\n\npostcss: function(webpack) {\n  return [\n    smartImport({\n      addDependencyTo: webpack\n      /* Is equivalent to\n      onImport: function (files) {\n        files.forEach(this.addDependency)\n      }.bind(webpack)\n      */\n    })\n  ]\n}\n```\n\n#### Example with some options\n\n```js\nvar postcss = require(\"postcss\")\nvar smartImport = require(\"postcss-smart-import\")\n\npostcss()\n  .use(smartImport({\n    path: [\"src/css\"],\n    transform: require(\"css-whitespace\")\n  }))\n  .process(cssString)\n  .then(function (result) {\n    var css = result.css\n  })\n```\n\n---\n\n## Contributing\n\n* Pull requests and Stars are always welcome.\n* For bugs and feature requests, please create an issue.\n* Pull requests must be accompanied by passing automated tests (`$ npm test`).\n\n## [License](license)\n\n\n\n## Copyright\n\n<img src=\"https://raw.githubusercontent.com/sebastian-software/s15e-javascript/master/assets/sebastiansoftware.png\" alt=\"Sebastian Software GmbH Logo\" width=\"250\" height=\"200\"/>\n\nCopyright 2016-2017<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)\n"
+}

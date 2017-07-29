@@ -1,0 +1,88 @@
+{
+	"name": "path-complete-extname",
+	"versions": {
+		"0.1.0": {
+			"name": "path-complete-extname",
+			"version": "0.1.0",
+			"main": "index.js",
+			"description": "path.extname implementation adapted to also include multiple dots extensions.",
+			"homepage": "https://github.com/ruyadorno/path-complete-extname",
+			"bugs": {
+				"url": "https://github.com/ruyadorno/path-complete-extname/issues"
+			},
+			"author": {
+				"name": "Ruy Adorno",
+				"url": "http://ruyadorno.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/ruyadorno/path-complete-extname.git"
+			},
+			"licenses": [
+				{
+					"type": "MIT"
+				}
+			],
+			"keywords": [
+				"path",
+				"extname",
+				"extension",
+				"file",
+				"fs"
+			],
+			"devDependencies": {
+				"grunt": "~0.4.x",
+				"grunt-contrib-jshint": "~0.7.x",
+				"grunt-sg-release": "~0.2.x",
+				"grunt-mocha-test": "~0.11.x",
+				"load-grunt-tasks": "~0.2.x",
+				"time-grunt": "~0.2.x",
+				"jshint-stylish": "~0.1.x",
+				"mocha": "~1.21.x"
+			},
+			"dependencies": {},
+			"scripts": {
+				"test": "grunt"
+			},
+			"gitHead": "03f6024a16ee461ce411951930c70c2f247c29f9",
+			"_id": "path-complete-extname@0.1.0",
+			"_shasum": "c454702669f31452f8193aa6168915fa31692f4a",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "ruyadorno",
+				"email": "contact@ruyadorno.com"
+			},
+			"maintainers": [
+				{
+					"name": "ruyadorno",
+					"email": "contact@ruyadorno.com"
+				}
+			],
+			"dist": {
+				"shasum": "c454702669f31452f8193aa6168915fa31692f4a",
+				"tarball": "https://registry.npmjs.org/path-complete-extname/-/path-complete-extname-0.1.0.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "0.1.0"
+	},
+	"_distfiles": {
+		"path-complete-extname-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/path-complete-extname/-/path-complete-extname-0.1.0.tgz",
+			"sha": "c454702669f31452f8193aa6168915fa31692f4a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"53fdfe50-c0b\"",
+			"fetched": 1501274969185
+		}
+	},
+	"_rev": "1-672a19182eec0500",
+	"readme": "# path-complete-extname\n\nversion: 0.1.0\n\n[![Build Status](https://travis-ci.org/ruyadorno/path-complete-extname.svg?branch=master)](https://travis-ci.org/ruyadorno/path-complete-extname)\n\n[path.extname](http://nodejs.org/api/path.html#path_path_extname_p) implementation adapted to also include multiple dots extensions.\n\n\n## About\n\nThis module contains the native implementation of [Node.js](http://nodejs.org/) `path.extname` method adapted to get complete extension names.\n\n### Example\n\n```js\n  var path = require('path');\n  var pathCompleteExtname = require('path-complete-extname');\n\n  var filename = 'myfile.tar.gz';\n\n  path.extname(filename); // .gz\n  pathCompleteExtname(filename); // .tar.gz\n```\n\nFor more information about what filenames are valid and what will be returned in each case, see the **test.js** file.\n\n\n## License\n\nReleased under the [MIT License](http://www.opensource.org/licenses/mit-license.php).\n\n"
+}

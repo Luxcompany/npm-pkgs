@@ -1,0 +1,1323 @@
+{
+	"name": "husl",
+	"versions": {
+		"1.0.0": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "1.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/boronine/husl.git"
+			},
+			"homepage": "http://boronine.github.com/husl/",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"_id": "husl@1.0.0",
+			"dependencies": {},
+			"devDependencies": {},
+			"optionalDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.4",
+			"_nodeVersion": "v0.6.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "e170ebb7e9d8dbb8bdb5d81fd36257a195ac3f8c",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "1.0.1",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/boronine/husl.git"
+			},
+			"homepage": "http://boronine.github.com/husl/",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"_id": "husl@1.0.1",
+			"dependencies": {},
+			"devDependencies": {},
+			"optionalDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.4",
+			"_nodeVersion": "v0.6.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "8c18fe3c44926c9dbae0ccab97e6104393b0f6ff",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "1.0.2",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/boronine/husl.git"
+			},
+			"homepage": "http://boronine.github.com/husl/",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"_id": "husl@1.0.2",
+			"dependencies": {},
+			"devDependencies": {},
+			"optionalDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_engineSupported": true,
+			"_npmVersion": "1.1.4",
+			"_nodeVersion": "v0.6.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "93b2c0e506bc8a341afe7a755262c3fd96a1edd1",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "2.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://boronine.github.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"colorspaces": "*",
+				"onecolor": "*",
+				"png": "*",
+				"stylus": "*",
+				"eco": "*",
+				"mocha": "*",
+				"imagediff": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script"
+			},
+			"_id": "husl@2.0.0",
+			"dist": {
+				"shasum": "ace53a4812ed6c43a9a2fcd4862e3ff46f42eecf",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-2.0.0.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "3.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://boronine.github.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"uglify-js": "*",
+				"mocha": "*",
+				"stylus": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script"
+			},
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@3.0.0",
+			"dist": {
+				"shasum": "48825ca75ec6d96d500d61e10b55c31de444118d",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-3.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.10",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"stylus",
+				"HUSL",
+				"HSL"
+			],
+			"version": "4.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://www.boronine.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*",
+				"stylus": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@4.0.0",
+			"dist": {
+				"shasum": "3fadc04288677392543000b2af57beca7605a0ca",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-4.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.4",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"4.0.1": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "4.0.1",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://www.boronine.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@4.0.1",
+			"dist": {
+				"shasum": "9a355b6f18b6115f3adce0dfa5f14d0d4d84ac2f",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-4.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.4",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"4.0.2": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "4.0.2",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://www.boronine.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@4.0.2",
+			"dist": {
+				"shasum": "0495116303ecbca71c19e7f9dc94c129b76efb64",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-4.0.2.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.4",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"5.0.0": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "5.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://www.boronine.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "30555091a854645e0c5a01c578e3fe28191883a7",
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@5.0.0",
+			"_shasum": "eb411d583922b4aded14fabaebf5d7fc8a6c8295",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "eb411d583922b4aded14fabaebf5d7fc8a6c8295",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-5.0.0.tgz"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"5.0.1": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "5.0.1",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://www.boronine.com/husl/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "ee9b89b48c17c704278f7b31f965866059c09492",
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@5.0.1",
+			"_shasum": "e98eef2c522333953f0f7e8361cb8b8da3db267a",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e98eef2c522333953f0f7e8361cb8b8da3db267a",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-5.0.1.tgz"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"5.0.2": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "5.0.2",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/boronine/husl.git"
+			},
+			"homepage": "http://husl.boronine.com/",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "c54a8b6086c6423f2237bd0cf5cd00441d982aef",
+			"bugs": {
+				"url": "https://github.com/boronine/husl/issues"
+			},
+			"_id": "husl@5.0.2",
+			"_shasum": "19fbb310b0dd20782971b4bde40b9511a9a3f0c5",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "19fbb310b0dd20782971b4bde40b9511a9a3f0c5",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-5.0.2.tgz"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"5.0.3": {
+			"name": "husl",
+			"description": "Replacement for the HSL color space",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "5.0.3",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "9442fd68ac0ba876df59c414c426a1b7ce2807c8",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@5.0.3",
+			"_shasum": "ee272aaff1bebe40df3588ed007b70de7e679788",
+			"_from": ".",
+			"_npmVersion": "1.4.21",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ee272aaff1bebe40df3588ed007b70de7e679788",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-5.0.3.tgz"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"6.0.0": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.0",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "a26b60aca3289b35f19db3653f2a19a1c547b609",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.0",
+			"_shasum": "7e1011b32b7f0c9ae401ba0fc251e3454818f29c",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "7e1011b32b7f0c9ae401ba0fc251e3454818f29c",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"6.0.1": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.1",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "husl.js",
+			"files": [
+				"husl.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"devDependencies": {
+				"coffee-script": "*",
+				"underscore": "*",
+				"uglify-js": "*",
+				"mocha": "*"
+			},
+			"scripts": {
+				"test": "mocha --compilers coffee:coffee-script/register"
+			},
+			"gitHead": "a42f3aafa2493aa96fd0b64b1b917688d010a319",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.1",
+			"_shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"6.0.2-alpha.1": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.2-alpha.1",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "../dist/husl.min.js",
+			"files": [
+				"../dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.2-alpha.1",
+			"scripts": {},
+			"_shasum": "0e5636a4e96756a1f4f1622f24f5e455883e4734",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "0e5636a4e96756a1f4f1622f24f5e455883e4734",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.2-alpha.1.tgz_1479753941612_0.6565175731666386"
+			},
+			"directories": {}
+		},
+		"6.0.2-alpha.2": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.2-alpha.2",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"gitHead": "211786ddb45f054aeb5d6259caecf51609ab0500",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.2-alpha.2",
+			"scripts": {},
+			"_shasum": "844c7c1021221637f073fdf7fc6096a0a2183952",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "844c7c1021221637f073fdf7fc6096a0a2183952",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.2-alpha.2.tgz_1479754068896_0.41365406732074916"
+			},
+			"directories": {}
+		},
+		"6.0.2-alpha.3": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.2-alpha.3",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"gitHead": "211786ddb45f054aeb5d6259caecf51609ab0500",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.2-alpha.3",
+			"scripts": {},
+			"_shasum": "154f2e2818184aff89aaa8bfe3f9afaffb38664f",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "154f2e2818184aff89aaa8bfe3f9afaffb38664f",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.2-alpha.3.tgz_1479754398635_0.7193926679901779"
+			},
+			"directories": {}
+		},
+		"6.0.2-alpha.4": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.2-alpha.4",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.2-alpha.4",
+			"scripts": {},
+			"_shasum": "070ead576fd801fe3833126dd243077c94de06b5",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "070ead576fd801fe3833126dd243077c94de06b5",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.2-alpha.4.tgz_1479755227221_0.6007839764934033"
+			},
+			"directories": {}
+		},
+		"6.0.3": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.3",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.3",
+			"scripts": {},
+			"_shasum": "11bd821c95b5e5c7854d012503e7c8134511a744",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei.boronine@gmail.com"
+			},
+			"dist": {
+				"shasum": "11bd821c95b5e5c7854d012503e7c8134511a744",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.3.tgz_1479755332357_0.8699754446279258"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"6.0.4": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.4",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/husl-colors/husl.git"
+			},
+			"homepage": "http://www.husl-colors.org",
+			"bugs": {
+				"url": "https://github.com/husl-colors/husl/issues"
+			},
+			"_id": "husl@6.0.4",
+			"scripts": {},
+			"_shasum": "2d85afd1370eaf9e7fb262856f8e18ae3cce9731",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei@boronine.com"
+			},
+			"dist": {
+				"shasum": "2d85afd1370eaf9e7fb262856f8e18ae3cce9731",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei.boronine@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.4.tgz_1481462055981_0.45759711833670735"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		},
+		"6.0.6": {
+			"name": "husl",
+			"description": "Human-friendly HSL",
+			"keywords": [
+				"color",
+				"color space",
+				"CIE",
+				"RGB",
+				"HUSL",
+				"HSL"
+			],
+			"version": "6.0.6",
+			"author": {
+				"name": "Alexei Boronine",
+				"email": "alexei@boronine.com"
+			},
+			"license": "MIT",
+			"main": "dist/husl.min.js",
+			"files": [
+				"dist/husl.min.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/hsluv/hsluv.git"
+			},
+			"homepage": "http://www.hsluv.org",
+			"bugs": {
+				"url": "https://github.com/hsluv/hsluv/issues"
+			},
+			"_id": "husl@6.0.6",
+			"scripts": {},
+			"_shasum": "f71b3e45d2000d6406432a9cc17a4b7e0c5b800d",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.5.0",
+			"_npmUser": {
+				"name": "boronine",
+				"email": "alexei@boronine.com"
+			},
+			"dist": {
+				"shasum": "f71b3e45d2000d6406432a9cc17a4b7e0c5b800d",
+				"tarball": "https://registry.npmjs.org/husl/-/husl-6.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "boronine",
+					"email": "alexei@boronine.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/husl-6.0.6.tgz_1481881991933_0.6283486667089164"
+			},
+			"deprecated": "Project renamed to HSLuv",
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "6.0.6"
+	},
+	"_distfiles": {
+		"husl-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-1.0.0.tgz",
+			"sha": "e170ebb7e9d8dbb8bdb5d81fd36257a195ac3f8c",
+			"registry": "npmjs"
+		},
+		"husl-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-1.0.1.tgz",
+			"sha": "8c18fe3c44926c9dbae0ccab97e6104393b0f6ff",
+			"registry": "npmjs"
+		},
+		"husl-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-1.0.2.tgz",
+			"sha": "93b2c0e506bc8a341afe7a755262c3fd96a1edd1",
+			"registry": "npmjs"
+		},
+		"husl-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-2.0.0.tgz",
+			"sha": "ace53a4812ed6c43a9a2fcd4862e3ff46f42eecf",
+			"registry": "npmjs"
+		},
+		"husl-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-3.0.0.tgz",
+			"sha": "48825ca75ec6d96d500d61e10b55c31de444118d",
+			"registry": "npmjs"
+		},
+		"husl-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-4.0.0.tgz",
+			"sha": "3fadc04288677392543000b2af57beca7605a0ca",
+			"registry": "npmjs"
+		},
+		"husl-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-4.0.1.tgz",
+			"sha": "9a355b6f18b6115f3adce0dfa5f14d0d4d84ac2f",
+			"registry": "npmjs"
+		},
+		"husl-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-4.0.2.tgz",
+			"sha": "0495116303ecbca71c19e7f9dc94c129b76efb64",
+			"registry": "npmjs"
+		},
+		"husl-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-5.0.0.tgz",
+			"sha": "eb411d583922b4aded14fabaebf5d7fc8a6c8295",
+			"registry": "npmjs"
+		},
+		"husl-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-5.0.1.tgz",
+			"sha": "e98eef2c522333953f0f7e8361cb8b8da3db267a",
+			"registry": "npmjs"
+		},
+		"husl-5.0.2.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-5.0.2.tgz",
+			"sha": "19fbb310b0dd20782971b4bde40b9511a9a3f0c5",
+			"registry": "npmjs"
+		},
+		"husl-5.0.3.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-5.0.3.tgz",
+			"sha": "ee272aaff1bebe40df3588ed007b70de7e679788",
+			"registry": "npmjs"
+		},
+		"husl-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.0.tgz",
+			"sha": "7e1011b32b7f0c9ae401ba0fc251e3454818f29c",
+			"registry": "npmjs"
+		},
+		"husl-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.1.tgz",
+			"sha": "c6a9f2edea1fc24c00ccb565903bccf37cf3cc58",
+			"registry": "npmjs"
+		},
+		"husl-6.0.2-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.1.tgz",
+			"sha": "0e5636a4e96756a1f4f1622f24f5e455883e4734",
+			"registry": "npmjs"
+		},
+		"husl-6.0.2-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.2.tgz",
+			"sha": "844c7c1021221637f073fdf7fc6096a0a2183952",
+			"registry": "npmjs"
+		},
+		"husl-6.0.2-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.3.tgz",
+			"sha": "154f2e2818184aff89aaa8bfe3f9afaffb38664f",
+			"registry": "npmjs"
+		},
+		"husl-6.0.2-alpha.4.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.2-alpha.4.tgz",
+			"sha": "070ead576fd801fe3833126dd243077c94de06b5",
+			"registry": "npmjs"
+		},
+		"husl-6.0.3.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.3.tgz",
+			"sha": "11bd821c95b5e5c7854d012503e7c8134511a744",
+			"registry": "npmjs"
+		},
+		"husl-6.0.4.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.4.tgz",
+			"sha": "2d85afd1370eaf9e7fb262856f8e18ae3cce9731",
+			"registry": "npmjs"
+		},
+		"husl-6.0.6.tgz": {
+			"url": "https://registry.npmjs.org/husl/-/husl-6.0.6.tgz",
+			"sha": "f71b3e45d2000d6406432a9cc17a4b7e0c5b800d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5853b9b8-5e59\"",
+			"fetched": 1501276744656
+		}
+	},
+	"_rev": "1-dc61fad20131f0ec",
+	"readme": "# DEPRECATED\n\nIdentical functionality is provided under a new name: HSLuv.\n\nPackage: https://www.npmjs.com/package/hsluv\nDocumentation: https://github.com/hsluv/hsluv/tree/master/javascript\n\n## Usage\n\n**husl.toHex(hue, saturation, lightness)**\n\n*hue* is a number between 0 and 360, *saturation* and *lightness* are \nnumbers between 0 and 100. This function returns the resulting color as \na hex string.\n\n**husl.toRGB(hue, saturation, lightness)**\n\nLike above, but returns an array of 3 numbers between 0 and 1, for the \nr, g, and b channel.\n\n**husl.fromHex(hex)**\n\nTakes a hex string and returns the HUSL color as array that contains \nthe hue (0-360), saturation(0-100) and lightness(0-100) channel.\n_Note_: The result can have rounding errors. For example saturation can \nbe 100.00000000000007\n\n**husl.fromRGB(red, green, blue)**\n\nLike above, but *red*, *green* and *blue* are passed as numbers between \n0 and 1.\n\nUse **husl.p.toHex**, **husl.p.toRGB**, **husl.p.fromHex** and \n**husl.p.fromRGB** for the pastel variant (HUSLp). Note that HUSLp does \nnot contain all the colors of RGB, so converting arbitrary RGB to it may \ngenerate invalid HUSLp colors.\n\n"
+}

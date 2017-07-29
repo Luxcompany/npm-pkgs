@@ -1,0 +1,379 @@
+{
+	"name": "mat4-recompose",
+	"versions": {
+		"1.0.0": {
+			"name": "mat4-recompose",
+			"version": "1.0.0",
+			"description": "recomposes a 4x4 matrix",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-mat4": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"mat4",
+				"mat4x4",
+				"4x4",
+				"matrix",
+				"recompose",
+				"decompose",
+				"animation",
+				"lerp",
+				"interpolate",
+				"animate",
+				"matrices",
+				"re-compose",
+				"de-compose",
+				"compose",
+				"composition"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mat4-recompose.git"
+			},
+			"homepage": "https://github.com/mattdesl/mat4-recompose",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mat4-recompose/issues"
+			},
+			"gitHead": "b58f67836205548f4adbb04d03e48de9b30dc9d9",
+			"_id": "mat4-recompose@1.0.0",
+			"_shasum": "56f84568fbab57935b55d950baecf5d097d5703f",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "56f84568fbab57935b55d950baecf5d097d5703f",
+				"tarball": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "mat4-recompose",
+			"version": "1.0.1",
+			"description": "recomposes a 4x4 matrix",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-mat4": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"mat4",
+				"mat4x4",
+				"4x4",
+				"matrix",
+				"recompose",
+				"decompose",
+				"animation",
+				"lerp",
+				"interpolate",
+				"animate",
+				"matrices",
+				"re-compose",
+				"de-compose",
+				"compose",
+				"composition"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mat4-recompose.git"
+			},
+			"homepage": "https://github.com/mattdesl/mat4-recompose",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mat4-recompose/issues"
+			},
+			"gitHead": "6e8a0587f1337718971eff60c61a940e5a888b00",
+			"_id": "mat4-recompose@1.0.1",
+			"_shasum": "36eab012cb0c6160a30b9249ee7c4fa5615afebe",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "36eab012cb0c6160a30b9249ee7c4fa5615afebe",
+				"tarball": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "mat4-recompose",
+			"version": "1.0.2",
+			"description": "recomposes a 4x4 matrix",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-mat4": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"mat4",
+				"mat4x4",
+				"4x4",
+				"matrix",
+				"recompose",
+				"decompose",
+				"animation",
+				"lerp",
+				"interpolate",
+				"animate",
+				"matrices",
+				"re-compose",
+				"de-compose",
+				"compose",
+				"composition"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mat4-recompose.git"
+			},
+			"homepage": "https://github.com/mattdesl/mat4-recompose",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mat4-recompose/issues"
+			},
+			"gitHead": "abe8c038e9883a274771818b8b90b5a43c3cfc47",
+			"_id": "mat4-recompose@1.0.2",
+			"_shasum": "f5a75f9083abb8a3b956a31645cda0342a69e080",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "f5a75f9083abb8a3b956a31645cda0342a69e080",
+				"tarball": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "mat4-recompose",
+			"version": "1.0.3",
+			"description": "recomposes a 4x4 matrix",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-mat4": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"mat4",
+				"mat4x4",
+				"4x4",
+				"matrix",
+				"recompose",
+				"decompose",
+				"animation",
+				"lerp",
+				"interpolate",
+				"animate",
+				"matrices",
+				"re-compose",
+				"de-compose",
+				"compose",
+				"composition"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mat4-recompose.git"
+			},
+			"homepage": "https://github.com/mattdesl/mat4-recompose",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mat4-recompose/issues"
+			},
+			"gitHead": "77cb0b20660f59e18dae8a0ca87d01766a956716",
+			"_id": "mat4-recompose@1.0.3",
+			"_shasum": "4f6bcd211688ce46aec87af20416879c0e64c0e2",
+			"_from": ".",
+			"_npmVersion": "2.1.4",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "4f6bcd211688ce46aec87af20416879c0e64c0e2",
+				"tarball": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "mat4-recompose",
+			"version": "1.0.4",
+			"description": "recomposes a 4x4 matrix",
+			"main": "index.js",
+			"license": "MIT",
+			"author": {
+				"name": "Matt DesLauriers",
+				"email": "dave.des@gmail.com",
+				"url": "https://github.com/mattdesl"
+			},
+			"dependencies": {
+				"gl-mat4": "^1.0.1"
+			},
+			"devDependencies": {
+				"tape": "^3.0.3"
+			},
+			"scripts": {
+				"test": "node test.js"
+			},
+			"keywords": [
+				"mat4",
+				"mat4x4",
+				"4x4",
+				"matrix",
+				"recompose",
+				"decompose",
+				"animation",
+				"lerp",
+				"interpolate",
+				"animate",
+				"matrices",
+				"re-compose",
+				"de-compose",
+				"compose",
+				"composition"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/mattdesl/mat4-recompose.git"
+			},
+			"homepage": "https://github.com/mattdesl/mat4-recompose",
+			"bugs": {
+				"url": "https://github.com/mattdesl/mat4-recompose/issues"
+			},
+			"gitHead": "1c2293b878507f2ff30b05cc396bd83e504cb314",
+			"_id": "mat4-recompose@1.0.4",
+			"_shasum": "3953c230ff2473dc772ee014a52c925cf81b0e4d",
+			"_from": ".",
+			"_npmVersion": "2.4.1",
+			"_nodeVersion": "0.10.35",
+			"_npmUser": {
+				"name": "mattdesl",
+				"email": "dave.des@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "mattdesl",
+					"email": "dave.des@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3953c230ff2473dc772ee014a52c925cf81b0e4d",
+				"tarball": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.4.tgz"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.4"
+	},
+	"_distfiles": {
+		"mat4-recompose-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.0.tgz",
+			"sha": "56f84568fbab57935b55d950baecf5d097d5703f",
+			"registry": "npmjs"
+		},
+		"mat4-recompose-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.1.tgz",
+			"sha": "36eab012cb0c6160a30b9249ee7c4fa5615afebe",
+			"registry": "npmjs"
+		},
+		"mat4-recompose-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.2.tgz",
+			"sha": "f5a75f9083abb8a3b956a31645cda0342a69e080",
+			"registry": "npmjs"
+		},
+		"mat4-recompose-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.3.tgz",
+			"sha": "4f6bcd211688ce46aec87af20416879c0e64c0e2",
+			"registry": "npmjs"
+		},
+		"mat4-recompose-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/mat4-recompose/-/mat4-recompose-1.0.4.tgz",
+			"sha": "3953c230ff2473dc772ee014a52c925cf81b0e4d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"54d6c318-2167\"",
+			"fetched": 1501276741343
+		}
+	},
+	"_rev": "1-4f197913f4103f80",
+	"readme": "# mat4-recompose\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nRecompose a 4x4 matrix from translation, scale, skew, perspective, and rotation. This is commonly used in matrix animations (i.e. after [decompose](https://github.com/mattdesl/mat4-decompose) and interpolation). Code ported from [W3 CSS Spec](http://www.w3.org/TR/css3-transforms/#decomposing-a-3d-matrix). PRs for more tests/robustness/optimizations welcome. \n\nYou may also be interested in [mat4-interpolate](https://www.npmjs.com/package/mat4-interpolate), [mat4-decompose](https://www.npmjs.com/package/mat4-decompose), and [css-mat4](https://www.npmjs.com/package/css-mat4).\n\n## Usage\n\n[![NPM](https://nodei.co/npm/mat4-recompose.png)](https://nodei.co/npm/mat4-recompose/)\n\n#### `recompose(matrix, translation, scale, skew, perspective, quaternion)`\n\nRecomposes a matrix with the given vectors, storing the result into `matrix` (a 16 float array). \n\n- `translation` [x, y, z]\n- `scale` [x, y, z]\n- `skew` [xy, xz, yz] skew factors\n- `perspective` [x, y, z, w]\n- `quaternion` [x, y, z, w]\n\nReturns the `matrix` being recomposed.\n\nBuilds a translation matrix, then applies the quaternion rotation and perspective. The matrix is then multiplied by YZ shear, then XZ shear, then XY shear (if they are non-zero). Finally multiplied by scale to get the resulting recomposed matrix.\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/mat4-recompose/blob/master/LICENSE.md) for details.\n"
+}

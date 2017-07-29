@@ -1,0 +1,945 @@
+{
+	"name": "font-atlas-sdf",
+	"versions": {
+		"1.0.0": {
+			"name": "font-atlas-sdf",
+			"version": "1.0.0",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"settings-panel": "^1.8.17",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "2ef43e56b0839fcbd6493ebb78b872199fd4019f",
+			"_id": "font-atlas-sdf@1.0.0",
+			"_shasum": "c54b595a7a9ad8af5c3827be94538d6ea5c4922b",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c54b595a7a9ad8af5c3827be94538d6ea5c4922b",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.0.0.tgz_1485942157584_0.6078154987189919"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "font-atlas-sdf",
+			"version": "1.0.1",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"settings-panel": "^1.8.17",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "c1daab109ccf4267cfd90291d803acb510c2cf97",
+			"_id": "font-atlas-sdf@1.0.1",
+			"_shasum": "8613871a23e9f75010b3158f017c6a272153cb7d",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "8613871a23e9f75010b3158f017c6a272153cb7d",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.0.1.tgz_1485945352760_0.8387718256562948"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "font-atlas-sdf",
+			"version": "1.0.2",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"settings-panel": "^1.8.17",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "933307b9b2e105abd5f9c086a4fe0eeca79934f8",
+			"_id": "font-atlas-sdf@1.0.2",
+			"_shasum": "21b164759171c17090232a298b42e0f8d51c3c79",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "21b164759171c17090232a298b42e0f8d51c3c79",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.0.2.tgz_1485979879982_0.9616976669058204"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "font-atlas-sdf",
+			"version": "1.1.0",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"settings-panel": "^1.8.17",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "fcb17a103a5f3fd430a72c271d958c4916926ffa",
+			"_id": "font-atlas-sdf@1.1.0",
+			"_shasum": "92a99747c644348f1dacda1a92aa639c530c3295",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "92a99747c644348f1dacda1a92aa639c530c3295",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.1.0.tgz_1486122294350_0.13412915775552392"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "font-atlas-sdf",
+			"version": "1.1.1",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"settings-panel": "^1.8.17",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "11edb33dd90a28892f9e6275477bd78919e31a5e",
+			"_id": "font-atlas-sdf@1.1.1",
+			"_shasum": "0e2830a3c0373d9b063ea8f1890436a3f766100f",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "0e2830a3c0373d9b063ea8f1890436a3f766100f",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.1.1.tgz_1486124003637_0.5102755594998598"
+			},
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "font-atlas-sdf",
+			"version": "1.1.2",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"settings-panel": "^1.8.17",
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "97130007649f1458100bbf119e1c3abd6eb250cf",
+			"_id": "font-atlas-sdf@1.1.2",
+			"_shasum": "896e58ee2f8425ab5db140b17a26c59c598409fc",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "896e58ee2f8425ab5db140b17a26c59c598409fc",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.1.2.tgz_1486589350189_0.10931799537502229"
+			},
+			"directories": {}
+		},
+		"1.1.3": {
+			"name": "font-atlas-sdf",
+			"version": "1.1.3",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"settings-panel": "^1.8.17",
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "0ca538634c1910975bb4a03e72c215e903102ad5",
+			"_id": "font-atlas-sdf@1.1.3",
+			"_shasum": "821ec9e842ba10631afc495663a77301dc1e2c5f",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "821ec9e842ba10631afc495663a77301dc1e2c5f",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.1.3.tgz_1486839258137_0.6537204992491752"
+			},
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "font-atlas-sdf",
+			"version": "1.2.0",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"settings-panel": "^1.8.17",
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1"
+			},
+			"gitHead": "6d9a61f6178af9c44dcdd4246e5160e32dd31f8a",
+			"_id": "font-atlas-sdf@1.2.0",
+			"_shasum": "74de5191136712c4c239c09491f95b44761ec58f",
+			"_from": ".",
+			"_npmVersion": "3.7.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "74de5191136712c4c239c09491f95b44761ec58f",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/font-atlas-sdf-1.2.0.tgz_1492788598573_0.7670771258417517"
+			},
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "font-atlas-sdf",
+			"version": "1.3.0",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"optical-properties": "^1.0.0",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1",
+				"settings-panel": "^1.8.17"
+			},
+			"gitHead": "9c3e0e6d2a152ce97e4748786a46d887f35511ea",
+			"_id": "font-atlas-sdf@1.3.0",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-e1LkycCVD9bgYXzwWw56fq3I+N5pgWf/r1ndY64MI9ihthuoYPfZYwZU3RnnOyfeveqg5+2Ue5fI2FKfMEaZcw==",
+				"shasum": "ce6376fba028c868ab1838aaa5e96c060a3b2d0b",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/font-atlas-sdf-1.3.0.tgz_1497029614114_0.4712468581274152"
+			},
+			"directories": {}
+		},
+		"1.3.1": {
+			"name": "font-atlas-sdf",
+			"version": "1.3.1",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"optical-properties": "^1.0.0",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1",
+				"settings-panel": "^1.8.17"
+			},
+			"gitHead": "9aff350eded076896d439912b45b95905dde3e10",
+			"_id": "font-atlas-sdf@1.3.1",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-PnxMZEVWjsMz7nSlOPdtv7uf85878En1eGZcxAX5PFZtf0IDM4bh5z5dGp7RTBwfiVf8efRvy67u90wjileB4Q==",
+				"shasum": "6961f815ea7c0d83bef8cf6025911ae966bed077",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/font-atlas-sdf-1.3.1.tgz_1497032286041_0.9892686046659946"
+			},
+			"directories": {}
+		},
+		"1.3.2": {
+			"name": "font-atlas-sdf",
+			"version": "1.3.2",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"optical-properties": "^1.0.0",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1",
+				"settings-panel": "^1.8.17"
+			},
+			"gitHead": "386a8294f5e1f3b460ceacf3d21b45dc6146efd9",
+			"_id": "font-atlas-sdf@1.3.2",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-J4DzU9EFNOHsSor0EzJsSSB0bZpDEC2h9masKyX4JKYyQrEzTlI9fLRClS7G/YB3sL+NUasrbxFvYFgxztO6Sw==",
+				"shasum": "2c2eddee7a857b7375f9396b44d8fcb09eea33da",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/font-atlas-sdf-1.3.2.tgz_1497042752754_0.040500458329916"
+			},
+			"directories": {}
+		},
+		"1.3.3": {
+			"name": "font-atlas-sdf",
+			"version": "1.3.3",
+			"description": "Populate a <canvas> with SDF font texture atlas",
+			"main": "index.js",
+			"scripts": {
+				"test": "budo test",
+				"build": "browserify test.js -g bubleify | indexhtmlify | metadataify > demo/index.html"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/dfcreative/font-atlas-sdf.git"
+			},
+			"keywords": [
+				"font",
+				"type",
+				"typography",
+				"gamedev",
+				"canvas",
+				"browser",
+				"browserify",
+				"element",
+				"atlas",
+				"text",
+				"sdf",
+				"webgl",
+				"stackgl",
+				"gl"
+			],
+			"author": {
+				"name": "Dima Yv",
+				"email": "dfcreative@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/dfcreative/font-atlas-sdf/issues"
+			},
+			"homepage": "https://github.com/dfcreative/font-atlas-sdf#readme",
+			"dependencies": {
+				"optical-properties": "^1.0.0",
+				"tiny-sdf": "^1.0.2"
+			},
+			"devDependencies": {
+				"bubleify": "^0.7.0",
+				"font-atlas": "^1.0.0",
+				"object-assign": "^4.1.1",
+				"settings-panel": "^1.8.17"
+			},
+			"gitHead": "1557ed6c04c442bf27af70f183eaef1337735c28",
+			"_id": "font-atlas-sdf@1.3.3",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "6.2.0",
+			"_npmUser": {
+				"name": "dfcreative",
+				"email": "df.creative@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-GxUpcdkdoHgC3UrpMuA7JmG1Ty/MY0BhfmV8r7ZSv3bkqBY5vmRIjcj7Pg8iqj20B03vlU6fUhdpyIgEo/Z35w==",
+				"shasum": "8323f136c69d73a235aa8c6ada640e58f180b8c0",
+				"tarball": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dfcreative",
+					"email": "df.creative@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/font-atlas-sdf-1.3.3.tgz_1497372562551_0.06274852016940713"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.3.3"
+	},
+	"_distfiles": {
+		"font-atlas-sdf-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.0.tgz",
+			"sha": "c54b595a7a9ad8af5c3827be94538d6ea5c4922b",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.1.tgz",
+			"sha": "8613871a23e9f75010b3158f017c6a272153cb7d",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.0.2.tgz",
+			"sha": "21b164759171c17090232a298b42e0f8d51c3c79",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.0.tgz",
+			"sha": "92a99747c644348f1dacda1a92aa639c530c3295",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.1.tgz",
+			"sha": "0e2830a3c0373d9b063ea8f1890436a3f766100f",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.2.tgz",
+			"sha": "896e58ee2f8425ab5db140b17a26c59c598409fc",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.1.3.tgz",
+			"sha": "821ec9e842ba10631afc495663a77301dc1e2c5f",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.2.0.tgz",
+			"sha": "74de5191136712c4c239c09491f95b44761ec58f",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.0.tgz",
+			"sha": "ce6376fba028c868ab1838aaa5e96c060a3b2d0b",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.1.tgz",
+			"sha": "6961f815ea7c0d83bef8cf6025911ae966bed077",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.2.tgz",
+			"sha": "2c2eddee7a857b7375f9396b44d8fcb09eea33da",
+			"registry": "npmjs"
+		},
+		"font-atlas-sdf-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/font-atlas-sdf/-/font-atlas-sdf-1.3.3.tgz",
+			"sha": "8323f136c69d73a235aa8c6ada640e58f180b8c0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59401793-52a0\"",
+			"fetched": 1501276740262
+		}
+	},
+	"_rev": "1-e34e2758459a9ed6",
+	"readme": "# font-atlas-sdf [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges)\r\n\r\nPopulate a `<canvas>` element with a font texture atlas – can be used to quickly\r\ngenerate SDF (Signed Distance Field) fonts. SDF is the most efficient way to draw text in WebGL, see [article](https://www.mapbox.com/blog/text-signed-distance-fields/). For bitmap fonts see [font-atlas](https://github.com/hughsk/font-atlas).\r\n\r\n[Demo](https://dfcreative.github.io/font-atlas-sdf)\r\n\r\n## Usage\r\n\r\n[![npm install font-atlas-sdf](https://nodei.co/npm/font-atlas-sdf.png?mini=true)](https://npmjs.org/package/font-atlas-sdf/)\r\n\r\n### canvas = fontAtlas(options?)\r\n\r\nPopulates and returns a `<canvas>` element with a font texture atlas. Takes\r\nthe following options:\r\n\r\n* `canvas`: use an existing `<canvas>` element. By default, a new one will\r\n  be created for you.\r\n* `family`: the font family to use when drawing the text. Default: `monospace`.\r\n* `shape`: an array containing the `[width, height]` for the canvas in pixels.\r\n  Default: `[512, 512]`.\r\n* `step`: an array containing the `[width, height]` for each cell in pixels.\r\n  Default: `[32, 32]`.\r\n* `size`: the font size to use when drawing the text. Default: `16px`\r\n* `chars`: may be one of either:\r\n  * a string containing all of the characters to use.\r\n  * an array of all the characters to use.\r\n  * an array specifying the `[start, end]` character codes to use. By default,\r\n    this is `[32, 126]`.\r\n* `radius`: affects the \"slope\" of distance-transform, defaults to _size × 1.5_.\r\n* `align`: align symbol vertically by bounding box rather than font baseline. Available values: `'optical'` for center of mass alignment (see [optical-properties](https://github.com/dfcreative/optical-properties)) or `'bounds'` for bounding box alignment.\r\n* `fit`: normalize glyph sizes to cover same part of `size`. Can be a number or bool, eg. `0.5` covers half of `size`, `1` fits to the full size and `false` disables fit. Defaults to `0.5`.\r\n\r\n<img src=\"https://raw.githubusercontent.com/dfcreative/font-atlas-sdf/master/atlas.png\" alt=\"Font atlas texture\"/>\r\n\r\n## Related\r\n\r\n* [font-atlas](https://github.com/hughsk/font-atlas) − bitmap font atlas.\r\n* [tiny-sdf](https://github.com/mapbox/tiny-sdf) − fast glyph signed distance field generation.\r\n* [optical-properties](https://github.com/dfcreative/optical-properties) − glyph optical center and bounding box calculation\r\n"
+}

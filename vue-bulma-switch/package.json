@@ -1,0 +1,399 @@
+{
+	"name": "vue-bulma-switch",
+	"versions": {
+		"1.0.0": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.0",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"devDependencies": {
+				"bulma": "0.1.0",
+				"vue": "1.0.26"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "0acd344d722480e074ee1349a70bf9feafc6c0fb",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.0",
+			"_shasum": "815baeb40cb81356e45f63babd4cc3104c1ef57b",
+			"_from": ".",
+			"_npmVersion": "3.10.5",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "815baeb40cb81356e45f63babd4cc3104c1ef57b",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-switch-1.0.0.tgz_1468519405952_0.8910398462321609"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.1",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"peerDependencies": {
+				"bulma": "^0.2",
+				"vue": ">=2"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "a7372bed7fbd81dd65e171e5f27e5b47aa9b798f",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.1",
+			"_shasum": "ab952f9ca2c1ef4d191c42657f2f006384ac843d",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "ab952f9ca2c1ef4d191c42657f2f006384ac843d",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-switch-1.0.1.tgz_1480518866110_0.15765883191488683"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.2",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"peerDependencies": {
+				"bulma": "^0.2",
+				"vue": ">=2"
+			},
+			"scripts": {},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "f420aa902ea8698be3d87980a55f16f401956c29",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.2",
+			"_shasum": "2270bc36f0a9491fae873546caf8908f3ade5e8d",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "2270bc36f0a9491fae873546caf8908f3ade5e8d",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-switch-1.0.2.tgz_1480524160371_0.6775632593780756"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.3",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "5e219fe7a1c06d2c227c5fd99d1fe77b47f722e6",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.3",
+			"scripts": {},
+			"_shasum": "b2862fd7ba826831b0dbcdedcfaa3e5d716ee42a",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "b2862fd7ba826831b0dbcdedcfaa3e5d716ee42a",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-switch-1.0.3.tgz_1486307816268_0.5752493874169886"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.4",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"peerDependencies": {
+				"bulma": ">=0.2",
+				"vue": ">=2"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "2b1dd0da1bd2f02e24637be1f7e4917b0edfe802",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.4",
+			"scripts": {},
+			"_shasum": "52e99de5b57baa39b1bc80240b3ae5d43f53c522",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "fundon",
+				"email": "cfddream@gmail.com"
+			},
+			"dist": {
+				"shasum": "52e99de5b57baa39b1bc80240b3ae5d43f53c522",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-bulma-switch-1.0.4.tgz_1486309357710_0.7413053931668401"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "vue-bulma-switch",
+			"version": "1.0.5",
+			"description": "Switch component for Vue Bulma",
+			"main": "src/Switch.vue",
+			"peerDependencies": {
+				"bulma": ">=0.3",
+				"vue": ">=2"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-bulma/switch.git"
+			},
+			"keywords": [
+				"vue",
+				"bulma",
+				"vue-bulma",
+				"vue-bulma-component",
+				"vue-bulma-switch",
+				"switch"
+			],
+			"author": {
+				"name": "Fangdun Cai",
+				"email": "cfddream@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "04968e41bdde263289c1cf8f239a89edc358722b",
+			"bugs": {
+				"url": "https://github.com/vue-bulma/switch/issues"
+			},
+			"homepage": "https://github.com/vue-bulma/switch#readme",
+			"_id": "vue-bulma-switch@1.0.5",
+			"scripts": {},
+			"_shasum": "ac0c21136582c7120b2fb21176404fb28b5ae651",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "luventa",
+				"email": "luventa@outlook.com"
+			},
+			"dist": {
+				"shasum": "ac0c21136582c7120b2fb21176404fb28b5ae651",
+				"tarball": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "fundon",
+					"email": "cfddream@gmail.com"
+				},
+				{
+					"name": "luventa",
+					"email": "silentmic@qq.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-bulma-switch-1.0.5.tgz_1501251087708_0.48147579631768167"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.5"
+	},
+	"_distfiles": {
+		"vue-bulma-switch-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.0.tgz",
+			"sha": "815baeb40cb81356e45f63babd4cc3104c1ef57b",
+			"registry": "npmjs"
+		},
+		"vue-bulma-switch-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.1.tgz",
+			"sha": "ab952f9ca2c1ef4d191c42657f2f006384ac843d",
+			"registry": "npmjs"
+		},
+		"vue-bulma-switch-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.2.tgz",
+			"sha": "2270bc36f0a9491fae873546caf8908f3ade5e8d",
+			"registry": "npmjs"
+		},
+		"vue-bulma-switch-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.3.tgz",
+			"sha": "b2862fd7ba826831b0dbcdedcfaa3e5d716ee42a",
+			"registry": "npmjs"
+		},
+		"vue-bulma-switch-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.4.tgz",
+			"sha": "52e99de5b57baa39b1bc80240b3ae5d43f53c522",
+			"registry": "npmjs"
+		},
+		"vue-bulma-switch-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-bulma-switch/-/vue-bulma-switch-1.0.5.tgz",
+			"sha": "ac0c21136582c7120b2fb21176404fb28b5ae651",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vue-bulma-switch-1.0.5.tgz": {
+			"shasum": "ac0c21136582c7120b2fb21176404fb28b5ae651"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597b460f-242a\"",
+			"fetched": 1501276735115
+		}
+	},
+	"_rev": "2-3a7dc4f2b5f91203",
+	"readme": "# Switch\r\n\r\nSwitch component for Vue Bulma.\r\n\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-bulma-switch --save\r\n```\r\n\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <div>\r\n    <p>\r\n      <vb-switch type=\"success\" size=\"large\" checked v-model=\"value\"></vb-switch>\r\n    </p>\r\n    <p>\r\n      {{ text }}\r\n    </p>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\n// do not use below code, because `Switch` is svg tag.\r\n// import Switch from 'vue-bulma-switch'\r\nimport VbSwitch from 'vue-bulma-switch'\r\n\r\nexport default {\r\n  components: {\r\n    VbSwitch\r\n  },\r\n\r\n  data () {\r\n    return {\r\n      value: false,\r\n      text: ''\r\n    }\r\n  },\r\n\r\n  watch: {\r\n    value (val) {\r\n      this.text = val ? 'Right' : 'Wrong'\r\n    }\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n\r\n"
+}

@@ -1,0 +1,1727 @@
+{
+	"name": "mapbox-gl-function",
+	"versions": {
+		"1.0.0": {
+			"name": "mapbox-gl-function",
+			"version": "1.0.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "tape test.js"
+			},
+			"engines": {
+				"node": "0.10.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"gitHead": "4c18615ddebc89500d3c9176bd4b8209a3ab7896",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function",
+			"_id": "mapbox-gl-function@1.0.0",
+			"_shasum": "ddcb2b6fd4018eed8710c70f0b23e6506bffdb32",
+			"_from": ".",
+			"_npmVersion": "2.1.3",
+			"_nodeVersion": "0.10.32",
+			"_npmUser": {
+				"name": "jfirebaugh",
+				"email": "john.firebaugh@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ddcb2b6fd4018eed8710c70f0b23e6506bffdb32",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.0.0.tgz"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "mapbox-gl-function",
+			"version": "2.0.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"mapbox-gl-style-spec": "git+https://github.com/mapbox/mapbox-gl-style-spec.git#v8",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"engines": {
+				"node": "0.10.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "3448c3926475aa1b72f9d19783636206c6d87919",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@2.0.0",
+			"_shasum": "e005b50e09c5bda50d38143d094d7025e68bda80",
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@lucaswoj.com"
+			},
+			"dist": {
+				"shasum": "e005b50e09c5bda50d38143d094d7025e68bda80",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "mapbox",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "dvncan",
+					"email": "duncan@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				}
+			],
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "mapbox-gl-function",
+			"version": "2.0.1",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"mapbox-gl-style-spec": "git+https://github.com/mapbox/mapbox-gl-style-spec.git#v8",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"engines": {
+				"node": "0.10.x"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "afaf54f25fcd76a8314d6e4f8b11fc11267522bf",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@2.0.1",
+			"_shasum": "39ac36ba944a9776d5aedb1527dcb718df3dcf38",
+			"_from": ".",
+			"_npmVersion": "2.8.3",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@lucaswoj.com"
+			},
+			"dist": {
+				"shasum": "39ac36ba944a9776d5aedb1527dcb718df3dcf38",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "mapbox",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "dvncan",
+					"email": "duncan@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				}
+			],
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "mapbox-gl-function",
+			"version": "2.1.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"mapbox-gl-style-spec": "git+https://github.com/mapbox/mapbox-gl-style-spec.git#aae9d8c08cae5299deea0b2c86d270ef3dc7cac1",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git@github.com:mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "086bfcb3c8c6d04faeb160c662252c726b12e430",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function",
+			"_id": "mapbox-gl-function@2.1.0",
+			"_shasum": "b93ee9a1ba8a8435d3d1c6bcfaefa42e2da1ec1f",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@mapbox.com"
+			},
+			"maintainers": [
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "mapbox",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				},
+				{
+					"name": "edenh",
+					"email": "eden@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "dvncan",
+					"email": "duncan@mapbox.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "planemad",
+					"email": "arun.planemad@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "b93ee9a1ba8a8435d3d1c6bcfaefa42e2da1ec1f",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.1.0.tgz"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "mapbox-gl-function",
+			"version": "1.1.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"mapbox-gl-style-spec": "github:mapbox/mapbox-gl-style-spec#fe8f3a3644d38fda8558868f397dbdff3989af67",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "2acd0988dd1bd03d3223276b2554aea64b80afb5",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@1.1.0",
+			"_shasum": "ca44bfa6cf8c86298b04ee94b4b4c0e32512e027",
+			"_from": ".",
+			"_npmVersion": "2.15.3",
+			"_nodeVersion": "0.10.38",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@mapbox.com"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "ca44bfa6cf8c86298b04ee94b4b4c0e32512e027",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mapbox-gl-function-1.1.0.tgz_1460496535905_0.1001134691759944"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "mapbox-gl-function",
+			"version": "1.2.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "08bcfb8e0fdd1dedbcf07b2edb3e36dbf4933245",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@1.2.0",
+			"_shasum": "d6246a0a440458e74c86bdba365de2307308d3c7",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "ansis",
+				"email": "ansis.brammanis@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "d6246a0a440458e74c86bdba365de2307308d3c7",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.2.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mapbox-gl-function-1.2.0.tgz_1461095767143_0.3391198315657675"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.2.1": {
+			"name": "mapbox-gl-function",
+			"version": "1.2.1",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "aae7914f925f457e25337a602428ccac11e43555",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@1.2.1",
+			"_shasum": "39842180ec6cf73708d4a5c22e0a884901f93b32",
+			"_from": ".",
+			"_npmVersion": "2.14.12",
+			"_nodeVersion": "4.3.2",
+			"_npmUser": {
+				"name": "ansis",
+				"email": "ansis.brammanis@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"dist": {
+				"shasum": "39842180ec6cf73708d4a5c22e0a884901f93b32",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.2.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mapbox-gl-function-1.2.1.tgz_1461106059240_0.011625022161751986"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "mapbox-gl-function",
+			"version": "1.3.0",
+			"description": "Evaluate a Mapbox GL style function",
+			"devDependencies": {
+				"eslint": "^0.22.1",
+				"tape": "^3.5.0"
+			},
+			"scripts": {
+				"test": "eslint index.js test/*.js && tape test/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/mapbox/mapbox-gl-function.git"
+			},
+			"license": "ISC",
+			"eslintConfig": {
+				"rules": {
+					"no-use-before-define": [
+						2,
+						"nofunc"
+					],
+					"camelcase": 2,
+					"space-after-function-name": 2,
+					"space-in-parens": 2,
+					"space-before-blocks": 2,
+					"space-after-keywords": 2,
+					"comma-style": 2,
+					"no-lonely-if": 2,
+					"new-cap": 0,
+					"no-empty": 2,
+					"no-new": 2,
+					"no-multi-spaces": 0,
+					"space-in-brackets": 0,
+					"brace-style": 0,
+					"quotes": 0,
+					"no-underscore-dangle": 0,
+					"curly": 0,
+					"no-constant-condition": 0,
+					"no-native-reassign": 0,
+					"no-shadow": 0,
+					"key-spacing": 0
+				},
+				"env": {
+					"node": true,
+					"browser": true
+				}
+			},
+			"gitHead": "6ed93670724ccfacecbf1a0c7686d9e0da7af90e",
+			"bugs": {
+				"url": "https://github.com/mapbox/mapbox-gl-function/issues"
+			},
+			"homepage": "https://github.com/mapbox/mapbox-gl-function#readme",
+			"_id": "mapbox-gl-function@1.3.0",
+			"_shasum": "cee3d95750c189d45e83ab41a0a57fc2a8a509bc",
+			"_from": ".",
+			"_npmVersion": "2.15.5",
+			"_nodeVersion": "4.4.5",
+			"_npmUser": {
+				"name": "lucaswoj",
+				"email": "lucas@lucaswoj.com"
+			},
+			"dist": {
+				"shasum": "cee3d95750c189d45e83ab41a0a57fc2a8a509bc",
+				"tarball": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "aaronlidman",
+					"email": "aaronlidman@gmail.com"
+				},
+				{
+					"name": "ajashton",
+					"email": "aj.ashton@gmail.com"
+				},
+				{
+					"name": "ansis",
+					"email": "ansis.brammanis@gmail.com"
+				},
+				{
+					"name": "bergwerkgis",
+					"email": "wb@bergwerk-gis.at"
+				},
+				{
+					"name": "bsudekum",
+					"email": "bobby@mapbox.com"
+				},
+				{
+					"name": "camilleanne",
+					"email": "camille@mapbox.com"
+				},
+				{
+					"name": "dnomadb",
+					"email": "damon@mapbox.com"
+				},
+				{
+					"name": "dthompson",
+					"email": "dthompson@gmail.com"
+				},
+				{
+					"name": "emilymcafee",
+					"email": "emily@mapbox.com"
+				},
+				{
+					"name": "flippmoke",
+					"email": "flippmoke@gmail.com"
+				},
+				{
+					"name": "freenerd",
+					"email": "spam@freenerd.de"
+				},
+				{
+					"name": "gretacb",
+					"email": "carol@mapbox.com"
+				},
+				{
+					"name": "ian29",
+					"email": "ian.villeda@gmail.com"
+				},
+				{
+					"name": "ianshward",
+					"email": "ian@mapbox.com"
+				},
+				{
+					"name": "ingalls",
+					"email": "nicholas.ingalls@gmail.com"
+				},
+				{
+					"name": "jfirebaugh",
+					"email": "john.firebaugh@gmail.com"
+				},
+				{
+					"name": "jrpruit1",
+					"email": "jake@jakepruitt.com"
+				},
+				{
+					"name": "karenzshea",
+					"email": "karen@mapbox.com"
+				},
+				{
+					"name": "kkaefer",
+					"email": "kkaefer@gmail.com"
+				},
+				{
+					"name": "lbud",
+					"email": "lauren@mapbox.com"
+				},
+				{
+					"name": "lucaswoj",
+					"email": "lucas@lucaswoj.com"
+				},
+				{
+					"name": "lxbarth",
+					"email": "alex@mapbox.com"
+				},
+				{
+					"name": "mapbox-admin",
+					"email": "accounts@mapbox.com"
+				},
+				{
+					"name": "mateov",
+					"email": "matt@mapbox.com"
+				},
+				{
+					"name": "miccolis",
+					"email": "jeff@miccolis.net"
+				},
+				{
+					"name": "mikemorris",
+					"email": "michael.patrick.morris@gmail.com"
+				},
+				{
+					"name": "morganherlocker",
+					"email": "morgan.herlocker@gmail.com"
+				},
+				{
+					"name": "mourner",
+					"email": "agafonkin@gmail.com"
+				},
+				{
+					"name": "nickidlugash",
+					"email": "nicki@mapbox.com"
+				},
+				{
+					"name": "rclark",
+					"email": "ryan.clark.j@gmail.com"
+				},
+				{
+					"name": "samanbb",
+					"email": "saman@mapbox.com"
+				},
+				{
+					"name": "sgillies",
+					"email": "sean@mapbox.com"
+				},
+				{
+					"name": "springmeyer",
+					"email": "dane@mapbox.com"
+				},
+				{
+					"name": "themarex",
+					"email": "patrick@mapbox.com"
+				},
+				{
+					"name": "tmcw",
+					"email": "tom@macwright.org"
+				},
+				{
+					"name": "tristen",
+					"email": "tristen.brown@gmail.com"
+				},
+				{
+					"name": "willwhite",
+					"email": "will@mapbox.com"
+				},
+				{
+					"name": "yhahn",
+					"email": "young@mapbox.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/mapbox-gl-function-1.3.0.tgz_1475172612326_0.21923626074567437"
+			},
+			"deprecated": "This package has been merged with the 'mapbox-gl-style-spec' package",
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.3.0"
+	},
+	"_distfiles": {
+		"mapbox-gl-function-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.0.0.tgz",
+			"sha": "ddcb2b6fd4018eed8710c70f0b23e6506bffdb32",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.0.0.tgz",
+			"sha": "e005b50e09c5bda50d38143d094d7025e68bda80",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.0.1.tgz",
+			"sha": "39ac36ba944a9776d5aedb1527dcb718df3dcf38",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-2.1.0.tgz",
+			"sha": "b93ee9a1ba8a8435d3d1c6bcfaefa42e2da1ec1f",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.1.0.tgz",
+			"sha": "ca44bfa6cf8c86298b04ee94b4b4c0e32512e027",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.2.0.tgz",
+			"sha": "d6246a0a440458e74c86bdba365de2307308d3c7",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.2.1.tgz",
+			"sha": "39842180ec6cf73708d4a5c22e0a884901f93b32",
+			"registry": "npmjs"
+		},
+		"mapbox-gl-function-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/mapbox-gl-function/-/mapbox-gl-function-1.3.0.tgz",
+			"sha": "cee3d95750c189d45e83ab41a0a57fc2a8a509bc",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58dbfd36-6d70\"",
+			"fetched": 1501276753511
+		}
+	},
+	"_rev": "1-4c5e7437c01b27b3",
+	"readme": "[Mapbox GL style functions](https://www.mapbox.com/mapbox-gl-style-spec/#function) are used to specify a property value that varies according to zoom level. This library implements the semantics of interpolated and piecewise-constant functions as specified by the [Mapbox GL Style Specification](https://github.com/mapbox/mapbox-gl-style-spec).\n\n### Usage\n\n``` javascript\nvar glfun = require('mapbox-gl-function');\n\nvar exponential = glfun({type: 'exponential', stops: [[1, 1], [5, 10]]});\nexponential({ $zoom: 0 });  // => 1\nexponential({ $zoom: 1 });  // => 1\nexponential({ $zoom: 3 });  // => 5.5\nexponential({ $zoom: 5 });  // => 10\nexponential({ $zoom: 11 }); // => 10\n\nvar interval = glfun({type: 'interval', stops: [[1, 'a'], [3, 'b'], [4, 'c']]});\ninterval({ $zoom: 0 }); // => 'a'\ninterval({ $zoom: 1 }); // => 'a'\ninterval({ $zoom: 2 }); // => 'a'\ninterval({ $zoom: 3 }); // => 'b'\ninterval({ $zoom: 4 }); // => 'c'\n\nvar categorical = glfun({type: 'categorical', stops: [['A', 'a'], ['B', 'b'], ['C', 'c']]});\ncategorical({ $zoom: 'A' }); // => 'a'\ncategorical({ $zoom: 'B' }); // => 'b'\ncategorical({ $zoom: 'C' }); // => 'c'\n```\n"
+}

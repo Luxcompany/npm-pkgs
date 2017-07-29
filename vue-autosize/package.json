@@ -1,0 +1,282 @@
+{
+	"name": "vue-autosize",
+	"versions": {
+		"0.1.0": {
+			"name": "vue-autosize",
+			"version": "0.1.0",
+			"description": "textarea autosize for vue directive",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"textarea",
+				"autosize",
+				"vue",
+				"directive"
+			],
+			"author": {
+				"name": "mage3k"
+			},
+			"license": "UNLICENSED",
+			"dependencies": {
+				"autosize": "^3.0.14",
+				"vue": "^1.0.11"
+			},
+			"gitHead": "d5010770d1f08544051adead78ac6e1d5666d24f",
+			"_id": "vue-autosize@0.1.0",
+			"_shasum": "4ca8f28df55deec38271a44d9ece5f288552c4bd",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"dist": {
+				"shasum": "4ca8f28df55deec38271a44d9ece5f288552c4bd",
+				"tarball": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mage3k",
+					"email": "loper.tt@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "vue-autosize",
+			"version": "0.1.1",
+			"description": "textarea autosize for vue directive",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"textarea",
+				"autosize",
+				"vue",
+				"directive"
+			],
+			"author": {
+				"name": "mage3k"
+			},
+			"license": "UNLICENSED",
+			"dependencies": {
+				"autosize": "^3.0.14",
+				"vue": "^1.0.11"
+			},
+			"gitHead": "b502ed8e3ddb346bb4e0db41db4cec577454dc70",
+			"_id": "vue-autosize@0.1.1",
+			"_shasum": "938c9a1a22da37bb584683172f004bcc38a5b54e",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"dist": {
+				"shasum": "938c9a1a22da37bb584683172f004bcc38a5b54e",
+				"tarball": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mage3k",
+					"email": "loper.tt@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "vue-autosize",
+			"version": "0.1.2",
+			"description": "A simple Vue directive for autosize",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"textarea",
+				"autosize",
+				"vue",
+				"directive"
+			],
+			"author": {
+				"name": "mage3k"
+			},
+			"license": "UNLICENSED",
+			"dependencies": {
+				"autosize": "^3.0.14",
+				"vue": "^1.0.11"
+			},
+			"gitHead": "202c64e0387a068d47fe70a5c6110862a4c94f94",
+			"_id": "vue-autosize@0.1.2",
+			"_shasum": "3bcd204f0200ef85be72453490afefac8b3ee713",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"dist": {
+				"shasum": "3bcd204f0200ef85be72453490afefac8b3ee713",
+				"tarball": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mage3k",
+					"email": "loper.tt@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "vue-autosize",
+			"version": "0.1.3",
+			"description": "A simple Vue directive for autosize",
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mage3k/vue-autosize.git"
+			},
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"textarea",
+				"autosize",
+				"vue",
+				"directive"
+			],
+			"author": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"autosize": "^3.0.14",
+				"vue": "^1.0.11"
+			},
+			"gitHead": "9013219c4c891d6a3581d4a55af30cfdf2d84d62",
+			"bugs": {
+				"url": "https://github.com/mage3k/vue-autosize/issues"
+			},
+			"homepage": "https://github.com/mage3k/vue-autosize#readme",
+			"_id": "vue-autosize@0.1.3",
+			"_shasum": "badc02ea9faaf183683106208bef9641f978d90a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"dist": {
+				"shasum": "badc02ea9faaf183683106208bef9641f978d90a",
+				"tarball": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mage3k",
+					"email": "loper.tt@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-autosize-0.1.3.tgz_1478079802347_0.329112607287243"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "vue-autosize",
+			"version": "1.0.0",
+			"description": "autosize for vue directive",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"textarea",
+				"autosize",
+				"vue",
+				"directive"
+			],
+			"author": {
+				"name": "mage3k"
+			},
+			"license": "UNLICENSED",
+			"dependencies": {
+				"autosize": "^3.0.14",
+				"autosize-input": "^0.4.0",
+				"lorem-ipsum": "^1.0.3"
+			},
+			"gitHead": "b520af1d37c2abb3b722924a42b8db2a90d3a122",
+			"_id": "vue-autosize@1.0.0",
+			"_shasum": "51481c86859bd67ded09fac8fa5ccd4cdeb80353",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "mage3k",
+				"email": "loper.tt@gmail.com"
+			},
+			"dist": {
+				"shasum": "51481c86859bd67ded09fac8fa5ccd4cdeb80353",
+				"tarball": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "mage3k",
+					"email": "loper.tt@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-autosize-1.0.0.tgz_1490805226671_0.010784716112539172"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"vue-autosize-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.0.tgz",
+			"sha": "4ca8f28df55deec38271a44d9ece5f288552c4bd",
+			"registry": "npmjs"
+		},
+		"vue-autosize-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.1.tgz",
+			"sha": "938c9a1a22da37bb584683172f004bcc38a5b54e",
+			"registry": "npmjs"
+		},
+		"vue-autosize-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.2.tgz",
+			"sha": "3bcd204f0200ef85be72453490afefac8b3ee713",
+			"registry": "npmjs"
+		},
+		"vue-autosize-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-0.1.3.tgz",
+			"sha": "badc02ea9faaf183683106208bef9641f978d90a",
+			"registry": "npmjs"
+		},
+		"vue-autosize-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-autosize/-/vue-autosize-1.0.0.tgz",
+			"sha": "51481c86859bd67ded09fac8fa5ccd4cdeb80353",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58dbe1ec-15b2\"",
+			"fetched": 1501276734975
+		}
+	},
+	"_rev": "1-33e5ea952ba7c3cc",
+	"readme": "# vue-autosize\n\nA simple [Vue](https://github.com/vuejs/vue) directive for [autosize](https://github.com/jackmoore/autosize)\n\n## usage\n\n```\nvar Vue = require('vue')\nvar VueAutosize = require('vue-autosize')\n\nVue.use(VueAutosize)\n```\n\n```\n<textarea v-autosize=\"someData\">{{someData}}</textarea>\n```\n"
+}

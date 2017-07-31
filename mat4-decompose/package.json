@@ -357,13 +357,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"mat4-decompose-1.0.4.tgz": {
+			"shasum": "65eb4fe39d70878f7a444eb4624d52f7e7eb2faf"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54d6c25f-2051\"",
 			"fetched": 1501276741328
 		}
 	},
-	"_rev": "1-3e37d4c70fb53ba0",
+	"_rev": "2-19b35642332f0f53",
 	"readme": "# mat4-decompose\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nDecomposes a 3D matrix, useful for animations. Code ported from [W3 CSS Spec](http://www.w3.org/TR/css3-transforms/#decomposing-a-3d-matrix). PRs for more tests/robustness/optimizations welcome. \n\nOrder:\n\n- first isolates perspective\n- then determines translation\n- then determines X scale, XY shear, Y scale, XZ and YZ shear, and Z scale\n- then determines quaternion rotation\n\nYou may also be interested in [mat4-interpolate](https://www.npmjs.com/package/mat4-interpolate), [mat4-recompose](https://www.npmjs.com/package/mat4-recompose), and [css-mat4](https://www.npmjs.com/package/css-mat4).\n\n## Usage\n\n[![NPM](https://nodei.co/npm/mat4-decompose.png)](https://nodei.co/npm/mat4-decompose/)\n\n#### `valid = decompose(matrix[, translation, scale, skew, perspective, quaternion])`\n\nDecomposes the given `matrix` (an array of 16 floats, like those gl-matrix operates on), storing the results into the specified optional vectors.\n\n- `translation` [x, y, z]\n- `scale` [x, y, z]\n- `skew` [xy, xz, yz] skew factors\n- `perspective` [x, y, z, w]\n- `quaternion` [x, y, z, w]\n\nReturns `false` is this matrix cannot be decomposed, `true` otherwise.\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/mat4-decompose/blob/master/LICENSE.md) for details.\n"
 }

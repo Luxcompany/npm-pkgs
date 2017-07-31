@@ -74,13 +74,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"optical-properties-1.0.0.tgz": {
+			"shasum": "c3a694bbab7cc4587070886c47f43c8c3a6cceae"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5939fa05-10de\"",
 			"fetched": 1501276745109
 		}
 	},
-	"_rev": "1-609930c1fe08354e",
+	"_rev": "2-1602652ff03a6c08",
 	"readme": "# optical-properties [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges)\r\n\r\nGet optical params of a character, canvas or image data. Useful to do kerning, normalize size or adjust vertical/horizontal alignment.\r\n\r\n![optical-properties](https://github.com/dfcreative/optical-properties/blob/gh-pages/index.png?raw=true)\r\n\r\nSee [demo](https://dfcreative.github.io/optical-properties).\r\n\r\n## Usage\r\n\r\n[![npm install optical-properties](https://nodei.co/npm/optical-properties.png?mini=true)](https://npmjs.org/package/optical-properties/)\r\n\r\n```js\r\nconst optics = require('optical-properties')\r\n\r\nlet w = canvas.width, h = canvas.height, ctx = canvas.getContext('2d')\r\n\r\n//get optical params\r\nlet {bounds, center, radius} = optics('▲', {size: h, fontSize: h/2})\r\n\r\n//make sure radius of char is at least half of canvas height\r\nlet scale = h*.5 / (radius*2)\r\n\r\n//optical center shift from the real center\r\nlet diff = [w*.5 - center[0], h*.5 - center[1]]\r\n\r\n//draw normalized character\r\nctx.font = size*cale + 'px sans-serif'\r\nctx.fillText('▲', w*.5 + diff[0]*scale, h*.5 + diff[1]*scale)\r\n\r\n```\r\n\r\n## API\r\n\r\n### let props = optics(char|canvas|imageData, options?)\r\n\r\nMeasures optical properties of a character, canvas or imageData based on options. Canvas is expected to be rectangular.\r\n\r\nOptions:\r\n\r\n* `size` − size of canvas to use, bigger is slower but more precise and vice-versa. Defaults to `200`.\r\n* `fontFamily` − font family to use for the character, defaults to `sans-serif`.\r\n* `fontSize` − size of glyph, defaults to `100`.\r\n\r\nReturns object with properties:\r\n\r\n* `center` − coordinates of optical center as `[cx, cy]`.\r\n* `bounds` − character bounding box `[left, top, right, bottom]`.\r\n* `radius` − distance from the optical center to the outmost point.\r\n\r\n\r\n## Credits\r\n\r\n© 2017 Dima Yv. MIT License\r\n"
 }

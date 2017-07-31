@@ -124,13 +124,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"extract-frustum-planes-1.0.0.tgz": {
+			"shasum": "97d5703ff0564c8c3c6838cac45f9e7bc52c9ef5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"53a3000d-f68\"",
 			"fetched": 1501276752128
 		}
 	},
-	"_rev": "1-4e9f8766f3c1caf0",
+	"_rev": "2-2922d9effe188bed",
 	"readme": "extract-frustum-planes\n======================\nReturns a list of frustum planes from a given WebGL matrix (assuming the matrix is stored in the same format as used by [gl-matrix](https://github.com/toji/gl-matrix)).\n\n\n## Install\n\n    npm install extract-frustum-planes\n\n## Example\n\n```javascript\nvar getPlanes = require(\"extract-frustum-planes\")\n\nvar glm = require(\"gl-matrix\")\nvar m = glm.mat4.perspective()\n```\n\n## API\n\n### `require(\"extract-frustum-planes\")(worldToClip[, zNear, zFar])`\nExtracts the frustum planes of the combined world to clip coordinate matrix for WebGL\n\n* `worldToClip` is the concatenated model-view-projection matrix in the same format as expected by WebGL (ie compatible with gl-matrix)\n* `zNear` is the near clip plane distance as set by `gl.depthRange` (default 0.0)\n* `zFar` is the far clip plane distance as set by `gl.depthRange`\n\n**Returns** An array of 6 planes encoding the view frustum stored in the order:\n\n* `left`\n* `right`\n* `top`\n* `bottom`\n* `near`\n* `far`\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
 }

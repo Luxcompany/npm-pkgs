@@ -297,13 +297,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"color-id-1.1.0.tgz": {
+			"shasum": "5e9159b99a73ac98f74820cb98a15fde3d7e034c"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5935cec2-1da1\"",
 			"fetched": 1501276752784
 		}
 	},
-	"_rev": "1-be99c0f5f9ca1db2",
+	"_rev": "2-8e40d88d91820358",
 	"readme": "# color-id [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/colorjs/color-id.svg)](https://travis-ci.org/colorjs/color-id)\r\n\r\nConvert color channels to single integer and back. Useful to get an id for a color.\r\n\r\n[![npm install color-id](https://nodei.co/npm/color-id.png?mini=true)](https://npmjs.org/package/color-id/)\r\n\r\n```js\r\nconst colorId = require('color-id');\r\n\r\ncolorId([.1, .5, .5, .1]); // 0x197f7f19\r\n```\r\n\r\n## `colorId(channels, normalized=true)`\r\n\r\nGet id for normalized to 0..1 rgb[a] channel values. Optionally pass normalized flag to indicate that values are normalized to 0..1 range, defaults to `true`.\r\n\r\n## `colorId.from(number, normalized=true)`\r\n\r\nGet color channels values from the color id. Optionally pass normalized flag to align values to `0..1` range.\r\n\r\n## Related\r\n\r\n> [color-interpolate](https://github.com/dfcreative/color-interpolate) — interpolate color over palette, colormap or gradient.<br/>\r\n> [color-rgba](https://github.com/dfcreative/color-rgba) — convert color string to rgba array.<br/>\r\n> [color-alpha](https://github.com/dfcreative/color-alpha) — change alpha channel for a color.\r\n"
 }

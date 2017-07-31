@@ -620,13 +620,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
-	"_uplinks": {
-		"npmjs": {
-			"etag": "W/\"59759087-45fa\"",
-			"fetched": 1501276745125
+	"_attachments": {
+		"tiny-sdf-1.0.2.tgz": {
+			"shasum": "28e76985c44c4e584c4b67d8ecdd9b33a1cac28c"
 		}
 	},
-	"_rev": "1-ba8586593231cdb7",
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597cb833-4631\"",
+			"fetched": 1501536143709
+		}
+	},
+	"_rev": "3-9cf8fd2a48bcbae1",
 	"readme": "# TinySDF\n\nTinySDF is a tiny and fast JavaScript library for generating SDF (signed distance field)\nfrom system fonts on the browser using Canvas 2D and\n[Felzenszwalb/Huttenlocher distance transform](https://cs.brown.edu/~pff/dt/).\nThis is very useful for [rendering text with WebGL](https://www.mapbox.com/blog/text-signed-distance-fields/).\n\nDemo: http://mapbox.github.io/tiny-sdf/\n"
 }

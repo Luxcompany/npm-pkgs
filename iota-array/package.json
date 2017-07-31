@@ -182,13 +182,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"iota-array-1.0.0.tgz": {
+			"shasum": "81ef57fe5d05814cd58c2483632a99c30a0e8087"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"535eea63-10a8\"",
 			"fetched": 1501276745203
 		}
 	},
-	"_rev": "1-4f4b4c9a2729d8c3",
+	"_rev": "2-c8d434835ec4c20d",
 	"readme": "# iota-array\nFills an array with sequential integers.  Just like [C++'s `std::iota()`](http://www.sgi.com/tech/stl/iota.html) or the similarly named function in [APL](http://en.wikipedia.org/wiki/Iota).\n\n## Install\n\n    npm install iota-array\n    \n## Example\n\n```javascript\n\nconsole.log(require(\"iota-array\")(3))\n\n//Prints:\n//\n//    [0,1,2]\n//\n\n```\n\n## `require(\"iota-array\")(n)`\nConstructs an array of length `n` of `n` sequential integers starting from 0.\n\n* `n` the length of the array to construct\n\n**Returns:** An array of n sequential integers starting at 0\n\n# Credits\n(c) 2013 Mikola Lysenko. MIT License\n"
 }

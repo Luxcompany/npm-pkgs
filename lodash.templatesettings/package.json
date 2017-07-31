@@ -1260,13 +1260,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.templatesettings-3.1.1.tgz": {
+			"shasum": "fb307844753b66b9f1afa54e262c745307dba8e5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f68138-621e\"",
 			"fetched": 1501276738965
 		}
 	},
-	"_rev": "1-c5a073507ce569b1",
+	"_rev": "2-9e347c08652e951c",
 	"readme": "# lodash.templatesettings v4.1.0\n\nThe [lodash](https://lodash.com/) method `_.templateSettings` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.templatesettings\n```\n\nIn Node.js:\n```js\nvar templateSettings = require('lodash.templatesettings');\n```\n\nSee the [documentation](https://lodash.com/docs#templateSettings) or [package source](https://github.com/lodash/lodash/blob/4.1.0-npm-packages/lodash.templatesettings) for more details.\n"
 }

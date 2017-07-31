@@ -262,13 +262,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"glsl-token-depth-1.1.2.tgz": {
+			"shasum": "23c5e30ee2bd255884b4a28bc850b8f791e95d84"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5973bde8-1d1b\"",
 			"fetched": 1501276746766
 		}
 	},
-	"_rev": "1-4e7f8ff4112701a1",
+	"_rev": "2-266dd4ff7ec1fa0e",
 	"readme": "# glsl-token-depth\n\n[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)\n\nDetermine the scope depth of an array of GLSL tokens.\n\nUseful for inferring the scope of variables in a GLSL shader without having\nto fully parse the source.\n\n## Usage\n\n[![NPM](https://nodei.co/npm/glsl-token-depth.png)](https://nodei.co/npm/glsl-token-depth/)\n\n### `depth(tokens)`\n\nWhere `tokens` is an array of tokens returned from\n[`glsl-tokenizer`](http://github.com/stackgl/glsl-tokenizer). Each token will\nbe modified in-place, and given a `depth` property.\n\n``` javascript\nvar tokenize = require('glsl-tokenizer/string')\nvar depth    = require('glsl-token-depth')\nvar fs       = require('fs')\n\nvar src = fs.readFileSync('shader.frag', 'utf8')\nvar tokens = tokenize(src)\n\ndepth(tokens)\n\ntokens[0].depth // 0\ntokens[1].depth // 0\ntokens[2].depth // 0\ntokens[3].depth // 0\ntokens[4].depth // 1\n// ...\n```\n\n## See Also\n\n* [stackgl/glsl-tokenizer](http://github.com/stackgl/glsl-tokenizer)\n\n## License\n\nMIT. See [LICENSE.md](http://github.com/stackgl/glsl-token-depth/blob/master/LICENSE.md) for details.\n"
 }

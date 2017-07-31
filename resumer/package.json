@@ -77,13 +77,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"resumer-0.0.0.tgz": {
+			"shasum": "f1e8f461e4064ba39e82af3cdc2a8c893d076759"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"588395fe-1062\"",
 			"fetched": 1501276743078
 		}
 	},
-	"_rev": "1-3e27f4a8253d71be",
+	"_rev": "2-e84685b7f2635c0e",
 	"readme": "# resumer\n\nReturn a through stream that starts out paused and resumes on the next tick,\nunless somebody called `.pause()`.\n\nThis module has the same signature as\n[through](https://npmjs.com/package/through).\n\n[![browser support](https://ci.testling.com/substack/resumer.png)](http://ci.testling.com/substack/resumer)\n\n[![build status](https://secure.travis-ci.org/substack/resumer.png)](http://travis-ci.org/substack/resumer)\n\n# example\n\n``` js\nvar resumer = require('resumer');\nvar s = createStream();\ns.pipe(process.stdout);\n\nfunction createStream () {\n    var stream = resumer();\n    stream.queue('beep boop\\n');\n    return stream;\n}\n```\n\n```\n$ node example/resume.js\nbeep boop\n```\n\n# methods\n\n``` js\nvar resumer = require('resumer')\n```\n\n## resumer(write, end)\n\nReturn a new through stream from `write` and `end`, which default to\npass-through `.queue()` functions if not specified.\n\nThe stream starts out paused and will be resumed on the next tick unless you\ncall `.pause()` first.\n\n`write` and `end` get passed directly through to\n[through](https://npmjs.com/package/through).\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install resumer\n```\n\n# license\n\nMIT\n"
 }

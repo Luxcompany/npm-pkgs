@@ -215,13 +215,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"orbit-camera-controller-4.0.0.tgz": {
+			"shasum": "6e2b36f0e7878663c330f50da9b7ce686c277005"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"551eaa9e-142c\"",
 			"fetched": 1501276741156
 		}
 	},
-	"_rev": "1-6125e068a74e3d7d",
+	"_rev": "2-8765e09ee6a2d73e",
 	"readme": "orbit-camera-controller\n=======================\nA controller for freely moving orbit cameras.  Supports the same interactions as 3D-view.\n\n[![build status](https://secure.travis-ci.org/mikolalysenko/orbit-camera-controller.png)](http://travis-ci.org/mikolalysenko/orbit-camera-controller)\n\n# Install\n\n```\nnpm i orbit-camera-controller\n```\n\n# License\n(c) 2015 Mikola Lysenko. MIT License"
 }

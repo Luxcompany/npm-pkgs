@@ -411,13 +411,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-spikes3d-1.0.5.tgz": {
+			"shasum": "697e9f2ea7597be41aba47bda119b95f48ca157d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57dc7bc4-2e4e\"",
 			"fetched": 1501276751690
 		}
 	},
-	"_rev": "1-6842aaffb2b33e3c",
+	"_rev": "2-091914a0d29de041",
 	"readme": "gl-spikes3d\n===========\nDraws axis spikes compatible with gl-axes3d.  This can be useful to illustrate selections or specific points in a point cloud\n\n## Example\n\n[Try it out here](https://mikolalysenko.github.io/gl-spikes)\n\n```javascript\nvar shell = require(\"gl-now\")({ clearColor: [0,0,0,0], tickRate: 5 })\nvar camera = require(\"game-shell-orbit-camera\")(shell)\nvar mat4 = require(\"gl-matrix\").mat4\nvar createAxes = require(\"gl-axes\")\nvar createSpikes = require(\"gl-spikes\")\n\n//Bounds on function to plot\nvar bounds = [[-1,-1,-1], [1,1,1]]\n\n//camera.lookAt([-15,20,-15], [0,0,0], [0, 1, 0])\ncamera.lookAt([2, 2, 2], [0,0,0], [0,1,0])\n\n//State variables\nvar axes, spikes\n\nshell.on(\"gl-init\", function() {\n  var gl = shell.gl\n  \n  axes = createAxes(gl, {\n    bounds: bounds,\n    tickSpacing: [0.1,0.1,0.1],\n    textSize: 0.05\n  })\n\n  spikes = createSpikes(gl, {\n    bounds: bounds,\n    colors: [[1,0,0,1], [0,1,0,1], [0,0,1,1]],\n    position: [0,0,0]\n  })\n})\n\nshell.on(\"gl-render\", function() {\n  var gl = shell.gl\n  gl.enable(gl.DEPTH_TEST)\n\n  //Compute camera parameters\n  var cameraParameters = {\n    view: camera.view(),\n    projection: mat4.perspective(\n        mat4.create(),\n        Math.PI/4.0,\n        shell.width/shell.height,\n        0.1,\n        1000.0)\n  }\n\n\n  //Update spike position\n  var t = 0.001*Date.now()\n  spikes.position = [Math.cos(t), Math.sin(t), Math.cos(2*t+0.1)]\n\n  //Draw objects\n  axes.draw(cameraParameters)\n  spikes.draw(cameraParameters)\n})\n```\n\n## Install\n\n```\nnpm install gl-spikes\n```\n\n## API\n\n### `var spikes = require('gl-spikes')(gl, options)`\nCreates a new spike object.\n\n* `gl` is a WebGL context\n* `options` is a list of optional parameters which are passed along\n\n### Methods\n\n#### `spikes.draw(camera)`\nDraws the axis spikes using the given camera coordinates.\n\n* `camera.model` is the model matrix for the camera\n* `camera.view` is the view matrix\n* `camera.projection` is the projection matrix\n\n#### `spikes.update(options)`\nUpdates the parameters of the axes spikes. `options` is an object with the following properties:\n\n* `position` the position of the spike ball in data coordinates\n* `bounds` the bounds of the axes object\n* `colors` an array of 3 length 4 arrays encoding the RGBA colors for the spikes along the x/y/z directions\n* `enabled` an array of 3 flags which if set turns on or off the spikes\n* `drawSides` an array of 3 flag which if set turns on or off the projected spikes in each data plane\n* `lineWidth` an array of 3 numbers giving the thickness of the spikes for each axis\n\n#### `spikes.dispose()`\nDestroys the spike object and releases all associated resources.\n\n## Credits\n(c) 2014 Mikola Lysenko. MIT License"
 }

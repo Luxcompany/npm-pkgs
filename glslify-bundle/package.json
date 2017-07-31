@@ -1191,13 +1191,23 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"glslify-bundle-4.0.1.tgz": {
+			"shasum": "af2cf206cd7985159100b33b5f1463a81b744da1"
+		},
+		"glslify-bundle-2.0.4.tgz": {
+			"shasum": "795df119818078861aa1989a0c75d59c20ecfdd6"
+		},
+		"glslify-bundle-5.0.0.tgz": {
+			"shasum": "0252ada1ef9df30b660006e0bb21fd130b486e42"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5973bdf7-5f7e\"",
 			"fetched": 1501276746563
 		}
 	},
-	"_rev": "1-5b6eb47ff57506d2",
+	"_rev": "4-806141bf76141cca",
 	"readme": "# glslify-bundle\n\n[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)\n\nBundle a [glslify-deps](http://github.com/stackgl/glslify-deps) dependency tree into\na GLSL source string.\n\nThis has been separated from *glslify-deps* such that you can prebundle a dependency\ntree server-side, but then still modify shader file contents in a browser.\n\n## Usage\n\n[![NPM](https://nodei.co/npm/glslify-bundle.png)](https://nodei.co/npm/glslify-bundle/)\n\n### `source = bundle(deps)`\n\nTakes the output object from [glslify-deps](http://github.com/stackgl/glslify-deps)\nand returns a bundled GLSL string.\n\n``` javascript\nvar bundle = require('glslify-bundle')\nvar deps   = require('glslify-deps')\nvar path   = require('path')\n\nvar file = path.join(__dirname, 'index.glsl')\n\ndeps().add(file, function(err, tree) {\n  if (err) throw err\n\n  var glsl = bundle(tree)\n\n  console.log(glsl)\n})\n```\n\n## Contributing\n\nSee [stackgl/contributing](https://github.com/stackgl/contributing) for details.\n\n## License\n\nMIT. See [LICENSE.md](http://github.com/stackgl/glslify-bundle/blob/master/LICENSE.md) for details.\n"
 }

@@ -57,13 +57,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"wgs84-0.0.0.tgz": {
+			"shasum": "34fdc555917b6e57cf2a282ed043710c049cdc76"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58e297d3-6c2\"",
 			"fetched": 1501276755292
 		}
 	},
-	"_rev": "1-a7e29cfb1cdc90f4",
+	"_rev": "2-17d6a84a9acbc8dd",
 	"readme": "# [wgs84](http://en.wikipedia.org/wiki/World_Geodetic_System)\n\nProvides `RADIUS`, `FLATTENING`, and `POLAR_RADIUS` constants from\nthe reference ellipsoid.\n"
 }

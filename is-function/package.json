@@ -223,13 +223,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-function-1.0.1.tgz": {
+			"shasum": "12cfb98b65b57dd3d193a3121f5f6e2f437602b5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59162f1f-12cc\"",
 			"fetched": 1501276743219
 		}
 	},
-	"_rev": "1-9098c3fe3f0f9bac",
+	"_rev": "2-d9189297adf59bb3",
 	"readme": "# is-function\n\n[![browser support](https://ci.testling.com/grncdr/js-is-function.png)](https://ci.testling.com/grncdr/js-is-function)\n\nIs that thing a function? Use this module to find out.\n\n## API\n\n### module.exports = function isFunction(fn) -> Boolean\n\nReturn `true` if `fn` is a function, otherwise `false`.\n\n## Why not typeof fn === 'function'\n\nBecause certain old browsers misreport the type of `RegExp` objects as functions.\n\n## Acknowledgements\n\nI stole this from https://github.com/ljharb/object-keys\n\n## License\n\nMIT\n"
 }

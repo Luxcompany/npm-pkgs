@@ -125,13 +125,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"robust-dot-product-1.0.0.tgz": {
+			"shasum": "c9ba0178bd2c304bfd725f58e889f1d946004553"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"535ed7fa-d43\"",
 			"fetched": 1501276752284
 		}
 	},
-	"_rev": "1-9928f769ed1ebf1e",
+	"_rev": "2-8161589656198e80",
 	"readme": "robust-dot-product\n==================\nExactly computes the dot product between vectors as an nonoverlapping increasing sequence.\n\n## Install\n\n    npm install robust-dot-product\n\n## Example\n\n```javascript\nvar robustDot = require(\"robust-dot-product\")\n\nrobustDot([2, 3], [4, 5])\n```\n\n### `require(\"robust-dot-product\")(a, b)`\nComputes the dot product of a and b as a nonoverlapping increasing sequence\n\n* `a`, `b` are both arrays of numbers\n\n**Returns** A nonoverlapping increasing sequence representing the dot product of a and b\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
 }

@@ -220,13 +220,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"resolve-protobuf-schema-2.0.0.tgz": {
+			"shasum": "e67b062a67f02d11bd6886e70efda788407e0fb4"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5595a29f-1838\"",
 			"fetched": 1501276757006
 		}
 	},
-	"_rev": "1-e13df91dbb38e871",
+	"_rev": "2-2eecd16fcbf65548",
 	"readme": "# resolve-protobuf-schema\n\nRead a protobuf schema from the disk, parse it and resolve all imports\n\n```\nnpm install resolve-protobuf-schema\n```\n\n[![build status](http://img.shields.io/travis/mafintosh/resolve-protobuf-schema.svg?style=flat)](http://travis-ci.org/mafintosh/resolve-protobuf-schema)\n\n## Usage\n\nStore the following example protobuf schema in `test.proto`\n\n```\nmessage Test {\n  optional string test = 1;\n}\n```\n\nThen run\n\n``` js\nvar resolve = require('resolve-protobuf-schema')\nconsole.log(resolve.sync('test.proto')) // prints the parsed schema\n```\n\nSchema imports will resolved as well\n\n```\nimport \"./test.proto\"\n\nmessage AnotherTest {\n  optional string test = 1;\n}\n```\n\n``` js\nconsole.log(resolve.sync('./another-test.proto')) // will print a combined parsed schema\n```\n\n## API\n\n* `resolve(path, cb)` read and resolve a schema\n* `resolve.sync(path)` sync version of `resolve`\n\n## License\n\nMIT\n"
 }

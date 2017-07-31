@@ -301,13 +301,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-heatmap2d-1.0.3.tgz": {
+			"shasum": "69cb61512e31185ea8bd26f025f5c1af1f2b0a18"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"588134ed-1893\"",
 			"fetched": 1501276740262
 		}
 	},
-	"_rev": "1-dfe69822ace6c757",
+	"_rev": "2-289d5e802c332e40",
 	"readme": "gl-heatmap2d\r\n============\r\n2D heatmaps\r\n\r\n# License\r\n(c) 2015 Mikola Lysenko. MIT License\r\n"
 }

@@ -234,13 +234,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"dom-converter-0.1.4.tgz": {
+			"shasum": "a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"52e2430f-13bf\"",
 			"fetched": 1501276790125
 		}
 	},
-	"_rev": "1-92f32e7ac2e0fe98",
+	"_rev": "2-bf7749f1c63def87",
 	"readme": "Converts bare objects to DOM objects, compatible with htmlparser2's DOM objects.\r\n\r\nThis is useful when you want to work with DOM without having to compose/parse html."
 }

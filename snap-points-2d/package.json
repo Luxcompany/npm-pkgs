@@ -313,13 +313,20 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"snap-points-2d-1.0.1.tgz": {
+			"shasum": "8a679a47e195fa31405b03dc6e0c03e18228dcf4"
+		},
+		"snap-points-2d-3.1.0.tgz": {
+			"shasum": "6dcfc2a3c5de9dab02c2724b8577b907e463cf1a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57dc7bbf-1e0b\"",
 			"fetched": 1501276749018
 		}
 	},
-	"_rev": "1-c8b62075b8026275",
+	"_rev": "3-767ea739028f9245",
 	"readme": "snap-points-2d\n==============\nRuns iterative snap rounding on a set of 2D coordinates to produce a hierarchical level of detail for optimizing online rendering of huge 2D plots.\n\n# Install\n\n```\nnpm i snap-points-2d\n```\n\n# API\n\n#### `var hlod = require('snap-points-2d')(points, ids, weights, [, bounds])`\nReorders the points hierarchically such that those which are drawn at the same pixel coordinate are grouped together.\n\n* `points` is an array of 2*n values\n* `ids` is an array which gets the reordered index of the points\n* `weights` is an array of point weights, which can be used for transparent rendering\n* `bounds` is an optional array of 4 values giving the bounding box of the points\n\n**Returns** An array of LOD scales.  Each record is an object with the following properties:\n\n* `pixelSize` the pixel size of this level of detail in data units\n* `offset` the offset of this lod within the output array\n* `count` the number of items in the lod\n\n**Note** the points in `output` are rescaled to the unit box `[0,1]x[0,1]` and the array `points` in the input is shuffled during execution.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

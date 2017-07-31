@@ -140,13 +140,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"circumcenter-1.0.0.tgz": {
+			"shasum": "20d7aa13b17fbac52f52da4f54c6ac8b906ee529"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"538d05e6-f96\"",
 			"fetched": 1501276742000
 		}
 	},
-	"_rev": "1-981ed3841bd2d4c2",
+	"_rev": "2-d3bef0e6d4479522",
 	"readme": "circumcenter\n============\nComputes the [circumcenter](http://en.wikipedia.org/wiki/Circumcenter) of a simplex.  That is, it is the center of an [n-sphere](http://en.wikipedia.org/wiki/N-sphere) passing through n+1 points.\n\n[![testling badge](https://ci.testling.com/mikolalysenko/circumcenter.png)](https://ci.testling.com/mikolalysenko/circumcenter)\n\n[![build status](https://secure.travis-ci.org/mikolalysenko/circumcenter.png)](http://travis-ci.org/mikolalysenko/circumcenter)\n\n#Usage\n\nFirst install using npm:\n\n    npm install circumcenter\n    \nThen you can call it like so:\n\n```javascript\nvar circumcenter = require(\"circumcenter\")\n\nconsole.log(circumcenter([[0,0], [0,1], [1,1]]))\n\n//Prints:\n//\n//    [0.5, 0.5]\n//\n```\n\n#### `require(\"circumcenter\")(points)`\nComputes the circumcenter of a collection of points\n\n#### `require(\"circumcenter\").barycentric(points)`\nComputes the circumcenter in barycentric coordinates\n\nCredits\n=======\n(c) 2013 Mikola Lysenko. MIT License\n"
 }

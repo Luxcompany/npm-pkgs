@@ -81,13 +81,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-pointcloud2d-1.0.0.tgz": {
+			"shasum": "41bae996e049e0f1dfd8f9f8e15ff903fc4fbfdd"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57d04fa4-ed3\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-20ff7b0384ae6a56",
+	"_rev": "2-1486127fff34c19c",
 	"readme": "gl-pointcloud2d\n============\nWebGL 2D point cloud for lots of points\n\n## Example\n... to be created\n\n## Install\nUsing [npm](https://docs.npmjs.com/), you can install this module as follows:\n\n```\nnpm i gl-pointcloud2d\n```\n\n## API\n\n### Constructor\n\n#### `var pointcloud = require('gl-pointcloud2d')(plot, options)`\nCreates a new 2D point cloud.\n\n* `plot` is a reference to a `gl-plot2d` object\n* `options` is a JSON object containing the parameters which are passed to the object when it is updated.\n\n`options` has the following properties:\n\n* `data` is a packed 2*n length array of the unrolled xy coordinates of the points (required) - buffering is significantly faster if it's of type Float32Array\n* `idToIndex` is an optional array of length n where `idToIndex[i] = i` - buffering is significantly faster if it's supplied and of type Int32Array\n* `color` is the color of a marker as a length 4 RGBA array (default `[1,0,0,1]`)\n* `borderSize` is the ratio of the border around each point (default `0`)\n* `borderColor` is the color of the border of each point (default `[0,0,0,1]`)\n* `blend` determines if `gl` blending is enabled for a translucency effect on overlaps; enabling it lowers draw speed somewhat (default `false`)\n\n**Returns** A new point cloud plot object, which is also registered to `plot`\n\n### Methods\n\n#### `pointcloud.update(options)`\nUpdates the point cloud plot.\n\n* `options` is an object with the same properties as in the point cloud plot constructor\n\n#### `pointcloud.dispose()`\nDestroys the point cloud plot and all associated resources.\n\n## License\n(c) 2015 Mikola Lysenko. MIT License\n\nDevelopment supported by plot.ly\n"
 }

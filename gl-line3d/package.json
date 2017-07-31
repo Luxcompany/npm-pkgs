@@ -574,13 +574,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-line3d-1.1.0.tgz": {
+			"shasum": "e8ae956b897f130fb1d58798fadf74bf9a21ab9b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57dc7bbe-3061\"",
 			"fetched": 1501276740262
 		}
 	},
-	"_rev": "1-2990adf4ef03ab97",
+	"_rev": "2-41e9f69dc6d94f9a",
 	"readme": "gl-line3d\n============\nA 3D WebGL line plot\n\n# Example\n\n[Try it out in your browser](http://gl-vis.github.io/gl-line3d)\n\n```javascript\nvar createScene = require('gl-plot3d')\nvar createLine  = require('gl-line3d')\n\n//Create the scene\nvar scene = createScene()\n\n//Create a helix\nvar polyline = []\nfor(var i=0; i<100; ++i) {\n  var theta = (i / 100.0) * Math.PI\n  polyline.push([\n      Math.cos(3*theta),\n      Math.sin(3*theta),\n      (i/50) - 1.0\n    ])\n}\n\n//Create the line plot\nvar lines = createLines({\n  gl:       scene.gl,\n  position: polyline,\n  color:    [1,0,0]\n})\n\n//Add the lines to the scene\nscene.add(lines)\n```\n\n# Install\n\n```\nnpm install gl-line3d\n```\n\n# Basic interface\n\n## Constructor\n\n#### `var lines = require('gl-line3d')(options)\nCreates a new line plot\n\n* `options.gl` A WebGL context\n* `options.position` An array of position values for the points on the curve\n* `options.color` An array of color values (or a singular color) for the curve\n* `options.pickId` The selection ID for the line plot\n* `options.lineWidth` The width of the line\n* `options.dashes` An array of dash patterns representing the dash pattern.  For example, `[0.5,0.5,0.5]`\n* `options.dashScale` The number of times to repeat the dash pattern\n* `options.opacity` The opacity of the lines\n\n## Updating\n\n#### `lines.update(options)`\nUpdates the plot.  `options` has the same properties as in the constructor\n\n## Properties\n\n#### `lines.lineWidth`\nThe width of the lines\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License\n"
 }

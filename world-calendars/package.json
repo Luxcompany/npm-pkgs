@@ -375,13 +375,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"world-calendars-1.0.3.tgz": {
+			"shasum": "b25c5032ba24128ffc41d09faf4a5ec1b9c14335"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58514c3a-2648\"",
 			"fetched": 1501276740324
 		}
 	},
-	"_rev": "1-486f75bb2695e406",
+	"_rev": "2-145aadc3b1d69f40",
 	"readme": "# world-calendars\nNode module for converting between various calendars\n\nThis project takes [kbwood/calendars](https://github.com/kbwood/calendars) and transforms them from a jQuery plugin to a node module. Many thanks to Keith Wood and all of the contributors to the original project! We support all the calendars in that project plus the Chinese lunar calendar.\n\nkbwood/calendars was originally pulled at version 2.0.2 in October 2016.\n\nThe initial implementation converts all built-in calendars and localizations, including the `plus` module, but not the `validation` or `picker` functionality. Also includes basic test functionality.\n\nTypical usage for converting from one date system to another goes through Julian days:\n```\nvar calendars = require('world-calendars');\n\nvar gregorian = calendars.instance();\nvar nepali = calendars.instance('nepali');\n\n// gives nepali date 2073-07-15\nvar nepaliHalloween = nepali.fromJD(gregorian.newDate(2016, 10, 31).toJD());\n```\n"
 }

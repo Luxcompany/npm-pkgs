@@ -265,13 +265,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"normals-1.1.0.tgz": {
+			"shasum": "325b595ed34afe467a6c55a14fd9085787ff59c0"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"573f8f5b-196b\"",
 			"fetched": 1501276749378
 		}
 	},
-	"_rev": "1-0d2e7f18ce06bef2",
+	"_rev": "2-adf17c2503f8964e",
 	"readme": "normals\n=======\nEstimates normals for surface meshes.\n\nInstallation\n============\nUsing [npm](https://npmjs.org/):\n\n    npm install normals\n    \nExample\n=======\nHere is how to compute the vertex and face normals for the Stanford bunny:\n\n```js\n    var bunny = require(\"bunny\");\n    bunny.vertexNormals = require(\"normals\").vertexNormals(bunny.cells, bunny.positions[,epsilon]);\n    bunny.faceNormals = require(\"normals\").faceNormals(bunny.cells, bunny.positions[,epsilon]);\n```\n\n`require(\"normals\").vertexNormals(cells, positions[,epsilon])`\n----------------------------------------------------\nThis estimates the vertex normals for an oriented mesh.\n\n* `cells` is an array of indexed vertex positions\n* `positions` is an array of vertex positions\n\nReturns: An array of length = `positions.length` of the per-vertex normals.\n\n\n`require(\"normals\").faceNormals(cells, positions[,epsilon])`\n----------------------------------------------------\nThis estimates the face normals for an oriented mesh.\n\n* `cells` is an array of indexed vertex positions\n* `positions` is an array of vertex positions\n\nReturns: An array of length = `cells.length` of the per-face normals.\n\n\nCredits\n=======\n(c) 2013 Mikola Lysenko. BSD\n"
 }

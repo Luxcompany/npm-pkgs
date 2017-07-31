@@ -383,13 +383,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
-	"_uplinks": {
-		"npmjs": {
-			"etag": "W/\"586a1658-57c5\"",
-			"fetched": 1501276749706
+	"_attachments": {
+		"numeric-1.2.6.tgz": {
+			"shasum": "765b02bef97988fcf880d4eb3f36b80fa31335aa"
 		}
 	},
-	"_rev": "1-b36f4ff52773049a",
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597e9c1f-57d8\"",
+			"fetched": 1501536151372
+		}
+	},
+	"_rev": "3-4d87e82ae71bdf90",
 	"readme": ""
 }

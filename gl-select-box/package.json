@@ -133,13 +133,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-select-box-1.0.1.tgz": {
+			"shasum": "0cc8c905cce27fe8d918bb0ee1387f5838f959e9"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57dc7bc1-1043\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-d0a58b8864a6a021",
+	"_rev": "2-6fb6a9337576b21d",
 	"readme": "# gl-select-box\nAn overlay which draws select boxes for 2d webgl plots\n\n## Example\n\nCheck back later\n\n## Install\n\n```\nnpm i gl-select-box\n```\n\n## API\n\n### Constructor\n\n#### `var selectBox = require('gl-select-box')(plot, options)`\nCreates a select box primitive\n\n* `plot` is a `gl-plot2d` instance\n* `options` is a set of configuration parameters for the select box\n\nThe parameters for `options` are as follows:\n\n* `selectBox` The bounding box for the selection region\n* `innerFill` If set, fill in the inner box\n* `innerColor` Color of the inner box\n* `outerFill` If set, fill region outside box\n* `outerColor` Color of outer fill\n* `borderWidth` Border of box in pixels\n* `borderColor` Border color\n\n### Methods\n\n#### `selectBox.update(options)`\nUpdates select box in place\n\n#### `selectBox.dispose()`\nDestroys the select box\n\n## License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

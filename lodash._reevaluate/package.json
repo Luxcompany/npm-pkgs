@@ -82,13 +82,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash._reevaluate-3.0.0.tgz": {
+			"shasum": "58bc74c40664953ae0b124d806996daca431e2ed"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f6839a-cee\"",
 			"fetched": 1501276738402
 		}
 	},
-	"_rev": "1-d19be16c44f62b1e",
+	"_rev": "2-7d18160d65852dbe",
 	"readme": "# lodash._reevaluate v3.0.0\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) internal `reEvaluate` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash._reevaluate\n```\n\nIn Node.js/io.js:\n\n```js\nvar reEvaluate = require('lodash._reevaluate');\n```\n\nSee the [package source](https://github.com/lodash/lodash/blob/3.0.0-npm-packages/lodash._reevaluate) for more details.\n"
 }

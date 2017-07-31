@@ -3198,13 +3198,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.template-3.6.2.tgz": {
+			"shasum": "f8cdecc6169a255be9098ae8b0c53d378931d14f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"594a6691-f455\"",
 			"fetched": 1501276738402
 		}
 	},
-	"_rev": "1-ba696d0cb10223c0",
+	"_rev": "2-6c51f40aacfb3839",
 	"readme": "# lodash.template v4.4.0\n\nThe [lodash](https://lodash.com/) method `_.template` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.template\n```\n\nIn Node.js:\n```js\nvar template = require('lodash.template');\n```\n\nSee the [documentation](https://lodash.com/docs#template) or [package source](https://github.com/lodash/lodash/blob/4.4.0-npm-packages/lodash.template) for more details.\n"
 }

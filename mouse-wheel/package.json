@@ -345,13 +345,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"mouse-wheel-1.2.0.tgz": {
+			"shasum": "6d2903b1ea8fb48e61f1b53b9036773f042cdb5c"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"583b3001-1ef9\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-786c6d4b2769b507",
+	"_rev": "2-6621920877ae5425",
 	"readme": "mouse-wheel\n===========\nConsistent cross browser mouse wheel events.  [Test it out in your browser here](https://mikolalysenko.github.io/mouse-wheel/).\n\n# Example\n\n```javascript\nrequire('mouse-wheel')(function(dx, dy) {\n  document.body.innerHTML = '<p>Scroll:' + [dx,dy] + '</p>'\n})\n```\n\n# Install\n\n```\nnpm i mouse-wheel\n```\n\n# API\n\n#### `require('mouse-wheel')(element, callback, noScroll)`\nHook an event handler for the mouse wheel on `element`.\n\n* `element` is an optional DOM element, or if unspecified then is the window object.\n* `callback(dx, dy, dz, ev)` is called whenever the mouse scrolls\n    + `dx, dy, dz` is the amount of scrolling vertically, horizontally and depth-wise in pixels\n    + `ev` is the MouseEvent object associated with the event\n* `noScroll` is an optional flag, which if set disables scrolling the page\n\nReturns listener function `listener` so that it may be detached later with `element.removeEventListener('wheel', listener)`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

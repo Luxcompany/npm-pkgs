@@ -587,13 +587,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-line2d-1.4.1.tgz": {
+			"shasum": "bf81794738f9a7637dcdde9668666a44c12a1110"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58813c22-2939\"",
 			"fetched": 1501276740277
 		}
 	},
-	"_rev": "1-32b16062f5b9ad66",
+	"_rev": "2-daf74673eb500cab",
 	"readme": "gl-line2d\n============\nWebGL 2D line plots for lots of data points\n\n## Example\nFor now, see [`gl-plot2d`](https://github.com/gl-vis/gl-plot2d).\n\n## Install\nUsing [npm](https://docs.npmjs.com/), you can install this module as follows:\n\n```\nnpm i gl-line2d\n```\n"
 }

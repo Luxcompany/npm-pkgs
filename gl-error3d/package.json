@@ -547,13 +547,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-error3d-1.0.6.tgz": {
+			"shasum": "be034667b61a28e830edd371a709ac1c227a3fdc"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5930800e-2f0b\"",
 			"fetched": 1501276740277
 		}
 	},
-	"_rev": "1-615e2e17eea9dbea",
+	"_rev": "2-9053e94d32a7bf2e",
 	"readme": "gl-error3d\n=============\nDraws error bars around data points\n\n# Example\n\n```javascript\nvar createScene = require('gl-plot3d')\nvar createScatter = require('gl-scatter3d')\nvar createErrorBars = require('gl-error3d')\n\nvar points = [ [0,0,0], [1,1,1], [-1, 2, -3] ]\nvar errors = [ \n  [[-0.5,-0.5,-0.5],[0.5,0.5,0.5]], \n  [[-0.1,-1,-2],[0,0,0]], \n  [[-0.1,-0.1,-0.1],[0.1,0.1,0.1]] \n]\n\nvar scene = createScene()\n\nvar scatter = createScatter({\n  gl:           scene.gl,\n  position:     points,\n  size:         20,\n  orthographic: true,\n  lineColor:    [0,0,0],\n  color:        [0.7,0.8,0.4],\n  lineWidth:    1\n})\nscene.add(scatter)\n\n\nvar errorBars = createErrorBars({\n  gl:       scene.gl,\n  position: points,\n  error:    errors,\n  color:    [0.9, 0.3, 0.3]\n})\nscene.add(errorBars)\n```\n\n# API\n\n## Constructor\n\n#### `var errorBars = require('gl-error3d')(options)`\nCreates a new error bar object.\n\n* `gl` is a WebGL context\n* `position` is the position of each point in the plot\n* `error` is an array of error bounds represented as `[lo,hi]` for each point\n* `color` a length 3 array of arrays giving the color of the error bars along each axis.\n* `lineWidth` is the width of the error bar lines in pixels\n* `capSize` is the size of the cap for error bars\n* `clipBounds` is a box to which all error bars will be clipped\n\n**Returns** A new error bar object\n\n#### `errorBars.update(options)`\nUpdates the error bar object\n\n#### `errorBars.dispose()`\nDestroy the error bars and release all associated resources\n\n# Credits\n(c) 2014-2015 Mikola Lysenko. MIT License"
 }

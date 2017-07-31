@@ -196,13 +196,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"fast-isnumeric-1.1.1.tgz": {
+			"shasum": "57b81c07a3c09cb9ec3bef9c161818992d893643"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"563b8d64-1693\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-d68c37ab4e8333c0",
+	"_rev": "2-ea6e7410daaa75ef",
 	"readme": "# fast-isnumeric\n\nThe fast way to check if a JS object is numeric\n\n### Install\n\n```\nnpm install fast-isnumeric\n```\n\n### API\n\n```js\nvar isNumeric = require('fast-isnumeric');\n\nisNumeric(/* any JS object */);\n```\n\n### How fast\n\nRun comparison on jsperf: http://jsperf.com/isnumeric-jquery-and-alternate/5\n\n![](http://i.imgur.com/dczrlVE.png)\n\n### Warning\n\nPlease look up the test cases in\n[test.js](https://github.com/plotly/fast-isnumeric/blob/master/test.js) before\nusing this module.\n\nMost importantly, `fast-isnumeric` returns false on number and string\nconstructors. That is, `isNumeric(new Number(1))` and `isNumeric(new\nString('1'))` are **false**.\n\n### Tests\n\nTest locally with karma:\n\n```\nnpm test\n```\n\n### Why?\n\nIn [plotly](https://plot.ly/)'s javascript graphing library\n[plotly.js](https://plot.ly/javascript/) numerical objects must be accounted\nfor in numerous hot code paths. Inspired by Jon Schlinkert's\n[is-number](https://github.com/jonschlinkert/is-number), `fast-isnumeric` is\nsignificantly simplified and sped up by ignoring number and string constructors.\n\n### Author\n\nAlex Johnson | https://github.com/alexcjohnson\n\n### License\n\nCopyright (c) 2015 Alex Johnson Released under the MIT license.\n"
 }

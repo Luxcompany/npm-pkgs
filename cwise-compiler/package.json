@@ -490,13 +490,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cwise-compiler-1.1.3.tgz": {
+			"shasum": "f4d667410e850d3a313a7d2db7b1e505bb034cc5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"591ca9a0-2899\"",
 			"fetched": 1501276745875
 		}
 	},
-	"_rev": "1-d0221ad1f0686114",
+	"_rev": "2-0bfb6170c2af70d5",
 	"readme": "cwise-compiler\n==============\nJust the compiler from cwise.  You can call this directly if you know what you are doing and want to skip calling cwise-parser and including esprima.  This is only recommended in extreme cases though.  Otherwise you should stick to the default interface in cwise and not mess around with this craziness.\n\n[![build status](https://secure.travis-ci.org/scijs/cwise-compiler.png)](http://travis-ci.org/scijs/cwise-compiler)\n\n# Install\nInstall using [npm](https://www.npmjs.com/):\n\n    npm install cwise-compiler\n\n# API\n#### `require(\"cwise-compiler\")(procedure)`\nCompiles a cwise procedure for the given procedure.  The object procedure must have the following fields:\n\n* `args` An array of argument types (as in cwise)\n* `pre` A parsed pre function\n* `body` A parsed body function\n* `post` A parsed post function\n* `funcName` Name of the function\n* `blockSize` Block size to generate\n* `debug` Debug mode flag\n\n# License\n(c) 2013 Mikola Lysenko. MIT License\n"
 }

@@ -435,13 +435,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cwise-parser-1.0.3.tgz": {
+			"shasum": "8e493c17d54f97cb030a9e9854bc86c9dfb354fe"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57770e1f-207b\"",
 			"fetched": 1501276750127
 		}
 	},
-	"_rev": "1-e9de9614a6062235",
+	"_rev": "2-c49eafedfbc0ea55",
 	"readme": "cwise-parser\n============\nNew preprocessor for cwise. Not intended to be run by itself (use [cwise](https://github.com/scijs/cwise) instead).\n\n[![build status](https://secure.travis-ci.org/scijs/cwise-parser.png)](http://travis-ci.org/scijs/cwise-parser)\n\n# Install\nInstall using [npm](https://www.npmjs.com/):\n\n    npm install cwise-parser\n\n# License\n(c) 2013 Mikola Lysenko. MIT License.\n"
 }

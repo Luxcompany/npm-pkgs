@@ -61,13 +61,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"superscript-text-1.0.0.tgz": {
+			"shasum": "e7cb2752567360df50beb0610ce8df3d71d8dfd8"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"556f80e3-948\"",
 			"fetched": 1501276740324
 		}
 	},
-	"_rev": "1-8ed3bc742cbba9fa",
+	"_rev": "2-6cb61ed48608d0d5",
 	"readme": "superscript-text\n================\nConverts text into super script unicode characters.\n\n# Example\n\n```javascript\nvar raise = require('superscript-text')\n\nconsole.log(raise('hello world'))\n```\n\nOutput:\n\n```\nʰᵉˡˡᵒ ʷᵒʳˡᵈ\n```\n\n# Install\n\n```\nnpm i superscript-text\n```\n\n# API\n\n#### `require('superscript-text')(str)`\nConverts `str` into unicode super script\n\n* `str` is a string containing english chracters and numbers\n\n**Returns** A super script version of `str`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

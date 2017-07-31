@@ -191,13 +191,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"robust-determinant-1.1.0.tgz": {
+			"shasum": "8ecae79b79caab3e74f6debe2237e5391a27e9c7"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"536b9488-132d\"",
 			"fetched": 1501276742140
 		}
 	},
-	"_rev": "1-b4eb171772c524a6",
+	"_rev": "2-09342f274acc097a",
 	"readme": "robust-determinant\n==================\nComputes the determinant of an nxn matrix as a non-overlapping increasing sequence.\n\n## Example\n\n```javascript\nvar robustDeterminant = require(\"robust-determinant\")\n\nconsole.log(robustDeterminant([[1,2,3], [4,5,6], [7,8,9]])\n```\n\nOutput:\n\n```javascript\n[ 0 ]\n```\n\n### Install\n\n```\nnpm install robust-determinant\n```\n\n### `require(\"robust-determinant\")(m)`\nExactly computes the determinant of a floating point matrix `m`\n\n* `m` is a square matrix\n\n**Returns** The determinant of `m` as a non-increasing overlapping sequence\n\n**Note** For matrices with up to `5` rows, you can avoid an extra dispatch by calling `robustDeterminant[n]`, where `n` is the number of rows.  For example,\n\n```javascript\nrobustDeterminant[2]([[1,2],[3,4]]) === robustDeterminant([[1,2],[3,4]])\n```\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
 }

@@ -936,13 +936,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"arraytools-1.1.2.tgz": {
+			"shasum": "410f8e8137b67475e53c1918572e78d893f11fbf"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"569fb1a3-4237\"",
 			"fetched": 1501276749502
 		}
 	},
-	"_rev": "1-d90cc468556bd637",
+	"_rev": "2-76787078ae1a29c2",
 	"readme": "# arrayTools\n\n[![Build Status](https://travis-ci.org/bpostlethwaite/arraytools.svg?branch=master)](https://travis-ci.org/bpostlethwaite/arraytools)\n\nCollection of _DRY_ array processing tools.\n"
 }

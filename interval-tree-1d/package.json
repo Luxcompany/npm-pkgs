@@ -387,13 +387,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"interval-tree-1d-1.0.3.tgz": {
+			"shasum": "8fdbde02b6b2c7dbdead636bcbed8e08710d85c1"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"551862f5-227b\"",
 			"fetched": 1501276751503
 		}
 	},
-	"_rev": "1-375acc55bb503634",
+	"_rev": "2-5a5228797085555a",
 	"readme": "interval-tree-1d\n================\nA simple 1D interval tree.  Supports O(log(n)) amortized updates and O(log(n)) queries.\n\n[![build status](https://secure.travis-ci.org/mikolalysenko/interval-tree-1d.png)](http://travis-ci.org/mikolalysenko/interval-tree-1d)\n\n# Example\n\n```javascript\nvar createIntervalTree = require(\"interval-tree-1d\")\n\n//Create some random list of intervals\nvar intervals = [ [1, 2], [-1, 0], [0.5, 1], [-10, 10] ]\n\n//Build tree\nvar tree = createIntervalTree(intervals)\n\n//Find all intervals containing query point 0.7\nconsole.log(\"querying point:\", 0.7)\ntree.queryPoint(0.7, function(interval) {\n  console.log(interval)\n})\n```\n\n# API\n\n```javascript\nvar createIntervalTree = require(\"interval-tree-1d\")\n```\n\n## Constructor\n\n### `var tree = createIntervalTree(intervals)`\nConstructs an interval tree given a list of intervals\n\n## Properties\n\n### `tree.count`\nReturns the number of items in the tree\n\n### `tree.intervals`\nReturns a list of all the intervals in the tree\n\n### `tree.insert(interval)`\nAdds an interval to the tree\n\n### `tree.remove(interval)`\nRemoves an interval from the tree\n\n### `tree.queryPoint(p, visit(interval))`\nVisits all intervals containing the point p\n\n### `tree.queryInterval(lo, hi, visit(interval))`\nReturns all intervals which intersect the interval `[lo, hi]`\n\n# Credits\n(c) 2013-2015 Mikola Lysenko. MIT License"
 }

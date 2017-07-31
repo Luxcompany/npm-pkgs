@@ -2422,13 +2422,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"webpack-core-0.6.9.tgz": {
+			"shasum": "fc571588c8558da77be9efb6debdc5a3b172bdc2"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58abbcc0-a7aa\"",
 			"fetched": 1501276738277
 		}
 	},
-	"_rev": "1-2bf3c3003ad87248",
+	"_rev": "2-ddaa55cd5d7fdbe9",
 	"readme": "# webpack-core\r\n\r\nThe shared core of [webpack](https://github.com/webpack/webpack) and [enhanced-require](https://github.com/webpack/enhanced-require).\r\n\r\nIt mainly encapsulate\r\n\r\n* the loader stuff\r\n* SourceMap stuff\r\n\r\nNot useable as standalone module, but this may change in the future.\r\n\r\n# License\r\n\r\nCopyright (c) 2012 - 2013 Tobias Koppers\r\n\r\nMIT (http://www.opensource.org/licenses/mit-license.php)"
 }

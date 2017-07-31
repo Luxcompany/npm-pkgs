@@ -1212,13 +1212,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.escape-3.2.0.tgz": {
+			"shasum": "995ee0dc18c1b48cc92effae71a10aab5b487698"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f67fd3-5c49\"",
 			"fetched": 1501276738965
 		}
 	},
-	"_rev": "1-df5b6e66023af47e",
+	"_rev": "2-d18bd97ef1349b32",
 	"readme": "# lodash.escape v4.0.1\n\nThe [lodash](https://lodash.com/) method `_.escape` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.escape\n```\n\nIn Node.js:\n```js\nvar escape = require('lodash.escape');\n```\n\nSee the [documentation](https://lodash.com/docs#escape) or [package source](https://github.com/lodash/lodash/blob/4.0.1-npm-packages/lodash.escape) for more details.\n"
 }

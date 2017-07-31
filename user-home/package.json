@@ -298,13 +298,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"user-home-2.0.0.tgz": {
+			"shasum": "9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"590b28a9-19c3\"",
 			"fetched": 1501276782874
 		}
 	},
-	"_rev": "1-fb9cb889fea21108",
+	"_rev": "2-c6add616a76a66a9",
 	"readme": "# user-home [![Build Status](https://travis-ci.org/sindresorhus/user-home.svg?branch=master)](https://travis-ci.org/sindresorhus/user-home)\n\n> Get the path to the user home directory\n\n\n## Install\n\n```\n$ npm install --save user-home\n```\n\n\n## Usage\n\n```js\nvar userHome = require('user-home');\n\nconsole.log(userHome);\n//=> '/Users/sindresorhus'\n```\n\nReturns `null` in the unlikely scenario that the home directory can't be found.\n\n\n## Related\n\n- [user-home-cli](https://github.com/sindresorhus/user-home-cli) - CLI for this module\n- [home-or-tmp](https://github.com/sindresorhus/home-or-tmp) - Get the user home directory with fallback to the system temp directory\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

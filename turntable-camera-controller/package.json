@@ -347,13 +347,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"turntable-camera-controller-3.0.1.tgz": {
+			"shasum": "8dbd3fe00550191c65164cb888971049578afd99"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"55243295-1ec4\"",
 			"fetched": 1501276741109
 		}
 	},
-	"_rev": "1-fbac033a8f2a87ee",
+	"_rev": "2-6808d4477c82b784",
 	"readme": "# turntable-camera-controller\n\nA low level camera controller, supports same interactions as 3D-view\n\n[![build status](https://secure.travis-ci.org/mikolalysenko/turntable-controller.png)](http://travis-ci.org/mikolalysenko/turntable-controller)\n\n# Install\n\n```\nnpm i turntable-camera-controller\n```\n\n# License\n(c) 2015 Mikola Lysenko. MIT License"
 }

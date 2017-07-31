@@ -1348,6 +1348,12 @@
 	"_attachments": {
 		"domutils-1.6.2.tgz": {
 			"shasum": "1958cc0b4c9426e9ed367fb1c8e854891b0fa3ff"
+		},
+		"domutils-1.5.1.tgz": {
+			"shasum": "dcd8488a26f563d61079e48c9f7b7e32373682cf"
+		},
+		"domutils-1.1.6.tgz": {
+			"shasum": "bddc3de099b9a2efacc51c623f28f416ecc57485"
 		}
 	},
 	"_uplinks": {
@@ -1356,6 +1362,6 @@
 			"fetched": 1501276786374
 		}
 	},
-	"_rev": "2-76150e8d2ec675c2",
+	"_rev": "4-d135e7afbecb2e88",
 	"readme": "Utilities for working with htmlparser2's dom\n\n[![Build Status](https://travis-ci.org/fb55/domutils.svg?branch=master)](https://travis-ci.org/fb55/domutils)\n"
 }

@@ -187,13 +187,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"to-px-1.0.1.tgz": {
+			"shasum": "5bbaed5e5d4f76445bcc903c293a2307dd324646"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54e3b25b-115d\"",
 			"fetched": 1501276751893
 		}
 	},
-	"_rev": "1-e322924bda388fbf",
+	"_rev": "2-08cbd02348e2a24e",
 	"readme": "to-px\n=====\nGet the scale factor to convert any CSS unit to `px` (logical pixel units).\n\n[![testling badge](https://ci.testling.com/mikolalysenko/to-px.png)](https://ci.testling.com/mikolalysenko/to-px)\n\n# Example\n\n```javascript\nvar toPX = require('to-px')\n\nconsole.log(toPX('em'))\nconsole.log(toPX('vh'))\nconsole.log(toPX('in'))\n```\n\n# Install\n\nNote that this module only works within the DOM.\n\n```\nnpm i to-px\n```\n\n# API\n\n#### `var scaleFactor = require('to-px')(unit[, element])`\nComputes the number of pixels in the unit `unit`.\n\n* `unit` is a CSS unit type\n* `element` is an optional element in which the unit is computed (default is `document.body`)\n\n**Returns** The number of pixels in one `unit`\n\n**Note** Conversions for `%` are not supported since they are context dependent.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License"
 }

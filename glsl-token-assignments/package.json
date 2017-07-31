@@ -348,13 +348,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"glsl-token-assignments-2.0.2.tgz": {
+			"shasum": "a5d82ab78499c2e8a6b83cb69495e6e665ce019f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5973bde6-26ec\"",
 			"fetched": 1501276747110
 		}
 	},
-	"_rev": "1-485151a171422aa4",
+	"_rev": "2-f30c714c176c654a",
 	"readme": "# glsl-token-assignments\n\n[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)\n\nTake an array of GLSL tokens and determine which tokens are either assignments\nor variable declarations.\n\n## Usage\n\n[![NPM](https://nodei.co/npm/glsl-token-assignments.png)](https://nodei.co/npm/glsl-token-assignments/)\n\n### `assignments(tokens)`\n\nTakes an array of GLSL tokens from\n[`glsl-tokenizer`](http://github.com/stackgl/glsl-tokenizer) and sets the\nfollowing boolean values for each `ident` token, i.e. any variable names:\n\n#### `token.assignment`\n\nIf the value of the variable is being changed here.\n\n#### `token.declaration`\n\nIf a new variable is being defined here for this scope.\n\n#### `token.structMember`\n\nIf this token is specifying a new struct member, e.g.:\n\n``` glsl\nstruct X {\n  float member1;\n  float member2;\n};\n```\n\nThe `tokens` array will be modified in-place.\n\n## License\n\nMIT. See [LICENSE.md](http://github.com/stackgl/glsl-token-assignments/blob/master/LICENSE.md) for details.\n"
 }

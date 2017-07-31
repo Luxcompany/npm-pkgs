@@ -687,13 +687,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"webgl-context-2.2.0.tgz": {
+			"shasum": "8f37d7257cf6df1cd0a49e6a7b1b721b94cc86a0"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5579cc95-3755\"",
 			"fetched": 1501276740340
 		}
 	},
-	"_rev": "1-6285ffa73fabf27d",
+	"_rev": "2-4438ee8a97232b1b",
 	"readme": "# webgl-context\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nGrabs a WebGLRenderingContext, returning null if it doesn't exist. Similar to [2d-context](https://nodei.co/npm/2d-context/).\n\n```js\n//get a webgl context, will be null if not found\nvar gl = require('webgl-context')()\n\nif (gl) {\n    document.body.appendChild(gl.canvas)\n    //do something...\n}\n```\n\nOr, with options:\n\n```js\n//or with optional settings...\nvar gl = require('webgl-context')({\n    canvas: canvas, //the canvas DOM element to use\n    width: 400, //resizes the canvas..\n    height: 200, \n    antialias: true //can specify custom attributes here\n})\n```\n\n## Usage\n\n[![NPM](https://nodei.co/npm/webgl-context.png)](https://nodei.co/npm/webgl-context/)\n\n#### `ctx = require('webgl-context')([opt])`\n\nGets a new canvas context with optional parameters:\n\n- `canvas` a canvas element to use, otherwise creates a new element\n- `width` a width to set, otherwise no change\n- `height` a height to set, otherwise no change\n- other attributes are passed to the getContext call, like `alpha` and `antialias`\n\nYou can then get a reference of the canvas element with `ctx.canvas`. \n\n## See Also\n\n- [get-canvas-context](https://www.npmjs.com/package/get-canvas-context)\n- [2d-context](https://www.npmjs.com/package/2d-context)\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/webgl-context/blob/master/LICENSE.md) for details.\n"
 }

@@ -130,13 +130,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"array-bounds-1.0.1.tgz": {
+			"shasum": "da11356b4e18e075a4f0c86e1f179a67b7d7ea31"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59398bc6-10ca\"",
 			"fetched": 1501276752581
 		}
 	},
-	"_rev": "1-fad95bfc414648e1",
+	"_rev": "2-8238209980d86f85",
 	"readme": "# array-bounds  [![experimental](https://img.shields.io/badge/stability-unstable-yellow.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/dfcreative/array-bounds.svg)](https://travis-ci.org/dfcreative/array-bounds)\r\n\r\nFind min and max values of a sequence of values/coordinates.\r\n\r\n[![npm install array-bounds](https://nodei.co/npm/array-bounds.png?mini=true)](https://npmjs.org/package/array-bounds/)\r\n\r\n```js\r\nconst getBounds = require('array-bounds')\r\n\r\nlet bounds = getBounds([0, 25, 50, 75, 100]) // [0, 100]\r\n```\r\n\r\n## API\r\n\r\n### box = bounds(array, dim=1)\r\n\r\nFigures out bounds of sequence of points using dimensions `dim` as stride, ie. for 1d values expected data layout is `[x, x, x, ...]` for 2d is `[x, y, x, y, ...]`, etc. Returned array contains bounds for every dimension as `[minX, minY, ..., maxX, maxY]`, eg.\r\n\r\n```js\r\n//get bounding box\r\nlet [minX, minY, maxX, maxY] = bounds([x1, y1, x2, y2, x3, y3, ...], 2)\r\n\r\n//get bounding cube\r\nlet [minX, minY, minZ, maxX, maxY, maxZ] = bounds([x1, y1, z1, x2, y2, z2, ...], 3)\r\n```\r\n"
 }

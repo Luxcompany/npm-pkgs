@@ -117,13 +117,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"mapbox-gl-supported-1.2.0.tgz": {
+			"shasum": "cbd34df894206cadda9a33c8d9a4609f26bb1989"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58dbfd40-f85\"",
 			"fetched": 1501276753448
 		}
 	},
-	"_rev": "1-3e84965e92876f0c",
+	"_rev": "2-ccb12fbc7ef6340a",
 	"readme": "# Mapbox GL JS Supported\n\nThis library determines if a browser supports [Mapbox GL JS](http://github.com/mapbox/mapbox-gl-js).\n\n## Testing Your Browser\n\nYou may test your browser [here](http://mapbox.github.io/mapbox-gl-supported).\n\n## Using Mapbox GL JS Supported with a `<script>` tag\n\n```html\n<script src='mapbox-gl-supported.js'></script>\n<script>\nif (mapboxgl.supported()) {\n    ...\n} else {\n    ...\n}\n</script>\n```\n\n## Using Mapbox GL JS Supported with [Browserify](http://browserify.org/)\n\n```bash\nnpm install --save mapbox-gl-supported\n```\n\n```js\nvar isSupported = require('mapbox-gl-supported')();\n```\n"
 }

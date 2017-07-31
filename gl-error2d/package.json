@@ -382,13 +382,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-error2d-1.2.1.tgz": {
+			"shasum": "cc6977f6476f205db3c4eac5b8c48899e48dfdd1"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"588139df-1d8b\"",
 			"fetched": 1501276740262
 		}
 	},
-	"_rev": "1-303c78f0021ed474",
+	"_rev": "2-8f20f4955fd4e55a",
 	"readme": "gl-error2d\n==========\nError bars for 2D scatter plots\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

@@ -267,13 +267,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"text-cache-4.1.0.tgz": {
+			"shasum": "7c58090e85ac0910f976df4cfc8ce8aa0ea58766"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5881400c-183f\"",
 			"fetched": 1501276749893
 		}
 	},
-	"_rev": "1-deaaa7b222de5a5e",
+	"_rev": "2-41814d90a69363f2",
 	"readme": "text-cache\n==========\nA cache of generated vector font meshes.  This is an internal module used to share generated fonts/glyphs across gl-vis packages.\n\n# API\n\n#### `require('text-cache')(font, str)`\nGenerates a vectorized text mesh.\n\n* `font` is the font to use\n* `str` is the string to generate\n\n**Returns** A triangulation encoding the vectorized text string.\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

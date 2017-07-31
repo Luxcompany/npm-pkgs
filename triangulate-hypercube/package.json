@@ -190,13 +190,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"triangulate-hypercube-1.0.1.tgz": {
+			"shasum": "d8071db2ebfcfd51f308d0bcf2a5c48a5b36d137"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"541b6da9-137a\"",
 			"fetched": 1501276748096
 		}
 	},
-	"_rev": "1-0e839ab97a098f4e",
+	"_rev": "2-e7a51909680ac1ed",
 	"readme": "triangulate-hypercube\n=====================\nTriangulates an n-dimensional hypercube into a collection of simplices.\n\n**Note:** In high dimensions, this triangulation is not very efficient. Pull requests welcome.\n\n# Example\n\n```javascript\nvar triangulateCube = require(\"triangulate-hypercube\")\n\nconsole.log(triangulateCube(2))\n```\n\nOutput:\n\n```javascript\n[ [ 3, 2, 0 ], [ 0, 1, 3 ] ]\n```\n\n# Install\n\n```\nnpm install triangulate-hypercube\n```\n\n# API\n\n#### `require(\"triangulate-hypercube\")(dimension)`\nComputes a decomposition of an n-dimensional hypercube into simplices using a naive permutation based algorithm.\n\n* `dimension` is an integer representing the dimension of the hypercube to triangulate\n\n**Returns** A list of `n` dimensional simplices which subdivide the cube.\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
 }

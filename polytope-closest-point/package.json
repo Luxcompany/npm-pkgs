@@ -139,13 +139,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"polytope-closest-point-1.0.0.tgz": {
+			"shasum": "e6e57f4081ab5e8c778b811ef06e2c48ae338c3f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54668e75-1415\"",
 			"fetched": 1501276749440
 		}
 	},
-	"_rev": "1-492b45e19a88256d",
+	"_rev": "2-54aa89022c8402ee",
 	"readme": "polytope-closest-point\n======================\nComputes the closest point in a convex polytope to a given point.\n\nInstall\n=======\nUsing npm, type the following command into your shell:\n\n    npm install polytope-closest-point\n\nUsage\n=====\nHere is an example of how to find the closest point to a triangle in a mesh:\n\n    var mesh = require(\"bunny\");\n    var result = new Array(3);\n    var sqr_distance = require(\"polytope-closest-point\")(\n                          mesh.cells[0],\n                          mesh.positions,\n                          [0,0,0],\n                          result);\n\nWhich computes the closest point in the first facet of the mesh to the point `[0,0,0]`, storing the resulting point in `result` and the squared distance in `sqr_distance`.\n\nFor more examples, see test/simple.js.\n\n### `require(\"polytope-closest-point\")(cell, positions, x[, result])`\n\nComputes the closest point in a polytope to `x`, storing the result in `result`.\n\n* `cell` is a list of indices into a positions representing the vertices of the polytope.\n* `positions` is an array of tuples representing the vertices of the polytope\n* `x` is the point we are querying against\n* `result` (optional) is the array to store the closest point in.\n\nReturns a float representing the squared Euclidean distance from x to the polytope.  If no such point can be found, it returns Number.NaN\n\nNotes:  For polytopes with fewer than 4 vertices, the code uses hand optimized routines derived from WildMagick.  For higher dimensions, it falls back to a general purpose quadratic programming solver that is ported from somewhat slower R/FORTRAN codes.  If you are planning on using this code to do distance queries on meshed surfaces, it is recommend you triangulate all your polygons first.\n\nCredits\n=======\nTriangle/tetrahedra closest point code derived from WildMagick (c) David Eberly 1998-2012.\n\nOther dimensions, (c) 2013 Mikola Lysenko\n\nBOOST License.\n"
 }

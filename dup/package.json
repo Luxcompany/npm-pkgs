@@ -137,13 +137,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"dup-1.0.0.tgz": {
+			"shasum": "51fc5ac685f8196469df0b905e934b20af5b4029"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"535eea37-ed8\"",
 			"fetched": 1501276742078
 		}
 	},
-	"_rev": "1-6d7c60f0b9405511",
+	"_rev": "2-c7323fca81dac33c",
 	"readme": "# dup\nInitializes an n-dimensional array to a constant value.\n\n## Install\n\n    npm install dup\n    \n## Example\n\n```javascript\nvar dup = require(\"dup\")\n\nconsole.log(dup(5))\n\n//Prints:\n//\n//    [0, 0, 0, 0, 0]\n//\n\n\nconsole.log(dup([3,2], 1))\n\n//Prints:\n//\n//    [[1, 1],\n//     [1, 1],\n//     [1, 1]]\n//\n```\n\n## `require(\"dup\")(shape[, value])`\nInitializes an array to a constant value\n\n* `shape` Either an array of dimensions or a scalar, representing the shape of the array to create.\n* `value` The value to initialize the array with.  Default is 0\n\n**Returns** An n-dimensional array with the given shape and value\n\n## Rationale\nI often find myself using [numeric.js'](http://www.numericjs.com/) `rep` method in my projects.  However, for many things pulling in all of numeric.js is total overkill, especially for code that ultimately needs to run on the browser.  So I decided to make this library which just implements the `rep` and nothing else in the spirit of promoting modularity by smaller and more numerous packages.\n\n# Credits\n(c) 2013 Mikola Lysenko. MIT License"
 }

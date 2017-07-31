@@ -4919,6 +4919,9 @@
 	"_attachments": {
 		"vue-auth-2.13.0-beta.tgz": {
 			"shasum": "7fdfa6fe87b38a1491add9734bae4f73c2362aed"
+		},
+		"vue-auth-2.8.2-beta.tgz": {
+			"shasum": "4edcd80a366ad6c550d28a2b7f39a274e763ba4e"
 		}
 	},
 	"_uplinks": {
@@ -4927,6 +4930,6 @@
 			"fetched": 1501535111930
 		}
 	},
-	"_rev": "3-e04a34738a947a62",
+	"_rev": "4-ee7b7f251f2a96fc",
 	"readme": "# Vue Auth\r\n\r\nA simple authentication library for Vue.js\r\n\r\n* [FAQ](https://github.com/websanova/vue-auth/blob/master/docs/Faq.md)\r\n* [Installation](https://github.com/websanova/vue-auth/blob/master/docs/Installation.md)\r\n* [Demos](https://github.com/websanova/vue-auth/blob/master/docs/Demos.md)\r\n* [Lifecycle](https://github.com/websanova/vue-auth/blob/master/docs/Lifecycle.md)\r\n* [Tokens](https://github.com/websanova/vue-auth/blob/master/docs/Tokens.md)\r\n* [User](https://github.com/websanova/vue-auth/blob/master/docs/User.md)\r\n* [Authentication](https://github.com/websanova/vue-auth/blob/master/docs/Authentication.md)\r\n* [Privileges](https://github.com/websanova/vue-auth/blob/master/docs/Privileges.md)\r\n* [Routing](https://github.com/websanova/vue-auth/blob/master/docs/Routing.md)\r\n* [Methods](https://github.com/websanova/vue-auth/blob/master/docs/Methods.md)\r\n* [Options](https://github.com/websanova/vue-auth/blob/master/docs/Options.md)\r\n* [Drivers](https://github.com/websanova/vue-auth/blob/master/docs/Drivers.md)\r\n* [Change Log](https://github.com/websanova/vue-auth/blob/master/docs/ChangeLog.md)\r\n* [Contributors](https://github.com/websanova/vue-auth/blob/master/docs/Contributors.md)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 }

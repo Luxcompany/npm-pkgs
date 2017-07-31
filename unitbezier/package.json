@@ -59,13 +59,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"unitbezier-0.0.0.tgz": {
+			"shasum": "33bf7f5d7284c5350bfc5c7f770fba7549c54a5e"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59234ebf-813\"",
 			"fetched": 1501276753464
 		}
 	},
-	"_rev": "1-fbcf7f580d251460",
+	"_rev": "2-e619e4c1aad2763d",
 	"readme": "[![Build Status](https://travis-ci.org/mapbox/unitbezier.svg)](https://travis-ci.org/mapbox/unitbezier)\n\n# unitbezier\n\nUnit bezier interpolation function: a port to JavaScript from Webkit:\n\nhttp://svn.webkit.org/repository/webkit/trunk/Source/WebCore/platform/graphics/UnitBezier.h\n\n## api\n\n### new UnitBezier(p1x, p1y, p2x, p2y)\n\nInitialize a new bezier curve given the points\n\n### bezier.sampleCurveX(t)\n\n### bezier.sampleCurveY(t)\n\n### bezier.sampleCurveDerivativeX(t)\n\n### bezier.solveCurveX(t)\n\n### bezier.solve(x, epsilon)\n"
 }

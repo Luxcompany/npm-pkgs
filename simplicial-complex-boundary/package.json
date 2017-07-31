@@ -133,13 +133,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"simplicial-complex-boundary-1.0.1.tgz": {
+			"shasum": "72c9ff1e24deaa374c9bb2fa0cbf0c081ebef815"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5585bc4e-fec\"",
 			"fetched": 1501276741781
 		}
 	},
-	"_rev": "1-1e3b855d28395f6e",
+	"_rev": "2-719c84b9d2ad7ae5",
 	"readme": "simplicial-complex-boundary\n===========================\nExtracts the boundary of a simplicial complex.\n\n# Example\n\n```javascript\nvar boundary = require('simplicial-complex-boundary')\n\nvar cells = [\n  [0,1,2],\n  [1,2,3]\n]\n\nconsole.log(boundary(cells))\n```\n\nOutput:\n\n```\n[ [ 0, 1 ], [ 0, 2 ], [ 1, 3 ], [ 2, 3 ] ]\n```\n\n# Install\n\n```\nnpm i simplicial-complex-boundary\n```\n\n# API\n\n#### `var bnd = require('simplicial-complex-boundary')(cells)`\nComputes the boundary of a simplicial complex\n\n* `cells` are the cells of a simplicial complex\n\n**Returns** The boundary of the simplicial complex (in the Z/2 homology sense)\n\n# License\n\n(c) 2015 Mikola Lysenko. MIT License"
 }

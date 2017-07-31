@@ -75,13 +75,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"has-gulplog-0.1.0.tgz": {
+			"shasum": "6414c82913697da51590397dafb12f22967811ce"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"55f1fc80-7f5\"",
 			"fetched": 1501276738402
 		}
 	},
-	"_rev": "1-c9c397820e74f5a8",
+	"_rev": "2-633152f169d96a21",
 	"readme": "# has-gulplog\nCheck if gulplog is available before attempting to use it\n"
 }

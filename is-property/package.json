@@ -250,13 +250,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-property-1.0.2.tgz": {
+			"shasum": "57fe1c4e48474edd65b09911f26b1cd4095dda84"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818d315-15d7\"",
 			"fetched": 1501276785218
 		}
 	},
-	"_rev": "1-6772bb57d037c3a7",
+	"_rev": "2-ce7c621241163740",
 	"readme": "is-property\n===========\nTests if a property of a JavaScript object can be accessed using the dot (.) notation or if it must be enclosed in brackets, (ie use x[\" ... \"])\n\nExample\n-------\n\n```javascript\nvar isProperty = require(\"is-property\")\n\nconsole.log(isProperty(\"foo\"))  //Prints true\nconsole.log(isProperty(\"0\"))    //Prints false\n```\n\nInstall\n-------\n\n    npm install is-property\n    \n### `require(\"is-property\")(str)`\nChecks if str is a property\n\n* `str` is a string which we will test if it is a property or not\n\n**Returns** true or false depending if str is a property\n\n## Credits\n(c) 2013 Mikola Lysenko. MIT License"
 }

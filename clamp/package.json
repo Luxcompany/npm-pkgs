@@ -181,13 +181,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"clamp-1.0.1.tgz": {
+			"shasum": "66a0e64011816e37196828fdc8c8c147312c8634"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"53d80ded-1051\"",
 			"fetched": 1501276744266
 		}
 	},
-	"_rev": "1-ca7a24ae61127762",
+	"_rev": "2-deae1857cd534f79",
 	"readme": "# clamp [![frozen](http://hughsk.github.io/stability-badges/dist/frozen.svg)](http://github.com/hughsk/stability-badges) #\n\nClamp a value between two other values. It's as simple as modules come - saving\nkeystrokes because I've had to write this function too many times.\n\n## Usage ##\n\n[![clamp](https://nodei.co/npm/clamp.png?mini=true)](https://nodei.co/npm/clamp)\n\n### `clamp(value, a, b)` ###\n\nReturns `value`, if it is between `a` and `b`. Otherwise, returns the number\nit's gone past.\n\n## License ##\n\nMIT. See [LICENSE.md](http://github.com/hughsk/clamp/blob/master/LICENSE.md) for details.\n"
 }

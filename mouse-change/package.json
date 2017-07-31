@@ -491,13 +491,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"mouse-change-1.4.0.tgz": {
+			"shasum": "c2b77e5bfa34a43ce1445c8157a4e4dc9895c14f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58813d10-2a10\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-c3be03361a28e768",
+	"_rev": "2-75446a34755b203c",
 	"readme": "mouse-change\n============\nListens for any mouse state changes.\n\n# Example\n\n```javascript\nrequire('mouse-change')(function(buttons, x, y) {\n  document.body.innerHTML =\n    '<p>Buttons: 0b' + buttons.toString(2) +\n    ', x:' + x +\n    ', y:' + y + '</p>'\n})\n```\n\n[Try it out in your browser](https://mikolalysenko.github.io/mouse-change)\n\n# Install\n\n```\nnpm i mouse-change\n```\n\n# API\n\n#### `var l = require('mouse-change')([element, onchange(buttons,x,y,mods)])`\nListens for any mouse state changes on the given element.\n\n* `element` is an optional element\n* `onchange(buttons,x,y,mods)` is an optional callback which gets called every time that the mouse state changes inside `element`\n    + `buttons` is the state of the mouse buttons\n    + `x` is the x coordinate of the mouse\n    + `y` is the y coordinate of the mouse\n    + `mods` is an object storing the state of any key modifiers\n        * `mods.shift` is the state of the shift key\n        * `mods.alt` is the state of then alt key\n        * `mods.control` is the state of the control key\n        * `mods.meta` is the state of the meta key\n\n**Returns** A new listener object which can be used to configure the listener.\n\n#### `l.enabled`\nToggles whether or not\n\n#### `l.x`\nThe x coordinate of the mouse\n\n#### `l.y`\nThe y coordinate of the mouse\n\n#### `l.buttons`\nThe button state of the mouse\n\n#### `l.mods`\nThe current state of the keyboard modifiers\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

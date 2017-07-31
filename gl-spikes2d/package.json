@@ -113,13 +113,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gl-spikes2d-1.0.1.tgz": {
+			"shasum": "cacdb2d3dbcd202b853452e8500a8b077949cc03"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57dc7bc6-ecb\"",
 			"fetched": 1501276740387
 		}
 	},
-	"_rev": "1-5a8a1d251b0a8784",
+	"_rev": "2-47f314f0719a93df",
 	"readme": "gl-spikes2d\n===========\nDraws axis spikes for 2D plots\n\n## Example\n\nCheck back later\n\n## Install\n\n```\nnpm i gl-spikes2d\n```\n\n## API\n\n### Constructor\n\n#### `var spikes = require('gl-spikes2d')(plot, options)`\nCreates a new spike overlay for the given 2d plot\n\n* `plot` is a `gl-plot2d` instance\n* `options` is an object with a set of properties for the spike object\n\nThe properties of the options object are as follows:\n\n* `enable` Enables rendering of the spikes for each axis\n* `width` The width of each spike\n* `color` Color of each spike\n* `center` Center of spikes\n\n### Methods\n\n#### `spikes.update(options)`\nUpdates the spike object in place.  Similar behavior to constructor.\n\n#### `spikes.dispose()`\nDestroys the spikes object\n\n## License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

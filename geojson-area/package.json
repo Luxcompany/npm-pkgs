@@ -351,13 +351,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"geojson-area-0.1.0.tgz": {
+			"shasum": "d48d807082cfadf4a78df1349be50f38bf1894ae"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59234dd6-1af6\"",
 			"fetched": 1501276754995
 		}
 	},
-	"_rev": "1-dc0f3b43fc76d75d",
+	"_rev": "2-c482af5573f46c27",
 	"readme": "[![Build Status](https://travis-ci.org/mapbox/geojson-area.png)](https://travis-ci.org/mapbox/geojson-area)\n\n# geojson-area\n\nCalculate the area inside of any [GeoJSON](http://geojson.org/) geometry.\n\n## usage\n\n    npm install geojson-area\n\n## example\n\n```js\nvar geojsonArea = require('geojson-area');\n\nvar area = geojsonArea.geometry(obj);\n```\n\n## api\n\n### `geojsonArea.geometry(obj)`\n\nGiven a Geometry object, return contained\narea as square meters. Invalid input will return `null`.\n\nAdapted from [OpenLayers](http://openlayers.org/)\n"
 }

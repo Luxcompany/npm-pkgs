@@ -1311,13 +1311,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"husl-5.0.3.tgz": {
+			"shasum": "ee272aaff1bebe40df3588ed007b70de7e679788"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5853b9b8-5e59\"",
 			"fetched": 1501276744656
 		}
 	},
-	"_rev": "1-dc61fad20131f0ec",
+	"_rev": "2-c1f40f18ee109441",
 	"readme": "# DEPRECATED\n\nIdentical functionality is provided under a new name: HSLuv.\n\nPackage: https://www.npmjs.com/package/hsluv\nDocumentation: https://github.com/hsluv/hsluv/tree/master/javascript\n\n## Usage\n\n**husl.toHex(hue, saturation, lightness)**\n\n*hue* is a number between 0 and 360, *saturation* and *lightness* are \nnumbers between 0 and 100. This function returns the resulting color as \na hex string.\n\n**husl.toRGB(hue, saturation, lightness)**\n\nLike above, but returns an array of 3 numbers between 0 and 1, for the \nr, g, and b channel.\n\n**husl.fromHex(hex)**\n\nTakes a hex string and returns the HUSL color as array that contains \nthe hue (0-360), saturation(0-100) and lightness(0-100) channel.\n_Note_: The result can have rounding errors. For example saturation can \nbe 100.00000000000007\n\n**husl.fromRGB(red, green, blue)**\n\nLike above, but *red*, *green* and *blue* are passed as numbers between \n0 and 1.\n\nUse **husl.p.toHex**, **husl.p.toRGB**, **husl.p.fromHex** and \n**husl.p.fromRGB** for the pastel variant (HUSLp). Note that HUSLp does \nnot contain all the colors of RGB, so converting arbitrary RGB to it may \ngenerate invalid HUSLp colors.\n\n"
 }

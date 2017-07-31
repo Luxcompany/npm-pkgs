@@ -67,13 +67,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cell-orientation-1.0.1.tgz": {
+			"shasum": "b504ad96a66ad286d9edd985a2253d03b80d2850"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5585b00d-994\"",
 			"fetched": 1501276744141
 		}
 	},
-	"_rev": "1-14c4dffc5f86c9a8",
+	"_rev": "2-08042c4fa8028606",
 	"readme": "cell-orientation\n================\nComputes the orientation of a cell, given by a list of integer indices.\n\n# Example\n\n```javascript\nvar orientation = require('cell-orientation')\n\nconsole.log(orientation([0, 1, 2]))\nconsole.log(orientation([1, 0, 2]))\nconsole.log(orientation([1, 1, 2]))\n```\n\n# API\n\n#### `require('cell-orienation')(s)`\nComputes the orientation of the cell\n\n* `s` is a list of integers\n\n**Returns** `0` if `s` has any duplicates (ie is degenerate), otherwise `+/-` depending on the ordering of `s`\n\n# License\n(c) 2015 Mikola Lysenko. MIT License\n"
 }

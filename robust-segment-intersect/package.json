@@ -220,13 +220,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"robust-segment-intersect-1.0.1.tgz": {
+			"shasum": "3252b6a0fc1ba14ade6915ccbe09cbce9aab1c1c"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"538f86ea-16cc\"",
 			"fetched": 1501276745547
 		}
 	},
-	"_rev": "1-ea56b5fbc65bde9e",
+	"_rev": "2-2431f485a7fdcd79",
 	"readme": "robust-segment-intersect\n========================\nExact arithmetic predicate to determine if two closed linesegments intersect.\n\n[![testling badge](https://ci.testling.com/mikolalysenko/robust-segment-intersect.png)](https://ci.testling.com/mikolalysenko/robust-segment-intersect)\n\n[![build status](https://secure.travis-ci.org/mikolalysenko/robust-segment-intersect.png)](http://travis-ci.org/mikolalysenko/robust-segment-intersect)\n\n# Example\n\n```javascript\n\nvar crosses = require(\"robust-segment-intersect\")\n\nvar a0 = [-1, 0]\nvar a1 = [ 1, 0]\nvar b0 = [ 0,-1]\nvar b1 = [ 0, 1]\n\n//Check if line segment a0, a1  crosses segment b0, b1\nconsole.log(crosses(a0, a1, b0, b1))\n```\n\n# Install\n\n```\nnpm install robust-segment-intersect\n```\n\n# API\n\n#### `require(\"robust-segment-intersect\")(a0, a1, b0, b1)`\nTests if the closed line segment `[a0,a1]` intersects the closed line segment `[b0,b1]`.\n\n* `a0, a1` are the end points of the first line segment encoded as length 2 arrays\n* `b0, b1` are the end points of the second line segment encoded again as length 2 arrays\n\n**Returns** `true` if the linesegments intersect, false otherwise\n\n# Credits\n(c) 2014 Mikola Lysenko. MIT License"
 }

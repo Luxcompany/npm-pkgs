@@ -189,13 +189,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"barycentric-1.0.1.tgz": {
+			"shasum": "f1562bb891b26f4fec463a82eeda3657800ec688"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"53fbb512-1143\"",
 			"fetched": 1501276749440
 		}
 	},
-	"_rev": "1-d24deed7072aa238",
+	"_rev": "2-d5d8247c9c21e9d7",
 	"readme": "barycentric\n===========\nComputes the location of a point in a simplex in [barycentric coordinates](http://en.wikipedia.org/wiki/Barycentric_coordinate_system#Generalized_barycentric_coordinates) (aka [areal coordinates](http://mathworld.wolfram.com/BarycentricCoordinates.html)).\n\nUsage\n=====\nInstall using npm:\n\n    npm install barycentric\n    \nAnd then use as follows:\n\n```javascript\nvar barycentric = require(\"barycentric\")\n\nconsole.log(barycentric([[0,0], [0,1], [1,0]], [0.5, 0.5]))\n//Prints:\n//\n//  [0, 0.5, 0.5]\n//\n```\n\nCredits\n=======\n(c) 2013 Mikola Lysenko. MIT License"
 }

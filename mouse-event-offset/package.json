@@ -579,13 +579,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"mouse-event-offset-3.0.2.tgz": {
+			"shasum": "dfd86a6e248c6ba8cad53b905d5037a2063e9984"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5609f7ea-2ef7\"",
 			"fetched": 1501276740293
 		}
 	},
-	"_rev": "1-a0af08aef26c4b71",
+	"_rev": "2-df621780fa6579b0",
 	"readme": "# mouse-event-offset\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nComputes the `[ offsetX, offsetY ]` from a mouse or touch event, relative to the top left of the `target` element.\n\n```js \nvar offset = require('mouse-event-offset')\n\nwindow.addEventListener('touchstart', function (ev) {\n  var target = ev.currentTarget\n  var touch = ev.changedTouches[0]\n  var pos = offset(touch, target)\n  //=> [ 128, 52 ]\n})\n```\n## Usage\n\n### `position = offset(event, [target], [out])`\n\nPass a MouseEvent or TouchEvent as `event`. \n\nOptionally, you can specify a `target` element which the touch event should be relative to. Defaults to `event.currentTarget`, falling back to `event.srcElement` for older IE.\n\nYou can also specifiy `out` to store the position in that array, and avoid creating a new one.\n\n## Changelog\n\n- `3.x` new version; simpler API, less assumptions, avoids GC thrashing\n- `2.x` uses `ev.currentTarget` instead of `ev.target`\n- `1.x` simple implementation using `ev.target || ev.srcElement`\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/mouse-event-offset/blob/master/LICENSE.md) for details.\n"
 }

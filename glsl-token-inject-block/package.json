@@ -147,13 +147,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"glsl-token-inject-block-1.1.0.tgz": {
+			"shasum": "e1015f5980c1091824adaa2625f1dfde8bd00034"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"56bcf3bc-1490\"",
 			"fetched": 1501276746969
 		}
 	},
-	"_rev": "1-0cfc78dd1a09e051",
+	"_rev": "2-778789d2fcd9da4b",
 	"readme": "# glsl-token-inject-block\n\n[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)\n\nInjects a \"block\" of GLSL tokens into a shader, after any `#version`, `#extension` and `precision` statements. This will pad the new tokens with the necessary amount of newlines (but no more).\n\nThis module ignores token `line`, `column` and `position`.\n\n## Example\n\nYour source:\n\n```js\nvar tokenizer = require('glsl-tokenizer')\nvar inject = require('glsl-token-inject-block')\nvar stringify = require('glsl-token-string')\n\nvar tokens = tokenizer(shaderInput)\nvar newToken = { \n  type: 'preprocessor', \n  data: '#define FOOBAR' \n}\n\nvar source = stringify(inject(tokens, newToken))\nconsole.log(source)\n```\n\nThe following shader input:\n\n```glsl\n// some comment\n#version 300 es\n#extension SOME_EXTENSION : enable\n\nvoid main() {}\n```\n\nResults in the following injected define:\n\n```glsl\n// some comment\n#version 300 es\n#extension SOME_EXTENSION : enable\n#define FOOBAR\n\nvoid main() {}\n```\n\n## Usage\n\n[![NPM](https://nodei.co/npm/glsl-token-inject-block.png)](https://www.npmjs.com/package/glsl-token-inject-block)\n\n#### `tokens = inject(tokens, newTokens)`\n\nFor the given shader source (`tokens`), injects `newTokens` into them, assuming the new tokens are a \"block\" of code that should be placed on its own line. \n\n`newTokens` can be a single token object, or an array of token objects.\n\nModifies `tokens` in place and returns it.\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/Jam3/glsl-token-inject-block/blob/master/LICENSE.md) for details.\n"
 }

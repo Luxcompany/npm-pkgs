@@ -197,13 +197,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"geojson-rewind-0.1.0.tgz": {
+			"shasum": "57022a054b196660d755354fe5d26684d90cd019"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58e297e0-134b\"",
 			"fetched": 1501276753448
 		}
 	},
-	"_rev": "1-b236bccc4d1475fa",
+	"_rev": "2-f3c29f03bb19fffd",
 	"readme": "[![Build Status](https://travis-ci.org/mapbox/geojson-rewind.png)](https://travis-ci.org/mapbox/geojson-rewind)\n\n# geojson-rewind\n\nThe [GeoJSON](http://geojson.org/) specification is not picky about winding order, but\nthis is.\n\nThis lets you use [Canvas](http://www.bit-101.com/blog/?p=3702) and other drawing\nlibraries's default behavior to color the interior rings of Polygon and MultiPolygon\nfeatures.\n\n## usage\n\nas npm module:\n\n    npm install --save geojson-rewind\n\nas console utility\n\n    # install\n    npm install -g geojson-rewind\n    # use\n    geojson-rewind foo.geojson\n\nas browser library\n\ncopy `geojson-rewind.js`\n\n## api\n\n`rewind(geojson, clockwise)`\n\nGiven a GeoJSON FeatureCollection, Feature, or Geometry, return a version\nwith inner and outer rings of different winding orders.\n\nIf `clockwise` is `true`, the outer ring is clockwise, otherwise\nit is counterclockwise.\n"
 }

@@ -2881,13 +2881,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-remap-async-to-generator-6.24.1.tgz": {
+			"shasum": "5ec581827ad723fecdd381f1c928390676e4551b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788dad-efb1\"",
 			"fetched": 1501276776331
 		}
 	},
-	"_rev": "1-0a4fb6b5a4cd110a",
+	"_rev": "2-877708e77694968d",
 	"readme": "# babel-helper-remap-async-to-generator\n\n## Usage\n\nTODO\n"
 }

@@ -185,13 +185,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"json-schema-0.2.3.tgz": {
+			"shasum": "b480c892e59a2f05954ce727bd3f2a4e882f9e13"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595cee48-10d7\"",
 			"fetched": 1501276758413
 		}
 	},
-	"_rev": "1-71c9a51d96352628",
+	"_rev": "2-70bb2520bef6712f",
 	"readme": "JSON Schema is a repository for the JSON Schema specification, reference schemas and a CommonJS implementation of JSON Schema (not the only JavaScript implementation of JSON Schema, JSV is another excellent JavaScript validator).\r\n\r\nCode is licensed under the AFL or BSD license as part of the Persevere \r\nproject which is administered under the Dojo foundation,\r\nand all contributions require a Dojo CLA."
 }

@@ -233,13 +233,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"code-point-at-1.1.0.tgz": {
+			"shasum": "0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"581b14b4-152e\"",
 			"fetched": 1501276769208
 		}
 	},
-	"_rev": "1-21d22ab673b8c3f0",
+	"_rev": "2-595aba5d862f52b3",
 	"readme": "# code-point-at [![Build Status](https://travis-ci.org/sindresorhus/code-point-at.svg?branch=master)](https://travis-ci.org/sindresorhus/code-point-at)\n\n> ES2015 [`String#codePointAt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```\n$ npm install --save code-point-at\n```\n\n\n## Usage\n\n```js\nvar codePointAt = require('code-point-at');\n\ncodePointAt('🐴');\n//=> 128052\n\ncodePointAt('abc', 2);\n//=> 99\n```\n\n## API\n\n### codePointAt(input, [position])\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

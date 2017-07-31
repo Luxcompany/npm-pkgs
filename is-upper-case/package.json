@@ -409,13 +409,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-upper-case-1.1.2.tgz": {
+			"shasum": "8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59162bf1-247b\"",
 			"fetched": 1501276793893
 		}
 	},
-	"_rev": "1-a99f7863c3847992",
+	"_rev": "2-5e6d2b5ac4d1148c",
 	"readme": "# Is Upper Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n\nCheck if a string is upper case.\n\n## Installation\n\n```\nnpm install is-upper-case --save\n```\n\n## Usage\n\n```js\nvar isUpperCase = require('is-upper-case')\n\nisUpperCase('STRING') //=> true\nisUpperCase('String') //=> false\nisUpperCase('string') //=> false\n```\n\n## Typings\n\nIncludes a [TypeScript definition](is-upper-case.d.ts).\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/is-upper-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/is-upper-case\n[downloads-image]: https://img.shields.io/npm/dm/is-upper-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/is-upper-case\n[travis-image]: https://img.shields.io/travis/blakeembrey/is-upper-case.svg?style=flat\n[travis-url]: https://travis-ci.org/blakeembrey/is-upper-case\n[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/is-upper-case.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/blakeembrey/is-upper-case?branch=master\n"
 }

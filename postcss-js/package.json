@@ -1,0 +1,577 @@
+{
+	"name": "postcss-js",
+	"versions": {
+		"0.1.0": {
+			"name": "postcss-js",
+			"version": "0.1.0",
+			"description": "PostCSS for React Inline Styles, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.0",
+				"postcss": "^5.0.10"
+			},
+			"devDependencies": {
+				"eslint": "1.6.0",
+				"mocha": "2.3.3",
+				"chai": "3.3.0"
+			},
+			"scripts": {
+				"test": "eslint *.js test/*.js && mocha"
+			},
+			"gitHead": "943777eaf2e31ba02acf6f82fb1b22bb25687619",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.1.0",
+			"_shasum": "7219cb1f84c3f835a2a337f67c983c4798e1d5ae",
+			"_from": ".",
+			"_npmVersion": "2.14.4",
+			"_nodeVersion": "4.1.2",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "7219cb1f84c3f835a2a337f67c983c4798e1d5ae",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "postcss-js",
+			"version": "0.1.1",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.0",
+				"postcss": "^5.0.12"
+			},
+			"devDependencies": {
+				"eslint": "1.10.3",
+				"ava": "0.7.0"
+			},
+			"scripts": {
+				"test": "ava && eslint *.js test/*.js"
+			},
+			"gitHead": "1859d70ab346f53766a89b36efc3eac921b429d2",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.1.1",
+			"_shasum": "22635ecb7908c84767c32cb6918c2f6cba2d0a1f",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.2.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "22635ecb7908c84767c32cb6918c2f6cba2d0a1f",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"directories": {}
+		},
+		"0.1.2": {
+			"name": "postcss-js",
+			"version": "0.1.2",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.1",
+				"postcss": "^5.0.17"
+			},
+			"devDependencies": {
+				"eslint-config-postcss": "2.0.0",
+				"eslint": "2.2.0",
+				"ava": "0.12.0"
+			},
+			"scripts": {
+				"test": "ava && eslint *.js test/*.js"
+			},
+			"eslintConfig": {
+				"extends": "eslint-config-postcss/es5"
+			},
+			"gitHead": "59b903b794487b10f098f1a5762990b871bc722a",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.1.2",
+			"_shasum": "1c104771505874bc92d999535b2970e534729360",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.6.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "1c104771505874bc92d999535b2970e534729360",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-js-0.1.2.tgz_1456641916637_0.9618430256377906"
+			},
+			"directories": {}
+		},
+		"0.1.3": {
+			"name": "postcss-js",
+			"version": "0.1.3",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.1",
+				"postcss": "^5.0.21"
+			},
+			"devDependencies": {
+				"eslint-config-postcss": "2.0.2",
+				"eslint": "2.10.0",
+				"ava": "0.14.0"
+			},
+			"scripts": {
+				"test": "ava && eslint *.js test/*.js"
+			},
+			"eslintConfig": {
+				"extends": "eslint-config-postcss/es5",
+				"rules": {
+					"quote-props": 0
+				}
+			},
+			"gitHead": "0fc94c077148dfc71ae26beddc3168c57530c1bf",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.1.3",
+			"_shasum": "8c0a5daa1c918b3073c4806a3c5b332c67250c03",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "8c0a5daa1c918b3073c4806a3c5b332c67250c03",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-js-0.1.3.tgz_1463240006413_0.25465655070729554"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "postcss-js",
+			"version": "0.2.0",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.1",
+				"postcss": "^5.2.6"
+			},
+			"devDependencies": {
+				"eslint": "^3.12.2",
+				"eslint-config-postcss": "^2.0.2",
+				"jest": "^18.0.0",
+				"lint-staged": "^3.2.4",
+				"pre-commit": "^1.2.2"
+			},
+			"scripts": {
+				"lint-staged": "lint-staged",
+				"test": "jest --coverage && eslint *.js test/*.js"
+			},
+			"lint-staged": {
+				"*.js": "eslint"
+			},
+			"pre-commit": [
+				"lint-staged"
+			],
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"statements": 100
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "eslint-config-postcss/es5",
+				"rules": {
+					"quote-props": "off"
+				},
+				"env": {
+					"jest": true
+				}
+			},
+			"gitHead": "a40971fd53c53b2116efb984ef27f2692679670d",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.2.0",
+			"_shasum": "56e6db0cd910a6dffec3dfb34462693ac72e3882",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "56e6db0cd910a6dffec3dfb34462693ac72e3882",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-js-0.2.0.tgz_1482491653221_0.4251765194348991"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "postcss-js",
+			"version": "0.3.0",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.1",
+				"postcss": "^5.2.14"
+			},
+			"devDependencies": {
+				"eslint": "^3.15.0",
+				"eslint-config-postcss": "^2.0.2",
+				"jest": "^18.1.0",
+				"lint-staged": "^3.3.1",
+				"pre-commit": "^1.2.2"
+			},
+			"scripts": {
+				"lint-staged": "lint-staged",
+				"test": "jest --coverage && eslint *.js test/*.js"
+			},
+			"lint-staged": {
+				"*.js": "eslint"
+			},
+			"pre-commit": [
+				"lint-staged"
+			],
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"statements": 100
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "eslint-config-postcss/es5",
+				"rules": {
+					"no-use-before-define": "off",
+					"quote-props": "off"
+				},
+				"env": {
+					"jest": true
+				}
+			},
+			"gitHead": "552b2b33e5212b8e60b7c66558978508205cc7c6",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@0.3.0",
+			"_shasum": "a5b690e24e7697d94eb293104da0f8e5cc10adf7",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "a5b690e24e7697d94eb293104da0f8e5cc10adf7",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-js-0.3.0.tgz_1487605276422_0.4156566867604852"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "postcss-js",
+			"version": "1.0.0",
+			"description": "PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS",
+			"keywords": [
+				"postcss",
+				"postcss-runner",
+				"js",
+				"inline",
+				"react",
+				"css",
+				"cssinjs"
+			],
+			"author": {
+				"name": "Andrey Sitnik",
+				"email": "andrey@sitnik.ru"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/postcss/postcss-js.git"
+			},
+			"dependencies": {
+				"camelcase-css": "^1.0.1",
+				"postcss": "^6.0.1"
+			},
+			"devDependencies": {
+				"eslint": "^3.19.0",
+				"eslint-config-postcss": "^2.0.2",
+				"jest": "^20.0.0",
+				"lint-staged": "^3.4.1",
+				"pre-commit": "^1.2.2"
+			},
+			"scripts": {
+				"lint-staged": "lint-staged",
+				"test": "jest --coverage && eslint *.js test/*.js"
+			},
+			"lint-staged": {
+				"*.js": "eslint"
+			},
+			"pre-commit": [
+				"lint-staged"
+			],
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"statements": 100
+					}
+				}
+			},
+			"eslintConfig": {
+				"extends": "eslint-config-postcss/es5",
+				"rules": {
+					"no-use-before-define": "off",
+					"quote-props": "off"
+				},
+				"env": {
+					"jest": true
+				}
+			},
+			"gitHead": "b619fa15478cb2f64f4f886e19dec62bf272c213",
+			"bugs": {
+				"url": "https://github.com/postcss/postcss-js/issues"
+			},
+			"homepage": "https://github.com/postcss/postcss-js#readme",
+			"_id": "postcss-js@1.0.0",
+			"_shasum": "ccee5aa3b1970dd457008e79438165f66919ba30",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "ai",
+				"email": "andrey@sitnik.ru"
+			},
+			"dist": {
+				"shasum": "ccee5aa3b1970dd457008e79438165f66919ba30",
+				"tarball": "https://registry.npmjs.org/postcss-js/-/postcss-js-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "ai",
+					"email": "andrey@sitnik.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-js-1.0.0.tgz_1494255222528_0.4495049307588488"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.0.0"
+	},
+	"_distfiles": {
+		"postcss-js-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.0.tgz",
+			"sha": "7219cb1f84c3f835a2a337f67c983c4798e1d5ae",
+			"registry": "npmjs"
+		},
+		"postcss-js-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.1.tgz",
+			"sha": "22635ecb7908c84767c32cb6918c2f6cba2d0a1f",
+			"registry": "npmjs"
+		},
+		"postcss-js-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.2.tgz",
+			"sha": "1c104771505874bc92d999535b2970e534729360",
+			"registry": "npmjs"
+		},
+		"postcss-js-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.1.3.tgz",
+			"sha": "8c0a5daa1c918b3073c4806a3c5b332c67250c03",
+			"registry": "npmjs"
+		},
+		"postcss-js-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.2.0.tgz",
+			"sha": "56e6db0cd910a6dffec3dfb34462693ac72e3882",
+			"registry": "npmjs"
+		},
+		"postcss-js-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-0.3.0.tgz",
+			"sha": "a5b690e24e7697d94eb293104da0f8e5cc10adf7",
+			"registry": "npmjs"
+		},
+		"postcss-js-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-js/-/postcss-js-1.0.0.tgz",
+			"sha": "ccee5aa3b1970dd457008e79438165f66919ba30",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"postcss-js-1.0.0.tgz": {
+			"shasum": "ccee5aa3b1970dd457008e79438165f66919ba30"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"595bb27e-34c3\"",
+			"fetched": 1501534216512
+		}
+	},
+	"_rev": "2-aa8ad2f32fd4b27e",
+	"readme": "# PostCSS JS [![Build Status][ci-img]][ci]\n\n<img align=\"right\" width=\"95\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"http://postcss.github.io/postcss/logo.svg\">\n\n[PostCSS] for React Inline Styles, Radium, [Free Style] and other CSS-in-JS.\n\nFor example, to use [Autoprefixer], [RTLCSS] or [postcss-write-svg] plugins\nin your workflow.\n\n[postcss-write-svg]: https://github.com/jonathantneal/postcss-write-svg\n[Autoprefixer]:      https://github.com/postcss/autoprefixer\n[Free Style]:        https://github.com/blakeembrey/free-style\n[PostCSS]:           https://github.com/postcss/postcss\n[RTLCSS]:            https://github.com/MohammadYounes/rtlcss\n[ci-img]:            https://travis-ci.org/postcss/postcss-js.svg\n[ci]:                https://travis-ci.org/postcss/postcss-js\n\n## Usage\n\n### Processing\n\n```js\nlet prefixer = postcssJs.sync([ autoprefixer ]);\n\nlet style = prefixer({\n    display: 'flex'\n});\n\nstyle //=> { display: ['-webkit-box', '-webkit-flex', '-ms-flexbox', 'flex'] }\n```\n\n### Compile CSS-in-JS to CSS\n\n```js\nlet style = {\n    top: 10,\n    '&:hover': {\n        top: 5\n    }\n};\n\npostcss().process(style, { parser: postcssJs }).then( (result) => {\n    result.css //=> top: 10px;\n               //   &:hover { top: 5px; }\n})\n```\n\n### Compile CSS to CSS-in-JS\n\n```js\nlet css  = '@media screen { z-index: 1 }'\nlet root = postcss.parse(css);\n\npostcssJs.objectify(root) //=> { '@media screen': { zIndex: '1' } }\n```\n\n## API\n\n### `sync(plugins): function`\n\nCreate PostCSS processor with simple API, but with only sync PostCSS plugins\nsupport.\n\nProcessor is just a function, which takes one style object and return other.\n\n### `async(plugins): function`\n\nSame as `sync`, but also support async plugins.\n\nReturned processor will return Promise.\n\n### `parse(obj): Root`\n\nParse CSS-in-JS style object to PostCSS `Root` instance.\n\nIt converts numbers to pixels and parses\n[Free Style] like selectors and at-rules:\n\n```js\n{\n    '@media screen': {\n        '&:hover': {\n            top: 10\n        }\n    }\n}\n```\n\nThis methods use Custom Syntax name convention, so you can use it like this:\n\n```js\npostcss().process(obj, { parser: postcssJs })\n```\n\n### `objectify(root): object`\n\nConvert PostCSS `Root` instance to CSS-in-JS style object.\n\n## Troubleshoot\n\nWebpack may need some extra config for some PostCSS plugins.\n\n### `Module parse failed`\n\nAutoprefixer and some other plugins\nneed a [json-loader](https://github.com/webpack/json-loader) to import data.\n\nSo, please install this loader and add to webpack config:\n\n```js\nloaders: [\n    {\n        test: /\\.json$/,\n        loader: \"json-loader\"\n    }\n]\n```\n"
+}

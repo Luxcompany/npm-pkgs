@@ -282,13 +282,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-progress-tracker-0.0.4.tgz": {
+			"shasum": "d132af7eea5d0857eda733e96951a2c9c395624d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"580ce5d9-1db6\"",
 			"fetched": 1501276735069
 		}
 	},
-	"_rev": "1-ac320786950f5455",
+	"_rev": "2-256ff7f6dd9c76bf",
 	"readme": "# ProgressTracker\n\nProgressTracker component is based on [progress-tracker](http://nigelotoole.github.io/progress-tracker/) for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-progress-tracker --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <progress-tracker>\n    <step-item v-for=\"n in [1, 2, 3, 4, 5]\" :is-complete=\"n < 3\" :is-active=\"n === 3\"></step-item>\n  </progress-tracker>\n</template>\n\n<script>\nimport ProgressTracker, { StepItem } from 'vue-bulma-progress-tracker'\n\nexport default {\n  components: {\n    ProgressTracker,\n    StepItem\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
 }

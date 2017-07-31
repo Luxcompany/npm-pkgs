@@ -341,13 +341,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"prepend-http-1.0.4.tgz": {
+			"shasum": "d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57316fd3-1d1e\"",
 			"fetched": 1501276779998
 		}
 	},
-	"_rev": "1-70e71bae6e2eab55",
+	"_rev": "2-d1c3b349af6b0020",
 	"readme": "# prepend-http [![Build Status](https://travis-ci.org/sindresorhus/prepend-http.svg?branch=master)](https://travis-ci.org/sindresorhus/prepend-http)\n\n> Prepend `http://` to humanized URLs like `todomvc.com` and `localhost`\n\n\n## Install\n\n```\n$ npm install --save prepend-http\n```\n\n\n## Usage\n\n```js\nconst prependHttp = require('prepend-http');\n\nprependHttp('todomvc.com');\n//=> 'http://todomvc.com'\n\nprependHttp('localhost');\n//=> 'http://localhost'\n\nprependHttp('http://todomvc.com');\n//=> 'http://todomvc.com'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

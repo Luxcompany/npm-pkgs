@@ -491,13 +491,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-nprogress-0.1.5.tgz": {
+			"shasum": "574b412f1034012daaf46299d5505d5812f406e6"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5978962f-3113\"",
 			"fetched": 1501276735131
 		}
 	},
-	"_rev": "1-744f964899524e6e",
+	"_rev": "2-d6ea7e8a6629d3cf",
 	"readme": "# nprogress\r\n\r\nSlim progress bars is based on [nprogress](https://github.com/rstacruz/nprogress) for Ajax'y applications\r\n\r\n\r\n## Installation\r\n\r\n```console\r\n$ npm install vue-nprogress --save\r\n```\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <nprogress-container></nprogress-container>\r\n</template>\r\n\r\n<script>\r\nimport NprogressContainer from 'vue-nprogress/src/NprogressContainer'\r\n\r\nexport default {\r\n  components: {\r\n    NprogressContainer\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n```js\r\nimport Vue from 'vue'\r\nimport NProgress from 'vue-nprogress'\r\nimport App from './App.vue'\r\n\r\nVue.use(NProgress)\r\n\r\nconst nprogress = new NProgress({ parent: '.nprogress-container' })\r\n\r\nconst app = new Vue({\r\n  nprogress\r\n  ...App\r\n})\r\n\r\n// APIs: see https://github.com/rstacruz/nprogress\r\n// app.nprogress\r\n// app.nprogress.start()\r\n// app.nprogress.inc(0.2)\r\n// app.nprogress.done()\r\n// Component:\r\n// this.$nprogress\r\n```\r\n\r\n\r\n## Configuration\r\n\r\n```js\r\nconst options = {\r\n  latencyThreshold: 200, // Number of ms before progressbar starts showing, default: 100,\r\n  router: true, // Show progressbar when navigating routes, default: true\r\n  http: false // Show progressbar when doing Vue.http, default: true\r\n};\r\nVue.use(NProgress, options)\r\n```\r\n\r\nIn order to overwrite the configuration for certain requests, use showProgressBar parameter in request/route's meta.\r\n\r\nLike this:\r\n\r\n```js\r\nVue.http.get('/url', { showProgressBar: false })\r\n```\r\n```js\r\nconst router = new VueRouter({\r\n  routes: [\r\n    {\r\n      path: '/foo',\r\n      component: Foo,\r\n      meta: {\r\n        showProgressBar: false\r\n      }\r\n    }\r\n  ]\r\n})\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n\r\n"
 }

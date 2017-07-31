@@ -3340,13 +3340,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vuex-2.3.1.tgz": {
+			"shasum": "cde8e997c1f9957719bc7dea154f9aa691d981a6"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5968afec-160ab\"",
 			"fetched": 1501276735178
 		}
 	},
-	"_rev": "1-4f2eccc23f32382a",
+	"_rev": "2-ed2d08edd12d4130",
 	"readme": "# Vuex [![Build Status](https://circleci.com/gh/vuejs/vuex/tree/dev.png?style=shield)](https://circleci.com/gh/vuejs/vuex)\n\n> Centralized State Management for Vue.js.\n\n<p align=\"center\">\n  <img width=\"700px\" src=\"https://raw.githubusercontent.com/vuejs/vuex/dev/docs/en/images/vuex.png\">\n</p>\n\n- [What is Vuex?](http://vuex.vuejs.org/en/intro.html)\n- [Full Documentation](http://vuex.vuejs.org/)\n\n## Examples\n\n- [Counter](https://github.com/vuejs/vuex/tree/dev/examples/counter)\n- [Counter with Hot Reload](https://github.com/vuejs/vuex/tree/dev/examples/counter-hot)\n- [TodoMVC](https://github.com/vuejs/vuex/tree/dev/examples/todomvc)\n- [Flux Chat](https://github.com/vuejs/vuex/tree/dev/examples/chat)\n- [Shopping Cart](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart)\n\nRunning the examples:\n\n``` bash\n$ npm install\n$ npm run dev # serve examples at localhost:8080\n```\n\n## License\n\n[MIT](http://opensource.org/licenses/MIT)\n"
 }

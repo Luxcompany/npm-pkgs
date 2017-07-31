@@ -394,13 +394,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"process-nextick-args-1.0.7.tgz": {
+			"shasum": "150e20b756590ad3f91093f25a4f2ad8bff30ba3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818d8b9-247f\"",
 			"fetched": 1501276739605
 		}
 	},
-	"_rev": "1-b8cffc6719549ede",
+	"_rev": "2-08b881c965c85654",
 	"readme": "process-nextick-args\n=====\n\n[![Build Status](https://travis-ci.org/calvinmetcalf/process-nextick-args.svg?branch=master)](https://travis-ci.org/calvinmetcalf/process-nextick-args)\n\n```bash\nnpm install --save process-nextick-args\n```\n\nAlways be able to pass arguments to process.nextTick, no matter the platform\n\n```js\nvar nextTick = require('process-nextick-args');\n\nnextTick(function (a, b, c) {\n  console.log(a, b, c);\n}, 'step', 3,  'profit');\n```\n"
 }

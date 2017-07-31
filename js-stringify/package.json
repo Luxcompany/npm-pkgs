@@ -153,13 +153,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"js-stringify-1.0.2.tgz": {
+			"shasum": "1736fddfd9724f28a3682adc6230ae7e4e9679db"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58c0c93d-13d3\"",
 			"fetched": 1501276760460
 		}
 	},
-	"_rev": "1-d3abf026f5ac10a7",
+	"_rev": "2-d6c73de1bdd95b2e",
 	"readme": "# js-stringify\n\nStringify an object so it can be safely inlined in JavaScript code\n\n[![Build Status](https://img.shields.io/travis/jadejs/js-stringify/master.svg)](https://travis-ci.org/jadejs/js-stringify)\n[![Dependency Status](https://img.shields.io/gemnasium/jadejs/js-stringify.svg)](https://gemnasium.com/jadejs/js-stringify)\n[![NPM version](https://img.shields.io/npm/v/js-stringify.svg)](https://www.npmjs.org/package/js-stringify)\n\n## Installation\n\n    npm install js-stringify\n\n## Usage\n\n```js\n\nvar assert = require('assert');\nvar stringify = require('js-stringify');\n\nassert(stringify('foo') === '\"foo\"');\nassert(stringify('foo\\u2028bar\\u2029baz') === '\"foo\\\\u2028bar\\\\u2029baz\"');\nassert(stringify(new Date('2014-12-19T03:42:00.000Z')) === 'new Date(\"2014-12-19T03:42:00.000Z\")');\nassert(stringify({foo: 'bar'}) === '{\"foo\":\"bar\"}');\nassert(stringify(undefined) === 'undefined');\nassert(stringify(null) === 'null');\nassert(\n  stringify({val: \"</script><script>alert('bad actor')</script>\"}) ===\n  '{\"val\":\"\\\\u003C\\\\u002Fscript\\\\u003E\\\\u003Cscript\\\\u003Ealert(\\'bad actor\\')\\\\u003C\\\\u002Fscript\\\\u003E\"}'\n);\n```\n\n## License\n\n  MIT\n"
 }

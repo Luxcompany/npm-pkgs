@@ -2286,13 +2286,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-es2015-destructuring-6.23.0.tgz": {
+			"shasum": "997bb1f1ab967f682d2b0876fe358d60e765c56d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d66-bf23\"",
 			"fetched": 1501276774091
 		}
 	},
-	"_rev": "1-1562318006ffec97",
+	"_rev": "2-6518dddc0e7122a3",
 	"readme": "# babel-plugin-transform-es2015-destructuring\n\nCompile ES2015 destructuring to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-es2015-destructuring\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-destructuring\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-es2015-destructuring script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-destructuring\"]\n});\n```\n"
 }

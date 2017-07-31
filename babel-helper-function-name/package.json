@@ -2336,13 +2336,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-function-name-6.24.1.tgz": {
+			"shasum": "d3475b8c03ed98242a25b48351ab18399d3580a9"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da2-bbc3\"",
 			"fetched": 1501276774419
 		}
 	},
-	"_rev": "1-37ed8e13372472ed",
+	"_rev": "2-cef8dc6bfea664b2",
 	"readme": "# babel-helper-function-name\n\n## Usage\n\nTODO\n"
 }

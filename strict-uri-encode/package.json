@@ -327,13 +327,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"strict-uri-encode-1.1.0.tgz": {
+			"shasum": "279b225df1d582b1f54e65addd4352e18faa0713"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57fd46dc-1cba\"",
 			"fetched": 1501276780170
 		}
 	},
-	"_rev": "1-142a7a77ed2573e4",
+	"_rev": "2-f0de919d57878bea",
 	"readme": "# strict-uri-encode [![Build Status](https://travis-ci.org/kevva/strict-uri-encode.svg?branch=master)](https://travis-ci.org/kevva/strict-uri-encode)\n\n> A stricter URI encode adhering to [RFC 3986](http://tools.ietf.org/html/rfc3986)\n\n\n## Install\n\n```\n$ npm install --save strict-uri-encode\n```\n\n\n## Usage\n\n```js\nconst strictUriEncode = require('strict-uri-encode');\n\nstrictUriEncode('unicorn!foobar');\n//=> 'unicorn%21foobar'\n\nstrictUriEncode('unicorn*foobar');\n//=> 'unicorn%2Afoobar'\n```\n\n\n## API\n\n### strictUriEncode(string)\n\n#### string\n\nType: `string`, `number`\n\nString to URI encode.\n\n\n## License\n\nMIT © [Kevin Mårtensson](http://github.com/kevva)\n"
 }

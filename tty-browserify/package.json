@@ -62,13 +62,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"tty-browserify-0.0.0.tgz": {
+			"shasum": "a157ba402da24e9bf957f9aa69d524eed42901a6"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54f8a00b-6ef\"",
 			"fetched": 1501276795736
 		}
 	},
-	"_rev": "1-e1df17da33992afd",
+	"_rev": "2-7cd4a735332cc8ed",
 	"readme": "# tty-browserify\n"
 }

@@ -1562,13 +1562,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-syntax-decorators-6.13.0.tgz": {
+			"shasum": "312563b4dbde3cc806cee3e416cceeaddd11ac0b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d5e-7b60\"",
 			"fetched": 1501276775894
 		}
 	},
-	"_rev": "1-f152c732f91b1b0f",
+	"_rev": "2-7edf1549ed3e4fb9",
 	"readme": "# babel-plugin-syntax-decorators\n\nAllow parsing of decorators.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-decorators\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-decorators\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-decorators script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-decorators\"]\n});\n```\n"
 }

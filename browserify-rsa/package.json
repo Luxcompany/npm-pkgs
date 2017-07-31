@@ -514,13 +514,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"browserify-rsa-4.0.1.tgz": {
+			"shasum": "21e0abfaf6f2029cf2fafb133567a701d4135524"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"56cf876c-2bff\"",
 			"fetched": 1501276797526
 		}
 	},
-	"_rev": "1-dcd8f1b1a3c23fc3",
+	"_rev": "2-75ceabb9b8f6a2da",
 	"readme": "browserify-rsa\n====\n[![Build Status](https://travis-ci.org/crypto-browserify/browserify-rsa.svg)](https://travis-ci.org/crypto-browserify/browserify-rsa)\n\nRSA private decryption/signing using chinese remainder and blinding.\n\nAPI\n====\n\nGive it a message as a buffer and a private key (as decoded by https://www.npmjs.com/package/parse-asn1) and it returns encrypted data as a buffer.\n"
 }

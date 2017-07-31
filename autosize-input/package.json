@@ -555,13 +555,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"autosize-input-0.4.0.tgz": {
+			"shasum": "a5cdb43110e31f6a1d9fb695ccb747495af0bb5e"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5973ee0d-3c14\"",
 			"fetched": 1501276761694
 		}
 	},
-	"_rev": "1-249b8a43baff0be6",
+	"_rev": "2-ce93588361fb5a3a",
 	"readme": "# autosize-input.js [![npm Version](http://img.shields.io/npm/v/autosize-input.svg?style=flat)](https://www.npmjs.org/package/autosize-input) [![Build Status](https://img.shields.io/travis/yuanqing/autosize-input.svg?branch=master&style=flat)](https://travis-ci.org/yuanqing/autosize-input)\n\n> Effortless, dynamic-width text boxes in vanilla JavaScript.\n\n## Features\n\n- Dynamically adjusts the width of the text box to fit its current contents\n- Can be initialised to fit its `placeholder` attribute\n- Optionally set a `min-width` based on the element&rsquo;s initial content\n- 1.57 KB [minified](autosize-input.min.js), or 0.77 KB minified and gzipped\n\n## Usage\n\n> [**Editable demo**](http://jsfiddle.net/98k622ah/)\n\n```html\n<body>\n  <input type=\"text\" id=\"foo\" value=\"Nice\">\n  <input type=\"text\" id=\"bar\" placeholder=\"People\">\n  <input type=\"text\" id=\"baz\" placeholder=\"Matter\">\n  <script src=\"autosize-input.min.js\"></script>\n  <script>\n    autosizeInput(document.querySelector('#foo'));\n    autosizeInput(document.querySelector('#bar'));\n    autosizeInput(document.querySelector('#baz'), { minWidth: true });\n  </script>\n</body>\n```\n\n## Implementation details\n\n- A hidden &ldquo;ghost&rdquo; `div` &mdash; given the same `font-size`, `font-family`, [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing), and horizontal `margin`, `border` and `padding` as the text box &mdash; is used to compute the correct width to assign to the text box. This width is recomputed and assigned to the text box on every [`input`](https://developer.mozilla.org/en-US/docs/Web/Events/input) event.\n\n- The single &ldquo;ghost&rdquo; element is shared amongst all the &ldquo;autosized&rdquo; text boxes on the page.\n\n## API\n\nIn the browser, `autosizeInput` is a global variable. In Node, do:\n\n```js\nconst autosizeInput = require('autosize-input');\n```\n\n### autosizeInput(element [, options])\n\n`element` is a text `input` element, and `options` is an object literal.\n\nIf we do not want the text box to &ldquo;contract&rdquo; as the user starts to type, set `options.minWidth` to `true`. This will give the `element` a `min-width` that fits it initial contents (ie. either the element&rsquo;s intial `value`, or its `placeholder`).\n\nSee [Usage](#usage).\n\n## Installation\n\nInstall via [npm](https://npmjs.com):\n\n```sh\n$ npm install --save autosize-input\n```\n\n## Tests\n\nTo test manually, in the browser, do:\n\n```sh\n$ npm start\n```\n\nTo run the programmatic tests (in [PhantomJS](http://phantomjs.org/) via [Nightmare](https://github.com/segmentio/nightmare)), do:\n\n```sh\n$ npm test\n```\n\n## Prior art\n\n- [jQuery.Autosize.Input](https://github.com/MartinF/jQuery.Autosize.Input)\n- [React-Input-Autosize](https://github.com/JedWatson/react-input-autosize)\n\nThis module was written because I needed a standalone, lightweight solution to this rather common UI problem.\n\n## License\n\n[MIT](LICENSE)\n"
 }

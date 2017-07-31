@@ -227,13 +227,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"setprototypeof-1.0.3.tgz": {
+			"shasum": "66567e37043eeb4f04d91bd658c0cbefb55b8e04"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58fc9c62-164e\"",
 			"fetched": 1501276786780
 		}
 	},
-	"_rev": "1-a612972109066db4",
+	"_rev": "2-3e3b396796b3da68",
 	"readme": "# Polyfill for `Object.setPrototypeOf`\n\nA simple cross platform implementation to set the prototype of an instianted object.  Supports all modern browsers and at least back to IE8.\n\n## Usage:\n\n```\n$ npm install --save setprototypeof\n```\n\n```javascript\nvar setPrototypeOf = require('setprototypeof');\n\nvar obj = {};\nsetPrototypeOf(obj, {\n\tfoo: function() {\n\t\treturn 'bar';\n\t}\n});\nobj.foo(); // bar\n```\n"
 }

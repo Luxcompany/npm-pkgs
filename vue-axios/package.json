@@ -903,13 +903,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-axios-2.0.2.tgz": {
+			"shasum": "0fe5a69f1edb09a1cd6c4a7f88c74d2fb7fe1778"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595297b4-4a0b\"",
 			"fetched": 1501276734975
 		}
 	},
-	"_rev": "1-ae93a919dea05993",
+	"_rev": "2-ad5c77383675b170",
 	"readme": "# vue-axios\nA small wrapper for integrating axios to Vuejs\n\n## How to install:\n### CommonJS:\n```\nnpm install --save axios vue-axios\n```\n\nAnd in your entry file:\n```\nimport Vue from 'vue'\nimport axios from 'axios'\nimport VueAxios from 'vue-axios'\n\nVue.use(VueAxios, axios)\n```\n\n### Script:\nJust add 3 scripts in order: `vue`, `axios` and `vue-axios` to your `document`.\n\n## Usage:\nThis wrapper bind `axios` to `Vue` or `this` if you're using single file component.\n\nYou can `axios` like this:\n```\nVue.axios.get(api).then((response) => {\n  console.log(response.data)\n})\n\nthis.axios.get(api).then((response) => {\n  console.log(response.data)\n})\n\nthis.$http.get(api).then((response) => {\n  console.log(response.data)\n})\n```\n"
 }

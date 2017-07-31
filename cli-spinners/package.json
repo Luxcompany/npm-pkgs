@@ -496,13 +496,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cli-spinners-1.0.0.tgz": {
+			"shasum": "ef987ed3d48391ac3dab9180b406a742180d6e6a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595c7d95-2a63\"",
 			"fetched": 1501276791515
 		}
 	},
-	"_rev": "1-515bc8cff7eb54da",
+	"_rev": "2-ce4065f2968f2276",
 	"readme": "# cli-spinners [![Build Status](https://travis-ci.org/sindresorhus/cli-spinners.svg?branch=master)](https://travis-ci.org/sindresorhus/cli-spinners)\n\n> 60+ spinners for use in the terminal\n\n![](screenshot.gif)\n\nThe list of spinners is just a [JSON file](spinners.json) and can be used wherever.\n\nYou probably want to use one of these spinners through the [`ora`](https://github.com/sindresorhus/ora) module.\n\n\n## Install\n\n```\n$ npm install --save cli-spinners\n```\n\n\n## Usage\n\n```js\nconst cliSpinners = require('cli-spinners');\n\nconsole.log(cliSpinners.dots);\n/*\n{\n\tinterval: 80,\n\tframes: ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']\n}\n*/\n```\n\n\n## Preview\n\nThe header GIF is outdated. Click below to see a preview of all the spinners.\n\n[![](https://asciinema.org/a/95348.png)](https://asciinema.org/a/95348?size=big)\n\n\n## API\n\nEach spinner comes with a recommended `interval` and an array of `frames`.\n\n[See the spinners.](spinners.json)\n\n\n## Related\n\n- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

@@ -2485,13 +2485,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-define-map-6.24.1.tgz": {
+			"shasum": "7a9747f258d8947d32d515f6aa1c7bd02204a080"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da5-be69\"",
 			"fetched": 1501276774419
 		}
 	},
-	"_rev": "1-b19fd76f12db0262",
+	"_rev": "2-cad037a77584e684",
 	"readme": "# babel-helper-define-map\n\n## Usage\n\nTODO\n"
 }

@@ -1664,13 +1664,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-preset-stage-3-6.24.1.tgz": {
+			"shasum": "836ada0a9e7a7fa37cb138fb9326f87934a48395"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788db9-8f9e\"",
 			"fetched": 1501276775597
 		}
 	},
-	"_rev": "1-3bc35c669c005267",
+	"_rev": "2-41476b7671a549af",
 	"readme": "# babel-preset-stage-3\n\n> Babel preset for stage 3 plugins.\n\nThe gist of Stage 3 is:\n\n> **Stage 3**: candidate\n>\n> **What is it?** The proposal is mostly finished and now needs feedback from implementations and users to progress further.\n\n> **What’s required?** The spec text must be complete. Designated reviewers (appointed by TC39, not by the champion) and the ECMAScript spec editor must sign off on the spec text. There must be at least two spec-compliant implementations (which don’t have to be enabled by default).\n>\n> **What’s next?** Henceforth, changes should only be made in response to critical issues raised by the implementations and their use.\n\n\n\n## Install\n\n```sh\nnpm install --save-dev babel-preset-stage-3\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"presets\": [\"stage-3\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel script.js --presets stage-3\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  presets: [\"stage-3\"]\n});\n```\n\n## References\n\n- Chapter \"[The TC39 process for ECMAScript features](http://exploringjs.com/es2016-es2017/ch_tc39-process.html)\" in \"Exploring ES2016 and ES2017\" by Axel Rauschmayer\n"
 }

@@ -999,13 +999,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"postcss-minify-params-1.2.2.tgz": {
+			"shasum": "ad2ce071373b943b3d930a3fa59a358c28d6f1f3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"594aa1a6-507a\"",
 			"fetched": 1501276777925
 		}
 	},
-	"_rev": "1-0e058aa10896fbe8",
+	"_rev": "2-1d28f84d3982a9f1",
 	"readme": "# postcss-minify-params [![Build Status][ci-img]][ci]\n\n> Minify at-rule params with PostCSS.\n\n```css\n@media only screen   and ( min-width: 400px, min-height: 500px ) {\n    h2{\n        color:blue\n    }\n}\n```\n\n```css\n@media only screen and (min-width:400px,min-height:500px) {\n    h2{\n        color:blue\n    }\n}\n```\n\n## Usage\n\n```js\npostcss([ require('postcss-minify-params') ])\n```\n\nSee [PostCSS] docs for examples for your environment.\n\nMIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://travis-ci.org/ben-eb/postcss-minify-params.svg\n[ci]:      https://travis-ci.org/ben-eb/postcss-minify-params\n"
 }

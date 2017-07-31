@@ -486,13 +486,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"tunnel-agent-0.6.0.tgz": {
+			"shasum": "27a5dea06b36b04a0a9966774b290868f0fc40fd"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58bb5c09-28f4\"",
 			"fetched": 1501276757241
 		}
 	},
-	"_rev": "1-8b869920fd415da8",
+	"_rev": "2-c73db127860fbd2e",
 	"readme": "tunnel-agent\n============\n\nHTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.\n"
 }

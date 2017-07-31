@@ -179,13 +179,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"get-caller-file-1.0.2.tgz": {
+			"shasum": "f702e63127e7e231c160a80c1554acb70d5047e5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58f2a535-14ed\"",
 			"fetched": 1501276769536
 		}
 	},
-	"_rev": "1-d112b9d70915e60b",
+	"_rev": "2-c20eb8a18b7e50f3",
 	"readme": "# get-caller-file\n\n[![Build Status](https://travis-ci.org/ember-cli/ember-cli.svg?branch=master)](https://travis-ci.org/ember-cli/ember-cli)\n[![Build status](https://ci.appveyor.com/api/projects/status/ol2q94g1932cy14a/branch/master?svg=true)](https://ci.appveyor.com/project/embercli/get-caller-file/branch/master)\n"
 }

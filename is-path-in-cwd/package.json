@@ -215,13 +215,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-path-in-cwd-1.0.0.tgz": {
+			"shasum": "6477582b8214d602346094567003be8a9eac04dc"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595ba712-12f3\"",
 			"fetched": 1501276784233
 		}
 	},
-	"_rev": "1-d85b21c77a628f0e",
+	"_rev": "2-7eedee500ce63544",
 	"readme": "# is-path-in-cwd [![Build Status](https://travis-ci.org/sindresorhus/is-path-in-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/is-path-in-cwd)\n\n> Check if a path is in the [current working directory](http://en.wikipedia.org/wiki/Working_directory)\n\n\n## Install\n\n```sh\n$ npm install --save is-path-in-cwd\n```\n\n\n## Usage\n\n```js\nvar isPathInCwd = require('is-path-in-cwd');\n\nisPathInCwd('unicorn');\n//=> true\n\nisPathInCwd('../rainbow');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

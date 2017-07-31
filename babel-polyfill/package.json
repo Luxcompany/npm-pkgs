@@ -2190,13 +2190,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-polyfill-6.23.0.tgz": {
+			"shasum": "8364ca62df8eafb830499f699177466c3b03499d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d73-a2b2\"",
 			"fetched": 1501274969482
 		}
 	},
-	"_rev": "1-fbf02d29aa4b99c2",
+	"_rev": "2-219116c886067015",
 	"readme": "# babel-polyfill\n"
 }

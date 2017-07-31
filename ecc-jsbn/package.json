@@ -117,13 +117,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"ecc-jsbn-0.1.1.tgz": {
+			"shasum": "0fc73a9ed5f0d53c38193398523ef7e543777505"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818ce5d-c2e\"",
 			"fetched": 1501276758522
 		}
 	},
-	"_rev": "1-f6a6e27dd9304a6e",
+	"_rev": "2-756740db563d3897",
 	"readme": "ecc-jsbn\n========\n\nECC package based on [jsbn](https://github.com/andyperlitch/jsbn) from [Tom Wu](http://www-cs-students.stanford.edu/~tjw/).\n\nThis is a subset of the same interface as the [node compiled module](https://github.com/quartzjer/ecc), but works in the browser too.\n\nAlso uses point compression now from [https://github.com/kaielvin](https://github.com/kaielvin/jsbn-ec-point-compression).\n"
 }

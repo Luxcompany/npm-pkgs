@@ -443,13 +443,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"escape-string-regexp-1.0.5.tgz": {
+			"shasum": "1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595b4006-248d\"",
 			"fetched": 1501276738574
 		}
 	},
-	"_rev": "1-b001ee32bac914d5",
+	"_rev": "2-1fcb4a6e7701b940",
 	"readme": "# escape-string-regexp [![Build Status](https://travis-ci.org/sindresorhus/escape-string-regexp.svg?branch=master)](https://travis-ci.org/sindresorhus/escape-string-regexp)\n\n> Escape RegExp special characters\n\n\n## Install\n\n```\n$ npm install --save escape-string-regexp\n```\n\n\n## Usage\n\n```js\nconst escapeStringRegexp = require('escape-string-regexp');\n\nconst escapedString = escapeStringRegexp('how much $ for a unicorn?');\n//=> 'how much \\$ for a unicorn\\?'\n\nnew RegExp(escapedString);\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

@@ -55,13 +55,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"w3c-blob-0.0.1.tgz": {
+			"shasum": "b0cd352a1a50f515563420ffd5861f950f1d85b8"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5133103b-7c1\"",
 			"fetched": 1501276761991
 		}
 	},
-	"_rev": "1-68f854abbe9228a9",
+	"_rev": "2-f761a06fcca5cc9a",
 	"readme": "# w3c-blob\n\nexport a node or browserify compatible w3c blob interface.\npolyfills old versions that rely on `BlobBuilder`.\n\n```javascript\nvar Blob = require('w3c-blob')\n\nvar blob = new Blob([parts], {type: 'text/plain'})\n```\n\n## api\n\n[See MDN's Blob documentation](https://developer.mozilla.org/en-US/docs/DOM/Blob).\n\n# license\n\nMIT\n"
 }

@@ -1719,13 +1719,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-es2015-unicode-regex-6.24.1.tgz": {
+			"shasum": "d38b12f42ea7323f729387f18a7c5ae1faeb35e9"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d89-93f9\"",
 			"fetched": 1501276774138
 		}
 	},
-	"_rev": "1-3a69605778e4950d",
+	"_rev": "2-2c7fde5af7e4b444",
 	"readme": "# babel-plugin-transform-es2015-unicode-regex\n\n> Compile ES2015 unicode regex to ES5\n\n## Example\n\n**In**\n\n```js\nvar string = \"foo💩bar\";\nvar match = string.match(/foo(.)bar/u);\n```\n\n**Out**\n\n```js\nvar string = \"foo💩bar\";\nvar match = string.match(/foo((?:[\\0-\\t\\x0B\\f\\x0E-\\u2027\\u202A-\\uD7FF\\uE000-\\uFFFF]|[\\uD800-\\uDBFF][\\uDC00-\\uDFFF]|[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF])|(?:[^\\uD800-\\uDBFF]|^)[\\uDC00-\\uDFFF]))bar/);\n```\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-unicode-regex\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-unicode-regex\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-unicode-regex script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-unicode-regex\"]\n});\n```\n"
 }

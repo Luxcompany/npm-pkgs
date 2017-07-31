@@ -132,13 +132,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-breadcrumb-1.0.1.tgz": {
+			"shasum": "5d9e5756f538f94feb8e265c3c947a39d87536f7"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58a3dca0-119a\"",
 			"fetched": 1501276735022
 		}
 	},
-	"_rev": "1-141aa6d88e2b069c",
+	"_rev": "2-9995acc46b5a073b",
 	"readme": "# Breadcrumb\n\nBreadcrumb component for Vue Bulma.\n\n## Installation\n\n```\n$ npm install vue-bulma-breadcrumb\n```\n\n## Examples\n\n```vue\n<template>\n  <nav class=\"level app-levelbar\">\n    <div class=\"level-left\">\n      <div class=\"level-item\">\n        <h3 class=\"subtitle is-5\">\n          <strong>{{ name }}</strong>\n        </h3>\n      </div>\n    </div>\n\n    <div class=\"level-right is-hidden-mobile\">\n      <breadcrumb :list=\"list\"><breadcrumb>\n    </div>\n  </nav>\n</template>\n\n<script>\nimport Breadcrumb from 'vue-bulma-breadcrumb'\n\nexport default {\n  components: {\n    Breadcrumb\n  },\n\n  data () {\n    return {\n    }\n  },\n\n  computed: {\n    name () {\n      return this.$route.name\n    },\n\n    list () {\n      return this.$route.matched\n    }\n  }\n}\n</script>\n```\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
 }

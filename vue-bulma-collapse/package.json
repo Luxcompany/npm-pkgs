@@ -263,13 +263,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-collapse-1.0.3.tgz": {
+			"shasum": "61038b566dde6e857e04954d178725348606dc09"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"580ffd0e-1c36\"",
 			"fetched": 1501276735037
 		}
 	},
-	"_rev": "1-6106ef176d7df3c7",
+	"_rev": "2-13755e6476e66706",
 	"readme": "# Collapse\n\nCollapse component for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-collapse --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <collapse accordion is-fullwidth>\n    <collapse-item title=\"Components\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n    </collapse-item>\n    <collapse-item title=\"Elements\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n    </collapse-item>\n      <collapse-item title=\"Nests\" selected>\n      <collapse>\n        <collapse-item title=\"Nest Child\" selected>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. @bulmaio. #css #responsive\n        </collapse-item>\n      </collapse>\n    </collapse-item>\n  </collapse>\n</template>\n\n<script>\nimport { Collapse, Item as CollapseItem } from 'vue-bulma-collapse'\n\nexport default {\n  components: {\n    Collapse,\n    CollapseItem\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
 }

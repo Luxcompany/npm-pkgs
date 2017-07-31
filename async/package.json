@@ -6208,14 +6208,20 @@
 	"_attachments": {
 		"async-2.4.1.tgz": {
 			"shasum": "62a56b279c98a11d0987096a01cc3eeb8eb7bbd7"
+		},
+		"async-1.5.2.tgz": {
+			"shasum": "ec6a61ae56480c0c3cb241c95618e20892f9672a"
+		},
+		"async-0.2.10.tgz": {
+			"shasum": "b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
 		}
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"5979053d-21c36\"",
-			"fetched": 1501274969888
+			"etag": "W/\"597f7737-21c68\"",
+			"fetched": 1501534212574
 		}
 	},
-	"_rev": "2-22f8946f4cdbd79f",
+	"_rev": "5-9c6be8ec6e1932ed",
 	"readme": "![Async Logo](https://raw.githubusercontent.com/caolan/async/master/logo/async-logo_readme.jpg)\n\n[![Build Status via Travis CI](https://travis-ci.org/caolan/async.svg?branch=master)](https://travis-ci.org/caolan/async)\n[![NPM version](https://img.shields.io/npm/v/async.svg)](https://www.npmjs.com/package/async)\n[![Coverage Status](https://coveralls.io/repos/caolan/async/badge.svg?branch=master)](https://coveralls.io/r/caolan/async?branch=master)\n[![Join the chat at https://gitter.im/caolan/async](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/caolan/async?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![libhive - Open source examples](https://www.libhive.com/providers/npm/packages/async/examples/badge.svg)](https://www.libhive.com/providers/npm/packages/async)\n\n\nAsync is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with [Node.js](https://nodejs.org/) and installable via `npm install --save async`, it can also be used directly in the browser.\n\nFor Documentation, visit <https://caolan.github.io/async/>\n\n*For Async v1.5.x documentation, go [HERE](https://github.com/caolan/async/blob/v1.5.2/README.md)*\n"
 }

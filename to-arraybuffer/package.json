@@ -69,13 +69,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"to-arraybuffer-1.0.1.tgz": {
+			"shasum": "7d229b1fcc637e466ca081180836a7aabff83f43"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5695d412-bad\"",
 			"fetched": 1501276798370
 		}
 	},
-	"_rev": "1-ca6feb42b92def02",
+	"_rev": "2-408572b642be646f",
 	"readme": "# to-arraybuffer [![Build Status](https://travis-ci.org/jhiesey/to-arraybuffer.svg?branch=master)](https://travis-ci.org/jhiesey/to-arraybuffer)\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/to-arraybuffer.svg)](https://saucelabs.com/u/to-arraybuffer)\n\nConvert from a Buffer to an ArrayBuffer as fast as possible.\n\nNote that in some cases the returned ArrayBuffer is backed by the same memory as the original\nBuffer (but in other cases it is a copy), so **modifying the ArrayBuffer is not recommended**.\n\nThis module is designed to work both in node.js and in all browsers with ArrayBuffer support\nwhen using [the Buffer implementation provided by Browserify](https://www.npmjs.com/package/buffer).\n\n## Usage\n\n``` js\nvar toArrayBuffer = require('to-arraybuffer')\n\nvar buffer = new Buffer(100)\n// Fill the buffer with some data\n\nvar ab = toArrayBuffer(buffer)\n// `ab` now contains the same data as `buffer`\n```\n\n## License\n\nMIT"
 }

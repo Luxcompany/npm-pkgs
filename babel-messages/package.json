@@ -2367,13 +2367,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-messages-6.23.0.tgz": {
+			"shasum": "f3cdf4703858035b2a2951c6ec5edf6c62f2630e"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d57-afad\"",
 			"fetched": 1501276772661
 		}
 	},
-	"_rev": "1-c6cd5cc7d298f82a",
+	"_rev": "2-ffc3eef1584dd4f5",
 	"readme": "# babel-messages\n\n> Collection of debug messages used by Babel.\n\n## Install\n\n```sh\n$ npm install babel-messages\n```\n\n## Usage\n\n```js\nimport * as messages from 'babel-messages';\n\nmessages.get('tailCallReassignmentDeopt');\n// > \"Function reference has been...\"\n```\n"
 }

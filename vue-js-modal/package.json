@@ -1947,10 +1947,85 @@
 				"tmp": "tmp/vue-js-modal-1.2.6.tgz_1500922524117_0.6822314809542149"
 			},
 			"directories": {}
+		},
+		"1.2.7": {
+			"name": "vue-js-modal",
+			"description": "Modal Component for Vue.js",
+			"version": "1.2.7",
+			"author": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"main": "dist/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/euvl/vue-js-modal.git"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"modal",
+				"vue-js-modal"
+			],
+			"bugs": {
+				"url": "https://github.com/euvl/vue-js-modal/issues"
+			},
+			"scripts": {
+				"build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
+				"build:server": "webpack --config ./build/webpack.server.config.js --progress --hide-modules"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-core": "^6.25.0",
+				"babel-loader": "latest",
+				"babel-preset-env": "^1.5.2",
+				"cross-env": "^3.0.0",
+				"css-loader": "^0.25.0",
+				"file-loader": "^0.9.0",
+				"node-sass": "^4.5.0",
+				"sass-loader": "^5.0.1",
+				"uglifyjs-webpack-plugin": "^0.4.6",
+				"vue": "^2.2.6",
+				"vue-hot-reload-api": "^2.0.8",
+				"vue-loader": "^10.0.0",
+				"vue-style-loader": "^2.0.0",
+				"vue-template-compiler": "^2.1.0",
+				"webpack": "^2.2.0",
+				"webpack-dev-server": "^2.2.0",
+				"webpack-merge": "^4.1.0"
+			},
+			"peerDependencies": {
+				"vue": "^2.2.6"
+			},
+			"gitHead": "2b35619b64d77311a1a85a29649d24f026068cf6",
+			"homepage": "https://github.com/euvl/vue-js-modal#readme",
+			"_id": "vue-js-modal@1.2.7",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "euvl",
+				"email": "yev.vlasenko@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-jiuDeSoswuXyZoBqli8D+E+14zx6aJwHacanf2GAdkOLuXvremPSyW2aJejc9PWaJktS1xdtS2+IUmC4wvgQjg==",
+				"shasum": "d38fadbe67171ae7d6437c19f74561429ae43126",
+				"tarball": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "euvl",
+					"email": "yev.vlasenko@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-js-modal-1.2.7.tgz_1501510257893_0.4270457960665226"
+			},
+			"directories": {}
 		}
 	},
 	"dist-tags": {
-		"latest": "1.2.6"
+		"latest": "1.2.7"
 	},
 	"_distfiles": {
 		"vue-js-modal-1.0.0.tgz": {
@@ -2087,19 +2162,27 @@
 			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.6.tgz",
 			"sha": "1697b366f4aaac56bf499e678f4bc1d1dd9722fe",
 			"registry": "npmjs"
+		},
+		"vue-js-modal-1.2.7.tgz": {
+			"url": "https://registry.npmjs.org/vue-js-modal/-/vue-js-modal-1.2.7.tgz",
+			"sha": "d38fadbe67171ae7d6437c19f74561429ae43126",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"vue-js-modal-1.2.6.tgz": {
 			"shasum": "1697b366f4aaac56bf499e678f4bc1d1dd9722fe"
+		},
+		"vue-js-modal-1.2.7.tgz": {
+			"shasum": "d38fadbe67171ae7d6437c19f74561429ae43126"
 		}
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"5976429d-cb98\"",
-			"fetched": 1501276735084
+			"etag": "W/\"597f3a73-d5da\"",
+			"fetched": 1501535112217
 		}
 	},
-	"_rev": "2-c0fc36e563850b0e",
-	"readme": "[![npm version](https://badge.fury.io/js/vue-js-modal.svg)](https://badge.fury.io/js/vue-js-modal)\n[![npm](https://img.shields.io/npm/dm/vue-js-modal.svg)]()\n\n# Vue.js modal\n\n##### Simple to use, highly customizable, mobile friendly Vue.js 2.0+ modal. http://vue-js-modal.yev.io/\n##### (now works with SSR)\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/3oKIPco1eNxAA1rD4Q/giphy.gif\">\n</p>\n\nDemo: http://vue-js-modal.yev.io/\n\n### Install\n\n```bash\nnpm install vue-js-modal --save\n```\n\n### How to use\n\nInclude plugin in your `main.js` file.\n\n```javascript\nimport vmodal from 'vue-js-modal'\n\nVue.use(vmodal)\n```\n\nCreate modal:\n\n```html\n<modal name=\"hello-world\">\n  hello, world!\n</modal>\n```\nCall it from anywhere in the app:\n\n```javascript\nmethods: {\n  show () {\n    this.$modal.show('hello-world');\n  },\n  hide () {\n    this.$modal.hide('hello-world');\n  }\n}\n```\n\n### SSR\n\nInclude plugin in your `nuxt.config.js` file:\n\n```javascript\nmodule.exports = {\n  plugins: ['~plugins/vue-js-modal']\n}\n```\n\nAnd your `plugins/vue-js-modal.js` will look like:\n\n```javascript\nimport Vue from 'vue'\nimport VModal from 'vue-js-modal/dist/ssr.index'\n\nVue.use(VModal)\n```\n\nFor full demo please look at `demo/server_side_rendering`\n\n### Properties\n\n| Name      | Required | Type          | Default     | Description |\n| ---       | ---      | ---           | ---         | ---         |\n| name      | true  | [String, Number] |             | Name of the modal |\n| delay     | false | Number           | 0           | Delay between showing overlay and actual modal box |\n| resizable | false | Boolean          | false       | If true, allows to resize modal window, keeping it in the center of the screen. |\n| adaptive  | false | Boolean          | false       | If true, modal box will try to adapt to the window size |\n| draggable | false | [Boolean, String]| false       | If true, modal box will be draggable. |\n| scrollable | false | Boolean         | false       | If `height` property is `auto` and the modal height exceeds window height - you will be able to scroll modal |\n| reset     | false | Boolean          | false       | Resets position and size before showing modal |\n| clickToClose | false | Boolean       | true        | If set to `false`, it will not be possible to close modal by clicking on the background |\n| transition| false | String           |             | Transition name |\n| classes   | false | [String, Array]  | 'vue--modal'| Classes that will be applied to the actual modal box, if not specified, the default 'vue--modal' class will be applied |\n| width     | false | [String, Number] | 600         | Width in pixels or percents (e.g. 50 or \"50px\", \"50%\") |\n| height    | false | [String, Number] | 300         | Height in pixels or percents (e.g. 50 or \"50px\", \"50%\") or `\"auto\"` |\n| minWidth  | false | Number           | 0           | The minimum width to which modal can be resized  |\n| minHeight | false | Number           | 0           | The minimum height to which modal can be resized |\n| pivotX    | false | Number (0 - 1.0) | 0.5         | Horizontal position in %, default is 0.5 (meaning that modal box will be in the middle (50% from top) of the window |\n| pivotY    | false | Number (0 - 1.0) | 0.5         | Vertical position in %, default is 0.5 (meaning that modal box will be in the middle (50% from left) of the window |\n\n### Events\n\n| Name         | Description |\n| ---          | --- |\n| before-open  | Emits while modal is still invisible, but was added to the DOM |\n| opened       | Emits after modal became visible or started transition |\n| before-close | Emits before modal is going to be closed. Can be stopped from the event listener calling `event.stop()` (example: you are creating a text editor, and want to stop closisng and ask user to correct mistakes if text is not valid)\n| closed       | Emits right before modal is destoyed |\n\nExample:\n```vue\n<template>\n  <modal name=\"example\"\n         :width=\"300\"\n         :height=\"300\"\n         @before-open=\"beforeOpen\"\n         @before-close=\"beforeClose\">\n    <b>{{time}}</b>\n  </modal>\n</template>\n<script>\nexport default {\n  name: 'ExampleModal',\n  data () {\n    return {\n      time: 0,\n      duration: 5000\n    }\n  },\n  methods: {\n    beforeOpen (event) {\n      console.log(event)\n      // Set the opening time of the modal\n      this.time = Date.now()\n    },\n    beforeClose (event) {\n      console.log(event)\n      // If modal was open less then 5000 ms - prevent closing it\n      if (this.time + this.duration < Date.now()) {\n        event.stop()\n      }\n    }\n  }\n}\n</script>\n```\n\nThis example, initializes `time` variable every time the modal is being opened.\nAnd then forbits closing it for the next 5000 ms\n\n### Other\n\n#### Height: \"auto\"\n\nFrom `v1.2.6` height can be set to \"auto\". If you want to be able to scroll modal in case it's height exceeds window height - you can set flag `scrollable=\"true\"`. \n\np.s. `scrollable` will only work with `height=\"auto\"`.\n\nExample: \n\n```vue\n<modal name=\"foo\" height=\"auto\" :scrollable=\"true\">...</modal>\n```\n\n\n#### Close button\n\nIf you want to have a Close (x) button in the top-right corner, you can use \"top-right\" slot for it. There is deliberately no predefined Close button style - you will have to implement/use your own button.\n\nExample:\n```vue\n<template>\n  <modal name=\"foo\">\n\n    <div slot=\"top-right\">\n      <button @click=\"$modal.hide('foo')\">\n        ❌\n      </button>\n    </div>\n\n    Hello, ☀️!\n\n  </modal>\n</template>\n```\n\n\n#### Draggable handler\n\nDraggable property can accept not only `Boolean` but also `String` paramenters. With `String` value, you can specify a CSS selector to the element which will be a \"handler\" for dragging.\n\nExample:\n\n```vue\n<modal name=\"bar\" draggable=\".window-header\">\n  <div class=\"window-header\">DRAG ME HERE</div>\n  <div>\n     Hello, 🌎!\n  </div>\n</modal>\n```\n\n#### Fullscreen\n\n```vue\n<modal name=\"fs\" :adaptive=\"true\" width=\"100%\" height=\"100%\">\n</modal>\n```\n\n### Developers\n\nTo run an example:\n```sh\n# Clone repo\n\ngit clone https://github.com/euvl/vue-js-modal.git\n\n# Build main library\n\ncd vue-js-modal\nnpm install\nnpm run build\n\n# Build and run demo\n\ncd demo\nnpm install\nnpm run dev\n```\n"
+	"_rev": "4-d83a75533c5af182",
+	"readme": "[![npm version](https://badge.fury.io/js/vue-js-modal.svg)](https://badge.fury.io/js/vue-js-modal)\n[![npm](https://img.shields.io/npm/dm/vue-js-modal.svg)]()\n\n# Vue.js modal\n\n##### Simple to use, highly customizable, mobile friendly Vue.js 2.0+ modal. http://vue-js-modal.yev.io/\n##### (now works with SSR)\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/3oKIPco1eNxAA1rD4Q/giphy.gif\">\n</p>\n\nDemo: http://vue-js-modal.yev.io/\n\n### Install\n\n```bash\nnpm install vue-js-modal --save\n```\n\n### How to use\n\nInclude plugin in your `main.js` file.\n\n```javascript\nimport VModal from 'vue-js-modal'\n\nVue.use(VModal)\n\n/*\nBy default plugin will use \"modal\" name for the component.\nIf you need to change it, you can do so by providing \"componentName\" param. \n\nExample:\n\nVue.use(VModal, { componentName: \"foo-modal\" })\n...\n<foo-modal name=\"bar\"></foo-modal> \n*/\n```\n\nCreate modal:\n\n```html\n<modal name=\"hello-world\">\n  hello, world!\n</modal>\n```\nCall it from anywhere in the app:\n\n```javascript\nmethods: {\n  show () {\n    this.$modal.show('hello-world');\n  },\n  hide () {\n    this.$modal.hide('hello-world');\n  }\n}\n```\n\n### SSR\n\nInclude plugin in your `nuxt.config.js` file:\n\n```javascript\nmodule.exports = {\n  plugins: ['~plugins/vue-js-modal']\n}\n```\n\nAnd your `plugins/vue-js-modal.js` will look like:\n\n```javascript\nimport Vue from 'vue'\nimport VModal from 'vue-js-modal/dist/ssr.index'\n\nVue.use(VModal)\n```\n\nFor full demo please look at `demo/server_side_rendering`\n\n### Properties\n\n| Name      | Required | Type          | Default     | Description |\n| ---       | ---      | ---           | ---         | ---         |\n| name      | true  | [String, Number] |             | Name of the modal |\n| delay     | false | Number           | 0           | Delay between showing overlay and actual modal box |\n| resizable | false | Boolean          | false       | If true, allows to resize modal window, keeping it in the center of the screen. |\n| adaptive  | false | Boolean          | false       | If true, modal box will try to adapt to the window size |\n| draggable | false | [Boolean, String]| false       | If true, modal box will be draggable. |\n| scrollable | false | Boolean         | false       | If `height` property is `auto` and the modal height exceeds window height - you will be able to scroll modal |\n| reset     | false | Boolean          | false       | Resets position and size before showing modal |\n| clickToClose | false | Boolean       | true        | If set to `false`, it will not be possible to close modal by clicking on the background |\n| transition| false | String           |             | Transition name |\n| classes   | false | [String, Array]  | 'vue--modal'| Classes that will be applied to the actual modal box, if not specified, the default 'vue--modal' class will be applied |\n| width     | false | [String, Number] | 600         | Width in pixels or percents (e.g. 50 or \"50px\", \"50%\") |\n| height    | false | [String, Number] | 300         | Height in pixels or percents (e.g. 50 or \"50px\", \"50%\") or `\"auto\"` |\n| minWidth  | false | Number           | 0           | The minimum width to which modal can be resized  |\n| minHeight | false | Number           | 0           | The minimum height to which modal can be resized |\n| pivotX    | false | Number (0 - 1.0) | 0.5         | Horizontal position in %, default is 0.5 (meaning that modal box will be in the middle (50% from top) of the window |\n| pivotY    | false | Number (0 - 1.0) | 0.5         | Vertical position in %, default is 0.5 (meaning that modal box will be in the middle (50% from left) of the window |\n\n### Events\n\n| Name         | Description |\n| ---          | --- |\n| before-open  | Emits while modal is still invisible, but was added to the DOM |\n| opened       | Emits after modal became visible or started transition |\n| before-close | Emits before modal is going to be closed. Can be stopped from the event listener calling `event.stop()` (example: you are creating a text editor, and want to stop closisng and ask user to correct mistakes if text is not valid)\n| closed       | Emits right before modal is destoyed |\n\nExample:\n```vue\n<template>\n  <modal name=\"example\"\n         :width=\"300\"\n         :height=\"300\"\n         @before-open=\"beforeOpen\"\n         @before-close=\"beforeClose\">\n    <b>{{time}}</b>\n  </modal>\n</template>\n<script>\nexport default {\n  name: 'ExampleModal',\n  data () {\n    return {\n      time: 0,\n      duration: 5000\n    }\n  },\n  methods: {\n    beforeOpen (event) {\n      console.log(event)\n      // Set the opening time of the modal\n      this.time = Date.now()\n    },\n    beforeClose (event) {\n      console.log(event)\n      // If modal was open less then 5000 ms - prevent closing it\n      if (this.time + this.duration < Date.now()) {\n        event.stop()\n      }\n    }\n  }\n}\n</script>\n```\n\nThis example, initializes `time` variable every time the modal is being opened.\nAnd then forbits closing it for the next 5000 ms\n\n### Other\n\n#### Height: \"auto\"\n\nFrom `v1.2.6` height can be set to \"auto\". If you want to be able to scroll modal in case it's height exceeds window height - you can set flag `scrollable=\"true\"`. \n\np.s. `scrollable` will only work with `height=\"auto\"`.\n\nExample: \n\n```vue\n<modal name=\"foo\" height=\"auto\" :scrollable=\"true\">...</modal>\n```\n\nAuto height:\n\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/xUPGGpEV00RDDDeiuk/giphy.gif\">\n</p>\n\nScrollable content & auto height:\n\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/xUn3CfwfH3ISuf4mxq/giphy.gif\">\n</p>\n\n\n#### Close button\n\nIf you want to have a Close (x) button in the top-right corner, you can use \"top-right\" slot for it. There is deliberately no predefined Close button style - you will have to implement/use your own button.\n\nExample:\n```vue\n<template>\n  <modal name=\"foo\">\n\n    <div slot=\"top-right\">\n      <button @click=\"$modal.hide('foo')\">\n        ❌\n      </button>\n    </div>\n\n    Hello, ☀️!\n\n  </modal>\n</template>\n```\n\n\n#### Draggable handler\n\nDraggable property can accept not only `Boolean` but also `String` paramenters. With `String` value, you can specify a CSS selector to the element which will be a \"handler\" for dragging.\n\nExample:\n\n```vue\n<modal name=\"bar\" draggable=\".window-header\">\n  <div class=\"window-header\">DRAG ME HERE</div>\n  <div>\n     Hello, 🌎!\n  </div>\n</modal>\n```\n\n#### Background color\n\nIf you want to change overflow background color, you can easily do it using css.\n\nFor all modals: \n\n```css\n.v--modal-overlay {\n  background: red;\n}\n```\n\nFor specific modal:\n\n```css\n.v--modal-overlay[data-modal=\"my_modal_name\"] {\n  background: cyan;\n}\n```\n\n#### Fullscreen\n\n```vue\n<modal name=\"fs\" :adaptive=\"true\" width=\"100%\" height=\"100%\">\n</modal>\n```\n\n### Developers\n\nTo run an example:\n```sh\n# Clone repo\n\ngit clone https://github.com/euvl/vue-js-modal.git\n\n# Build main library\n\ncd vue-js-modal\nnpm install\nnpm run build\n\n# Build and run demo\n\ncd demo\nnpm install\nnpm run dev\n```\n"
 }

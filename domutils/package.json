@@ -1345,13 +1345,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"domutils-1.6.2.tgz": {
+			"shasum": "1958cc0b4c9426e9ed367fb1c8e854891b0fa3ff"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"590e8d46-55a6\"",
 			"fetched": 1501276786374
 		}
 	},
-	"_rev": "1-cb1c2e2d6682fada",
+	"_rev": "2-76150e8d2ec675c2",
 	"readme": "Utilities for working with htmlparser2's dom\n\n[![Build Status](https://travis-ci.org/fb55/domutils.svg?branch=master)](https://travis-ci.org/fb55/domutils)\n"
 }

@@ -197,13 +197,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-slider-1.0.2.tgz": {
+			"shasum": "7b8e0dd0bc2c1a7c5e77d117059847ba41eaff14"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58a40a05-1623\"",
 			"fetched": 1501276735022
 		}
 	},
-	"_rev": "1-818c8866dd524bc2",
+	"_rev": "2-951987387101a629",
 	"readme": "# Slider\r\n\r\nSlider component for Vue Bulma.\r\n\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-bulma-slider --save\r\n```\r\n\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <div>\r\n    <slider type=\"success\" size=\"large\" :value=\"value\" :max=\"100\" :step=\"1\" is-fullwidth @change=\"update\"></slider>\r\n    <input class=\"input\" type=\"number\" v-model=\"value\" min=\"0\" max=\"100\" number>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport Slider from 'vue-bulma-slider'\r\n\r\nexport default {\r\n  components: {\r\n    Slider\r\n  },\r\n\r\n  data () {\r\n    return {\r\n      value: 23\r\n    }\r\n  },\r\n\r\n  computed: {\r\n    per () {\r\n      return this.value + '%'\r\n    }\r\n  },\r\n\r\n  methods: {\r\n    update (val) {\r\n      this.value = Number(val)\r\n    }\r\n  }\r\n\r\n }\r\n</script>\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n"
 }

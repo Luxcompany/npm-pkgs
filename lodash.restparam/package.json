@@ -185,13 +185,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.restparam-3.6.1.tgz": {
+			"shasum": "936a4e309ef330a7645ed4145986c85ae5b20805"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f6829a-143d\"",
 			"fetched": 1501276738980
 		}
 	},
-	"_rev": "1-34e141dfcf4a1a4a",
+	"_rev": "2-3e0df0f10de2eca2",
 	"readme": "# lodash.restparam v3.6.1\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) `_.restParam` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.restparam\n```\n\nIn Node.js/io.js:\n\n```js\nvar restParam = require('lodash.restparam');\n```\n\nSee the [documentation](https://lodash.com/docs#restParam) or [package source](https://github.com/lodash/lodash/blob/3.6.1-npm-packages/lodash.restparam) for more details.\n"
 }

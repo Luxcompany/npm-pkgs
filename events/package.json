@@ -751,13 +751,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"events-1.1.1.tgz": {
+			"shasum": "9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59615a72-39eb\"",
 			"fetched": 1501276747188
 		}
 	},
-	"_rev": "1-8e6cda3dcf442f15",
+	"_rev": "2-2840ec3a17db0782",
 	"readme": "# events [![Build Status](https://travis-ci.org/Gozala/events.png?branch=master)](https://travis-ci.org/Gozala/events)\n\nNode's event emitter for all engines.\n\n## Install ##\n\n```\nnpm install events\n```\n\n## Require ##\n\n```javascript\nvar EventEmitter = require('events').EventEmitter\n```\n\n## Usage ##\n\nSee the [node.js event emitter docs](http://nodejs.org/api/events.html)\n"
 }

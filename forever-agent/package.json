@@ -346,13 +346,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"forever-agent-0.6.1.tgz": {
+			"shasum": "fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818cfd0-1f69\"",
 			"fetched": 1501276757209
 		}
 	},
-	"_rev": "1-2675179e6da302ee",
+	"_rev": "2-ecd9ca08271fe759",
 	"readme": "forever-agent\n=============\n\nHTTP Agent that keeps socket connections alive between keep-alive requests. Formerly part of mikeal/request, now a standalone module.\n"
 }

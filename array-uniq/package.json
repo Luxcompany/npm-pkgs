@@ -419,13 +419,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"array-uniq-1.0.3.tgz": {
+			"shasum": "af6ac877a25cc7f74e058894753858dfdb24fdb6"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58fd91bb-2157\"",
 			"fetched": 1501276738386
 		}
 	},
-	"_rev": "1-2cae6b3dd37227a6",
+	"_rev": "2-6c1a17fd7586a309",
 	"readme": "# array-uniq [![Build Status](https://travis-ci.org/sindresorhus/array-uniq.svg?branch=master)](https://travis-ci.org/sindresorhus/array-uniq)\n\n> Create an array without duplicates\n\nIt's already pretty fast, but will be much faster when [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) becomes available in V8 (especially with large arrays).\n\n\n## Install\n\n```\n$ npm install --save array-uniq\n```\n\n\n## Usage\n\n```js\nconst arrayUniq = require('array-uniq');\n\narrayUniq([1, 1, 2, 3, 3]);\n//=> [1, 2, 3]\n\narrayUniq(['foo', 'foo', 'bar', 'foo']);\n//=> ['foo', 'bar']\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

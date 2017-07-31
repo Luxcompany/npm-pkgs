@@ -1557,13 +1557,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.isarguments-3.1.0.tgz": {
+			"shasum": "2f573d85c6a24289ff00663b491c1d338ff3458a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f6802f-7680\"",
 			"fetched": 1501276739168
 		}
 	},
-	"_rev": "1-3f63508514e6f464",
+	"_rev": "2-5e5c37fdc9050f04",
 	"readme": "# lodash.isarguments v3.1.0\n\nThe [lodash](https://lodash.com/) method `_.isArguments` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.isarguments\n```\n\nIn Node.js:\n```js\nvar isArguments = require('lodash.isarguments');\n```\n\nSee the [documentation](https://lodash.com/docs#isArguments) or [package source](https://github.com/lodash/lodash/blob/3.1.0-npm-packages/lodash.isarguments) for more details.\n"
 }

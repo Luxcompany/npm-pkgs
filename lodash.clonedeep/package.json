@@ -2106,13 +2106,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.clonedeep-4.5.0.tgz": {
+			"shasum": "e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58467d04-a0b9\"",
 			"fetched": 1501276766348
 		}
 	},
-	"_rev": "1-dae13177313f062f",
+	"_rev": "2-df6a964ae6551634",
 	"readme": "# lodash.clonedeep v4.5.0\n\nThe [lodash](https://lodash.com/) method `_.cloneDeep` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.clonedeep\n```\n\nIn Node.js:\n```js\nvar cloneDeep = require('lodash.clonedeep');\n```\n\nSee the [documentation](https://lodash.com/docs#cloneDeep) or [package source](https://github.com/lodash/lodash/blob/4.5.0-npm-packages/lodash.clonedeep) for more details.\n"
 }

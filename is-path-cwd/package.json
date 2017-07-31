@@ -136,13 +136,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-path-cwd-1.0.0.tgz": {
+			"shasum": "d225ec23132e89edd38fda767472e62e65f1106d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59162dd5-d5f\"",
 			"fetched": 1501276784249
 		}
 	},
-	"_rev": "1-f4d8cc29c0e40ed3",
+	"_rev": "2-e69cc5ec8e0b2084",
 	"readme": "# is-path-cwd [![Build Status](https://travis-ci.org/sindresorhus/is-path-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/is-path-cwd)\n\n> Check if a path is [CWD](http://en.wikipedia.org/wiki/Working_directory)\n\n\n## Install\n\n```sh\n$ npm install --save is-path-cwd\n```\n\n\n## Usage\n\n```js\nvar isPathCwd = require('is-path-cwd');\n\nisPathCwd(process.cwd());\n//=> true\n\nisPathCwd('unicorn');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

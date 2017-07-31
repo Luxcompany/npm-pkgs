@@ -206,13 +206,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"dom-serializer-0.1.0.tgz": {
+			"shasum": "073c697546ce0780ce23be4a28e293e40bc30c82"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818cd89-107d\"",
 			"fetched": 1501276786484
 		}
 	},
-	"_rev": "1-14846b5281beda56",
+	"_rev": "2-9302e7f7e23894e5",
 	"readme": "ERROR: No README data found!"
 }

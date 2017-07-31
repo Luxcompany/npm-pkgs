@@ -184,13 +184,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"https-browserify-0.0.1.tgz": {
+			"shasum": "3f91365cabe60b77ed0ebba24b454e3e09d95a82"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58e42db4-1204\"",
 			"fetched": 1501276795736
 		}
 	},
-	"_rev": "1-2e532dd0e4698744",
+	"_rev": "2-9020d808a91a6e34",
 	"readme": "# https-browserify\n\nhttps module compatability for browserify\n\n# example\n\n``` js\nvar https = require('https-browserify')\nvar r = https.request('https://github.com')\nr.on('request', function (res) {\n  console.log(res)\n})\n```\n\n# methods\n\nThe API is the same as the client portion of the\n[node core https module](http://nodejs.org/docs/latest/api/https.html).\n\n# license\n\nMIT\n"
 }

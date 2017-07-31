@@ -1546,13 +1546,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cryptiles-2.0.5.tgz": {
+			"shasum": "3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"596dc6a8-6b15\"",
 			"fetched": 1501276758163
 		}
 	},
-	"_rev": "1-733adb09ead78cac",
+	"_rev": "2-c6b1d8c200bcc8d8",
 	"readme": "cryptiles\n=========\n\nGeneral purpose crypto utilities\n\n[![Build Status](https://secure.travis-ci.org/hapijs/cryptiles.png)](http://travis-ci.org/hapijs/cryptiles)\n\nLead Maintainer - [C J Silverio](https://github.com/ceejbot)\n\n## Methods\n\n### `randomString(<Number> size)`\nReturns a cryptographically strong pseudo-random data string. Takes a size argument for the length of the string.\n\n### `randomDigits(<Number> size)`\nReturns a cryptographically strong pseudo-random data string consisting of only numerical digits (0-9). Takes a size argument for the length of the string.\n\n### `fixedTimeComparison(<String> a, <String> b)`\nCompare two strings using fixed time algorithm (to prevent time-based analysis of MAC digest match). Returns `true` if the strings match, `false` if they differ.\n"
 }

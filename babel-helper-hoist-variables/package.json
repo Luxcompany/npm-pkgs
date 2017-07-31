@@ -1981,13 +1981,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-hoist-variables-6.24.1.tgz": {
+			"shasum": "1ecb27689c9d25513eadbc9914a73f5408be7a76"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d77-9a4a\"",
 			"fetched": 1501276774778
 		}
 	},
-	"_rev": "1-1eda0ea227a6b4e8",
+	"_rev": "2-abf4af6f2504ace6",
 	"readme": "# babel-helper-hoist-variables\n\n## Usage\n\nTODO\n"
 }

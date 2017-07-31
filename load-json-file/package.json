@@ -317,6 +317,9 @@
 	"_attachments": {
 		"load-json-file-2.0.0.tgz": {
 			"shasum": "7947e42149af80d696cbf797bcaabcfe1fe29ca8"
+		},
+		"load-json-file-1.1.0.tgz": {
+			"shasum": "956905708d58b4bab4c2261b04f59f31c99374c0"
 		}
 	},
 	"_uplinks": {
@@ -325,6 +328,6 @@
 			"fetched": 1501274970388
 		}
 	},
-	"_rev": "2-e0d17f8f973b60bc",
+	"_rev": "3-f4b0de2c2135c629",
 	"readme": "# load-json-file [![Build Status](https://travis-ci.org/sindresorhus/load-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/load-json-file)\n\n> Read and parse a JSON file\n\n[Strips UTF-8 BOM](https://github.com/sindresorhus/strip-bom), uses [`graceful-fs`](https://github.com/isaacs/node-graceful-fs), and throws more [helpful JSON errors](https://github.com/sindresorhus/parse-json).\n\n\n## Install\n\n```\n$ npm install --save load-json-file\n```\n\n\n## Usage\n\n```js\nconst loadJsonFile = require('load-json-file');\n\nloadJsonFile('foo.json').then(json => {\n\tconsole.log(json);\n\t//=> {foo: true}\n});\n```\n\n\n## API\n\n### loadJsonFile(filepath)\n\nReturns a promise for the parsed JSON.\n\n### loadJsonFile.sync(filepath)\n\nReturns the parsed JSON.\n\n\n## Related\n\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

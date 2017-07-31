@@ -1806,13 +1806,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-syntax-trailing-function-commas-6.22.0.tgz": {
+			"shasum": "ba0360937f8d06e40180a43fe0d5616fff532cf3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d63-9ad6\"",
 			"fetched": 1501276776191
 		}
 	},
-	"_rev": "1-74e789470804c377",
+	"_rev": "2-777884db058900ec",
 	"readme": "# babel-plugin-syntax-trailing-function-commas\n\nCompile trailing function commas to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-trailing-function-commas\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-trailing-function-commas\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-trailing-function-commas script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-trailing-function-commas\"]\n});\n```\n"
 }

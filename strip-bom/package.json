@@ -642,13 +642,20 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"strip-bom-2.0.0.tgz": {
+			"shasum": "6219a85616520491f35788bdbf1447a99c7e6b0e"
+		},
+		"strip-bom-3.0.0.tgz": {
+			"shasum": "2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5724d724-2d4d\"",
 			"fetched": 1501274970466
 		}
 	},
-	"_rev": "1-a946abc6caa18d9f",
+	"_rev": "3-51d4b892dd19138a",
 	"readme": "# strip-bom [![Build Status](https://travis-ci.org/sindresorhus/strip-bom.svg?branch=master)](https://travis-ci.org/sindresorhus/strip-bom)\n\n> Strip UTF-8 [byte order mark](http://en.wikipedia.org/wiki/Byte_order_mark#UTF-8) (BOM) from a string\n\nFrom Wikipedia:\n\n> The Unicode Standard permits the BOM in UTF-8, but does not require nor recommend its use. Byte order has no meaning in UTF-8.\n\n\n## Install\n\n```\n$ npm install --save strip-bom\n```\n\n\n## Usage\n\n```js\nconst stripBom = require('strip-bom');\n\nstripBom('\\uFEFFunicorn');\n//=> 'unicorn'\n```\n\n\n## Related\n\n- [strip-bom-cli](https://github.com/sindresorhus/strip-bom-cli) - CLI for this module\n- [strip-bom-buf](https://github.com/sindresorhus/strip-bom-buf) - Buffer version of this module\n- [strip-bom-stream](https://github.com/sindresorhus/strip-bom-stream) - Stream version of this module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

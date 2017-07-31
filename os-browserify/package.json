@@ -300,13 +300,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"os-browserify-0.2.1.tgz": {
+			"shasum": "63fc4ccee5d2d7763d26bbf8601078e6c2e0044f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58f82d2d-19d6\"",
 			"fetched": 1501276795720
 		}
 	},
-	"_rev": "1-8c3f6059ca1c6706",
+	"_rev": "2-c1f507734dd049d7",
 	"readme": "# os-browserify\n\nThe [os](https://nodejs.org/api/os.html) module from node.js, but for browsers.\n\nWhen you `require('os')` in [browserify](http://github.com/substack/node-browserify), this module will be loaded.\n"
 }

@@ -253,13 +253,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"uglify-to-browserify-1.0.2.tgz": {
+			"shasum": "6e0924d6bda6b5afe349e39a6d632850a0f882b7"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"594d0b24-191d\"",
 			"fetched": 1501276750346
 		}
 	},
-	"_rev": "1-698473e695c501c6",
+	"_rev": "2-82b484059f855fd8",
 	"readme": "# uglify-to-browserify\n\nA transform to make UglifyJS work in browserify.\n\n[![Build Status](https://img.shields.io/travis/ForbesLindesay/uglify-to-browserify/master.svg)](https://travis-ci.org/ForbesLindesay/uglify-to-browserify)\n[![Dependency Status](https://img.shields.io/david/ForbesLindesay/uglify-to-browserify.svg)](https://david-dm.org/ForbesLindesay/uglify-to-browserify)\n[![NPM version](https://img.shields.io/npm/v/uglify-to-browserify.svg)](https://www.npmjs.com/package/uglify-to-browserify)\n[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/uglify-to-browserify.svg)](https://greenkeeper.io/)\n\n## Installation\n\n    npm install uglify-to-browserify\n\n## License\n\n  MIT\n"
 }

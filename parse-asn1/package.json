@@ -696,13 +696,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"parse-asn1-5.1.0.tgz": {
+			"shasum": "37c4f9b7ed3ab65c74817b5f2480937fbf97c712"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58c6ac82-3a74\"",
 			"fetched": 1501276797557
 		}
 	},
-	"_rev": "1-5182757be6ae9d3d",
+	"_rev": "2-f47cb221700b0bc5",
 	"readme": "#parse-asn1\n\n[![TRAVIS](https://secure.travis-ci.org/crypto-browserify/parse-asn1.png)](http://travis-ci.org/crypto-browserify/parse-asn1)\n[![NPM](http://img.shields.io/npm/v/parse-asn1.svg)](https://www.npmjs.org/package/parse-asn1)\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\nutility library for parsing asn1 files for use with browserify-sign.\n"
 }

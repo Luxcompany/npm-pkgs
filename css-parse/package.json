@@ -757,13 +757,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"css-parse-1.7.0.tgz": {
+			"shasum": "321f6cf73782a6ff751111390fc05e2c657d8c9b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59291863-31a2\"",
 			"fetched": 1501276792955
 		}
 	},
-	"_rev": "1-f05743fd48afb272",
+	"_rev": "2-c5246d25f0f11123",
 	"readme": "# css-parse\n\n  JavaScript CSS parser for Node.js (exports the `parse` method of [css](https://github.com/reworkcss/css))\n\n## Installation\n\n  $ npm install css-parse\n\n## Usage\n\n  Please see the [css](https://github.com/reworkcss/css) module documentation.\n\n## License\n\n  MIT\n"
 }

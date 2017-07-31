@@ -61,12 +61,16 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"jsonify-0.0.0.tgz": {
+			"shasum": "2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5104666a-52a\"",
 			"fetched": 1501276758069
 		}
 	},
-	"_rev": "1-011e2598440f8071"
+	"_rev": "2-1073fcb7d37ec521"
 }

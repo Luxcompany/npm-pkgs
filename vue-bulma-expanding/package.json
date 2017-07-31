@@ -133,13 +133,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-expanding-0.0.1.tgz": {
+			"shasum": "fcf71c2e8ef09157175bd5187eb71b3ce75a2229"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b37d10-12ee\"",
 			"fetched": 1501276734990
 		}
 	},
-	"_rev": "1-3df079d832f67c83",
+	"_rev": "2-fb909ef5e4f85e94",
 	"readme": "# Expanding\n\nThe Expanding Transition Component for Vue 2.0\n\n## Installation\n\n```\n$ npm install vue-bulma-expanding --save\n```\n\n## Examples\n\n```vue\n<template>\n  <router-link to=\"/charts\" aria-expanded=\"show\" @click.native=\"show = !show\">\n    <span class=\"icon is-small\"><i class=\"fa fa-bar-chart-o\"></i></span>\n    Charts\n    <span class=\"icon is-small is-angle\"><i class=\"fa fa-angle-down\"></i></span>\n  </router-link>\n  <expanding>\n    <ul v-show=\"show\">\n      <li>\n        <router-link to=\"/charts/chartjs\">\n          ChartJs\n        </router-link>\n      </li>\n      <li>\n        <router-link to=\"/charts/chartist\">\n          Chartist\n        </router-link>\n      </li>\n      <li>\n        <router-link to=\"/charts/peity\">\n          Peity\n        </router-link>\n      </li>\n      <li>\n        <router-link to=\"/charts/plotly\">\n          Plotly\n        </router-link>\n      </li>\n    </ul>\n  </expanding>\n</template>\n\n<script>\nimport Expanding from '../Expanding'\n\nexport default {\n  components: {\n    Expanding\n  },\n\n  data () {\n    return {\n      show: false\n    }\n  }\n}\n</script>\n```\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
 }

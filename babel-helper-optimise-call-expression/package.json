@@ -2041,13 +2041,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-optimise-call-expression-6.24.1.tgz": {
+			"shasum": "f7a13427ba9f73f8f4fa993c54a97882d1244257"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d7b-a5e4\"",
 			"fetched": 1501276774419
 		}
 	},
-	"_rev": "1-ba1cef4bdf33f973",
+	"_rev": "2-2269b93330829121",
 	"readme": "# babel-helper-optimise-call-expression\n\n## Usage\n\nTODO\n"
 }

@@ -271,13 +271,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-brace-0.1.0.tgz": {
+			"shasum": "c56483b93dc2545eee041ec0c5940af49e718c5f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b38b31-1967\"",
 			"fetched": 1501276735069
 		}
 	},
-	"_rev": "1-24ed421a8604ce91",
+	"_rev": "2-5a23b7d6efbc308b",
 	"readme": "# Brace\n\nCode editor powered by Vuejs and browserify Ace (Brace)\n\n## Installation\n\n```\n$ npm install vue-bulma-brace --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div>\n    <brace style=\"height: 500px\" \n      :fontsize=\"'12px'\" \n      :theme=\"'github'\" \n      :mode=\"'json'\"\n      :codefolding=\"'markbegin'\"\n      :softwrap=\"'free'\"\n      :selectionstyle=\"'text'\"\n      :highlightline=\"true\">\n    </brace>\n  </div>\n</template>\n\n<script>\nimport Brace from 'vue-bulma-brace'\n\nexport default {\n  components: {\n    Brace\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-dev-yellow.svg)\n\n---\n"
 }

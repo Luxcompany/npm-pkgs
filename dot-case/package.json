@@ -722,13 +722,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"dot-case-2.1.1.tgz": {
+			"shasum": "34dcf37f50a8e93c2b3bca8bb7fb9155c7da3bee"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58cc8690-3a68\"",
 			"fetched": 1501276793924
 		}
 	},
-	"_rev": "1-864ffe5501d671a5",
+	"_rev": "2-16beebfad36db054",
 	"readme": "# Dot Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n\nDot case a string.\n\nSupports Unicode (non-ASCII characters) and non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will result in an empty string.\n\n## Installation\n\n```\nnpm install dot-case --save\n```\n\n## Usage\n\n```javascript\nvar dotCase = require('dot-case')\n\ndotCase('string')        //=> \"string\"\ndotCase('camelCase')     //=> \"camel.case\"\ndotCase('sentence case') //=> \"sentence.case\"\n\ndotCase('MY STRING', 'tr') //=> \"my.strıng\"\n```\n\n## Typings\n\nIncludes a [TypeScript definition](dot-case.d.ts).\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/dot-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/dot-case\n[downloads-image]: https://img.shields.io/npm/dm/dot-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/dot-case\n[travis-image]: https://img.shields.io/travis/blakeembrey/dot-case.svg?style=flat\n[travis-url]: https://travis-ci.org/blakeembrey/dot-case\n[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/dot-case.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/blakeembrey/dot-case?branch=master\n"
 }

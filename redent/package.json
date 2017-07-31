@@ -166,13 +166,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"redent-1.0.0.tgz": {
+			"shasum": "cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5782c760-10a3\"",
 			"fetched": 1501276767083
 		}
 	},
-	"_rev": "1-90eeafc19f69b115",
+	"_rev": "2-ee62501ccbdd18c8",
 	"readme": "# redent [![Build Status](https://travis-ci.org/sindresorhus/redent.svg?branch=master)](https://travis-ci.org/sindresorhus/redent)\n\n> [Strip redundant indentation](https://github.com/sindresorhus/strip-indent) and [indent the string](https://github.com/sindresorhus/indent-string)\n\n\n## Install\n\n```\n$ npm install --save redent\n```\n\n\n## Usage\n\n```js\nconst redent = require('redent');\n\nredent('\\n  foo\\n    bar\\n', 1);\n//=> '\\n foo\\n   bar\\n'\n```\n\n\n## API\n\n### redent(input, [count], [indent])\n\n#### input\n\nType: `string`\n\n#### count\n\nType: `number`<br>\nDefault: `0`\n\nHow many times you want `indent` repeated.\n\n#### indent\n\nType: `string`<br>\nDefault: `' '`\n\nString to use for the indent.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

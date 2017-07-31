@@ -147,13 +147,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"trim-right-1.0.1.tgz": {
+			"shasum": "cb2e1203067e0c8de1f614094b9fe45704ea6003"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"55a6c06b-f47\"",
 			"fetched": 1501276772990
 		}
 	},
-	"_rev": "1-7ce3b65235189dc9",
+	"_rev": "2-6941c4a5ebfdbdf6",
 	"readme": "# trim-right [![Build Status](https://travis-ci.org/sindresorhus/trim-right.svg?branch=master)](https://travis-ci.org/sindresorhus/trim-right)\n\n> Similar to [`String#trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) but removes only whitespace on the right\n\n\n## Install\n\n```\n$ npm install --save trim-right\n```\n\n\n## Usage\n\n```js\nvar trimRight = require('trim-right');\n\ntrimRight('  unicorn  ');\n//=> '  unicorn'\n```\n\n\n## Related\n\n- [`trim-left`](https://github.com/sindresorhus/trim-left) - Similar to `String#trim()` but removes only whitespace on the left\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

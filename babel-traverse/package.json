@@ -5074,13 +5074,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-traverse-6.25.0.tgz": {
+			"shasum": "2257497e2fcd19b89edc13c4c91381f9512496f1"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d9d-17829\"",
 			"fetched": 1501276772708
 		}
 	},
-	"_rev": "1-923ca1459080bb0c",
+	"_rev": "2-27144ca3404ef8a9",
 	"readme": "# babel-traverse\n"
 }

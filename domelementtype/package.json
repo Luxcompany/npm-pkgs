@@ -364,13 +364,20 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"domelementtype-1.3.0.tgz": {
+			"shasum": "b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
+		},
+		"domelementtype-1.1.3.tgz": {
+			"shasum": "bd28773e2642881aec51544924299c5cd822185b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5818cd64-1b97\"",
 			"fetched": 1501276786374
 		}
 	},
-	"_rev": "1-695c00dca73efcb9",
+	"_rev": "3-a8ccc9538921a008",
 	"readme": "all the types of nodes in htmlparser2's dom\n"
 }

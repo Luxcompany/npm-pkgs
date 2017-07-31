@@ -288,13 +288,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"querystring-0.2.0.tgz": {
+			"shasum": "b209849203bb25df820da756e747005878521620"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59532074-1816\"",
 			"fetched": 1501276798651
 		}
 	},
-	"_rev": "1-b7a6ac854f276ff2",
+	"_rev": "2-07ed548bf79c858a",
 	"readme": "# querystring\n\n[![Build Status](https://secure.travis-ci.org/Gozala/querystring.png)](http://travis-ci.org/Gozala/querystring)\n\n\n[![Browser support](http://ci.testling.com/Gozala/querystring.png)](http://ci.testling.com/Gozala/querystring)\n\n\n\nNode's querystring module for all engines.\n\n## Install ##\n\n    npm install querystring\n\n"
 }

@@ -548,13 +548,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-cleave-1.2.2.tgz": {
+			"shasum": "857f428c6c92b64ee1c4a82bfba654dea20d71af"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5948e9c9-2d48\"",
 			"fetched": 1501276735084
 		}
 	},
-	"_rev": "1-48778ef9eaafc672",
+	"_rev": "2-adad8d896d407320",
 	"readme": "# Cleave\r\n\r\nCleave component is based on [cleave.js](https://github.com/nosir/cleave.js) for Vue Bulma.\r\n\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-cleave --save\r\n```\r\n\r\n\r\n## Examples\r\n\r\n```vue\r\n<template>\r\n  <cleave placeholder=\"Enter your credit card number\" :options=\"{ creditCard: true }\"></cleave>\r\n</template>\r\n\r\n<script>\r\nimport Cleave from 'vue-cleave'\r\n\r\nexport default {\r\n  components: {\r\n    Cleave\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n"
 }

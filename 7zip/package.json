@@ -401,13 +401,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"7zip-0.0.6.tgz": {
+			"shasum": "9cafb171af82329490353b4816f03347aa150a30"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5737ccf2-2040\"",
 			"fetched": 1501276782467
 		}
 	},
-	"_rev": "1-6dba63f2647b88ba",
+	"_rev": "2-cb03ef6a541d680d",
 	"readme": "# 7zip Windows Package via Node.js\n\n<a href=\"https://www.npmjs.com/package/7zip\"><img width=\"134\" height=\"20\" src=\"https://img.shields.io/npm/dm/7zip.svg\"></a>&nbsp;&nbsp;<a href=\"https://github.com/fritx/win-7zip\"><img width=\"84\" height=\"20\" src=\"https://img.shields.io/badge/license-LGPL-yellow.svg\"></a>\n\nThis npm package contains a lite-version of [7zip](http://7-zip.org), ≈2.4MB.\n\nAnd the goal is to bring users a different and easy way to access 7zip.\n\nBeing used at library [cross-unzip](https://github.com/fritx/cross-unzip).\n\n```plain\n$ npm install -g 7zip   # global\n```\n\n```plain\n$ 7z --help   # and you get 7z\n```\n\n```js\n// $ npm install 7zip   # local\n// even in node.js\nvar _7z = require('7zip')['7z']\nvar task = spawn(_7z, ['x', 'somefile.7z', '-y'])\n```\n\n## License of 7zip\n\n```plain\n7-Zip Copyright (C) 1999-2015 Igor Pavlov.\n\nLicenses for files are:\n\n  1) 7z.dll: GNU LGPL + unRAR restriction\n  2) All other files:  GNU LGPL\n```\n"
 }

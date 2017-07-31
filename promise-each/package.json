@@ -1,0 +1,484 @@
+{
+	"name": "promise-each",
+	"versions": {
+		"1.0.0": {
+			"name": "promise-each",
+			"version": "1.0.0",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js",
+				"lint": "eslint ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/yoshuawuyts/promise-each"
+			},
+			"keywords": [
+				"promise",
+				"native",
+				"bluebird",
+				"each"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"native-or-bluebird": "^1.1.2"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"eslint": "^0.12.0",
+				"istanbul": "^0.3.5",
+				"tap-bail": "0.0.0",
+				"tap-spec": "^2.2.0",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"index.js",
+				"README.md"
+			],
+			"gitHead": "a15ca4565aa2a85721b79afbb00eb59bd6e41043",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each",
+			"_id": "promise-each@1.0.0",
+			"_shasum": "85a440c8e446b276416a2bcd17acd86d27c40b44",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.10.33",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"dist": {
+				"shasum": "85a440c8e446b276416a2bcd17acd86d27c40b44",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-1.0.0.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "promise-each",
+			"version": "1.0.1",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js",
+				"lint": "eslint ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/yoshuawuyts/promise-each"
+			},
+			"keywords": [
+				"promise",
+				"native",
+				"bluebird",
+				"each"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"native-or-bluebird": "^1.1.2"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"eslint": "^0.12.0",
+				"istanbul": "^0.3.5",
+				"tap-bail": "0.0.0",
+				"tap-spec": "^2.2.0",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"index.js",
+				"README.md"
+			],
+			"gitHead": "b1bdc3a59ca9cba92326ec7a0355798a18c397d4",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each",
+			"_id": "promise-each@1.0.1",
+			"_shasum": "2bda51cc0406ef01d6a724e7ec5663d3d72a62f5",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.10.33",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"dist": {
+				"shasum": "2bda51cc0406ef01d6a724e7ec5663d3d72a62f5",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-1.0.1.tgz"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "promise-each",
+			"version": "2.0.0",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard && NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/yoshuawuyts/promise-each.git"
+			},
+			"keywords": [
+				"bluebird",
+				"each",
+				"native",
+				"promise"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"native-or-bluebird": "^1.1.2"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"istanbul": "^0.3.5",
+				"standard": "^4.5.2",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"gitHead": "75483295d79b5469c02a0b7bd5673a0440331317",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each#readme",
+			"_id": "promise-each@2.0.0",
+			"_shasum": "5f143f4fbdf05366bc745a63c08689d00963a82b",
+			"_from": ".",
+			"_npmVersion": "3.0.0",
+			"_nodeVersion": "2.3.0",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"dist": {
+				"shasum": "5f143f4fbdf05366bc745a63c08689d00963a82b",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "promise-each",
+			"version": "2.1.0",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard && NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/yoshuawuyts/promise-each.git"
+			},
+			"keywords": [
+				"bluebird",
+				"each",
+				"native",
+				"promise"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"any-promise": "^0.1.0"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"istanbul": "^0.3.5",
+				"standard": "^4.5.2",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"gitHead": "79699ec966151e09eb507d875b8c04f403a79205",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each#readme",
+			"_id": "promise-each@2.1.0",
+			"_shasum": "a7d590e804a04d74c93f3b5169226b213c9d52e6",
+			"_from": ".",
+			"_npmVersion": "3.1.0",
+			"_nodeVersion": "2.3.0",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"dist": {
+				"shasum": "a7d590e804a04d74c93f3b5169226b213c9d52e6",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "promise-each",
+			"version": "2.1.1",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard && NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/yoshuawuyts/promise-each.git"
+			},
+			"keywords": [
+				"bluebird",
+				"each",
+				"native",
+				"promise"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"any-promise": "^0.1.0"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"istanbul": "^0.3.5",
+				"standard": "^4.5.2",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"gitHead": "340875e0edcb99e1fd64fb6ab42ac14cb7ba0f91",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each#readme",
+			"_id": "promise-each@2.1.1",
+			"_shasum": "656bbf031d5c67a30f08683c597b39cb419d53d1",
+			"_from": ".",
+			"_npmVersion": "3.1.0",
+			"_nodeVersion": "2.3.0",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"dist": {
+				"shasum": "656bbf031d5c67a30f08683c597b39cb419d53d1",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "promise-each",
+			"version": "2.1.2",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard && NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/yoshuawuyts/promise-each.git"
+			},
+			"keywords": [
+				"bluebird",
+				"each",
+				"native",
+				"promise"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"any-promise": "^0.1.0"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"istanbul": "^0.3.5",
+				"standard": "^4.5.2",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"gitHead": "c6b271a03036d72d0fade7718af3f9f18ac10e00",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each#readme",
+			"_id": "promise-each@2.1.2",
+			"_shasum": "faf70387c8980d270b902c1e8ea66a9ae10ad94d",
+			"_from": ".",
+			"_npmVersion": "2.14.5",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"dist": {
+				"shasum": "faf70387c8980d270b902c1e8ea66a9ae10ad94d",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.2.0": {
+			"name": "promise-each",
+			"version": "2.2.0",
+			"description": "Call a function for each value in an array and return a Promise",
+			"main": "index.js",
+			"scripts": {
+				"test": "standard && NODE_ENV=test tape test.js",
+				"test-cov": "NODE_ENV=test istanbul cover test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/yoshuawuyts/promise-each.git"
+			},
+			"keywords": [
+				"bluebird",
+				"each",
+				"native",
+				"promise"
+			],
+			"license": "MIT",
+			"dependencies": {
+				"any-promise": "^0.1.0"
+			},
+			"devDependencies": {
+				"bluebird": "^2.8.2",
+				"istanbul": "^0.3.5",
+				"standard": "^4.5.2",
+				"tape": "^3.4.0"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"gitHead": "3ccfec766b9eaf8efc2cb33e64d984ed0cb36e33",
+			"bugs": {
+				"url": "https://github.com/yoshuawuyts/promise-each/issues"
+			},
+			"homepage": "https://github.com/yoshuawuyts/promise-each#readme",
+			"_id": "promise-each@2.2.0",
+			"_shasum": "3353174eff2694481037e04e01f77aa0fb6d1b60",
+			"_from": ".",
+			"_npmVersion": "2.14.5",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "yoshuawuyts",
+				"email": "i@yoshuawuyts.com"
+			},
+			"dist": {
+				"shasum": "3353174eff2694481037e04e01f77aa0fb6d1b60",
+				"tarball": "https://registry.npmjs.org/promise-each/-/promise-each-2.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "yoshuawuyts",
+					"email": "i@yoshuawuyts.com"
+				}
+			],
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "2.2.0"
+	},
+	"_distfiles": {
+		"promise-each-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-1.0.0.tgz",
+			"sha": "85a440c8e446b276416a2bcd17acd86d27c40b44",
+			"registry": "npmjs"
+		},
+		"promise-each-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-1.0.1.tgz",
+			"sha": "2bda51cc0406ef01d6a724e7ec5663d3d72a62f5",
+			"registry": "npmjs"
+		},
+		"promise-each-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-2.0.0.tgz",
+			"sha": "5f143f4fbdf05366bc745a63c08689d00963a82b",
+			"registry": "npmjs"
+		},
+		"promise-each-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.0.tgz",
+			"sha": "a7d590e804a04d74c93f3b5169226b213c9d52e6",
+			"registry": "npmjs"
+		},
+		"promise-each-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.1.tgz",
+			"sha": "656bbf031d5c67a30f08683c597b39cb419d53d1",
+			"registry": "npmjs"
+		},
+		"promise-each-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-2.1.2.tgz",
+			"sha": "faf70387c8980d270b902c1e8ea66a9ae10ad94d",
+			"registry": "npmjs"
+		},
+		"promise-each-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/promise-each/-/promise-each-2.2.0.tgz",
+			"sha": "3353174eff2694481037e04e01f77aa0fb6d1b60",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"promise-each-2.2.0.tgz": {
+			"shasum": "3353174eff2694481037e04e01f77aa0fb6d1b60"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58bd23c4-2df7\"",
+			"fetched": 1501534213684
+		}
+	},
+	"_rev": "2-7a3dd5cf9557899b",
+	"readme": "# promise-each\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![Downloads][downloads-image]][downloads-url]\n\nCall a function [for each][mdn] value in an array and return a [Promise][promise].\nShould only be used for side effects. Waits for promises to resolve before\nproceeding to the next value.\n\n## Installation\n```bash\n$ npm install promise-each\n```\n\n## Usage\n```js\nconst each = require('promise-each')\n\nPromise.resolve([1, 2, 3])\n  .then(each((val) => console.log(val)))\n// => 1\n// => 2\n// => 3\n```\n\n## Why?\nThis module is basically equivalent to [`bluebird.each`][bluebird], but it's\nhandy to have the one function you need instead of a kitchen sink. Modularity!\nEspecially handy if you're serving to the browser and need to reduce your\njavascript bundle size.\n\nWorks great in the browser with\n[browserify](http://github.com/substack/node-browserify)!\n\n## See Also\n- [promise-every](https://github.com/yoshuawuyts/promise-every)\n- [promise-filter](https://github.com/yoshuawuyts/promise-filter)\n- [promise-map](https://github.com/yoshuawuyts/promise-map)\n- [promise-reduce](https://github.com/yoshuawuyts/promise-reduce)\n- [promise-some](https://github.com/yoshuawuyts/promise-some)\n\n## License\n[MIT](https://tldrlegal.com/license/mit-license)\n\n[npm-image]: https://img.shields.io/npm/v/promise-each.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/promise-each\n[travis-image]: https://img.shields.io/travis/yoshuawuyts/promise-each.svg?style=flat-square\n[travis-url]: https://travis-ci.org/yoshuawuyts/promise-each\n[coveralls-image]: https://img.shields.io/coveralls/yoshuawuyts/promise-each.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/yoshuawuyts/promise-each?branch=master\n[downloads-image]: http://img.shields.io/npm/dm/promise-each.svg?style=flat-square\n[downloads-url]: https://npmjs.org/package/promise-each\n\n[mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/each\n[promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n[bluebird]: https://github.com/petkaantonov/bluebird/blob/master/API.md#eachfunction-iterator---promise\n"
+}

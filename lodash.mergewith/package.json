@@ -1575,13 +1575,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.mergewith-4.6.0.tgz": {
+			"shasum": "150cf0a16791f5903b8891eab154609274bdea55"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f68097-8043\"",
 			"fetched": 1501276790922
 		}
 	},
-	"_rev": "1-2ff9cd3f50067104",
+	"_rev": "2-0aae177698b97f13",
 	"readme": "# lodash.mergewith v4.6.0\n\nThe [lodash](https://lodash.com/) method `_.mergeWith` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.mergewith\n```\n\nIn Node.js:\n```js\nvar mergeWith = require('lodash.mergewith');\n```\n\nSee the [documentation](https://lodash.com/docs#mergeWith) or [package source](https://github.com/lodash/lodash/blob/4.6.0-npm-packages/lodash.mergewith) for more details.\n"
 }

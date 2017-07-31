@@ -2125,13 +2125,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-regex-6.24.1.tgz": {
+			"shasum": "d36e22fab1008d79d88648e32116868128456ce8"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d7b-9d3a\"",
 			"fetched": 1501276775034
 		}
 	},
-	"_rev": "1-8939361de55a27fc",
+	"_rev": "2-30b27a8a671d164d",
 	"readme": "# babel-helper-regex\n\n## Usage\n\nTODO\n"
 }

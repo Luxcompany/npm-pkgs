@@ -197,13 +197,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"doctypes-1.1.0.tgz": {
+			"shasum": "ea80b106a87538774e8a3a4a5afe293de489e0a9"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595b9d9b-12fe\"",
 			"fetched": 1501276760475
 		}
 	},
-	"_rev": "1-3c74c6f43bca3b6f",
+	"_rev": "2-dc2166fb397c8bd2",
 	"readme": "# doctypes\n\nShorthands for commonly used doctypes\n\n[![Build Status](https://img.shields.io/travis/pugjs/doctypes/master.svg)](https://travis-ci.org/pugjs/doctypes)\n[![NPM version](https://img.shields.io/npm/v/doctypes.svg)](https://www.npmjs.org/package/doctypes)\n\n## Installation\n\n    npm install doctypes\n\n## Usage\n\n```js\nvar assert = require('assert');\nvar doctypes = require('doctypes');\n\nassert(doctypes['html'] === '<!DOCTYPE html>');\nassert(doctypes['xml'] === '<?xml version=\"1.0\" encoding=\"utf-8\" ?>');\n```\n\n## License\n\n  MIT\n"
 }

@@ -395,13 +395,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"cli-cursor-2.1.0.tgz": {
+			"shasum": "b35dac376479facc3e94747d41d0d0f5238ffcb5"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58f28817-1ed4\"",
 			"fetched": 1501276784499
 		}
 	},
-	"_rev": "1-11c8ce27b60e2a68",
+	"_rev": "2-a24cb958e4a6ca40",
 	"readme": "# cli-cursor [![Build Status](https://travis-ci.org/sindresorhus/cli-cursor.svg?branch=master)](https://travis-ci.org/sindresorhus/cli-cursor)\n\n> Toggle the CLI cursor\n\nThe cursor is [gracefully restored](https://github.com/sindresorhus/restore-cursor) if the process exits.\n\n\n## Install\n\n```\n$ npm install --save cli-cursor\n```\n\n\n## Usage\n\n```js\nconst cliCursor = require('cli-cursor');\n\ncliCursor.hide();\n\nconst unicornsAreAwesome = true;\ncliCursor.toggle(unicornsAreAwesome);\n```\n\n\n## API\n\n### .show([stream])\n\n### .hide([stream])\n\n### .toggle(force, [stream])\n\n`force` is useful to show or hide the cursor based on a boolean.\n\n#### stream\n\nType: `Stream`<br>\nDefault: `process.stderr`\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

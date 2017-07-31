@@ -270,13 +270,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-autosize-1.0.0.tgz": {
+			"shasum": "51481c86859bd67ded09fac8fa5ccd4cdeb80353"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58dbe1ec-15b2\"",
 			"fetched": 1501276734975
 		}
 	},
-	"_rev": "1-33e5ea952ba7c3cc",
+	"_rev": "2-071b2b7e33ebddf0",
 	"readme": "# vue-autosize\n\nA simple [Vue](https://github.com/vuejs/vue) directive for [autosize](https://github.com/jackmoore/autosize)\n\n## usage\n\n```\nvar Vue = require('vue')\nvar VueAutosize = require('vue-autosize')\n\nVue.use(VueAutosize)\n```\n\n```\n<textarea v-autosize=\"someData\">{{someData}}</textarea>\n```\n"
 }

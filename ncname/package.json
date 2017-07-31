@@ -286,13 +286,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"ncname-1.0.0.tgz": {
+			"shasum": "5b57ad18b1ca092864ef62b0b1ed8194f383b71c"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"53eb9db2-15cd\"",
 			"fetched": 1501276789343
 		}
 	},
-	"_rev": "1-9b67b22286320ae9",
+	"_rev": "2-9bdf5a82386cfa43",
 	"readme": "# ncname [![Build Status](https://travis-ci.org/sindresorhus/ncname.svg?branch=master)](https://travis-ci.org/sindresorhus/ncname)\n\n> Regular expression for matching [XML NCName](http://www.w3.org/TR/1999/REC-xml-names-19990114/#NT-NCName)\n\n\n## Install\n\n```sh\n$ npm install --save ncname\n```\n\n\n## Usage\n\n```js\nvar ncname = require('ncname');\n\nncname.test('hællæ');\n//=> true\n\nncname.test('$unicorn');\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

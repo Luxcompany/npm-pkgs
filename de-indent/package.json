@@ -166,13 +166,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"de-indent-1.0.2.tgz": {
+			"shasum": "b2038e846dc33baa5796128d0804b455b8c1e21d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"568bf766-df1\"",
 			"fetched": 1501276794846
 		}
 	},
-	"_rev": "1-5c54f51a5cd3b86f",
+	"_rev": "2-ea92ec41771b2a1e",
 	"readme": "ERROR: No README data found!"
 }

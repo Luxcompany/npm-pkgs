@@ -68,13 +68,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
-	"_uplinks": {
-		"npmjs": {
-			"etag": "W/\"59706f1e-9e2\"",
-			"fetched": 1501276786749
+	"_attachments": {
+		"utils-merge-1.0.0.tgz": {
+			"shasum": "0294fb922bb9375153541c4f7096231f287c8af8"
 		}
 	},
-	"_rev": "1-9cd5fa89c359b565",
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"597ee6de-9f1\"",
+			"fetched": 1501534232790
+		}
+	},
+	"_rev": "3-09e79c570ee59dd7",
 	"readme": "# utils-merge\n\nMerges the properties from a source object into a destination object.\n\n## Install\n\n    $ npm install utils-merge\n\n## Usage\n\n```javascript\nvar a = { foo: 'bar' }\n  , b = { bar: 'baz' };\n\nmerge(a, b);\n// => { foo: 'bar', bar: 'baz' }\n```\n\n## Tests\n\n    $ npm install\n    $ npm test\n\n[![Build Status](https://secure.travis-ci.org/jaredhanson/utils-merge.png)](http://travis-ci.org/jaredhanson/utils-merge)\n\n## Credits\n\n  - [Jared Hanson](http://github.com/jaredhanson)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>\n"
 }

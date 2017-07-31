@@ -213,13 +213,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"pinkie-promise-2.0.1.tgz": {
+			"shasum": "2135d6dfa7a358c069ac9b178776288228450ffa"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595568eb-1466\"",
 			"fetched": 1501276767911
 		}
 	},
-	"_rev": "1-30b463ecd6094836",
+	"_rev": "2-389700f322ab2491",
 	"readme": "# pinkie-promise [![Build Status](https://travis-ci.org/floatdrop/pinkie-promise.svg?branch=master)](https://travis-ci.org/floatdrop/pinkie-promise)\n\n> [ES2015 Promise](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects) ponyfill\n\nModule exports global Promise object (if available) or [`pinkie`](http://github.com/floatdrop/pinkie) Promise polyfill.\n\n## Install\n\n```\n$ npm install --save pinkie-promise\n```\n\n## Usage\n\n```js\nvar Promise = require('pinkie-promise');\n\nnew Promise(function (resolve) { resolve('unicorns'); });\n//=> Promise { 'unicorns' }\n```\n\n## Related\n\n- [pify](https://github.com/sindresorhus/pify) - Promisify a callback-style function\n\n## License\n\nMIT © [Vsevolod Strukchinsky](http://github.com/floatdrop)\n"
 }

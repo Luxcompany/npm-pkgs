@@ -681,13 +681,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"get-stdin-4.0.1.tgz": {
+			"shasum": "b968c6b0a04384324902e8bf1a5df32579a450fe"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"592c776d-3445\"",
 			"fetched": 1501276766333
 		}
 	},
-	"_rev": "1-d8aae2ab7ce193ab",
+	"_rev": "2-fb6b094efeedbeca",
 	"readme": "# get-stdin [![Build Status](https://travis-ci.org/sindresorhus/get-stdin.svg?branch=master)](https://travis-ci.org/sindresorhus/get-stdin)\n\n> Get [stdin](https://nodejs.org/api/process.html#process_process_stdin) as a string or buffer\n\n\n## Install\n\n```\n$ npm install --save get-stdin\n```\n\n\n## Usage\n\n```js\n// example.js\nconst getStdin = require('get-stdin');\n\ngetStdin().then(str => {\n\tconsole.log(str);\n\t//=> 'unicorns'\n});\n```\n\n```\n$ echo unicorns | node example.js\nunicorns\n```\n\n\n## API\n\nBoth methods returns a promise that is resolved when the `end` event fires on the `stdin` stream, indicating that there is no more data to be read.\n\n### getStdin()\n\nGet `stdin` as a string.\n\nIn a TTY context, a promise that resolves to an empty string is returned.\n\n### getStdin.buffer()\n\nGet `stdin` as a buffer.\n\nIn a TTY context, a promise that resolves to an empty buffer is returned.\n\n\n## Related\n\n- [get-stream](https://github.com/sindresorhus/get-stream) - Get a stream as a string or buffer\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

@@ -356,13 +356,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"proto-list-1.2.4.tgz": {
+			"shasum": "212d5bfe1318306a420f6402b8e26ff39647a849"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"555d2db9-1ac2\"",
 			"fetched": 1501276794659
 		}
 	},
-	"_rev": "1-632505f649ab9cc0",
+	"_rev": "2-7acc1fd49befb869",
 	"readme": "A list of objects, bound by their prototype chain.\n\nUsed in npm's config stuff.\n"
 }

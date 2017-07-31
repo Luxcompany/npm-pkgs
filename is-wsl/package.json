@@ -1,0 +1,179 @@
+{
+	"name": "is-wsl",
+	"versions": {
+		"1.0.0": {
+			"name": "is-wsl",
+			"version": "1.0.0",
+			"description": "Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/is-wsl.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"check",
+				"wsl",
+				"windows",
+				"subsystem",
+				"linux",
+				"detect",
+				"bash",
+				"process",
+				"console",
+				"terminal",
+				"is"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"proxyquire": "^1.7.11",
+				"xo": "*"
+			},
+			"ava": {
+				"require": "./pre-test"
+			},
+			"gitHead": "c6ca0e95be14195689497e93e4406a55b5971022",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/is-wsl/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/is-wsl#readme",
+			"_id": "is-wsl@1.0.0",
+			"_shasum": "48ad3669f346b13c36578715c4f180a6685e3dba",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "48ad3669f346b13c36578715c4f180a6685e3dba",
+				"tarball": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-wsl-1.0.0.tgz_1492350076393_0.24916732753627002"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "is-wsl",
+			"version": "1.1.0",
+			"description": "Check if the process is running inside Windows Subsystem for Linux (Bash on Windows)",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/is-wsl.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"check",
+				"wsl",
+				"windows",
+				"subsystem",
+				"linux",
+				"detect",
+				"bash",
+				"process",
+				"console",
+				"terminal",
+				"is"
+			],
+			"devDependencies": {
+				"ava": "*",
+				"clear-require": "^2.0.0",
+				"proxyquire": "^1.7.11",
+				"xo": "*"
+			},
+			"gitHead": "60ea5d57a51ee596cb144ef47187c0476a5a421b",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/is-wsl/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/is-wsl#readme",
+			"_id": "is-wsl@1.1.0",
+			"_shasum": "1f16e4aa22b04d1336b66188a66af3c600c3a66d",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.3",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "1f16e4aa22b04d1336b66188a66af3c600c3a66d",
+				"tarball": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-wsl-1.1.0.tgz_1492407587032_0.143065512413159"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "1.1.0"
+	},
+	"_distfiles": {
+		"is-wsl-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.0.0.tgz",
+			"sha": "48ad3669f346b13c36578715c4f180a6685e3dba",
+			"registry": "npmjs"
+		},
+		"is-wsl-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/is-wsl/-/is-wsl-1.1.0.tgz",
+			"sha": "1f16e4aa22b04d1336b66188a66af3c600c3a66d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"is-wsl-1.1.0.tgz": {
+			"shasum": "1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"58f45523-108e\"",
+			"fetched": 1501535173595
+		}
+	},
+	"_rev": "2-a9a046d50eb82567",
+	"readme": "# is-wsl [![Build Status](https://travis-ci.org/sindresorhus/is-wsl.svg?branch=master)](https://travis-ci.org/sindresorhus/is-wsl)\n\n> Check if the process is running inside [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) (Bash on Windows)\n\nCan be useful if you need to work around unimplemented or buggy features in WSL.\n\n\n## Install\n\n```\n$ npm install --save is-wsl\n```\n\n\n## Usage\n\n```js\nconst isWsl = require('is-wsl');\n\n// When running inside Windows Subsystem for Linux\nconsole.log(isWsl);\n//=> true\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
+}

@@ -396,13 +396,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"querystring-es3-0.2.1.tgz": {
+			"shasum": "9ec61f79049875707d69414596fd907a4d711e73"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58e6a08a-1f7f\"",
 			"fetched": 1501276795751
 		}
 	},
-	"_rev": "1-1df7f10a3b1d4b14",
+	"_rev": "2-736d374ded97f988",
 	"readme": "# querystring\n\n[![Build Status](https://secure.travis-ci.org/mike-spainhower/querystring.png)](http://travis-ci.org/mike-spainhower/querystring)\n\n\n[![Browser support](http://ci.testling.com/mike-spainhower/querystring.png)](http://ci.testling.com/mike-spainhower/querystring)\n\n\n\nNode's querystring module for all engines.\n\n## Install ##\n\n    npm install querystring\n\n"
 }

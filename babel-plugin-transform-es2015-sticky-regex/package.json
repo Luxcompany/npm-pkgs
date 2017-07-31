@@ -1579,13 +1579,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-es2015-sticky-regex-6.24.1.tgz": {
+			"shasum": "00c1cdb1aca71112cdf0cf6126c2ed6b457ccdbc"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d89-89ba\"",
 			"fetched": 1501276774138
 		}
 	},
-	"_rev": "1-504e83706be6fe9d",
+	"_rev": "2-20e7923727acfc90",
 	"readme": "# babel-plugin-transform-es2015-sticky-regex\n\n> Compile ES2015 sticky regex to an ES5 RegExp constructor\n\n## Installation\n\n```sh\nnpm install --save-dev babel-plugin-transform-es2015-sticky-regex\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-sticky-regex\"]\n}\n```\n\n### Via CLI\n\n```sh\nbabel --plugins transform-es2015-sticky-regex script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-sticky-regex\"]\n});\n```\n"
 }

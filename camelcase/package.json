@@ -959,13 +959,26 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"camelcase-2.1.1.tgz": {
+			"shasum": "7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
+		},
+		"camelcase-3.0.0.tgz": {
+			"shasum": "32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
+		},
+		"camelcase-4.1.0.tgz": {
+			"shasum": "d545635be1e33c542649c69173e5de6acfae34dd"
+		},
+		"camelcase-1.2.1.tgz": {
+			"shasum": "9bb5304d2e0b56698b2c758b08a3eaa9daa58a39"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595b9885-49f2\"",
 			"fetched": 1501274970060
 		}
 	},
-	"_rev": "1-f5bfe198b9b933bd",
+	"_rev": "5-2d3527c58c6df025",
 	"readme": "# camelcase [![Build Status](https://travis-ci.org/sindresorhus/camelcase.svg?branch=master)](https://travis-ci.org/sindresorhus/camelcase)\n\n> Convert a dash/dot/underscore/space separated string to camelCase: `foo-bar` → `fooBar`\n\n\n## Install\n\n```\n$ npm install --save camelcase\n```\n\n\n## Usage\n\n```js\nconst camelCase = require('camelcase');\n\ncamelCase('foo-bar');\n//=> 'fooBar'\n\ncamelCase('foo_bar');\n//=> 'fooBar'\n\ncamelCase('Foo-Bar');\n//=> 'fooBar'\n\ncamelCase('--foo.bar');\n//=> 'fooBar'\n\ncamelCase('__foo__bar__');\n//=> 'fooBar'\n\ncamelCase('foo bar');\n//=> 'fooBar'\n\nconsole.log(process.argv[3]);\n//=> '--foo-bar'\ncamelCase(process.argv[3]);\n//=> 'fooBar'\n\ncamelCase('foo', 'bar');\n//=> 'fooBar'\n\ncamelCase('__foo__', '--bar');\n//=> 'fooBar'\n```\n\n\n## Related\n\n- [decamelize](https://github.com/sindresorhus/decamelize) - The inverse of this module\n- [uppercamelcase](https://github.com/SamVerschueren/uppercamelcase) - Like this module, but to PascalCase instead of camelCase\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

@@ -1,0 +1,1332 @@
+{
+	"name": "postcss-partial-import",
+	"versions": {
+		"1.0.0": {
+			"name": "postcss-partial-import",
+			"version": "1.0.0",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"postcss": "^5.0.3"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"node-fetch": "^1.3.2"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "5e27a4cd8c1f4c82a9879ac0579e25bdbbaa793d",
+			"_id": "postcss-partial-import@1.0.0",
+			"_shasum": "b2587457f1be8c5cc05e14922689bda6f520a553",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "b2587457f1be8c5cc05e14922689bda6f520a553",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "postcss-partial-import",
+			"version": "1.0.1",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"postcss": "^5.0.3"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3",
+				"node-fetch": "^1.3.2"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "93313115a349b9ed4216a5469cb1749c8e75f3ab",
+			"_id": "postcss-partial-import@1.0.1",
+			"_shasum": "6b520b3f8e1b6aae266e14a07330f66ca6540d28",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "6b520b3f8e1b6aae266e14a07330f66ca6540d28",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "postcss-partial-import",
+			"version": "1.0.2",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"postcss": "^5.0.4",
+				"node-fetch": "^1.3.2"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "cd38516cb976caaba76a373d70791c0252c4e985",
+			"_id": "postcss-partial-import@1.0.2",
+			"_shasum": "6869cf20fb7665a4e9e8afb2fddcf04160fb5f46",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "6869cf20fb7665a4e9e8afb2fddcf04160fb5f46",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "postcss-partial-import",
+			"version": "1.1.0",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"fs-readfile-promise": "^2.0.1",
+				"postcss": "^5.0.4"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "1c717537f6b249529d41698a780513b30091f89f",
+			"_id": "postcss-partial-import@1.1.0",
+			"_shasum": "3836e167b475bc04b8734c9c69c65778321eec03",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "3836e167b475bc04b8734c9c69c65778321eec03",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "postcss-partial-import",
+			"version": "1.1.1",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"fs-readfile-promise": "^2.0.1",
+				"postcss": "^5.0.4"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "b72d69879798c0371f8cb64b6b33f0ccd885dbd1",
+			"_id": "postcss-partial-import@1.1.1",
+			"_shasum": "d49f6e20dc45f2e61551a13a12b5ff0bdd525dff",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "d49f6e20dc45f2e61551a13a12b5ff0bdd525dff",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.2.0": {
+			"name": "postcss-partial-import",
+			"version": "1.2.0",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"fs-readfile-promise": "^2.0.1",
+				"mkdirp": "^0.5.1",
+				"postcss": "^5.0.4",
+				"string-hash": "^1.1.0"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "1eaee11e2e242abf1a8cc5ed9103e506b3cf8e9d",
+			"_id": "postcss-partial-import@1.2.0",
+			"_shasum": "6808234d1bc53c99b164897a57dcf4898895440a",
+			"_from": ".",
+			"_npmVersion": "2.12.1",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "6808234d1bc53c99b164897a57dcf4898895440a",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"1.3.0": {
+			"name": "postcss-partial-import",
+			"version": "1.3.0",
+			"description": "PostCSS plugin that imports like Sass",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sass",
+				"scss",
+				"imports",
+				"files"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import",
+			"dependencies": {
+				"fs-extra": "^0.24.0",
+				"fs-promise": "^0.3.1",
+				"object-assign": "^4.0.1",
+				"postcss": "^5.0.5",
+				"string-hash": "^1.1.0"
+			},
+			"devDependencies": {
+				"chai": "^3.2.0",
+				"gulp": "^3.9.0",
+				"gulp-eslint": "^1.0.0",
+				"gulp-mocha": "^2.1.3"
+			},
+			"scripts": {
+				"test": "gulp"
+			},
+			"engines": {
+				"iojs": ">=2.0.0",
+				"node": ">=0.12.0"
+			},
+			"gitHead": "d1c1e309f0a819d8f6c5e72789c7ec7ab06f4968",
+			"_id": "postcss-partial-import@1.3.0",
+			"_shasum": "2f4b773a76c7b0a69b389dcf475c4d362d0d2576",
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "2f4b773a76c7b0a69b389dcf475c4d362d0d2576",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "postcss-partial-import",
+			"version": "2.0.0",
+			"description": "Inline @import statements in CSS",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"dependencies": {
+				"fs-extra": "^0.30.0",
+				"fs-promise": "^0.5.0",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.0.21",
+				"resolve": "^1.1.7"
+			},
+			"devDependencies": {
+				"ava": "^0.15.2",
+				"eslint": "^2.13.1",
+				"eslint-config-10up": "github:jonathantneal/eslint-config-10up",
+				"jscs": "^3.0.5",
+				"jscs-config-10up": "github:jonathantneal/jscs-config-10up",
+				"normalize-css": "^2.3.1"
+			},
+			"scripts": {
+				"lint": "eslint index.js && eslint ./lib && jscs index.js && jscs ./lib",
+				"tape": "ava",
+				"test": "npm run lint && npm run tape"
+			},
+			"engines": {
+				"node": ">=0.12.0"
+			},
+			"eslintConfig": {
+				"extends": "10up",
+				"rules": {
+					"consistent-return": [
+						0
+					],
+					"max-params": [
+						2,
+						4
+					],
+					"no-param-reassign": [
+						0
+					]
+				}
+			},
+			"jscsConfig": {
+				"preset": "10up"
+			},
+			"gitHead": "9c7cd9ac43b4cddcf78491bb93690c1ce1c5f06a",
+			"_id": "postcss-partial-import@2.0.0",
+			"_shasum": "ce4025f59f33e3c050204e91424138ba139bdd2e",
+			"_from": ".",
+			"_npmVersion": "3.9.2",
+			"_nodeVersion": "5.4.1",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "ce4025f59f33e3c050204e91424138ba139bdd2e",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-2.0.0.tgz_1467346902260_0.6425665083806962"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "postcss-partial-import",
+			"version": "2.1.0",
+			"description": "Inline @import statements in CSS",
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugins",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"dependencies": {
+				"fs-extra": "^0.30.0",
+				"fs-promise": "^0.5.0",
+				"object-assign": "^4.1.0",
+				"postcss": "^5.0.21",
+				"resolve": "^1.1.7"
+			},
+			"devDependencies": {
+				"ava": "^0.15.2",
+				"eslint": "^2.13.1",
+				"eslint-config-10up": "github:jonathantneal/eslint-config-10up",
+				"jscs": "^3.0.5",
+				"jscs-config-10up": "github:jonathantneal/jscs-config-10up",
+				"normalize-css": "^2.3.1"
+			},
+			"scripts": {
+				"lint": "eslint index.js && eslint ./lib && jscs index.js && jscs ./lib",
+				"tape": "ava",
+				"test": "npm run lint && npm run tape"
+			},
+			"engines": {
+				"node": ">=0.12.0"
+			},
+			"eslintConfig": {
+				"extends": "10up",
+				"rules": {
+					"consistent-return": [
+						0
+					],
+					"max-params": [
+						2,
+						4
+					],
+					"no-param-reassign": [
+						0
+					]
+				}
+			},
+			"jscsConfig": {
+				"preset": "10up"
+			},
+			"gitHead": "4613c2d538f6ae6a4320bb99f3fea1dbe83acaa7",
+			"_id": "postcss-partial-import@2.1.0",
+			"_shasum": "09edaf13d78f39ee4f2a62e0fef6193b003853f3",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "09edaf13d78f39ee4f2a62e0fef6193b003853f3",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-2.1.0.tgz_1476805988535_0.7574875797145069"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "postcss-partial-import",
+			"version": "3.0.0",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"lint": "echint && eslint *.js && jscs *.js",
+				"prepublish": "npm test",
+				"tape": "postcss-tape",
+				"test": "npm run lint && postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.9.1"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss-import": "^9.0.0"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"echint-config-dev": "1.0.0",
+				"eslint": "^3.12.1",
+				"eslint-config-dev": "1.0.0",
+				"jscs": "^3.0.7",
+				"jscs-config-dev": "1.0.1",
+				"normalize-css": "^2.3.1",
+				"postcss-tape": "1.3.0"
+			},
+			"echint": {
+				"extends": "dev"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parserOptions": {
+					"sourceType": "module"
+				}
+			},
+			"jscsConfig": {
+				"preset": "dev"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "5f101e46ab9e8bde092afc2df70b800eddc9e9c7",
+			"_id": "postcss-partial-import@3.0.0",
+			"_shasum": "c65e0ff02000d98fbfa965a5613b3797519103b3",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "c65e0ff02000d98fbfa965a5613b3797519103b3",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-3.0.0.tgz_1481736384817_0.6698160378728062"
+			},
+			"directories": {}
+		},
+		"3.0.1": {
+			"name": "postcss-partial-import",
+			"version": "3.0.1",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"scripts": {
+				"lint": "echint && eslint *.js && jscs *.js",
+				"prepublish": "npm test",
+				"tape": "postcss-tape",
+				"test": "npm run lint && postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.9.1"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss-import": "^9.0.0"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"echint-config-dev": "1.0.0",
+				"eslint": "^3.12.1",
+				"eslint-config-dev": "1.0.0",
+				"jscs": "^3.0.7",
+				"jscs-config-dev": "1.0.1",
+				"normalize-css": "^2.3.1",
+				"postcss-tape": "1.3.0"
+			},
+			"echint": {
+				"extends": "dev"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parserOptions": {
+					"sourceType": "module"
+				}
+			},
+			"jscsConfig": {
+				"preset": "dev"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "5775e915666b0e38e21f4d0c8e8de1318b8e3581",
+			"_id": "postcss-partial-import@3.0.1",
+			"_shasum": "51f4949ff5d52b7f6227abd8388642b605f68159",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "51f4949ff5d52b7f6227abd8388642b605f68159",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-3.0.1.tgz_1481740511712_0.4542314140126109"
+			},
+			"directories": {}
+		},
+		"3.1.0": {
+			"name": "postcss-partial-import",
+			"version": "3.1.0",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"scripts": {
+				"lint": "echint && eslint *.js lib/*.js",
+				"prepublish": "npm test",
+				"tape": "postcss-tape",
+				"test": "npm run lint && postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.9.1"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss-import": "^9.0.0"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"echint-config-dev": "1.0.0",
+				"eslint": "^3.12.1",
+				"eslint-config-dev": "1.0.0",
+				"normalize-css": "^2.3.1",
+				"postcss-tape": "1.3.0"
+			},
+			"echint": {
+				"extends": "dev"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parserOptions": {
+					"sourceType": "module"
+				},
+				"rules": {
+					"no-nested-ternary": [
+						0
+					]
+				}
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "f21afdbec6328a4fb174d08e1b0e04a1fb1605ef",
+			"_id": "postcss-partial-import@3.1.0",
+			"_shasum": "170e8203880475974ac0bf56039bc68c43539987",
+			"_from": ".",
+			"_npmVersion": "4.0.3",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "170e8203880475974ac0bf56039bc68c43539987",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-3.1.0.tgz_1482271874033_0.7920544859953225"
+			},
+			"directories": {}
+		},
+		"3.1.1": {
+			"name": "postcss-partial-import",
+			"version": "3.1.1",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"scripts": {
+				"lint": "echint && eslint *.js lib/*.js",
+				"prepublish": "npm test",
+				"tape": "postcss-tape",
+				"test": "npm run lint && postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.9.1"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss-import": "^9.0.0"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"echint-config-dev": "1.0.0",
+				"eslint": "^3.12.1",
+				"eslint-config-dev": "1.0.0",
+				"normalize-css": "^2.3.1",
+				"postcss-tape": "1.3.0"
+			},
+			"echint": {
+				"extends": "dev"
+			},
+			"eslintConfig": {
+				"extends": "dev",
+				"parserOptions": {
+					"sourceType": "module"
+				},
+				"rules": {
+					"no-nested-ternary": [
+						0
+					]
+				}
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "9fc784eddd68d250a2ad8c340cbc28231f3d2207",
+			"_id": "postcss-partial-import@3.1.1",
+			"_shasum": "0b20a7ebcc775484a72393d1bfd2006d3ed4b5bc",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "0b20a7ebcc775484a72393d1bfd2006d3ed4b5bc",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-3.1.1.tgz_1487079747397_0.03758017276413739"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "postcss-partial-import",
+			"version": "4.0.0",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"scripts": {
+				"clean": "git clean -X -d -f",
+				"prepublish": "npm test",
+				"test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
+				"test:js": "eslint *.js --cache --ignore-pattern .gitignore",
+				"test:tape": "postcss-tape"
+			},
+			"engines": {
+				"node": ">=6.9.1"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss": "^6.0.1",
+				"postcss-import": "^9.1.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.19.0",
+				"eslint-config-dev": "2.0.0",
+				"normalize-css": "^2.3.1",
+				"postcss": "^6.0.1",
+				"postcss-tape": "2.0.1",
+				"pre-commit": "^1.2.2"
+			},
+			"eslintConfig": {
+				"extends": "dev"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "5305be9278e89e1a06f82d26bb3908209431ef0d",
+			"_id": "postcss-partial-import@4.0.0",
+			"_shasum": "c172fead169d29758277e473dd3fc4b3ed8e4935",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "c172fead169d29758277e473dd3fc4b3ed8e4935",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-4.0.0.tgz_1494528909237_0.20078549766913056"
+			},
+			"directories": {}
+		},
+		"4.1.0": {
+			"name": "postcss-partial-import",
+			"version": "4.1.0",
+			"description": "Inline sugary @import statements in CSS",
+			"author": {
+				"name": "Jonathan Neal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"license": "CC0-1.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonathantneal/postcss-partial-import.git"
+			},
+			"homepage": "https://github.com/jonathantneal/postcss-partial-import#readme",
+			"bugs": {
+				"url": "https://github.com/jonathantneal/postcss-partial-import/issues"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js",
+				"lib"
+			],
+			"scripts": {
+				"clean": "git clean -X -d -f",
+				"prepublish": "npm test",
+				"test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
+				"test:js": "eslint *.js --cache --ignore-pattern .gitignore",
+				"test:tape": "postcss-tape"
+			},
+			"engines": {
+				"node": ">=4.0.0"
+			},
+			"dependencies": {
+				"glob": "^7.1.1",
+				"postcss-import": "^10.0.0"
+			},
+			"devDependencies": {
+				"eslint": "^3.19.0",
+				"eslint-config-dev": "2.0.0",
+				"normalize-css": "^2.3.1",
+				"postcss": "^6.0.1",
+				"postcss-tape": "2.0.1",
+				"pre-commit": "^1.2.2"
+			},
+			"eslintConfig": {
+				"extends": "dev"
+			},
+			"keywords": [
+				"postcss",
+				"css",
+				"postcss-plugin",
+				"sugar",
+				"sass",
+				"scss",
+				"imports",
+				"styles",
+				"files",
+				"partials",
+				"modules",
+				"bower",
+				"node",
+				"npm"
+			],
+			"gitHead": "df8ea5ef1402dada56367a53aaf437967e34708d",
+			"_id": "postcss-partial-import@4.1.0",
+			"_shasum": "f6c3e78e7bbeda4d9dab96d360367b90b353f9a4",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "jonathantneal",
+				"email": "jonathantneal@hotmail.com"
+			},
+			"dist": {
+				"shasum": "f6c3e78e7bbeda4d9dab96d360367b90b353f9a4",
+				"tarball": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-4.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jonathantneal",
+					"email": "jonathantneal@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/postcss-partial-import-4.1.0.tgz_1494676765135_0.17847729683853686"
+			},
+			"directories": {}
+		}
+	},
+	"dist-tags": {
+		"latest": "4.1.0"
+	},
+	"_distfiles": {
+		"postcss-partial-import-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.0.tgz",
+			"sha": "b2587457f1be8c5cc05e14922689bda6f520a553",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.1.tgz",
+			"sha": "6b520b3f8e1b6aae266e14a07330f66ca6540d28",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.0.2.tgz",
+			"sha": "6869cf20fb7665a4e9e8afb2fddcf04160fb5f46",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.1.0.tgz",
+			"sha": "3836e167b475bc04b8734c9c69c65778321eec03",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.1.1.tgz",
+			"sha": "d49f6e20dc45f2e61551a13a12b5ff0bdd525dff",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.2.0.tgz",
+			"sha": "6808234d1bc53c99b164897a57dcf4898895440a",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-1.3.0.tgz",
+			"sha": "2f4b773a76c7b0a69b389dcf475c4d362d0d2576",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-2.0.0.tgz",
+			"sha": "ce4025f59f33e3c050204e91424138ba139bdd2e",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-2.1.0.tgz",
+			"sha": "09edaf13d78f39ee4f2a62e0fef6193b003853f3",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.0.0.tgz",
+			"sha": "c65e0ff02000d98fbfa965a5613b3797519103b3",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.0.1.tgz",
+			"sha": "51f4949ff5d52b7f6227abd8388642b605f68159",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.1.0.tgz",
+			"sha": "170e8203880475974ac0bf56039bc68c43539987",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-3.1.1.tgz",
+			"sha": "0b20a7ebcc775484a72393d1bfd2006d3ed4b5bc",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-4.0.0.tgz",
+			"sha": "c172fead169d29758277e473dd3fc4b3ed8e4935",
+			"registry": "npmjs"
+		},
+		"postcss-partial-import-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/postcss-partial-import/-/postcss-partial-import-4.1.0.tgz",
+			"sha": "f6c3e78e7bbeda4d9dab96d360367b90b353f9a4",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"postcss-partial-import-4.1.0.tgz": {
+			"shasum": "f6c3e78e7bbeda4d9dab96d360367b90b353f9a4"
+		}
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5916f51e-7611\"",
+			"fetched": 1501534213903
+		}
+	},
+	"_rev": "2-9f88f966a6d75485",
+	"readme": "\n# Partial Import <a href=\"https://github.com/postcss/postcss\"><img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\"></a>\n\n[![NPM Version][npm-img]][npm-url]\n[![Build Status][cli-img]][cli-url]\n[![Licensing][lic-image]][lic-url]\n[![Changelog][log-image]][log-url]\n[![Gitter Chat][git-image]][git-url]\n\n[Partial Import] lets you use sugary `@import` statements in CSS, including [glob]-like and [Sass]-like behavior. It even lets you generates imports as a scaffolding tool.\n\n```css\n/* before: style.css */\n\n@import \"foo/bar\";\n\n/* before: foo/bar.css */\n\n.example-1 {\n    background-color: #fafafa;\n}\n\n/* after: style.css */\n\n.example-1 {\n    background-color: #fafafa;\n}\n```\n\n## Options\n\n#### `root`\n\nType: `String`  \nDefault: [`from`](https://github.com/postcss/postcss#node-source) or `process.cwd()`\n\nThe root where paths are resolved. This should be the directory containing `node_modules`.\n\n#### `path`\n\nType: `String` | `Array`  \nDefault: `[]`\n\nA path or paths used to locate files.\n\n#### `plugins`\n\nType: `Array`  \nDefault: `undefined`\n\nAn array of plugins to be applied to imported file.\n\n#### `onImport`\n\nType: `Function`  \nDefault: `null`\n\nThe function called after the import process, receiving an array of imported files.\n\n#### `resolve`\n\nType: `Function`  \nDefault: `null`\n\nA custom resolver, receiving the `id`, `basedir`, and `importOptions` of an import.\n\n#### `load`\n\nType: `Function`  \nDefault: null\n\nA custom loader, receiving the `filename`, `importOptions`, and content or\npromised content.\n\n#### `skipDuplicates`\n\nType: `Boolean`  \nDefault: `true`\n\nWhether similar files (based on the same content) will be skipped.\n\n#### `prefix`\n\nType: `String`  \nDefault: `\"\"`\n\nLeading characters conditionally prepended to imports which are not found without them. For [Sass]-like, use `\"_\"`.\n\n#### `glob`\n\nType: `Boolean` | `Object`  \nDefault: `true`\n\nWhether [glob]-like behavior should be supported by imports. An object passed here will be forwarded to [glob] in order to change pattern matching behavior.\n\n#### `touch`\n\nType: `Boolean`  \nDefault: `false`\n\nWhether imports should be created as files if they do not already exist.\n\n#### `extension`\n\nType: `String`  \nDefault: `.css`\n\nA file extension conditionally appended to touched imports which do not specify an extension.\n\n## Usage\n\nAdd [Partial Import] to your build tool:\n\n```bash\nnpm install postcss-partial-import --save-dev\n```\n\n#### Node\n\n```js\nrequire('postcss-partial-import').process(YOUR_CSS, { /* options */ });\n```\n\n#### PostCSS\n\nAdd [PostCSS] to your build tool:\n\n```bash\nnpm install postcss --save-dev\n```\n\nLoad [Partial Import] as a PostCSS plugin:\n\n```js\npostcss([\n\trequire('postcss-partial-import')({ /* options */ })\n]).process(YOUR_CSS, /* options */);\n```\n\n#### Gulp\n\nAdd [Gulp PostCSS] to your build tool:\n\n```bash\nnpm install gulp-postcss --save-dev\n```\n\nEnable [Partial Import] within your Gulpfile:\n\n```js\nvar postcss = require('gulp-postcss');\n\ngulp.task('css', function () {\n\treturn gulp.src('./src/*.css').pipe(\n\t\tpostcss([\n\t\t\trequire('postcss-partial-import')({ /* options */ })\n\t\t])\n\t).pipe(\n\t\tgulp.dest('.')\n\t);\n});\n```\n\n#### Grunt\n\nAdd [Grunt PostCSS] to your build tool:\n\n```bash\nnpm install grunt-postcss --save-dev\n```\n\nEnable [Partial Import] within your Gruntfile:\n\n```js\ngrunt.loadNpmTasks('grunt-postcss');\n\ngrunt.initConfig({\n\tpostcss: {\n\t\toptions: {\n\t\t\tuse: [\n\t\t\t\trequire('postcss-partial-import')({ /* options */ })\n\t\t\t]\n\t\t},\n\t\tdist: {\n\t\t\tsrc: '*.css'\n\t\t}\n\t}\n});\n```\n\n[npm-url]: https://www.npmjs.com/package/postcss-partial-import\n[npm-img]: https://img.shields.io/npm/v/postcss-partial-import.svg\n[cli-url]: https://travis-ci.org/jonathantneal/postcss-partial-import\n[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-partial-import.svg\n[lic-url]: LICENSE.md\n[lic-image]: https://img.shields.io/npm/l/postcss-partial-import.svg\n[log-url]: CHANGELOG.md\n[log-image]: https://img.shields.io/badge/changelog-md-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[git-image]: https://img.shields.io/badge/chat-gitter-blue.svg\n\n[Partial Import]: https://github.com/jonathantneal/postcss-partial-import\n[glob]: https://github.com/isaacs/node-glob#readme\n[Sass]: http://sass-lang.com/guide#topic-4\n[PostCSS]: https://github.com/postcss/postcss\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n"
+}

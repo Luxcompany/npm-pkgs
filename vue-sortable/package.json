@@ -236,13 +236,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-sortable-0.1.3.tgz": {
+			"shasum": "37b889e2f2d54c6148d5d1b958806c6704221eb9"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58c60874-1da7\"",
 			"fetched": 1501276735084
 		}
 	},
-	"_rev": "1-f8fea5a4e62126e4",
+	"_rev": "2-02c2a8b44b806513",
 	"readme": "# Vue Sortable [![Build Status](https://travis-ci.org/sagalbot/vue-sortable.svg?branch=master)](https://travis-ci.org/sagalbot/vue-sortable)\n\n> Easily add drag-and-drop sorting to your Vue.js applications without jQuery, using the v-sortable directive, a thin wrapper for the minimalist [RubaXa/SortableJS](https://github.com/RubaXa/Sortable) library.\n\n##### [View Live Demo & Docs](http://sagalbot.github.io/vue-sortable/)\n\n\n## Installation & Usage\n\nInstall using NPM\n\n```bash\nnpm install vue-sortable\n```\n\nSetup\n\n```javascript\nimport Vue from 'vue'\nimport Sortable from 'vue-sortable'\n\nVue.use(Sortable)\n```\n\nNote that if you are not compiling Vue yourself, you just need to include `<script src=\"path/to/vue-sortable.js>`, and the plugin will be attached to the window at `window.vSortable`. In this case, you don't need to call `Vue.use()`.\n\n\n\n\n## Contributing\n\nI'd like to keep this as directive as simple as possible, but if there's something you'd like to see added feel free to submit a PR.\n\nThe plugin is built using the vue-cli [webpack-simple template](https://github.com/vuejs-templates/webpack-simple).\n\n``` bash\n# install dependencies\nnpm install\n\n# serve with hot reload at localhost:8080\nnpm run dev\n\n# build for demo site\nnpm run build\n```\n\nFor detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader)."
 }

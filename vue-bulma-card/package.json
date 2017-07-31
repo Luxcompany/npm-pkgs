@@ -194,13 +194,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-card-1.0.2.tgz": {
+			"shasum": "f9d9285672c58fb0ec4018e8751f0ff4bccd961d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b211b8-1414\"",
 			"fetched": 1501276735115
 		}
 	},
-	"_rev": "1-816bf85ce54369db",
+	"_rev": "2-8ae662d3eb2e712e",
 	"readme": "# Card\n\nCard component for Vue Bulma.\n\n## Installation\n\n```\n$ npm install vue-bulma-card --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div>\n    <base-card \n      :icon=\"'angle-right'\"\n      :title=\"'Github'\" \n      :content=\"'Welcome to Github'\">\n      <card-footer-item slot=\"footer\" :href=\"'https://github.com'\">\n        <span class=\"icon is-small\">\n          <i aria-hidden=\"true\" class=\"fa fa-github\"></i>\n        </span>&nbsp;&nbsp;\n        Github\n      </card-footer-item>\n    </base-card>\n  </div>\n</template>\n\n<script>\nimport { BaseCard, CardFooterItem } from 'vue-bulma-card'\n\nexport default {\n  components: {\n    BaseCard,\n    CardFooterItem\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-dev-yellow.svg)\n\n---\n"
 }

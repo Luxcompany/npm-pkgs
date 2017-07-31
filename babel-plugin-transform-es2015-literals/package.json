@@ -1524,13 +1524,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-es2015-literals-6.22.0.tgz": {
+			"shasum": "4f54a02d6cd66cf915280019a31d31925377ca2e"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d68-828a\"",
 			"fetched": 1501276774106
 		}
 	},
-	"_rev": "1-8e787b072c676208",
+	"_rev": "2-51cbe074a15105f6",
 	"readme": "# babel-plugin-transform-es2015-literals\n\nCompile ES2015 unicode string and number literals to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-es2015-literals\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-literals\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-es2015-literals script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-literals\"]\n});\n```\n"
 }

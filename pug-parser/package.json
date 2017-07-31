@@ -381,13 +381,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"pug-parser-3.0.0.tgz": {
+			"shasum": "37c619dd800f642187ce4d6ce1a164cdd75487a3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59315b39-2975\"",
 			"fetched": 1501276760335
 		}
 	},
-	"_rev": "1-e2e426677f9ecc04",
+	"_rev": "2-65e7fe99ba54ffff",
 	"readme": "# pug-parser\n\nThe pug parser (takes an array of tokens and converts it to an abstract syntax tree)\n\n[![Build Status](https://img.shields.io/travis/pugjs/pug-parser/master.svg)](https://travis-ci.org/pugjs/pug-parser)\n[![Dependency Status](https://img.shields.io/david/pugjs/pug-parser.svg)](https://david-dm.org/pugjs/pug-parser)\n[![NPM version](https://img.shields.io/npm/v/pug-parser.svg)](https://www.npmjs.org/package/pug-parser)\n\n## Installation\n\n    npm install pug-parser\n\n## Usage\n\n```js\nvar parse = require('pug-parser');\n```\n\n### `parse(tokens, options)`\n\nConvert Pug tokens to an abstract syntax tree (AST).\n\n`options` can contain the following properties:\n\n- `filename` (string): The name of the Pug file; it is included in the produced AST nodes and error handling, if provided.\n- `plugins` (array): An array of plugins, in the order they should be applied.\n- `src` (string): The source of the Pug file; it is used in error handling if provided.\n\n```js\nvar lex = require('pug-lexer');\n\nvar filename = 'my-file.pug';\nvar src = 'div(data-foo=\"bar\")';\nvar tokens = lex(src, {filename});\n\nvar ast = parse(tokens, {filename, src});\n\nconsole.log(JSON.stringify(ast, null, '  '))\n```\n\n```json\n{\n  \"type\": \"Block\",\n  \"nodes\": [\n    {\n      \"type\": \"Tag\",\n      \"name\": \"div\",\n      \"selfClosing\": false,\n      \"block\": {\n        \"type\": \"Block\",\n        \"nodes\": [],\n        \"line\": 1,\n        \"filename\": \"my-file.pug\"\n      },\n      \"attrs\": [\n        {\n          \"name\": \"data-foo\",\n          \"val\": \"\\\"bar\\\"\",\n          \"mustEscape\": true\n        }\n      ],\n      \"attributeBlocks\": [],\n      \"isInline\": false,\n      \"line\": 1,\n      \"filename\": \"my-file.pug\"\n    }\n  ],\n  \"line\": 0,\n  \"filename\": \"my-file.pug\"\n}\n```\n\n### `new parse.Parser(tokens, options)`\n\nConstructor for a Parser class. This is not meant to be used directly unless you know what you are doing.\n\n`options` may contain the following properties:\n\n- `filename` (string): The name of the Pug file; it is included in the produced AST nodes and error handling, if provided.\n- `plugins` (array): An array of plugins, in the order they should be applied.\n- `src` (string): The source of the Pug file; it is used in error handling if provided.\n\n## License\n\n  MIT\n  kkk\n"
 }

@@ -130,13 +130,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-quill-0.0.1.tgz": {
+			"shasum": "aa2993327af9cefafdf62cb2303219646962297f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5808ebe7-12e4\"",
 			"fetched": 1501276735115
 		}
 	},
-	"_rev": "1-ae7403f4b9af44ef",
+	"_rev": "2-83b6b20475fad6c4",
 	"readme": "# Quill\n\nYour powerful, rich text editor http://quilljs.com\n\n\n## Installation\n\n```\n$ npm install vue-bulma-quill --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div class=\"box\">\n    <h3 class=\"title\">\n      Your powerful, rich text editor.\n      <a href=\"http://quilljs.com\">http://quilljs.com</a>\n    </h3>\n    <quill :options=\"{ theme: 'snow' }\">\n      <h2>One Ring to Rule Them All</h2>\n      <p><a href=\"http://en.wikipedia.org/wiki/One_Ring\">http://en.wikipedia.org/wiki/One_Ring</a></p>\n      <p><br/></p>\n      <p>Three Rings for the <em>Elven-kings</em> under the sky,</p>\n      <p>Seven for the <u>Dwarf-lords</u><span> in halls of stone,</p>\n      <p>Nine for <u>Mortal Men</u>, doomed to die,</p>\n      <p>One for the <u>Dark Lord</u> on his dark throne.</p>\n      <p><br/></p>\n      <p>In the Land of Mordor where the Shadows lie.</span></p>\n      <p>One Ring to <strong>rule</strong> them all, One Ring to <strong>find</strong> them,</p>\n      <p>One Ring to <strong>bring</strong> them all and in the darkness <strong>bind</strong> them.</p>\n      <p>In the Land of Mordor where the Shadows lie.</p>\n    </quill>\n  </div>\n</template>\n\n<script>\nimport Quill from 'vue-bulma-quill'\n\nexport default {\n  components: {\n    Quill\n  }\n}\n</script>\n\n<style lang=\"styl\">\n@import \"~quill/assets/snow\"\n</style>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
 }

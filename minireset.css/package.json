@@ -194,13 +194,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"minireset.css-0.0.2.tgz": {
+			"shasum": "5f3fc8184559a9278cfe05db646fb0809cc53f02"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58f0c9a4-164f\"",
 			"fetched": 1501276765207
 		}
 	},
-	"_rev": "1-3795307cf622308f",
+	"_rev": "2-59af82b994696a8c",
 	"readme": "# MiniReset.css\n\n[![npm](https://img.shields.io/npm/v/minireset.css.svg)](https://www.npmjs.com/package/minireset.css)\n[![npm](https://img.shields.io/npm/dm/minireset.css.svg)](https://www.npmjs.com/package/minireset.css)\n\nA tiny modern CSS reset that covers the basics:\n\n* **resets the font sizes**: so that using semantic markup doesn't affect the styling\n* **resets the block margins**: so that the spacing is only applied when you need it\n* **resets tables**: so that tabular data only takes the space it needs\n* **preserves the inline paddings**: so that buttons and inputs keep their default layout\n* **sets the border-box box sizing**: so that borders and paddings don't affect the set dimensions\n* **sets responsive media elements**: so that images and embeds scale with the browser width\n\n## Install\n\n```sh\nnpm install minireset.css\n```\n\nOr download/clone the repo.\n\n## Copyright and license\n\nCode copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/minireset.css/blob/master/LICENSE).\n"
 }

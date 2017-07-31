@@ -161,13 +161,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"header-case-1.0.1.tgz": {
+			"shasum": "9535973197c144b09613cd65d317ef19963bd02d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58cc8095-143b\"",
 			"fetched": 1501276793940
 		}
 	},
-	"_rev": "1-22190d077943af81",
+	"_rev": "2-4687162f8bd7dc37",
 	"readme": "# Header Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n\nHeader case a string.\n\nSupports Unicode (non-ASCII characters) and non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will result in an empty string.\n\n## Installation\n\n```\nnpm install header-case --save\n```\n\n## Usage\n\n```javascript\nvar headerCase = require('header-case')\n\nheaderCase('string')     //=> \"String\"\nheaderCase('PascalCase') //=> \"Pascal-Case\"\n\nheaderCase('MY_STRING', 'tr') //=> \"My-Strıng\"\n```\n\n## Typings\n\nIncludes a [TypeScript definition](header-case.d.ts).\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/header-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/header-case\n[downloads-image]: https://img.shields.io/npm/dm/header-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/header-case\n[travis-image]: https://img.shields.io/travis/blakeembrey/header-case.svg?style=flat\n[travis-url]: https://travis-ci.org/blakeembrey/header-case\n[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/header-case.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/blakeembrey/header-case?branch=master\n"
 }

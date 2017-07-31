@@ -66,13 +66,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"browserify-cipher-1.0.0.tgz": {
+			"shasum": "9988244874bf5ed4e28da95666dcd66ac8fc363a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"56083772-8e0\"",
 			"fetched": 1501276796479
 		}
 	},
-	"_rev": "1-c632646c3c3b7d12",
+	"_rev": "2-065476e199b38f88",
 	"readme": "browserify-cipher\n===\n\n[![Build Status](https://travis-ci.org/crypto-browserify/browserify-cipher.svg)](https://travis-ci.org/crypto-browserify/browserify-cipher)\n\nProvides createCipher, createDecipher, createCipheriv, createDecipheriv and\ngetCiphers for the browserify.  Includes AES and DES ciphers.\n"
 }

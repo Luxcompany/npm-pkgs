@@ -566,13 +566,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-syntax-dynamic-import-6.18.0.tgz": {
+			"shasum": "8d6a26229c83745a9982a441051572caa179b1da"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d5c-33a4\"",
 			"fetched": 1501274969794
 		}
 	},
-	"_rev": "1-6874ed384f554157",
+	"_rev": "2-15aeb8367726b630",
 	"readme": "# babel-plugin-syntax-dynamic-import\n\nAllow parsing of `import()`.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-dynamic-import\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-dynamic-import\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-dynamic-import script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-dynamic-import\"]\n});\n```\n"
 }

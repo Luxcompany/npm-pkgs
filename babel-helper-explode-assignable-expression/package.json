@@ -2182,13 +2182,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-explode-assignable-expression-6.24.1.tgz": {
+			"shasum": "f25b82cf7dc10433c55f70592d5746400ac22caa"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da0-b7cf\"",
 			"fetched": 1501276776737
 		}
 	},
-	"_rev": "1-8185a561dee8e211",
+	"_rev": "2-fb9d1cf72bcad4c2",
 	"readme": "# babel-helper-explode-assignable-expression\n\n## Usage\n\nTODO\n"
 }

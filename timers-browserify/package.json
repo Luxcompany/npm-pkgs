@@ -1153,10 +1153,125 @@
 				"tmp": "tmp/timers-browserify-2.0.2.tgz_1476882406189_0.28604227397590876"
 			},
 			"directories": {}
+		},
+		"2.0.3": {
+			"author": {
+				"name": "J. Ryan Stinnett",
+				"email": "jryans@gmail.com",
+				"url": "http://convolv.es/"
+			},
+			"name": "timers-browserify",
+			"description": "timers module for browserify",
+			"version": "2.0.3",
+			"homepage": "https://github.com/jryans/timers-browserify",
+			"bugs": {
+				"url": "https://github.com/jryans/timers-browserify/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jryans/timers-browserify.git"
+			},
+			"contributors": [
+				{
+					"name": "Colton Brown",
+					"email": "coltonTB@me.com"
+				},
+				{
+					"name": "Guy Bedford",
+					"email": "guybedford@gmail.com"
+				},
+				{
+					"name": "Ionut-Cristian Florescu",
+					"email": "ionut.florescu@gmail.com"
+				},
+				{
+					"name": "James Halliday",
+					"email": "mail@substack.net"
+				},
+				{
+					"name": "Jan Schär",
+					"email": "jscissr@gmail.com"
+				},
+				{
+					"name": "Johannes Ewald",
+					"email": "johannes.ewald@peerigon.com"
+				},
+				{
+					"name": "Jonathan Prins",
+					"email": "jon@blip.tv"
+				},
+				{
+					"name": "Matt Esch",
+					"email": "matt@mattesch.info"
+				},
+				{
+					"name": "taoqf",
+					"email": "tao_qiufeng@126.com"
+				},
+				{
+					"name": "wtgtybhertgeghgtwtg",
+					"email": "wtgtybhertgeghgtwtg@gmail.com"
+				}
+			],
+			"main": "main.js",
+			"dependencies": {
+				"global": "^4.3.2",
+				"setimmediate": "^1.0.4"
+			},
+			"devDependencies": {
+				"connect": "~2.3.0",
+				"browserify": "~1.10.16"
+			},
+			"optionalDependencies": {},
+			"engines": {
+				"node": ">=0.6.0"
+			},
+			"keywords": [
+				"timers",
+				"browserify",
+				"browser"
+			],
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://github.com/jryans/timers-browserify/blob/master/LICENSE.md"
+				}
+			],
+			"jspm": {
+				"map": {
+					"./main.js": {
+						"node": "@node/timers"
+					}
+				}
+			},
+			"gitHead": "f1b0bf3b6f1472cc5dc4f10f760ea37f6ecdddda",
+			"_id": "timers-browserify@2.0.3",
+			"_npmVersion": "5.1.0",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "jryans",
+				"email": "jryans@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "jryans",
+					"email": "jryans@gmail.com"
+				}
+			],
+			"dist": {
+				"integrity": "sha512-+JAqyNgg+M8+gXIrq2EeUr4kZqRz47Ysco7X5QKRGScRE9HIHckyHD1asozSFGeqx2nmPCgA8T5tIGVO0ML7/w==",
+				"shasum": "41fd0bdc926a5feedc33a17a8e1f7d491925f7fc",
+				"tarball": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.3.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/timers-browserify-2.0.3.tgz_1501523397061_0.9377144535537809"
+			},
+			"directories": {}
 		}
 	},
 	"dist-tags": {
-		"latest": "2.0.2"
+		"latest": "2.0.3"
 	},
 	"_distfiles": {
 		"timers-browserify-0.0.0.tgz": {
@@ -1228,15 +1343,24 @@
 			"url": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.2.tgz",
 			"sha": "ab4883cf597dcd50af211349a00fbca56ac86b86",
 			"registry": "npmjs"
+		},
+		"timers-browserify-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.3.tgz",
+			"sha": "41fd0bdc926a5feedc33a17a8e1f7d491925f7fc",
+			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"timers-browserify-2.0.3.tgz": {
+			"shasum": "41fd0bdc926a5feedc33a17a8e1f7d491925f7fc"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"5843d1ab-5b82\"",
-			"fetched": 1501276795751
+			"etag": "W/\"597f6dc5-6406\"",
+			"fetched": 1501534214418
 		}
 	},
-	"_rev": "1-6d6493b0fd5448b7",
+	"_rev": "3-17880be2e2ecae26",
 	"readme": "# Overview\n\nAdds support for the `timers` module to browserify.\n\n## Wait, isn't it already supported in the browser?\n\nThe public methods of the `timers` module are:\n\n* `setTimeout(callback, delay, [arg], [...])`\n* `clearTimeout(timeoutId)`\n* `setInterval(callback, delay, [arg], [...])`\n* `clearInterval(intervalId)`\n\nand indeed, browsers support these already.\n\n## So, why does this exist?\n\nThe `timers` module also includes some private methods used in other built-in\nNode.js modules:\n\n* `enroll(item, delay)`\n* `unenroll(item)`\n* `active(item)`\n\nThese are used to efficiently support a large quantity of timers with the same\ntimeouts by creating only a few timers under the covers.\n\nNode.js also offers the `immediate` APIs, which aren't yet available cross-browser, so we polyfill those:\n\n* `setImmediate(callback, [arg], [...])`\n* `clearImmediate(immediateId)`\n\n## I need lots of timers and want to use linked list timers as Node.js does.\n\nLinked lists are efficient when you have thousands (millions?) of timers with the same delay.\nTake a look at [timers-browserify-full](https://www.npmjs.com/package/timers-browserify-full) in this case.\n\n# License\n\n[MIT](http://jryans.mit-license.org/)\n"
 }

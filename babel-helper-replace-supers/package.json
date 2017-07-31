@@ -2636,13 +2636,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-replace-supers-6.24.1.tgz": {
+			"shasum": "bf6dbfe43938d17369a213ca8a8bf74b6a90ab1a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da2-d4d4\"",
 			"fetched": 1501276774419
 		}
 	},
-	"_rev": "1-d2a86d6b2cae6ba4",
+	"_rev": "2-7dcd00c023a421eb",
 	"readme": "# babel-helper-replace-supers\n\n## Usage\n\nTODO\n"
 }

@@ -161,13 +161,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"trim-newlines-1.0.0.tgz": {
+			"shasum": "5887966bb582a4503a41eb524f7d35011815a613"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58fb5547-1183\"",
 			"fetched": 1501276767067
 		}
 	},
-	"_rev": "1-4ea65a10c3c0ea42",
+	"_rev": "2-ebc94276fc518850",
 	"readme": "# trim-newlines [![Build Status](https://travis-ci.org/sindresorhus/trim-newlines.svg?branch=master)](https://travis-ci.org/sindresorhus/trim-newlines)\n\n> Trim [newlines](https://en.wikipedia.org/wiki/Newline) from the start and/or end of a string\n\n\n## Install\n\n```\n$ npm install --save trim-newlines\n```\n\n\n## Usage\n\n```js\nconst trimNewlines = require('trim-newlines');\n\ntrimNewlines('\\nunicorn\\r\\n');\n//=> 'unicorn'\n```\n\n\n## API\n\n### trimNewlines(input)\n\nTrim from the start and end of a string.\n\n### trimNewlines.start(input)\n\nTrim from the start of a string.\n\n### trimNewlines.end(input)\n\nTrim from the end of a string.\n\n\n## Related\n\n- [trim-left](https://github.com/sindresorhus/trim-left) - Similar to `String#trim()` but removes only whitespace on the left\n- [trim-right](https://github.com/sindresorhus/trim-right) - Similar to `String#trim()` but removes only whitespace on the right.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

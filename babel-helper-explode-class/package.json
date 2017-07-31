@@ -2237,13 +2237,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-explode-class-6.24.1.tgz": {
+			"shasum": "7dc2a3910dee007056e1e31d640ced3d54eaa9eb"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da5-b13a\"",
 			"fetched": 1501276775909
 		}
 	},
-	"_rev": "1-03a5c03777bfc4c4",
+	"_rev": "2-996ed0a558adb796",
 	"readme": "# babel-helper-explode-class\n\n## Usage\n\nTODO\n"
 }

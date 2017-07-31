@@ -365,13 +365,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"decamelize-1.2.0.tgz": {
+			"shasum": "f6534d15148269b20352e7bee26f501f9a191290"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"595b9d0f-202f\"",
 			"fetched": 1501276750471
 		}
 	},
-	"_rev": "1-11eab16dc9ff829a",
+	"_rev": "2-c1532a938f1188a1",
 	"readme": "# decamelize [![Build Status](https://travis-ci.org/sindresorhus/decamelize.svg?branch=master)](https://travis-ci.org/sindresorhus/decamelize)\n\n> Convert a camelized string into a lowercased one with a custom separator<br>\n> Example: `unicornRainbow` → `unicorn_rainbow`\n\n\n## Install\n\n```\n$ npm install --save decamelize\n```\n\n\n## Usage\n\n```js\nconst decamelize = require('decamelize');\n\ndecamelize('unicornRainbow');\n//=> 'unicorn_rainbow'\n\ndecamelize('unicornRainbow', '-');\n//=> 'unicorn-rainbow'\n```\n\n\n## API\n\n### decamelize(input, [separator])\n\n#### input\n\nType: `string`\n\n#### separator\n\nType: `string`<br>\nDefault: `_`\n\n\n## Related\n\nSee [`camelcase`](https://github.com/sindresorhus/camelcase) for the inverse.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

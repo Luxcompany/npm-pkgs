@@ -398,13 +398,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"void-elements-2.0.1.tgz": {
+			"shasum": "c066afb582bb1cb4128d60ea92392e94d5e9dbec"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5880edf9-22b1\"",
 			"fetched": 1501276760460
 		}
 	},
-	"_rev": "1-b7b27ed42b3ebc13",
+	"_rev": "2-0981ae304d96c5ba",
 	"readme": "void-elements\n==============\n\n### Object of \"void elements\" defined by the HTML specification\n\nExports an `Object` of \"void element\" node names as defined by the HTML spec.\n\nThe list is programatically generated from the [latest W3C HTML draft](http://www.w3.org/html/wg/drafts/html/master/syntax.html#void-elements).\n\n[![Build Status](https://img.shields.io/travis/pugjs/void-elements/master.svg?style=flat)](https://travis-ci.org/pugjs/void-elements)\n[![Developing Dependency Status](https://img.shields.io/david/dev/pugjs/void-elements.svg?style=flat)](https://david-dm.org/pugjs/void-elements#info=devDependencies)\n[![NPM version](https://img.shields.io/npm/v/void-elements.svg?style=flat)](https://www.npmjs.org/package/void-elements)\n\nUsage\n-----\n\n```js\nvar voidElements = require('void-elements');\n\nassert(!voidElements['span'], '<span> is not a void element');\nassert(voidElements['img'], '<img> is a void element');\n```\n\nLicense\n-------\n\nMIT\n"
 }

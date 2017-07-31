@@ -815,13 +815,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"stream-browserify-2.0.1.tgz": {
+			"shasum": "66266ee5f9bdb9940a4e4514cafb43bb71e5c9db"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"55de56bd-3da7\"",
 			"fetched": 1501276795736
 		}
 	},
-	"_rev": "1-8bce97f83ff2260a",
+	"_rev": "2-1b7baee31f28554b",
 	"readme": "# stream-browserify\n\nthe stream module from node core, for browsers!\n\n[![build status](https://secure.travis-ci.org/substack/stream-browserify.svg)](http://travis-ci.org/substack/stream-browserify)\n\n# methods\n\nConsult the node core\n[documentation on streams](http://nodejs.org/docs/latest/api/stream.html).\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install stream-browserify\n```\n\nbut if you are using browserify you will get this module automatically when you\ndo `require('stream')`.\n\n# license\n\nMIT\n"
 }

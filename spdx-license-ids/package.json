@@ -841,13 +841,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"spdx-license-ids-1.2.2.tgz": {
+			"shasum": "c9df7a3424594ade6bd11900d596696dc06bac57"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58983939-4f2d\"",
 			"fetched": 1501276767755
 		}
 	},
-	"_rev": "1-3ec7b60e8620d45a",
+	"_rev": "2-bebaeea80f4fcba5",
 	"readme": "# spdx-license-ids\n\nA list of [SPDX license](https://spdx.org/licenses/) identifiers\n\n[**Download JSON**](https://raw.githubusercontent.com/shinnn/spdx-license-ids/master/index.json)\n\n## Use as a JavaScript Library\n\n[![NPM version](https://img.shields.io/npm/v/spdx-license-ids.svg)](https://www.npmjs.org/package/spdx-license-ids)\n[![Bower version](https://img.shields.io/bower/v/spdx-license-ids.svg)](https://github.com/shinnn/spdx-license-ids/releases)\n[![Build Status](https://travis-ci.org/shinnn/spdx-license-ids.svg?branch=master)](https://travis-ci.org/shinnn/spdx-license-ids)\n[![Coverage Status](https://img.shields.io/coveralls/shinnn/spdx-license-ids.svg)](https://coveralls.io/r/shinnn/spdx-license-ids)\n\n### Installation\n\n#### [npm](https://www.npmjs.com/)\n\n```\nnpm install spdx-license-ids\n```\n\n#### [bower](https://bower.io/)\n\n```\nbower install spdx-license-ids\n```\n\n### API\n\n#### spdxLicenseIds\n\nType: `Array` of `String`\n\nIt returns an array of SPDX license identifiers.\n\n```javascript\nconst spdxLicenseIds = require('spdx-license-ids'); //=> ['Glide', 'Abstyles', 'AFL-1.1', ... ]\n```\n\n## License\n\n[Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed).\n"
 }

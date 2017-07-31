@@ -321,13 +321,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"regjsgen-0.2.0.tgz": {
+			"shasum": "6c016adeac554f75823fe37ac05b92d5a4edb1f7"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"574ead25-1da9\"",
 			"fetched": 1501276775331
 		}
 	},
-	"_rev": "1-3873ffbe54cebd47",
+	"_rev": "2-f384d1a5b7369087",
 	"readme": "# regjsgen [![Build status](https://travis-ci.org/demoneaux/regjsgen.svg?branch=master)](https://travis-ci.org/demoneaux/regjsgen) [![Code coverage status](https://coveralls.io/repos/github/demoneaux/regjsgen/badge.svg)](https://coveralls.io/github/demoneaux/regjsgen?branch=master)\r\n\r\nGenerate regular expressions from [regjsparser](https://github.com/jviereck/regjsparser)’s AST.\r\n\r\n## Installation\r\n\r\n```bash\r\nnpm install --save regjsgen\r\n```\r\n\r\n## API\r\n\r\n### `regjsgen.generate(ast)`\r\n\r\nThis function accepts an abstract syntax tree representing a regular expression, and returns the generated regular expression string.\r\n\r\n```js\r\nvar regjsparser = require('regjsparser');\r\nvar regjsgen = require('regjsgen');\r\n\r\n// Generate an AST with `regjsparser`.\r\nvar ast = regjsparser.parse(regex);\r\n\r\n// Modify AST\r\n// …\r\n\r\n// Generate `RegExp` string with `regjsgen`.\r\nregex = regjsgen.generate(ast);\r\n```\r\n\r\n## Support\r\n\r\nTested in Node.js 0.10.x, 0.12.x, 4.x and 5.x.\r\n\r\n## Author\r\n\r\n| [![twitter/demoneaux](https://gravatar.com/avatar/029b19dba521584d83398ada3ecf6131?s=70)](https://twitter.com/demoneaux \"Follow @demoneaux on Twitter\") |\r\n|---|\r\n| [Benjamin Tan](https://demoneaux.github.io/) |\r\n\r\n## Contributors\r\n\r\n| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias \"Follow @mathias on Twitter\") |\r\n|---|\r\n| [Mathias Bynens](https://mathiasbynens.be/) |\r\n"
 }

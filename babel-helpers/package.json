@@ -2663,13 +2663,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helpers-6.24.1.tgz": {
+			"shasum": "3471de9caec388e5c850e597e58a26ddf37602b2"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d93-c799\"",
 			"fetched": 1501276772646
 		}
 	},
-	"_rev": "1-1c29335a3c1c1800",
+	"_rev": "2-4113983dd925fa12",
 	"readme": "# babel-helpers\n\n> Collection of helper functions used by Babel transforms.\n\n## Install\n\n```sh\nnpm install --save-dev babel-helpers\n```\n\n## Usage\n\n```js\nimport * as helpers from 'babel-helpers';\nimport * as t from 'babel-types';\n\nconst typeofHelper = helpers.get('typeof');\n\nt.isExpressionStatement(typeofHelper);\n// true\n```\n"
 }

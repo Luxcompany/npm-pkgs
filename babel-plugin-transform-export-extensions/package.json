@@ -1506,13 +1506,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-export-extensions-6.22.0.tgz": {
+			"shasum": "53738b47e75e8218589eea946cbbd39109bbe653"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d7e-810a\"",
 			"fetched": 1501276771724
 		}
 	},
-	"_rev": "1-42e2083954ba624a",
+	"_rev": "2-540d57343bd93d3f",
 	"readme": "# babel-plugin-transform-export-extensions\n\nCompile export extensions to ES2015\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-export-extensions\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-export-extensions\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-export-extensions script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-export-extensions\"]\n});\n```\n"
 }

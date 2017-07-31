@@ -67,13 +67,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"evp_bytestokey-1.0.0.tgz": {
+			"shasum": "497b66ad9fef65cd7c08a6180824ba1476b66e53"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"560800cb-948\"",
 			"fetched": 1501276796698
 		}
 	},
-	"_rev": "1-53c91f6e99949c6a",
+	"_rev": "2-f9fb235fbd06a670",
 	"readme": "EVP_BytesToKey\n===\n\nThe super secure [key derivation algorithm from openssl](https://wiki.openssl.org/index.php/Manual:EVP_BytesToKey(3)) (spoiler alert not actually secure, only every use it for compatibility reasons).\n\nApi:\n===\n\n```js\nvar result = EVP_BytesToKey('password', 'salt', keyLen, ivLen);\nBuffer.isBuffer(result.password); // true\nBuffer.isBuffer(result.iv); // true\n```\n"
 }

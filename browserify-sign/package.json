@@ -1763,13 +1763,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"browserify-sign-4.0.4.tgz": {
+			"shasum": "aa4eb68e5d7b658baa6bf6a57e630cbd7a93d298"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58da51dc-9790\"",
 			"fetched": 1501276796510
 		}
 	},
-	"_rev": "1-1b65be6f44a7153a",
+	"_rev": "2-53a4834c298c6638",
 	"readme": "# browserify-sign\n\n[![NPM Package](https://img.shields.io/npm/v/browserify-sign.svg?style=flat-square)](https://www.npmjs.org/package/browserify-sign)\n[![Build Status](https://img.shields.io/travis/crypto-browserify/browserify-sign.svg?branch=master&style=flat-square)](https://travis-ci.org/crypto-browserify/browserify-sign)\n[![Dependency status](https://img.shields.io/david/crypto-browserify/browserify-sign.svg?style=flat-square)](https://david-dm.org/crypto-browserify/browserify-sign#info=dependencies)\n\n[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)\n\nA package to duplicate the functionality of node's crypto public key functions, much of this is based on [Fedor Indutny's](https://github.com/indutny) work on [indutny/tls.js](https://github.com/indutny/tls.js).\n\n## LICENSE\n\nISC\n"
 }

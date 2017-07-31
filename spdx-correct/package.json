@@ -744,10 +744,89 @@
 				"tmp": "tmp/spdx-correct-2.0.3.tgz_1497381604282_0.5363241713494062"
 			},
 			"directories": {}
+		},
+		"2.0.4": {
+			"name": "spdx-correct",
+			"description": "correct invalid SPDX expressions",
+			"version": "2.0.4",
+			"author": {
+				"name": "Kyle E. Mitchell",
+				"email": "kyle@kemitchell.com",
+				"url": "https://kemitchell.com"
+			},
+			"contributors": [
+				{
+					"name": "Kyle E. Mitchell",
+					"email": "kyle@kemitchell.com",
+					"url": "https://kemitchell.com"
+				},
+				{
+					"name": "Christian Zommerfelds",
+					"email": "aero_super@yahoo.com"
+				}
+			],
+			"dependencies": {
+				"spdx-expression-parse": "^2.0.1",
+				"spdx-license-ids": "^2.0.1"
+			},
+			"devDependencies": {
+				"defence-cli": "^1.0.1",
+				"replace-require-self": "^1.0.0",
+				"standard": "^8.6.0",
+				"standard-markdown": "^2.3.0",
+				"tape": "~4.0.0"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"SPDX",
+				"law",
+				"legal",
+				"license",
+				"metadata"
+			],
+			"license": "Apache-2.0",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jslicense/spdx-correct.js.git"
+			},
+			"scripts": {
+				"lint": "standard && standard-markdown",
+				"test": "defence README.md | replace-require-self | node && node test.js"
+			},
+			"gitHead": "7fada193c070940dd5c9e02e28131456bae5abbc",
+			"bugs": {
+				"url": "https://github.com/jslicense/spdx-correct.js/issues"
+			},
+			"homepage": "https://github.com/jslicense/spdx-correct.js#readme",
+			"_id": "spdx-correct@2.0.4",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "6.11.1",
+			"_npmUser": {
+				"name": "kemitchell",
+				"email": "kyle@kemitchell.com"
+			},
+			"dist": {
+				"integrity": "sha512-c+4gPpt9YDhz7cHlz5UrsHzxxRi4ksclxnEEKsuGT9JdwSC+ZNmsGbYRzzgxyZaBYpcWnlu+4lPcdLKx4DOCmA==",
+				"shasum": "d1652ad2ebc516f656f66ea93398558065f1b4a4",
+				"tarball": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-2.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "kemitchell",
+					"email": "kyle@kemitchell.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spdx-correct-2.0.4.tgz_1501524872930_0.6342788799665868"
+			},
+			"directories": {}
 		}
 	},
 	"dist-tags": {
-		"latest": "2.0.3"
+		"latest": "2.0.4"
 	},
 	"_distfiles": {
 		"spdx-correct-1.0.0-prerelease-1.tgz": {
@@ -804,15 +883,24 @@
 			"url": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-2.0.3.tgz",
 			"sha": "04ae822f0ea78ef8b3bf6d92e84059e7ee97e348",
 			"registry": "npmjs"
+		},
+		"spdx-correct-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-2.0.4.tgz",
+			"sha": "d1652ad2ebc516f656f66ea93398558065f1b4a4",
+			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"spdx-correct-1.0.2.tgz": {
+			"shasum": "4b3073d933ff51f3912f03ac5519498a4150db40"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"5950036d-43b0\"",
-			"fetched": 1501276767676
+			"etag": "W/\"597f7388-4a68\"",
+			"fetched": 1501534218481
 		}
 	},
-	"_rev": "1-f68cea0f4ae75392",
+	"_rev": "3-b43d47f7223cd1c3",
 	"readme": "```javascript\nvar correct = require('spdx-correct')\nvar assert = require('assert')\n\nassert.equal(correct('mit'), 'MIT')\n\nassert.equal(correct('Apache 2'), 'Apache-2.0')\n\nassert(correct('No idea what license') === null)\n```\n"
 }

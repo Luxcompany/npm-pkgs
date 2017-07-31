@@ -62,13 +62,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"path-browserify-0.0.0.tgz": {
+			"shasum": "a0b870729aae214005b7d5032ec2cbbb0fb4451a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"54f89ffe-764\"",
 			"fetched": 1501276795751
 		}
 	},
-	"_rev": "1-5bb4b2cc031e37a7",
+	"_rev": "2-12effa9e7041815a",
 	"readme": "# path-browserify\n\nthe path module from node core for browsers\n"
 }

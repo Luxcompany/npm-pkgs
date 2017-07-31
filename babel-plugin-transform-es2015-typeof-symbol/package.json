@@ -1820,13 +1820,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-es2015-typeof-symbol-6.23.0.tgz": {
+			"shasum": "dec09f1cddff94b52ac73d505c84df59dcceb372"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d69-9e92\"",
 			"fetched": 1501276774138
 		}
 	},
-	"_rev": "1-6f77ce8a29182692",
+	"_rev": "2-cb2fe39d011dc746",
 	"readme": "# babel-plugin-transform-es2015-typeof-symbol\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-es2015-typeof-symbol\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-es2015-typeof-symbol\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-es2015-typeof-symbol script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-es2015-typeof-symbol\"]\n});\n```\n"
 }

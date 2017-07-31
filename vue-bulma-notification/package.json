@@ -193,13 +193,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-notification-1.1.1.tgz": {
+			"shasum": "e559763065d53c2755cee73906b4e7010c137512"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b37746-1b19\"",
 			"fetched": 1501276735037
 		}
 	},
-	"_rev": "1-5bb378dc2b786468",
+	"_rev": "2-6a1bdf14356625b1",
 	"readme": "# Notification\n\nNotification component for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-notification --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div>\n    <notification :title=\"'Normal'\" :direction=\"'Down'\" :message=\"'Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit'\" :duration=\"0\"></notification>\n    <button class=\"button\" @click=\"openNotificationWithType('')\">Normal</button>\n    <button class=\"button is-primary\" @click=\"openNotificationWithType('primary')\">Primary</button>\n    <button class=\"button is-info\" @click=\"openNotificationWithType('info')\">Info</button>\n    <button class=\"button is-success\" @click=\"openNotificationWithType('success')\">Success</button>\n    <button class=\"button is-warning\" @click=\"openNotificationWithType('warning')\">Warning</button>\n    <button class=\"button is-danger\" @click=\"openNotificationWithType('danger')\">Danger</button>\n  </div>\n</template>\n\n<script>\nimport Vue from 'vue'\nimport Notification from 'vue-bulma-notification'\n\nconst NotificationComponent = Vue.extend(Notification)\n\nconst openNotification = (propsData = {\n  title: '',\n  message: '',\n  type: '',\n  direction: '',\n  duration: 4500,\n  container: '.notifications'\n}) => {\n  return new NotificationComponent({\n    el: document.createElement('div'),\n    propsData\n  })\n}\n\nexport default {\n  components: {\n    Notification\n  },\n\n  mounted () {\n    openNotification({\n      message: 'Success lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit',\n      type: 'success',\n      duration: 0\n    })\n  },\n\n  methods: {\n    openNotificationWithType (type) {\n      openNotification({\n        title: 'This is a title',\n        message: 'This is the message.',\n        type: type\n      })\n    }\n  }\n\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
 }

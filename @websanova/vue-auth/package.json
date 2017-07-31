@@ -4329,10 +4329,295 @@
 				"tmp": "tmp/vue-auth-2.13.2-beta.tgz_1500695244210_0.2624939715024084"
 			},
 			"directories": {}
+		},
+		"2.14.0-beta": {
+			"name": "@websanova/vue-auth",
+			"description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
+			"keywords": [
+				"vue",
+				"vue.js",
+				"jwt",
+				"auth",
+				"authentication",
+				"plugin",
+				"json",
+				"web",
+				"token"
+			],
+			"author": {
+				"name": "Websanova",
+				"email": "rob@websanova.com",
+				"url": "http://websanova.com"
+			},
+			"main": "src/index.js",
+			"version": "2.14.0-beta",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/websanova/vue-auth.git"
+			},
+			"licenses": "MIT, GPL",
+			"devDependencies": {},
+			"bugs": {
+				"url": "https://github.com/websanova/vue-auth/issues"
+			},
+			"homepage": "https://github.com/websanova/vue-auth#readme",
+			"_id": "@websanova/vue-auth@2.14.0-beta",
+			"scripts": {},
+			"_shasum": "f2b79f7469e95c0b76971c4e2070a9b862d670db",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.4",
+			"_npmUser": {
+				"name": "websanova",
+				"email": "rob@websanova.com"
+			},
+			"dist": {
+				"shasum": "f2b79f7469e95c0b76971c4e2070a9b862d670db",
+				"tarball": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.0-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "websanova",
+					"email": "rob@websanova.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-auth-2.14.0-beta.tgz_1501327107943_0.14632140728645027"
+			},
+			"directories": {}
+		},
+		"2.14.1-beta": {
+			"name": "@websanova/vue-auth",
+			"description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
+			"keywords": [
+				"vue",
+				"vue.js",
+				"jwt",
+				"auth",
+				"authentication",
+				"plugin",
+				"json",
+				"web",
+				"token"
+			],
+			"author": {
+				"name": "Websanova",
+				"email": "rob@websanova.com",
+				"url": "http://websanova.com"
+			},
+			"main": "src/index.js",
+			"version": "2.14.1-beta",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/websanova/vue-auth.git"
+			},
+			"licenses": "MIT, GPL",
+			"devDependencies": {},
+			"bugs": {
+				"url": "https://github.com/websanova/vue-auth/issues"
+			},
+			"homepage": "https://github.com/websanova/vue-auth#readme",
+			"_id": "@websanova/vue-auth@2.14.1-beta",
+			"scripts": {},
+			"_shasum": "e880b0fe31d202fe953ce7c5f8261a3f65caac0d",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.4",
+			"_npmUser": {
+				"name": "websanova",
+				"email": "rob@websanova.com"
+			},
+			"dist": {
+				"shasum": "e880b0fe31d202fe953ce7c5f8261a3f65caac0d",
+				"tarball": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.1-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "websanova",
+					"email": "rob@websanova.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-auth-2.14.1-beta.tgz_1501328097424_0.8107794101815671"
+			},
+			"directories": {}
+		},
+		"2.14.2-beta": {
+			"name": "@websanova/vue-auth",
+			"description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
+			"keywords": [
+				"vue",
+				"vue.js",
+				"jwt",
+				"auth",
+				"authentication",
+				"plugin",
+				"json",
+				"web",
+				"token"
+			],
+			"author": {
+				"name": "Websanova",
+				"email": "rob@websanova.com",
+				"url": "http://websanova.com"
+			},
+			"main": "src/index.js",
+			"version": "2.14.2-beta",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/websanova/vue-auth.git"
+			},
+			"licenses": "MIT, GPL",
+			"devDependencies": {},
+			"bugs": {
+				"url": "https://github.com/websanova/vue-auth/issues"
+			},
+			"homepage": "https://github.com/websanova/vue-auth#readme",
+			"_id": "@websanova/vue-auth@2.14.2-beta",
+			"scripts": {},
+			"_shasum": "51d22e6c849e602ec94faa723fb9a02a453e7a66",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.4",
+			"_npmUser": {
+				"name": "websanova",
+				"email": "rob@websanova.com"
+			},
+			"dist": {
+				"shasum": "51d22e6c849e602ec94faa723fb9a02a453e7a66",
+				"tarball": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.2-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "websanova",
+					"email": "rob@websanova.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-auth-2.14.2-beta.tgz_1501342347504_0.3309311375487596"
+			},
+			"directories": {}
+		},
+		"2.15.0-beta": {
+			"name": "@websanova/vue-auth",
+			"description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
+			"keywords": [
+				"vue",
+				"vue.js",
+				"jwt",
+				"auth",
+				"authentication",
+				"plugin",
+				"json",
+				"web",
+				"token"
+			],
+			"author": {
+				"name": "Websanova",
+				"email": "rob@websanova.com",
+				"url": "http://websanova.com"
+			},
+			"main": "src/index.js",
+			"version": "2.15.0-beta",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/websanova/vue-auth.git"
+			},
+			"licenses": "MIT, GPL",
+			"devDependencies": {},
+			"bugs": {
+				"url": "https://github.com/websanova/vue-auth/issues"
+			},
+			"homepage": "https://github.com/websanova/vue-auth#readme",
+			"_id": "@websanova/vue-auth@2.15.0-beta",
+			"scripts": {},
+			"_shasum": "e0dacaf0131ed9647befb8461c952bd7b454e49d",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.4",
+			"_npmUser": {
+				"name": "websanova",
+				"email": "rob@websanova.com"
+			},
+			"dist": {
+				"shasum": "e0dacaf0131ed9647befb8461c952bd7b454e49d",
+				"tarball": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.15.0-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "websanova",
+					"email": "rob@websanova.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-auth-2.15.0-beta.tgz_1501390362165_0.8848095121793449"
+			},
+			"directories": {}
+		},
+		"2.15.1-beta": {
+			"name": "@websanova/vue-auth",
+			"description": "Vue.js token based authentication plugin. Supports simple token based and Json Web Tokens (JWT) authentication.",
+			"keywords": [
+				"vue",
+				"vue.js",
+				"jwt",
+				"auth",
+				"authentication",
+				"plugin",
+				"json",
+				"web",
+				"token"
+			],
+			"author": {
+				"name": "Websanova",
+				"email": "rob@websanova.com",
+				"url": "http://websanova.com"
+			},
+			"main": "src/index.js",
+			"version": "2.15.1-beta",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/websanova/vue-auth.git"
+			},
+			"licenses": "MIT, GPL",
+			"devDependencies": {},
+			"bugs": {
+				"url": "https://github.com/websanova/vue-auth/issues"
+			},
+			"homepage": "https://github.com/websanova/vue-auth#readme",
+			"_id": "@websanova/vue-auth@2.15.1-beta",
+			"scripts": {},
+			"_shasum": "9508d834127ab52f0395a7f6f247b9674241398d",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.4",
+			"_npmUser": {
+				"name": "websanova",
+				"email": "rob@websanova.com"
+			},
+			"dist": {
+				"shasum": "9508d834127ab52f0395a7f6f247b9674241398d",
+				"tarball": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.15.1-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "websanova",
+					"email": "rob@websanova.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-auth-2.15.1-beta.tgz_1501491860489_0.5526806202251464"
+			},
+			"directories": {}
 		}
 	},
 	"dist-tags": {
-		"latest": "2.13.2-beta"
+		"latest": "2.15.1-beta"
 	},
 	"_distfiles": {
 		"vue-auth-1.0.0-dev.tgz": {
@@ -4604,15 +4889,44 @@
 			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.13.2-beta.tgz",
 			"sha": "f745bc4417c4ea2bb442467ab31a2bae917e0742",
 			"registry": "npmjs"
+		},
+		"vue-auth-2.14.0-beta.tgz": {
+			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.0-beta.tgz",
+			"sha": "f2b79f7469e95c0b76971c4e2070a9b862d670db",
+			"registry": "npmjs"
+		},
+		"vue-auth-2.14.1-beta.tgz": {
+			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.1-beta.tgz",
+			"sha": "e880b0fe31d202fe953ce7c5f8261a3f65caac0d",
+			"registry": "npmjs"
+		},
+		"vue-auth-2.14.2-beta.tgz": {
+			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.14.2-beta.tgz",
+			"sha": "51d22e6c849e602ec94faa723fb9a02a453e7a66",
+			"registry": "npmjs"
+		},
+		"vue-auth-2.15.0-beta.tgz": {
+			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.15.0-beta.tgz",
+			"sha": "e0dacaf0131ed9647befb8461c952bd7b454e49d",
+			"registry": "npmjs"
+		},
+		"vue-auth-2.15.1-beta.tgz": {
+			"url": "https://registry.npmjs.org/@websanova/vue-auth/-/vue-auth-2.15.1-beta.tgz",
+			"sha": "9508d834127ab52f0395a7f6f247b9674241398d",
+			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-auth-2.13.0-beta.tgz": {
+			"shasum": "7fdfa6fe87b38a1491add9734bae4f73c2362aed"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"5972cacc-22de6\"",
-			"fetched": 1501276735209
+			"etag": "W/\"597ef295-1c874\"",
+			"fetched": 1501535111930
 		}
 	},
-	"_rev": "1-4c38ea5ec150fdcc",
-	"readme": "# Vue Auth\r\n\r\nVue.js token based authentication plugin. Supports simple token based and JSON Web Tokens (JWT) authentication.\r\n\r\nNote this is the new name for the formerly named `vue-jwt-auth`. Since it's likely this package will expand with potentially more authentication options.\r\n\r\n* [Install](#install)\r\n* [Demo](#demo)\r\n* [Auth Flow](#auth-flow)\r\n* [Token Refresh](#token-refresh)\r\n* [User Data](#user-data)\r\n* [Authentication](#authentication)\r\n* [Privileges](#privileges)\r\n* [Routes](#routes)\r\n* [Methods](#methods)\r\n* [Options](#options)\r\n* [Drivers](#drivers)\r\n* [Change Log](#change-log)\r\n\r\n\r\n\r\n### Tested with\r\n\r\n* vue 1.0.26, vue-resource 1.0.2, vue-router 0.7.13\r\n* vue 2.0.1, vue-resource 1.0.2, vue-router 2.0.0\r\n\r\nEarly support for Vue 2.0 is now available also but may still be a bit unstable due to many changes in the api. Please let me know of any issues you may find.\r\n\r\n\r\n\r\n## Notes\r\n\r\n* The new 2.x branch features a driver centric model. This means the `router` and `http` options must **ALWAYS** set the driver to use. Please read the [Change Log](https://github.com/websanova/vue-auth#change-log) for more info. \r\n\r\n\r\n\r\n## Install 2.x\r\n\r\n~~~\r\n> npm install @websanova/vue-auth\r\n~~~    \r\n\r\nThe `router` and `http` drivers MUST be set. The drivers are quite small so can be replaced or overridden as necessary.\r\n\r\n**Note that the version in the driver file should denote the version it is compatible with. So `router.2x.` means it's for router 2.x.**\r\n\r\n~~~\r\nVue.http.options.root = 'https://api-demo.websanova.com/api/v1';\r\n\r\nVue.router = new VueRouter({\r\n    ...\r\n});\r\n\r\nVue.use(require('@websanova/vue-auth'), {\r\n    auth: require('@websanova/vue-auth/drivers/auth/bearer.js'),\r\n    http: require('@websanova/vue-auth/drivers/http/vue-resource.1.x.js'),\r\n    router: require('@websanova/vue-auth/drivers/router/vue-router.2.x.js'),\r\n    ...\r\n    rolesVar: 'type'\r\n    ...\r\n});\r\n~~~\r\n\r\n### Install with Vue-Axios\r\n\r\n~~~\r\nimport axios from 'axios'\r\nimport VueAxios from 'vue-axios'\r\nimport VueAuth from '@websanova/vue-auth'\r\n\r\nVue.use(VueAxios, axios)\r\nVue.use(VueAuth, {\r\n    auth: AuthBearer,\r\n    http: require('@websanova/vue-auth/drivers/http/axios.1.x.js'),\r\n    router: require('@websanova/vue-auth/drivers/router/vue-router.2.x.js')\r\n    ...\r\n});\r\n\r\n// access axios with Vue or use the 'this' reference in components\r\nVue.axios.post(...).then(res => {\r\n    console.log('RES', res);\r\n});\r\n~~~\r\n\r\n\r\n\r\n## Install 1.x\r\n\r\n~~~\r\n> npm install @websanova/vue-auth\r\n~~~    \r\n\r\n~~~\r\nVue.http.options.root = 'https://api-demo.websanova.com/api/v1';\r\n\r\nVue.router = new VueRouter({\r\n    ...\r\n});\r\n\r\nVue.use(require('@websanova/vue-auth'), {\r\n    rolesVar: 'type'\r\n});\r\n~~~\r\n\r\n**NOTE:** If you do not set your router as `Vue.router = new VueRouter()` then you will need to feed the `router` in directly through the options. Also true for `http`.\r\n\r\n~~~\r\nvar router = new VueRouter();\r\nVue.use(Auth, {\r\n    router: router,\r\n    http: http\r\n});\r\n~~~\r\n\r\n\r\n\r\n## Demo\r\n\r\nTo run the front end part of the demo just install and run. The demo runs on a publicly available server so just the front end needs run.\r\n\r\n* Demo server available publicly at https://api-demo.websanova.com\r\n* Demo server on GitHub https://github.com/websanova/laravel-api-demo\r\n* Change the http options root in the `app.js` demo file to a different server for personal testing.\r\n\r\n~~~\r\n> npm install\r\n> npm run 1.x.demo\r\n> npm run 2.x.demo\r\n~~~\r\n\r\nNote: For Vue 2 demo there is a separate package.json. Unfortunately there is no really great way to run both at the same time.\r\n\r\n\r\nIf a different path is required it must be set in the `demo/app.js` file.\r\n\r\nTo run the build:\r\n\r\n~~~\r\n> webpack\r\n~~~\r\n\r\n\r\n\r\n## Auth Flow\r\n\r\nThe best way to see the code in action is to see the code samples in the `1.x.demo` and `2.x.demo` folders. However it still helps to understand what exactly the workflow is.\r\n\r\n* The plugin has two sets of interceptors. One for routing and one for http requests.\r\n\r\n### Routing\r\n\r\n* From the front end we can't really do any \"real\" authentication. It's simply a check to see it users role and the routes roles match up. From there we can allow the route to process or we can redirect accordingly.\r\n* This is done by intercepting each route and checking if the user is already logged in. This is done by simply checking if a token exists.\r\n* If a token exists a few things can happen. For one we would attempt to fetch the users data. The second part deals with refreshing the token which has a few strategies and is discussed in the next section.\r\n* Typically a user will be fetched each time to make sure we have the latest user data.\r\n* After the user is fetched the plugin will process into a \"loaded\" state. This should be checked via the \"$auth.ready()\" method. At this point we will know if we have a valid token and user.\r\n* From here we can use the `$auth.check()` function to show hide various parts of our interface.\r\n\r\n### HTTP\r\n\r\n* The http part is much simpler. Essentially the plugin will automatically parse some authentication data (based on driver) into each request the app makes.\r\n* This parsing will be done on each `request` and `response` of your http (ajax) calls.\r\n* For the request it will simply append the auth data in the header or body (depending on your auth driver).\r\n* For the response it will parse the auth data from the header or response data (depending on your auth driver).\r\n\r\n\r\n\r\n## Token Refresh\r\n\r\nDealing with the token refresh is the tricker part in the authentication auth flow. It helps to review what is actually happening here first.\r\n\r\n* A user logs in and gets a token. this token is valid for a certain period of time.\r\n* Let's say the user gets a token that is always valid. This presents some security issues in case a device is lost or compromised.\r\n* We can therefore limit access to the app by setting the tokens expiration to something like one or two weeks.\r\n* Now there is an expiration so if the users device is compromised we are at least limiting the potential damage.\r\n* However as long as the user keeps using the app we should keep them logged in by continually re-issuing new tokens.\r\n\r\nThis is where the issue lies with JWT and token based authentication. The question is what kind of refresh strategy do we want to employ?\r\n\r\nCurrently, there doesn't seem to be any official way to do this. With only a few \"best practices\" which are personal opinions at best.\r\n\r\nA few notes:\r\n\r\n**NOTE:** We need to make sure our old token lives slightly longer pass the expiration. Since multiple calls to the server at the same time would then be using expired tokens depending on which request expired the token first.\r\n\r\n**NOTE:** The plugin will automatically pick up the token wherever it's set based on the driver used.\r\n\r\nA few strategies:\r\n\r\n**> Set a new token with each request (with old tokens living slightly longer in case of async requests).**\r\n\r\nIt would depend on the app, but this one can be a bit overkill.\r\n\r\n**> Set a timer or counter for a token refresh request.**\r\n\r\nThis is actually not a bad strategy. But again might be a bit overkill.\r\n\r\n**> Check the tokens expiration date before or after each request.**\r\n\r\nThis was actually previously implemented in the plugin. It was removed because of the overhead since it requires a base64 encode/decode. It would be best suited as a separate custom authentication driver.\r\n\r\n**> Set the user token and refresh token time to same time length and call refresh with each reload of the app.**\r\n\r\nThis relies on the token being set once at login and then a separate refresh on each page reload.\r\n\r\n* This is the default behavior of the plugin.\r\n* The tokens are the same time length so there is no worry about a mismatch on timing.\r\n* They would also both expire at the same time if the app is unused.\r\n* There is also the benefit of no timer overlaps so async requests don't needed extended life on expired tokens.\r\n\r\nBecause different apps have different strategies and requirements an option has been added to disable fresh.\r\n\r\n~~~\r\nrefreshData: {\r\n    enabled: false // true by default.\r\n}\r\n~~~\r\n\r\nThe refresh request could done be done manually via the `refresh` method.\r\n\r\n~~~\r\nthis.$auth.refresh();\r\n~~~\r\n\r\n\r\n\r\n\r\n## User Data\r\n\r\nA common gotcha is getting the `$auth.user()` data properly. The plugin is designed to expect the user object to be in the `data` parameter of the response.\r\n\r\nDepending on what version of the `vue-resource` plugin you are using the response data itself will come from either `res.json()` or `res.data`. Note that the data here is not the response data.\r\n\r\nSample response.\r\n\r\n~~~\r\n{\r\n    \"status\": \"success\",\r\n    \"data\": {\r\n        \"id\": 1,\r\n        \"name\": \"Websanova\",\r\n        ...\r\n    }    \r\n}\r\n~~~\r\n\r\nThe plugin has a function for parsing this user data when it receives it called `_parseUserData`. The `data` variable there is the `res.json()` or `res.data` object.\r\n\r\n~~~\r\nfunction _parseUserData(data) {\r\n    return data.data;\r\n}\r\n~~~\r\n\r\nIf a different format is needed simply override this function in the options.\r\n\r\n~~~\r\nVue.use(require('vue-auth'), {\r\n    parseUserData: function (data) {\r\n        return data.whatever;\r\n    }\r\n});\r\n~~~\r\n\r\n\r\n\r\n## Authentication\r\n\r\nBecause there are so many different authentication schemes with tokens Vue Auth uses a simple model so that it can easily be extended for custom scenarios.\r\n\r\nEach request and response that is made to the server is intercepted internally by the plugin.\r\n\r\n* The internal request method will fetch the current token (internally) and pass it to the auth `request` driver method where it can be processed for delivery to the server.\r\n* The internal response method will behave in a similar fashion however it should deliver a token to the internal response intercept where that token will get stored.\r\n\r\nThe current `bearer` driver is quite simple and looks like this:\r\n\r\n~~~\r\nbearerAuth: {\r\n    request: function (req, token) {\r\n        this.options._setHeaders.call(this, req, {Authorization: 'Bearer ' + token});\r\n    },\r\n    response: function (res) {\r\n        var token = this.options._getHeaders.call(this, res).Authorization;\r\n\r\n        if (token) {\r\n            token = token.split('Bearer ');\r\n            \r\n            return token[token.length > 1 ? 1 : 0];\r\n        }\r\n    }\r\n},\r\n~~~\r\n\r\nThe driver `request` method receives the `req` and `token` arguments. From there we use an internal `_setHeaders` method. However with the `req` object pretty much anything can be assembled.\r\n\r\nThe driver `response` method receives the `res` argument and should parse out the token from the response and return a token which will get stored internally by the plugin.\r\n\r\nTo setup a custom driver we simply need to set the `authType` option and the naming convention will follow.\r\n\r\n**Example 1: Token in sub object of body** \r\n\r\nMaybe the token is returned in a non standard way such as `{data: {token: 'abcd1234'}}`.\r\n\r\n~~~\r\nauthType: 'custom1',\r\n\r\ncustom1Auth: {\r\n    request: function (req, token) {\r\n        req.headers.set('SomeHeader', token);\r\n    },\r\n    response: function (res) {\r\n        return (res.data.data || {}).token;\r\n    }\r\n}\r\n~~~\r\n\r\n**Example 2: Token with multiple parts** \r\n\r\nAnother common scenario may be a token with multiple data points that all need to be returned to the server.\r\n\r\n~~~\r\nauthType: 'custom2',\r\n\r\ncustom2Auth: {\r\n    request: function (req, token) {\r\n        token = token.split(';');\r\n\r\n        this.options._setHeaders.call(this, req {\r\n            header1: token[0],\r\n            header2: token[1],\r\n            header3: token[2],\r\n            header4: token[3]\r\n        });\r\n    },\r\n    response: function (res) {\r\n        var headers = this.options._getHeaders.call(this, res);\r\n\r\n        if (headers.header1 && headers.header2 && headers.header3 && headers.header4) {\r\n            return headers.header1 + ';' + headers.header2 + ';' + headers.header3 + ';' + headers.header4;\r\n        }\r\n    }\r\n}\r\n~~~\r\n\r\n\r\n\r\n## Privileges\r\n\r\nThe `vue-auth` plugin works with the `vue-router` plugin. Setting an `auth` field in the router mapping section will set access to that route.\r\n\r\n**Vue 1.x**\r\n\r\n~~~\r\nVue.router.map({\r\n    '/admin': {\r\n        auth: 'admin',\r\n        component: require('./Admin')\r\n    },\r\n    '/manage': {\r\n        auth: ['admin', 'manager'],\r\n        component: require('./Manage')\r\n    },\r\n    '/account': {\r\n        auth: true,\r\n        component: require('./Account')\r\n    },\r\n    '/private': {\r\n        auth: [{\"people\": \"administrator\", \"people\": \"superadmin\"}],\r\n        component: require('./Account')\r\n    },\r\n    '/login': {\r\n        auth: false,\r\n        component: require('./Login')\r\n    },\r\n    '/contact': {\r\n        component: require('./Contact')\r\n    }\r\n});\r\n~~~\r\n\r\n**Vue 2.x**\r\n\r\n~~~\r\nVue.router = new VueRouter({\r\n    routes: [{\r\n        path: '/admin',\r\n        meta: {auth: 'admin'},\r\n        component: require('./Admin')\r\n    }, {\r\n        path: '/manage',\r\n        meta: {auth: ['admin', 'manager']},\r\n        component: require('./Manage')\r\n    }, {\r\n        path: '/account',\r\n        meta: {auth: true},\r\n        component: require('./Account')\r\n    }, {\r\n        path: '/private',\r\n        meta: {auth: [{\"people\": \"administrator\", \"people\": \"superadmin\"}]},\r\n        component: require('./Account')\r\n    }, {\r\n        path: '/login',\r\n        meta: {auth: false},\r\n        component: require('./Login')\r\n    }, {\r\n        path: '/contact',\r\n        component: require('./Contact')\r\n    }]\r\n});\r\n~~~\r\n\r\n\r\n## Routes\r\n\r\n### auth: `true`\r\n\r\n* User must be authenticated (no roles are checked).\r\n\r\n### auth: `false`\r\n\r\n* If the user is logged in then this route will be unavailable. Useful for login/register type pages to be unaccessible once the user is logged in.\r\n\r\n### auth: `undefined`\r\n\r\n* Public, no checks required.\r\n\r\n### auth: `Array` `String`\r\n\r\n* The user must be logged in. Additionally the string or array will be checked against the users roles.\r\n* Note that the users `roles` variable can be set in the options.\r\n\r\n### auth: `Object`\r\n\r\n* The user must be logged in and the object will be checked against the users roles.\r\n* Note for this to work both the auth and user roles must both be objects.\r\n* An object must also be used when using `$auth.check({some: 'name'})` where the value can be a `String` or `Array`.\r\n\r\n\r\n\r\n\r\n## Methods\r\n\r\nThese are all methods available in the vue app via `$auth`.\r\n\r\n* All `success` and `error` functions will receive proper context from currently called component.\r\n\r\n### ready\r\n\r\n* Fires once on the initial app load to pre-load users (if set).\r\n\r\n~~~\r\n<div v-if=\"$auth.ready()\">\r\n    <vue-router></vue-router>\r\n</div>\r\n<div v-if=\"!$auth.ready()\">\r\n    Site loading...\r\n</div>\r\n~~~\r\n\r\n### redirect\r\n\r\n* Returns either an object if a redirect occurred or `null`.\r\n* The object is in the form `{type: <string>, from: <object>, to: <object>}` Where `type` is one of `401`, `403`, `404` and the `from` and `to` objects are just copies of the route transitions.\r\n\r\n~~~\r\nvar redirect = this.$auth.redirect();\r\n\r\nthis.$auth.login({\r\n    redirect: {name: redirect ? redirect.from.name : 'account'},\r\n});\r\n~~~\r\n\r\n### user\r\n\r\n* Returns the currently stored users data.\r\n* Update the current user by passing in an object.\r\n\r\n~~~\r\n<div>\r\n    {{ $auth.user().email }}\r\n</div>\r\n~~~\r\n\r\n~~~\r\nthis.$auth.user(userObject);\r\n~~~\r\n\r\n\r\n### check\r\n\r\n* Check to see if the user is logged in.\r\n* It also accepts arguments to check for a specific role or set of roles.\r\n\r\n~~~\r\n<a v-if=\"!$auth.check()\" v-link=\"'/login'\">login</a>\r\n<a v-if=\"$auth.check('admin')\">admin</a>\r\n<a v-if=\"$auth.check(['admin', 'manager')]\">manage</a>\r\n<a v-if=\"$auth.check()\" v-on:click=\"$auth.logout()\">logout</a>\r\n~~~\r\n\r\n### other\r\n\r\n* Checks if secondary \"other\" user is logged in.\r\n\r\n~~~\r\n<a v-if=\"$auth.other()\" v-on:click=\"logoutOther()\">logout other</a>\r\n~~~\r\n\r\n### disableOther\r\n\r\n* Disables other using the default token until it is re-enabled (or logged out).\r\n* This allows you to login is as \"another\" user but still perform requests as an admin.\r\n\r\n~~~\r\nthis.$auth.disableOther();\r\n\r\nthis.$http.get('users'); // Will run as admin.\r\n\r\nthis.$auth.enableOther();\r\n~~~\r\n\r\n### enableOther\r\n\r\n* See disableOther.\r\n\r\n### token\r\n\r\n* Returns the currently activated token if none are specified.\r\n* Can also specify a specific token, but only `other` and `default` will actually return anything unless setting your own token.\r\n* Can set a token with optional second argument, set null to use default naming conventions.\r\n\r\n~~~\r\nvar token = this.$auth.token();\r\nvar token = this.$auth.token('other');\r\nvar token = this.$auth.token('default');\r\n\r\nthis.$auth.token(null, token);\r\nthis.$auth.token('test', token);\r\n\r\nvar token = this.$auth.token('test');\r\n~~~\r\n\r\n\r\n### fetch\r\n\r\n* Fetch the user (again) allowing the users data to be reset (from the api).\r\n* Data object is passed directly to http method.\r\n\r\n~~~\r\nthis.$auth.fetch({\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### refresh\r\n\r\n* Manually refresh the token.\r\n* The refresh will always fire on boot, to disable this override the `expiredToken` option method.\r\n* Can be used in conjunction with `expiredToken` and `token` to write custom refreshes.\r\n* If any custom expiration custom logic needs to be done (for instance decoding and checking expiration date in jwt token) override the `expiredToken` method and return `boolean`.\r\n* Data object is passed directly to http method.\r\n\r\n~~~\r\nthis.$auth.refresh({\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### register\r\n\r\n* Convenience method for registration.\r\n* Data object is passed directly to http method.\r\n* Accepts `autoLogin` parameter to attempt login directly after register.\r\n* Accepts `rememberMe` parameter when used in conjunction with `autoLogin` equal to `true`.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n\r\n~~~\r\nthis.$auth.register({\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    autoLogin: true,\r\n    rememberMe: true,\r\n    redirect: {name: 'account'},\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### login\r\n\r\n* Data object is passed directly to http method.\r\n* Accepts `rememberMe` parameter.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n* Accepts `fetchUser` param which allows disabling fetching user after login.\r\n\r\n~~~\r\nthis.$auth.login({\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    rememberMe: true,\r\n    redirect: '/account',\r\n    fetchUser: true\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### logout\r\n\r\n* Data object is passed directly to http method.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n* Accepts `makeRequest` parameter which must be set to `true` to send request to api. Otherwise the logout just happens locally by deleting tokens.\r\n\r\n~~~\r\nthis.$auth.logout({\r\n    makeRequest: true,\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    redirect: '/login',\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### loginOther\r\n\r\n* Data object is passed directly to http method.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n\r\n~~~\r\nthis.$auth.loginOther({\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    redirect: {name: 'account'},\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### logoutOther\r\n\r\n* Data object is passed directly to http method.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n* Also accepts `makeRequest` parameter same as `logout` method.\r\n\r\n~~~\r\nthis.$auth.logoutOther({\r\n    makeRequest: true,\r\n    params: {},\r\n    success: function () {},\r\n    error: function () {},\r\n    redirect: {path: '/admin'},\r\n    // etc...\r\n});\r\n~~~\r\n\r\n### oauth2\r\n\r\n* Convenience method for OAuth2.\r\n* Initial request is to third party.\r\n* Second call is to api server.\r\n* Accepts `code` parameter which should be set to `true` when the code is set.\r\n* Accepts `provider` parameter which hooks into data for third party.\r\n* Third party data should follow format such as `facebookData`, `facebookOath2Data`. Check options section for more info.\r\n* Accepts `redirect` parameter which is passed directly to router.\r\n\r\n~~~\r\nif (this.$route.query.code) {\r\n    this.$auth.oauth2({\r\n        code: true,\r\n        provider: 'facebook',\r\n        params: {\r\n            code: this.code\r\n        },\r\n        success: function(res) {},\r\n        error: function (res) {}\r\n        redirect: {path: '/account'},\r\n        // etc\r\n    });\r\n}\r\nelse {\r\n    this.$auth.oauth2({\r\n        provider: 'facebook'\r\n    });\r\n}\r\n~~~\r\n\r\n\r\n\r\n## Options\r\n\r\nPretty much all methods are overrideable now in case there any specific issues with a particular version of Vue.\r\n\r\n### token: `[{request: 'Authorization', response: 'Authorization', authType: 'bearer', foundIn: 'header'}, {request: 'token', response: 'token', authType: 'bearer', foundIn: 'response'}]`\r\n\r\n* Set of method for fetching the token from the response. It will attempt each until a token is found and stop there.\r\n* For sending requests it will by default use the method in the first position.\r\n\r\n### tokenName: `'auth_token'`\r\n\r\n* The name of the token stored in local storage.\r\n\r\n### rolesVar: `'roles'`\r\n\r\n* Name of roles var in user object.\r\n\r\n### authRedirect: `{path: '/login'}`\r\n\r\n* Redirect to use if authentication is required on a route.\r\n\r\n### forbiddenRedirect: `{path: '/403'}`\r\n\r\n* Redirect to use if route is forbidden.\r\n\r\n### notFoundRedirect: `{path: '/404'}`\r\n\r\n* Redirect to use if route is not found (set the `false`).\r\n\r\n### registerData: `{url: 'auth/register', method: 'POST', redirect: '/login'}`\r\n\r\n* Default register request data and redirect.\r\n\r\n### loginData: `{url: 'auth/login', method: 'POST', redirect: '/', fetchUser: true}`\r\n\r\n* Default login request data and redirect.\r\n* To disable user fetching on login set the `fetchUser` to `false`.\r\n\r\n### logoutData: `{url: 'auth/logout', method: 'POST', redirect: '/', makeRequest: false}`\r\n\r\n* Default logout request data and redirect.\r\n* This request is only made if `makeRequest` is set to true.\r\n\r\n### oauth1Data: `{url: 'auth/login', method: 'POST'}`\r\n\r\n* Default oauth1 request data and redirect.\r\n\r\n### fetchData: `{url: 'auth/user', method: 'GET', enabled: true}`\r\n\r\n* Default user fetch request data and redirect.\r\n\r\n### refreshData: `{url: 'auth/refresh', method: 'GET', enabled: true, interval: 30}`\r\n\r\n* Default refresh request data and redirect.\r\n* Can set interval for auto refresh (in minutes). Default is `30`, set to `0` for none.\r\n\r\n### loginOtherData: `{url: 'auth/login-other', method: 'POST', redirect: '/'}`\r\n\r\n* Default login as \"other\" request data and redirect.\r\n\r\n### logoutOtherData: `{url: 'auth/logout-other', method: 'POST', redirect: '/admin', makeRequest: false}`\r\n\r\n* Default logout as \"other\" request data and redirect.\r\n\r\n### facebookData: `{url: 'auth/facebook', method: 'POST', redirect: '/'}`\r\n\r\n* Default  request data and redirect.\r\n\r\n### googleData: `{url: 'auth/google', method: 'POST', redirect: '/'}`\r\n\r\n* Default  request data and redirect.\r\n\r\n### facebookOauth2Data: `{url: 'https://www.facebook.com/v2.5/dialog/oauth', redirect: function () { return this.options.getUrl() + '/login/facebook'; }, clientId: '', scope: 'email'}`\r\n\r\n* Default oauth2 data that ships with plugin.\r\n* These can be overridden when calling `oauth2()` method or in the plugin options on init.\r\n\r\n### googleOauth2Data: `{url: 'https://accounts.google.com/o/oauth2/auth', redirect: function () { return this.options.getUrl() + '/login/google'; }, clientId: '', scope: 'https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read'}`\r\n\r\n* Same as facebookOauth2Data.\r\n\r\n### getUrl: `_getUrl`\r\n\r\n* Returns the current sites url for use in oauth2 redirects back to the site.\r\n\r\n### cookieDomain: `_cookieDomain`\r\n\r\n* Set the cookie domain used for `rememberMe` option.\r\n\r\n### parseUserData: `_parseUserData`\r\n\r\n* Set what data is stored from the user from the response data.\r\n\r\n### parseOauthState: `_parseOauthState`\r\n\r\n* Set how the oauth state data from the returned url will get parsed.\r\n\r\n### tokenExpired: `_tokenExpired`\r\n\r\n* Hook for checking if a token refresh should occur or not. Set this to return `false` when creating a custom solution.\r\n\r\n### check: `_check`\r\n\r\n* Function used during `check` method. \r\n\r\n\r\n\r\n## Drivers\r\n\r\nIn the 2.x version the plugin now features a driver centric model.\r\n\r\n**NOTE: Some drivers may have dependencies such as `Vue.router` being set.**\r\n\r\n~~~\r\nVue.use(require('@websanova/vue-auth'), {\r\n    auth: require('@websanova/vue-auth/drivers/auth/bearer.js'),\r\n    http: require('@websanova/vue-auth/drivers/http/vue-resource.1.x.js'),\r\n    router: require('@websanova/vue-auth/drivers/router/vue-router.2.x.js'),\r\n    ...\r\n});\r\n~~~\r\n\r\nIf you are creating a driver a method named `_init` which will receive the current auth scope can be used to check for any dependencies.\r\n\r\n\r\n\r\n## Change Log\r\n\r\n### v2.11.x-beta\r\n\r\n* Update so support fall back for token to be stored in cookie if `localStorage` is not supported. Note that the cookie is used as a dud and not meant to be used by server or back-end as part of authentication scheme.\r\n* Update token name to underscores `auth_token` instead of `auth-token`.\r\n* Fix issue with invalid token on refresh not firing off `_invalidToken` token call.\r\n\r\n### v2.10.x-beta\r\n\r\n* Update devise auth to support latest (backward compatible).\r\n* Fix issues with refresh not authenticating when globally setting `fetchData.enabled` to `false`.\r\n\r\n### v2.9.x-beta\r\n\r\n* Fix using `loginData.fetchUser` to still authenticate without user.\r\n* Fix refresh / user fetch on app reload (browser refresh). It will now run sequentially in case the token is expired forcing a refresh first.\r\n* Add refresh `refreshData.interval` property for automatic refresh fetches. Default to 30s. Set to 0 for none.\r\n\r\n### v2.8.x-beta\r\n\r\n* Fix for `loginData.fetchUser` when set to `false`.\r\n* Removed `transition` method, replaced with `redirect`.\r\n* Added `redirect` method for easy access to check for redirects from auth.\r\n\r\n### v2.7.x-beta\r\n\r\n* Added  axios driver.\r\n* Addded `parseOauthState` option.\r\n\r\n### v2.6.x-beta\r\n\r\n* Add check for missing token when authenticated (should auto logout).\r\n* Add enabled option for `fetchData` useful in case we need a preset before auth. For instance when fetching properties from server.\r\n\r\n### v2.5.x-beta\r\n\r\n* Update default webpack setup to use Vue 2.x.\r\n\r\n### v2.4.x-beta\r\n\r\n* Add transition tracking (useful for url redirects on login).\r\n\r\n### v2.3.x-beta\r\n\r\n* Fix for checking that a user is authenticated when checking invalid token function (401).\r\n* Fix for 401 auth auto redirect when invalid token.\r\n* An option for `refreshData.enabled` has been added to disable refresh.\r\n* Updated docs.\r\n* Updated 2.x demo to use latest Vue version.\r\n\r\n### v2.2.x-beta\r\n\r\nVue has been in such a volatile state, especially between versions and 1 and 2. There have been many breaking changes as well as [removing vue-resource as the officially recommended package](https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4) for Vue.\r\n\r\nBecause of all these changes and potential breaking changes the package has been changed to a much more driver centric model for \"router\", \"resource\" and \"authentication\" . Due to the nature of Vue and the current eco-system with Webpack, to avoid bloat **this means the drivers will need to be passed in manually**. Check the install section for more info.\r\n\r\nWe will see some ugly `require` code when including the plugin. But as a trade off it will reduce bloat and allow the plugin to much better support different versions of Vue as well as different \"router\", \"resource\" and \"authentication\" modules.\r\n\r\n**To ease confusion for this driver centric model the plugin has been bumped to a 2.x version. This will also keep it in line with the current Vue 2.x version.**\r\n\r\n* Stability for extend functionality.\r\n* Driver centric model for \"router\", \"resource\" and \"authentication\".\r\n* The options for `router`, `http` and `auth` must be set now and will not auto bind (this is because webpack would pre load all drivers with dynamic variable).\r\n* Added `loginData.fetchUser` option to allow disabling of user fetch on login (which will also be disabled on refreshes).\r\n* Make \"authorization\" header case insensitive for bearer and basic auth.\r\n* Bearer auth \"bearer\" text is now case insensitive and will accept with and without colon after \"bearer\" text.\r\n\r\n\r\n### v1.5.x-beta\r\n\r\n* Added auth driver for \"devise\".\r\n* Updated docs to include info about parsing user data from server.\r\n\r\n### v1.4.x-beta\r\n\r\n* Simplified support for auth drivers.\r\n\r\n\r\n### v1.3.x-beta\r\n\r\n* Add support for sub route `auth` matching via parent in Vue 2.\r\n\r\n\r\n### v1.2.x-beta\r\n\r\n* Token parameters now accept `request` and `response` params instead of `name`.\r\n* Support for Vue 2 `auth` in `meta` of route.\r\n\r\n\r\n### v1.0.x-dev\r\n\r\n* Module renamed to `vue-auth` from `vue-jwt-auth`.\r\n* Package name is scoped through `@websanova/vue-auth` now.\r\n* Added demo with lots of sample code.\r\n* Added demo server (https://api-demo.websanova.com) available on GitHub (https://github.com/websanova/laravel-api-demo).\r\n* Any default data for a request is an object now that goes directly into the `http` method. So it can be called with whatever parameters the method supports.\r\n* All `success` and `error` functions will contain proper context from Vue component.\r\n* Redirects can be objects now, so you can do a redirect as a `/path` or `{name: 'object'}` etc.\r\n* There is now a new `register` call with the option to auto login on success.\r\n* The `auth` parameter in routes and the `check()` method now support objects for checking more complicated roles.\r\n* Better handling for invalid tokens.\r\n* All functions are overrideable now.\r\n* There is a driver file for vue which supports the binding between the plugin and framework. This allows multiple drivers and overrides for any issues between versions in the future and allows full backward compatability.\r\n* Reverted from using Vue in the base code and just went back to regular JavaScript (was not really a good idea).\r\n* Any functions, fields parameters that involve logging in a secondary user are called `other` now.\r\n* Actions can now be performed as \"admin\" user when logged in as \"other\" user by using `disabledOther` and `enableOther`.\r\n* The `login`, `oauth2`, etc all have their own default parameters now.\r\n* Removed `google` and `facebook` functions just use `oauth2` method now.\r\n* The `logout` method can now perform an api request if `makdeRequest` is set to true.\r\n* Switch to Vanilla JavaScriipt (for development). Had some issues with using fancy es6 syntax.\r\n* Support for drivers allowing more flexibility between different versions (this is still in development).\r\n* Two auth drivers which are named `bearer` and `basic`.\r\n* A fetch call has been added allowing the user to be reset.\r\n* Now supports a \"loose\" driver based model for authentication allowing for some customization of request/response intercepts for requests.\r\n* The token function will return current function or called with `other` or `default` will return the appropriate token.\r\n* Checking token expiration (base64 decode) has been removed. Since a refresh will not occur often for SPA it was a bit too much extra code. Will need to do it custom if it's really necessary.\r\n* Reduced file size.\r\n* Simpler consistent code base.\r\n* Properly packaged and minified distribution.\r\n* General bug fixes and improvements.\r\n"
+	"_rev": "3-e04a34738a947a62",
+	"readme": "# Vue Auth\r\n\r\nA simple authentication library for Vue.js\r\n\r\n* [FAQ](https://github.com/websanova/vue-auth/blob/master/docs/Faq.md)\r\n* [Installation](https://github.com/websanova/vue-auth/blob/master/docs/Installation.md)\r\n* [Demos](https://github.com/websanova/vue-auth/blob/master/docs/Demos.md)\r\n* [Lifecycle](https://github.com/websanova/vue-auth/blob/master/docs/Lifecycle.md)\r\n* [Tokens](https://github.com/websanova/vue-auth/blob/master/docs/Tokens.md)\r\n* [User](https://github.com/websanova/vue-auth/blob/master/docs/User.md)\r\n* [Authentication](https://github.com/websanova/vue-auth/blob/master/docs/Authentication.md)\r\n* [Privileges](https://github.com/websanova/vue-auth/blob/master/docs/Privileges.md)\r\n* [Routing](https://github.com/websanova/vue-auth/blob/master/docs/Routing.md)\r\n* [Methods](https://github.com/websanova/vue-auth/blob/master/docs/Methods.md)\r\n* [Options](https://github.com/websanova/vue-auth/blob/master/docs/Options.md)\r\n* [Drivers](https://github.com/websanova/vue-auth/blob/master/docs/Drivers.md)\r\n* [Change Log](https://github.com/websanova/vue-auth/blob/master/docs/ChangeLog.md)\r\n* [Contributors](https://github.com/websanova/vue-auth/blob/master/docs/Contributors.md)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
 }

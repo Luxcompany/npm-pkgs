@@ -520,13 +520,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-peity-0.5.0.tgz": {
+			"shasum": "0729d04c6850c218cba4d6d7219bf1cfe5a3bfcb"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5860bfce-3290\"",
 			"fetched": 1501276735037
 		}
 	},
-	"_rev": "1-768c4e51b07f70c1",
+	"_rev": "2-fe49bc922937f9d4",
 	"readme": "# Peity\n\nA Vue version of an excellent [peity](https://github.com/benpickles/peity) library for beautiful mini <svg> graphs.\n\n## Usage\n\n```vue\n<template>\n  <peity :type=\"'pie'\" :options=\"{ 'fill': ['red', '#eeeeee'], width: 50, height:50,  'innerRadius': 10, 'radius': 40 }\" :data=\"pieData\"></peity>\n</template>\n\n<script>\nimport Peity from 'vue-peity'\n\nexport default {\n  components: {\n    Peity\n  },\n\n  computed: {\n    pieData () {\n      return this.data.toString()\n    }\n  },\n\n  data () {\n    return {\n      data: [1, 2, 3, 2, 2]\n    }\n  },\n\n  created () {\n    setInterval(() => {\n      // https://vuejs.org/guide/list.html#Mutation-Methods\n      this.data.unshift(this.data.pop())\n    }, 377)\n  }\n}\n</script>\n```\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n"
 }

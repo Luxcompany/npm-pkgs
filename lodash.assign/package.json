@@ -1938,13 +1938,20 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lodash.assign-4.2.0.tgz": {
+			"shasum": "0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+		},
+		"lodash.assign-3.2.0.tgz": {
+			"shasum": "3ce9f0234b4b2223e296b8fa0ac1fee8ebca64fa"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57f67f80-9271\"",
 			"fetched": 1501276766333
 		}
 	},
-	"_rev": "1-a0efe05c40ba1169",
+	"_rev": "3-7a2e94d18e9c1426",
 	"readme": "# lodash.assign v4.2.0\n\nThe [lodash](https://lodash.com/) method `_.assign` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.assign\n```\n\nIn Node.js:\n```js\nvar assign = require('lodash.assign');\n```\n\nSee the [documentation](https://lodash.com/docs#assign) or [package source](https://github.com/lodash/lodash/blob/4.2.0-npm-packages/lodash.assign) for more details.\n"
 }

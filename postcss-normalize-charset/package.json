@@ -287,13 +287,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"postcss-normalize-charset-1.1.1.tgz": {
+			"shasum": "ef9ee71212d7fe759c78ed162f61ed62b5cb93f1"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"592fe593-1b87\"",
 			"fetched": 1501276777894
 		}
 	},
-	"_rev": "1-3b822bc013e284c9",
+	"_rev": "2-ccfeb32ed6d2fd88",
 	"readme": "# postcss-normalize-charset [![Build Status][ci-img]][ci]\n\nAdd necessary or remove extra charset with PostCSS\n\n```css\na{\n  content: \"©\";\n}\n```\n\n```css\n@charset \"utf-8\";\na{\n  content: \"©\";\n}\n```\n\n## API\n\n### normalizeCharset([options])\n\n#### options\n\n##### add\n\nType: `boolean`\nDefault: `true`\n\nPass `false` to stop the module from adding a `@charset` declaration if it was\nmissing from the file (and the file contained non-ascii characters).\n\n## Usage\n\n```js\npostcss([ require('postcss-normalize-charset') ])\n```\n\nSee [PostCSS] docs for examples for your environment.\n\nMIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://travis-ci.org/ben-eb/postcss-normalize-charset.svg\n[ci]:      https://travis-ci.org/ben-eb/postcss-normalize-charset\n"
 }

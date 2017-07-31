@@ -139,13 +139,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"shebang-regex-1.0.0.tgz": {
+			"shasum": "da42f49740c0b42db2ca9728571cb190c98efea3"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5661c1e7-e72\"",
 			"fetched": 1501276777269
 		}
 	},
-	"_rev": "1-2058464042aedcf9",
+	"_rev": "2-0275a22428249156",
 	"readme": "# shebang-regex [![Build Status](https://travis-ci.org/sindresorhus/shebang-regex.svg?branch=master)](https://travis-ci.org/sindresorhus/shebang-regex)\n\n> Regular expression for matching a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line\n\n\n## Install\n\n```\n$ npm install --save shebang-regex\n```\n\n\n## Usage\n\n```js\nconst shebangRegex = require('shebang-regex');\nconst str = '#!/usr/bin/env node\\nconsole.log(\"unicorns\");';\n\nshebangRegex.test(str);\n//=> true\n\nshebangRegex.exec(str)[0];\n//=> '#!/usr/bin/env node'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

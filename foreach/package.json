@@ -422,13 +422,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"foreach-2.0.5.tgz": {
+			"shasum": "0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"541fc1e6-1fbe\"",
 			"fetched": 1501276743875
 		}
 	},
-	"_rev": "1-3168cd1d23bcce8e",
+	"_rev": "2-fccd972438ef1858",
 	"readme": "\n# foreach\n\nIterate over the key value pairs of either an array-like object or a dictionary like object.\n\n[![browser support][1]][2]\n\n## API\n\n### foreach(object, function, [context])\n\n```js\nvar each = require('foreach');\n\neach([1,2,3], function (value, key, array) {\n    // value === 1, 2, 3\n    // key === 0, 1, 2\n    // array === [1, 2, 3]\n});\n\neach({0:1,1:2,2:3}, function (value, key, object) {\n    // value === 1, 2, 3\n    // key === 0, 1, 2\n    // object === {0:1,1:2,2:3}\n});\n```\n\n[1]: https://ci.testling.com/manuelstofer/foreach.png\n[2]: https://ci.testling.com/manuelstofer/foreach\n\n"
 }

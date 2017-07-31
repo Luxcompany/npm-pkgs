@@ -207,13 +207,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"aws-sign2-0.6.0.tgz": {
+			"shasum": "14342dd38dbcc94d0e5b87d763cd63612c0e794f"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58ee7b42-1381\"",
 			"fetched": 1501276757178
 		}
 	},
-	"_rev": "1-9a0e1ad2c452bd58",
+	"_rev": "2-61cc306dfea74d49",
 	"readme": "aws-sign\n========\n\nAWS signing. Originally pulled from LearnBoost/knox, maintained as vendor in request, now a standalone module.\n"
 }

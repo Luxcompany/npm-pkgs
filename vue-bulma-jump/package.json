@@ -139,13 +139,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-bulma-jump-0.0.2.tgz": {
+			"shasum": "311331581a3ef21c906967c1c9c42e63d643c9fa"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b37b55-1045\"",
 			"fetched": 1501276735022
 		}
 	},
-	"_rev": "1-aa93b71327df1d4c",
+	"_rev": "2-bc3a6a0fcc629686",
 	"readme": "# Jump\n\nJump component is based on [jump.js](http://callmecavs.com/jump.js/) for Vue Bulma.\n\n\n## Installation\n\n```\n$ npm install vue-bulma-jump --save\n```\n\n\n## Examples\n\n```vue\n<template>\n  <div>\n    <div class=\"jump-target\">\n      <p>...long long long page</p>\n      <back-to-top target=\".jump-target\">\n        <button class=\"button\">UP</button>\n      </back-to-top>\n    </div>\n  </div>\n</template>\n\n<script>\nimport { BackToTop } from 'vue-bulma-jump'\n\nexport default {\n  components: {\n    BackToTop\n  }\n}\n</script>\n```\n\n\n## Badges\n\n![](https://img.shields.io/badge/license-MIT-blue.svg)\n![](https://img.shields.io/badge/status-stable-green.svg)\n\n---\n\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\n> Twitter [@_fundon](https://twitter.com/_fundon)\n\n"
 }

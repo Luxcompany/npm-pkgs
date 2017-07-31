@@ -65,13 +65,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"browserify-des-1.0.0.tgz": {
+			"shasum": "daa277717470922ed2fe18594118a175439721dd"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"560827d7-77c\"",
 			"fetched": 1501276796682
 		}
 	},
-	"_rev": "1-4f16c748919758d1",
+	"_rev": "2-fbce136889c4a8c7",
 	"readme": "browserify-des\n===\n\nDES for browserify\n"
 }

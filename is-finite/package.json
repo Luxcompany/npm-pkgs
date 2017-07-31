@@ -220,13 +220,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-finite-1.0.2.tgz": {
+			"shasum": "cc6677695602be550ef11e8b4aa6305342b6d0aa"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"57ee17d0-1368\"",
 			"fetched": 1501276768536
 		}
 	},
-	"_rev": "1-10f981ca3ca3c325",
+	"_rev": "2-b03f811bcfccbe5b",
 	"readme": "# is-finite [![Build Status](https://travis-ci.org/sindresorhus/is-finite.svg?branch=master)](https://travis-ci.org/sindresorhus/is-finite)\n\n> ES2015 [`Number.isFinite()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite) [ponyfill](https://ponyfill.com)\n\n\n## Install\n\n```sh\n$ npm install --save is-finite\n```\n\n\n## Usage\n\n```js\nvar numIsFinite = require('is-finite');\n\nnumIsFinite(4);\n//=> true\n\nnumIsFinite(Infinity);\n//=> false\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n"
 }

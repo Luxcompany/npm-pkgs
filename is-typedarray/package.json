@@ -125,13 +125,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"is-typedarray-1.0.0.tgz": {
+			"shasum": "e479c80858df0c1b11ddda6940f96011fcda4a9a"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"585f1704-d82\"",
 			"fetched": 1501276757225
 		}
 	},
-	"_rev": "1-58e3be3e3d06ca98",
+	"_rev": "2-bd4e1b2e29cc9e5a",
 	"readme": "# is-typedarray [![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges)\n\nDetect whether or not an object is a\n[Typed Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays).\n\n## Usage\n\n[![NPM](https://nodei.co/npm/is-typedarray.png)](https://nodei.co/npm/is-typedarray/)\n\n### isTypedArray(array)\n\nReturns `true` when array is a Typed Array, and `false` when it is not.\n\n## License\n\nMIT. See [LICENSE.md](http://github.com/hughsk/is-typedarray/blob/master/LICENSE.md) for details.\n"
 }

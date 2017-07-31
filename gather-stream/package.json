@@ -58,13 +58,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"gather-stream-1.0.0.tgz": {
+			"shasum": "b33994af457a8115700d410f317733cbe7a0904b"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5438742b-d5a\"",
 			"fetched": 1501276771521
 		}
 	},
-	"_rev": "1-0c4f6ddc2077d317",
+	"_rev": "2-51dbb5ae35a25786",
 	"readme": "# gather-stream\n\nBasically [concat-stream](https://github.com/maxogden/concat-stream) but minimaller implementation, and/but also with error handling.\n\n\n## Usage\n\nHere's a simple example:\n\n  var concat2 = require('gather-stream'),\n      fs = require('fs');\n\n  fs.createReadStream('README.md').pipe(concat2(function (error,buffer) {\n    if (error) console.error(error);\n    else console.log(\"Read file, it was %s bytes long.\", buffer.length);\n  });\n\n\n## API\n\n* `var concat2 = require('gather-stream')` — the module exports a single wrapper function\n* `concat2([opts, ]cb)` — returns a Writable stream you can pipe into. If an error occurs on this stream *or* its source, `cb(error)` will be called; otherwise `cb(null, buffer)` will get you. You can provide `{maxLength:someNumberOfBytes}` as `opts` to limit memory mayhem if you wish — if the limit is about to be exceeded, an error will be fired instead.\n* that's about it\n\n\n## License\n\nCopyright © 2014, Nathan Vander Wilt\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n"
 }

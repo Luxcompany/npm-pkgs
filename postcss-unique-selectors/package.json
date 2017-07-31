@@ -453,13 +453,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"postcss-unique-selectors-2.0.2.tgz": {
+			"shasum": "981d57d29ddcb33e7b1dfe1fd43b8649f933ca1d"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"592fe59b-29b5\"",
 			"fetched": 1501276777925
 		}
 	},
-	"_rev": "1-6f68856fa05a1511",
+	"_rev": "2-994fcb0590745dd5",
 	"readme": "# [postcss][postcss]-unique-selectors [![Build Status](https://travis-ci.org/ben-eb/postcss-unique-selectors.svg?branch=master)][ci] [![NPM version](https://badge.fury.io/js/postcss-unique-selectors.svg)][npm] [![Dependency Status](https://gemnasium.com/ben-eb/postcss-unique-selectors.svg)][deps]\n\n> Ensure CSS selectors are unique.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-unique-selectors) do:\n\n```\nnpm install postcss-unique-selectors --save\n```\n\n## Example\n\nSelectors are sorted naturally, and deduplicated:\n\n### Input\n\n```css\nh1,h3,h2,h1 {\n    color: red\n}\n```\n\n### Output\n\n```css\nh1,h2,h3 {\n    color: red\n}\n```\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributing\n\nPull requests are welcome. If you add functionality, then please add unit tests\nto cover it.\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[ci]:      https://travis-ci.org/ben-eb/postcss-unique-selectors\n[deps]:    https://gemnasium.com/ben-eb/postcss-unique-selectors\n[npm]:     http://badge.fury.io/js/postcss-unique-selectors\n[postcss]: https://github.com/postcss/postcss\n"
 }

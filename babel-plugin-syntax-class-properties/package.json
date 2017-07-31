@@ -1562,13 +1562,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-syntax-class-properties-6.13.0.tgz": {
+			"shasum": "d7eb23b79a317f8543962c505b827c7d6cac27de"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d5a-7f8e\"",
 			"fetched": 1501276775753
 		}
 	},
-	"_rev": "1-e46caf81721f9e55",
+	"_rev": "2-2f32064de153724d",
 	"readme": "# babel-plugin-syntax-class-properties\n\nAllow parsing of class properties.\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-class-properties\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-class-properties\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-class-properties script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-class-properties\"]\n});\n```\n"
 }

@@ -647,13 +647,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"lower-case-1.1.4.tgz": {
+			"shasum": "9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"58b0886a-35f1\"",
 			"fetched": 1501276789609
 		}
 	},
-	"_rev": "1-bc1bb2d74b48b24d",
+	"_rev": "2-c5280fd39ecb1b55",
 	"readme": "# Lower Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n\nLower case a string.\n\nSupports Unicode (non-ASCII characters) and non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will result in an empty string.\n\n## Installation\n\n```\nnpm install lower-case --save\n```\n\n## Usage\n\n```js\nvar lowerCase = require('lower-case')\n\nlowerCase(null)           //=> \"\"\nlowerCase('STRING')       //=> \"string\"\nlowerCase('STRING', 'tr') //=> \"strıng\"\n\nlowerCase({ toString: function () { return 'TEST' } }) //=> \"test\"\n```\n\n## Typings\n\nIncludes a [TypeScript definition](lower-case.d.ts).\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/lower-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/lower-case\n[downloads-image]: https://img.shields.io/npm/dm/lower-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/lower-case\n[travis-image]: https://img.shields.io/travis/blakeembrey/lower-case.svg?style=flat\n[travis-url]: https://travis-ci.org/blakeembrey/lower-case\n[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/lower-case.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/blakeembrey/lower-case?branch=master\n"
 }

@@ -341,6 +341,9 @@
 	"_attachments": {
 		"path-type-2.0.0.tgz": {
 			"shasum": "f012ccb8415b7096fc2daa1054c3d72389594c73"
+		},
+		"path-type-1.1.0.tgz": {
+			"shasum": "59c44f7ee491da704da415da5a4070ba4f8fe441"
 		}
 	},
 	"_uplinks": {
@@ -349,6 +352,6 @@
 			"fetched": 1501274970388
 		}
 	},
-	"_rev": "2-d481fb566af9cfb3",
+	"_rev": "3-747fb632d546bcca",
 	"readme": "# path-type [![Build Status](https://travis-ci.org/sindresorhus/path-type.svg?branch=master)](https://travis-ci.org/sindresorhus/path-type)\n\n> Check if a path is a file, directory, or symlink\n\n\n## Install\n\n```\n$ npm install path-type\n```\n\n\n## Usage\n\n```js\nconst pathType = require('path-type');\n\npathType.file('package.json').then(isFile => {\n\tconsole.log(isFile);\n\t//=> true\n})\n```\n\n\n## API\n\n### .file(path)\n### .dir(path)\n### .symlink(path)\n\nReturns a `Promise` for a `boolean` of whether the path is the checked type.\n\n### .fileSync(path)\n### .dirSync(path)\n### .symlinkSync(path)\n\nReturns a `boolean` of whether the path is the checked type.\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n"
 }

@@ -728,13 +728,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"vue-click-outside-1.0.6.tgz": {
+			"shasum": "bf3e0217210d7778299cc39ddcf89cc036089f22"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"5930c97c-46de\"",
 			"fetched": 1501276762507
 		}
 	},
-	"_rev": "1-32e74af5986af7e9",
+	"_rev": "2-ed5bd0d3f9636381",
 	"readme": "# ClickOutside\r\n\r\nVue click outside directive.\r\n\r\n## Installation\r\n\r\n```\r\n$ npm install vue-click-outside\r\n```\r\n\r\n## Example\r\n\r\n```vue\r\n<template>\r\n  <div>\r\n    <div v-click-outside=\"hide\" @click=\"toggle\">Toggle</div>\r\n    <div v-show=\"opened\">Popup item</div>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport ClickOutside from 'vue-click-outside'\r\n\r\nexport default {\r\n  data () {\r\n    return {\r\n      opened: false\r\n    }\r\n  },\r\n\r\n  methods: {\r\n    toggle () {\r\n      this.opened = true\r\n    },\r\n\r\n    hide () {\r\n      this.opened = false\r\n    }\r\n  },\r\n\r\n  mounted () {\r\n    // prevent click outside event with popupItem.\r\n    this.popupItem = this.$el\r\n  },\r\n\r\n  // do not forget this section\r\n  directives: {\r\n    ClickOutside\r\n  }\r\n}\r\n</script>\r\n```\r\n\r\n## Badges\r\n\r\n![](https://img.shields.io/badge/license-MIT-blue.svg)\r\n![](https://img.shields.io/badge/status-stable-green.svg)\r\n\r\n---\r\n\r\n> [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp;\r\n> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;\r\n> Twitter [@_fundon](https://twitter.com/_fundon)\r\n"
 }

@@ -2248,13 +2248,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-helper-bindify-decorators-6.24.1.tgz": {
+			"shasum": "14c19e5f142d7b47f19a52431e52b1ccbc40a330"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788da0-b2a2\"",
 			"fetched": 1501276776019
 		}
 	},
-	"_rev": "1-0acc66c6f623a48c",
+	"_rev": "2-80b47d60e2916e5a",
 	"readme": "# babel-helper-bindify-decorators\n\n## Usage\n\nTODO\n"
 }

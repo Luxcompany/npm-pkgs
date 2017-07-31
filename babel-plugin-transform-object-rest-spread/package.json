@@ -2007,13 +2007,17 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
+	"_attachments": {
+		"babel-plugin-transform-object-rest-spread-6.23.0.tgz": {
+			"shasum": "875d6bc9be761c58a2ae3feee5dc4895d8c7f921"
+		}
+	},
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"59788d81-aaf5\"",
 			"fetched": 1501276776222
 		}
 	},
-	"_rev": "1-a3b8c86bad90fd24",
+	"_rev": "2-6b0dbb7993825fe0",
 	"readme": "# babel-plugin-transform-object-rest-spread\n\nCompile object rest and spread to ES5\n\n## Installation\n\n```sh\n$ npm install babel-plugin-transform-object-rest-spread\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"transform-object-rest-spread\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins transform-object-rest-spread script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"transform-object-rest-spread\"]\n});\n```\n"
 }
